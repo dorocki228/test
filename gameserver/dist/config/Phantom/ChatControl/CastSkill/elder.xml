@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="30">
+		<skill id="1013" type="castTargetSkill" text_commands="восстановление,заливка,залей мр,мр,мп,залей мп,recharge,mp"/>
+		<skill id="1016" type="castTargetSkill" text_commands="воскрешение,resurrection"/>	
+		<skill id="1035" type="castTargetSkill" text_commands="ментальный щит,ментал,кинь ментал,mental shield,mental"/>
+		<skill id="1033" type="castTargetSkill" text_commands="сопротивление яду,resist poison"/>
+		<skill id="1069" type="castAttackingSkill" text_commands="сон,sleep"/>
+		<skill id="1394" type="castAttackingSkill" text_commands="транс,trance"/>
+		<skill id="1273" type="castAttackingSkill" text_commands="серенада евы,serenade of eva"/>
+		<skill id="1201" type="castAttackingSkill" text_commands="корень дриады,корень,рут,кинь рут,dryad root,root"/>
+		<skill id="1206" type="castAttackingSkill" text_commands="оковы ветра,оковы,wind shackle,shackle"/>
+		<skill id="1217" type="castTargetSkill" text_commands="великое лечение,greater heal"/>
+		<skill id="1400" type="castAttackingSkill" text_commands="испугать нежить,turn undead"/>
+		<skill id="1020" type="castTargetSkill" text_commands="оживление,vitalize"/>
+		<skill id="1219" type="castSelfBuff" text_commands="великое групповое лечение,greater group heal,вгл,ggh"/>
+		<skill id="1395" type="castAttackingSkill" text_commands="изгнание,erase"/>
+		<skill id="1398" type="castAttackingSkill" text_commands="горение маны,mana burn"/>
+		<skill id="1430" type="castSelfBuff" text_commands="медитация,invocation"/>
+		<skill id="1012" type="castTargetSkill" text_commands="излечить отравление,отравление,cure poison"/>
+		<skill id="1243" type="castTargetSkill" text_commands="благословение щита,bless shield"/>
+		<skill id="1050" type="castBuff" text_commands="возвращение,return"/>
+		<skill id="1255" type="castBuff" text_commands="возвращение группы,party recall"/>
+		<skill id="1259" type="castTargetSkill" text_commands="сопротивление оглушению,resist shock"/>
+		<skill id="1397" type="castTargetSkill" text_commands="чистота,clarity"/>
+		<skill id="1304" type="castTargetSkill" text_commands="усиленная блокировка,advanced block"/>
+		<skill id="1303" type="castTargetSkill" text_commands="дикая магия,wild magic"/>
+		<skill id="1503" type="castTargetSkill" text_commands="совершенное владение щитом,improved shield defense"/>
+		<skill id="1504" type="castTargetSkill" text_commands="совершенство движений,improved movement"/>
+	</ChatControl>
+ </list>

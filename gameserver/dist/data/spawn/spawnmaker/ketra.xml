@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list> 
+  <territory name="k1"> 
+    <add x="139768" y="-76040" zmin="-4738" zmax="-4238"/>  
+    <add x="141015" y="-75497" zmin="-4786" zmax="-4286"/>  
+    <add x="140712" y="-74296" zmin="-4674" zmax="-4174"/>  
+    <add x="140008" y="-73672" zmin="-4626" zmax="-4126"/>  
+    <add x="139560" y="-74152" zmin="-4650" zmax="-4150"/> 
+  </territory>  
+  <spawn group="ketra" name="k1" territory="k1"> 
+    <!--Dryad-->  
+    <!--Fallen Orc Shaman-->  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <!--Fallen Orc Shaman-->  
+    <!--Fallen Orc Captain-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain--> 
+  </spawn>  
+  <territory name="k2"> 
+    <add x="139272" y="-73832" zmin="-4482" zmax="-3982"/>  
+    <add x="140248" y="-73192" zmin="-4466" zmax="-3966"/>  
+    <add x="140600" y="-71096" zmin="-4242" zmax="-3742"/>  
+    <add x="138424" y="-71240" zmin="-4274" zmax="-3774"/> 
+  </territory>  
+  <spawn group="ketra" name="k2" territory="k2"> 
+    <!--Dryad-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <!--Fallen Orc-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc--> 
+  </spawn>  
+  <territory name="k3"> 
+    <add x="140328" y="-72808" zmin="-4482" zmax="-3982"/>  
+    <add x="140744" y="-71192" zmin="-4290" zmax="-3790"/>  
+    <add x="141415" y="-71240" zmin="-4322" zmax="-3822"/>  
+    <add x="141752" y="-72136" zmin="-4458" zmax="-3958"/>  
+    <add x="141160" y="-73544" zmin="-4386" zmax="-3886"/> 
+  </territory>  
+  <spawn group="ketra" name="k3" territory="k3"> 
+    <!--Dryad-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <!--Fallen Orc Shaman-->  
+    <!--Fallen Orc Captain-->  
+    <npc id="21258" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21017" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain--> 
+  </spawn>  
+  <territory name="k4"> 
+    <add x="141160" y="-73656" zmin="-4378" zmax="-3878"/>  
+    <add x="142808" y="-73864" zmin="-4458" zmax="-3958"/>  
+    <add x="142984" y="-72152" zmin="-4466" zmax="-3966"/>  
+    <add x="141936" y="-72208" zmin="-4458" zmax="-3958"/> 
+  </territory>  
+  <spawn group="ketra" name="k4" territory="k4"> 
+    <!--Dryad-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <!--Fallen Orc Captain-->  
+    <npc id="21022" count="3" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain--> 
+  </spawn>  
+  <territory name="k5"> 
+    <add x="141784" y="-72104" zmin="-4458" zmax="-3958"/>  
+    <add x="141736" y="-71208" zmin="-4314" zmax="-3814"/>  
+    <add x="142472" y="-70584" zmin="-4250" zmax="-3750"/>  
+    <add x="143448" y="-71384" zmin="-4434" zmax="-3934"/>  
+    <add x="143448" y="-72168" zmin="-4450" zmax="-3950"/> 
+  </territory>  
+  <spawn group="ketra" name="k5" territory="k5"> 
+    <!--Dryad-->  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman--> 
+  </spawn>  
+  <territory name="k6"> 
+    <add x="143064" y="-72216" zmin="-4458" zmax="-3958"/>  
+    <add x="143128" y="-73976" zmin="-4482" zmax="-3982"/>  
+    <add x="144056" y="-74088" zmin="-4506" zmax="-4006"/>  
+    <add x="144136" y="-71688" zmin="-4394" zmax="-3894"/>  
+    <add x="143512" y="-71688" zmin="-4442" zmax="-3942"/> 
+  </territory>  
+  <spawn group="ketra" name="k6" territory="k6"> 
+    <!--Dryad-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21017" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <!--Fallen Orc Archer-->  
+    <npc id="21020" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <!--Fallen Orc Captain-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer--> 
+  </spawn>  
+  <territory name="k7"> 
+    <add x="143496" y="-71624" zmin="-4442" zmax="-3942"/>  
+    <add x="143256" y="-70584" zmin="-4282" zmax="-3782"/>  
+    <add x="144360" y="-69800" zmin="-4258" zmax="-3758"/>  
+    <add x="144456" y="-70888" zmin="-4362" zmax="-3862"/>  
+    <add x="144584" y="-71640" zmin="-4418" zmax="-3918"/>  
+    <add x="144152" y="-71672" zmin="-4394" zmax="-3894"/> 
+  </territory>  
+  <spawn group="ketra" name="k7" territory="k7"> 
+    <!--Dryad-->  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21020" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman--> 
+  </spawn>  
+  <territory name="k8"> 
+    <add x="144600" y="-71272" zmin="-4386" zmax="-3886"/>  
+    <add x="146439" y="-71257" zmin="-4418" zmax="-3918"/>  
+    <add x="145640" y="-74136" zmin="-4602" zmax="-4102"/>  
+    <add x="144824" y="-73752" zmin="-4570" zmax="-4070"/>  
+    <add x="144088" y="-74072" zmin="-4506" zmax="-4006"/> 
+  </territory>  
+  <spawn group="ketra" name="k8" territory="k8"> 
+    <!--Dryad-->  
+    <npc id="21258" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21020" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <!--Fallen Orc-->  
+    <npc id="21017" count="3" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc--> 
+  </spawn>  
+  <territory name="k9"> 
+    <add x="144376" y="-74792" zmin="-4802" zmax="-4302"/>  
+    <add x="145304" y="-74968" zmin="-4802" zmax="-4302"/>  
+    <add x="145640" y="-75976" zmin="-4914" zmax="-4414"/>  
+    <add x="144808" y="-77576" zmin="-4986" zmax="-4486"/>  
+    <add x="143416" y="-77416" zmin="-4962" zmax="-4462"/> 
+  </territory>  
+  <spawn group="ketra" name="k9" territory="k9"> 
+    <!--Dryad-->  
+    <npc id="21017" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <!--Fallen Orc Archer-->  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman--> 
+  </spawn>  
+  <territory name="k10"> 
+    <add x="143368" y="-77400" zmin="-4962" zmax="-4462"/>  
+    <add x="144264" y="-74728" zmin="-4786" zmax="-4286"/>  
+    <add x="142888" y="-74872" zmin="-4786" zmax="-4286"/>  
+    <add x="142360" y="-76888" zmin="-4986" zmax="-4486"/> 
+  </territory>  
+  <spawn group="ketra" name="k10" territory="k10"> 
+    <!--Dryad-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21020" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman--> 
+  </spawn>  
+  <territory name="k11"> 
+    <add x="142296" y="-76920" zmin="-4986" zmax="-4486"/>  
+    <add x="142520" y="-74857" zmin="-4778" zmax="-4278"/>  
+    <add x="142008" y="-74136" zmin="-4650" zmax="-4150"/>  
+    <add x="141016" y="-74568" zmin="-4730" zmax="-4230"/>  
+    <add x="141448" y="-76088" zmin="-4858" zmax="-4358"/> 
+  </territory>  
+  <spawn group="ketra" name="k11" territory="k11"> 
+    <!--Dryad-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain--> 
+  </spawn>  
+  <territory name="k12"> 
+    <add x="141639" y="-77128" zmin="-5074" zmax="-4574"/>  
+    <add x="140616" y="-78344" zmin="-4938" zmax="-4438"/>  
+    <add x="140824" y="-79080" zmin="-4946" zmax="-4446"/>  
+    <add x="141928" y="-78632" zmin="-4962" zmax="-4462"/> 
+  </territory>  
+  <spawn group="ketra" name="k12" territory="k12"> 
+    <!--Dryad-->  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <npc id="21017" count="3" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc--> 
+  </spawn>  
+  <territory name="k_rb"> 
+    <add x="140040" y="-72136" zmin="-4474" zmax="-3974"/>  
+    <add x="139640" y="-72216" zmin="-4482" zmax="-3982"/>  
+    <add x="139592" y="-72600" zmin="-4490" zmax="-3990"/>  
+    <add x="140040" y="-72664" zmin="-4490" zmax="-3990"/> 
+  </territory>  
+  <spawn> 
+    <!--Beast Lord Behemoth-->  
+    <npc id="25269" count="1" respawn="82800" respawn_random="7200" pos="140168 -74488 -4472 49152"/>
+    <!--Beast Lord Behemoth--> 
+  </spawn>  
+  <territory name="ketra13"> 
+    <add x="138936" y="-76536" zmin="-4538" zmax="-4038"/>  
+    <add x="140920" y="-75480" zmin="-4786" zmax="-4286"/>  
+    <add x="142168" y="-77224" zmin="-5082" zmax="-4582"/>  
+    <add x="140648" y="-77800" zmin="-4970" zmax="-4470"/> 
+  </territory>  
+  <spawn name="ketra13" territory="ketra13"> 
+    <!--Dryad-->  
+    <npc id="21017" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <npc id="21020" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21258" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21259" count="1" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman--> 
+  </spawn>  
+  <territory name="ketra14"> 
+    <add x="139064" y="-77016" zmin="-4498" zmax="-3998"/>  
+    <add x="137576" y="-77960" zmin="-4386" zmax="-3886"/>  
+    <add x="136856" y="-78904" zmin="-4322" zmax="-3822"/>  
+    <add x="136760" y="-79960" zmin="-4202" zmax="-3702"/>  
+    <add x="138744" y="-80008" zmin="-4362" zmax="-3862"/>  
+    <add x="140152" y="-79096" zmin="-4634" zmax="-4134"/>  
+    <add x="140072" y="-77800" zmin="-4570" zmax="-4070"/> 
+  </territory>  
+  <spawn name="ketra14" territory="ketra14"> 
+    <!--Dryad-->  
+    <npc id="21017" count="3" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <npc id="21020" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21258" count="2" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21259" count="4" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman--> 
+  </spawn>  
+  <territory name="ketra15"> 
+    <add x="138872" y="-76376" zmin="-4378" zmax="-3878"/>  
+    <add x="137512" y="-77592" zmin="-4378" zmax="-3878"/>  
+    <add x="136536" y="-77640" zmin="-4210" zmax="-3710"/>  
+    <add x="135416" y="-77656" zmin="-4178" zmax="-3678"/>  
+    <add x="135112" y="-77016" zmin="-4122" zmax="-3622"/>  
+    <add x="134872" y="-76120" zmin="-4130" zmax="-3630"/>  
+    <add x="135160" y="-75032" zmin="-4010" zmax="-3510"/>  
+    <add x="135304" y="-73400" zmin="-4034" zmax="-3534"/>  
+    <add x="136888" y="-72664" zmin="-4066" zmax="-3566"/>  
+    <add x="137864" y="-73160" zmin="-4170" zmax="-3670"/>  
+    <add x="139160" y="-74488" zmin="-4258" zmax="-3758"/>  
+    <add x="139624" y="-75352" zmin="-4314" zmax="-3814"/> 
+  </territory>  
+  <spawn name="ketra15" territory="ketra15"> 
+    <!--Dryad-->  
+    <!--Dryad-->  
+    <npc id="21017" count="5" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc-->  
+    <npc id="21019" count="4" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Archer-->  
+    <npc id="21020" count="4" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21022" count="5" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Captain-->  
+    <npc id="21258" count="4" respawn="60" respawn_random="0"/>  
+    <!--Fallen Orc Shaman-->  
+    <npc id="21259" count="4" respawn="60" respawn_random="0"/>
+    <!--Fallen Orc Shaman-->
+  </spawn> 
+</list>

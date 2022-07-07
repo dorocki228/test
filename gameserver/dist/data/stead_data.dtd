@@ -1,0 +1,34 @@
+<!ELEMENT list (configuration|gathering|stead)*>
+        <!ELEMENT configuration (crop|seed)*>
+        <!ATTLIST configuration
+                key CDATA #REQUIRED
+                param CDATA #REQUIRED>
+        <!ELEMENT gathering (crop|seed)*>
+        <!ATTLIST gathering
+                id CDATA #REQUIRED
+                model CDATA #REQUIRED
+                maturation CDATA #REQUIRED>
+        <!ELEMENT crop (#PCDATA)>
+        <!ATTLIST crop
+                id CDATA #REQUIRED
+                min CDATA #REQUIRED
+                max CDATA #REQUIRED
+                chance CDATA #REQUIRED>
+        <!ELEMENT seed (#PCDATA)>
+        <!ATTLIST seed
+                id CDATA #REQUIRED
+                min CDATA #REQUIRED
+                max CDATA #REQUIRED
+                chance CDATA #REQUIRED>
+        <!ELEMENT stead (zone)*>
+        <!ATTLIST stead
+                size CDATA #REQUIRED
+                possession CDATA #REQUIRED>
+        <!ELEMENT zone (seed_loc)*>
+        <!ATTLIST zone
+                name CDATA #REQUIRED>
+        <!ELEMENT seed_loc (#PCDATA)>
+        <!ATTLIST seed_loc
+                x CDATA #REQUIRED
+                y CDATA #REQUIRED
+                z CDATA #REQUIRED>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="37">
+		<skill id="2" type="castAttackingSkill" text_commands="замешательство,confusion"/>
+		<skill id="115" type="castAttackingSkill" text_commands="сокрушение мощи,сокрушение,power break,break"/>
+		<skill id="122" type="castAttackingSkill" text_commands="сглаз,hex"/>
+		<skill id="223" type="castAttackingSkill" text_commands="жало,sting"/>
+		<skill id="312" type="castSelfBuff" text_commands="боевая стойка коварства,vicious stance"/>
+		<skill id="303" type="castSelfBuff" text_commands="душа стрелка,soul of sagittarius"/>
+		<skill id="101" type="castAttackingSkill" text_commands="оглушающий выстрел,stun shot"/>
+		<skill id="111" type="castSelfBuff" text_commands="абсолютное уклонение,ultimate evasion,evasion,уклонение,уе,ue"/>
+		<skill id="414" type="castSelfBuff" text_commands="мертвый глаз,dead eye"/>
+		<skill id="933" type="castAttackingSkill" text_commands="зоркий глаз,detection"/>
+		<skill id="415" type="castSelfBuff" text_commands="дух стрельца,spirit of sagittarius"/>
+		<skill id="417" type="castSelfBuff" text_commands="боль стрельца,pain of sagittarius"/>
+	</ChatControl>
+ </list>

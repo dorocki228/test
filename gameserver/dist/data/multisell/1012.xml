@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>	
+<config no_tax="true" />		
+<!--Заточки-->
+
+	<item>
+		<production id="959" count="1" />	<!-- Enchant Scroll: Weapon S -->
+		<ingredient id="57" count="2500" />
+	</item>
+	<item>
+		<production id="729" count="1" activeStage="3"/>    <!--[scrl_of_ench_wp_a]-->
+		<ingredient id="57" count="1500"/>
+	</item>		
+	<item>		
+		<production id="947" count="1" />	<!--[scrl_of_ench_wp_b]-->
+		<ingredient id="57" count="700" />
+	</item>		
+	<item>		
+		<production id="951" count="1" />	<!--[scrl_of_ench_wp_c]-->
+		<ingredient id="57" count="300" />
+	</item>
+
+	<item>
+		<production id="960" count="1" />	<!-- Enchant Scroll: Armor S -->
+		<ingredient id="57" count="1000" />
+	</item>
+	<item>
+		<production id="730" count="1" activeStage="3"/>    <!--[scrl_of_ench_am_a]-->
+		<ingredient id="57" count="600"/>
+	</item>
+    <item>
+        <production id="948" count="1"/>    <!--[scrl_of_ench_am_b]-->
+        <ingredient id="57" count="350"/>
+    </item>
+    <item>
+        <production id="952" count="1"/>    <!--[scrl_of_ench_am_c]-->
+        <ingredient id="57" count="100"/>
+    </item>
+
+	<item>
+		<production id="77740" count="1" activeStage="3"/>    <!--[blessed_scrl_bracelet]-->
+		<ingredient id="57" count="500"/>
+	</item>
+	<item>
+		<production id="77741" count="1" activeStage="3"/>    <!--[blessed_scrl_cloak]-->
+		<ingredient id="57" count="500"/>
+	</item>
+
+
+</list>	

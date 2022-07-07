@@ -1,0 +1,36 @@
+<!ELEMENT list (artifact)*>
+        <!ELEMENT artifact (spawn_groups|teleport_locations|rewardSkills|rewardItems|params)*>
+        <!ATTLIST artifact
+                id CDATA #REQUIRED
+                stringName CDATA #REQUIRED
+                npcId CDATA #REQUIRED
+                loc CDATA #REQUIRED
+                protectTime CDATA #REQUIRED>
+        <!ELEMENT spawn_groups (fraction)*>
+        <!ELEMENT fraction (group)*>
+        <!ATTLIST fraction
+                type CDATA #REQUIRED>
+        <!ELEMENT teleport_locations (location)*>
+        <!ELEMENT location (#PCDATA)*>
+        <!ATTLIST location
+                x CDATA #REQUIRED
+                y CDATA #REQUIRED
+                z CDATA #REQUIRED>
+        <!ELEMENT group (#PCDATA)>
+        <!ATTLIST group
+                name CDATA #REQUIRED>
+        <!ELEMENT rewardSkills (skill)*>
+        <!ELEMENT skill (#PCDATA)>
+        <!ATTLIST skill
+                id CDATA #REQUIRED
+                level CDATA #REQUIRED>
+        <!ELEMENT rewardItems (item)*>
+        <!ELEMENT item (#PCDATA)>
+        <!ATTLIST item
+                itemId CDATA #REQUIRED
+                count CDATA #REQUIRED>
+        <!ELEMENT params (param)*>
+        <!ELEMENT param (#PCDATA)>
+        <!ATTLIST param
+                name CDATA #REQUIRED
+                value CDATA #REQUIRED>

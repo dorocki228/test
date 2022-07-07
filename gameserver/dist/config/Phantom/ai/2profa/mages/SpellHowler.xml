@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="40" class_name="SpellHowler">
+		<nuke_skills>
+			<skill id="1148" condition="CHANCE_CAST:30"/>  <!--  Шип Смерти (Death Spike) -->
+			<skill id="1234" condition="MIN_HP:60"/> <!-- Коготь Вампира (Vampiric Claw)  -->
+			<skill id="1239"/> <!-- Ураган (Hurricane) -->
+		</nuke_skills>
+		<situation_skills>
+			<skill id="1159"  condition="MIN_HP:10"/> <!--Проклятие Смертельной Связи (Curse Death Link)-->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="1169" condition="DEBUFF_CHANCE:45;MAX_DISTANCE:150"/> <!-- Проклятие Страха (Curse Fear)-->
+			<skill id="1064" condition="TARGET_MAGE;DEBUFF_CHANCE:45"/> <!-- Безмолвие (Silence)-->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

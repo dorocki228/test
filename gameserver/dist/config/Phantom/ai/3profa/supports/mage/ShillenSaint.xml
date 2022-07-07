@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="112" class_name="Shillen Saint">
+		<buff_list buffs="266,1303,1085,1040,1062,4703,1389,1461,1413,1035,1259,1044,1078,1259,264,265,267,268,304,349,363,273,276,365,830,1500,1503,1501,1504,4703,1303,5988"/>
+		<add_castom_skills>
+			<skill id="632" lvl="3"/> <!-- Emergent Ability - Defence -->
+			<skill id="634" lvl="3"/> <!-- Emergent Ability - Magic Defense -->
+			
+			<skill id="655" lvl="1"/> <!-- Enchanter Ability - Barrier -->
+			<rnd>
+				<skill id="650" lvl="1"/> <!-- Навык Воителя - Сопротивление отрицательным ефектам -->
+				<skill id="648" lvl="1"/> <!-- Навык целителя - Молитва  -->
+				<skill id="647" lvl="1"/> <!-- Навык заклинателя - регенерация мп  -->
+			</rnd>
+			<rnd>
+				<skill id="652" lvl="1"/> <!-- Knight Ability - Defense -->
+				<skill id="804" lvl="1"/> <!-- Навык рыцаря критическое сопротивление -->
+			</rnd>
+		</add_castom_skills>
+		<nuke_skills>
+			<skill id="3167" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->
+			<skill id="3168" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->
+			<skill id="3169" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС --> 	
+			<skill id="3170" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС --> 
+			<skill id="3171" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->		
+			<skill id="3172" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->	
+			<skill id="3173" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->	
+			<skill id="3174" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->	
+			<skill id="3175" condition="TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Актив ЛС -->				
+		</nuke_skills>
+		<resurrect_skills>
+			<skill id="1016"/> <!-- Воскрешение (Resurrection) -->
+		</resurrect_skills>
+		<buffs_skills>
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+			<skill id="1035" ench_route="2"/> <!-- Ментальный Щит-->
+			<skill id="1040" ench_route="2"/> <!-- Щит-->
+			<skill id="1068" ench_route="2" condition="TARGET_FIGHTER"/> <!-- Могущество-->
+			<skill id="1268" ench_route="2" condition="TARGET_FIGHTER"/> <!-- Ярость вампира-->
+			<skill id="1240" ench_route="2" condition="TARGET_FIGHTER"/> <!-- Наведение-->
+			<skill id="1392" ench_route="1"/> <!-- Устойчивость к святости-->
+			<skill id="1460" ench_route="2"/> <!-- Обретение манны-->
+			<skill id="1507" condition="USE_IN_PARTY;TARGET_FIGHTER;MIN_HP:20"/><!--  Повелитель вампиров -->
+			<skill id="1502" condition="TARGET_FIGHTER"/><!--  Совершенная критическая атака -->
+			<skill id="1500" condition="TARGET_MAGE"/> <!-- Совершенство в магии -->
+			<skill id="1357" ench_route="3"/> <!-- Пророчество ветра-->
+			<skill id="1303" ench_route="2" condition="TARGET_MAGE"/> <!-- Дикая магия-->
+			<skill id="1259" ench_route="3"/> <!-- Сопротивление оглушению -->
+			<skill id="1397" ench_route="2"/> <!-- Чистота -->
+		</buffs_skills>
+		<self_buff_skills>
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+			<skill id="1259" ench_route="3"/> <!-- Сопротивление оглушению -->
+			<skill id="1397" ench_route="2"/> <!-- Чистота -->
+			<skill id="1035" ench_route="2"/> <!-- Ментальный Щит-->
+			<skill id="1040" ench_route="2"/> <!-- Щит-->
+			<skill id="1500"/> <!-- Совершенство в магии -->
+			<skill id="1078" ench_route="2"/> <!-- Концентрация-->
+			<skill id="1189" ench_route="3"/> <!-- Сопротивление ветру-->
+			<skill id="1204" ench_route="2"/> <!-- Легкая походка-->
+			<skill id="1303" ench_route="2"/> <!-- Дикая магия-->
+			<skill id="1354" ench_route="2"/> <!-- Тайная защита-->
+			<skill id="1357" ench_route="3"/> <!-- Пророчество ветра-->
+			<skill id="1392" ench_route="1"/> <!-- Устойчивость к святости-->
+			<skill id="336" ench_route="1"/> <!-- Тайная мудрость-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="1430" ench_route="1"  condition="MIN_MP:5"/> <!-- Медитация (Invocation) -->
+			<skill id="1428" ench_route="1"  condition="MIN_MP:15"/> <!--Массовое Восстановление (Mass Recharge) -->
+			<skill id="1533"  condition="MIN_HP:30"/> <!-- Просветление (Enlightenment)  -->
+		</situation_skills>
+		<control_skills>
+			<skill id="1540" condition="MAX_DISTANCE:250;SELF_NOT_SKILL_EFFECT:(1533);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)" />  <!-- Обращение в Камень (Turn to Stone)  -->
+		</control_skills>
+		<cleansing_skills>
+			<skill id="1018" condition="SELF_SKILL_EFFECT:(96,223,495,498,509,559,582,688,752,910,3020,3021,3052,3053,3054,3055,3092,3105,3120,3196,3235,5175,5253,5530,6205,6306,6333,6339,6379,6382,6385,6395,6777,84,103,798,3091,3104,3119,3195)" /> <!-- Очищение (Purify)    -->
+			<skill id="1551" condition="NOT_USE_OLYMPIAD;USE_IN_PARTY;SELF_SKILL_EFFECT:(96,223,495,498,509,559,582,688,752,910,3020,3021,3052,3053,3054,3055,3092,3105,3120,3196,3235,5175,5253,5530,6205,6306,6333,6339,6379,6382,6385,6395,6777,84,103,798,3091,3104,3119,3195)" /> <!-- Очищение (Purify)    -->
+		</cleansing_skills>
+		<debuff_skills chance="25">
+			<skill id="1398" ench_route="2" condition="MAX_HP:30;ONLY_PLAYER;TARGET_MAX_MP:2;TARGET_NOT_SKILL_EFFECT:(1394)"/> <!-- Горение Маны (Mana Burn) -->
+			<skill id="1396" ench_route="3" condition="MAX_HP:30;MAX_MP:10;ONLY_PLAYER;TARGET_NOT_USE_CLASS_ID:(106,99,91,90)"/> <!-- Магический Встречный Пожар (Magical Backfire)  -->
+			<skill id="1539" ench_route="1" condition="USE_IN_PARTY;MAX_HP:60"/> <!-- Стигма Шилен -->
+			<skill id="1201" ench_route="1" condition="CHANCE_CAST:55;MAX_MP:40;MAX_HP:60;TARGET_FIGHTER;ONLY_PLAYER;DEBUFF_CHANCE:35"/> <!-- Корень дриады -->
+			<skill id="1508" ench_route="1" condition="ONLY_PLAYER;MAX_HP:60;CHANCE_CAST:50;DEBUFF_CHANCE:45;MAX_DISTANCE:150"/> <!-- Корни престола -->
+			<skill id="1206" ench_route="1" condition="ONLY_PLAYER;MAX_MP:20;MAX_HP:40;TARGET_FIGHTER;CHANCE_CAST:50;DEBUFF_CHANCE:35"/> <!-- Оковы ветра -->
+		</debuff_skills>
+		<heal_skills>
+			<skill id="1401" ench_route="1" condition="TARGET_MIN_HP:80;CHANCE_CAST:40"/> <!-- Основное Лечение (Major Heal) -->
+			<skill id="1217" ench_route="2" condition="TARGET_MIN_HP:70;CHANCE_CAST:40"/> <!-- Великое Лечение -->
+			<skill id="1401" ench_route="1" condition="TARGET_MIN_HP:60"/> <!-- Основное Лечение (Major Heal) -->
+			<skill id="1013" ench_route="1" condition="USE_IN_PARTY;NOT_USE_OLYMPIAD;TARGET_MIN_MP:10"/> <!-- Восстановление -->
+			<skill id="1217" ench_route="2" condition="TARGET_MIN_HP:50"/> <!-- Великое Лечение -->
+			<skill id="1531" ench_route="1" condition="TARGET_MIN_HP:80;CHANCE_CAST:40"/> <!-- Благословение крови -->
+		</heal_skills>
+		<party_heal_skills chance="35">
+			<skill id="1553" condition="MIN_PARTY_HP:(60,2);USE_IN_PARTY"/> <!-- Цепное Исцеление (Chain Heal)-->
+			<skill id="1219" condition="MIN_PARTY_HP:(30,3);USE_IN_PARTY;MIN_HP:80"/> <!-- Великое груповое лечение  -->
+		</party_heal_skills>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>	
+	</ClassObject>
+ </list>

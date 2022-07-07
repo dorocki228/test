@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Приватная лавка баффов - $bufferName</title>
+</head>
+<body>
+<table border=0 width=292 height=358>
+	<tr>
+		<td align=center  height=0></td>
+	</tr>
+	<tr>
+		<td align="center">
+			<table width=256 height=20 bgcolor=1c1b17>
+				<tr>
+					<td align=center  height=15></td>
+				</tr>
+				<tr>
+					<td align=center fixwidth=270>
+						<font name="hs12"><ClassId>$classId</ClassId> $level Lvl</font>
+					</td>
+				</tr>
+				<tr>
+					<td align=center fixwidth=132>
+						<font name="hs9">Цена баффа: </font><font color=LEVEL name="hs9">$price Adena</font>
+					</td>
+				</tr>
+				<tr>
+					<td align=center  height=15></td>
+				</tr>
+			</table>
+			#if(!$skills.isFirst())
+			#set($prevPage = $skills.getPreviousPage())
+			#else
+			#set($prevPage = $skills.getPage())
+			#end
+
+			#if(!$skills.isLast())
+			#set($nextPage = $skills.getNextPage())
+			#else
+			#set($nextPage = $skills.getPage())
+			#end
+			<table width=292 height=20>
+				#foreach($s in $skills.getItems())
+				<tr>
+					<td align=center>
+						<table height="36" cellpadding=0 cellspacing=0 bgcolor="#if($foreach.count % 2 == 0)1c1b17#{else}2a2926#end">
+							<tr>
+								<td valign=top align=right fixwidth=40>
+									<img src="$s.getTemplate().getIcon()" width=32 height=32>
+								</td>
+								<td valign=top align=center fixwidth=180><br>
+									<font name="hs9">$s.getName() </font> <font name="hs9" color="LEVEL">$s.getLevel() lvl</font>
+								</td>
+								<td valign=top align=right fixwidth=40>
+									<button value=" " action="bypass -h htmbypass_services.PrivateBuffer:buff $s.getId() $skills.getPage()" width=32 height=32 back="L2UI_CT1.MiniMap_DF_PlusBtn_Red_Down" fore="L2UI_CT1.MiniMap_DF_PlusBtn_Red">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				#end
+			</table>
+			<table width=292 height=20>
+				<tr>
+					<td align=center  height=15></td>
+				</tr>
+				<tr>
+					<td align=right fixwidth=110>
+						<button value=" " action="bypass -h htmbypass_services.PrivateBuffer:list $prevPage" width=16 height=16 back="L2UI_CH3.ScrollBarLeftBtn" fore="L2UI_CH3.ScrollBarLeftBtn">
+					</td>
+					<td align=center fixwidth=40>
+						<font name="hs9">$skills.getPageNumber() / $skills.getPageCount()</font>
+					</td>
+					<td align=left fixwidth=110>
+						<button value=" " action="bypass -h htmbypass_services.PrivateBuffer:list $nextPage" width=16 height=16 back="L2UI_CH3.ScrollBarRightBtn" fore="L2UI_CH3.ScrollBarRightBtn">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

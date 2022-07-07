@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT zone ((point+ | polygon+))>
+<!ATTLIST zone
+	classId CDATA #IMPLIED
+	lvlMax CDATA #REQUIRED
+	lvlMin CDATA #REQUIRED
+	maxPartySize CDATA #IMPLIED
+	name CDATA #REQUIRED
+	penaltyWeapon CDATA #IMPLIED
+	playerCheckRadius CDATA #IMPLIED
+	race (orc | kamael | human | elf | dwarf | darkelf) #IMPLIED
+	useForParty (true | false) #REQUIRED
+>
+<!ELEMENT polygon ((coords+))>
+<!ELEMENT point EMPTY>
+<!ATTLIST point
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	z CDATA #REQUIRED
+>
+<!ELEMENT list ((zone+))>
+<!ELEMENT coords EMPTY>
+<!ATTLIST coords
+	loc CDATA #REQUIRED
+>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="1" class_name="Warrior">
+		<ai_type type="auto_attacker"/>
+		<nuke_skills>
+			<skill id="245" condition="CHANCE_CAST:50"/> <!-- Дикий Размах (Wild Sweep)  -->
+			<skill id="255" condition="CHANCE_CAST:50"/> <!-- Мощное Сокрушение (Power Smash)  -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="78" /> <!-- Клич Войны (War Cry)  -->
+		</self_buff_skills>
+		<situation_skills>
+		</situation_skills>
+		<cleansing_skills>
+			<skill id="287" condition="SELF_SKILL_EFFECT:(92,102,115,1069,1160,1164,1201,1206,1222,95,96,1092,1095,1096,1097,1099,1208,1209,65,84,97,98,103,116,122,127,279,281,1064,1072,1104,1169,1170,1244,1246,1247,1248,1263,1269,1272,1298,342,353,354,358,361,362,1336,1337,1338,1344,1345,1350,1351,1358,1359,1360,1361,1366,1367,400,401,402,403,404,407,408,412,1381,1382,1386,1394,1396,452,1435,501,1446,1447,518,522,523,531,1454,1462,564,581,1481,1482,1483,1484,1485,1486,695,696,708,716,730,736,749,752,762,763,774,1495,1508,1509,1511,791,792,1525,835,1529,879,883,899,909,910,1539,1541,1546,981,991)" /> <!-- Львиное Сердце (Lionheart)  -->
+		</cleansing_skills>
+		<debuff_skills chance="25">
+		    <skill id="100" condition="CHANCE_CAST:50"/> <!-- Оглушающая Атака (Stun Attack)  -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="23">
+		<skill id="112" type="castSelfBuff" text_commands="отклонить стрелу,deflect arrow,arrow,стрела"/>
+		<skill id="21" type="castSelfBuff" text_commands="вывести яд,poison recovery"/>
+		<skill id="15" type="castAttackingSkill" text_commands="очарование,charm"/>
+		<skill id="27" type="castAttackingSkill" text_commands="открыть,unlock"/>
+		<skill id="58" type="castSelfBuff" text_commands="природное лечение,elemental heal"/>
+		<skill id="312" type="castSelfBuff" text_commands="боевая стойка коварства,vicious stance"/>
+		<skill id="221" type="castSelfBuff" text_commands="silent move,бесшумное движение,шд,sm"/>
+		<skill id="102" type="castAttackingSkill" text_commands="опутать,entangle"/>
+		<skill id="60" type="castSelfBuff" text_commands="притвориться мертвым,fake death"/>
+		<skill id="821" type="castAttackingSkill" text_commands="shadow step,шаг из тени"/>
+		<skill id="12" type="castAttackingSkill" text_commands="переключение,switch"/>
+		<skill id="61" type="castSelfBuff" text_commands="остановка кровотечения,cure bleeding"/>
+		<skill id="296" type="castSelfBuff" text_commands="сон хамелеона,chameleon rest"/>
+		<skill id="419" type="castSelfBuff" text_commands="призвать ключ сокровищ,summon treasure key"/>
+		<skill id="51" type="castAttackingSkill" text_commands="искушение,lure"/>
+		<skill id="111" type="castSelfBuff" text_commands="абсолютное уклонение,ultimate evasion,evasion,уклонение,уе,ue"/>
+		<skill id="453" type="castSelfBuff" text_commands="разорвать оковы,escape shackle"/>
+		<skill id="623" type="castAttackingSkill" text_commands="найти ловушку,find trap"/>
+		<skill id="624" type="castAttackingSkill" text_commands="убрать ловушку,remove trap"/>
+	</ChatControl>
+ </list>

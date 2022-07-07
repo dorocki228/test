@@ -1,0 +1,24 @@
+<html>
+<title>Well</title>
+<body>
+
+
+<center>
+    I am full of pure water that can give your<br1> seeds life-giving moisture, which will add<br1> strength and accelerate their growth.<br>
+    But just like that, I will not give out<br1> state water! For <font color="ff5000">watering every</font> seed I want<br1> you to pay me <font color="ff5000">2 Adena</font>!
+
+</center><br1>
+
+    #if($dried.size() > 0)
+    <center>It is necessary to water <font color="LEVEL">$dried.size()</font> seeds.</center>
+    <button action="bypass -h npc_%objectId%_pour" ALIGN=LEFT ICON="NORMAL">Water all the seeds (2 Aden = 1 pc)</button>
+    #else
+    <center>
+        –––––––––––––––––––––<br1>
+        <font color="00e600">All seeds in this stead are watered.<br1> Growth is accelerated!</font>
+    </center>
+    #end
+
+
+    </table>
+</body></html>

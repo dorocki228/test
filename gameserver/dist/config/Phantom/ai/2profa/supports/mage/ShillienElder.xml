@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="43" class_name="ShillienElder">
+		<nuke_skills>
+			<skill id="1028"/> <!--  (Might of Heaven) -->
+		</nuke_skills>
+		<resurrect_skills>
+			<skill id="1016"/> <!-- Воскрешение (Resurrection) -->
+		</resurrect_skills>
+<!--		<buffs_skills>-->
+<!--			<skill id="1035"/> &lt;!&ndash; Ментальный Щит&ndash;&gt;-->
+<!--			<skill id="1040"/> &lt;!&ndash; Щит&ndash;&gt;-->
+<!--			<skill id="1059" condition="SKILL_DISABLED:1500;TARGET_MAGE"/> &lt;!&ndash; Воодушевление &ndash;&gt;-->
+<!--			<skill id="1068" condition="TARGET_FIGHTER"/> &lt;!&ndash; Могущество&ndash;&gt;-->
+<!--			<skill id="1077" condition="SKILL_DISABLED:1502;TARGET_MAGE"/> &lt;!&ndash; Фокусировка &ndash;&gt;-->
+<!--			<skill id="1078" condition="TARGET_MAGE"/> &lt;!&ndash; Концентрация&ndash;&gt;-->
+<!--			<skill id="1204" /> &lt;!&ndash; Легкая походка&ndash;&gt;-->
+<!--			<skill id="1240" condition="TARGET_FIGHTER"/> &lt;!&ndash; Наведение&ndash;&gt;-->
+<!--			<skill id="1242" condition="SKILL_DISABLED:1502;TARGET_MAGE"/> &lt;!&ndash; Шепот смерти &ndash;&gt;-->
+<!--			<skill id="1268" condition="TARGET_FIGHTER"/> &lt;!&ndash; Ярость вампира&ndash;&gt;-->
+<!--			<skill id="1303" condition="TARGET_MAGE"/> &lt;!&ndash; Дикая магия&ndash;&gt;-->
+<!--			<skill id="1392"/> &lt;!&ndash; Устойчивость к святости&ndash;&gt;-->
+<!--			<skill id="1502" condition="TARGET_FIGHTER"/>&lt;!&ndash;  Совершенная критическая атака &ndash;&gt;-->
+<!--			<skill id="1500" condition="TARGET_MAGE"/> &lt;!&ndash; Совершенство в магии &ndash;&gt;-->
+<!--		</buffs_skills>-->
+<!--		<self_buff_skills>-->
+<!--			<skill id="1259" ench_route="3"/> &lt;!&ndash; Сопротивление оглушению &ndash;&gt;-->
+<!--			<skill id="1397" ench_route="2"/> &lt;!&ndash; Чистота &ndash;&gt;-->
+<!--			<skill id="1035" ench_route="2"/> &lt;!&ndash; Ментальный Щит&ndash;&gt;-->
+<!--			<skill id="1040" ench_route="2"/> &lt;!&ndash; Щит&ndash;&gt;-->
+<!--			<skill id="1500"/> &lt;!&ndash; Совершенство в магии &ndash;&gt;-->
+<!--			<skill id="1078" ench_route="2"/> &lt;!&ndash; Концентрация&ndash;&gt;-->
+<!--			<skill id="1189" ench_route="3"/> &lt;!&ndash; Сопротивление ветру&ndash;&gt;-->
+<!--			<skill id="1204" ench_route="2"/> &lt;!&ndash; Легкая походка&ndash;&gt;-->
+<!--			<skill id="1303" ench_route="2"/> &lt;!&ndash; Дикая магия&ndash;&gt;-->
+<!--			<skill id="1354" ench_route="2"/> &lt;!&ndash; Тайная защита&ndash;&gt;-->
+<!--			<skill id="1357" ench_route="3"/> &lt;!&ndash; Пророчество ветра&ndash;&gt;-->
+<!--			<skill id="1392" ench_route="1"/> &lt;!&ndash; Устойчивость к святости&ndash;&gt;-->
+<!--			<skill id="336" ench_route="1"/> &lt;!&ndash; Тайная мудрость&ndash;&gt;-->
+<!--		</self_buff_skills>-->
+<!--		<situation_skills>-->
+<!--			<skill id="1430"   condition="MIN_MP:5"/> &lt;!&ndash; Медитация (Invocation) &ndash;&gt;-->
+<!--		</situation_skills>-->
+<!--		<heal_skills>-->
+<!--			<skill id="1018" condition="MIN_HP:50"/> &lt;!&ndash; Очищение (Purify) &ndash;&gt;-->
+<!--			<skill id="1015" condition="MIN_HP:20"/> &lt;!&ndash; Боевое Лечение (Battle Heal) &ndash;&gt;-->
+<!--			<skill id="1531" condition="MIN_HP:40"/> &lt;!&ndash; Благословение Крови (Blessed Blood)&ndash;&gt;-->
+<!--		</heal_skills>-->
+		<debuff_skills chance="25">
+		    <skill id="1201" /> <!-- Корень Дриады (Dryad Root)  -->
+<!--			<skill id="1206" /> &lt;!&ndash; Оковы Ветра (Wind Shackle) &ndash;&gt;-->
+<!--			<skill id="1398" /> &lt;!&ndash; Горение Маны (Mana Burn) &ndash;&gt;-->
+<!--			<skill id="1539" /> &lt;!&ndash; Стигма Шилен (Stigma of Shilen) &ndash;&gt;-->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

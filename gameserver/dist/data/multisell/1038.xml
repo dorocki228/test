@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>	
+<config no_tax="true" />
+<!--Итем Создать Блесс Заточки-->
+
+
+
+	<item>
+		<production id="6574" count="2" />	<!--[blessed_scrl_of_ench_am_c]-->
+		<ingredient id="77218" count="1" />	<!--[blood]-->
+	</item>
+	<item>		
+		<production id="6572" count="1" />	<!--[blessed_scrl_of_ench_am_b]-->
+		<ingredient id="77218" count="2" />	<!--[blood]-->
+		<ingredient id="948" count="1" />			
+	</item>
+	<item>
+		<production id="6570" count="1" activeStage="3"/>    <!--[blessed_scrl_of_ench_am_a]-->
+		<ingredient id="77218" count="4"/>    <!--[blood]-->
+		<ingredient id="730" count="1"/>    <!--[scrl_of_ench_am_a]-->
+	</item>
+	<item>
+		<production id="6578" count="1" activeStage="5"/>    <!--[blessed_scrl_of_ench_am_s]-->
+		<ingredient id="77218" count="5"/>    <!--[blood]-->
+		<ingredient id="960" count="1"/>
+	</item>
+	<item>
+		<production id="6573" count="1" />	<!--[blessed_scrl_of_ench_wp_c]-->
+		<ingredient id="77218" count="1" />	<!--[blood]-->
+
+	</item>
+	<item>
+		<production id="6571" count="1" />	<!--[blessed_scrl_of_ench_wp_b]-->
+		<ingredient id="77218" count="5" />	<!--[blood]-->
+		<ingredient id="947" count="1" />
+	</item>
+
+	<item>
+		<production id="6569" count="1" activeStage="3"/>    <!--[blessed_scrl_of_ench_wp_a]-->
+		<ingredient id="77218" count="7"/>    <!--[blood]-->
+		<ingredient id="729" count="1"/>    <!--[scrl_of_ench_wp_a]-->
+	</item>
+	<item>
+		<production id="6577" count="1" activeStage="5"/>    <!--[blessed_scrl_of_ench_wp_s]-->
+		<ingredient id="77218" count="8"/>    <!--[blood]-->
+		<ingredient id="959" count="1"/>
+	</item>
+
+	<item>
+		<production id="77740" count="1" activeStage="3"/>    <!--[blessed_scrl_bracelet]-->
+		<ingredient id="77218" count="5"/>    <!--[blood]-->
+	</item>
+	<item>
+		<production id="77741" count="1" activeStage="3"/>    <!--[blessed_scrl_cloak]-->
+		<ingredient id="77218" count="5"/>    <!--[blood]-->
+	</item>
+	<item>
+		<production id="75003" count="3"/>    <!--[эполет]-->
+		<ingredient id="77218" count="2"/>    <!--[blood]-->
+	</item>	
+
+</list>

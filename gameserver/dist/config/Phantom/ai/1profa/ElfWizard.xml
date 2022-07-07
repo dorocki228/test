@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="26" class_name="ElfWizard">
+		<nuke_skills>
+			<skill id="1175" /> <!-- Водоворот (Aqua Swirl)-->
+			<skill id="1264" condition="MIN_DISTANCE:250;MASS:2"/> <!-- Солнечная Вспышка (Solar Spark) -->
+			<skill id="1181" condition="MIN_DISTANCE:250;MASS:2"/> <!-- Удар Пламени (Flame Strike)-->
+			<skill id="1172" condition="MAX_DISTANCE:150"/> <!-- Сжигающая Аура (Aura Burn)-->
+			<skill id="1274" condition="CHANCE_CAST:30"/> <!-- Энергетическая Стрела (Energy Bolt)-->
+		</nuke_skills>
+		<heal_skills>
+			<skill id="1015" condition="MIN_HP:20"/> <!-- Боевое Лечение (Battle Heal) -->
+		</heal_skills>
+		<debuff_skills chance="25">
+			<skill id="1164" /> <!-- Проклятие Слабости (Curse Weakness) -->
+			<skill id="1206" /> <!-- Оковы Ветра (Wind Shackle) -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

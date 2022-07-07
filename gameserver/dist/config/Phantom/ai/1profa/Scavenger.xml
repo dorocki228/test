@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="54" class_name="Scavenger">
+		<nuke_skills>
+			<skill id="245"/> <!-- Дикий Размах (Wild Sweep)  -->
+		</nuke_skills>
+		<debuff_skills chance="25">
+		    <skill id="100"/> <!-- Оглушающая Атака (Stun Attack)  -->
+		</debuff_skills>
+		<spoil_skills>
+			<skill id="254"/> <!-- Оценить (Spoil) -->
+			<skill id="302"/> <!-- Массовая Оценка (Spoil Festival) -->
+		</spoil_skills>
+		<sweeper_skills>
+			<skill id="42"/> <!-- Присвоить (Sweeper)  -->
+			<skill id="444"/> <!-- Массовое Присвоение (Sweeper Festival) -->
+		</sweeper_skills>
+	</ClassObject>
+ </list>

@@ -1,0 +1,53 @@
+<!ELEMENT member EMPTY>
+<!ATTLIST member
+	class_id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	sex CDATA #REQUIRED
+>
+<!ELEMENT list ((clan+))>
+<!ELEMENT cp ((member+))>
+<!ATTLIST cp
+	id CDATA #REQUIRED
+	prime_time CDATA #REQUIRED
+	despawn CDATA #REQUIRED
+	party_type CDATA #REQUIRED
+>
+
+<!ELEMENT clan ((academy, RoyalGuard1st, RoyalGuard2st, KnightlyOrder1st, KnightlyOrder2st, KnightlyOrder3st, KnightlyOrder4st, cp+))>
+<!ATTLIST clan
+	allycrest CDATA #REQUIRED
+	allyname CDATA #REQUIRED
+	cl_classId CDATA #REQUIRED
+	cl_name CDATA #REQUIRED
+	clantype (top | middle | bottom) #REQUIRED
+	crest CDATA #REQUIRED
+	name CDATA #REQUIRED
+>
+<!ELEMENT academy EMPTY>
+<!ATTLIST academy
+	name CDATA #REQUIRED
+>
+<!ELEMENT RoyalGuard2st EMPTY>
+<!ATTLIST RoyalGuard2st
+	name CDATA #REQUIRED
+>
+<!ELEMENT RoyalGuard1st EMPTY>
+<!ATTLIST RoyalGuard1st
+	name CDATA #REQUIRED
+>
+<!ELEMENT KnightlyOrder4st EMPTY>
+<!ATTLIST KnightlyOrder4st
+	name CDATA #REQUIRED
+>
+<!ELEMENT KnightlyOrder3st EMPTY>
+<!ATTLIST KnightlyOrder3st
+	name CDATA #REQUIRED
+>
+<!ELEMENT KnightlyOrder2st EMPTY>
+<!ATTLIST KnightlyOrder2st
+	name CDATA #REQUIRED
+>
+<!ELEMENT KnightlyOrder1st EMPTY>
+<!ATTLIST KnightlyOrder1st
+	name CDATA #REQUIRED
+>

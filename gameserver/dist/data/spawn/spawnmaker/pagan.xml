@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list> 
+  <territory name="pg1"> 
+    <add x="-19080" y="-43144" zmin="-10970" zmax="-10470"/>  
+    <add x="-20856" y="-43128" zmin="-10970" zmax="-10470"/>  
+    <add x="-20856" y="-43992" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg1" territory="pg1"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer-->  
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg2"> 
+    <add x="-22104" y="-43096" zmin="-11162" zmax="-10662"/>  
+    <add x="-22104" y="-44024" zmin="-11162" zmax="-10662"/>  
+    <add x="-23608" y="-44008" zmin="-11154" zmax="-10654"/>  
+    <add x="-23576" y="-43112" zmin="-11154" zmax="-10654"/> 
+  </territory>  
+  <spawn name="pg2" territory="pg2"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn>  
+  <territory name="pg3"> 
+    <add x="-20840" y="-41240" zmin="-10970" zmax="-10470"/>  
+    <add x="-20856" y="-42120" zmin="-10970" zmax="-10470"/>  
+    <add x="-19064" y="-42136" zmin="-10970" zmax="-10470"/>  
+    <add x="-19064" y="-41256" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg3" territory="pg3"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer-->  
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg4"> 
+    <add x="-19080" y="-40264" zmin="-10970" zmax="-10470"/>  
+    <add x="-20840" y="-40264" zmin="-10970" zmax="-10470"/>  
+    <add x="-20840" y="-39384" zmin="-10970" zmax="-10470"/>  
+    <add x="-19064" y="-39384" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg4" territory="pg4"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn>  
+  <territory name="pg5"> 
+    <add x="-22104" y="-39368" zmin="-11162" zmax="-10662"/>  
+    <add x="-22104" y="-40280" zmin="-11162" zmax="-10662"/>  
+    <add x="-23656" y="-40264" zmin="-11154" zmax="-10654"/>  
+    <add x="-23672" y="-39384" zmin="-11154" zmax="-10654"/> 
+  </territory>  
+  <spawn name="pg5" territory="pg5"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer-->  
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg6"> 
+    <add x="-23672" y="-38408" zmin="-11154" zmax="-10654"/>  
+    <add x="-23688" y="-37512" zmin="-11154" zmax="-10654"/>  
+    <add x="-22104" y="-37512" zmin="-11162" zmax="-10662"/>  
+    <add x="-22105" y="-38392" zmin="-11162" zmax="-10662"/> 
+  </territory>  
+  <spawn name="pg6" territory="pg6"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn>  
+  <territory name="pg7"> 
+    <add x="-20856" y="-37528" zmin="-10970" zmax="-10470"/>  
+    <add x="-20856" y="-38376" zmin="-10970" zmax="-10470"/>  
+    <add x="-19113" y="-38376" zmin="-10970" zmax="-10470"/>  
+    <add x="-19080" y="-37528" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg7" territory="pg7"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer-->  
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg8"> 
+    <add x="-18104" y="-42392" zmin="-10970" zmax="-10470"/>  
+    <add x="-16568" y="-42424" zmin="-10970" zmax="-10470"/>  
+    <add x="-16600" y="-44056" zmin="-10970" zmax="-10470"/>  
+    <add x="-16088" y="-44040" zmin="-10970" zmax="-10470"/>  
+    <add x="-16168" y="-42424" zmin="-10970" zmax="-10470"/>  
+    <add x="-14680" y="-42376" zmin="-10970" zmax="-10470"/>  
+    <add x="-14664" y="-40248" zmin="-10970" zmax="-10470"/>  
+    <add x="-15848" y="-40248" zmin="-10970" zmax="-10470"/>  
+    <add x="-15848" y="-41320" zmin="-10970" zmax="-10470"/>  
+    <add x="-16936" y="-41336" zmin="-10970" zmax="-10470"/>  
+    <add x="-16921" y="-40249" zmin="-10970" zmax="-10470"/>  
+    <add x="-18072" y="-40248" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg8" territory="pg8"> 
+    <!--Dryad-->  
+    <npc id="20817" count="5" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="5" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+    <npc id="21189" count="5" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer--> 
+  </spawn>  
+  <territory name="pg9"> 
+    <add x="-18088" y="-40184" zmin="-10970" zmax="-10470"/>  
+    <add x="-14664" y="-40216" zmin="-10970" zmax="-10470"/>  
+    <add x="-14664" y="-39160" zmin="-10970" zmax="-10470"/>  
+    <add x="-16152" y="-39112" zmin="-10970" zmax="-10470"/>  
+    <add x="-16152" y="-36872" zmin="-10970" zmax="-10470"/>  
+    <add x="-16600" y="-36872" zmin="-10970" zmax="-10470"/>  
+    <add x="-16584" y="-39112" zmin="-10970" zmax="-10470"/>  
+    <add x="-18056" y="-39144" zmin="-10970" zmax="-10470"/>  
+    <add x="-18072" y="-40136" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg9" territory="pg9"> 
+    <!--Dryad-->  
+    <npc id="21189" count="4" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer-->  
+    <npc id="20354" count="4" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+    <npc id="20817" count="4" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage--> 
+  </spawn>  
+  <territory name="pg10"> 
+    <add x="-13656" y="-38344" zmin="-10970" zmax="-10470"/>  
+    <add x="-13640" y="-37512" zmin="-10970" zmax="-10470"/>  
+    <add x="-11880" y="-37512" zmin="-10970" zmax="-10470"/>  
+    <add x="-11880" y="-38360" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg10" territory="pg10"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn>  
+  <territory name="pg11"> 
+    <add x="-10632" y="-38392" zmin="-11162" zmax="-10662"/>  
+    <add x="-10632" y="-37481" zmin="-11162" zmax="-10662"/>  
+    <add x="-9097" y="-37497" zmin="-11154" zmax="-10654"/>  
+    <add x="-9080" y="-38392" zmin="-11154" zmax="-10654"/> 
+  </territory>  
+  <spawn name="pg11" territory="pg11"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer--> 
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg12"> 
+    <add x="-11880" y="-39384" zmin="-10970" zmax="-10470"/>  
+    <add x="-11880" y="-40264" zmin="-10970" zmax="-10470"/>  
+    <add x="-13656" y="-40248" zmin="-10970" zmax="-10470"/>  
+    <add x="-13656" y="-39384" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg12" territory="pg12"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn>  
+  <territory name="pg13"> 
+    <add x="-13640" y="-41240" zmin="-10970" zmax="-10470"/>  
+    <add x="-13656" y="-42120" zmin="-10970" zmax="-10470"/>  
+    <add x="-11880" y="-42120" zmin="-10970" zmax="-10470"/>  
+    <add x="-11880" y="-41240" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg13" territory="pg13"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer--> 
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg14"> 
+    <add x="-10632" y="-42152" zmin="-11162" zmax="-10662"/>  
+    <add x="-10632" y="-41224" zmin="-11162" zmax="-10662"/>  
+    <add x="-9080" y="-41240" zmin="-11154" zmax="-10654"/>  
+    <add x="-9048" y="-42136" zmin="-11154" zmax="-10654"/> 
+  </territory>  
+  <spawn name="pg14" territory="pg14"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn>  
+  <territory name="pg15"> 
+    <add x="-9080" y="-43096" zmin="-11154" zmax="-10654"/>  
+    <add x="-9064" y="-43992" zmin="-11154" zmax="-10654"/>  
+    <add x="-10632" y="-44008" zmin="-11162" zmax="-10662"/>  
+    <add x="-10600" y="-43096" zmin="-11162" zmax="-10662"/> 
+  </territory>  
+  <spawn name="pg15" territory="pg15"> 
+    <!--Dryad-->  
+    <npc id="21189" count="2" respawn="60" respawn_random="0"/>  
+    <!--Gigant Overseer--> 
+    <!--Dwarf Ghost-->  
+    <npc id="20354" count="1" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost--> 
+  </spawn>  
+  <territory name="pg16"> 
+    <add x="-11881" y="-43145" zmin="-10970" zmax="-10470"/>  
+    <add x="-11880" y="-43976" zmin="-10970" zmax="-10470"/>  
+    <add x="-13640" y="-43976" zmin="-10970" zmax="-10470"/>  
+    <add x="-13656" y="-43112" zmin="-10970" zmax="-10470"/> 
+  </territory>  
+  <spawn name="pg16" territory="pg16"> 
+    <!--Dryad-->  
+    <npc id="20817" count="2" respawn="60" respawn_random="0"/>  
+    <!--Corrupt Sage-->  
+    <npc id="20354" count="2" respawn="60" respawn_random="0"/>  
+    <!--Dwarf Ghost-->  
+  </spawn> 
+</list>

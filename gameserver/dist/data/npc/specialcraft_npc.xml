@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+
+<list>
+	<npc id="40900" name=" " title="">
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>	<!--TODO: Проверить.-->
+		<set name="baseDEX" value="42"/>
+		<set name="baseHpMax" value="2974"/>
+		<set name="baseHpRate" value="0.25"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1.09666"/>
+		<set name="baseMDef" value="1200.45587"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseMpMax" value="1607"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="1.50086"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.70061"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="66"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="collision_height" value="67"/>
+		<set name="collision_radius" value="45"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ResourceNpc"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true"/>
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<skills>
+			<skill id="4285" level="5"/>	<!--Resist Sleep Attacks-->
+			<skill id="4408" level="8"/>	<!--HP Increase (1/4x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4416" level="24"/>	<!--Unknown Creature-->
+			<skill id="4417" level="33"/>	<!--Plants-->
+		</skills>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77013">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77036" count="1" chance="50" />
+				<resource id="77037" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77014">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77036" count="1-2" chance="50" />
+				<resource id="77037" count="1" chance="3" />
+				<resource id="77038" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77015">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77036" count="1-3" chance="50" />
+				<resource id="77037" count="1" chance="4" />
+				<resource id="77038" count="1" chance="3" />
+				<resource id="77039" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77016">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77036" count="1-4" chance="50" />
+				<resource id="77037" count="1" chance="5" />
+				<resource id="77038" count="1" chance="4" />
+				<resource id="77039" count="1" chance="3" />
+				<resource id="77040" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77036" count="1-4" chance="50" />
+				<resource id="77037" count="1" chance="5" />
+				<resource id="77038" count="1" chance="4" />
+				<resource id="77039" count="1" chance="3" />
+				<resource id="77040" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40901" name="Wolf" title="">
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.39"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>	<!--TODO: Проверить.-->
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="246"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="1200.82228"/>
+		<set name="baseMEN" value="83"/>
+		<set name="baseMpMax" value="149"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.55216"/>
+		<set name="baseRunSpd" value="125"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="24"/>
+		<set name="collision_height" value="11.5"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ResourceNpc"/>
+		<skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+		</skills>
+		<ai_params>
+			<set name="noRandomWalk" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77017">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77052" count="1" chance="4" />
+			</with_weapon>
+			<with_weapon id="77018">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77052" count="1" chance="4" />
+			</with_weapon>
+			<with_weapon id="77019">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77052" count="1" chance="4" />
+			</with_weapon>
+			<with_weapon id="77020">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77052" count="1" chance="4" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77052" count="1" chance="4" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40902" name="Harak" title="Tunath Chief">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1.40463"/>
+		<set name="baseMDef" value="1200.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="1.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="castle_id" value="1"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ResourceNpc"/>
+		<equip>
+			<rhand item_id="172"/>	<!--Heavy Bone Club-->
+		</equip>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</skills>
+		<ai_params>
+			<set name="noRandomWalk" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77017">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77051" count="1" chance="10" />
+			</with_weapon>
+			<with_weapon id="77018">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77051" count="1" chance="10" />
+			</with_weapon>
+			<with_weapon id="77019">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77054" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77020">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77054" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77054" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40903" name="Adult Cougar" title="">
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="3835"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1.76381"/>
+		<set name="baseMDef" value="1200.94045"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1777"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="1.42362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.86144"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="collision_height" value="17.2"/>
+		<set name="collision_radius" value="16"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value="LineageMonster2.youth_tiger"/>
+		<set name="type" value="ResourceNpc"/>
+		<skills>
+			<skill id="4071" level="3"/>	<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4379" level="5"/>	<!--Resist Spear Weapons-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="18"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="5463" level="1"/>	<!--Water Attacks-->
+			<skill id="5620" level="7"/>	<!--Short-Range Physical Attack Weakness-->
+		</skills>
+		<ai_params>
+			<set name="noRandomWalk" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77017">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77051" count="1" chance="10" />
+			</with_weapon>
+			<with_weapon id="77018">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77053" count="1" chance="3" />
+			</with_weapon>
+			<with_weapon id="77019">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77053" count="1" chance="3" />
+			</with_weapon>
+			<with_weapon id="77020">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77053" count="1" chance="3" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77053" count="1" chance="3" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40904" name="Wild Strider" title="">
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.43"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseHpMax" value="3290"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1.75133"/>
+		<set name="baseMDef" value="1200.80341"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseMpMax" value="1674"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="1.53755"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.375"/>
+		<set name="baseRunSpd" value="140"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="66"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="44.2"/>
+		<set name="collision_radius" value="32"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ResourceNpc"/>
+		<ai_params>
+			<set name="noRandomWalk" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<skills>
+			<skill id="4416" level="3"/>	<!--Звери-->
+			<skill id="4416" level="24"/>	<!--Неизвестное Создание-->
+			<skill id="4071" level="4"/>	<!--Resist Bow/Crossbow Weapons-->
+			<skill id="4232" level="10"/>	<!--NPC AE Strike-->
+			<skill id="4285" level="5"/>	<!--Resist Sleep Attacks-->
+			<skill id="4408" level="9"/>	<!--HP Increase (1/2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="16"/>	<!--Very Strong M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4417" level="4"/>	<!--Beasts-->
+			<skill id="4439" level="2"/>	<!--Greater Resist Hold-->
+			<skill id="4445" level="1"/>	<!--Greater Resist Spear Weapons-->
+			<skill id="5081" level="1"/>	<!--Silence-->
+		</skills>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77017">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77051" count="1" chance="10" />
+			</with_weapon>
+			<with_weapon id="77018">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77051" count="1" chance="10" />
+			</with_weapon>
+			<with_weapon id="77019">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77051" count="1" chance="10" />
+			</with_weapon>
+			<with_weapon id="77020">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77055" count="1" chance="1" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77051" count="1" chance="10" />
+				<resource id="77055" count="1" chance="1" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40905" name="Northern Trimden" title="">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.65"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseHpMax" value="321"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1.97662"/>
+		<set name="baseMDef" value="1200.97901"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseMpMax" value="183"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="basePAtk" value="1.96915"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.07638"/>
+		<set name="baseRunSpd" value="140"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="66"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="27"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ResourceNpc"/>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4416" level="12"/>	<!--Bugs-->
+		</skills>
+		<ai_params>
+			<set name="noRandomWalk" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77029">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77056" count="1" chance="50" />
+				<resource id="77057" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77030">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77056" count="1-2" chance="12" />
+				<resource id="77057" count="1" chance="3" />
+				<resource id="77058" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77031">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77056" count="1-3" chance="50" />
+				<resource id="77057" count="1" chance="4" />
+				<resource id="77058" count="1" chance="3" />
+				<resource id="77059" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77032">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77056" count="1-4" chance="50" />
+				<resource id="77057" count="1" chance="5" />
+				<resource id="77058" count="1" chance="4" />
+				<resource id="77059" count="1" chance="3" />
+				<resource id="77060" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77056" count="1-4" chance="50" />
+				<resource id="77057" count="1" chance="5" />
+				<resource id="77058" count="1" chance="4" />
+				<resource id="77059" count="1" chance="3" />
+				<resource id="77060" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40906" name="Giant Araneid" title="">
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>	<!--TODO: Проверить.-->
+		<set name="baseDEX" value="42"/>
+		<set name="baseHpMax" value="435"/>
+		<set name="baseHpRate" value="0.5"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1.10666"/>
+		<set name="baseMDef" value="1200.72169"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseMpMax" value="245"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="basePAtk" value="1.19687"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="1200.70919"/>
+		<set name="baseRunSpd" value="130"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="66"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="60"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="ResourceNpc"/>
+		<skills>
+			<skill id="4031" level="2"/>	<!--NPC Clan Aegis-->
+			<skill id="4408" level="9"/>	<!--HP Increase (1/2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="3"/>	<!--Light Armor Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4416" level="12"/>	<!--Bugs-->
+		</skills>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="10"/>
+			<set name="noRandomWalk" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77029">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77056" count="1" chance="50" />
+				<resource id="77057" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77030">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77056" count="1-2" chance="50" />
+				<resource id="77057" count="1" chance="3" />
+				<resource id="77058" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77031">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77056" count="1-3" chance="50" />
+				<resource id="77057" count="1" chance="4" />
+				<resource id="77058" count="1" chance="3" />
+				<resource id="77059" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77032">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77056" count="1-4" chance="50" />
+				<resource id="77057" count="1" chance="5" />
+				<resource id="77058" count="1" chance="4" />
+				<resource id="77059" count="1" chance="3" />
+				<resource id="77060" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77056" count="1-4" chance="50" />
+				<resource id="77057" count="1" chance="5" />
+				<resource id="77058" count="1" chance="4" />
+				<resource id="77059" count="1" chance="3" />
+				<resource id="77060" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40908" name="40908" title="Stone">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="ResourceNpc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="60" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="3900.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="1.47458" />
+		<set name="basePDef" value="1200.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="1.78704" />
+		<set name="baseMDef" value="1200.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77021">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77041" count="1" chance="50" />
+				<resource id="77042" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77022">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77041" count="1-2" chance="50" />
+				<resource id="77042" count="1" chance="3" />
+				<resource id="77043" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77023">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77041" count="1-3" chance="50" />
+				<resource id="77042" count="1" chance="4" />
+				<resource id="77043" count="1" chance="3" />
+				<resource id="77044" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77024">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77041" count="1-4" chance="50" />
+				<resource id="77042" count="1" chance="5" />
+				<resource id="77043" count="1" chance="4" />
+				<resource id="77044" count="1" chance="3" />
+				<resource id="77045" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77041" count="1-4" chance="50" />
+				<resource id="77042" count="1" chance="5" />
+				<resource id="77043" count="1" chance="4" />
+				<resource id="77044" count="1" chance="3" />
+				<resource id="77045" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+
+	<npc id="40911" name="40911" title="Stone">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="ResourceNpc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="60" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="3900.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="1200.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="1200.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77021">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77041" count="1" chance="50" />
+				<resource id="77042" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77022">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77041" count="1-2" chance="50" />
+				<resource id="77042" count="1" chance="3" />
+				<resource id="77043" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77023">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77041" count="1-3" chance="50" />
+				<resource id="77042" count="1" chance="4" />
+				<resource id="77043" count="1" chance="3" />
+				<resource id="77044" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77024">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77041" count="1-4" chance="50" />
+				<resource id="77042" count="1" chance="5" />
+				<resource id="77043" count="1" chance="4" />
+				<resource id="77044" count="1" chance="3" />
+				<resource id="77045" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77041" count="1-4" chance="50" />
+				<resource id="77042" count="1" chance="5" />
+				<resource id="77043" count="1" chance="4" />
+				<resource id="77044" count="1" chance="3" />
+				<resource id="77045" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40912" name="40912" title="Stone">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="ResourceNpc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="60" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="3900.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="1200.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="1200.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77021">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77041" count="1" chance="50" />
+				<resource id="77042" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77022">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77041" count="1-2" chance="50" />
+				<resource id="77042" count="1" chance="3" />
+				<resource id="77043" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77023">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77041" count="1-3" chance="50" />
+				<resource id="77042" count="1" chance="4" />
+				<resource id="77043" count="1" chance="3" />
+				<resource id="77044" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77024">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77041" count="1-4" chance="50" />
+				<resource id="77042" count="1" chance="5" />
+				<resource id="77043" count="1" chance="4" />
+				<resource id="77044" count="1" chance="3" />
+				<resource id="77045" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77041" count="1-4" chance="50" />
+				<resource id="77042" count="1" chance="5" />
+				<resource id="77043" count="1" chance="4" />
+				<resource id="77044" count="1" chance="3" />
+				<resource id="77045" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40907" name="40907" title="Crystal">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="ResourceNpc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="60" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="3900.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="1.47458" />
+		<set name="basePDef" value="1200.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="1.78704" />
+		<set name="baseMDef" value="1200.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77025">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77046" count="1" chance="50" />
+				<resource id="77047" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77026">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77046" count="1-2" chance="50" />
+				<resource id="77047" count="1-2" chance="3" />
+				<resource id="77048" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77027">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77046" count="1-3" chance="50" />
+				<resource id="77047" count="1" chance="4" />
+				<resource id="77048" count="1" chance="3" />
+				<resource id="77049" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77028">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77046" count="1-4" chance="50" />
+				<resource id="77047" count="1" chance="5" />
+				<resource id="77048" count="1" chance="4" />
+				<resource id="77049" count="1" chance="3" />
+				<resource id="77050" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77046" count="1-4" chance="50" />
+				<resource id="77047" count="1" chance="5" />
+				<resource id="77048" count="1" chance="4" />
+				<resource id="77049" count="1" chance="3" />
+				<resource id="77050" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40910" name="40910" title="Crystal">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="ResourceNpc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="60" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="3900.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="1.47458" />
+		<set name="basePDef" value="1200.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="1.78704" />
+		<set name="baseMDef" value="1200.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77025">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77046" count="1" chance="50" />
+				<resource id="77047" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77026">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77046" count="1-2" chance="50" />
+				<resource id="77047" count="1-2" chance="3" />
+				<resource id="77048" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77027">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77046" count="1-3" chance="50" />
+				<resource id="77047" count="1" chance="4" />
+				<resource id="77048" count="1" chance="3" />
+				<resource id="77049" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77028">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77046" count="1-4" chance="50" />
+				<resource id="77047" count="1" chance="5" />
+				<resource id="77048" count="1" chance="4" />
+				<resource id="77049" count="1" chance="3" />
+				<resource id="77050" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77046" count="1-4" chance="50" />
+				<resource id="77047" count="1" chance="5" />
+				<resource id="77048" count="1" chance="4" />
+				<resource id="77049" count="1" chance="3" />
+				<resource id="77050" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+	<npc id="40914" name="40914" title="Crystal">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="ResourceNpc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="60" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="3900.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="1200.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="1200.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+			<set name="max_pursue_range" value="600" />
+		</ai_params>
+		<resources hit_chance_to_die="5" max_hits_to_die="25">
+			<with_weapon id="77025">
+				<resource id="77034" count="1" chance="2" />
+				<resource id="77046" count="1" chance="50" />
+				<resource id="77047" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77026">
+				<resource id="77034" count="1" chance="3" />
+				<resource id="77046" count="1-2" chance="50" />
+				<resource id="77047" count="1" chance="3" />
+				<resource id="77048" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77027">
+				<resource id="77034" count="1" chance="4" />
+				<resource id="77046" count="1-3" chance="50" />
+				<resource id="77047" count="1" chance="4" />
+				<resource id="77048" count="1" chance="3" />
+				<resource id="77049" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77028">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77046" count="1-4" chance="50" />
+				<resource id="77047" count="1" chance="5" />
+				<resource id="77048" count="1" chance="4" />
+				<resource id="77049" count="1" chance="3" />
+				<resource id="77050" count="1" chance="2" />
+			</with_weapon>
+			<with_weapon id="77033">
+				<resource id="77034" count="1" chance="5" />
+				<resource id="77046" count="1-4" chance="50" />
+				<resource id="77047" count="1" chance="5" />
+				<resource id="77048" count="1" chance="4" />
+				<resource id="77049" count="1" chance="3" />
+				<resource id="77050" count="1" chance="2" />
+			</with_weapon>
+		</resources>
+	</npc>
+
+	<npc id="40913" name="40913" title="">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="Npc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="1" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+		</ai_params>
+	</npc>
+	<npc id="40909" name="40909" title="">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="Npc" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="11" />
+		<set name="collision_radius" value="13" />
+		<set name="level" value="1" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<ai_params>
+			<set name="show_name" value="false" />
+		</ai_params>
+	</npc>
+	<npc id="40800" name="Fortress Defender" title="Guard">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="collision_height" value="0.1"/>
+		<set name="collision_radius" value="0.1"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<skills>
+			<skill id="4416" level="6" />	<!--휴머노이드-->
+			<skill id="5465" level="1" />	<!--땅 속성-->
+			<skill id="4410" level="7" />	<!--공격력이 약함-->
+			<skill id="4414" level="1" />	<!--중장갑형-->
+		</skills>
+	</npc>
+	<npc id="40801" name="Foreman" title="Fortress Manager">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2676"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1507"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="castle_id" value="2"/>
+		<set name="collision_height" value="21.5"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="563"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</skills>
+	</npc>
+	<npc id="40803" name="Dayana" title="Farmer">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="castle_id" value="1"/>
+		<set name="collision_height" value="21.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</skills>
+	</npc>
+	<npc id="40804" name="Look" title="Miner">
+		<set name="baseRandDam" value="12"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="88"/>
+		<set name="baseHpMax" value="1"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="1100"/>
+		<set name="baseINT" value="124"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="baseMEN" value="153"/>
+		<set name="baseMpMax" value="1"/>
+		<set name="baseMpReg" value="99"/>
+		<set name="basePAtk" value="4900"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseSTR" value="71"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="83"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="19.7"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="99"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+	</npc>
+	<npc id="40805" name="Momot" title="Chief Blacksmith">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="16.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</skills>
+	</npc>
+	<npc id="40806" name="Lorn" title="Forester">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="16.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</skills>
+	</npc>
+	<npc id="40807" name="Harmed Beetle" title="Quest">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.35"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseHpMax" value="573"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="59.01367"/>
+		<set name="baseMDef" value="76.57227"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseMpMax" value="315"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="basePAtk" value="86.42002"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="115.00598"/>
+		<set name="baseRunSpd" value="60"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="66"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="collision_height" value="8"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="29"/>
+		<set name="rewardExp" value="1367"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="8"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<skills>
+			<skill id="4035" level="2"/>	<!--Poison-->
+			<skill id="4279" level="1"/>	<!--Fire Attack Weak Point-->
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4416" level="12"/>	<!--Bugs-->
+		</skills>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+	</npc>
+	<npc id="40808" name="Ruined Wall" title="Quest">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="60"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+		<skills>
+			<skill id="4416" level="2"/>	<!--Magic Creatures-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="150"/>
+			<defence attribute="water" value="150"/>
+			<defence attribute="wind" value="150"/>
+			<defence attribute="earth" value="150"/>
+			<defence attribute="holy" value="150"/>
+			<defence attribute="unholy" value="150"/>
+		</attributes>
+	</npc>
+	<npc id="40809" name="Young Apple Tree" title="Quest">
+		<set name="baseRandDam" value="14"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="59"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="75"/>
+		<set name="baseHpMax" value="356248"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="1100"/>
+		<set name="baseINT" value="124"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="baseMEN" value="85"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="99"/>
+		<set name="basePAtk" value="4900"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="71"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="71"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="50.5"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="99"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+	</npc>
+	<npc id="40810" name="Fruiting Apple Tree" title="Quest">
+		<set name="baseRandDam" value="14"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="96"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="98"/>
+		<set name="baseHpMax" value="1"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseINT" value="59"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="4900"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="109"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="128"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="50.5"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="99"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+	</npc>
+	<npc id="40811" name="Broken Сatapult" title="Quest">
+		<set name="baseRandDam" value="13"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="41"/>
+		<set name="baseHpMax" value="2880.376"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseINT" value="74"/>
+		<set name="baseMAtk" value="1145"/>
+		<set name="baseMDef" value="469"/>
+		<set name="baseMEN" value="72"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="basePAtk" value="1799"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="577"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="109"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="64"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="collision_height" value="0.1"/>
+		<set name="collision_radius" value="0.1"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Monster"/>
+	</npc>
+	<npc id="40813" name="Farmer Gateekeper" title="Teleporter">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="21.3"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</skills>
+	</npc>
+	<npc id="40814" name="Young Scarecrow" title="Scarecrow">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="75"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseHpMax" value="39"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="5.78704"/>
+		<set name="baseMDef" value="32.52252"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseMpMax" value="40"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="basePAtk" value="8.47458"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="44.44444"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="66"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="collision_height" value="37.5"/>
+		<set name="collision_radius" value="27"/>
+		<set name="level" value="1"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value="LineageNpcEV.puppet"/>
+		<set name="type" value="residences.farm.SteadScarecrow"/>
+		<ai_params>
+			<set name="noChatWindow" value="false"/>
+		</ai_params>
+	</npc>
+	<npc id="40815" name="Scary Scarecrow" title="Scarecrow">
+		<set name="baseRandDam" value="14"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="88"/>
+		<set name="baseHpMax" value="4234"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="1100"/>
+		<set name="baseINT" value="124"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="baseMEN" value="153"/>
+		<set name="baseMpMax" value="1846"/>
+		<set name="baseMpReg" value="99"/>
+		<set name="basePAtk" value="4900"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="3840"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseSTR" value="71"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="83"/>
+		<set name="baseWalkSpd" value="23"/>
+		<set name="collision_height" value="30"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="99"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="residences.farm.SteadScarecrow"/>
+	</npc>
+	<npc id="40816" name="Well" title="">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="37"/>
+		<set name="collision_radius" value="33"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="residences.farm.Well"/>
+		<skills>
+			<skill id="4416" level="19"/>	<!--Others-->
+		</skills>
+	</npc>
+	<npc id="40817" name="Treasury" title="Water Treasury">
+		<set name="baseRandDam" value="10"/>
+		<set name="fraction" value="WATER" />
+		<set name="isHealBlocked" value="true" />
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="14"/>
+		<set name="collision_radius" value="18"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="19"/>	<!--Others-->
+		</skills>
+	</npc>
+	<npc id="40917" name="Treasury" title="Fire Treasury">
+		<set name="baseRandDam" value="10"/>
+		<set name="fraction" value="FIRE" />
+		<set name="isHealBlocked" value="true" />
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="14"/>
+		<set name="collision_radius" value="18"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="19"/>	<!--Others-->
+		</skills>
+	</npc>
+	<npc id="40918" name="Holiday Bae Kisung" title="">
+		<set name="baseRandDam" value="14"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="TownBuffer"/>
+		<set name="baseAtkRange" value="0"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="8446"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="1000"/>
+		<set name="baseMDef" value="700"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="2355"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="1000"/>
+		<set name="basePAtkSpd" value="230"/>
+		<set name="basePDef" value="700"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="99"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="HolidayBuffer"/>
+		<ai_params>
+			<set name="walker_route_id" value="155" />
+		</ai_params>
+		<skills>
+			<skill id="4416" level="6"/>	<!--Гуманоиды-->
+		</skills>
+		<walker_route id="155" type="ROUND">
+			<route_point x="82232" y="55176" z="-1520" />
+			<route_point x="82456" y="54664" z="-1520" />
+			<route_point x="82648" y="54552" z="-1520" />
+			<route_point x="82679" y="54392" z="-1520" />
+			<route_point x="82648" y="54568" z="-1520" />
+			<route_point x="82472" y="54536" z="-1520" />
+			<route_point x="82488" y="54200" z="-1488" />
+			<route_point x="82664" y="54120" z="-1488" />
+			<route_point x="82920" y="53992" z="-1488" />
+			<route_point x="83000" y="53592" z="-1488" />
+			<route_point x="83144" y="53608" z="-1448" />
+			<route_point x="83288" y="53576" z="-1448" />
+			<route_point x="83480" y="53560" z="-1456" />
+			<route_point x="83560" y="53304" z="-1456" />
+			<route_point x="83640" y="53016" z="-1456" />
+			<route_point x="83512" y="53480" z="-1456" />
+			<route_point x="83480" y="53576" z="-1456" />
+			<route_point x="83352" y="53576" z="-1448" />
+			<route_point x="83144" y="53544" z="-1448" />
+			<route_point x="82984" y="53464" z="-1488" />
+			<route_point x="82952" y="53256" z="-1488" />
+			<route_point x="82856" y="53144" z="-1488" />
+			<route_point x="82696" y="53096" z="-1488" />
+			<route_point x="82552" y="53191" z="-1488" />
+			<route_point x="82536" y="53256" z="-1488" />
+			<route_point x="82376" y="53272" z="-1488" />
+			<route_point x="82072" y="53351" z="-1488" />
+			<route_point x="81864" y="53512" z="-1488" />
+			<route_point x="81560" y="53591" z="-1488" />
+			<route_point x="81176" y="53592" z="-1552" />
+			<route_point x="80760" y="53607" z="-1552" />
+			<route_point x="80536" y="53624" z="-1552" />
+			<route_point x="80296" y="53448" z="-1552" />
+			<route_point x="80136" y="53448" z="-1552" />
+			<route_point x="80088" y="53304" z="-1552" />
+			<route_point x="79848" y="53272" z="-1552" />
+			<route_point x="79640" y="53272" z="-1552" />
+			<route_point x="79624" y="53416" z="-1544" />
+			<route_point x="79592" y="53496" z="-1544" />
+			<route_point x="79224" y="53560" z="-1544" />
+			<route_point x="79208" y="53640" z="-1544" />
+			<route_point x="79336" y="53672" z="-1544" />
+			<route_point x="79592" y="53512" z="-1544" />
+			<route_point x="79624" y="53448" z="-1544" />
+			<route_point x="79656" y="53272" z="-1552" />
+			<route_point x="79895" y="53240" z="-1552" />
+			<route_point x="80215" y="53431" z="-1552" />
+			<route_point x="80248" y="53608" z="-1552" />
+			<route_point x="80216" y="53960" z="-1560" />
+			<route_point x="80232" y="54232" z="-1552" />
+			<route_point x="80264" y="54824" z="-1552" />
+			<route_point x="80264" y="54968" z="-1552" />
+			<route_point x="80424" y="55480" z="-1552" />
+			<route_point x="80456" y="55768" z="-1552" />
+			<route_point x="80760" y="55864" z="-1552" />
+			<route_point x="80952" y="55720" z="-1552" />
+			<route_point x="80968" y="55464" z="-1520" />
+			<route_point x="81000" y="55144" z="-1520" />
+			<route_point x="81048" y="54840" z="-1520" />
+			<route_point x="81096" y="54712" z="-1520" />
+			<route_point x="81224" y="54712" z="-1504" />
+			<route_point x="81304" y="54728" z="-1504" />
+			<route_point x="81400" y="54840" z="-1504" />
+			<route_point x="81752" y="55112" z="-1504" />
+			<route_point x="81688" y="55239" z="-1504" />
+			<route_point x="81672" y="55304" z="-1504" />
+			<route_point x="81672" y="55400" z="-1520" />
+			<route_point x="81672" y="55480" z="-1520" />
+			<route_point x="81784" y="55672" z="-1520" />
+			<route_point x="81944" y="55704" z="-1520" />
+			<route_point x="82488" y="55896" z="-1520" />
+			<route_point x="83112" y="56088" z="-1520" />
+			<route_point x="83400" y="56184" z="-1520" />
+			<route_point x="83640" y="56104" z="-1520" />
+			<route_point x="83416" y="55960" z="-1520" />
+			<route_point x="83256" y="55800" z="-1520" />
+			<route_point x="83288" y="55608" z="-1520" />
+			<route_point x="83096" y="55480" z="-1520" />
+			<route_point x="82680" y="55400" z="-1520" />
+		</walker_route>
+	</npc>
+	<npc id="40919" name="Mazay" title="">
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="collision_height" value="18"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="Npc"/>
+		<skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</skills>
+	</npc>
+	<npc id="40930" name="Ellis" title="Farm Manager">
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseCON" value="82"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseHpMax" value="2444"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseMpMax" value="1345"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseSTR" value="89"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseWIT" value="78"/>
+		<set name="baseWalkSpd" value="70"/>
+		<set name="collision_height" value="0.1"/>
+		<set name="collision_radius" value="0.1"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="type" value="residences.farm.SteadManager"/>
+	</npc>
+</list>

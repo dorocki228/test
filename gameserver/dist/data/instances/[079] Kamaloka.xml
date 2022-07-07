@@ -1,0 +1,87 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<!-- Rune Township: NPC Mathias (Level 81) -->
+	<instance id="79" name="Kamaloka (Labyrinth of the Abyss)" maxChannels="15" collapseIfEmpty="3" timelimit="60" dispelBuffs="true">
+		<collapse on-party-dismiss="true" timer="900"/>
+		<level min="76" max="80"/>
+		<party min="3" max="5"/>
+		<return loc="13816 182488 -3568"/>
+		<teleport loc="21944 -174888 -10904"/>
+		<remove itemId="49543" count="1" necessary="true"/>
+		<give itemId="0" count="0"/>
+		<quest id="0"/>
+		<reuse resetReuse="30 6 * * *" setUponEntry="true" sharedReuseGroup="3"/>
+		<add_parameters>
+			<!-- Нпс который заспавнится после смерти Lost Captain -->
+			<param name="returnNpc" value="40525"/>
+			<!-- локация нпс который заспавнится после смерти Lost Captain -->
+			<param name="returnNpcLoc" value="12047 -174887 -9944"/>
+		</add_parameters>
+		<rewards>
+			<reward itemId="75306" count="20" chance="100.0" />
+		</rewards>
+		<spawns>
+			<!-- Buffer -->
+			<spawn mobId="40005" type="point">
+				<coords loc="21848 -174888 -10904 0"/>
+			</spawn>
+			<!-- Room 1 -->
+			<spawn mobId="40514" type="point">
+				<coords loc="20488 -174328 -10888 0"/>
+				<coords loc="20488 -174408 -10888 0"/>
+				<coords loc="20488 -174232 -10888 0"/>
+				<coords loc="20488 -175336 -10888 0"/>
+				<coords loc="20488 -175448 -10888 0"/>
+				<coords loc="20488 -175555 -10888 0"/>
+			</spawn>
+			<spawn mobId="40515" type="point">
+				<coords loc="20920 -174760 -10896 0"/>
+				<coords loc="20920 -174888 -10896 0"/>
+				<coords loc="20920 -175016 -10896 0"/>
+				<coords loc="20488 -175144 -10912 0"/>
+				<coords loc="20503 -174633 -10912 0"/>
+				<coords loc="19960 -175048 -10896 0"/>
+				<coords loc="19960 -174888 -10896 0"/>
+				<coords loc="19960 -174728 -10896 0"/>
+			</spawn>
+			<spawn mobId="40516" type="point">
+				<coords loc="20616 -175016 -10912 0"/>
+				<coords loc="20616 -174744 -10912 0"/>
+				<coords loc="20376 -174744 -10912 0"/>
+				<coords loc="20392 -175016 -10912 0"/>
+				<coords loc="20488 -175016 -10912 0"/>
+				<coords loc="20504 -174744 -10912 0"/>
+			</spawn>
+			<!-- Room2 -->
+			<spawn mobId="40517" type="point">
+				<coords loc="18744 -174888 -10632 0"/>
+				<coords loc="18167 -174313 -10624 0"/>
+				<coords loc="18168 -175432 -10624 0"/>
+				<coords loc="17608 -174776 -10632 0"/>
+				<coords loc="17608 -174984 -10632 0"/>
+			</spawn>
+			<spawn mobId="40518" type="point">
+				<coords loc="18248 -175096 -10648 0"/>
+				<coords loc="18232 -174888 -10648 0"/>
+				<coords loc="18248 -174664 -10648 0"/>
+				<coords loc="18056 -175096 -10648 0"/>
+				<coords loc="18024 -174888 -10648 0"/>
+				<coords loc="18056 -174696 -10648 0"/>
+			</spawn>
+			<spawn mobId="40519" type="point">
+				<coords loc="18616 -174392 -10632 0"/>
+				<coords loc="18600 -175368 -10632 0"/>
+				<coords loc="17656 -175400 -10632 0"/>
+				<coords loc="17656 -174344 -10632 0"/>
+			</spawn>
+			<!-- Room 3 -->
+			<spawn mobId="40522" type="point">
+				<coords loc="15832 -174888 -10384 0"/>
+			</spawn>
+			<!-- BOSS: Lost Captain -->
+			<spawn mobId="40523" type="point">
+				<coords loc="12056 -174888 -9944 0"/>
+			</spawn>
+		</spawns>
+	</instance>
+</list>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+
+<list>
+    <npc id="21189" name="Gigant Overseer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="34.0"/>
+        <set name="collision_radius" value="12.0"/>
+        <set name="level" value="77"/>
+        <set name="rewardExp" value="61605"/>
+        <set name="rewardSp" value="1500"/>
+        <set name="baseHpMax" value="1637.17856"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="3.5"/>
+        <set name="baseMpMax" value="286.92"/>
+        <set name="baseMpReg" value="1.5"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="721.99121"/>
+        <set name="basePDef" value="560.28767"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="510.20928"/>
+        <set name="baseMDef" value="760.0991544841329"/>
+        <set name="baseWalkSpd" value="49"/>
+        <set name="baseRunSpd" value="130"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="4.75"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.5"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <faction names="c_dungeon_clan" range="400">
+            <ignore npc_id="21166"/>
+            <!--Lith Scout -->
+            <ignore npc_id="21167"/>
+            <!--Lith Witch -->
+            <ignore npc_id="21168"/>
+            <!--Lith Warrior -->
+            <ignore npc_id="21169"/>
+            <!--Lith Guard -->
+            <ignore npc_id="21170"/>
+            <!--Lith Medium -->
+            <ignore npc_id="21171"/>
+            <!--Lith Prefect -->
+            <ignore npc_id="21172"/>
+            <!--Lith Patrolman -->
+            <ignore npc_id="21173"/>
+            <!--Lith Shaman -->
+            <ignore npc_id="21174"/>
+            <!--Lith Commander -->
+        </faction>
+        <equip>
+            <rhand item_id="5792"/>
+            <!--Tomb Guard B -->
+        </equip>
+        <client_skills>
+            <skill id="4416" level="8"/>
+            <!--Divine -->
+            <skill id="4408" level="12"/>
+            <!--HP Increase (4x) -->
+            <skill id="4410" level="13"/>
+            <!--Slightly Strong P. Atk. -->
+            <skill id="4411" level="13"/>
+            <!--Slightly Strong M. Atk. -->
+            <skill id="4412" level="9"/>
+            <!--Slightly Weak P. Def. -->
+            <skill id="4413" level="9"/>
+            <!--Slightly Weak M. Def. -->
+            <skill id="4336" level="2"/>
+            <!--Dark Attack Vulnerability -->
+            <skill id="4287" level="3"/>
+            <!--Hold Resistance -->
+            <skill id="4285" level="3"/>
+            <!--Sleep Resistance -->
+            <skill id="4071" level="3"/>
+            <!--Bow/Crossbow Resistance -->
+            <skill id="4273" level="3"/>
+            <!--Dagger/Rapier Resistance -->
+        </client_skills>
+        <skills>
+            <skill id="4409" level="1"/>
+            <!--MP Increase (1x) -->
+            <skill id="4414" level="2"/>
+            <!--Standard Type -->
+            <skill id="4415" level="3"/>
+            <!--One-handed Sword -->
+            <skill id="4029" level="2" use_type="Buff"/>
+            <!--Shield -->
+        </skills>
+        <rewardlist type="RATED_NOT_GROUPED">
+            <reward item_id="57" min="1" max="1" chance="60" />
+            <reward item_id="75011" min="1" max="1" chance="7.0"/>
+            <reward item_id="75012" min="1" max="1" chance="5.00"/>
+            <reward item_id="75013" min="1" max="1" chance="3.00"/>
+            <reward item_id="75021" min="1" max="1" chance="6.00"/>
+            <reward item_id="75016" min="1" max="1" chance="20.00"/>
+            <reward item_id="75018" min="1" max="1" chance="1.10"/>
+            <reward item_id="75019" min="1" max="1" chance="0.50"/>
+            <reward item_id="75020" min="1" max="1" chance="0.03"/>
+            <reward item_id="75014" min="1" max="1" chance="0.20"/>
+            <reward item_id="75022" min="1" max="1" chance="6"/>
+            <reward item_id="77400" min="1" max="1" chance="3"/>
+            <reward item_id="77219" min="1" max="1" chance="0.1"/>
+
+            <!--<reward item_id="77702" min="1" max="1" chance="0.05"/> &lt;!&ndash; Box Weapon B &ndash;&gt;
+            <reward item_id="77705" min="1" max="1" chance="0.1"/> &lt;!&ndash; Box Armor B &ndash;&gt;
+            <reward item_id="77708" min="1" max="1" chance="0.07"/> &lt;!&ndash; Box Jewelry B &ndash;&gt;-->
+
+            <!--STAGE2NTC-->
+            <reward item_id="77703" min="1" max="1" chance="0.04"/> <!-- Box Weapon A -->
+            <reward item_id="77706" min="1" max="1" chance="0.1"/> <!-- Box Armor A -->
+            <reward item_id="77709" min="1" max="1" chance="0.08"/> <!-- Box Jewelry A -->
+
+            <reward item_id="77704" min="1" max="1" chance="0.001"/> <!-- Box Weapon S -->
+            <reward item_id="77707" min="1" max="1" chance="0.003"/> <!-- Box Armor S -->
+            <reward item_id="77710" min="1" max="1" chance="0.002"/> <!-- Box Jewelry S -->
+        </rewardlist>
+    </npc>
+    <npc id="20354" name="Dwarf Ghost" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="collision_height" value="16.5"/>
+        <set name="collision_radius" value="9.0"/>
+        <set name="level" value="79"/>
+        <set name="rewardExp" value="61505"/>
+        <set name="rewardSp" value="1500"/>
+        <set name="baseHpMax" value="7237.5127"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="2.5"/>
+        <set name="baseMpMax" value="192"/>
+        <set name="baseMpReg" value="1.2"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="721.32863"/>
+        <set name="basePDef" value="560.87049"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="30.2707"/>
+        <set name="baseMDef" value="460.8393570613084"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="baseRunSpd" value="140"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="4.75"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.39"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="450"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <faction names="ghost_clan" range="300"/>
+        <client_skills>
+            <skill id="4416" level="1"/>
+            <!--Undead -->
+            <skill id="4410" level="12"/>
+            <!--Slightly Strong P. Atk. -->
+            <skill id="4411" level="12"/>
+            <!--Slightly Strong M. Atk. -->
+            <skill id="4412" level="10"/>
+            <!--Slightly Weak P. Def. -->
+            <skill id="4413" level="10"/>
+            <!--Slightly Weak M. Def. -->
+            <skill id="4275" level="2"/>
+            <!--Holy Attack Vulnerability -->
+            <skill id="4278" level="1"/>
+            <!--Dark Attack -->
+        </client_skills>
+        <skills>
+            <skill id="4408" level="1"/>
+            <!--HP Increase (1x) -->
+            <skill id="4409" level="1"/>
+            <!--MP Increase (1x) -->
+            <skill id="4414" level="2"/>
+            <!--Standard Type -->
+            <skill id="4415" level="3"/>
+            <!--One-handed Sword -->
+            <skill id="4002" level="2" use_type="DDMagic"/>
+            <!--Blood Siphon -->
+        </skills>
+        <rewardlist type="RATED_NOT_GROUPED">
+            <reward item_id="57" min="1" max="1" chance="60" />
+            <reward item_id="75011" min="1" max="1" chance="8.0"/>
+            <reward item_id="75012" min="1" max="1" chance="6.00"/>
+            <reward item_id="75013" min="1" max="1" chance="3.50"/>
+            <reward item_id="75021" min="1" max="1" chance="6.00"/>
+            <reward item_id="75016" min="1" max="1" chance="20.00"/>
+            <reward item_id="75018" min="1" max="1" chance="1.20"/>
+            <reward item_id="75019" min="1" max="1" chance="0.60"/>
+            <reward item_id="75020" min="1" max="1" chance="0.03"/>
+            <reward item_id="75014" min="1" max="1" chance="0.20"/>
+            <reward item_id="75022" min="1" max="1" chance="6"/>
+            <reward item_id="77400" min="1" max="1" chance="3"/>
+            <reward item_id="77219" min="1" max="1" chance="0.1"/>
+            <!--<reward item_id="77702" min="1" max="1" chance="0.05"/> &lt;!&ndash; Box Weapon B &ndash;&gt;
+            <reward item_id="77705" min="1" max="1" chance="0.1"/> &lt;!&ndash; Box Armor B &ndash;&gt;
+            <reward item_id="77708" min="1" max="1" chance="0.07"/> &lt;!&ndash; Box Jewelry B &ndash;&gt;-->
+
+            <!--STAGE2NTC-->
+            <reward item_id="77703" min="1" max="1" chance="0.04"/> <!-- Box Weapon A -->
+            <reward item_id="77706" min="1" max="1" chance="0.1"/> <!-- Box Armor A -->
+            <reward item_id="77709" min="1" max="1" chance="0.08"/> <!-- Box Jewelry A -->
+
+            <reward item_id="77704" min="1" max="1" chance="0.001"/> <!-- Box Weapon S -->
+            <reward item_id="77707" min="1" max="1" chance="0.003"/> <!-- Box Armor S -->
+            <reward item_id="77710" min="1" max="1" chance="0.002"/> <!-- Box Jewelry S -->
+        </rewardlist>
+    </npc>
+    <npc id="20817" name="Corrupt Sage" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="collision_height" value="40.0"/>
+        <set name="collision_radius" value="12.0"/>
+        <set name="level" value="83"/>
+        <set name="rewardExp" value="61405"/>
+        <set name="rewardSp" value="1500"/>
+        <set name="baseHpMax" value="2737.8102"/>
+        <set name="baseHpRate" value="3"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="825.4099"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="45"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="27"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="baseMCritRate" value="50"/>
+        <!--TODO: Проверить. -->
+        <set name="basePAtk" value="721.02275"/>
+        <set name="basePDef" value="565.04468"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="383.78868"/>
+        <set name="baseMDef" value="530.801362329617"/>
+        <set name="baseWalkSpd" value="70"/>
+        <set name="baseRunSpd" value="160"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseRandDam" value="50"/>
+        <set name="baseAttackType" value="BLUNT"/>
+        <set name="basePHitModify" value="9"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.74"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="450"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <faction names="tower_ghost_clan" range="400"/>
+        <equip>
+            <rhand item_id="210"/>
+            <!--Staff of Evil Spirits -->
+        </equip>
+        <client_skills>
+            <skill id="4416" level="9"/>
+            <skill id="4408" level="12"/>
+            <skill id="4410" level="12"/>
+            <skill id="4411" level="15"/>
+            <skill id="4412" level="13"/>
+            <skill id="4413" level="10"/>
+            <skill id="4414" level="3"/>
+            <skill id="4278" level="1"/>
+        </client_skills>
+        <skills>
+            <skill id="4409" level="1"/>
+            <!--MP Increase (1x) -->
+            <skill id="4415" level="5"/>
+            <!--Blunt Weapon -->
+            <skill id="4155" level="6" use_type="W_LongRangeDDMagic"/>
+            <!--Twister -->
+            <skill id="4160" level="6" use_type="W_ShortRangeDDMagic"/>
+            <!--Aura Burn -->
+            <skill id="4118" level="6" use_type="DeBuff"/>
+            <!--Paralysis -->
+        </skills>
+        <rewardlist type="RATED_NOT_GROUPED">
+            <reward item_id="57" min="1" max="1" chance="60" />
+            <reward item_id="75011" min="1" max="1" chance="10.0"/>
+            <reward item_id="75012" min="1" max="1" chance="8.00"/>
+            <reward item_id="75013" min="1" max="1" chance="5.00"/>
+            <reward item_id="75021" min="1" max="1" chance="6.00"/>
+            <reward item_id="75016" min="1" max="1" chance="22.00"/>
+            <reward item_id="75018" min="1" max="1" chance="1.50"/>
+            <reward item_id="75019" min="1" max="1" chance="0.80"/>
+            <reward item_id="75020" min="1" max="1" chance="0.03"/>
+            <reward item_id="75014" min="1" max="1" chance="0.20"/>
+            <reward item_id="75022" min="1" max="1" chance="7"/>
+            <reward item_id="77400" min="1" max="1" chance="3"/>
+            <reward item_id="77219" min="1" max="1" chance="0.1"/>
+            <!--<reward item_id="77702" min="1" max="1" chance="0.05"/> &lt;!&ndash; Box Weapon B &ndash;&gt;
+            <reward item_id="77705" min="1" max="1" chance="0.1"/> &lt;!&ndash; Box Armor B &ndash;&gt;
+            <reward item_id="77708" min="1" max="1" chance="0.07"/> &lt;!&ndash; Box Jewelry B &ndash;&gt;-->
+
+            <!--STAGE2NTC-->
+            <reward item_id="77703" min="1" max="1" chance="0.04"/> <!-- Box Weapon A -->
+            <reward item_id="77706" min="1" max="1" chance="0.1"/> <!-- Box Armor A -->
+            <reward item_id="77709" min="1" max="1" chance="0.08"/> <!-- Box Jewelry A -->
+
+            <reward item_id="77704" min="1" max="1" chance="0.001"/> <!-- Box Weapon S -->
+            <reward item_id="77707" min="1" max="1" chance="0.003"/> <!-- Box Armor S -->
+            <reward item_id="77710" min="1" max="1" chance="0.002"/> <!-- Box Jewelry S -->
+        </rewardlist>
+    </npc>
+</list>

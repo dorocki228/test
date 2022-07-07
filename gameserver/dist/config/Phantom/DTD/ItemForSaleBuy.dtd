@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT text EMPTY>
+<!ATTLIST text
+	text CDATA #REQUIRED
+>
+<!ELEMENT spawn EMPTY>
+<!ATTLIST spawn
+	location_chance CDATA #REQUIRED
+>
+<!ELEMENT signboard ((text+))>
+<!ELEMENT sell ((enchant*))>
+<!ATTLIST sell
+	sell_price CDATA #REQUIRED
+>
+<!ELEMENT list ((spawn, chance_type, item+))>
+<!ELEMENT item ((sell, buy, signboard, ads))>
+<!ATTLIST item
+	count CDATA #IMPLIED
+	id CDATA #REQUIRED
+	location CDATA #REQUIRED
+>
+<!ELEMENT enchant EMPTY>
+<!ATTLIST enchant
+	enchant CDATA #REQUIRED
+	enchant_chance CDATA #REQUIRED
+	sell_price CDATA #REQUIRED
+>
+<!ELEMENT chance_type EMPTY>
+<!ATTLIST chance_type
+	sell_buy CDATA #REQUIRED
+>
+<!ELEMENT buy EMPTY>
+<!ATTLIST buy
+	buy_price CDATA #REQUIRED
+>
+<!ELEMENT ads ((text+))>

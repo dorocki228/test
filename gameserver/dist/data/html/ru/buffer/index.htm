@@ -1,0 +1,195 @@
+<html>
+<head>
+	<title>Glory World - Баффер</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358>
+	<tr>
+		<td align="center">
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td align=center height=10></td>
+				</tr>
+				<tr>
+					<td align=center>
+						<img src=icon.skill1388 width=32 height=32>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Бафы" action="bypass -h npc_%objectId%_Chat 1" width=65 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align=center>
+						<img src=icon.skill1414 width=32 height=32>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Чанты" action="bypass -h npc_%objectId%_Chat 4" width=65 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align=center>
+						<img src=icon.skill0269 width=32 height=32>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Сонги" action="bypass -h npc_%objectId%_Chat 6" width=65 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align=center>
+						<img src=icon.skill0272 width=32 height=32 align=left>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Танцы" action="bypass -h npc_%objectId%_Chat 5" width=65 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+
+
+				</tr>
+				<tr>
+					<td align=center height=15></td>
+				</tr>
+			</table>
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td align=center>
+						<img src=icon.skill1542 width=32 height=32>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Премиум" action="bypass -h npc_%objectId%_Chat 7" width=90 height=30
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align=center>
+						<img src=icon.skill3598 width=32 height=32>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Набор Воина" action="bypass -h npc_%objectId%_warriorSet" width=90 height=30
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align=center>
+						<img src=icon.skill3586 width=32 height=32>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="10"></td>
+							</tr>
+						</table>
+						<button value="Набор Мага" action="bypass -h npc_%objectId%_mageSet" width=90 height=30
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+
+				</tr>
+			</table>
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="20"></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<button value="   HP | CP | MP" action="bypass -h npc_%objectId%_regenHpMpCp" width=140 height=30
+								back="L2UI_CT1.HtmlWnd_DF_Reset_Down" fore="L2UI_CT1.HtmlWnd_DF_Reset">
+					</td>
+					<td align="center">
+						<button value="   Снять баффы" action="bypass -h npc_%objectId%_cancel" width=140 height=30
+								back="L2UI_CT1.HtmlWnd_DF_refusal_Down" fore="L2UI_CT1.HtmlWnd_DF_refusal">
+					</td>
+				</tr>
+			</table>
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="15"></td>
+				</tr>
+				<tr>
+					<td align=center>
+						<img src="L2UI_CT1.SiegeReport_dividerH" width=256  height=2>
+					</td>
+				</tr>
+
+				<tr>
+					<td height="15"></td>
+				</tr>
+			</table>
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="15"></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<font color=ffa500 name="hs15">Настройки Профиля</font>
+					</td>
+				</tr>>
+				<tr>
+					<td height="15"></td>
+				</tr>
+
+			</table>
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="15"></td>
+				</tr>
+
+				<tr>
+					<td align="center">
+						<combobox width=135 height=10 var="profile" list="%default_profile%;%profiles%" />
+					</td>
+					<td align="center">
+						<button value="Исп." action="bypass -h npc_%objectId%_use $profile" width=60 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align="center">
+						<button value="Удалить" action="bypass -h npc_%objectId%_delete $profile" width=70 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+				</tr>
+			</table>
+
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="5"></td>
+				</tr>
+
+				<tr>
+					<td align="center">
+						<edit var="box" width=135 height=10/>
+					</td>
+					<td align="center">
+						<button value="Создать" action="bypass -h npc_%objectId%_create $box" width=60 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+					<td align="center">
+						<button value="Переим." action="bypass -h npc_%objectId%_setname $profile $box" width=70 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+				</tr>
+			</table>
+			<table width=292 cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="15"></td>
+				</tr>
+				<tr>
+					<td align=center width=110><font color=ffa000>%default_profile%<font color=ae9977> заполнен на<font
+							color=ffa000> %default_profile_size%</font></td>
+					<td align=center width=110>
+						<button value="Очистить" action="bypass -h npc_%objectId%_clear $profile" width=94 height=25
+								back="L2UI_CT1.Button_DF_Calculator_Down" fore="L2UI_CT1.Button_DF_Calculator">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

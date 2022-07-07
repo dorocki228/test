@@ -1,0 +1,37 @@
+<!ELEMENT list (config|lure|rewards|rod)*>
+
+<!ELEMENT config EMPTY>
+<!ATTLIST config
+  fish_drop_count_rate CDATA #REQUIRED
+  only_premium_accounts NMTOKEN #REQUIRED>
+
+<!ELEMENT lure (fish)*>
+<!ATTLIST lure
+  fail_chance CDATA #REQUIRED
+  duration_min CDATA #REQUIRED
+  duration_max CDATA #REQUIRED
+  id CDATA #REQUIRED>
+
+<!ELEMENT rewards (reward)*>
+<!ATTLIST rewards
+  type CDATA #REQUIRED>
+
+<!ELEMENT rod EMPTY>
+<!ATTLIST rod
+  duration_modifier CDATA #REQUIRED
+  id CDATA #REQUIRED
+  reward_modifier CDATA #REQUIRED
+  shot_consume_count CDATA #REQUIRED
+  refresh_delay CDATA #REQUIRED>
+
+<!ELEMENT fish EMPTY>
+<!ATTLIST fish
+  chance CDATA #REQUIRED
+  id CDATA #REQUIRED
+  reward_type CDATA #REQUIRED>
+
+<!ELEMENT reward EMPTY>
+<!ATTLIST reward
+  max_level CDATA #IMPLIED
+  min_level CDATA #REQUIRED
+  sp CDATA #REQUIRED>

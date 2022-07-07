@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="49" class_name="OrcMage">
+		<nuke_skills>
+			<skill id="1090" condition="MIN_DISTANCE:250;MIN_HP:50"/> <!-- Кража Жизни (Life Drain) -->
+		</nuke_skills>
+		<situation_skills>
+			<skill id="1090" condition="MIN_HP:20"/> <!-- Кража Жизни (Life Drain)  -->
+		</situation_skills>
+		<self_buff_skills>
+			<skill id="1001" condition="SELF_NOT_SKILL_EFFECT:(1001);MIN_HP:50;MAX_MP:50"/> <!-- Крик Души (Soul Cry)  -->
+			<skill id="1001" condition="SELF_SKILL_EFFECT:(1001);MIN_MP:10"/> <!-- Крик Души (Soul Cry)  -->
+		</self_buff_skills>
+		<debuff_skills chance="25">
+			<skill id="1100"/> <!-- Ледяное Пламя (Chill Flame)  -->
+			<skill id="1092"/> <!-- Страх (Fear)  -->			
+		</debuff_skills>
+	</ClassObject>
+ </list>

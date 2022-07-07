@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="89" class_name="Dreadnought">
+		<buff_list buffs="1323,1240,1501,1036,1062,4699,1388,1461,1035,264,265,267,268,269,304,349,363,364,271,274,275,272,310,266,1502,1503,1517,1259,1519,1323,1363,1504,4699,4703,5987,5988"/>
+		<add_castom_skills>
+			<skill id="631" lvl="6"/> <!-- Emergent Ability - Attack -->
+			
+			<skill id="655" lvl="1"/> <!-- Enchanter Ability - Barrier -->
+			<skill id="651" lvl="1"/> <!-- Warrior Ability - Haste -->
+			<rnd>
+				<skill id="650" lvl="1"/> <!-- Навык Воителя - Сопротивление отрицательным ефектам -->
+				<skill id="653" lvl="1"/> <!-- Навык Разбойника - Шанс крит удара -->
+			</rnd>
+		</add_castom_skills>
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="920" ench_route="1"/> <!-- Сокрушительная Мощь (Power Crush) -->
+			<skill id="921" ench_route="1"/> <!-- Острие Иглы (Cursed Pierce) -->
+			<skill id="347" condition="MAX_HP:50;MAX_DISTANCE:150" ench_route="1"/> <!-- Землетрясение (Earthquake) -->
+			<skill id="36" condition="MAX_DISTANCE:150;CHANCE_CAST:30" ench_route="1"/> <!-- Вихрь (Whirlwind)  -->
+		</nuke_skills>
+		<control_skills>
+			<skill id="995" condition="MIN_DISTANCE:100"/> <!-- Стремительный Натиск (Rush Impact) -->
+			<skill id="994" condition="MIN_DISTANCE:100;SKILL_DISABLED:995"/> <!-- Стремительный Бросок (Rush) -->
+			<skill id="361" condition="MIN_DISTANCE:500;TARGET_RUNS_AWAY;MAX_HP:50" ench_route="1"/> <!-- Шокирующий Заряд (Shock Blast) -->
+		</control_skills>
+		<detection_skills>
+			<skill id="48" condition="MAX_DISTANCE:200" ench_route="1"/> <!-- Грозовой Шторм (Thunder Storm) -->
+			<skill id="36" condition="MAX_DISTANCE:150" ench_route="1"/> <!-- Вихрь (Whirlwind)  -->
+		</detection_skills>
+		<self_buff_skills>
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+			<skill id="78"/> <!-- Клич Войны (War Cry)-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="181" condition="MIN_HP:9"/> <!-- Возрождение (Revival) -->
+			<skill id="917" ench_route="1" condition="ONLY_PLAYER;MIN_HP:80"/> <!-- Озарение (Final Secret) -->
+			<skill id="440" ench_route="1" condition="MIN_CP:60"/> <!-- Храброе Сердце (Braveheart)  -->
+			<skill id="121" condition="MIN_HP:50" ench_route="2"/> <!-- Боевой Рев (Battle Roar) -->
+			
+			<skill id="256" condition="NOT_USE_OLYMPIAD;ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(256);TARGET_CLASS_ID:(109,102,92,134,93,108,101)"/> <!-- Точность Вкл-->
+			<skill id="256" condition="NOT_USE_OLYMPIAD;ONLY_PLAYER;SELF_SKILL_EFFECT:(256);TARGET_NOT_USE_CLASS_ID:(109,102,92,134,93,108,101);CANCEL_BUFF_BY_ID:256"/> <!-- Точность Выкл-->
+			<skill id="256" condition="ONLY_MONSTER;SELF_SKILL_EFFECT:(256);CANCEL_BUFF_BY_ID:256"/> <!-- Точность Выкл-->
+			<skill id="256" condition="SELF_SKILL_EFFECT:(256);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:256"/> <!-- Точность Выкл-->
+
+			<skill id="312" condition="SELF_NOT_SKILL_EFFECT:(312);MAX_MP:30;IS_IN_BATTLE"/> <!-- Боевая стойка коварства Вкл-->
+			<skill id="312" condition="SELF_SKILL_EFFECT:(312);MIN_MP:10;CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства Выкл мало мп-->
+
+			<skill id="317" condition="ONLY_MONSTER;SELF_SKILL_EFFECT:(317);CANCEL_BUFF_BY_ID:317;MASS_MONSTER:2"/> <!-- Фокусировка атаки ВЫкл мобы-->
+			<skill id="317" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(317)"/> <!-- Фокусировка атаки вкл игрок-->
+			<skill id="317" condition="ONLY_MONSTER;SELF_NOT_SKILL_EFFECT:(317);MASS_MONSTER:0;IS_IN_BATTLE"/> <!-- Фокусировка атаки вкл 1 моб-->
+			<skill id="317" condition="SELF_SKILL_EFFECT:(317);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:317"/> <!-- Фокусировка атаки вкл вне боя-->
+			
+			<skill id="339" condition="ONLY_MONSTER;SELF_SKILL_EFFECT:(339);CANCEL_BUFF_BY_ID:339"  ench_route="1"/> <!-- Парирование ВЫкл мобы-->
+			<skill id="339" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(339);MAX_DISTANCE:900;TARGET_NOT_RUNNING"  ench_route="1"/> <!-- Парирование вкл игрок-->
+			<skill id="339" condition="ONLY_PLAYER;SELF_SKILL_EFFECT:(339);TARGET_RUNS_AWAY;CANCEL_BUFF_BY_ID:339"  ench_route="1"/> <!-- Парирование Выкл-->
+			<skill id="339" condition="SELF_SKILL_EFFECT:(339);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:339"  ench_route="1"/> <!-- Парирование Выкл-->
+			
+			<skill id="422" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(422);TARGET_CLASS_ID:(109,102,92,134,93,108,101)"/> <!-- Точность Древкового Оружия Вкл-->
+			<skill id="422" condition="ONLY_PLAYER;SELF_SKILL_EFFECT:(422);TARGET_NOT_USE_CLASS_ID:(109,102,92,134,93,108,101);CANCEL_BUFF_BY_ID:422"/> <!-- Точность Древкового Оружия Выкл-->
+			<skill id="422" condition="ONLY_MONSTER;SELF_SKILL_EFFECT:(422);CANCEL_BUFF_BY_ID:422"/> <!-- Точность Древкового Оружия Выкл-->
+			<skill id="422" condition="SELF_SKILL_EFFECT:(339);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:339"/> <!-- Точность Древкового Оружия Выкл-->
+
+			<skill id="130" condition="ONLY_MONSTER" ench_route="1"/> <!-- Волнующая Схватка (Thrill Fight) Вкл на мобах-->
+			<skill id="130" condition="ONLY_PLAYER;MAX_DISTANCE:80;TARGET_NOT_RUNNING" ench_route="1"/> <!-- Волнующая Схватка (Thrill Fight) Вкл на игроках по дистанции-->
+			<!-- <skill id="130" condition="ONLY_PLAYER;MIN_DISTANCE:150;TARGET_RUNNING;CANCEL_BUFF_BY_ID:130" ench_route="1"/> Волнующая Схватка (Thrill Fight) Выкл если цель убегает-->
+			
+			<skill id="359" condition="ONLY_MONSTER;NPC_RACE:(ANIMAL,PLANT,BUG)"  ench_route="1"/> <!-- Глаз Охотника (Eye of Hunter)-->
+			<skill id="360" condition="ONLY_MONSTER;NPC_RACE:(BEAST,GIANT,DRAGON,MAGIC_CREATURE,Fairies,Spirits)"  ench_route="1"/> <!-- Глаз Убийцы (Eye of Slayer)-->	
+			
+			<skill id="421" condition="ONLY_MONSTER;MASS:3"  ench_route="1"/> <!-- Свирепое Нападение (Fell Swoop)-->
+			<skill id="287" condition="ONLY_PLAYER" /> <!-- Львиное Сердце (Lionheart)  -->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="48" condition="MAX_DISTANCE:200" ench_route="1"/> <!-- Грозовой Шторм (Thunder Storm) -->
+		    <skill id="116" condition="ONLY_MONSTER;MASS:2" ench_route="1"/> <!--Вой (Howl) -->
+			<skill id="116" condition="ONLY_PLAYER;TARGET_FIGHTER;DEBUFF_CHANCE:40;MAX_DISTANCE:200" ench_route="1"/> <!--Вой (Howl) -->
+			<skill id="452" condition="MAX_DISTANCE:150" ench_route="1"/> <!-- Оглушающий Топот (Shock Stomp) -->
+			<skill id="286" condition="MASS_MONSTER:3"/> <!-- Провоцировать (Provoke)-->
+			<skill id="774" condition="ONLY_PLAYER;MAX_DISTANCE:200"/> <!-- Прилив Ужаса (Dread Pool)-->
+		</debuff_skills>
+	</ClassObject>
+ </list>

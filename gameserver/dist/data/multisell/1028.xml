@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config no_tax="true" keep_enchanted="true"/>
+	<!--Браслеты-->
+
+	<item>
+		<production id="29979" count="1"/>    <!-- Bracelet of Duty - Lv. 2 -->
+		<ingredient id="75040" count="10"/>
+		<ingredient id="57" count="50"/> <!--[Adena]-->
+	</item>
+
+	<item>
+        <production id="29980" count="1" activeStage="2"/>    <!-- Bracelet of Duty - Lv. 3 -->
+        <ingredient id="29979" count="1"/>
+        <ingredient id="75040" count="20"/>
+        <ingredient id="57" count="200"/> <!--[Adena]-->
+    </item>
+
+    <item>
+        <production id="29981" count="1" activeStage="4"/>    <!-- Bracelet of Duty - Lv. 4 -->
+        <ingredient id="29980" count="1"/>
+        <ingredient id="75040" count="30"/>
+        <ingredient id="57" count="450"/> <!--[Adena]-->
+    </item>
+    <item>
+        <production id="29982" count="1" activeStage="6"/>    <!-- Bracelet of Duty - Lv. 5 -->
+        <ingredient id="29981" count="1"/>
+        <ingredient id="75040" count="45"/>
+        <ingredient id="57" count="800"/> <!--[Adena]-->
+    </item>
+
+</list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="32" class_name="PalusKnight">
+		<ai_type type="auto_attacker"/>
+		<nuke_skills>
+			<skill id="223"/> <!-- Жало (Sting) -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="112"/> <!-- Отклонить Стрелу (Deflect Arrow) -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="110" condition="MIN_HP:20"/> <!-- Абсолютная Защита (Ultimate Defense) -->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="115" /> <!-- Сокрушение Мощи (Power Break)  -->
+			<skill id="28" condition="CHANCE_CAST:30" /> <!-- Агрессия (Aggression)   -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

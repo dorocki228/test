@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="34" class_name="Bladedancer">
+		<nuke_skills ChanceCastOnMonster="5">
+<!--			<skill id="986" /> &lt;!&ndash; Смертельный Ритм (Deadly Strike) &ndash;&gt;-->
+<!--			<skill id="408" /> &lt;!&ndash; Демонический Танец Клинков (Demonic Blade Dance) &ndash;&gt;-->
+			<skill id="223" /> <!-- Жало (Sting) -->
+<!--			<skill id="84" /> &lt;!&ndash; Танец Ядовитых Клинков (Poison Blade Dance)&ndash;&gt;		-->
+		</nuke_skills>
+		<situation_skills>
+			<skill id="110" condition="MIN_HP:28"/> <!-- Абсолютная Защита (Ultimate Defense) -->
+		</situation_skills>
+		<debuff_skills chance="25">
+		    <skill id="402" condition="ONLY_PLAYER;MIN_DISTANCE:110;DEBUFF_CHANCE:40" /> <!-- Арест (Arrest) -->
+			<skill id="122" condition="DEBUFF_CHANCE:45" /> <!-- Сглаз (Hex) -->		
+		</debuff_skills>
+<!--		<buffs_skills>-->
+<!--			<skill id="271" /> &lt;!&ndash; Танец Воителя (Dance of the Warrior) &ndash;&gt;-->
+<!--			<skill id="272" /> &lt;!&ndash; Танец Вдохновения (Dance of Inspiration) &ndash;&gt;-->
+<!--			<skill id="273" /> &lt;!&ndash; Танец Мистика (Dance of the Mystic)  &ndash;&gt;-->
+<!--			<skill id="274" /> &lt;!&ndash; Танец Огня (Dance of Fire)&ndash;&gt;-->
+<!--			<skill id="275" /> &lt;!&ndash; Танец Ярости (Dance of Fury)  &ndash;&gt;-->
+<!--			<skill id="276" /> &lt;!&ndash; Танец Концентрации (Dance of Concentration)  &ndash;&gt;-->
+<!--			<skill id="310" /> &lt;!&ndash; Танец Вампира (Dance of the Vampire) &ndash;&gt;-->
+<!--		</buffs_skills>-->
+<!--		<self_buff_skills>-->
+<!--			<skill id="271" /> &lt;!&ndash; Танец Воителя (Dance of the Warrior) &ndash;&gt;-->
+<!--			<skill id="272" /> &lt;!&ndash; Танец Вдохновения (Dance of Inspiration) &ndash;&gt;-->
+<!--			<skill id="273" /> &lt;!&ndash; Танец Мистика (Dance of the Mystic)  &ndash;&gt;-->
+<!--			<skill id="274" /> &lt;!&ndash; Танец Огня (Dance of Fire)&ndash;&gt;-->
+<!--			<skill id="275" /> &lt;!&ndash; Танец Ярости (Dance of Fury)  &ndash;&gt;-->
+<!--			<skill id="276" /> &lt;!&ndash; Танец Концентрации (Dance of Concentration)  &ndash;&gt;-->
+<!--			<skill id="310" /> &lt;!&ndash; Танец Вампира (Dance of the Vampire) &ndash;&gt;-->
+<!--			-->
+<!--			<skill id="989"/> &lt;!&ndash; Жест Защиты (Defense Motion) &ndash;&gt;-->
+<!--		</self_buff_skills>-->
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

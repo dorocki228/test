@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config no_tax="true" />
+	<!--Итем Создать Дуалы-->
+
+	<item>
+		<production id="5233" count="1" activeStage="3"/>    <!--[kshanberk*kshanberk]-->
+		<ingredient id="142" count="1"/>
+		<ingredient id="142" count="1"/>
+		<ingredient id="57" count="4000"/>
+	</item>
+	<item>
+		<production id="5705" count="1" activeStage="3"/>    <!--[kshanberk*sword_of_damascus]-->
+		<ingredient id="142" count="1"/>
+		<ingredient id="79" count="1"/>
+		<ingredient id="57" count="2500"/>
+	</item>
+	<item>
+		<production id="5706" count="1" activeStage="3"/>    <!--[sword_of_damascus*sword_of_damascus]-->
+		<ingredient id="79" count="1"/>
+		<ingredient id="79" count="1"/>
+		<ingredient id="57" count="5000"/>
+	</item>
+	<item>
+		<production id="8938" count="1" activeStage="3"/>    <!--[damascus_*_tallum_blade1]-->
+		<ingredient id="79" count="1"/>
+		<ingredient id="80" count="1"/>
+		<ingredient id="57" count="5200"/>
+	</item>
+
+
+</list>	

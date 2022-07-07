@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (item|level|pvp|set|enchant|noble|hero|title_color)*>
+
+<!ELEMENT item EMPTY>
+<!ATTLIST item
+  adena CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  id CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+
+<!ELEMENT level EMPTY>
+<!ATTLIST level
+  adena CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  lvl CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+
+<!ELEMENT pvp EMPTY>
+<!ATTLIST pvp
+  adena CDATA #REQUIRED
+  count CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+  
+<!ELEMENT set EMPTY>
+<!ATTLIST set
+  adena CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  chest CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+  
+<!ELEMENT enchant EMPTY>
+<!ATTLIST enchant
+  slot CDATA #REQUIRED
+  grade CDATA #REQUIRED
+  value CDATA #REQUIRED
+  adena CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+  
+<!ELEMENT noble EMPTY>
+<!ATTLIST noble
+  adena CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+  
+<!ELEMENT hero EMPTY>
+<!ATTLIST hero
+  adena CDATA #REQUIRED
+  exp CDATA #REQUIRED
+  sp CDATA #REQUIRED>
+  
+<!ELEMENT title_color EMPTY>
+<!ATTLIST title_color
+  reward CDATA #REQUIRED
+  color CDATA #REQUIRED>

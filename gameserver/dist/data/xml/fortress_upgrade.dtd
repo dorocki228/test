@@ -1,0 +1,12 @@
+<!ELEMENT list (fortress)*>
+<!ELEMENT fortress (upgrade)*>
+<!ATTLIST fortress
+		id CDATA #REQUIRED>
+<!ELEMENT upgrade (data)*>
+<!ATTLIST upgrade
+		type CDATA #REQUIRED>
+<!ELEMENT data (#PCDATA)>
+<!ATTLIST data
+		level CDATA #REQUIRED
+		param CDATA #REQUIRED
+		price CDATA #REQUIRED>

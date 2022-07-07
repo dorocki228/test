@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="52" class_name="Warcryer">
+		<nuke_skills>
+			<skill id="1245" /> <!-- Кража Сущности (Steal Essence)   -->
+<!--			<skill id="927" /> &lt;!&ndash; Раскалывание (Burning Chop)  &ndash;&gt;-->
+		</nuke_skills>
+<!--		<buffs_skills>-->
+<!--			<skill id="1006" /> &lt;!&ndash; Напев Огня (Chant of Fire)  &ndash;&gt;-->
+<!--			<skill id="1252" /> &lt;!&ndash; Напев Уклонения (Chant of Evasion)  &ndash;&gt;-->
+<!--			<skill id="1308" /> &lt;!&ndash; Напев Хищника (Chant of Predator)  &ndash;&gt;-->
+<!--			<skill id="1002" /> &lt;!&ndash; Напев Пламени (Flame Chant)  &ndash;&gt;-->
+<!--			<skill id="1007" /> &lt;!&ndash; Напев Битвы (Chant of Battle) &ndash;&gt;-->
+<!--			<skill id="1310" /> &lt;!&ndash; Напев Вампира (Chant of Vampire) &ndash;&gt;-->
+<!--			<skill id="1562" /> &lt;!&ndash; Напев Берсерка (Chant of Berserker) &ndash;&gt;-->
+<!--			<skill id="1253" /> &lt;!&ndash; Напев Гнева (Chant of Rage) &ndash;&gt;-->
+<!--			<skill id="1009" /> &lt;!&ndash; Напев Защиты (Chant of Shielding) &ndash;&gt;-->
+<!--			<skill id="1309" /> &lt;!&ndash; Напев Орла (Chant of Eagle) &ndash;&gt;-->
+<!--			<skill id="1251" /> &lt;!&ndash; Напев Ярости (Chant of Fury) &ndash;&gt;-->
+<!--			<skill id="1253" /> &lt;!&ndash; Напев Гнева (Chant of Rage) &ndash;&gt;-->
+<!--		</buffs_skills>	-->
+		<self_buff_skills>
+			<skill id="1001" /> <!-- Крик Души (Soul Cry)  -->
+		</self_buff_skills>
+		<heal_skills>
+			<skill id="1229" condition="MIN_HP:40"/> <!-- Напев Жизни (Chant of Life)  -->
+		</heal_skills>
+		<debuff_skills chance="25">
+			<skill id="1244" /> <!-- Замораживающее Пламя (Freezing Flame) -->
+			<skill id="260" /> <!-- Сокрушение Молотом (Hammer Crush)  -->
+		</debuff_skills>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

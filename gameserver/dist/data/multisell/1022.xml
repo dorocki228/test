@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>	
+<config no_tax="true" keep_enchanted="true"/>
+<!--Браслеты-->
+
+	<item>		
+		<production id="29978" count="1" />	<!-- Bracelet of Duty - Lv. 1 -->
+		<ingredient id="57" count="650" />	
+	</item>	
+
+	<item>	
+		<production id="29979" count="1" />	<!-- Bracelet of Duty - Lv. 2 -->
+		<ingredient id="29978" count="1" />
+		<ingredient id="1887" count="15" />
+		<ingredient id="1890" count="10" />
+		<ingredient id="4040" count="15" />
+		<ingredient id="4039" count="23" />
+		<ingredient id="4041" count="15" />
+		<ingredient id="1880" count="30" />
+		<ingredient id="77412" count="1" />
+	</item>	
+
+		<item>		
+		<production id="29980" count="1" />	<!-- Bracelet of Duty - Lv. 3 -->
+		<ingredient id="29979" count="1" />
+		<ingredient id="1887" count="30" />
+		<ingredient id="1890" count="20" />
+		<ingredient id="4040" count="30" />
+		<ingredient id="4039" count="46" />
+		<ingredient id="4041" count="30" />
+		<ingredient id="1880" count="70" />
+		<ingredient id="77412" count="2" />
+	</item>	
+
+	<item>		
+		<production id="29981" count="1" />	<!-- Bracelet of Duty - Lv. 4 -->
+		<ingredient id="29980" count="1" />
+		<ingredient id="1887" count="60" />
+		<ingredient id="1890" count="40" />
+		<ingredient id="4040" count="60" />
+		<ingredient id="4039" count="92" />
+		<ingredient id="4041" count="60" />
+		<ingredient id="1880" count="140" />
+		<ingredient id="77412" count="4" />
+		<ingredient id="75001" count="1" />
+	</item>	
+
+	<item>		
+		<production id="29982" count="1" />	<!-- Bracelet of Duty - Lv. 5 -->
+		<ingredient id="29981" count="1" />
+		<ingredient id="1887" count="120" />
+		<ingredient id="1890" count="80" />
+		<ingredient id="4040" count="120" />
+		<ingredient id="4039" count="184" />
+		<ingredient id="4041" count="120" />
+		<ingredient id="1880" count="310" />
+		<ingredient id="77412" count="6" />
+		<ingredient id="75001" count="2" />
+	</item>		
+</list>

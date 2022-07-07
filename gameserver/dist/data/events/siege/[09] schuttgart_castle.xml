@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "../events.dtd">
+<list>
+	<event id="9" name="Schuttgart Castle" impl="CastleSiege">
+		<parameter name="siege_cron" value="20 19 * * 2,4,6"/>
+		<on_init>
+			<if name="light_side">
+				<spawn name="castle_peace_light_npcs"/>
+			</if>
+			<if name="dark_side">
+				<spawn name="castle_peace_dark_npcs"/>
+			</if>
+			<spawn name="castle_peace_npcs"/>
+			<spawn name="artefact"/>
+			<init name="doors"/>
+			<init name="doors2" />
+			<init name="siege_zones" />
+			<init name="flag_zones" />
+			<init name="zone_11" />
+			<init name="zone_21" />
+			<spawn name="control_towers_peace" />
+			<spawn name="mass_gatekeeper" />
+		</on_init>
+		<on_start>
+			<spawn name="guards" />
+			<despawn name="control_towers_peace" />
+			<spawn name="teleporters" />
+			<if name="water_fraction">
+				<spawn name="water_defender" />
+				<spawn name="fire_attacker" />
+			</if>
+			<if name="fire_fraction">
+				<spawn name="fire_defender" />
+				<spawn name="water_attacker" />
+			</if>
+			<spawn name="blockpost" />
+			<spawn name="control_towers" />
+			<spawn name="flame_towers" />
+			<refresh name="artefact" />
+			<refresh name="doors" />
+			<refresh name="mass_gatekeeper" />
+			<active name="siege_zones" />
+			<close name="doors2"/>
+			<teleport_players id="from_residence_to_town" />
+		</on_start>
+		<on_stop>
+			<despawn name="castle_peace_dark_npcs" />
+			<despawn name="castle_peace_light_npcs" />
+			<if name="light_side">
+				<spawn name="castle_peace_light_npcs" />
+			</if>
+			<if name="dark_side">
+				<spawn name="castle_peace_dark_npcs" />
+			</if>
+			<despawn name="teleporters" />
+			<if name="water_fraction">
+				<despawn name="water_defender" />
+				<despawn name="fire_attacker" />
+			</if>
+			<if name="fire_fraction">
+				<despawn name="fire_defender" />
+				<despawn name="water_attacker" />
+			</if>
+			<despawn name="blockpost" />
+			<despawn name="control_towers" />
+			<despawn name="flame_towers" />
+			<spawn name="control_towers_peace" />
+			<despawn name="guards" />
+			<refresh name="artefact" />
+			<refresh name="doors" />
+			<refresh name="mass_gatekeeper" />
+			<start name="registration" />
+			<teleport_players id="from_residence_to_town" />
+			<deactive name="siege_zones" />
+		</on_stop>
+		<on_time>
+			<on time="-900">
+				<announce val="-900" />
+			</on>
+			<on time="-300">
+				<announce val="-300" />
+			</on>
+			<on time="-60">
+				<announce val="-60" />
+			</on>
+			<on time="0">
+				<start name="event" />
+				<announce val="0" />
+				<announce val="3600" />
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="120">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="240">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="360">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="480">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="600">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="720">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+			</on>
+			<on time="840">
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+			</on>
+			<on time="960">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+			</on>
+			<on time="1080">
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+			</on>
+			<on time="1200">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+			</on>
+			<on time="1320">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+			</on>
+			<on time="1440">
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<!--
+			<on time="1500">
+				<give_owner_crp count="3000" />
+			</on>
+			-->
+			<on time="1560">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="1680">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="1800">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="1920">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="2040">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="2100">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2160">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+			</on>
+			<on time="2280">
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+			</on>
+			<on time="2400">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+			</on>
+			<on time="2520">
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+			</on>
+			<on time="2640">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+			</on>
+			<on time="2700">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2760">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+			</on>
+			<on time="2880">
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="3000">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="3120">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="3240">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="3300">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="3360">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="3480">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="3600">
+				<stop name="event" />
+			</on>
+		</on_time>
+		<objects name="castle_peace_npcs">
+			<spawn_ex name="schuttgart_castle_4" />
+		</objects>
+		<objects name="castle_messenger_light_npc">
+			<spawn_ex name="schuttgart_castle_light_messenger" />
+		</objects>
+		<objects name="castle_messenger_dark_npc">
+			<spawn_ex name="schuttgart_castle_dark_messenger" />
+		</objects>
+
+		<objects name="castle_peace_light_npcs">
+			<spawn_ex name="schuttgart_castle_light_side" />
+		</objects>
+		<objects name="castle_peace_dark_npcs">
+			<spawn_ex name="schuttgart_castle_dark_side" />
+		</objects>
+		<objects name="artefact">
+			<spawn_ex name="schuttgart_castle_siege_artefact" />
+		</objects>
+		<objects name="guards">
+			<spawn_ex name="schuttgart_castle_siege" />
+		</objects>
+		<objects name="doors">
+			<door id="22130001"/>
+			<door id="22130002"/>
+			<door id="22130004"/>
+			<door id="22130005"/>
+			<door id="22130006"/>
+			<door id="22130007"/>
+			<door id="22130008"/>
+			<door id="22130009"/>
+			<door id="22130010"/>
+			<door id="22130011"/>
+			<door id="22130014"/>
+			<door id="22130015"/>
+		</objects>
+		<objects name="doors2">
+			<door id="22130003"/>
+			<door id="22130012"/>
+			<door id="22130013"/>
+		</objects>
+		<objects name="control_towers_peace">
+            <spawn_npc id="13003" x="74777" y="-152885" z="-12"/>
+            <spawn_npc id="13003" x="80329" y="-152885" z="-12"/>
+            <spawn_npc id="13003" x="77563" y="-153362" z="112"/>
+
+            <spawn_npc id="13005" x="76862" y="-151053" z="122"/>
+            <spawn_npc id="13005" x="78246" y="-151053" z="122"/>
+        </objects>
+		<objects name="teleporters">
+			<spawn_ex name="schuttgart_castle_teleporters" />
+		</objects>
+		<objects name="fire_defender">
+			<spawn_ex name="schuttgart_castle_fire_defender" />
+		</objects>
+		<objects name="water_defender">
+			<spawn_ex name="schuttgart_castle_water_defender" />
+		</objects>
+		<objects name="fire_attacker">
+			<spawn_ex name="schuttgart_castle_fire_attacker" />
+		</objects>
+		<objects name="water_attacker">
+			<spawn_ex name="schuttgart_castle_water_attacker" />
+		</objects>
+		<objects name="blockpost">
+			<spawn_ex name="schuttgart_castle_blockpost" />
+		</objects>
+		<objects name="control_towers">
+			<siege_toggle_npc id="13002" fake_id="13003" x="74777" y="-152885" z="-12" hp="400000" />
+			<siege_toggle_npc id="13002" fake_id="13003" x="80329" y="-152885" z="-12" hp="400000" />
+			<siege_toggle_npc id="13002" fake_id="13003" x="77563" y="-153362" z="112" hp="400000" />
+		</objects>
+		<objects name="flame_towers">
+			<siege_toggle_npc id="13004" fake_id="13005" x="76862" y="-151053" z="122" hp="400000">
+				<objects name="zone_11" />
+			</siege_toggle_npc>
+			<siege_toggle_npc id="13004" fake_id="13005" x="78246" y="-151053" z="122" hp="400000">
+				<objects name="zone_21" />
+			</siege_toggle_npc>
+		</objects>
+		<objects name="zone_11">
+			<castle_zone name="[schuttgart_damage_1]" price="100" />
+		</objects>
+		<objects name="zone_21">
+			<castle_zone name="[schuttgart_damage_2]" price="100" />
+		</objects>
+		<objects name="siege_zones">
+			<zone name="[schuttgart_castle_siege]" />
+		</objects>
+		<objects name="mass_gatekeeper">
+			<spawn_ex name="schuttgart_castle_mass_gatekeeper" />
+		</objects>
+		<objects name="flag_zones">
+			<zone name="[schuttgart_castle_hq]" />
+		</objects>
+	</event>
+</list>

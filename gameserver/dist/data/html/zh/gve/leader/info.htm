@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Lineage II GvE - Fration Leader</title>
+	</head>
+<body>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+		<tr>
+			<td align="center">
+				<table width=292>
+					<tr><td height="5"></td></tr>
+					<tr>
+						<td align="center">
+							#if ($leaders.isEmpty())
+							    <font name="hs9" color="ff5000">派系尚未领导</font>
+							#else
+							    <font name="hs9">现任派系领袖： </font><font name="hs9" color="LEVEL">$leaders.get(0)</font>
+							#end
+						</td>
+					</tr>
+					<tr><td height="10"></td></tr>
+					<tr>
+						<td align="center">
+							派系领袖最有价值<br1>
+							当选的球员<br1>
+							通过投票定位。<br>
+							领导者有权使用<br1>
+							<font color="LEVEL">特殊的全局聊天和命令。</font>.<br>
+							此外,领导还会收到<br1>
+							一套额外的技能<br1>
+							帮助他和其他派系成员<br1>
+							在战斗中。<br>
+							<img src="icon.skill10546" height="32" width="32"><br>
+							<font name="hs9" color="LEVEL">领袖光环</font><br1>
+							将P.Def和M.Def提高10%,速度提高5<br1>
+							最近的派系成员。<br>
+							<img src="icon.skill10017" height="32" width="32"><br>
+							<font name="hs9" color="LEVEL">领袖毅力</font><br1>
+							被动增加P.Def和M.Def<br1>
+							占领队的35%。<br>
+							<img src="icon.skill11759" height="32" width="32"><br>
+							<font name="hs9" color="LEVEL">派系无敌</font><br1>
+							让附近派系成员<br1>
+							无敌30秒。<br>
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr><td height="5"></td></tr>
+					<tr>
+						<td align=center>
+							<button action="bypass -h htmbypass_services.FactionLeader:main" ALIGN=LEFT ICON="NORMAL">背部</button>
+						</td>
+					</tr>
+					<tr><td height="5"></td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

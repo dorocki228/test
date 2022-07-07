@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Lineage II GvE - Armor Trader</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td align=center>
+			<table border=0 cellpadding=0 cellspacing=0 width=292>
+				<tr>
+					<td height="20"></td>
+				</tr>
+				<tr>
+					<td align="center"><br><font color=ffa500>Armor Trader</font></td>
+				</tr>
+				<tr>
+					<td height="40"></td>
+				</tr>
+				<tr>
+
+					<td align=center>
+						<button action="bypass -h npc_%objectId%_multisell 1001" ALIGN=LEFT ICON="NORMAL">Free Armor:
+							C-Grade
+						</button>
+						<button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 1004">Armor:
+							B-Grade
+						</button>
+						<button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 1007">Armor:
+							A-Grade
+						</button>
+						<button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 1075">Armor:
+							S-Grade
+						</button>
+
+						<button action="bypass -h npc_%objectId%_Buy 1" ALIGN=LEFT ICON="NORMAL">Sell</button>
+					</td>
+				</tr>
+				<tr>
+					<td align=center>
+
+						<font color=ffa500><button action="link discountsinfo.htm"  ALIGN=LEFT ICON="NORMAL">Discount system</button></font>
+						#if($gveDiscounts.next())
+						Prices will be lowered in
+						<font color=ffa500>$gveDiscounts.next().hours()</font> hours and
+						<font color=ffa500>$gveDiscounts.next().minutes()</font> min.
+						#end
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+</table>
+</body>
+</html>

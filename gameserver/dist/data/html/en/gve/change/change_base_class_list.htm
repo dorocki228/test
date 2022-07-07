@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Glory World - Donate - Change Class</title>
+</head>
+<body>
+<table background="L2UI_CH3.refinewnd_back_Pattern" border=0 height=358 width=292>
+    <tr>
+        <td align=center height=10></td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">
+            <table height=70 width=292>
+                <tr>
+                    <td align=center height=40>
+                        To change a main class
+                        <br1>
+                            you need to <font color=ffa500>select the available class</font>
+                            <br1>
+                                from list below:
+                                <br1>
+                    </td>
+                </tr>
+            </table>
+            <table border=0 width=40>
+                <tr>
+                    <td align=center background="L2UI_CT1.SellingAgencyWnd_df_Arrow" height=25 width=30></td>
+                </tr>
+            </table>
+            <table border=0 width=292>
+                <tr>
+                    <td align=center>
+                        #foreach($l in $list)
+                            <button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.ChangeBaseClass:select $l.getClassId()">$l.getClassName()</button>
+                        #end
+                        <br><br><br>
+                    </td>
+
+                </tr>
+            </table>
+
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+

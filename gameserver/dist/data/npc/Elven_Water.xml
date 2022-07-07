@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<!--Elven Water -->
+<list>
+
+	<npc id="20021" name="Red Bear" title="">
+		<set name="type" value="Monster" />
+		<set name="ai_type" value="Fighter" />
+		<set name="collision_height" value="40" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="70" />
+		<set name="rewardExp" value="38321" />
+		<set name="rewardSp" value="1200" />
+		<set name="baseHpMax" value="3578.4811" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="6.5" />
+		<set name="baseMpMax" value="1102.4591" />
+		<set name="baseMpReg" value="2.4" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="20" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="564.23295" />
+		<set name="basePDef" value="700.18839" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="289.69611" />
+		<set name="baseMDef" value="700.259456846417" />
+		<set name="baseWalkSpd" value="12" />
+		<set name="baseRunSpd" value="12" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="10" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="0" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.91" />
+		<set name="baseReuseDelay" value="1500" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<client_skills>
+			<skill id="4416" level="6" />
+			<skill id="4410" level="10" />
+			<skill id="4411" level="10" />
+			<skill id="4412" level="12" />
+			<skill id="4413" level="13" />
+		</client_skills>
+		<skills>
+
+			<skill id="4408" level="1" />	<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="9" />	<!--Bow -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="4.70" />
+			<reward item_id="75012" min="1" max="1" chance="2.70" />
+			<reward item_id="75013" min="1" max="1" chance="0.40" />
+			<reward item_id="75021" min="1" max="1" chance="5" />
+			<reward item_id="75015" min="1" max="1" chance="16" />
+			<reward item_id="75017" min="1" max="1" chance="2.00" />
+			<reward item_id="75018" min="1" max="1" chance="0.80" />
+			<reward item_id="75022" min="1" max="1" chance="5" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+
+	<npc id="20027" name="Langk Lizardman Scout" title="">
+		<set name="type" value="Monster" />
+		<set name="ai_type" value="Fighter" />
+		<set name="collision_height" value="23" />
+		<set name="collision_radius" value="10" />
+		<set name="level" value="73" />
+		<set name="rewardExp" value="38621" />
+		<set name="rewardSp" value="1200" />
+		<set name="baseHpMax" value="3578.4811" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="6.5" />
+		<set name="baseMpMax" value="1102.4591" />
+		<set name="baseMpReg" value="2.4" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="20" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="574.23295" />
+		<set name="basePDef" value="700.18839" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="289.69611" />
+		<set name="baseMDef" value="700.259456846417" />
+		<set name="baseWalkSpd" value="45" />
+		<set name="baseRunSpd" value="174" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="10" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="0" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.91" />
+		<set name="baseReuseDelay" value="1500" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<equip>
+			<rhand item_id="16" />
+			<!--Great Spear -->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="6" />
+			<skill id="4410" level="10" />
+			<skill id="4411" level="10" />
+			<skill id="4412" level="12" />
+			<skill id="4413" level="13" />
+		</client_skills>
+		<skills>
+
+			<skill id="4408" level="1" />	<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="9" />	<!--Bow -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="4.90" />
+			<reward item_id="75012" min="1" max="1" chance="3.00" />
+			<reward item_id="75013" min="1" max="1" chance="0.50" />
+			<reward item_id="75021" min="1" max="1" chance="5.70" />
+			<reward item_id="75015" min="1" max="1" chance="16" />
+			<reward item_id="75017" min="1" max="1" chance="2.10" />
+			<reward item_id="75018" min="1" max="1" chance="0.90" />
+			<reward item_id="75022" min="1" max="1" chance="5" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+	<npc id="20030" name="Langk Lizardman" title="">
+		<set name="type" value="Monster" />
+		<set name="ai_type" value="Fighter" />
+		<set name="collision_height" value="23" />
+		<set name="collision_radius" value="10" />
+		<set name="level" value="73" />
+		<set name="rewardExp" value="38921" />
+		<set name="rewardSp" value="1200" />
+		<set name="baseHpMax" value="3578.4811" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="6.5" />
+		<set name="baseMpMax" value="1102.4591" />
+		<set name="baseMpReg" value="2.4" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="20" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="574.23295" />
+		<set name="basePDef" value="700.18839" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="289.69611" />
+		<set name="baseMDef" value="700.259456846417" />
+		<set name="baseWalkSpd" value="45" />
+		<set name="baseRunSpd" value="174" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="10" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="0" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.91" />
+		<set name="baseReuseDelay" value="1500" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<equip>
+			<rhand item_id="1" />
+			<!--Short Sword -->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="6" />
+			<skill id="4410" level="10" />
+			<skill id="4411" level="10" />
+			<skill id="4412" level="12" />
+			<skill id="4413" level="13" />
+		</client_skills>
+		<skills>
+
+			<skill id="4408" level="1" />	<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="9" />	<!--Bow -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="4.90" />
+			<reward item_id="75012" min="1" max="1" chance="3.00" />
+			<reward item_id="75013" min="1" max="1" chance="0.50" />
+			<reward item_id="75021" min="1" max="1" chance="5.70" />
+			<reward item_id="75015" min="1" max="1" chance="16" />
+			<reward item_id="75017" min="1" max="1" chance="2.10" />
+			<reward item_id="75018" min="1" max="1" chance="0.90" />
+			<reward item_id="75022" min="1" max="1" chance="5" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+	<npc id="20033" name="Shade Horror" title="">
+		<set name="type" value="Monster" />
+		<set name="ai_type" value="Fighter" />
+		<set name="collision_height" value="35;42" />
+		<set name="collision_radius" value="20" />
+		<set name="level" value="75" />
+		<set name="rewardExp" value="39121" />
+		<set name="rewardSp" value="1200" />
+		<set name="baseHpMax" value="3578.4811" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="6.5" />
+		<set name="baseMpMax" value="1102.4591" />
+		<set name="baseMpReg" value="2.4" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="20" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="574.23295" />
+		<set name="basePDef" value="700.18839" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="289.69611" />
+		<set name="baseMDef" value="700.259456846417" />
+		<set name="baseWalkSpd" value="45" />
+		<set name="baseRunSpd" value="174" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="10" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="0" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.91" />
+		<set name="baseReuseDelay" value="1500" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="500" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<client_skills>
+			<skill id="4416" level="6" />
+			<skill id="4410" level="10" />
+			<skill id="4411" level="10" />
+			<skill id="4412" level="12" />
+			<skill id="4413" level="13" />
+		</client_skills>
+		<skills>
+
+			<skill id="4408" level="1" />	<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="9" />	<!--Bow -->
+			<skill id="4076" level="1" use_type="DeBuff" />	<!--Decrease Speed -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="5.10" />
+			<reward item_id="75012" min="1" max="1" chance="3.20" />
+			<reward item_id="75013" min="1" max="1" chance="0.70" />
+			<reward item_id="75021" min="1" max="1" chance="5.80" />
+			<reward item_id="75015" min="1" max="1" chance="17" />
+			<reward item_id="75017" min="1" max="1" chance="2.20" />
+			<reward item_id="75018" min="1" max="1" chance="1.10" />
+			<reward item_id="75022" min="1" max="1" chance="6" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+	<npc id="20035" name="Skeleton Tracker" title="">
+		<set name="type" value="Monster" />
+		<set name="ai_type" value="Fighter" />
+		<set name="collision_height" value="25" />
+		<set name="collision_radius" value="15" />
+		<set name="level" value="75" />
+		<set name="rewardExp" value="39189" />
+		<set name="rewardSp" value="1200" />
+		<set name="baseHpMax" value="3578.4811" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2.5" />
+		<set name="baseMpMax" value="166.08" />
+		<set name="baseMpReg" value="1.2" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="20" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="20" />
+		<set name="baseMCritRate" value="50" />
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="527.8979" />
+		<set name="basePDef" value="650.68469" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="452.83074" />
+		<set name="baseMDef" value="680.3891528929827" />
+		<set name="baseWalkSpd" value="60" />
+		<set name="baseRunSpd" value="140" />
+		<set name="baseShldDef" value="39.342345" />
+		<set name="baseShldRate" value="20" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="10" />
+		<set name="baseAttackType" value="DAGGER" />
+		<set name="basePHitModify" value="0" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.3" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="500" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<client_skills>
+			<skill id="4416" level="1" />
+			<!--Undead -->
+			<skill id="4410" level="12" />
+			<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" />
+			<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" />
+			<!--Slightly Weak P. Def. -->
+			<skill id="4413" level="10" />
+			<!--Slightly Weak M. Def. -->
+			<skill id="4275" level="2" />
+			<!--Holy Attack Vulnerability -->
+			<skill id="4278" level="1" />
+			<!--Dark Attack -->
+			<skill id="4274" level="1" />
+			<!--Blunt Weapon Vulnerability -->
+		</client_skills>
+		<skills>
+			<skill id="4071" level="5"/>
+			<!--Bow/Crossbow Resistance -->
+
+			<skill id="4408" level="1" />
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!--MP Increase (1x) -->
+			<skill id="4414" level="2" />
+			<!--Standard Type -->
+			<skill id="4415" level="7" />
+			<!--Dagger -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="5.10" />
+			<reward item_id="75012" min="1" max="1" chance="3.20" />
+			<reward item_id="75013" min="1" max="1" chance="0.70" />
+			<reward item_id="75021" min="1" max="1" chance="5.80" />
+			<reward item_id="75015" min="1" max="1" chance="17" />
+			<reward item_id="75017" min="1" max="1" chance="2.20" />
+			<reward item_id="75018" min="1" max="1" chance="1.10" />
+			<reward item_id="75022" min="1" max="1" chance="6" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+
+	<!-- HIGH ZONES 76+ -->
+
+	<npc id="20039" name="Ratman Scavenger" title="">
+		<set name="type" value="Monster" />
+		<set name="ai_type" value="Fighter" />
+		<set name="collision_height" value="25" />
+		<set name="collision_radius" value="14" />
+		<set name="level" value="77" />
+		<set name="rewardExp" value="51886" />
+		<set name="rewardSp" value="1500" />
+		<set name="baseHpMax" value="4297" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2.5" />
+		<set name="baseMpMax" value="174.64" />
+		<set name="baseMpReg" value="1.2" /> 
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="20" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="20" />
+		<set name="baseMCritRate" value="50" />
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="821.12391" />
+		<set name="basePDef" value="530.34791" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="355.83252" />
+		<set name="baseMDef" value="580.34165" />
+		<set name="baseWalkSpd" value="80" />
+		<set name="baseRunSpd" value="120" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="10" />
+		<set name="baseAttackType" value="DAGGER" />
+		<set name="basePHitModify" value="0" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.61" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<equip>
+			<rhand item_id="12" />
+			<!--Knife -->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="6" />
+			<!--Humanoid -->
+			<skill id="4410" level="12" />
+			<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" />
+			<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" />
+			<!--Slightly Weak P. Def. -->
+			<skill id="4413" level="10" />
+			<!--Slightly Weak M. Def. -->
+		</client_skills>
+		<skills>
+
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="7.0" />
+			<reward item_id="75012" min="1" max="1" chance="5.00" />
+			<reward item_id="75013" min="1" max="1" chance="3.00" />
+			<reward item_id="75021" min="1" max="1" chance="6.00" />
+			<reward item_id="75016" min="1" max="1" chance="20.00" />
+			<reward item_id="75018" min="1" max="1" chance="1.10" />
+			<reward item_id="75019" min="1" max="1" chance="0.50" />
+			<reward item_id="75020" min="1" max="1" chance="0.01" />
+			<reward item_id="75014" min="1" max="1" chance="0.10" />
+			<reward item_id="75022" min="1" max="1" chance="6" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+	<npc id="20049" name="Lycanthrope" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />	<!--TODO: Проверить. -->
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="4237" />
+		<set name="baseHpRate" value="3" />
+		<set name="baseHpReg" value="7.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="355.86007" />
+		<set name="baseMDef" value="580.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="1097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="821.12391" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="basePDef" value="550.34267" />
+		<set name="baseRunSpd" value="12" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="12" />
+		<set name="collision_height" value="26" />
+		<set name="collision_radius" value="10" />
+		<set name="level" value="79" />
+		<set name="rewardExp" value="62205" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<skills>
+
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="8.0" />
+			<reward item_id="75012" min="1" max="1" chance="6.00" />
+			<reward item_id="75013" min="1" max="1" chance="3.50" />
+			<reward item_id="75021" min="1" max="1" chance="6.00" />
+			<reward item_id="75016" min="1" max="1" chance="20.00" />
+			<reward item_id="75018" min="1" max="1" chance="1.20" />
+			<reward item_id="75019" min="1" max="1" chance="0.60" />
+			<reward item_id="75020" min="1" max="1" chance="0.01" />
+			<reward item_id="75014" min="1" max="1" chance="0.10" />
+			<reward item_id="75022" min="1" max="1" chance="6" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+
+	<npc id="20070" name="Lesser Basilisk" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />	<!--TODO: Проверить. -->
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="4237" />
+		<set name="baseHpRate" value="3" />
+		<set name="baseHpReg" value="7.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="355.86007" />
+		<set name="baseMDef" value="580.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="1097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="821.12391" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="basePDef" value="550.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="25" />
+		<set name="collision_radius" value="34" />
+		<set name="level" value="79" />
+		<set name="rewardExp" value="62505" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<equip>
+			<rhand item_id="16" />
+		</equip>
+		<skills>
+
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="8.0" />
+			<reward item_id="75012" min="1" max="1" chance="6.00" />
+			<reward item_id="75013" min="1" max="1" chance="3.50" />
+			<reward item_id="75021" min="1" max="1" chance="6.00" />
+			<reward item_id="75016" min="1" max="1" chance="20.00" />
+			<reward item_id="75018" min="1" max="1" chance="1.20" />
+			<reward item_id="75019" min="1" max="1" chance="0.60" />
+			<reward item_id="75020" min="1" max="1" chance="0.01" />
+			<reward item_id="75014" min="1" max="1" chance="0.10" />
+			<reward item_id="75022" min="1" max="1" chance="6" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+
+	<npc id="20119" name="Elder Fox" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="500" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />	<!--TODO: Проверить. -->
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="4237" />
+		<set name="baseHpRate" value="3" />
+		<set name="baseHpReg" value="7.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="355.86007" />
+		<set name="baseMDef" value="580.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="1097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="821.12391" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="basePDef" value="550.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="10" />
+		<set name="collision_radius" value="9.5" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="62505" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<skills>
+
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="10.0" />
+			<reward item_id="75012" min="1" max="1" chance="8.00" />
+			<reward item_id="75013" min="1" max="1" chance="5.00" />
+			<reward item_id="75021" min="1" max="1" chance="6.00" />
+			<reward item_id="75016" min="1" max="1" chance="22.00" />
+			<reward item_id="75018" min="1" max="1" chance="1.50" />
+			<reward item_id="75019" min="1" max="1" chance="0.80" />
+			<reward item_id="75020" min="1" max="1" chance="0.03" />
+			<reward item_id="75014" min="1" max="1" chance="0.20" />
+			<reward item_id="75022" min="1" max="1" chance="6" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+
+	<npc id="20142" name="Blood Queen" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="500" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />	<!--TODO: Проверить. -->
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="4237" />
+		<set name="baseHpRate" value="3" />
+		<set name="baseHpReg" value="7.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="355.86007" />
+		<set name="baseMDef" value="580.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="1097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="821.12391" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="basePDef" value="550.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="40" />
+		<set name="collision_radius" value="14" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="63005" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="shots" value="SOUL" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<skills>
+
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="1" max="1" chance="60" />
+			<reward item_id="75011" min="1" max="1" chance="10.0" />
+			<reward item_id="75012" min="1" max="1" chance="8.00" />
+			<reward item_id="75013" min="1" max="1" chance="5.00" />
+			<reward item_id="75021" min="1" max="1" chance="6.00" />
+			<reward item_id="75016" min="1" max="1" chance="22.00" />
+			<reward item_id="75018" min="1" max="1" chance="1.50" />
+			<reward item_id="75019" min="1" max="1" chance="0.80" />
+			<reward item_id="75020" min="1" max="1" chance="0.03" />
+			<reward item_id="75014" min="1" max="1" chance="0.20" />
+			<reward item_id="75022" min="1" max="1" chance="7" />
+			<reward item_id="77400" min="1" max="1" chance="2" />
+		</rewardlist>
+	</npc>
+
+</list>

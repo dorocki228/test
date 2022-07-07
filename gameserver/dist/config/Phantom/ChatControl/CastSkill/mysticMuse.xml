@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="103">
+		<skill id="1238" type="castTargetSkill" text_commands="freezing skin,леденящая кожа"/>
+		<skill id="1047" type="castBuff" text_commands="регенерация маны,mana regeneration"/>
+		<skill id="1015" type="castBuff" text_commands="боевое лечение,battle heal"/>
+		<skill id="1011" type="castBuff" text_commands="лечение,heal"/>
+		<skill id="1035" type="castTargetSkill" text_commands="ментальный щит,ментал,кинь ментал,mental shield,mental"/>
+		<skill id="1069" type="castAttackingSkill" text_commands="сон,sleep"/>
+		<skill id="1056" type="castAttackingSkill" text_commands="отмена,cancellation"/>
+		<skill id="1072" type="castAttackingSkill" text_commands="усыпляющее облако,sleeping cloud"/>
+		<skill id="1169" type="castAttackingSkill" text_commands="проклятие: страх,проклятие страх,страх,curse fear,fear"/>
+		<skill id="1164" type="castAttackingSkill" text_commands="проклятие слабость,проклятие: слабость,слабость,curse weakness,weakness,"/>
+		<skill id="1342" type="castAttackingSkill" text_commands="вихрь света,light vortex"/>
+		<skill id="1340" type="castAttackingSkill" text_commands="ледяной вихрь,ice vortex"/>
+		<skill id="337" type="castBuff" text_commands="тайная мудрость,arcane power"/>
+		<skill id="1338" type="castAttackingSkill" text_commands="тайный хаос,arcane chaos"/>
+		<skill id="1454" type="castAttackingSkill" text_commands="бриллиантовая пыль,diamond dust"/>
+		<skill id="1532" type="castBuff" text_commands="просветление,enlightenment,просвет"/>
+		<skill id="1493" type="castTargetSkill" text_commands="броня мороза,frost armor"/>
+		<skill id="1556" type="castBuff" text_commands="мистический щит,arcane shield"/>
+	</ChatControl>
+ </list>

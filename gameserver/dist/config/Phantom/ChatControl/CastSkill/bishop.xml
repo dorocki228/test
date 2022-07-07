@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="16">
+		<skill id="1049" type="castSelfBuff" text_commands="реквием,requiem"/>
+		<skill id="1016" type="castTargetSkill" text_commands="воскрешение,resurrection"/>	
+		<skill id="1035" type="castTargetSkill" text_commands="ментальный щит,ментал,кинь ментал,mental shield,mental"/>
+		<skill id="1418" type="castTargetSkill" text_commands="небесный щит,celestial shield"/>
+		<skill id="1311" type="castSelfBuff" text_commands="инкарнация тела,body of avatar"/>
+		<skill id="1069" type="castAttackingSkill" text_commands="сон,sleep"/>
+		<skill id="1394" type="castAttackingSkill" text_commands="транс,trance"/>
+		<skill id="1201" type="castAttackingSkill" text_commands="корень дриады,корень,рут,кинь рут,dryad root,root"/>
+		<skill id="1206" type="castAttackingSkill" text_commands="оковы ветра,оковы,wind shackle,shackle"/>
+		<skill id="1217" type="castTargetSkill" text_commands="великое лечение,greater heal"/>
+		<skill id="1258" type="castTargetSkill" text_commands="пробудить жизнь,restore life"/>
+		<skill id="1400" type="castAttackingSkill" text_commands="испугать нежить,turn undead"/>
+		<skill id="1020" type="castTargetSkill" text_commands="оживление,vitalize"/>
+		<skill id="1018" type="castTargetSkill" text_commands="очищение,purify"/>
+		<skill id="1219" type="castSelfBuff" text_commands="великое групповое лечение,greater group heal,вгл,ggh"/>
+		<skill id="1395" type="castAttackingSkill" text_commands="изгнание,erase"/>
+		<skill id="1398" type="castAttackingSkill" text_commands="горение маны,mana burn"/>
+		<skill id="1399" type="castAttackingSkill" text_commands="шторм маны,mana storm"/>
+		<skill id="1396" type="castAttackingSkill" text_commands="магический встречный пожар,magical backfire"/>
+		<skill id="1042" type="castAttackingSkill" text_commands="остановить нежить,hold undead"/>
+		<skill id="1430" type="castSelfBuff" text_commands="медитация,invocation"/>
+		<skill id="1012" type="castTargetSkill" text_commands="излечить отравление,отравление,cure poison"/>
+		<skill id="1271" type="castSelfBuff" text_commands="благословение,benediction"/>
+		<skill id="1307" type="castSelfBuff" text_commands="молитва,prayer"/>
+	</ChatControl>
+ </list>

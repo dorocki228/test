@@ -1,0 +1,81 @@
+<html>
+<title>Панель администратора Rebellion Team</title>
+<body>
+  <center>
+    <table width=275>
+      <tr>
+        <td>
+          <button value="Главная" action="bypass -h admin_admin" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </td>
+        <td>
+          <button value="Ивенты" action="bypass -h admin_show_html events/events.htm" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </td>
+        <td>
+          <button value="Телепорт" action="bypass -h admin_show_moves" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </td>
+        <td>
+          <button value="Персонажи" action="bypass -h admin_char_manage" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </td>
+        <td>
+          <button value="Фантомы" action="bypass -h admin_phantom" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </td>
+        <td>
+          <button value="Сервер" action="bypass -h admin_server admserver.htm" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+        </td>
+      </tr>
+    </table>
+    <table width=680>
+      <tr>
+        <td>
+          <center>
+            <table width=680 align=center>
+              <tr>
+                <td align=center> <font color="LEVEL">Hunting Zone List</font> </td>
+              </tr>
+              <tr>
+                <td align=center>
+                  <button action="bypass -h admin_hunting_zone_new" value="Создать новою зону" width=200 height=31 back="L2UI_CT1.OlympiadWnd_DF_HeroConfirm_Down" fore="L2UI_CT1.OlympiadWnd_DF_HeroConfirm">
+                </td>
+              </tr>
+            </table>
+          </center>
+          <center>
+            <table border=0 cellpadding=0 cellspacing=0>
+              <tr>
+                <td>
+                  <table width=680 border=0 cellpadding=0 cellspacing=0>
+                    <tr>
+                      <td align=center valign=top>
+                        <button value="Название" action="bypass -h admin_hunting_zone %sort1% 0" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=210 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                      <td align=center valign=top>
+                        <button value="Мин.LvL" action="bypass -h admin_hunting_zone %sort2% 0" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=65 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                      <td align=center valign=top>
+                        <button value="Макс.LvL" action="bypass -h admin_hunting_zone %sort3% 0" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=65 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                      <td align=center valign=top>
+                        <button value="Раса" action="bypass -h admin_hunting_zone %sort4% 0" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=80 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                      <td align=center valign=top>
+                        <button value="Радиус поиска" action="bypass -h admin_hunting_zone %sort5% 0" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=100 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                      <td align=center valign=top>
+                        <button value="Ограничение" action="bypass -h admin_hunting_zone %sort6% 0" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=100 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                      <td align=center valign=top>
+                        <button value="Удалить" action="" back="L2UI_CT1.ListCTRL_DF_Title_Down" width=60 height=20 fore="L2UI_CT1.ListCTRL_DF_Title">
+                      </td>
+                    </tr>
+                  </table> %hunting_zone% 
+				</td>
+              </tr>
+            </table>
+          </center>
+        </td>
+		</tr>
+    </table>
+  </center>
+</body>
+
+</html>

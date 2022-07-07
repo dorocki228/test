@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="113" class_name="Titan">
+		<buff_list buffs="1323,1240,1501,1036,1062,4699,1388,1461,1035,264,265,267,268,269,304,349,363,364,271,274,275,272,310,266,1502,1503,1517,1259,1519,1323,1363,1504,4699,4703,5987,5988"/>
+		<add_castom_skills>
+			<skill id="631" lvl="6"/> <!-- Emergent Ability - Attack -->
+			
+			<skill id="655" lvl="1"/> <!-- Enchanter Ability - Barrier -->
+			<skill id="651" lvl="1"/> <!-- Warrior Ability - Haste -->
+			<rnd>
+				<skill id="653" lvl="1"/> <!-- Навык Разбойника - Шанс крит удара -->
+				<skill id="652" lvl="1"/> <!-- Knight Ability - Defense -->
+			</rnd>
+		</add_castom_skills>
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="315" ench_route="1"/> <!-- Сокрушение Судьбы (Crush of Doom)  -->
+			<skill id="190" ench_route="1"/> <!-- Фатальный Удар (Fatal Strike)  -->
+			<skill id="777" condition="ONLY_PLAYER;CHANCE_CAST:30"/> <!-- Удар Низвержения (Demolition Impact)  -->
+		</nuke_skills>
+		<control_skills>
+			<skill id="995" condition="MIN_DISTANCE:100"/> <!-- Стремительный Натиск (Rush Impact) -->
+			<skill id="994" condition="MIN_DISTANCE:120;TARGET_RUNNING"/> <!-- Стремительный Бросок (Rush)-->
+			<skill id="139" condition="MIN_HP:28;SELF_NOT_SKILL_EFFECT:(176);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414)" /> <!-- Мужество (Guts)  -->
+		</control_skills>
+		<self_buff_skills>
+			<skill id="94" ench_route="2"/> <!-- Гнев (Rage)  -->
+			<skill id="423"/> <!-- Инфернальный Вид (Dark Form) -->
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="287" condition="ONLY_PLAYER" /> <!-- Львиное Сердце (Lionheart)  -->
+			<skill id="139" ench_route="1" condition="MIN_HP:28;SELF_NOT_SKILL_EFFECT:(176)"/> <!-- Мужество (Guts)  --> 
+			<skill id="176" ench_route="1" condition="MIN_HP:59"/> <!-- Безумие (Frenzy)  -->
+			<skill id="420" ench_route="1" condition="MIN_HP:29"/> <!-- Фанатик (Zealot)  -->
+			<skill id="440" condition="SELF_SKILL_EFFECT:(176)" ench_route="1"/> <!-- Храброе Сердце (Braveheart)  -->
+			<skill id="536" ench_route="1" condition="SELF_SKILL_EFFECT:(176)"/> <!-- Превзойти Плоть (Over the Body) -->
+			<skill id="917" ench_route="1" condition="ONLY_PLAYER"/> <!-- Озарение (Final Secret) -->
+			<skill id="121" condition="MIN_HP:50" ench_route="2"/> <!-- Боевой Рев (Battle Roar) -->
+						
+			<skill id="312" condition="NOT_USE_OLYMPIAD;ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(312);MAX_MP:50"/> <!-- Боевая стойка коварства Вкл-->
+			<skill id="312" condition="NOT_USE_OLYMPIAD;ONLY_PLAYER;SELF_SKILL_EFFECT:(312);MIN_MP:30"/> <!-- Боевая стойка коварства Выкл-->
+			<skill id="312" condition="NOT_USE_OLYMPIAD;ONLY_MONSTER;SELF_SKILL_EFFECT:(312)"/> <!-- Боевая стойка коварства Выкл мобы-->
+			
+			<skill id="339" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(339);MAX_MP:40;MAX_DISTANCE:80;TARGET_NOT_RUNNING;TARGET_FIGHTER"  ench_route="1"/> <!-- Парирование Вкл-->
+			<skill id="339" condition="ONLY_PLAYER;SELF_SKILL_EFFECT:(339);MIN_DISTANCE:150"  ench_route="1"/> <!-- Парирование Выкл-->
+			<skill id="339" condition="ONLY_MONSTER;SELF_SKILL_EFFECT:(339)"  ench_route="1"/> <!-- Парирование Выкл мобы-->
+		</situation_skills>
+		<debuff_skills chance="25">
+		    <skill id="260" ench_route="1"/> <!-- Сокрушение Молотом (Hammer Crush)  -->
+			<skill id="362" ench_route="3"/> <!-- Пролом Брони (Armor Crush) -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

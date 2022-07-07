@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Arena Master</title>
+</head>
+<body>
+<table border=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td align=center  height=10></td>
+	</tr>
+	<tr>
+		<td valign="top" align="center">
+			<table width=292 height=70>
+				<tr>
+					<td align=center  height=40>
+						创建匹配项 <br1>
+						你需要 <font color=ffa500>选择战斗类型</font>从<br1>
+						以下可用选项：<br1>
+					</td>
+				</tr>
+			</table>
+			<table width=40 border=0>
+				<tr>
+					<td align=center width=30 height=25 background="L2UI_CT1.SellingAgencyWnd_df_Arrow"> </td>
+				</tr>
+			</table>
+			<table border=0 width=292>
+				<tr>
+					<td align=center>
+						<combobox var=fighttype width=65 list="1x1;2x2;3x3;4x4;5x5;6x6;7x7;"> <br><br><br>
+					</td>
+				</tr>
+			</table>
+			<table width=292>
+				<tr>
+					<td align=center  height=40>
+						接下来，你需要 <font color=ffa500>选择<br1>
+						赌注</font>你想玩。<br1>
+						要执行此操作,请在Adena中输入金额。<br1><br>
+					</td>
+				</tr>
+			</table>
+			<table width=40>
+				<tr>
+					<td align=center width=30 height=25 background="L2UI_CT1.SellingAgencyWnd_df_Arrow"> </td> <br>
+				</tr>
+			</table>
+			<table width=185 height=25>
+				<tr>
+					<td fixwidth=45 align=center>
+						投注：
+					</td>
+					<td fixwidth=100 align=center>
+						<edit width=100 height=11 var="bid" type="number" length="7">
+					</td>
+					<td fixwidth=35 align=center>
+						<font color=ffa500>亞丁.</font>
+					</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td align=center  height=15></td>
+				</tr>
+				<tr><td align=center><button action="bypass -h htmbypass_services.ArenaService:createMatch $fighttype $bid" value="創建匹配" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Apply_Down" fore="L2UI_CT1.OlympiadWnd_DF_Apply"></td></tr>
+			</table>
+
+
+
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

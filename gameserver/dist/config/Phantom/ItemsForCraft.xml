@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "ItemsForCraft.dtd">
+<!--
+	<items - хранит список предметов для лавки крафта>
+	x="-82428" y="245204" z="-3712"  - место посадки на крафт 
+	signboard="текст" - "вывеска" название  лавки крафта
+	</items>
+	
+	<item - описание предмета
+		RecipesId - айди рецепта (ид рецепта брать в базе таблица recipes.sql)
+		Prices - цена за крафт
+	/>
+-->
+<list>
+	<items signboard="NG стволы" town="Gludio">
+		<item RecipesId="1" Prices="2"/> <!-- Wooden Arrow -->
+		<item RecipesId="2" Prices="1500"/> <!-- Broadsword -->
+		<item RecipesId="3" Prices="1500"/> <!-- Willow Staff -->
+		<item RecipesId="4" Prices="1500"/> <!-- Bow -->
+	</items>
+	<items signboard="Ноугрейд пушки" town="Gludio">
+		<item RecipesId="5" Prices="1500"/> <!-- Cedar Staff -->
+		<item RecipesId="6" Prices="1500"/> <!-- Dirk -->
+		<item RecipesId="7" Prices="1500"/> <!-- Brandish -->
+	</items>
+	<items signboard="оружие без ранга" town="Gludio">
+		<item RecipesId="8" Prices="1500"/> <!-- Short Spear -->
+		<item RecipesId="9" Prices="1500"/> <!-- Sword of Reflection -->
+		<item RecipesId="10" Prices="1500"/> <!-- Forest Bow -->
+	</items>
+	<items signboard="Кожные изделия" town="Gludio">
+		<item RecipesId="11" Prices="700"/> <!-- Leather Shoes -->
+		<item RecipesId="12" Prices="700"/> <!-- Leather Tunic -->
+		<item RecipesId="13" Prices="700"/> <!-- Leather Stockings -->
+		<item RecipesId="14" Prices="700"/> <!-- Leather Helmet -->
+		<item RecipesId="15" Prices="700"/> <!-- Leather Gloves -->
+	</items>
+	<items signboard="Разное" town="Gludio">
+		<item RecipesId="16" Prices="800"/> <!-- Piece Bone Breastplate -->
+		<item RecipesId="17" Prices="800"/> <!-- Piece Bone Gaiters -->
+		<item RecipesId="18" Prices="400"/> <!-- Necklace of Anguish -->
+		<item RecipesId="19" Prices="400"/> <!-- Necklace of Wisdom -->
+	</items>
+	<items signboard="Соски D\C\B\A\S" town="Giran">
+		<item RecipesId="20" Prices="30"/> <!-- Soulshot: D-grade -->
+		<item RecipesId="21" Prices="70"/> <!-- Soulshot: C-grade -->
+		<item RecipesId="22" Prices="120"/> <!-- Soulshot: B-grade -->
+		<item RecipesId="23" Prices="250"/> <!-- Soulshot: A-grade -->
+		<item RecipesId="24" Prices="500"/> <!-- Soulshot: S-grade -->
+	</items>
+	<items signboard="Соски Д" town="Gludio">
+		<item RecipesId="20" Prices="30"/> <!-- Soulshot: D-grade -->
+	</items>
+	<items signboard="Шоты C" town="Dion">
+		<item RecipesId="21" Prices="70"/> <!-- Soulshot: C-grade -->
+	</items>
+	<items signboard="Соски A-S" town="Giran">
+		<item RecipesId="23" Prices="250"/> <!-- Soulshot: A-grade -->
+		<item RecipesId="24" Prices="500"/> <!-- Soulshot: S-grade -->
+	</items>
+	<items signboard="Соски D" town="Gludio">
+		<item RecipesId="317" Prices="50"/> <!-- Spiritshot: D-grade -->
+		<item RecipesId="323" Prices="50"/> <!-- Blessed Spiritshot: D-Grade -->
+	</items>
+	<items signboard="Все шоты" town="Runa">
+		<item RecipesId="20" Prices="30"/> <!-- Soulshot: D-grade -->
+		<item RecipesId="21" Prices="70"/> <!-- Soulshot: C-grade -->
+		<item RecipesId="22" Prices="120"/> <!-- Soulshot: B-grade -->
+		<item RecipesId="23" Prices="250"/> <!-- Soulshot: A-grade -->
+		<item RecipesId="24" Prices="500"/> <!-- Soulshot: S-grade -->
+		<item RecipesId="317" Prices="50"/> <!-- Spiritshot: D-grade -->
+		<item RecipesId="318" Prices="80"/> <!-- Spiritshot: C-grade -->
+		<item RecipesId="319" Prices="130"/> <!-- Spiritshot: B-grade -->
+		<item RecipesId="320" Prices="300"/> <!-- Spiritshot: A-grade -->
+		<item RecipesId="321" Prices="600"/> <!-- Spiritshot: S-grade -->
+		<item RecipesId="323" Prices="70"/> <!-- Blessed Spiritshot: D-Grade -->
+		<item RecipesId="324" Prices="100"/> <!-- Blessed Spiritshot: C-Grade -->
+		<item RecipesId="325" Prices="250"/> <!-- Blessed Spiritshot: B-Grade -->
+		<item RecipesId="326" Prices="500"/> <!-- Blessed Spiritshot: A-Grade -->
+		<item RecipesId="327" Prices="1000"/> <!-- Blessed Spiritshot: S Grade -->
+	</items>
+	<items signboard="C Заряды" town="Dion">
+		<item RecipesId="318" Prices="120"/> <!-- Spiritshot: C-grade -->
+		<item RecipesId="324" Prices="150"/> <!-- Blessed Spiritshot: C-Grade -->
+		<item RecipesId="21" Prices="70"/> <!-- Soulshot: C-grade -->
+	</items>
+	<items signboard="Соски A-S" town="Giran">
+		<item RecipesId="23" Prices="250"/> <!-- Soulshot: A-grade -->
+		<item RecipesId="24" Prices="500"/> <!-- Soulshot: S-grade -->
+		<item RecipesId="327" Prices="1500"/> <!-- Blessed Spiritshot: S Grade -->
+	</items>
+	<items signboard="Крафт ресурсов" town="Giran">
+		<item RecipesId="25" Prices="100"/> <!-- Leather -->
+		<item RecipesId="26" Prices="100"/> <!-- Cord -->
+		<item RecipesId="27" Prices="150"/> <!-- Oriharukon -->
+		<item RecipesId="28" Prices="150"/> <!-- Braided Hemp -->
+		<item RecipesId="29" Prices="100"/> <!-- Cokes -->
+		<item RecipesId="30" Prices="150"/> <!-- Steel -->
+		<item RecipesId="31" Prices="500"/> <!-- Coarse Bone Powder -->
+		<item RecipesId="32" Prices="10000"/> <!-- Steel Mold -->
+		<item RecipesId="33" Prices="500000"/> <!-- High Grade Suede -->
+		<item RecipesId="34" Prices="1000"/> <!-- Silver Mold -->
+		<item RecipesId="35" Prices="500"/> <!-- Varnish of Purity -->
+		<item RecipesId="36" Prices="200"/> <!-- Synthetic Cokes -->
+		<item RecipesId="37" Prices="15000"/> <!-- Compound Braid -->
+		<item RecipesId="38" Prices="50"/> <!-- Mithril Alloy -->
+		<item RecipesId="39" Prices="1500"/> <!-- Artisan's Frame -->
+		<item RecipesId="40" Prices="35000"/> <!-- Blacksmith's Frame -->
+		<item RecipesId="41" Prices="200"/> <!-- Crafted Leather -->
+		<item RecipesId="42" Prices="10"/> <!-- Metallic Fiber -->
+	</items>
+	<items signboard="D-Grade" town="Dion">
+		<item RecipesId="43" Prices="1000"/> <!-- Blue Diamond Necklace -->
+		<item RecipesId="44" Prices="1000"/> <!-- Necklace of Devotion -->
+		<item RecipesId="45" Prices="1000"/> <!-- Enchanted Necklace -->
+		<item RecipesId="46" Prices="1000"/> <!-- Tiger's Eye Earring -->
+		<item RecipesId="47" Prices="1000"/> <!-- Elven Earring -->
+		<item RecipesId="48" Prices="1000"/> <!-- Elven Ring -->
+		<item RecipesId="49" Prices="1000"/> <!-- Elven Necklace -->
+	</items>
+	<items signboard="Бижа Д" town="Dion">
+		<item RecipesId="50" Prices="1500"/> <!-- Omen Beast's Eye Earring -->
+		<item RecipesId="51" Prices="1300"/> <!-- Mithril Ring -->
+		<item RecipesId="52" Prices="1500"/> <!-- Necklace of Darkness -->
+		<item RecipesId="53" Prices="1600"/> <!-- Moonstone Earring -->
+		<item RecipesId="54" Prices="1300"/> <!-- Aquastone Ring -->
+		<item RecipesId="55" Prices="1800"/> <!-- Aquastone Necklace -->
+		<item RecipesId="56" Prices="1700"/> <!-- Earring of Protection -->
+		<item RecipesId="57" Prices="1400"/> <!-- Ring of Protection -->
+		<item RecipesId="58" Prices="2000"/> <!-- Necklace of Protection -->
+		<item RecipesId="59" Prices="1700"/> <!-- Earring of Binding -->
+		<item RecipesId="60" Prices="1500"/> <!-- Ring of Ages -->
+	</items>
+	<items signboard="Шмотки-бижа Д" town="Gludio">
+		<item RecipesId="61" Prices="1333"/> <!-- Necklace of Mermaid -->
+		<item RecipesId="62" Prices="1333"/> <!-- Necklace of Binding -->
+		<item RecipesId="63" Prices="1333"/> <!-- Nassen's Earring -->
+		<item RecipesId="64" Prices="1333"/> <!-- Sage's Ring -->
+		<item RecipesId="65" Prices="1333"/> <!-- Sage's Necklace -->
+		<item RecipesId="66" Prices="1333"/> <!-- Hard Leather Shirt -->
+		<item RecipesId="67" Prices="1333"/> <!-- Hard Leather Gaiters -->
+		<item RecipesId="68" Prices="1333"/> <!-- Boots -->
+		<item RecipesId="69" Prices="1333"/> <!-- Leather Boots -->
+		<item RecipesId="70" Prices="1333"/> <!-- Bone Helmet -->
+	</items>
+	<items signboard="Броня" town="Dion">
+		<item RecipesId="71" Prices="2000"/> <!-- Dark Stockings -->
+		<item RecipesId="72" Prices="2000"/> <!-- Crafted Leather Gloves -->
+		<item RecipesId="73" Prices="2000"/> <!-- Scale Mail -->
+		<item RecipesId="74" Prices="2000"/> <!-- White Tunic -->
+		<item RecipesId="75" Prices="2000"/> <!-- Scale Gaiters -->
+		<item RecipesId="76" Prices="2000"/> <!-- Mithril Banded Mail -->
+		<item RecipesId="77" Prices="2000"/> <!-- Mithril Banded Gaiters -->
+		<item RecipesId="78" Prices="2000"/> <!-- Iron Boots -->
+		<item RecipesId="79" Prices="2000"/> <!-- Brigandine Tunic -->
+		<item RecipesId="80" Prices="2000"/> <!-- Manticore Skin Shirt -->
+		<item RecipesId="81" Prices="2000"/> <!-- Manticore Skin Gaiters -->
+		<item RecipesId="82" Prices="2000"/> <!-- Mithril Tunic -->
+		<item RecipesId="83" Prices="2000"/> <!-- Mithril Stockings -->
+		<item RecipesId="84" Prices="2000"/> <!-- Rip Gauntlets -->
+		<item RecipesId="85" Prices="2000"/> <!-- Kite Shield -->
+	</items>
+	<items signboard="Smotki-craft" town="Giran">	
+		<item RecipesId="86" Prices="17000"/> <!-- Boots of Power -->
+		<item RecipesId="87" Prices="17000"/> <!-- Mithril Plate Gloves -->
+		<item RecipesId="88" Prices="25000"/> <!-- Half Plate Armor -->
+		<item RecipesId="89" Prices="20000"/> <!-- Plate Gaiters -->
+		<item RecipesId="90" Prices="20000"/> <!-- Salamander Skin Mail -->
+		<item RecipesId="91" Prices="16000"/> <!-- Sage's Rag -->
+		<item RecipesId="92" Prices="15000"/> <!-- Karmian Stockings -->
+		<item RecipesId="93" Prices="13000"/> <!-- Chain Helmet -->
+		<item RecipesId="94" Prices="5000"/> <!-- Square Shield -->
+		<item RecipesId="95" Prices="16000"/> <!-- Assault Boots -->
+	</items>
+	<items signboard="Броня, оружие С" town="Giran">	
+		<item RecipesId="96" Prices="18000"/> <!-- Mithril Boots -->
+		<item RecipesId="97" Prices="25000"/> <!-- Chain Mail Shirt -->
+		<item RecipesId="98" Prices="21000"/> <!-- Chain Gaiters -->
+		<item RecipesId="99" Prices="21000"/> <!-- Mithril Shirt -->
+		<item RecipesId="100" Prices="35000"/> <!-- Karmian Tunic -->
+		<item RecipesId="101" Prices="20000"/> <!-- Ogre Power Gauntlets -->
+		<item RecipesId="102" Prices="200000"/> <!-- Eldarake -->
+		<item RecipesId="103" Prices="20000"/> <!-- Steel Plate Helmet -->
+		<item RecipesId="104" Prices="22000"/> <!-- Plated Leather -->
+	</items>
+	<items signboard="Скрафти хлам" town="Giran">	
+		<item RecipesId="105" Prices="19999"/> <!-- Plated Leather Gaiters -->
+		<item RecipesId="106" Prices="22222"/> <!-- Dwarven Chain Mail Shirt -->
+		<item RecipesId="107" Prices="22222"/> <!-- Dwarven Chain Gaiters -->
+		<item RecipesId="108" Prices="21111"/> <!-- Robe of Seal -->
+		<item RecipesId="109" Prices="23333"/> <!-- Great Helmet -->
+		<item RecipesId="110" Prices="17000"/> <!-- Knight's Shield -->
+		<item RecipesId="111" Prices="200000"/> <!-- Pa'agrian Hand -->
+		<item RecipesId="112" Prices="23232"/> <!-- Crimson Boots -->
+		<item RecipesId="113" Prices="17000"/> <!-- Rind Leather Armor -->
+		<item RecipesId="114" Prices="17000"/> <!-- Rind Leather Gaiters -->
+	</items>
+	<items signboard="Оденься в С и нагибай" town="Giran">	
+		<item RecipesId="115" Prices="28000"/> <!-- Composite Armor -->
+		<item RecipesId="116" Prices="20000"/> <!-- Tower Shield -->
+		<item RecipesId="117" Prices="34444"/> <!-- Demon's Tunic -->
+		<item RecipesId="118" Prices="20000"/> <!-- Demon's Stockings -->
+		<item RecipesId="119" Prices="20000"/> <!-- Mithril Gauntlets -->
+		<item RecipesId="120" Prices="20000"/> <!-- Forgotten Boots -->
+		<item RecipesId="121" Prices="20000"/> <!-- Shining Circlet -->
+		<item RecipesId="122" Prices="40000"/> <!-- Theca Leather Armor -->
+		<item RecipesId="123" Prices="20000"/> <!-- Theca Leather Gaiters -->
+		<item RecipesId="124" Prices="45000"/> <!-- Full Plate Armor -->
+		<item RecipesId="125" Prices="35000"/> <!-- Drake Leather Armor -->
+	</items>
+	<items signboard="разное шмотьё" town="Giran">	
+		<item RecipesId="126" Prices="35000"/> <!-- Divine Tunic -->
+		<item RecipesId="127" Prices="26000"/> <!-- Divine Stockings -->
+		<item RecipesId="128" Prices="15000"/> <!-- Mithril Helmet -->
+		<item RecipesId="138" Prices="250000"/> <!-- Pata -->
+		<item RecipesId="139" Prices="60000"/> <!-- Helm of Avadon -->
+	</items>
+	<items signboard="Пушки-колотушки" town="Giran">	
+		<item RecipesId="143" Prices="20"/> <!-- Bone Arrow -->
+		<item RecipesId="144" Prices="30"/> <!-- Iron Arrow -->
+		<item RecipesId="145" Prices="200000"/> <!-- Iron Hammer -->
+		<item RecipesId="146" Prices="200000"/> <!-- Sword Breaker -->
+		<item RecipesId="147" Prices="200000"/> <!-- Composite Bow -->
+		<item RecipesId="148" Prices="200000"/> <!-- Saber -->
+		<item RecipesId="149" Prices="200000"/> <!-- Assassin Knife -->
+		<item RecipesId="150" Prices="200000"/> <!-- Trident -->
+		<item RecipesId="151" Prices="200000"/> <!-- Temptation of Abyss -->
+		<item RecipesId="152" Prices="200000"/> <!-- Spinebone Sword -->
+		<item RecipesId="153" Prices="200000"/> <!-- Mace of Judgment -->
+		<item RecipesId="154" Prices="200000"/> <!-- Conjuror's Staff -->
+		<item RecipesId="155" Prices="200000"/> <!-- Elven Bow -->
+		<item RecipesId="156" Prices="200000"/> <!-- Dwarven Trident -->
+		<item RecipesId="157" Prices="200000"/> <!-- Two-Handed Sword -->
+		<item RecipesId="158" Prices="200000"/> <!-- Spiked Club -->
+		<item RecipesId="159" Prices="200000"/> <!-- Shilen Knife -->
+	</items>
+	<items signboard="С пухи" town="Giran">	
+		<item RecipesId="160" Prices="220000"/> <!-- Gastraphetes -->
+		<item RecipesId="161" Prices="220000"/> <!-- Tome of Blood -->
+		<item RecipesId="162" Prices="220000"/> <!-- Morning Star -->
+		<item RecipesId="163" Prices="220000"/> <!-- Goat Head Staff -->
+		<item RecipesId="164" Prices="220000"/> <!-- Winged Spear -->
+		<item RecipesId="165" Prices="220000"/> <!-- Sword of Revolution -->
+		<item RecipesId="166" Prices="220000"/> <!-- Tarbar -->
+		<item RecipesId="167" Prices="220000"/> <!-- Skull Breaker -->
+		<item RecipesId="168" Prices="220000"/> <!-- Heavy Bone Club -->
+		<item RecipesId="169" Prices="220000"/> <!-- Maingauche -->
+		<item RecipesId="170" Prices="220000"/> <!-- Bich'Hwa -->
+		<item RecipesId="171" Prices="220000"/> <!-- Strengthened Long Bow -->
+		<item RecipesId="172" Prices="220000"/> <!-- War Pick -->
+		<item RecipesId="173" Prices="220000"/> <!-- Crucifix of Blood -->
+	</items>
+	<items signboard="Разные пушки" town="Giran">	
+		<item RecipesId="175" Prices="212121"/> <!-- Cursed Maingauche -->
+		<item RecipesId="177" Prices="212121"/> <!-- Demon Fangs -->
+		<item RecipesId="178" Prices="212121"/> <!-- Claymore -->
+		<item RecipesId="179" Prices="212121"/> <!-- Bonebreaker -->
+		<item RecipesId="180" Prices="212121"/> <!-- Atuba Hammer -->
+		<item RecipesId="181" Prices="212121"/> <!-- Ghost Staff -->
+		<item RecipesId="182" Prices="212121"/> <!-- Staff of Life -->
+		<item RecipesId="183" Prices="212121"/> <!-- Mithril Dagger -->
+		<item RecipesId="184" Prices="212121"/> <!-- Scallop Jamadhr -->
+		<item RecipesId="185" Prices="212121"/> <!-- Light Crossbow -->
+		<item RecipesId="186" Prices="212121"/> <!-- Glaive -->
+		<item RecipesId="187" Prices="212121"/> <!-- Vajra Wands -->
+		<item RecipesId="188" Prices="212121"/> <!-- Ancient Reagent -->
+		<item RecipesId="189" Prices="212121"/> <!-- Atuba Mace -->
+	</items>
+	<items signboard="оружие" town="Giran">	
+		<item RecipesId="190" Prices="222222"/> <!-- Flamberge -->
+		<item RecipesId="191" Prices="222222"/> <!-- Stormbringer -->
+		<item RecipesId="192" Prices="222222"/> <!-- Big Hammer -->
+		<item RecipesId="193" Prices="222222"/> <!-- Scythe -->
+		<item RecipesId="194" Prices="222222"/> <!-- Battle Axe -->
+		<item RecipesId="195" Prices="222222"/> <!-- Silver Axe -->
+		<item RecipesId="196" Prices="222222"/> <!-- Skull Graver -->
+		<item RecipesId="197" Prices="222222"/> <!-- Heavy Doom Hammer -->
+		<item RecipesId="198" Prices="222222"/> <!-- Crystal Staff -->
+		<item RecipesId="199" Prices="222222"/> <!-- Stick of Faith -->
+		<item RecipesId="200" Prices="222222"/> <!-- Heavy Doom Axe -->
+		<item RecipesId="201" Prices="222222"/> <!-- Cursed Dagger -->
+		<item RecipesId="202" Prices="222222"/> <!-- Wolverine Needle -->
+		<item RecipesId="203" Prices="222222"/> <!-- Dark Elven Dagger -->
+	</items>
+	<items signboard="" town="Giran">	
+		<item RecipesId="204" Prices="199999"/> <!-- Chakram -->
+		<item RecipesId="205" Prices="199999"/> <!-- Crystallized Ice Bow -->
+		<item RecipesId="206" Prices="199999"/> <!-- Orcish Glaive -->
+		<item RecipesId="207" Prices="199999"/> <!-- Body Slasher -->
+		<item RecipesId="208" Prices="199999"/> <!-- Shamshir -->
+		<item RecipesId="209" Prices="199999"/> <!-- Katana -->
+		<item RecipesId="210" Prices="199999"/> <!-- Bec de Corbin -->
+		<item RecipesId="211" Prices="199999"/> <!-- Spirit Sword -->
+		<item RecipesId="212" Prices="199999"/> <!-- Raid Sword -->
+		<item RecipesId="213" Prices="199999"/> <!-- Cursed Staff -->
+		<item RecipesId="214" Prices="199999"/> <!-- Stiletto -->
+		<item RecipesId="215" Prices="199999"/> <!-- Soulfire Dirk -->
+		<item RecipesId="216" Prices="199999"/> <!-- Elemental Bow -->
+		<item RecipesId="217" Prices="199999"/> <!-- Noble Elven Bow -->
+		<item RecipesId="219" Prices="199999"/> <!-- Horn of Glory -->
+	</items>
+	<items signboard="С" town="Giran">
+		<item RecipesId="220" Prices="200001"/> <!-- Caliburs -->
+		<item RecipesId="221" Prices="200001"/> <!-- Sword of Delusion -->
+		<item RecipesId="222" Prices="200001"/> <!-- Tsurugi -->
+		<item RecipesId="223" Prices="200001"/> <!-- Homunkulus's Sword -->
+		<item RecipesId="224" Prices="200001"/> <!-- Poleaxe -->
+		<item RecipesId="225" Prices="200001"/> <!-- Sword of Limit -->
+		<item RecipesId="226" Prices="200001"/> <!-- Sword of Nightmare -->
+		<item RecipesId="227" Prices="200001"/> <!-- Sword of Whispering Death -->
+		<item RecipesId="228" Prices="200001"/> <!-- War Axe -->
+		<item RecipesId="229" Prices="200001"/> <!-- Nirvana Axe -->
+		<item RecipesId="230" Prices="200001"/> <!-- Stick of Eternity -->
+		<item RecipesId="231" Prices="200001"/> <!-- Paradia Staff -->
+		<item RecipesId="232" Prices="200001"/> <!-- Inferno Staff -->
+	</items>
+	<items signboard="может кому надо" town="Dion">
+		<item RecipesId="233" Prices="240000"/> <!-- Pa'agrian Hammer -->
+		<item RecipesId="234" Prices="240000"/> <!-- Sage's Staff -->
+		<item RecipesId="235" Prices="240000"/> <!-- Club of Nature -->
+		<item RecipesId="236" Prices="240000"/> <!-- Mace of the Underworld -->
+		<item RecipesId="237" Prices="240000"/> <!-- Grace Dagger -->
+		<item RecipesId="238" Prices="240000"/> <!-- Dark Screamer -->
+		<item RecipesId="239" Prices="240000"/> <!-- Fisted Blade -->
+		<item RecipesId="240" Prices="240000"/> <!-- Akat Long Bow -->
+		<item RecipesId="241" Prices="240000"/> <!-- Heathen's Book -->
+		<item RecipesId="243" Prices="240000"/> <!-- Pa'agrian Axe -->
+		<item RecipesId="244" Prices="240000"/> <!-- Scorpion -->
+		<item RecipesId="245" Prices="240000"/> <!-- Widow Maker -->
+	</items>
+	<items signboard="" town="Giran">
+		<item RecipesId="246" Prices="222222"/> <!-- Samurai Longsword -->
+		<item RecipesId="247" Prices="222222"/> <!-- Deadman's Staff -->
+		<item RecipesId="248" Prices="222222"/> <!-- Ghoul's Staff -->
+		<item RecipesId="249" Prices="222222"/> <!-- Demon's Staff -->
+		<item RecipesId="250" Prices="222222"/> <!-- Crystal Dagger -->
+		<item RecipesId="251" Prices="222222"/> <!-- Great Pata -->
+		<item RecipesId="252" Prices="222222"/> <!-- Eminence Bow -->
+		<item RecipesId="253" Prices="222222"/> <!-- Orcish Poleaxe -->
+	</items>
+	<items signboard="Много разного налетай" town="Giran">
+		<item RecipesId="261" Prices="20000"/> <!-- Ring of Binding -->
+		<item RecipesId="262" Prices="20000"/> <!-- Mithril Scale Gaiters -->
+		<item RecipesId="263" Prices="20000"/> <!-- Brigandine Gaiters -->
+		<item RecipesId="264" Prices="20000"/> <!-- Elven Mithril Tunic -->
+		<item RecipesId="265" Prices="20000"/> <!-- Elven Mithril Stockings -->
+		<item RecipesId="266" Prices="20000"/> <!-- Brigandine Helmet -->
+		<item RecipesId="267" Prices="20000"/> <!-- Manticore Skin Boots -->
+		<item RecipesId="268" Prices="20000"/> <!-- Brigandine Boots -->
+		<item RecipesId="269" Prices="20000"/> <!-- Elven Mithril Boots -->
+		<item RecipesId="270" Prices="20000"/> <!-- Manticore Skin Gloves -->
+		<item RecipesId="271" Prices="20000"/> <!-- Brigandine Gauntlets -->
+	</items>
+	<items signboard="Шмотки" town="Dion">
+		<item RecipesId="272" Prices="24444"/> <!-- Mithril Gloves -->
+		<item RecipesId="273" Prices="24444"/> <!-- Brigandine Shield -->
+		<item RecipesId="274" Prices="27000"/> <!-- Plate Helmet -->
+		<item RecipesId="275" Prices="24444"/> <!-- Salamander Skin Boots -->
+		<item RecipesId="276" Prices="24444"/> <!-- Plate Boots -->
+		<item RecipesId="277" Prices="24444"/> <!-- Sage's Worn Gloves -->
+		<item RecipesId="278" Prices="18000"/> <!-- Plate Shield -->
+		<item RecipesId="279" Prices="20000"/> <!-- Tempered Mithril Gaiters -->
+		<item RecipesId="280" Prices="20000"/> <!-- Chain Hood -->
+		<item RecipesId="281" Prices="20000"/> <!-- Chain Boots -->
+		<item RecipesId="282" Prices="24000"/> <!-- Karmian Boots -->
+	</items>
+	<items signboard="Много концов" town="Giran">
+		<item RecipesId="283" Prices="15000"/> <!-- Plated Leather Boots -->
+		<item RecipesId="284" Prices="15000"/> <!-- Dwarven Chain Boots -->
+		<item RecipesId="285" Prices="15000"/> <!-- Boots of Seal -->
+		<item RecipesId="286" Prices="15000"/> <!-- Reinforced Mithril Gloves -->
+		<item RecipesId="287" Prices="15000"/> <!-- Chain Gloves -->
+		<item RecipesId="288" Prices="15000"/> <!-- Karmian Gloves -->
+		<item RecipesId="289" Prices="15000"/> <!-- Chain Shield -->
+		<item RecipesId="290" Prices="15000"/> <!-- Plated Leather Gloves -->
+		<item RecipesId="291" Prices="15000"/> <!-- Dwarven Chain Shield -->
+		<item RecipesId="292" Prices="15000"/> <!-- Rind Leather Boots -->
+		<item RecipesId="293" Prices="15000"/> <!-- Dwarven Chain Gloves -->
+	</items>
+	<items signboard="Тека, демон" town="Giran">
+		<item RecipesId="294" Prices="23232"/> <!-- Gloves of Seal -->
+		<item RecipesId="295" Prices="23232"/> <!-- Rind Leather Gloves -->
+		<item RecipesId="296" Prices="21111"/> <!-- Demon's Boots -->
+		<item RecipesId="297" Prices="21111"/> <!-- Demon's Gloves -->
+		<item RecipesId="298" Prices="23223"/> <!-- Theca Leather Boots -->
+		<item RecipesId="299" Prices="22444"/> <!-- Theca Leather Gloves -->
+		<item RecipesId="300" Prices="24444"/> <!-- Composite Boots -->
+		<item RecipesId="301" Prices="21111"/> <!-- Composite Helmet -->
+		<item RecipesId="302" Prices="22222"/> <!-- Divine Boots -->
+		<item RecipesId="303" Prices="25000"/> <!-- Full Plate Helmet -->
+		<item RecipesId="304" Prices="17000"/> <!-- Drake Leather Boots -->
+	</items>
+	<items signboard="Якса и концы" town="Dion">
+		<item RecipesId="305" Prices="20000"/> <!-- Full Plate Boots -->
+		<item RecipesId="306" Prices="20000"/> <!-- Drake Leather Gloves -->
+		<item RecipesId="307" Prices="20000"/> <!-- Full Plate Gauntlets -->
+		<item RecipesId="308" Prices="20000"/> <!-- Divine Gloves -->
+		<item RecipesId="309" Prices="20000"/> <!-- Blessed Gloves -->
+		<item RecipesId="310" Prices="20000"/> <!-- Full Plate Shield -->
+		<item RecipesId="311" Prices="200000"/> <!-- Elven Long Sword -->
+		<item RecipesId="312" Prices="200000"/> <!-- Dwarven War Hammer -->
+		<item RecipesId="313" Prices="200000"/> <!-- Yaksa Mace -->
+	</items>
+	<items signboard="Крафт икар пух" town="Giran">
+		<item RecipesId="900" Prices="2000000"/> <!-- Icarus Sawsword -->
+		<item RecipesId="901" Prices="2000000"/> <!-- Icarus Disperser -->
+		<item RecipesId="902" Prices="2000000"/> <!-- Icarus Spirit -->
+		<item RecipesId="903" Prices="2000000"/> <!-- Icarus Heavy Arms -->
+		<item RecipesId="904" Prices="2000000"/> <!-- Icarus Trident -->
+	</items>
+	<items signboard="Икар" town="Runa">
+		<item RecipesId="901" Prices="2200000"/> <!-- Icarus Disperser -->
+		<item RecipesId="900" Prices="2200000"/> <!-- Icarus Sawsword -->
+		<item RecipesId="903" Prices="2200000"/> <!-- Icarus Heavy Arms -->
+		<item RecipesId="904" Prices="2200000"/> <!-- Icarus Trident -->
+		<item RecipesId="902" Prices="2200000"/> <!-- Icarus Spirit -->
+	</items>
+	<items signboard="Пушки икара" town="Runa">
+		<item RecipesId="905" Prices="2100000"/> <!-- Icarus Hammer -->
+		<item RecipesId="906" Prices="2100000"/> <!-- Icarus Hand -->
+		<item RecipesId="907" Prices="2100000"/> <!-- Icarus Hall -->
+		<item RecipesId="908" Prices="2100000"/> <!-- Icarus Spitter -->
+	</items>
+	<items signboard="Оружие Икара" town="Giran">
+		<item RecipesId="906" Prices="1900000"/> <!-- Icarus Hand -->
+		<item RecipesId="907" Prices="1900000"/> <!-- Icarus Hall -->
+		<item RecipesId="905" Prices="1900000"/> <!-- Icarus Hammer -->
+		<item RecipesId="908" Prices="1900000"/> <!-- Icarus Spitter -->
+	</items>
+	<items signboard="Кристаллы" town="Giran">
+		<item RecipesId="930" Prices="500000"/> <!-- 	Fire Crystal -->
+		<item RecipesId="931" Prices="500000"/> <!-- 	Water Crystal -->
+		<item RecipesId="932" Prices="500000"/> <!-- 	Wind Crystal -->
+		<item RecipesId="933" Prices="500000"/> <!-- 	Earth Crystal -->
+		<item RecipesId="934" Prices="500000"/> <!-- 	Dark Crystal -->
+		<item RecipesId="935" Prices="500000"/> <!-- 	Divine Crystal -->
+	</items>
+	<items signboard="Crystal" town="Giran">
+		<item RecipesId="930" Prices="500000"/> <!-- 	Fire Crystal -->
+		<item RecipesId="935" Prices="500000"/> <!-- 	Divine Crystal -->
+	</items>
+	<items signboard="Элементы" town="Runa">
+		<item RecipesId="930" Prices="500000"/> <!-- 	Fire Crystal -->
+		<item RecipesId="934" Prices="500000"/> <!-- 	Dark Crystal -->
+		<item RecipesId="935" Prices="500000"/> <!-- 	Divine Crystal -->
+		<item RecipesId="931" Prices="500000"/> <!-- 	Water Crystal -->
+		<item RecipesId="932" Prices="500000"/> <!-- 	Wind Crystal -->
+		<item RecipesId="933" Prices="500000"/> <!-- 	Earth Crystal -->
+	</items>
+	<items signboard="Dark-Wind-Crystal" town="Runa">
+		<item RecipesId="934" Prices="500000"/> <!-- 	Dark Crystal -->
+		<item RecipesId="932" Prices="500000"/> <!-- 	Wind Crystal -->
+	</items>
+	<items signboard="Dino Heavy" town="Runa">
+		<item RecipesId="881" Prices="800000"/> <!--	Sealed Dynasty Breast Plate -->
+		<item RecipesId="882" Prices="600000"/> <!--	Sealed Dynasty Gaiter -->
+		<item RecipesId="883" Prices="600000"/> <!--	Sealed Dynasty Helmet -->
+		<item RecipesId="884" Prices="400000"/> <!--	Sealed Dynasty Gauntlets -->
+		<item RecipesId="885" Prices="400000"/> <!--	Sealed Dynasty Boots -->
+	</items>
+	<items signboard="Династия тяж" town="Giran">
+		<item RecipesId="881" Prices="830000"/> <!--	Sealed Dynasty Breast Plate -->
+		<item RecipesId="882" Prices="630000"/> <!--	Sealed Dynasty Gaiter -->
+		<item RecipesId="883" Prices="630000"/> <!--	Sealed Dynasty Helmet -->
+		<item RecipesId="884" Prices="430000"/> <!--	Sealed Dynasty Gauntlets -->
+		<item RecipesId="885" Prices="430000"/> <!--	Sealed Dynasty Boots -->
+	</items>
+	<items signboard="Крафт лайт дино сета" town="Giran">	
+		<item RecipesId="886" Prices="800000"/> <!--	Sealed Dynasty Leather Armor -->
+		<item RecipesId="887" Prices="700000"/> <!--	Sealed Dynasty Leather Leggings -->
+		<item RecipesId="888" Prices="600000"/> <!--	Sealed Dynasty Leather Helmet -->
+		<item RecipesId="889" Prices="400000"/> <!--	Sealed Dynasty Leather Gloves -->
+		<item RecipesId="890" Prices="400000"/> <!--	Sealed Dynasty Leather Boots -->
+	</items>
+	<items signboard="Dynasty Leather" town="Runa">	
+		<item RecipesId="886" Prices="820000"/> <!--	Sealed Dynasty Leather Armor -->
+		<item RecipesId="887" Prices="720000"/> <!--	Sealed Dynasty Leather Leggings -->
+		<item RecipesId="888" Prices="620000"/> <!--	Sealed Dynasty Leather Helmet -->
+		<item RecipesId="889" Prices="420000"/> <!--	Sealed Dynasty Leather Gloves -->
+		<item RecipesId="890" Prices="420000"/> <!--	Sealed Dynasty Leather Boots -->
+	</items>
+	<items signboard="Династия маг" town="Runa">	
+		<item RecipesId="891" Prices="900000"/> <!--	Sealed Dynasty Tunic -->
+		<item RecipesId="892" Prices="600000"/> <!--	Sealed Dynasty Stockings -->
+		<item RecipesId="893" Prices="500000"/> <!--	Sealed Dynasty Circlet -->
+		<item RecipesId="894" Prices="400000"/> <!--	Sealed Dynasty Gloves -->
+		<item RecipesId="895" Prices="400000"/> <!--	Sealed Dynasty Shoes -->
+	</items>
+	<items signboard="Dynasty MAG" town="Giran">	
+		<item RecipesId="891" Prices="920000"/> <!--	Sealed Dynasty Tunic -->
+		<item RecipesId="892" Prices="620000"/> <!--	Sealed Dynasty Stockings -->
+		<item RecipesId="893" Prices="520000"/> <!--	Sealed Dynasty Circlet -->
+		<item RecipesId="894" Prices="420000"/> <!--	Sealed Dynasty Gloves -->
+		<item RecipesId="895" Prices="420000"/> <!--	Sealed Dynasty Shoes -->
+	</items>
+	<items signboard="Дино щит и бижа" town="Giran">	
+		<item RecipesId="896" Prices="400000"/> <!--	Sealed Dynasty Shield -->
+		<item RecipesId="897" Prices="300000"/> <!--	Sealed Dynasty Earring -->
+		<item RecipesId="898" Prices="400000"/> <!--	Sealed Dynasty Necklace -->
+		<item RecipesId="899" Prices="200000"/> <!--	Sealed Dynasty Ring -->
+	</items>
+	<items signboard="Бижа дино" town="Runa">	
+		<item RecipesId="896" Prices="410000"/> <!--	Sealed Dynasty Shield -->
+		<item RecipesId="897" Prices="310000"/> <!--	Sealed Dynasty Earring -->
+		<item RecipesId="898" Prices="410000"/> <!--	Sealed Dynasty Necklace -->
+		<item RecipesId="899" Prices="210000"/> <!--	Sealed Dynasty Ring -->
+	</items>
+	<items signboard="S оружейка" town="Runa">	
+		<item RecipesId="626" Prices="1000000"/> <!--	Forgotten Blade -->
+		<item RecipesId="628" Prices="1000000"/> <!--	Basalt Battlehammer -->
+		<item RecipesId="630" Prices="1000000"/> <!--	Imperial Staff -->
+		<item RecipesId="632" Prices="1000000"/> <!--	Angel Slayer -->
+		<item RecipesId="634" Prices="1000000"/> <!--	Shining Bow -->
+		<item RecipesId="636" Prices="1000000"/> <!--	Dragon Hunter Axe -->
+		<item RecipesId="638" Prices="1000000"/> <!--	Saint Spear -->
+		<item RecipesId="640" Prices="1000000"/> <!--	Demon Splinter -->
+		<item RecipesId="642" Prices="1000000"/> <!--	Heaven's Divider -->
+		<item RecipesId="644" Prices="1000000"/> <!--	Arcana Mace -->
+	</items>
+	<items signboard="пухи S" town="Giran">	
+		<item RecipesId="626" Prices="800000"/> <!--	Forgotten Blade -->
+		<item RecipesId="628" Prices="800000"/> <!--	Basalt Battlehammer -->
+		<item RecipesId="630" Prices="800000"/> <!--	Imperial Staff -->
+		<item RecipesId="632" Prices="800000"/> <!--	Angel Slayer -->
+		<item RecipesId="634" Prices="800000"/> <!--	Shining Bow -->
+		<item RecipesId="636" Prices="800000"/> <!--	Dragon Hunter Axe -->
+		<item RecipesId="638" Prices="800000"/> <!--	Saint Spear -->
+		<item RecipesId="640" Prices="800000"/> <!--	Demon Splinter -->
+		<item RecipesId="642" Prices="800000"/> <!--	Heaven's Divider -->
+		<item RecipesId="644" Prices="800000"/> <!--	Arcana Mace -->
+	</items>
+	<items signboard="ТТ" town="Runa">	
+		<item RecipesId="646" Prices="300000"/> <!--	Sealed Tateossian Earring -->
+		<item RecipesId="648" Prices="230000"/> <!--	Sealed Tateossian Ring -->
+		<item RecipesId="650" Prices="330000"/> <!--	Sealed Tateossian Necklace -->
+	</items>
+	<items signboard="Bija tt" town="Giran">	
+		<item RecipesId="646" Prices="290000"/> <!--	Sealed Tateossian Earring -->
+		<item RecipesId="648" Prices="220000"/> <!--	Sealed Tateossian Ring -->
+		<item RecipesId="650" Prices="310000"/> <!--	Sealed Tateossian Necklace -->
+	</items>
+	<items signboard="крестоносец сет" town="Giran">
+		<item RecipesId="652" Prices="700000"/> <!--	Sealed Imperial Crusader Breastplate -->
+		<item RecipesId="654" Prices="450000"/> <!--	Sealed Imperial Crusader Gaiters -->
+		<item RecipesId="656" Prices="150000"/> <!--	Sealed Imperial Crusader Gauntlet -->
+		<item RecipesId="658" Prices="150000"/> <!--	Sealed Imperial Crusader Boots -->
+		<item RecipesId="660" Prices="100000"/> <!--	Sealed Imperial Crusader Shield -->
+		<item RecipesId="662" Prices="200000"/> <!--	Sealed Imperial Crusader Helmet -->
+	</items>
+	<items signboard="Draconic" town="Runa">
+		<item RecipesId="664" Prices="800000"/> <!--	Sealed Draconic Leather Armor -->
+		<item RecipesId="666" Prices="200000"/> <!--	Sealed Draconic Leather Glove -->
+		<item RecipesId="668" Prices="200000"/> <!--	Sealed Draconic Leather Boots -->
+		<item RecipesId="670" Prices="300000"/> <!--	Sealed Draconic Leather Helmet -->
+	</items>
+	<items signboard="Драконик" town="Giran">
+		<item RecipesId="664" Prices="810000"/> <!--	Sealed Draconic Leather Armor -->
+		<item RecipesId="666" Prices="210000"/> <!--	Sealed Draconic Leather Glove -->
+		<item RecipesId="668" Prices="220000"/> <!--	Sealed Draconic Leather Boots -->
+		<item RecipesId="670" Prices="320000"/> <!--	Sealed Draconic Leather Helmet -->
+	</items>
+	<items signboard="Major Arcana" town="Giran">
+		<item RecipesId="672" Prices="800000"/> <!--	Sealed Major Arcana Robe -->
+		<item RecipesId="674" Prices="190000"/> <!--	Sealed Major Arcana Glove -->
+		<item RecipesId="676" Prices="190000"/> <!--	Sealed Major Arcana Boots -->
+		<item RecipesId="678" Prices="290000"/> <!--	Sealed Major Arcana Circlet -->
+	</items>
+	<items signboard="Сет Тайн" town="Runa">
+		<item RecipesId="672" Prices="790000"/> <!--	Sealed Major Arcana Robe -->
+		<item RecipesId="674" Prices="180000"/> <!--	Sealed Major Arcana Glove -->
+		<item RecipesId="676" Prices="180000"/> <!--	Sealed Major Arcana Boots -->
+		<item RecipesId="678" Prices="280000"/> <!--	Sealed Major Arcana Circlet -->
+	</items>
+	<items signboard="Мечи S" town="Giran">
+		<item RecipesId="872" Prices="1500000"/> <!--	Dynasty Sword -->
+		<item RecipesId="873" Prices="1500000"/> <!--	Dynasty Blade -->
+		<item RecipesId="874" Prices="1500000"/> <!--	Dynasty Phantom -->
+	</items>
+	<items signboard="Лук-Нож-Пика S" town="Runa">
+		<item RecipesId="875" Prices="1530000"/> <!--	Dynasty Bow -->
+		<item RecipesId="876" Prices="1530000"/> <!--	Dynasty Knife -->
+		<item RecipesId="877" Prices="1530000"/> <!--	Dynasty Halberd -->
+	</items>	
+	<items signboard="Cudgel|Mace|Bagh-Nakh" town="Giran">
+		<item RecipesId="878" Prices="1480000"/> <!--	Dynasty Cudgel -->
+		<item RecipesId="879" Prices="1480000"/> <!--	Dynasty Mace -->
+		<item RecipesId="880" Prices="1480000"/> <!--	Dynasty Bagh-Nakh -->
+	</items>	
+	<items signboard="Оружие династии - выгодно!" town="Giran">
+		<item RecipesId="872" Prices="1480000"/> <!--	Dynasty Sword -->
+		<item RecipesId="873" Prices="1480000"/> <!--	Dynasty Blade -->
+		<item RecipesId="874" Prices="1480000"/> <!--	Dynasty Phantom -->
+		<item RecipesId="875" Prices="1480000"/> <!--	Dynasty Bow -->
+		<item RecipesId="876" Prices="1480000"/> <!--	Dynasty Knife -->
+		<item RecipesId="877" Prices="1480000"/> <!--	Dynasty Halberd -->
+		<item RecipesId="878" Prices="1480000"/> <!--	Dynasty Cudgel -->
+		<item RecipesId="879" Prices="1480000"/> <!--	Dynasty Mace -->
+		<item RecipesId="880" Prices="1480000"/> <!--	Dynasty Bagh-Nakh -->
+	</items>
+	<items signboard="Dynasty Weapons" town="Runa">
+		<item RecipesId="872" Prices="1499999"/> <!--	Dynasty Sword -->
+		<item RecipesId="873" Prices="1499999"/> <!--	Dynasty Blade -->
+		<item RecipesId="874" Prices="1499999"/> <!--	Dynasty Phantom -->
+		<item RecipesId="875" Prices="1499999"/> <!--	Dynasty Bow -->
+		<item RecipesId="876" Prices="1499999"/> <!--	Dynasty Knife -->
+		<item RecipesId="877" Prices="1499999"/> <!--	Dynasty Halberd -->
+		<item RecipesId="878" Prices="1499999"/> <!--	Dynasty Cudgel -->
+		<item RecipesId="879" Prices="1499999"/> <!--	Dynasty Mace -->
+		<item RecipesId="880" Prices="1499999"/> <!--	Dynasty Bagh-Nakh -->
+	</items>
+	<items signboard="Moirai Armor Set" town="Runa">
+		<item RecipesId="937" Prices="600000"/> <!--	Sealed Moirai Helmet -->
+		<item RecipesId="938" Prices="600000"/> <!--	Sealed Moirai Leather Helmet -->
+		<item RecipesId="939" Prices="600000"/> <!--	Sealed Moirai Circlet -->
+		<item RecipesId="940" Prices="1499999"/> <!--	Sealed Moirai Cuirass -->
+		<item RecipesId="941" Prices="1499999"/> <!--	Sealed Moirai Houberk -->
+		<item RecipesId="942" Prices="1499999"/> <!--	Sealed Moirai Tunic -->
+		<item RecipesId="943" Prices="999999"/> <!--	Sealed Moirai Gaiter -->
+		<item RecipesId="944" Prices="999999"/> <!--	Sealed Moirai Leather Legging -->
+		<item RecipesId="945" Prices="999999"/> <!--	Sealed Moirai Hose -->
+		<item RecipesId="946" Prices="477777"/> <!--	Sealed Moirai Gauntlet -->
+		<item RecipesId="947" Prices="477777"/> <!--	Sealed Moirai Leather Gloves -->
+		<item RecipesId="948" Prices="477777"/> <!--	Sealed Moirai Gloves -->
+		<item RecipesId="949" Prices="477777"/> <!--	Sealed Moirai Boots -->
+		<item RecipesId="950" Prices="477777"/> <!--	Sealed Moirai Leather Boots -->
+		<item RecipesId="951" Prices="477777"/> <!--	Sealed Moirai Shoes -->
+		<item RecipesId="952" Prices="666666"/> <!--	Sealed Moirai Sigil -->
+		<item RecipesId="953" Prices="666666"/> <!--	Sealed Moirai Shield -->
+	</items>
+	<items signboard="Набор Дестино" town="Giran">
+		<item RecipesId="937" Prices="620000"/> <!--	Sealed Moirai Helmet -->
+		<item RecipesId="938" Prices="620000"/> <!--	Sealed Moirai Leather Helmet -->
+		<item RecipesId="939" Prices="620000"/> <!--	Sealed Moirai Circlet -->
+		<item RecipesId="940" Prices="1510000"/> <!--	Sealed Moirai Cuirass -->
+		<item RecipesId="941" Prices="1510000"/> <!--	Sealed Moirai Houberk -->
+		<item RecipesId="942" Prices="1510000"/> <!--	Sealed Moirai Tunic -->
+		<item RecipesId="943" Prices="1111111"/> <!--	Sealed Moirai Gaiter -->
+		<item RecipesId="944" Prices="1111111"/> <!--	Sealed Moirai Leather Legging -->
+		<item RecipesId="945" Prices="1111111"/> <!--	Sealed Moirai Hose -->
+		<item RecipesId="946" Prices="466666"/> <!--	Sealed Moirai Gauntlet -->
+		<item RecipesId="947" Prices="466666"/> <!--	Sealed Moirai Leather Gloves -->
+		<item RecipesId="948" Prices="466666"/> <!--	Sealed Moirai Gloves -->
+		<item RecipesId="949" Prices="466666"/> <!--	Sealed Moirai Boots -->
+		<item RecipesId="950" Prices="466666"/> <!--	Sealed Moirai Leather Boots -->
+		<item RecipesId="951" Prices="466666"/> <!--	Sealed Moirai Shoes -->
+		<item RecipesId="952" Prices="588888"/> <!--	Sealed Moirai Sigil -->
+		<item RecipesId="953" Prices="588888"/> <!--	Sealed Moirai Shield -->
+	</items>
+	<items signboard="Дестино - Moirai МАГ" town="Giran">
+		<item RecipesId="939" Prices="620000"/> <!--	Sealed Moirai Circlet -->
+		<item RecipesId="942" Prices="1510000"/> <!--	Sealed Moirai Tunic -->
+		<item RecipesId="945" Prices="1111111"/> <!--	Sealed Moirai Hose -->
+		<item RecipesId="949" Prices="466666"/> <!--	Sealed Moirai Boots -->
+		<item RecipesId="951" Prices="466666"/> <!--	Sealed Moirai Shoes -->
+		<item RecipesId="952" Prices="588888"/> <!--	Sealed Moirai Sigil -->
+		<item RecipesId="953" Prices="588888"/> <!--	Sealed Moirai Shield -->
+	</items>		
+	<items signboard="Дестино хеви" town="Runa">
+		<item RecipesId="937" Prices="610000"/> <!--	Sealed Moirai Helmet -->
+		<item RecipesId="940" Prices="1488000"/> <!--	Sealed Moirai Cuirass -->
+		<item RecipesId="943" Prices="1212121"/> <!--	Sealed Moirai Gaiter -->
+		<item RecipesId="948" Prices="456666"/> <!--	Sealed Moirai Gloves -->
+		<item RecipesId="949" Prices="456666"/> <!--	Sealed Moirai Boots -->
+		<item RecipesId="953" Prices="578888"/> <!--	Sealed Moirai Shield -->
+	</items>
+	<items signboard="Лёгкий дестино" town="Giran">
+		<item RecipesId="938" Prices="600000"/> <!--	Sealed Moirai Leather Helmet -->
+		<item RecipesId="941" Prices="153999"/> <!--	Sealed Moirai Houberk -->
+		<item RecipesId="944" Prices="989999"/> <!--	Sealed Moirai Leather Legging -->
+		<item RecipesId="947" Prices="480000"/> <!--	Sealed Moirai Leather Gloves -->
+		<item RecipesId="950" Prices="480000"/> <!--	Sealed Moirai Leather Boots -->
+	</items>
+	<items signboard="Vesper Weapons" town="Giran">
+		<item RecipesId="977" Prices="2000000"/> <!--	Vesper Cutter -->
+		<item RecipesId="978" Prices="2000000"/> <!--	Vesper Slasher -->
+		<item RecipesId="979" Prices="2000000"/> <!--	Vesper Buster -->
+		<item RecipesId="980" Prices="2000000"/> <!--	Vesper Shaper -->
+		<item RecipesId="981" Prices="2000000"/> <!--	Vesper Fighter -->
+		<item RecipesId="982" Prices="2000000"/> <!--	Vesper Stormer -->
+		<item RecipesId="983" Prices="2000000"/> <!--	Vesper Avenger -->
+		<item RecipesId="984" Prices="2000000"/> <!--	Vesper Retributer -->
+		<item RecipesId="985" Prices="2000000"/> <!--	Vesper Caster -->
+		<item RecipesId="986" Prices="2000000"/> <!--	Vesper Singer -->
+		<item RecipesId="987" Prices="2000000"/> <!--	Vesper Thrower -->
+	</items>	
+	<items signboard="Оружие венеры" town="Runa">
+		<item RecipesId="977" Prices="1989999"/> <!--	Vesper Cutter -->
+		<item RecipesId="978" Prices="1989999"/> <!--	Vesper Slasher -->
+		<item RecipesId="986" Prices="1989999"/> <!--	Vesper Singer -->
+		<item RecipesId="979" Prices="1989999"/> <!--	Vesper Buster -->
+		<item RecipesId="980" Prices="1989999"/> <!--	Vesper Shaper -->
+		<item RecipesId="981" Prices="1989999"/> <!--	Vesper Fighter -->
+		<item RecipesId="982" Prices="1989999"/> <!--	Vesper Stormer -->
+		<item RecipesId="983" Prices="1989999"/> <!--	Vesper Avenger -->
+		<item RecipesId="984" Prices="1989999"/> <!--	Vesper Retributer -->
+		<item RecipesId="985" Prices="1989999"/> <!--	Vesper Caster -->
+		<item RecipesId="987" Prices="1989999"/> <!--	Vesper Thrower -->
+	</items>
+	<items signboard="Бижа S84" town="Runa">
+		<item RecipesId="971" Prices="550000"/> <!--	Sealed Vesper Ring-->
+		<item RecipesId="972" Prices="630000"/> <!--	Sealed Vesper Earring-->
+		<item RecipesId="973" Prices="680000"/> <!--	Sealed Vesper Necklace-->
+		<item RecipesId="974" Prices="450000"/> <!--	Sealed Moirai Ring-->
+		<item RecipesId="975" Prices="500000"/> <!--	Sealed Moirai Earring-->
+		<item RecipesId="976" Prices="550000"/> <!--	Sealed Moirai Necklace-->
+	</items>
+	<items signboard="Веспер - Vesper" town="Giran">
+		<item RecipesId="954" Prices="1000000"/> <!--	Sealed Vesper Helmet-->
+		<item RecipesId="955" Prices="1000000"/> <!--	Sealed Vesper Leather Helmet-->
+		<item RecipesId="956" Prices="1000000"/> <!--	Sealed Vesper Circlet-->
+		<item RecipesId="957" Prices="2500000"/> <!--	Sealed Vesper Breastplate-->
+		<item RecipesId="965" Prices="777777"/> <!--	Sealed Vesper Gloves-->
+		<item RecipesId="966" Prices="777777"/> <!--	Sealed Vesper Boots-->
+		<item RecipesId="967" Prices="777777"/> <!--	Sealed Vesper Leather Boots-->
+		<item RecipesId="968" Prices="777777"/> <!--	Sealed Vesper Shoes-->
+		<item RecipesId="969" Prices="899999"/> <!--	Sealed Vesper Sigil-->
+		<item RecipesId="970" Prices="899999"/> <!--	Sealed Vesper Shield-->
+	</items>
+	<items signboard="Ы84 S84 Vesper Веспер" town="Runa">
+		<item RecipesId="958" Prices="2500000"/> <!--	Sealed Vesper Leather Breastplate-->
+		<item RecipesId="959" Prices="2500000"/> <!--	Sealed Vesper Tunic-->
+		<item RecipesId="960" Prices="1444444"/> <!--	Sealed Vesper Gaiters-->
+		<item RecipesId="961" Prices="1444444"/> <!--	Sealed Vesper Leather Leggings-->
+		<item RecipesId="962" Prices="1444444"/> <!--	Sealed Vesper Stockings-->
+		<item RecipesId="963" Prices="777777"/> <!--	Sealed Vesper Gauntlet-->
+		<item RecipesId="964" Prices="777777"/> <!--	Sealed Vesper Leather Gloves-->
+	</items>
+</list>

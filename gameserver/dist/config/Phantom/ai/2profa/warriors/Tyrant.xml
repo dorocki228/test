@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="48" class_name="Tyrant">
+		<nuke_skills ChanceCastOnMonster="15">
+			<skill id="284" /> <!-- Ураганное Нападение (Hurricane Assault)  -->
+			<skill id="281" /> <!-- Разрушитель Душ (Soul Breaker)  -->
+<!--			<skill id="280" /> &lt;!&ndash; Горящий Кулак (Burning Fist)  &ndash;&gt;-->
+			<skill id="54" condition="MIN_DISTANCE:200;CHANCE_CAST:40" /> <!-- Импульс Силы (Force Blaster)  -->
+			<skill id="81" condition="CHANCE_CAST:50" /> <!-- Удар Судьбы (Punch of Doom)  -->			
+		</nuke_skills>
+		<cleansing_skills>
+			<skill id="461" condition="SELF_SKILL_EFFECT:(92,102,1069,1160,1201,95,1097,1099,1208,1209,65,127,279,281,1072,1169,1170,1272,1298,354,358,361,1337,1350,1359,1361,1366,402,403,404,407,408,1381,1394,452,1446,518,1454,564,1484,708,716,730,763,774,1495,1508,791,1529,883,899,981,991)" /> <!-- Прервать Заключение (Break Duress) 2 уровень   -->
+		</cleansing_skills>
+		<situation_skills>
+			<skill id="50" condition="CHARGING;CHANCE_CAST:50"/> <!-- Фокусировка Силы (Focused Force)  -->
+			<skill id="420" ench_route="2" condition="MIN_HP:30"/> <!-- Фанатик (Zealot)  -->
+		</situation_skills>
+		<self_buff_skills>
+			<skill id="109"/> <!-- Тотемный Дух Огра (Ogre Spirit Totem)  -->
+			<skill id="222" condition="SELF_NOT_SKILL_EFFECT:(222);MAX_MP:20;IS_IN_BATTLE"/> <!-- Ярость Орка -->
+			<skill id="222" condition="SELF_SKILL_EFFECT:(222);MIN_MP:10;CANCEL_BUFF_BY_ID:222"/> <!-- Ярость Орка -->
+			<skill id="222" condition="SELF_SKILL_EFFECT:(222);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:222"/> <!-- Ярость Орка -->
+			<skill id="423" ench_route="1"/> <!-- Инфернальный Вид (Dark Form) -->
+		</self_buff_skills>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

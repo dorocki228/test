@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="10" class_name="HumanMage">
+		<nuke_skills>
+			<skill id="1177" /> <!-- Удар Ветра (Wind Strike) -->
+			<skill id="1184" condition="CHANCE_CAST:50"/> <!-- Ледяной Шип (Ice Bolt) -->
+			<skill id="1147" condition="CHANCE_CAST:50"/> <!-- Прикосновение Вампира (Vampiric Touch) -->	
+		</nuke_skills>
+		<heal_skills>
+			<skill id="1015" condition="MIN_HP:35"/> <!-- Природное Лечение (Elemental Heal)-->
+		</heal_skills>
+		<debuff_skills chance="25">
+			<skill id="1164"/> <!-- Проклятие Слабости (Curse Weakness)-->
+		</debuff_skills>
+	</ClassObject>
+ </list>

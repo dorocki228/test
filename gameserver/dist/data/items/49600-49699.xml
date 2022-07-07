@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="49662" name="Pirates\' Special Fruit" add_name="Event">
+		<set name="sellable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="tradeable" value="false" />
+		<set name="icon" value="icon.etc_codran_i09" />
+		<set name="stackable" value="true" />
+		<set name="crystal_type" value="NONE" />
+	</etcitem>
+	<etcitem id="49667" name="Weapon Supply Box (C-grade)">
+		<set name="icon" value="icon.etc_equip_item_box_i00" />
+		<set name="stackable" value="true" />
+		<set name="crystal_type" value="NONE" />
+		<set name="handler" value="SkillsReduce" />
+		<skills>
+			<skill id="55367" level="1" />
+		</skills>
+	</etcitem>
+	<etcitem id="49668" name="Armor Supply Box (C-grade)">
+		<set name="icon" value="icon.etc_equip_item_box_i03" />
+		<set name="stackable" value="true" />
+		<set name="crystal_type" value="NONE" />
+		<set name="handler" value="SkillsReduce" />
+		<skills>
+			<skill id="39126" level="1" />
+		</skills>
+	</etcitem>
+	<etcitem id="49669" name="Ornament Supply Box (C-grade)">
+		<set name="icon" value="icon.etc_box_of_adventure_5_i00" />
+		<set name="stackable" value="true" />
+		<set name="crystal_type" value="NONE" />
+		<set name="handler" value="SkillsReduce" />
+		<skills>
+			<skill id="39128" level="1" />
+		</skills>
+	</etcitem>
+	<armor id="49676" name="Талисман Дерзости I">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_oman_i02" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<or>
+					<using slotitem="49677;-1;0" />
+					<using slotitem="49678;-1;0" />
+					<using slotitem="49679;-1;0" />
+					<using slotitem="49680;-1;0" />
+					<using slotitem="49681;-1;0" />
+					<using slotitem="49682;-1;0" />
+				</or>
+			</not>
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="1" />
+		</skills>
+	</armor>
+	<armor id="49677" name="Талисман Дерзости II">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_oman_i02" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<or>
+					<using slotitem="49676;-1;0" />
+					<using slotitem="49678;-1;0" />
+					<using slotitem="49679;-1;0" />
+					<using slotitem="49680;-1;0" />
+					<using slotitem="49681;-1;0" />
+					<using slotitem="49682;-1;0" />
+				</or>
+			</not>
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="2" />
+		</skills>
+	</armor>
+	<armor id="49678" name="Талисман Дерзости III">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_oman_i02" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<or>
+					<using slotitem="49676;-1;0" />
+					<using slotitem="49677;-1;0" />
+					<using slotitem="49679;-1;0" />
+					<using slotitem="49680;-1;0" />
+					<using slotitem="49681;-1;0" />
+					<using slotitem="49682;-1;0" />
+				</or>
+			</not>
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="3" />
+		</skills>
+	</armor>
+	<armor id="49679" name="Талисман Дерзости IV">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_oman_i02" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<or>
+					<using slotitem="49676;-1;0" />
+					<using slotitem="49677;-1;0" />
+					<using slotitem="49678;-1;0" />
+					<using slotitem="49680;-1;0" />
+					<using slotitem="49681;-1;0" />
+					<using slotitem="49682;-1;0" />
+				</or>
+			</not>
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="4" />
+		</skills>
+	</armor>
+	<armor id="49680" name="Талисман Дерзости V">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_oman_i02" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<or>
+					<using slotitem="49676;-1;0" />
+					<using slotitem="49677;-1;0" />
+					<using slotitem="49678;-1;0" />
+					<using slotitem="49679;-1;0" />
+					<using slotitem="49681;-1;0" />
+					<using slotitem="49682;-1;0" />
+				</or>
+			</not>
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="5" />
+		</skills>
+	</armor>
+	<armor id="49681" name="Талисман Дерзости VI">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_oman_i02" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<and>
+					<player minLevel="60" />
+					<or>
+						<using slotitem="49676;-1;0" />
+						<using slotitem="49677;-1;0" />
+						<using slotitem="49678;-1;0" />
+						<using slotitem="49679;-1;0" />
+						<using slotitem="49680;-1;0" />
+						<using slotitem="49683;-1;0" />
+					</or>
+				</and>
+			</not>
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="6" />
+		</skills>
+	</armor>
+	<etcitem id="49682" name="Душа Баюма">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="true" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.high_energy_condense_i00" />
+	</etcitem>
+	<armor id="49683" name="Талисман Баюма">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.tallisman_baium" />
+		<set name="weight" value="120" />
+		<set name="attributable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="type" value="NONE" />
+		<cond msgId="1518">
+			<not>
+				<and>
+					<player minLevel="60" />
+					<or>
+						<using slotitem="49676;-1;0" />
+						<using slotitem="49677;-1;0" />
+						<using slotitem="49678;-1;0" />
+						<using slotitem="49679;-1;0" />
+						<using slotitem="49680;-1;0" />
+						<using slotitem="49681;-1;0" />
+					</or>
+				</and>
+			</not>
+		</cond>
+		<cond>
+			<player minLevel="60" />
+			<player max_level="80" />
+		</cond>
+		<equip>
+			<slot id="TALISMAN" />
+		</equip>
+		<skills>
+			<skill id="35017" level="7" />
+		</skills>
+	</armor>
+	<etcitem id="49684" name="Кристалл для Талисмана">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="true" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+		<set name="stackable" value="true" />
+		<set name="icon" value="icon.low_energy_condense_i03" />
+	</etcitem>
+	<etcitem id="49685" name="Энергия Дерзости">
+		<set name="tradeable" value="true" />
+		<set name="dropable" value="true" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="true" />
+		<set name="sellable" value="true" />
+		<set name="commissionable" value="false" />
+		<set name="stackable" value="true" />
+		<set name="icon" value="icon.ensoul_sommon" />
+	</etcitem>
+	<armor id="49686" name="Refined Silver Chapeau &lt;STR+1 INT+1&gt;" add_name="30-day">
+		<set name="sellable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="tradeable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="icon" value="BranchSys2.icon2.pi_silverchaperon" />
+		<set name="price" value="0" />
+		<set name="type" value="NONE" />
+		<equip>
+			<slot id="HAIR_ALL" />
+		</equip>
+	</armor>
+	<armor id="49687" name="Refined Silver Chapeau &lt;STR+1 INT+1&gt;" add_name="Special Trait">
+		<set name="sellable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="icon" value="BranchSys2.icon2.pi_silverchaperon" />
+		<set name="price" value="0" />
+		<set name="type" value="NONE" />
+		<equip>
+			<slot id="HAIR_ALL" />
+		</equip>
+	</armor>
+</list>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE enchant_bonuses SYSTEM "enchant_bonuses.dtd">
+
+<enchant_bonuses>
+    <!-- Заточка каждого итема +1 -->
+    <bonus enchant="1" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="10"/>
+        <stat func="ADD" stat="MAX_CP" value="5"/>
+    </bonus>
+    <!-- Заточка каждого итема +2 -->
+    <bonus enchant="2" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="20"/>
+        <stat func="ADD" stat="MAX_CP" value="10"/>
+    </bonus>
+    <!-- Заточка каждого итема +3 -->
+    <bonus enchant="3" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="30"/>
+        <stat func="ADD" stat="MAX_CP" value="15"/>
+    </bonus>
+    <!-- Заточка каждого итема +4 -->
+    <bonus enchant="4" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="40"/>
+        <stat func="ADD" stat="MAX_CP" value="20"/>
+    </bonus>
+    <!-- Заточка каждого итема +5 -->
+    <bonus enchant="5" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="50"/>
+        <stat func="ADD" stat="MAX_CP" value="25"/>
+    </bonus>
+    <!-- Заточка каждого итема +6 -->
+    <bonus enchant="6" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="60"/>
+        <stat func="ADD" stat="MAX_CP" value="30"/>
+    </bonus>
+    <!-- Заточка каждого итема +7 -->
+    <bonus enchant="7" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="70"/>
+        <stat func="ADD" stat="MAX_CP" value="35"/>
+    </bonus>
+    <!-- Заточка каждого итема +8 -->
+    <bonus enchant="8" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="80"/>
+        <stat func="ADD" stat="MAX_CP" value="40"/>
+    </bonus>
+    <!-- Заточка каждого итема +9 -->
+    <bonus enchant="9" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="90"/>
+        <stat func="ADD" stat="MAX_CP" value="45"/>
+    </bonus>
+    <!-- Заточка каждого итема +10 -->
+    <bonus enchant="10" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="100"/>
+        <stat func="ADD" stat="MAX_CP" value="50"/>
+    </bonus>
+    <!-- Заточка каждого итема +11 -->
+    <bonus enchant="11" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="110"/>
+        <stat func="ADD" stat="MAX_CP" value="55"/>
+    </bonus>
+    <!-- Заточка каждого итема +12 -->
+    <bonus enchant="12" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="120"/>
+        <stat func="ADD" stat="MAX_CP" value="60"/>
+    </bonus>
+    <!-- Заточка каждого итема +13 -->
+    <bonus enchant="13" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="130"/>
+        <stat func="ADD" stat="MAX_CP" value="65"/>
+    </bonus>
+    <!-- Заточка каждого итема +14 -->
+    <bonus enchant="14" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="140"/>
+        <stat func="ADD" stat="MAX_CP" value="70"/>
+    </bonus>
+    <!-- Заточка каждого итема +15 -->
+    <bonus enchant="15" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="150"/>
+        <stat func="ADD" stat="MAX_CP" value="75"/>
+    </bonus>
+    <!-- Заточка каждого итема +16 -->
+    <bonus enchant="16" itemType="ALL" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="160"/>
+        <stat func="ADD" stat="MAX_CP" value="80"/>
+    </bonus>
+    <!-- Заточка СЕТОВ -->
+    <!-- Заточка СЕТОВ -->
+    <!-- Заточка СЕТОВ -->
+    <!-- Заточка СЕТА +4 -->
+    <bonus enchant="4" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="50"/>
+        <stat func="ADD" stat="MAX_CP" value="50"/>
+        <stat func="ADD" stat="RUN_SPEED" value="1"/>
+    </bonus>
+    <!-- Заточка СЕТА +5 -->
+    <bonus enchant="5" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="150"/>
+        <stat func="ADD" stat="MAX_CP" value="100"/>
+        <stat func="ADD" stat="RUN_SPEED" value="2"/>
+    </bonus>
+    <!-- Заточка СЕТА +6 -->
+    <bonus enchant="6" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="300"/>
+        <stat func="ADD" stat="MAX_CP" value="250"/>
+        <stat func="ADD" stat="RUN_SPEED" value="2"/>
+    </bonus>
+    <!-- Заточка СЕТА +7 -->
+    <bonus enchant="7" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="400"/>
+        <stat func="ADD" stat="MAX_CP" value="300"/>
+        <stat func="ADD" stat="RUN_SPEED" value="3"/>
+    </bonus>
+    <!-- Заточка СЕТА +8 -->
+    <bonus enchant="8" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="500"/>
+        <stat func="ADD" stat="MAX_CP" value="400"/>
+        <stat func="ADD" stat="RUN_SPEED" value="3"/>
+    </bonus>
+    <!-- Заточка СЕТА +9 -->
+    <bonus enchant="9" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="600"/>
+        <stat func="ADD" stat="MAX_CP" value="500"/>
+        <stat func="ADD" stat="RUN_SPEED" value="3"/>
+    </bonus>
+    <!-- Заточка СЕТА +10 -->
+    <bonus enchant="10" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="800"/>
+        <stat func="ADD" stat="MAX_CP" value="700"/>
+        <stat func="ADD" stat="RUN_SPEED" value="4"/>
+    </bonus>
+    <!-- Заточка СЕТА +11 -->
+    <bonus enchant="11" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="1000"/>
+        <stat func="ADD" stat="MAX_CP" value="900"/>
+        <stat func="ADD" stat="RUN_SPEED" value="4"/>
+    </bonus>
+    <!-- Заточка СЕТА +12 -->
+    <bonus enchant="12" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="1200"/>
+        <stat func="ADD" stat="MAX_CP" value="1100"/>
+        <stat func="ADD" stat="RUN_SPEED" value="4"/>
+    </bonus>
+    <!-- Заточка СЕТА +13 -->
+    <bonus enchant="13" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="1400"/>
+        <stat func="ADD" stat="MAX_CP" value="1300"/>
+        <stat func="ADD" stat="RUN_SPEED" value="5"/>
+    </bonus>
+    <!-- Заточка СЕТА +14 -->
+    <bonus enchant="14" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="1600"/>
+        <stat func="ADD" stat="MAX_CP" value="1500"/>
+        <stat func="ADD" stat="RUN_SPEED" value="5"/>
+    </bonus>
+    <!-- Заточка СЕТА +15 -->
+    <bonus enchant="15" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="1900"/>
+        <stat func="ADD" stat="MAX_CP" value="1800"/>
+        <stat func="ADD" stat="RUN_SPEED" value="5"/>
+    </bonus>
+    <!-- Заточка СЕТА +16 -->
+    <bonus enchant="16" itemType="SET" grade="NONE">
+        <stat func="ADD" stat="MAX_HP" value="2200"/>
+        <stat func="ADD" stat="MAX_CP" value="2000"/>
+        <stat func="ADD" stat="RUN_SPEED" value="5"/>
+    </bonus>
+</enchant_bonuses>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<armor id="70202" name="Refined Romantic Chapeau: Gold" add_name="100-day">
+		<set name="sellable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="destroyable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="tradeable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="icon" value="icon.bm_romantic_chaperon_gold" />
+		<set name="price" value="0" />
+		<set name="type" value="NONE" />
+		<set name="weight" value="10" />
+		<equip>
+			<slot id="HAIR_ALL" />
+		</equip>
+	</armor>
+	<armor id="70203" name="Refined Romantic Chapeau: Yellow" add_name="33-day">
+		<set name="sellable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="destroyable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="tradeable" value="false" />
+		<set name="crystal_type" value="NONE" />
+		<set name="icon" value="icon.bm_romantic_chaperon_yellow" />
+		<set name="price" value="0" />
+		<set name="type" value="NONE" />
+		<set name="weight" value="10" />
+		<equip>
+			<slot id="HAIR_ALL" />
+		</equip>
+	</armor>
+	<etcitem id="70280" name="Репутация Клана - 10 - 1 день">
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="true" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+		<set name="icon" value="icon.etc_bloodpledge_point_i00" />
+		<set name="durability" value="1440" />
+		<set name="temporal" value="true" />
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="-200" min_count="10" max_count="10" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="70281" name="Репутация Клана - 50 - 1 день">
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="icon" value="icon.etc_bloodpledge_point_i00"/>
+		<set name="durability" value="1440"/>
+		<set name="temporal" value="true"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="-200" min_count="50" max_count="50" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="70282" name="Репутация Клана - 500">
+		<set name="tradeable" value="true"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="sellable" value="true"/>
+		<set name="commissionable" value="true"/>
+		<set name="icon" value="icon.etc_bloodpledge_point_i00"/>
+		<!--		<set name="durability" value="1440" />-->
+		<!--		<set name="temporal" value="true" />-->
+		<set name="type" value="EXTRACTABLE"/>
+		<set name="stackable" value="true"/>
+		<capsuled_items>
+			<capsuled_item id="-200" min_count="500" max_count="500" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="70283" name="Зелье Сверхскорости">
+		<set name="type" value="POTION"/>
+		<set name="tradeable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="destroyable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="icon" value="icon.etc_potion_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="reuse_delay" value="500" />
+		<set name="weight" value="20" />
+		<skills>
+			<skill id="55361" level="1" />
+		</skills>
+	</etcitem>
+</list>

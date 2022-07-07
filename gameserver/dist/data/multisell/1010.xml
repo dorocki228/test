@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config no_tax="true"/>
+    <!--Напитки и расходники-->
+    <item free="true">
+        <production id="1375" count="10"/>    <!--[adv_swift_attack_potion]-->
+
+    </item>
+    <item free="true">
+        <production id="1374" count="10"/>    <!--[adv_quick_step_potion]-->
+
+    </item>
+    <item free="true">
+        <production id="6036" count="10"/>    <!--[potion_of_acumen3]-->
+
+    </item>
+    <item free="true">
+        <production id="1832" count="10"/>    <!--[advanced_antidote]-->
+
+    </item>
+    <item free="true">
+        <production id="1539" count="10"/>    <!--[greater_healing_potion]-->
+
+    </item>
+    <item free="true">
+        <production id="75025" count="100"/>    <!--[Mana Potion]-->
+
+    </item>
+    <item free="true">
+        <production id="6037" count="10"/>    <!--[scroll_of_awake]-->
+
+    </item>
+    <item free="true">
+        <production id="4679" count="10"/>    <!--[bless_of_eva]-->
+
+    </item>
+    <item free="true">
+        <production id="1834" count="10"/>    <!--[emergency_dressing]-->
+
+    </item>
+    <item free="true">
+        <production id="3031" count="1000"/>    <!--[spirit_ore]-->
+
+    </item>
+    <item free="true">
+        <production id="1785" count="100"/>    <!--[soul_ore]-->
+
+    </item>
+    <item free="true">
+        <production id="5589" count="100"/>    <!--[energy_stone]-->
+
+    </item>
+    <item free="true">
+        <production id="2508" count="100"/>    <!--[cursed_bone]-->
+
+    </item>
+    <item free="true">
+        <production id="1458" count="10"/>    <!--[crystal_d]-->
+
+    </item>
+    <item free="true">
+        <production id="1459" count="10"/>    <!--[crystal_c]-->
+
+    </item>
+
+    <item free="true">
+        <production id="2130" count="10"/>    <!--[gemstone_d]-->
+
+    </item>
+    <item>
+        <production id="2131" count="10"/>    <!--[gemstone_c]-->
+        <ingredient id="57" count="5"/>
+    </item>
+    <item>
+        <production id="2132" count="1"/>    <!--[gemstone_b]-->
+        <ingredient id="57" count="1"/>
+    </item>
+    <item>
+        <production id="2133" count="1"/>    <!--[gemstone_a]-->
+        <ingredient id="57" count="3"/>
+    </item>
+    <item free="true">
+        <production id="736" count="10"/>    <!--[scroll_of_escape]-->
+
+    </item>
+    <item free="true">
+        <production id="737" count="10"/>    <!--[scroll_of_resurrection]-->
+
+    </item>
+    <item>
+        <production id="49758" count="1"/>    <!--[]-->
+        <ingredient id="57" count="1"/>
+    </item>
+
+    <item>
+        <production id="90015" count="1" activeStage="8"/>    <!--[Topls]-->
+        <ingredient id="57" count="400"/>
+    </item>
+    <item>
+        <production id="90014" count="1" activeStage="8"/>    <!--[highls]-->
+        <ingredient id="57" count="150"/>
+    </item>
+
+</list>	

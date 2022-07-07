@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+
+<list>
+  <npc id="24014" name="Vanor" title="">
+    <set name="type" value="Monster"/>
+    <set name="ai_type" value="Fighter"/>
+    <set name="collision_height" value="37.8"/>
+    <set name="collision_radius" value="15.6"/>
+    <set name="level" value="66"/>
+    <set name="rewardExp" value="13094"/>
+    <set name="rewardSp" value="392"/>
+    <set name="baseHpMax" value="2367.7216"/>
+    <set name="baseHpRate" value="1"/>
+    <set name="baseHpReg" value="2.5"/>
+    <set name="baseMpMax" value="999.1804"/>
+    <set name="baseMpReg" value="1.2"/>
+    <set name="baseSTR" value="40"/>
+    <set name="baseCON" value="43"/>
+    <set name="baseDEX" value="30"/>
+    <set name="baseINT" value="21"/>
+    <set name="baseMEN" value="20"/>
+    <set name="baseWIT" value="20"/>
+    <set name="basePCritRate" value="40"/>
+    <set name="baseMCritRate" value="50"/>
+    <set name="basePAtk" value="567.50361"/>
+    <set name="basePDef" value="221.15063"/>
+    <set name="basePAtkSpd" value="253"/>
+    <set name="baseMAtk" value="355.81844"/>
+    <set name="baseMDef" value="133.851368417065"/>
+    <set name="baseWalkSpd" value="36"/>
+    <set name="baseRunSpd" value="174"/>
+    <set name="baseShldDef" value="0"/>
+    <set name="baseShldRate" value="0"/>
+    <set name="baseAtkRange" value="40"/>
+    <set name="baseRandDam" value="30"/>
+    <set name="baseAttackType" value="SWORD"/>
+    <set name="basePHitModify" value="4.75"/>
+    <set name="basePAvoidModify" value="0"/>
+    <set name="baseHitTimeFactor" value="0.48"/>
+    <set name="baseReuseDelay" value="0"/>
+    <set name="baseSafeHeight" value="100"/>
+    <set name="aggroRange" value="450"/>
+    <set name="shots" value="NONE"/>
+    <set name="texture" value=""/>
+    <client_skills>
+      <skill id="4416" level="6"/>
+      <skill id="4410" level="13"/>
+      <skill id="4411" level="13"/>
+      <skill id="4085" level="1"/>
+      <skill id="4086" level="1"/>
+    </client_skills>
+    <database_rewardlist>
+      <reward item_id="503" min="1" max="1" chance="0.05"/>
+      <!--Запечатанный Шлем Зубея -->
+      <reward item_id="2415" min="1" max="1" chance="0.05"/>
+      <!--Запечатанная Диадема Авадона -->
+      <reward item_id="2416" min="1" max="1" chance="0.01"/>
+      <!--Запечатанный Шлем Синего Волка -->
+      <reward item_id="2417" min="1" max="1" chance="0.01"/>
+      <!--Запечатанный Шлем Рока -->
+      <reward item_id="57" min="672" max="1570" chance="70.0"/>
+      <!--Адена -->
+      <reward item_id="1870" min="1" max="1" chance="32.1"/>
+      <!--Уголь -->
+      <reward item_id="4072" min="1" max="1" chance="2.553"/>
+      <!--Шаблон Запечатанной Диадемы Авадона -->
+      <reward item_id="4102" min="1" max="1" chance="2.535"/>
+      <!--Модель Запечатанного Шлема Зубея -->
+      <reward item_id="4089" min="1" max="1" chance="2.183"/>
+      <!--Модель Запечатанного Шлема Рока -->
+      <reward item_id="1875" min="1" max="1" chance="2.173"/>
+      <!--Камень Чистоты -->
+      <reward item_id="1874" min="1" max="1" chance="2.146"/>
+      <!--Орихаруконовая Руда -->
+      <reward item_id="4088" min="1" max="1" chance="2.106"/>
+      <!--Модель Запечатанного Шлема Синего Волка -->
+      <!--<reward item_id="90012" min="1" max="1" chance="0.05"/> -->
+      <!--Обычный Камень Жизни -->
+    </database_rewardlist>
+    <rewardlist type="SWEEP">
+      <reward item_id="1870" min="1" max="7" chance="85.19"/>
+      <!--Уголь -->
+      <reward item_id="1874" min="1" max="1" chance="24.09"/>
+      <!--Орихаруконовая Руда -->
+      <reward item_id="1875" min="1" max="1" chance="22.45"/>
+      <!--Камень Чистоты -->
+    </rewardlist>
+  </npc>
+</list>

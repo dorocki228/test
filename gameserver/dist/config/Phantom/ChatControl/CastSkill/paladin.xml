@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="5">
+		<skill id="110" type="castSelfBuff" text_commands="уд,абсолютная защита,ultimate defense,ultimate,абсолютная,ud"/>
+		<skill id="982" type="castSelfBuff" text_commands="аура,боевая аура,танк баф,combat aura,combat,aura"/>
+		<skill id="28" type="castAttackingSkill" text_commands="агр,агрессия,aggression,agr,aggr"/>
+		<skill id="18" type="castAttackingSkill" text_commands="масагр,мас агр,аура ненависти,aura of hate,hate"/>
+		<skill id="406" type="castLimitBuffSkill" text_commands="икона,икону,Ангельский Образ,Angelic Icon,ангел"/>
+		<skill id="44" type="castSelfBuff" text_commands="лекарство,remedy"/>
+		<skill id="82" type="castSelfBuff" text_commands="величие,majesty"/>
+		<skill id="197" type="castSelfBuff" text_commands="святая броня,divine armor"/>
+		<skill id="262" type="castTargetSkill" text_commands="святое благословение,divine blessing"/>
+		<skill id="112" type="castSelfBuff" text_commands="отклонить стрелу,deflect arrow"/>
+		<skill id="196" type="castSelfBuff" text_commands="святой клинок,divine blade"/>
+		<skill id="318" type="castSelfBuff" text_commands="парирование,aegis stance"/>
+		<skill id="69" type="castTargetSkill" text_commands="жертвоприношение,sacrifice"/>
+		<skill id="400" type="castAttackingSkill" text_commands="трибунал,tribunal"/>
+		<skill id="403" type="castAttackingSkill" text_commands="кандалы,shackle"/>
+		<skill id="405" type="castAttackingSkill" text_commands="изгнать нежить,banish undead"/>
+		<skill id="916" type="castSelfBuff" text_commands="щит отражения магии,shield deflect magic"/>
+		<skill id="322" type="castSelfBuff" text_commands="крепость щитов,shield fortress"/>
+	</ChatControl>
+ </list>

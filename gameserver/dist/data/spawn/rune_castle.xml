@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+<list>
+	<!-- При выиграше Water в городе появляется НПС -->
+	<spawn period_of_day="none" group="rune_castle_light_side">
+		<!-- <npc id="36612" count="1" respawn="60" respawn_random="0" pos="82986 53222 -1488 31000" />	-->
+	</spawn>
+	<!-- Аванпост атакующей стороны -->
+	<spawn period_of_day="none" group="rune_castle_blockpost">
+		<npc id="40052" count="1" respawn="60" respawn_random="0" pos="22152 -50120 -1296 0" />
+		<npc id="40005" count="1" respawn="60" respawn_random="0" pos="22024 -50264 -1296 0" />
+	</spawn>
+	<!-- Флаги телепортов в Городах -->
+	<spawn period_of_day="none" group="rune_castle_teleporters">
+		<npc id="41924" count="1" respawn="60" respawn_random="0" pos="82408 53720 -1488 28405" />
+		<npc id="41924" count="1" respawn="60" respawn_random="0" pos="47480 50824 -3000 37278" />
+	</spawn>
+	<!-- Виверн Менеджер -->
+	<spawn name="rune20_npc2219_103" group="rune_castle_4">
+		<!-- <npc id="35227" count="1" respawn="60" pos="83856 37352 -1826 49000" /> -->
+	</spawn>
+	<!-- Рабочий Склада -->
+	<spawn name="rune20_npc2219_102" group="rune_castle_4">
+		<npc id="35508" count="1" respawn="60" pos="12864 -49184 -1091 33000" />
+	</spawn>
+	<!-- Священный Артефакт Орена -->
+	<!--<spawn group="rune_castle_siege_artefact" period_of_day="none">
+		<npc id="35469" count="1" respawn="60" respawn_random="0" pos="9126 -4916 1094 64270" />
+	</spawn>-->
+	<!-- Отстойник -->
+	<spawn group="rune_castle_mass_gatekeeper" period_of_day="none">
+		<npc id="35502" count="1" respawn="60" respawn_random="0" pos="10786 -49151 3838 64590" />	<!--Хранитель Массового Портала -->
+	</spawn>
+	<!-- Управляющие Воротами -->
+	<spawn name="rune_chamberlain_etc" group="rune_castle_4">
+		<npc id="35505" count="1" respawn="300" pos="12736 -51184 -1089 49000" /><!--Inner Doorman-->
+		<npc id="35505" count="1" respawn="300" pos="12780 -51060 -1091 0" /><!--Inner Doorman-->
+		<npc id="35504" count="1" respawn="300" pos="15684 -49038 -1059 42020" /><!--Inner Doorman-->
+		<npc id="35504" count="1" respawn="300" pos="15860 -49046 -1059 54441" /><!--Inner Doorman-->
+		<npc id="35503" count="1" respawn="300" pos="18175 -48984 -1215 31754" /><!--Outer Doorman-->
+		<npc id="35503" count="1" respawn="300" pos="18687 -48934 -1228 60005" /><!--Outer Doorman-->
+	</spawn>
+	<!-- Управляющие Замком -->
+	<spawn name="rune_chamberlain_etc" period_of_day="none" group="rune_castle_light_side">
+		<npc id="41926" count="1" respawn="60" respawn_random="0" pos="10165 -49055 -281 57344" />	<!--Камергер Света -->
+	</spawn>
+	<spawn name="rune_chamberlain_etc" period_of_day="none" group="rune_castle_dark_side">
+		<npc id="41928" count="1" respawn="60" respawn_random="0" pos="10165 -49055 -281 57344" />	<!--Камергер Тьмы -->
+	</spawn>
+	<spawn name="rune_chamberlain_etc" period_of_day="none" group="rune_castle_light_messenger">
+		<npc id="36667" count="1" respawn="60" respawn_random="0" pos="10165 -49055 -281 57344" />	<!--Посланник Света -->
+	</spawn>
+	<spawn name="rune_chamberlain_etc" period_of_day="none" group="rune_castle_dark_messenger">
+		<npc id="36676" count="1" respawn="60" respawn_random="0"
+			 pos="10165 -49055 -281 57344"/>    <!--Посланник Тьмы -->
+	</spawn>
+	<!-- Защитник Воды -->
+	<spawn group="rune_castle_water_defender" period_of_day="none">
+		<npc id="40802" count="1" respawn="0" respawn_random="0" pos="12856 -49160 976"/>
+	</spawn>
+	<!-- Защитник Огня -->
+	<spawn group="rune_castle_fire_defender" period_of_day="none">
+		<npc id="40921" count="1" respawn="0" respawn_random="0" pos="12856 -49160 976"/>
+	</spawn>
+
+	<!-- Защитники палатки атакующих воды -->
+	<spawn group="rune_castle_water_attacker" period_of_day="none">
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22008 -50776 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21896 -50776 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21800 -50776 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21704 -50776 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21704 -50712 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21800 -50712 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21896 -50712 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22008 -50712 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -50568 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -50408 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -50248 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -50104 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -49976 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -49816 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -49640 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21224 -49464 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -49448 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -49640 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -49816 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -49976 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21304 -50104 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -50248 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -50408 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21304 -50552 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22408 -49848 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22504 -49848 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22504 -49720 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22504 -49608 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22504 -49496 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22408 -49496 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22408 -49608 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22423 -49720 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21192 -48712 -1288"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21288 -48696 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21208 -48600 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21304 -48600 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21208 -48504 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21303 -48473 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21192 -48392 -1288"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21304 -48344 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21192 -48264 -1288"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21304 -48216 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22200 -48184 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22072 -48184 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21928 -48184 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21784 -48184 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21768 -48328 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="21928 -48328 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22072 -48328 -1296"/>
+		<npc id="40502" count="1" respawn="30" respawn_random="0" pos="22200 -48328 -1296"/>
+	</spawn>
+
+	<!-- Защитники палатки атакующих огня -->
+	<spawn group="rune_castle_fire_attacker" period_of_day="none">
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22008 -50776 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21896 -50776 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21800 -50776 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21704 -50776 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21704 -50712 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21800 -50712 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21896 -50712 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22008 -50712 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -50568 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -50408 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -50248 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -50104 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -49976 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -49816 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -49640 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21224 -49464 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -49448 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -49640 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -49816 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -49976 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21304 -50104 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -50248 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -50408 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21304 -50552 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22408 -49848 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22504 -49848 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22504 -49720 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22504 -49608 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22504 -49496 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22408 -49496 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22408 -49608 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22423 -49720 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21192 -48712 -1288"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21288 -48696 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21208 -48600 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21304 -48600 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21208 -48504 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21303 -48473 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21192 -48392 -1288"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21304 -48344 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21192 -48264 -1288"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21304 -48216 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22200 -48184 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22072 -48184 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21928 -48184 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21784 -48184 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21768 -48328 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="21928 -48328 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22072 -48328 -1296"/>
+		<npc id="40501" count="1" respawn="30" respawn_random="0" pos="22200 -48328 -1296"/>
+	</spawn>
+
+	<!-- Гварды -->
+	<spawn group="rune_castle_siege" period_of_day="none">
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="12536 -47288 1296 62180"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18504 -49096 -568 64841"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17960 -48856 -568 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18504 -49160 -568 64923"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18504 -49224 -568 0"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18568 -49416 -568 0"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17111 -48888 -1080 59402"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17128 -48856 -1080 61173"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17224 -49432 -1096 2555"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17224 -49464 -1088 2555"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17224 -49496 -1088 2902"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17176 -48760 -1080 64238"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17159 -48792 -1088 64055"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17144 -48824 -1080 61312"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17223 -49369 -1112 3040"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17224 -49400 -1104 2555"/>
+		<npc id="40008" count="1" respawn="300" respawn_random="0" pos="50040 57256 -3536 8191"/>
+		<npc id="40008" count="1" respawn="300" respawn_random="0" pos="213688 114376 -888 19739"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11800 -48280 1248 59402"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18584 -48904 -568 64668"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17960 -48920 -568 31045"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17960 -49448 -568 33568"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17960 -49368 -568 29865"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11783 -50009 1248 6133"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18008 -49064 -568 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18008 -49128 -568 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18008 -49192 -568 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18008 -49256 -568 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18264 -48200 -704 2280"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="12872 -48616 976 49151"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18200 -48008 -704 1039"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18040 -47640 -704 4223"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="12856 -49672 976 16383"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14200 -47704 -160 8992"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17671 -46793 -576 7775"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17784 -47576 -704 35670"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18024 -48088 -704 34248"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18040 -48136 -704 34826"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18056 -48184 -704 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18088 -48840 -568 14661"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="12552 -47544 1296 58144"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18104 -49464 -568 49151"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="12408 -47752 1296 53269"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17832 -47656 -704 38901"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17880 -47752 -704 37130"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14199 -50616 -160 58038"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14440 -50344 -160 58498"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16920 -48024 -640 57343"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16807 -48088 -640 55285"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16712 -48136 -640 52729"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16584 -48168 -640 47093"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16456 -48136 -640 39805"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16952 -47928 -640 2555"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16920 -47832 -640 5911"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16440 -48024 -640 33462"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16424 -47928 -640 35133"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16488 -47832 -640 17681"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16615 -47801 -640 14903"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16952 -50312 -640 1933"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16936 -50408 -640 64153"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16904 -50504 -640 58289"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16872 -50264 -640 9231"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16792 -50216 -640 13028"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16712 -50168 -640 13400"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16616 -50152 -640 15344"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16520 -50120 -640 15229"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16456 -50216 -640 27931"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16424 -50344 -640 27559"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16440 -50456 -640 39479"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16536 -50488 -640 45574"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16632 -50504 -640 45322"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="12376 -48888 976 496"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17223 -46617 -576 7497"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="13432 -49160 976 31728"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16856 -46376 -576 9672"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16776 -46088 -576 9914"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14616 -46024 -448 49151"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14728 -46024 -448 47854"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14952 -46024 -448 49151"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14840 -46024 -448 51432"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15960 -46152 -576 45183"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16168 -46216 -576 46249"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16360 -46312 -568 42440"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="16824 -46568 -568 42440"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17208 -46856 -576 40959"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17128 -46792 -568 40959"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17672 -51512 -576 56795"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49112 -1056 694"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49128 -1056 0"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49144 -1056 0"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="13208 -49576 976 24575"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49176 -1056 0"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="12360 -50440 1248 8191"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49192 -1056 64792"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18072 -50600 -704 57343"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="13272 -48808 976 40959"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49224 -1056 0"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="14200 -48760 984 34826"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18280 -50072 -704 61312"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17960 -48536 -704 33713"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17992 -48680 -704 33807"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17992 -49608 -704 28544"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17960 -49737 -704 29727"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17880 -50552 -704 27353"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="14216 -49560 984 32767"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17800 -50696 -696 26941"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17208 -51688 -576 54441"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49080 -1056 0"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13448 -47288 744 60699"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49096 -1056 0"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17416 -51512 -576 57343"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17112 -51528 -576 25521"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="17224 -51432 -576 23095"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17976 -49880 -704 45796"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17976 -49864 -704 46596"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17992 -49880 -704 46249"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17992 -49864 -704 45796"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18008 -49880 -704 46249"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18008 -49864 -704 44315"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18024 -49880 -704 47093"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18024 -49864 -704 44315"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49208 -1056 612"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18120 -50232 -704 63477"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15896 -49160 -1056 867"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="12184 -47832 1296 52311"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17240 -51544 -576 60699"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13432 -47368 744 60699"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18312 -48968 -568 14661"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18280 -48968 -568 15229"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18247 -48969 -568 14903"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18216 -48968 -568 15229"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18200 -49336 -568 47997"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18232 -49336 -568 48284"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18264 -49336 -568 47997"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18296 -49336 -568 48408"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="18280 -49160 -568 0"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13416 -47432 744 57343"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18152 -48120 -704 6133"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13912 -50840 -160 54788"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14440 -47960 -160 17423"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17240 -46744 -576 8191"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13944 -47496 -160 10557"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="16072 -46072 -576 14325"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18056 -48392 -704 19161"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18024 -48408 -704 18259"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17992 -48408 -704 17681"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17960 -48408 -704 20607"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18056 -48408 -704 20126"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18024 -48425 -704 17864"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17992 -48424 -704 18106"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17960 -48424 -704 18259"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="16424 -50008 -1016 57343"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="16296 -50504 -872 13028"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="16808 -50600 -640 32767"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="16712 -50360 -640 62180"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="16424 -48280 -1016 0"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="16296 -47784 -872 49151"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="16808 -47720 -640 32767"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="16680 -47960 -640 1722"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17224 -48888 -1096 60699"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17208 -48920 -1096 60699"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17256 -48840 -1096 59402"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17272 -48792 -1088 58824"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17320 -49464 -1104 4836"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17320 -49432 -1112 0"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17320 -49400 -1120 0"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="17320 -49352 -1128 4836"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="17128 -49464 -1088 2555"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="17063 -48808 -1080 63477"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="17976 -49673 -704 29412"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18264 -49112 -568 0"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18263 -49193 -568 3355"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="17976 -48600 -704 33922"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14824 -47384 -416 58824"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14808 -47368 -416 55863"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14840 -47368 -416 55621"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14824 -47352 -416 55863"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14856 -47352 -416 56189"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14840 -47336 -416 56189"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14872 -47336 -416 55285"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14856 -47320 -416 54788"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14888 -47320 -416 56398"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14872 -47304 -416 57343"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="12392 -49416 976 2058"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="15208 -47368 -416 6469"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="15096 -47256 -416 9137"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="14376 -46632 -288 8191"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="14248 -46568 -288 11094"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="14776 -47272 -416 56731"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="14760 -47304 -416 57797"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="14808 -47256 -416 58498"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14968 -50952 -416 10630"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14952 -50968 -416 7391"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14951 -50937 -416 8740"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14936 -50952 -416 10250"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14936 -50920 -416 8804"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14920 -50936 -416 9137"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14920 -50904 -416 8992"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14904 -50920 -416 9346"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14904 -50888 -416 7391"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14887 -50905 -416 8886"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="14824 -51032 -416 9137"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="14856 -51048 -416 9489"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="14808 -51000 -416 8191"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15848 -49368 -160 800"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15848 -48936 -160 0"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15512 -48872 -160 19286"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15496 -49432 -160 47429"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13496 -47288 -160 11547"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13224 -47208 -160 13028"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13512 -51016 -160 53375"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13223 -51096 -160 50632"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15768 -49544 -416 62980"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15736 -49736 -416 62633"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="17400 -49400 -1128 4836"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15768 -48760 -416 2058"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15736 -48568 -416 62633"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="17336 -48920 -1120 62180"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14488 -49816 344 29025"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14504 -49784 344 31470"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14520 -49736 344 29865"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14536 -49704 344 29865"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14520 -49784 344 28544"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14504 -49816 344 26634"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14536 -49752 344 30212"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="14552 -49720 344 31045"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="14600 -49800 344 31045"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14728 -48584 344 60699"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="14744 -49704 344 3355"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14520 -48488 344 35670"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14536 -48520 344 36991"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14552 -48568 344 35670"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="14568 -48600 344 36123"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="14584 -48600 344 36991"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="14568 -48568 344 38594"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="14552 -48520 344 34826"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="14536 -48472 344 37130"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="14632 -48520 344 36736"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="18312 -49160 -568 32767"/>
+
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18535 -49055 -1217 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18535 -49095 -1217 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18535 -49135 -1217 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18535 -49175 -1217 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="18535 -49215 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49055 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49075 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49095 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49115 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49135 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49155 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49175 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49195 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49215 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18555 -49235 -1217 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="18575 -49055 -1217 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="18575 -49075 -1217 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18575 -49095 -1217 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="18575 -49115 -1217 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18575 -49135 -1217 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="18575 -49155 -1217 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18575 -49175 -1217 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="18575 -49195 -1217 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18575 -49215 -1217 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="18575 -49235 -1217 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="18595 -49055 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49075 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49095 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49115 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49135 -1217 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="18595 -49155 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49175 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49195 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49215 -1217 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="18595 -49235 -1217 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="15490 -49055 -1059 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="15490 -49095 -1059 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="15490 -49135 -1059 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="15490 -49175 -1059 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="15490 -49215 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49055 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49075 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49095 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49115 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49135 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49155 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49175 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49195 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49215 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15510 -49235 -1059 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="15530 -49055 -1059 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="15530 -49075 -1059 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="15530 -49095 -1059 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="15530 -49115 -1059 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="15530 -49135 -1059 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="15530 -49155 -1059 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="15530 -49175 -1059 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="15530 -49195 -1059 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="15530 -49215 -1059 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="15530 -49235 -1059 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="15550 -49055 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49075 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49095 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49115 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49135 -1059 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="15550 -49155 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49175 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49195 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49215 -1059 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="15550 -49235 -1059 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="13395 -49055 -537 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="13395 -49095 -537 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="13395 -49135 -537 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="13395 -49175 -537 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="13405 -49215 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49055 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49075 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49095 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49115 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49135 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49155 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49175 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49195 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49215 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13405 -49235 -537 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="13415 -49055 -537 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="13415 -49075 -537 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="13415 -49095 -537 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="13415 -49115 -537 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="13415 -49135 -537 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="13415 -49155 -537 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="13415 -49175 -537 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="13415 -49195 -537 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="13415 -49215 -537 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="13415 -49235 -537 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="13435 -49055 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49075 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49095 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49115 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49135 -537 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="13435 -49155 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49175 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49195 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49215 -537 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="13435 -49235 -537 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="11040 -49055 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="11040 -49095 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="11040 -49135 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="11040 -49175 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="11060 -49215 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49055 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49075 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49095 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49115 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49135 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49155 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49175 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49195 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49215 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11060 -49235 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="11080 -49055 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="11080 -49075 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="11080 -49095 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="11080 -49115 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="11080 -49135 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="11080 -49155 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="11080 -49175 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="11080 -49195 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="11080 -49215 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="11080 -49235 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="11100 -49055 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49075 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49095 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49115 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49135 996 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="11100 -49155 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49175 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49195 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49215 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="11100 -49235 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9445 -49055 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9445 -49095 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9445 -49135 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9445 -49175 996 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9445 -49215 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -48905 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -48955 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49005 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49055 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49105 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49155 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49205 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49255 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49305 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9465 -49355 996 63418"/>
+		<npc id="35490" count="1" respawn="300" respawn_random="0" pos="9485 -48905 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="9485 -48955 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="9485 -49005 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="9485 -49055 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="9485 -49105 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="9485 -49155 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="9485 -49205 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="9485 -49255 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="9485 -49305 996 63418"/>
+		<npc id="35488" count="1" respawn="300" respawn_random="0" pos="9485 -49355 996 63418"/>
+		<npc id="35487" count="1" respawn="300" respawn_random="0" pos="9505 -48905 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -48955 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49005 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49055 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49105 996 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="9505 -49155 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49205 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49255 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49305 996 63418"/>
+		<npc id="35489" count="1" respawn="300" respawn_random="0" pos="9505 -49355 996 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="9231 -49151 1093 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9135 -49076 1093 63418"/>
+		<npc id="35486" count="1" respawn="300" respawn_random="0" pos="9135 -49236 1093 63418"/>
+		<npc id="35484" count="1" respawn="300" respawn_random="0" pos="9035 -49151 1093 63418"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8941 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8974 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9007 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9051 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9074 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9107 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9151 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9174 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9207 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9251 -48580 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8941 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8974 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9007 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9051 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9074 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9107 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9151 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9174 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9207 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9251 -48600 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8941 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8974 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9007 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9051 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9074 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9107 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9151 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9174 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9207 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9251 -49701 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8941 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="8974 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9007 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9051 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9074 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9107 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9151 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9174 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9207 -49721 1252 16389"/>
+		<npc id="35480" count="1" respawn="300" respawn_random="0" pos="9251 -49721 1252 16389"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -48905 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -48955 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49005 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49055 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49105 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49155 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49205 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49255 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49305 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49355 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -48905 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -48955 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49005 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8484 -49055 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8504 -49105 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8505 -49155 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8505 -49205 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8505 -49255 1252 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8505 -49305 1252 63418"/>
+		<npc id="35475" count="1" respawn="300" respawn_random="0" pos="17655 -49140 -1181 63418"/>
+		<npc id="35475" count="1" respawn="300" respawn_random="0" pos="17255 -49140 -1124 63418"/>
+		<npc id="35475" count="1" respawn="300" respawn_random="0" pos="16855 -49140 -1088 63418"/>
+		<npc id="35477" count="1" respawn="300" respawn_random="0" pos="8505 -49355 1252 63418"/>
+	</spawn>
+</list>

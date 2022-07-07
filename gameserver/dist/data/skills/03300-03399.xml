@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="3318" levels="1" name="Flag Display">
+		<!--
+
+			Description:
+			In order to get recognition, display the combat flag on the fortress's flagpole.
+		-->
+		<set name="magicType" value="SPECIAL" />
+		<set name="icon" value="icon.weapon_fort_flag_i00" />
+		<set name="reuseDelay" value="5000" />
+		<set name="magicLevel" value="80" />
+		<set name="castRange" value="85" />
+		<set name="hitTime" value="180000" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_FLAGPOLE" />
+		<set name="skillType" value="TAKEFORTRESS" />
+		<set name="operate_type" value="A2" />
+	</skill>
+	<skill id="3322" levels="1" name="Медный Браслет">
+		<set name="icon" value="icon.etc_rbracelet_c_i00" />
+		<set name="magicLevel" value="20" />
+		<set name="operate_type" value="P" />
+		<for>
+			<add order="0x40" stat="talismansLimit" value="1" />
+		</for>
+	</skill>
+	<skill id="3323" levels="1" name="Бронзовый Браслет">
+		<set name="icon" value="icon.etc_rbracelet_b_i01" />
+		<set name="magicLevel" value="40" />
+		<set name="operate_type" value="P" />
+		<for>
+			<add order="0x40" stat="talismansLimit" value="2" />
+		</for>
+	</skill>
+	<skill id="3324" levels="1" name="Стальной Браслет">
+		<set name="icon" value="icon.etc_rbracelet_a_i02" />
+		<set name="magicLevel" value="52" />
+		<set name="operate_type" value="P" />
+		<for>
+			<add order="0x40" stat="talismansLimit" value="3" />
+		</for>
+	</skill>
+	<skill id="3358" levels="1" name="Flag Equip">
+		<!--
+
+			Description: Equip flag to decrease various battle abilities.
+		-->
+		<set name="icon" value="icon.weapon_fort_flag_i00" />
+		<set name="magicLevel" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="P" />
+		<set name="isCommon" value="true" />
+		<for>
+			<mul order="0x30" stat="runSpd" value="0.2" />
+			<mul order="0x30" stat="pAtkSpd" value="0.2" />
+			<mul order="0x30" stat="pAtk" value="0.2" />
+			<mul order="0x30" stat="mAtkSpd" value="0.2" />
+			<mul order="0x30" stat="mAtk" value="0.2" />
+		</for>
+	</skill>
+</list>

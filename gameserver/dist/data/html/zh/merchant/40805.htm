@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Lineage II GvE - Special craft</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+    <tr>
+        <td align=center  height=40>
+            <table border=0 cellpadding=0 cellspacing=0 width=292>
+                <tr>
+                    <td height="30">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><font color=ffa500>Special craft</font></td>
+                </tr>
+                <tr>
+                    <td height="30"></td>
+                </tr>
+                <tr>
+
+                    <td align=center>
+                        <font color=ffa000><button action="bypass -h npc_%objectId%_multisell 1074"  ALIGN=LEFT ICON="NORMAL">Weapon: S-Grade</button></font>
+                        <font color=ffa000><button action="bypass -h npc_%objectId%_multisell 1075"  ALIGN=LEFT ICON="NORMAL">Armor: S-Grade</button></font>
+                        <font color=ffa000><button action="bypass -h npc_%objectId%_multisell 1076"  ALIGN=LEFT ICON="NORMAL">Jewelry: S-Grade</button></font>
+                        <br>
+                        <font color=ffa500><button action="link discountsinfo.htm"  ALIGN=LEFT ICON="NORMAL">Discount system</button></font>
+                        #if($gveDiscounts.next())
+                        Prices will be lowered in
+                        <font color=ffa500>$gveDiscounts.next().hours()</font> hours and
+                        <font color=ffa500>$gveDiscounts.next().minutes()</font> min.
+                        #end
+                        <br><br><br><br><br>
+                        Finally you found me! With me you can<br1> buy all the recipes you need!<br1><br>
+                        I hope that you will be crafted something,<br1> because we did not have time to test this system.<br1> Best of luck!<br1>
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>

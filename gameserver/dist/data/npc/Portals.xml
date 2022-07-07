@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+
+	<!-- Portals -->
+	<npc id="40045" name="Portal 1" title=" ">
+		<set name="rewardCrp" value="10"/>
+		<set name="fraction" value="FIRE" />
+		<set name="isServerSideTitle" value="true" />
+		<set name="type" value="Portal" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="55039.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="570.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="570.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="10" max="10" chance="100.0" />
+		</rewardlist>
+	</npc>
+	<npc id="40046" name="Portal 2" title=" ">
+		<set name="rewardCrp" value="10"/>
+		<set name="fraction" value="FIRE" />
+		<set name="isServerSideTitle" value="true" />
+		<set name="type" value="Portal" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="55039.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="570.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="570.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="20" max="20" chance="100.0" />
+		</rewardlist>
+	</npc>
+	<npc id="40047" name="Portal 3" title=" ">
+		<set name="rewardCrp" value="10"/>
+		<set name="fraction" value="WATER" />
+		<set name="isServerSideTitle" value="true" />
+		<set name="type" value="Portal" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="55039.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="570.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="570.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="10" max="10" chance="100.0" />
+		</rewardlist>
+	</npc>
+	<npc id="40048" name="Portal 4" title=" ">
+		<set name="rewardCrp" value="10"/>
+		<set name="fraction" value="WATER" />
+		<set name="isServerSideTitle" value="true" />
+		<set name="type" value="Portal" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="55039.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="570.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="570.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="20" max="20" chance="100.0" />
+		</rewardlist>
+	</npc>
+
+	<npc id="40050" name="Castle Oren" title=" ">
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="residences.castle.SiegeTeleporter" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+
+	<npc id="40051" name="Castle Elven" title=" ">
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="residences.castle.SiegeTeleporter" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+
+	<npc id="40052" name="Siege Outpost" title=" ">
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="residences.castle.BlockpostTeleport" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="0" />
+		<set name="collision_radius" value="0" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+
+	<npc id="40095" name="Teleport #2" title="Teleport">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="residences.castle.BlockpostTeleport" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="1" />
+		<set name="collision_radius" value="1" />
+		<set name="level" value="1" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+
+	<npc id="40098" name="Teleport #3" title="Teleport">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="residences.castle.BlockpostTeleport" />
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="1" />
+		<set name="collision_radius" value="1" />
+		<set name="level" value="1" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+
+	<npc id="40099" name="Clarisa" title="Auctioner">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="residences.castle.CastleMessenger"/>
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="1" />
+		<set name="collision_radius" value="1" />
+		<set name="level" value="1" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+	<!-- ELVEN CASTLE -->
+
+
+	<npc id="40100" name="Mass Gatekeeper" title="Elven">
+		<set name="type" value="residences.castle.CastleMassTeleporter"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24.0"/>
+		<set name="collision_radius" value="8.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="563"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<ai_params>
+			<set name="teleport_loc" value="42632 37816 -2992 42632 37688 -2992 42648 37944 -2992"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="14"/>
+			<!--Humans -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40101" name="Outer Castle Gatekeeper" title="Elven">
+		<set name="type" value="residences.castle.Doorman"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24.0"/>
+		<set name="collision_radius" value="8.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="563"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<ai_params>
+			<set name="main_dialog" value="residence2/castle/gludio_outter_doorman001.htm"/>
+			<set name="fail_dialog" value="residence2/castle/gludio_outter_doorman002.htm"/>
+			<set name="siege_dialog" value="residence2/castle/gludio_outter_doorman003.htm"/>
+			<set name="territory_id" value="84"/>
+			<set name="tele_loc0" value="45976 38056 -3256"/>
+			<set name="tele_loc1" value="46712 38056 -3256"/>
+			<set name="doors" value="21190001;21190002"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="14"/>
+			<!--Humans -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40102" name="Inner Castle Gatekeeper" title="Elven">
+		<set name="type" value="residences.castle.Doorman"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24.0"/>
+		<set name="collision_radius" value="8.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="563"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<ai_params>
+			<set name="main_dialog" value="residence2/castle/gludio_inner_doorman001.htm"/>
+			<set name="fail_dialog" value="residence2/castle/gludio_inner_doorman002.htm"/>
+			<set name="siege_dialog" value="residence2/castle/gludio_inner_doorman003.htm"/>
+			<set name="territory_id" value="84"/>
+			<set name="tele_loc0" value="43128 37792 -3008"/>
+			<set name="tele_loc1" value="44104 37816 -3072"/>
+			<set name="doors" value="21190005;21190006"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="14"/>
+			<!--Humans -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40103" name="Blacksmith" title="Elven">
+		<set name="type" value="residences.castle.Blacksmith"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="16.5"/>
+		<set name="collision_radius" value="7.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<equip>
+			<rhand item_id="89"/>
+			<!--Big Hammer -->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40104" name="Warehouse Keeper" title="Elven">
+		<set name="type" value="residences.castle.Warehouse"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="17.0"/>
+		<set name="collision_radius" value="8.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<client_skills>
+			<skill id="4416" level="18"/>
+			<!--Dwarves -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40105" name="Chamberlain of Light" title="">
+		<set name="type" value="residences.castle.Chamberlain"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8.5"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="563"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<teleportlist>
+			<sublist id="1">
+				<target loc="75648 39380 -2952" price="0" name="1010692"/>
+				<!--Front of the Oren Castle -->
+				<target loc="82323 55466 -1480" price="0" name="1010681"/>
+				<!--Oren Town Square -->
+				<target loc="77023 1591 -3608" price="0" name="1010675"/>
+				<!--Front of the Ivory Fortress -->
+			</sublist>
+			<sublist id="2">
+				<target loc="75648 39380 -2952" price="0" name="1010692"/>
+				<!--Front of the Oren Castle -->
+				<target loc="82323 55466 -1480" price="0" name="1010681"/>
+				<!--Oren Town Square -->
+				<target loc="77023 1591 -3608" price="0" name="1010675"/>
+				<!--Front of the Ivory Fortress -->
+				<target loc="85391 16228 -3640" price="500" name="1010014"/>
+				<!--Ivory Tower -->
+				<target loc="109721 -7394 -2800" price="500" name="1010055"/>
+				<!--Near the frontier post -->
+				<target loc="64328 26803 -3768" price="500" name="1010121"/>
+				<!--Sea of Spores -->
+				<target loc="124904 61992 -3973" price="500" name="1010618"/>
+				<!--Enchanted Valley, Southern Region -->
+				<target loc="118509 -4779 -4000" price="500" name="1010127"/>
+				<!--Ancient Battleground -->
+			</sublist>
+		</teleportlist>
+		<client_skills>
+			<skill id="4416" level="15"/>
+			<!--Elves -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40106" name="Finrod" title="Wyvern Manager">
+		<set name="type" value="WyvernManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24.5"/>
+		<set name="collision_radius" value="6.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<client_skills>
+			<skill id="4416" level="15"/>
+			<!--Elves -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40107" name="Morrison" title="Mercenary Manager">
+		<set name="type" value="MercManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="21.5"/>
+		<set name="collision_radius" value="12.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="563"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<client_skills>
+			<skill id="4416" level="14"/>
+			<!--Humans -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40108" name="Manor Manager" title="Elven">
+		<set name="type" value="ManorManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="19.0"/>
+		<set name="collision_radius" value="9.5"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<!--TODO: Проверить. -->
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<client_skills>
+			<skill id="4416" level="14"/>
+			<!--Humans -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40109" name="Manor Manager" title="Elven">
+		<set name="type" value="ManorManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24.5"/>
+		<set name="collision_radius" value="6.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<client_skills>
+			<skill id="4416" level="15"/>
+			<!--Elves -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+	<npc id="40110" name="Manor Manager" title="Elven">
+		<set name="type" value="ManorManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="7.0"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="794.70901"/>
+		<set name="basePDef" value="319.24623"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="542.68324"/>
+		<set name="baseMDef" value="233.61053"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<client_skills>
+			<skill id="4416" level="16"/>
+			<!--Dark Elves -->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>
+			<!--HP Increase (1x) -->
+			<skill id="4409" level="1"/>
+			<!--MP Increase (1x) -->
+			<skill id="4410" level="11"/>
+			<!--Average P. Atk. -->
+			<skill id="4411" level="11"/>
+			<!--Average M. Atk. -->
+			<skill id="4412" level="11"/>
+			<!--Average P. Def. -->
+			<skill id="4413" level="11"/>
+			<!--Average M. Def. -->
+			<skill id="4414" level="2"/>
+			<!--Standard Type -->
+			<skill id="4415" level="3"/>
+			<!--One-handed Sword -->
+			<skill id="4045" level="1"/>
+			<!--Full Magic Attack Resistance -->
+		</skills>
+	</npc>
+
+	<npc id="40111" name="Chamberlain of Darkness" title="">
+		<set name="type" value="residences.castle.Chamberlain"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="34.0"/>
+		<set name="collision_radius" value="9.0"/>
+		<set name="level" value="99"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="8446"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="2355"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="109"/>
+		<set name="baseCON" value="89"/>
+		<set name="baseDEX" value="85"/>
+		<set name="baseINT" value="59"/>
+		<set name="baseMEN" value="10"/>
+		<set name="baseWIT" value="116"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4900"/>
+		<set name="basePDef" value="3840"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2550"/>
+		<set name="baseMDef" value="825"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="40"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="14"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="texture" value=""/>
+		<set name="castle_id" value="10"/>
+		<teleportlist>
+			<sublist id="1">
+				<target loc="75648 39380 -2952" price="0" name="1010692"/>
+				<!--Front of the Oren Castle -->
+				<target loc="82323 55466 -1480" price="0" name="1010681"/>
+				<!--Oren Town Square -->
+				<target loc="77023 1591 -3608" price="0" name="1010675"/>
+				<!--Front of the Ivory Fortress -->
+			</sublist>
+			<sublist id="2">
+				<target loc="75648 39380 -2952" price="0" name="1010692"/>
+				<!--Front of the Oren Castle -->
+				<target loc="82323 55466 -1480" price="0" name="1010681"/>
+				<!--Oren Town Square -->
+				<target loc="77023 1591 -3608" price="0" name="1010675"/>
+				<!--Front of the Ivory Fortress -->
+				<target loc="85391 16228 -3640" price="500" name="1010014"/>
+				<!--Ivory Tower -->
+				<target loc="109721 -7394 -2800" price="500" name="1010055"/>
+				<!--Near the frontier post -->
+				<target loc="64328 26803 -3768" price="500" name="1010121"/>
+				<!--Sea of Spores -->
+				<target loc="124904 61992 -3973" price="500" name="1010618"/>
+				<!--Enchanted Valley, Southern Region -->
+				<target loc="118509 -4779 -4000" price="500" name="1010127"/>
+				<!--Ancient Battleground -->
+			</sublist>
+		</teleportlist>
+	</npc>
+</list>

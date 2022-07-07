@@ -1,0 +1,84 @@
+<list>
+	<patterns>
+		<item group="hello">
+			<pattern RegEx="хай"/>
+			<pattern RegEx="привет"/>
+			<pattern RegEx="здорово"/>
+			<pattern RegEx="здравствуй"/>
+		</item>	
+		<item group="who">
+			<pattern RegEx="кто\s.*ты"/>
+			<pattern RegEx="ты\s.*кто"/>
+		</item>	
+		<item group="name">
+			<pattern RegEx="как\s.*зовут"/>
+			<pattern RegEx="как\s.*имя"/>
+			<pattern RegEx="есть\s.*имя"/>
+			<pattern RegEx="какое\s.*имя"/>
+		</item>
+		<item group="howareyou">
+			<pattern RegEx="как\s.*дела"/>
+			<pattern RegEx="как\s.*жизнь"/>	
+		</item>
+		<item group="whatdoyoudoing">
+			<pattern RegEx="зачем\s.*тут" />
+			<pattern RegEx="зачем\s.*здесь" />
+			<pattern RegEx="что\s.*делаешь" />
+			<pattern RegEx="чем\s.*занимаешься" />
+		</item>
+		<item group="whatdoyoulike">
+			<pattern RegEx="что\s.*нравится" />
+			<pattern RegEx="что\s.*любишь"/>
+		</item>
+		<item group="iamfeelling">
+			<pattern RegEx="кажется"/>
+			<pattern RegEx="чувствую"/>
+			<pattern RegEx="испытываю"/>
+		</item>
+		<item group="yes">
+			<pattern RegEx="^да"/>
+			<pattern RegEx="согласен"/>
+		</item>
+		<item group="bye">
+			<pattern RegEx="прощай"/>
+			<pattern RegEx="увидимся"/>
+			<pattern RegEx="до\s.*свидания"/>
+		</item>
+	</patterns>
+	<AnswersByPatterns>
+		<group name="hello">
+			<text answer="Здравствуйте, рад Вас видеть."/>
+			<text answer="Здравствуйте, рад Вас видеть."/>
+			<text answer="Здравствуйте, рад Вас видеть."/>
+		</group>
+		<group name="who">
+			<text answer="Я обычный чат-бот."/>
+			<text answer="Я обычный чат-бот."/>
+			<text answer="Я обычный чат-бот."/>
+		</group>
+		<group name="name">
+			<text answer="Зовите меня Чаттер :)"/>
+			<text answer="Зовите меня Чаттер :)"/>
+		</group>
+		<group name="howareyou">
+			<text answer="Спасибо, что интересуетесь. У меня всё хорошо."/>
+			<text answer="Спасибо, что интересуетесь. У меня всё хорошо."/>
+		</group>
+		<group name="whatdoyoudoing">
+			<text answer="Я пробую общаться с людьми."/>
+			<text answer="Я пробую общаться с людьми."/>
+		</group>
+		<group name="whatdoyoulike">
+			<text answer="Мне нравиться думать что я не просто программа."/>
+		</group>
+		<group name="iamfeelling">
+			<text answer="Как давно это началось? Расскажите чуть подробнее."/>
+		</group>
+		<group name="yes">
+			<text answer="Согласие есть продукт при полном непротивлении сторон."/>
+		</group>
+		<group name="bye">
+			<text answer="До свидания. Надеюсь, ещё увидимся."/>
+		</group>
+	</AnswersByPatterns>
+</list>

@@ -1,0 +1,169 @@
+﻿<html>
+<title>Настройки спавна фантомов Rebellion Team</title>
+<center><table width=275 >
+<tr>
+<td><button value="Главная" action="bypass -h admin_admin" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Ивенты" action="bypass -h admin_show_html events/events.htm" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Телепорт" action="bypass -h admin_show_moves" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Персонажи" action="bypass -h admin_char_manage" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Фантомы" action="bypass -h admin_phantom"  width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Сервер" action="bypass -h admin_server admserver.htm" width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br><br>
+<table width=680 background="L2UI_CH3.refinewnd_back_Pattern">
+<tr><td width=640 height=445>
+<center><br>
+<br>
+<table>
+<tr>
+<td width=70>Лимит фантомов:</td>
+<td width=30>%CfgPhantomLimit%</td>
+<td width=30><edit var="PhLimit" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn CfgPhantomLimit $PhLimit" value="Set"></td>
+</tr>
+<tr>
+<td width=160>Текущий максимальный уровень:</td>
+<td width=30>%PhantomMaxLvL%</td>
+<td width=30></td>
+<td width=30></td>
+</tr>
+<tr>
+<td width=70></td>
+<td width=30></td>
+<td width=30></td>
+<td width=30></td>
+</tr>
+<tr>
+<td width=70>Ручной макс. LvL:</td>
+<td width=30></td>
+<td width=30><edit var="PhMaxLvl" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn CfgPhantomMaxLvl $PhMaxLvl" value="Set"></td>
+</tr>
+
+<tr>
+<td width=160>Макс. lvl = Макс. lvl игроков</td>
+<td width=30>%CfgPhantomAutoLvl%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomAutoLvL on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomAutoLvL of" value="OFF"></td>
+</tr>
+<tr>
+<td width=160>Основной спавн:</td>
+<td width=30>%PhantomBasicSpawn%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomBasicSpawn on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomBasicSpawn of" value="OFF"></td>
+</tr>
+<tr>
+<td width=200>Пати ботхантеров Вкл/Выкл(пока только с рестартом):</td>
+<td width=30>%VisualBotHunters%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn BBotHunters on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn BBotHunters of" value="OFF"></td>
+</tr>
+<tr>
+<td width=200>Кланы с постоянными ботами:</td>
+<td width=30>%VisualStableClansPhantom%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn BStableClansPhantom on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn BStableClansPhantom of" value="OFF"></td>
+</tr>
+</table><br>
+<center><font color="LEVEL">Шанс спавна по профам</font></center><br>
+<table>
+<tr>
+<td width=5></td>
+<td width=160>Spawn NG:</td>
+<td width=30>%SpawnNG%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnNG on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnNG of" value="OFF"></td>
+<td width=5></td>
+<td width=70>Chance spawn:</td>
+<td width=30>%Chance_SpawnNG%</td>
+<td width=30><edit var="setNG" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn ChanceSpawnNG $setNG" value="Set"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>Spawn Start Loc(Included in NG):</td>
+<td width=30>%SpawnStartLoc%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnStartLoc on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnStartLoc of" value="OFF"></td>
+<td width=5></td>
+<td width=70>Chance spawn(% of NG):</td>
+<td width=30>%Chance_SpawnStartLoc%</td>
+<td width=30><edit var="setstartloc" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn ChanceSpawnStartLoc $setstartloc" value="Set"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>Spawn 1 Prof.:</td>
+<td width=30>%SpawnP1%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnP1 on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnP1 of" value="OFF"></td>
+<td width=5></td>
+<td width=70>Chance spawn:</td>
+<td width=30>%Chance_SpawnP1%</td>
+<td width=30><edit var="set1prof" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn ChanceSpawnP1 $set1prof" value="Set"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>Spawn 2 Prof.:</td>
+<td width=30>%SpawnP2%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnP2 on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnP2 of" value="OFF"></td>
+<td width=5></td>
+<td width=70>Chance spawn:</td>
+<td width=30>%Chance_SpawnP2%</td>
+<td width=30><edit var="set2prof" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn ChanceSpawnP2 $set2prof" value="Set"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>Spawn 3 Prof.:</td>
+<td width=30>%SpawnP3%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnP3 on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnP3 of" value="OFF"></td>
+<td width=5></td>
+<td width=70>Chance spawn:</td>
+<td width=30>%Chance_SpawnP3%</td>
+<td width=30><edit var="set3prof" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn ChanceSpawnP3 $set3prof" value="Set"></td>
+</tr>
+<tr>
+<td width=5></td>
+<td width=160>SpawnHard(Included in profession 3):</td>
+<td width=30>%SpawnHard%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnHard on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnHard of" value="OFF"></td>
+<td width=5></td>
+<td width=70>Chance spawn(% of 3 professions):</td>
+<td width=30>%Chance_SpawnHard%</td>
+<td width=30><edit var="sethard" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn ChanceSpawnHard $sethard" value="Set"></td>
+</tr>
+</table></center>
+<br>
+<center>
+<table>
+<tr>
+<td width=80><button width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_despawnallphantom" value="DeSpawn All"></td>
+<td width=80><button width=80 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_recallallphantom" value="Recall ALL"></td>
+</tr>
+</table><br>
+<center><font color="LEVEL">Крафт\Трейд</font></center><br>
+<table>
+<tr>
+<td width=160>Spawn Craft\Trade:</td>
+<td width=30>%SpawnCraftOrTrade%</td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnCraftOrTrade on" value="ON"></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PhantomSpawnCraftOrTrade of" value="OFF"></td>
+</tr>
+<tr>
+<td width=70>Количество торговцев:</td>
+<td width=30>%PCount_merchants%</td>
+<td width=30><edit var="CountMerchants" width=30 height=12></td>
+<td width=30><button width=30 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" action="bypass -h admin_phantom_spawn PCount_merchants $CountMerchants" value="Set"></td>
+</tr>
+</table></center>
+<br>
+</td></tr>
+</table>
+</center>
+</html>

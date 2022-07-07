@@ -1,0 +1,70 @@
+<html>
+<title>Управляющий</title>
+<body>
+<center>Добро пожаловать на Ферму Флоран.<br1>
+Тут вы можете выращивать семена фруктов и<br1>
+овощей.<br1>
+#if(!$slave)
+Наши рабочие заботятся не покладая <br1>
+рук на плантациях каждого фермера защищая их <br1>
+от насекомых за небольшую плату в виде <font color="ff5000">200 Аден</font>.<br1>
+	</center>
+<button action="bypass -h npc_%objectId%_slave" ALIGN=LEFT ICON="NORMAL">Нанять раба - 200 Аден</button>
+#end
+#if(!$barn)
+<button action="bypass -h npc_%objectId%_barn" ALIGN=LEFT ICON="NORMAL">Купить амбар - 200 Аден</button>
+#if($storage.size() > 0)
+<font color="ff5000"><button action="bypass -h npc_%objectId%_use_barn" ALIGN=LEFT ICON="NORMAL">Забрать оставшийся урожай!</button></font>
+#end
+#else
+	#if($storage.size() == 0)
+	<center><font color="LEVEL">Ваш амбар пока что пуст!</font><br1><font color="00e600">Действует до: $barn_expire</font></center>
+	#else
+	<font color="ff5000"><button action="bypass -h npc_%objectId%_use_barn" ALIGN=LEFT ICON="NORMAL">Забрать урожай с амбара!</button></font>
+	#end
+#end
+#foreach($stead in $holder)
+	#if($player.getFraction() == $stead.getPossession().getFraction())
+		<button action="bypass -h npc_%objectId%_goto $stead.getPossession().getId()" ALIGN=LEFT ICON="NORMAL">Плантация: $stead.getPossession().getName()</button>
+	#end
+#end
+<button action="bypass -h npc_%objectId%_teleport" ALIGN=LEFT ICON="NORMAL">Телепортироваться обратно</button>
+<table align=center width=280 height=80>
+	<tr>
+		<td width=294 height=76 align=center valign=top>
+			<table border=0 width=270 height=126 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+				<tr>
+					<td valign=top align=center>
+						<table width=270 height=24 bgcolor=222222>
+							<tr>
+								<td width=140 align=center valign=center>
+									<font color="6699CC">Плантация</font>
+								</td>
+								<td width=134 align=center valign=center>
+									<font color="6699CC">Семена</font>
+								</td>
+							</tr>
+						</table>
+						#foreach($stead in $holder)
+						<table width=270 height=20 bgcolor=666666>
+							<tr>
+								<td width=139 align=center valign=center>
+									$stead.getPossession().getName()
+								</td>
+								<td width=134 align=center valign=center>
+									#if($player.getFraction() == $stead.getPossession().getFraction())
+											<font color="LEVEL">$stead.getSeeds($player).size() из $stead.getSize()</font>
+									#else
+											<font color="ff5000">Принадлежит врагам</font>
+									#end
+								</td>
+							</tr>
+						</table>
+						#end
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body></html>

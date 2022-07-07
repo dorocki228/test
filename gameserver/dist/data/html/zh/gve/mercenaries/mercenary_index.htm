@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>Mercenaries</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td valign="top" align="center">
+		<table border=0 cellpadding=0 cellspacing=0>
+		<tr>
+					<td align=center  height=12></td>
+				</tr>
+		<tr><td width=57 height=60 background="L2UI_CT1.emblem_royalguard"></td></tr>
+		</table>
+			<table><tr><td height=1></td></tr></table>
+			<table height=50 width=292 >
+				<tr>
+					<td align=center  height=25>
+						<font name=hs12>欢迎来到雇佣军！</font><br1>
+						在您的帮助下,您可以<br1>
+						保存相反的派别<br1>
+						以及<font color=f58000>获得一个不错的奖金</font>.<br>
+						
+						<font color=f58000>选择时间段</font>你想要的<br1>
+						切换到另一个分数：<br1>
+						
+					</td>
+				</tr>
+				<tr>
+					<td align=center  height=10></td>
+				</tr>
+				#if($canNotTransitionForFraction)
+				<tr>
+					<td align=center>
+						<font color=ff5000>
+							–––––––<br1>
+							眼下<br1>
+							雇佣军不需要你的帮助！<br>
+							相反的时候回来<br1>
+							派系要挨打！<br1>
+                            –––––––
+                            <br1>
+                        </font>
+                    </td>
+                </tr>
+                #else
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 1" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">走3个小时
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 2" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">走12个小时
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 3" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">走24小时
+                        </button>
+                    </td>
+                </tr>
+                #end
+                <tr>
+                    <td align=center>
+                        <button action="link gve/mercenaries/mercenary_info.htm" ALIGN=LEFT
+                                ICON="L2UI_CT1.SellingAgencyWnd_df_HelpBtn">三.信息
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align=center>
+                        <button ALIGN=LEFT ICON="L2UI_CT1.RewardBtn_down"
+                                action="bypass -h npc_%objectId%_multisell 1099">佣兵店
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <br>
+                        <Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h teleport_to_loc 217085 71903 1024 57 5">
+                            Girin [更改派係經理] – 5亚丁
+                        </button>
+                <tr>
+                    <td align=center height=15></td>
+                </tr>
+            </table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

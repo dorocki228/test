@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list>
+  <territory name="gc1">
+    <add x="183144" y="62840" zmin="-4242" zmax="-3742"/>
+    <add x="183192" y="60392" zmin="-4242" zmax="-3742"/>
+    <add x="184584" y="60392" zmin="-4242" zmax="-3742"/>
+    <add x="184600" y="62760" zmin="-4242" zmax="-3742"/>
+  </territory>
+  <spawn group="giant_cave" name="gc1" territory="gc1">
+    <!--Dryad-->
+    <npc id="20656" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Scout-->
+    <npc id="20654" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Soldier-->
+    <!--Doom Knight-->
+    <!--Trives-->
+    <npc id="22674" count="2" respawn="60" respawn_random="0"/>
+    <!--Imagro-->
+    <npc id="22672" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Seer-->
+    <npc id="22673" count="2" respawn="60" respawn_random="0"/>
+    <!--Hirokai-->
+  </spawn>
+  <territory name="gc2">
+    <add x="185384" y="61912" zmin="-4402" zmax="-3902"/>
+    <add x="185448" y="60824" zmin="-4402" zmax="-3902"/>
+    <add x="186568" y="60824" zmin="-4402" zmax="-3902"/>
+    <add x="186568" y="61928" zmin="-4402" zmax="-3902"/>
+  </territory>
+  <spawn group="giant_cave" name="gc2" territory="gc2">
+    <!--Dryad-->
+    <npc id="22671" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Guardian-->
+    <npc id="22676" count="2" respawn="60" respawn_random="0"/>
+    <!--Hamlet-->
+    <!--Lesser Giant Scout-->
+    <npc id="20656" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Scout-->
+  </spawn>
+  <territory name="gc3">
+    <add x="186488" y="60776" zmin="-4402" zmax="-3902"/>
+    <add x="185480" y="60728" zmin="-4410" zmax="-3910"/>
+    <add x="185496" y="59672" zmin="-4570" zmax="-4070"/>
+    <add x="186504" y="59640" zmin="-4578" zmax="-4078"/>
+  </territory>
+  <spawn group="giant_cave" name="gc3" territory="gc3">
+    <!--Dryad-->
+    <npc id="22671" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Guardian-->
+    <npc id="22672" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Seer-->
+    <!--Hirokai-->
+    <npc id="22673" count="2" respawn="60" respawn_random="0"/>
+    <!--Hirokai-->
+  </spawn>
+  <territory name="gc4">
+    <add x="186504" y="59592" zmin="-4578" zmax="-4078"/>
+    <add x="185480" y="59560" zmin="-4586" zmax="-4086"/>
+    <add x="185496" y="58008" zmin="-4818" zmax="-4318"/>
+    <add x="186520" y="57976" zmin="-4818" zmax="-4318"/>
+  </territory>
+  <spawn group="giant_cave" name="gc4" territory="gc4">
+    <!--Dryad-->
+    <npc id="22674" count="2" respawn="60" respawn_random="0"/>
+    <!--Imagro-->
+    <npc id="22676" count="2" respawn="60" respawn_random="0"/>
+    <!--Hamlet-->
+    <!--Lesser Giant Soldier-->
+    <npc id="20654" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Soldier-->
+  </spawn>
+  <territory name="gc5">
+    <add x="186968" y="57848" zmin="-4818" zmax="-4318"/>
+    <add x="185448" y="57848" zmin="-4818" zmax="-4318"/>
+    <add x="185448" y="56280" zmin="-4818" zmax="-4318"/>
+    <add x="186232" y="56248" zmin="-4818" zmax="-4318"/>
+    <add x="186248" y="56968" zmin="-4818" zmax="-4318"/>
+    <add x="186984" y="56984" zmin="-4818" zmax="-4318"/>
+  </territory>
+  <spawn group="giant_cave" name="gc5" territory="gc5">
+    <!--Dryad-->
+    <npc id="20656" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Scout-->
+    <!--Kadios-->
+    <npc id="22671" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Guardian-->
+    <npc id="22672" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Seer-->
+  </spawn>
+  <territory name="gc6">
+    <add x="186232" y="56216" zmin="-4818" zmax="-4318"/>
+    <add x="185448" y="56184" zmin="-4818" zmax="-4318"/>
+    <add x="185448" y="54648" zmin="-4818" zmax="-4318"/>
+    <add x="187112" y="54680" zmin="-4818" zmax="-4318"/>
+    <add x="187111" y="55543" zmin="-4818" zmax="-4318"/>
+    <add x="186344" y="55544" zmin="-4818" zmax="-4318"/>
+  </territory>
+  <spawn group="giant_cave" name="gc6" territory="gc6">
+    <!--Dryad-->
+    <npc id="22673" count="2" respawn="60" respawn_random="0"/>
+    <!--Hirokai-->
+    <npc id="22674" count="2" respawn="60" respawn_random="0"/>
+    <!--Imagro-->
+    <npc id="22676" count="2" respawn="60" respawn_random="0"/>
+    <!--Hamlet-->
+  </spawn>
+  <territory name="gc7">
+    <add x="187144" y="55544" zmin="-4818" zmax="-4318"/>
+    <add x="187207" y="54696" zmin="-4818" zmax="-4318"/>
+    <add x="188312" y="54664" zmin="-4818" zmax="-4318"/>
+    <add x="188312" y="56280" zmin="-4818" zmax="-4318"/>
+    <add x="187576" y="56264" zmin="-4818" zmax="-4318"/>
+    <add x="187560" y="55560" zmin="-4818" zmax="-4318"/>
+  </territory>
+  <spawn group="giant_cave" name="gc7" territory="gc7">
+    <!--Dryad-->
+    <npc id="20654" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Soldier-->
+    <npc id="20656" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Scout-->
+  </spawn>
+  <territory name="gc8">
+    <add x="187576" y="56296" zmin="-4818" zmax="-4318"/>
+    <add x="188296" y="56360" zmin="-4818" zmax="-4318"/>
+    <add x="188296" y="57848" zmin="-4818" zmax="-4318"/>
+    <add x="187000" y="57848" zmin="-4818" zmax="-4318"/>
+    <add x="187032" y="56984" zmin="-4818" zmax="-4318"/>
+    <add x="187559" y="56968" zmin="-4818" zmax="-4318"/>
+  </territory>
+  <spawn group="giant_cave" name="gc8" territory="gc8">
+    <!--Dryad-->
+    <npc id="22671" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Guardian-->
+    <npc id="22672" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Seer-->
+  </spawn>
+  <territory name="gc_rb">
+    <add x="184392" y="61896" zmin="-4242" zmax="-3742"/>
+    <add x="183544" y="62360" zmin="-4242" zmax="-3742"/>
+    <add x="183559" y="61032" zmin="-4242" zmax="-3742"/>
+    <add x="184408" y="60904" zmin="-4242" zmax="-3742"/>
+  </territory>
+  <spawn>
+    <!--Refugee Applicant Leo-->
+    <npc id="25122" count="1" respawn="82800" respawn_random="7200" pos="183559 61032 -3992 49152"/>
+    <!--Refugee Applicant Leo-->
+  </spawn>
+  <territory name="gc9">
+    <add x="181384" y="61176" zmin="-4242" zmax="-3742"/>
+    <add x="182840" y="61144" zmin="-4242" zmax="-3742"/>
+    <add x="182856" y="62760" zmin="-4242" zmax="-3742"/>
+    <add x="181400" y="62760" zmin="-4242" zmax="-3742"/>
+  </territory>
+  <spawn name="gc9" territory="gc9">
+    <npc id="20654" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Soldier-->
+    <npc id="20656" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Scout-->
+    <npc id="22671" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Guardian-->
+    <npc id="22672" count="1" respawn="60" respawn_random="0"/>
+    <!--Beastial Seer-->
+  </spawn>
+  <territory name="gc10">
+    <add x="182584" y="60488" zmin="-4242" zmax="-3742"/>
+    <add x="180808" y="60440" zmin="-4242" zmax="-3742"/>
+    <add x="180808" y="58504" zmin="-4242" zmax="-3742"/>
+    <add x="182584" y="58536" zmin="-4242" zmax="-3742"/>
+  </territory>
+  <spawn name="gc10" territory="gc10">
+    <npc id="22673" count="2" respawn="60" respawn_random="0"/>
+    <!--Hirokai-->
+    <npc id="22674" count="2" respawn="60" respawn_random="0"/>
+    <!--Imagro-->
+    <npc id="22676" count="2" respawn="60" respawn_random="0"/>
+    <!--Hamlet-->
+    <npc id="20654" count="1" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Soldier-->
+  </spawn>
+  <territory name="gc11">
+    <add x="184616" y="60120" zmin="-4242" zmax="-3742"/>
+    <add x="183160" y="60104" zmin="-4242" zmax="-3742"/>
+    <add x="183176" y="57720" zmin="-4242" zmax="-3742"/>
+    <add x="184584" y="57736" zmin="-4242" zmax="-3742"/>
+  </territory>
+  <spawn name="gc11" territory="gc11">
+    <npc id="20656" count="2" respawn="60" respawn_random="0"/>
+    <!--Lesser Giant Scout-->
+    <npc id="22671" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Guardian-->
+    <npc id="22672" count="2" respawn="60" respawn_random="0"/>
+    <!--Beastial Seer-->
+    <npc id="22673" count="1" respawn="60" respawn_random="0"/>
+    <!--Hirokai-->
+    <npc id="22674" count="1" respawn="60" respawn_random="0"/>
+    <!--Imagro-->
+  </spawn>
+</list>

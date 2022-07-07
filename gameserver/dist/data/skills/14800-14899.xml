@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+	<skill id="14826" levels="9" name="Интенсивное рассечение">
+		<set name="icon" value="icon.skill0000" />
+		<table name="#power">831 8287 400 831 1532 2575 4430 6656 8287</table>
+		<table name="#magicLevel">40 85 30 40 50 60 70 80 85</table>
+		<table name="#itemConsumeId">0 0 70069 70070 70071 70072 70073 70074 0</table>
+		<table name="#itemConsumeCount">0 0 1 1 1 1 1 1 0</table>
+		<set name="itemConsumeId" value="#itemConsumeId" />
+		<set name="itemConsumeCount" value="#itemConsumeCount" />
+		<set name="icon" value="icon.skill0263" />
+		<set name="reuseDelay" value="5000" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="2500" />
+		<set name="ride_state" value="NONE" />
+		<set name="magicLevel" value="#magicLevel" />
+		<set name="power" value="#power" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_ONE" />
+		<set name="skillType" value="PDAM" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="14828" levels="9" name="Взрыв Чистоты">
+		<table name="#power">50 120 41 50 66 82 94 108 120</table>
+		<table name="#magicLevel">40 85 30 40 50 60 70 80 85</table>
+		<table name="#itemConsumeId">0 0 70075 70076 70077 70078 70079 70080 0</table>
+		<table name="#itemConsumeCount">0 0 1 1 1 1 1 1 0</table>
+		<set name="itemConsumeId" value="#itemConsumeId" />
+		<set name="itemConsumeCount" value="#itemConsumeCount" />
+		<set name="icon" value="icon.skill1295" />
+		<set name="reuseDelay" value="7000" />
+		<set name="coolTime" value="500" />
+		<set name="castRange" value="500" />
+		<set name="hitTime" value="2500" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="#magicLevel" />
+		<set name="magicType" value="MAGIC" />
+		<set name="affectLimit" value="5;12" />
+		<set name="power" value="#power" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_AREA" />
+		<set name="affect_range" value="200" />
+		<set name="skillType" value="MDAM" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="14830" levels="8" name="Серый Взрыв">
+		<set name="icon" value="icon.skill0000" />
+		<table name="#power">9861 473 985 1814 3048 5262 7904 9861</table>
+		<table name="#magicLevel">85 30 40 50 60 70 80 85</table>
+		<table name="#itemConsumeId">0 70081 70082 70083 70084 70085 70086 0</table>
+		<table name="#itemConsumeCount">0 1 1 1 1 1 1 0</table>
+		<set name="itemConsumeId" value="#itemConsumeId" />
+		<set name="itemConsumeCount" value="#itemConsumeCount" />
+		<set name="icon" value="icon.skill0263" />
+		<set name="reuseDelay" value="5000" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="2500" />
+		<set name="ride_state" value="NONE" />
+		<set name="magicLevel" value="#magicLevel" />
+		<set name="power" value="#power" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_ONE" />
+		<set name="skillType" value="PDAM" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="14832" levels="8" name="Платоническая Буря">
+		<table name="#power">133 43 55 72 91 104 120 133</table>
+		<table name="#magicLevel">85 30 40 50 60 70 80 85</table>
+		<table name="#itemConsumeId">0 70087 70088 70089 70090 70091 70092 0</table>
+		<table name="#itemConsumeCount">0 1 1 1 1 1 1 0</table>
+		<set name="itemConsumeId" value="#itemConsumeId" />
+		<set name="itemConsumeCount" value="#itemConsumeCount" />
+		<set name="icon" value="icon.skill1295" />
+		<set name="reuseDelay" value="7000" />
+		<set name="coolTime" value="500" />
+		<set name="castRange" value="500" />
+		<set name="hitTime" value="2500" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="#magicLevel" />
+		<set name="magicType" value="MAGIC" />
+		<set name="affectLimit" value="5;12" />
+		<set name="power" value="#power" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_AREA" />
+		<set name="affect_range" value="200" />
+		<set name="skillType" value="MDAM" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true"/>
+	</skill>
+</list>

@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<list>
+	<zone name="[mdt_harbor_no_trade1]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>
+			<coords loc="11079 181176" />
+			<coords loc="14906 181057" />
+			<coords loc="15029 185172" />
+			<coords loc="10991 185146" />
+		</polygon>
+	</zone>
+
+	<zone name="[gve_epic_loft_no_trade]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>
+			<coords loc="47960 -11496" />
+			<coords loc="47944 -12984" />
+			<coords loc="51496 -12984" />
+			<coords loc="51512 -11512" />
+		</polygon>
+	</zone>
+
+	<zone name="[baium_pp]" type="dummy">
+		<polygon>
+			<coords loc="119068 13664" />
+			<coords loc="119796 16388" />
+			<coords loc="119200 18920" />
+			<coords loc="115724 21352" />
+			<coords loc="111308 20080" />
+			<coords loc="108896 15092" />
+			<coords loc="112492 11460" />
+			<coords loc="116580 11248" />
+		</polygon>
+	</zone>
+
+	<zone name="[tvt_block_p]" type="dummy">
+		<polygon>
+			<coords loc="184120 14760" />
+			<coords loc="184680 26024" />
+			<coords loc="188568 29176" />
+			<coords loc="196216 23608" />
+			<coords loc="193384 14680" />
+		</polygon>
+	</zone>
+
+	<zone name="[ctf_block_p]" type="dummy">
+		<polygon>
+			<coords loc="216216 79320" />
+			<coords loc="221826 83926" />
+			<coords loc="225262 85568" />
+			<coords loc="227234 83166" />
+			<coords loc="229180 78524" />
+			<coords loc="228206 73072" />
+			<coords loc="226024 70968" />
+			<coords loc="222269 68232" />
+		</polygon>
+	</zone>
+
+	<!-- <zone name="[oren_harbor_no_trade1]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>
+			<coords loc="78966 53079" />
+			<coords loc="80214 53095" />
+			<coords loc="80208 53680" />
+			<coords loc="81360 53712" />
+			<coords loc="81360 53152" />
+			<coords loc="81984 53152" />
+			<coords loc="81990 54119" />
+			<coords loc="78950 54119" />
+		</polygon>
+	</zone>
+	<zone name="[oren_harbor_no_trade2]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>	
+			<coords loc="81880 52329" />
+			<coords loc="84036 52276" />
+			<coords loc="84051 53210" />
+			<coords loc="84048 54656" />
+			<coords loc="81952 54656" />
+			<coords loc="81952 53696" />
+			<coords loc="82912 53696" />
+			<coords loc="82912 53328" />
+			<coords loc="81885 53355" />
+		</polygon>
+	</zone>
+	<zone name="[oren_harbor_no_trade3]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>	
+			<coords loc="82556 55084" />
+			<coords loc="84116 55116" />
+			<coords loc="84116 56388" />
+			<coords loc="83328 56368" />
+			<coords loc="83344 55504" />
+			<coords loc="82556 55476" />
+		</polygon>
+	</zone>
+	<zone name="[oren_harbor_no_trade4]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>	
+			<coords loc="80507 53967" />
+			<coords loc="82057 53959" />
+			<coords loc="82034 56054" />
+			<coords loc="81200 56288" />
+			<coords loc="80960 55856" />
+			<coords loc="80465 55840" />
+		</polygon>
+	</zone>
+	<zone name="[oren_harbor_no_trade5]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>
+			<coords loc="79048 54458" />
+			<coords loc="80358 54473" />
+			<coords loc="80342 55344" />
+			<coords loc="79936 55600" />
+			<coords loc="79904 56032" />
+			<coords loc="79017 56066" />
+		</polygon>
+	</zone>
+	<zone name="[oren_harbor_no_trade6]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>	
+			<coords loc="79022 56024" />
+			<coords loc="79969 56042" />
+			<coords loc="80632 57201" />
+			<coords loc="78999 57228" />
+		</polygon>
+	</zone>
+
+	<zone name="[elven_harbor_no_trade1]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>
+			<coords loc="44561 50098" />
+			<coords loc="44468 49580" />
+			<coords loc="44736 49040" />
+			<coords loc="45344 48672" />
+			<coords loc="45968 48800" />
+			<coords loc="46320 49184" />
+			<coords loc="46272 49840" />
+			<coords loc="45776 50256" />
+			<coords loc="45648 50352" />
+			<coords loc="45067 50446" />
+		</polygon>
+	</zone>
+	
+	<zone name="[elven_harbor_no_trade2]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>				
+			<coords loc="42962 47030" />
+			<coords loc="44890 46310" />
+			<coords loc="47258 46606" />
+			<coords loc="47890 47406" />
+			<coords loc="48592 49200" />
+			<coords loc="48336 50960" />
+			<coords loc="46864 50320" />
+			<coords loc="47200 49040" />
+			<coords loc="46480 47984" />
+			<coords loc="45280 47712" />
+			<coords loc="44192 47920" />
+		</polygon>
+	</zone>
+	<zone name="[elven_harbor_no_trade4]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>				
+			<coords loc="46327 51011" />
+			<coords loc="46975 50259" />
+			<coords loc="48383 50955" />
+			<coords loc="47376 51984" />
+			<coords loc="45255 53195" />
+			<coords loc="42720 51472" />
+			<coords loc="43920 50800" />
+		</polygon>
+	</zone>
+	<zone name="[elven_harbor_no_trade5]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>				
+			<coords loc="42165 49439" />
+			<coords loc="42960 46976" />
+			<coords loc="44288 47936" />
+			<coords loc="43648 48704" />
+			<coords loc="43652 49952" />
+			<coords loc="44042 50841" />
+			<coords loc="42787 51492" />
+		</polygon>
+	</zone>
+	<zone name="[elven_harbor_no_trade3]" type="dummy">
+		<set name="enabled" val="true" />
+		<set name="blocked_actions" val="open_private_store open_private_workshop" />
+		<polygon>	
+			<coords loc="45148 48012" />
+			<coords loc="45812 48108" />
+			<coords loc="45764 48516" />
+			<coords loc="45132 48500" />
+		</polygon>
+	</zone> -->
+	
+	<zone name="[oren_harbor_no_trade1]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+   	<coords loc="81724 56629" />
+	<coords loc="81732 57040" />
+	<coords loc="84157 57025" />
+	<coords loc="84187 55505" />
+	<coords loc="84180 54610" />
+	<coords loc="82530 54581" />
+	<coords loc="82540 55365" />
+	<coords loc="83217 55373" />
+	<coords loc="83222 56089" />
+	<coords loc="82731 56095" />
+	<coords loc="82725 56298" />
+	<coords loc="81712 56316" />
+  </polygon>
+ </zone>
+ 
+<zone name="[oren_harbor_no_trade2]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="82974 54304" />
+	<coords loc="84171 54323" />
+	<coords loc="84180 52010" />
+	<coords loc="81133 51939" />
+	<coords loc="81134 53314" />
+	<coords loc="82578 53299" />
+	<coords loc="82969 53453" />
+	<coords loc="82969 53932" />
+	<coords loc="82828 53932" />
+	<coords loc="82822 54312" />
+  </polygon>
+ </zone>
+ 
+ 
+<zone name="[oren_harbor_no_trade3]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+ 	<coords loc="82068 53636" />
+	<coords loc="82217 54233" />
+	<coords loc="82202 54621" />
+	<coords loc="82150 55367" />
+	<coords loc="81896 55517" />
+	<coords loc="81409 55553" />
+	<coords loc="81409 57052" />
+	<coords loc="81209 57336" />
+	<coords loc="78843 57313" />
+	<coords loc="78814 55433" />
+	<coords loc="78821 54436" />
+	<coords loc="80187 54436" />
+	<coords loc="80290 54757" />
+	<coords loc="80294 55131" />
+	<coords loc="80174 55255" />
+	<coords loc="79888 55396" />
+	<coords loc="79866 56187" />
+	<coords loc="80142 56515" />
+	<coords loc="81142 56478" />
+	<coords loc="81142 55681" />
+	<coords loc="80769 55673" />
+	<coords loc="80762 55509" />
+	<coords loc="80583 55502" />
+	<coords loc="80590 53972" />
+	<coords loc="81038 53980" />
+	<coords loc="81045 53629" />
+	<coords loc="81553 53621" />
+	<coords loc="81814 53629" />
+  </polygon>
+ </zone>
+
+ 
+<zone name="[oren_harbor_no_trade4]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="78812 53260" />
+	<coords loc="78798 51894" />
+	<coords loc="80850 51924" />
+	<coords loc="80835 53775" />
+	<coords loc="80589 53790" />
+	<coords loc="80582 53379" />
+	<coords loc="80328 53349" />
+	<coords loc="80320 52812" />
+	<coords loc="79552 52805" />
+	<coords loc="79553 53219" />
+	<coords loc="80201 53267" />
+	<coords loc="80236 53940" />
+	<coords loc="79774 53940" />
+	<coords loc="79756 54130" />
+	<coords loc="78803 54112" />
+  </polygon>
+ </zone>
+
+ 
+<zone name="[oren_harbor_no_trade5]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+ 	<coords loc="82378 53892" />
+	<coords loc="82230 53665" />
+	<coords loc="82451 53561" />
+	<coords loc="82580 53776" />
+  </polygon>
+ </zone>
+
+ 
+	<zone name="[elven_harbor_no_trade1]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="45005 49335" />
+	<coords loc="45097 49231" />
+	<coords loc="45254 49134" />
+	<coords loc="45493 49141" />
+	<coords loc="45664 49246" />
+	<coords loc="45761 49453" />
+	<coords loc="45745 49647" />
+	<coords loc="45662 49785" />
+	<coords loc="45528 49876" />
+	<coords loc="45365 49924" />
+	<coords loc="45183 49861" />
+	<coords loc="45061 49774" />
+	<coords loc="44970 49568" />
+	<coords loc="44970 49481" />
+  </polygon>
+ </zone>
+ 
+
+<zone name="[elven_harbor_no_trade2]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+ 	<coords loc="46250 49884" />
+	<coords loc="46094 49814" />
+	<coords loc="46046 49910" />
+	<coords loc="45803 49659" />
+	<coords loc="45720 49778" />
+	<coords loc="45593 49885" />
+	<coords loc="45873 50118" />
+	<coords loc="45718 50213" />
+	<coords loc="45599 50260" />
+	<coords loc="45341 50307" />
+	<coords loc="45043 50230" />
+	<coords loc="44862 50114" />
+	<coords loc="45090 49853" />
+	<coords loc="44980 49703" />
+	<coords loc="44675 49886" />
+	<coords loc="44605 49681" />
+	<coords loc="44605 49418" />
+	<coords loc="44675 49178" />
+	<coords loc="44534 49073" />
+	<coords loc="44441 49248" />
+	<coords loc="44406 49435" />
+	<coords loc="44418 49669" />
+	<coords loc="44494 49979" />
+	<coords loc="44640 50172" />
+	<coords loc="44815 50318" />
+	<coords loc="44634 50464" />
+	<coords loc="44388 50687" />
+	<coords loc="44166 50868" />
+	<coords loc="44002 50991" />
+	<coords loc="43663 50552" />
+	<coords loc="43916 50427" />
+	<coords loc="44473 50091" />
+	<coords loc="44410 49913" />
+	<coords loc="43706 50070" />
+	<coords loc="43353 50213" />
+	<coords loc="43721 50875" />
+	<coords loc="44009 51395" />
+	<coords loc="44039 52199" />
+	<coords loc="44859 52873" />
+	<coords loc="45773 52947" />
+	<coords loc="46529 52737" />
+	<coords loc="47356 51819" />
+	<coords loc="48185 50834" />
+	<coords loc="47157 50350" />
+	<coords loc="47071 50488" />
+	<coords loc="46889 50367" />
+	<coords loc="46742 50523" />
+	<coords loc="46656 50670" />
+	<coords loc="46811 50825" />
+	<coords loc="46509 51058" />
+	<coords loc="46336 50911" />
+	<coords loc="45956 50911" />
+	<coords loc="45723 50428" />
+	<coords loc="45896 50324" />
+	<coords loc="46094 50134" />
+  </polygon>
+ </zone>
+ 
+ 
+<zone name="[elven_harbor_no_trade3]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="46315 49638" />
+	<coords loc="46116 49617" />
+	<coords loc="46109 49432" />
+	<coords loc="46088 49255" />
+	<coords loc="46003 49098" />
+	<coords loc="45875 48949" />
+	<coords loc="45718 48835" />
+	<coords loc="45612 48764" />
+	<coords loc="45569 49127" />
+	<coords loc="45299 49091" />
+	<coords loc="45299 48729" />
+	<coords loc="45107 48786" />
+	<coords loc="44908 48892" />
+	<coords loc="44773 49034" />
+	<coords loc="44645 48921" />
+	<coords loc="44780 48771" />
+	<coords loc="44972 48665" />
+	<coords loc="45278 48579" />
+	<coords loc="45278 48217" />
+	<coords loc="45633 48217" />
+	<coords loc="45633 48608" />
+	<coords loc="45896 48729" />
+	<coords loc="46095 48914" />
+	<coords loc="46194 49027" />
+	<coords loc="46280 49240" />
+	<coords loc="46312 49394" />
+	<coords loc="46324 49497" />
+  </polygon>
+ </zone>
+ 
+
+ <zone name="[elven_harbor_no_trade4]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="43252 49461" />
+	<coords loc="44155 49418" />
+	<coords loc="44190 49845" />
+	<coords loc="43316 49916" />
+  </polygon>
+ </zone>
+ 
+
+  <zone name="[elven_harbor_no_trade5]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="44616 48545" />
+	<coords loc="44158 47855" />
+	<coords loc="44624 47594" />
+	<coords loc="44970 48355" />
+  </polygon>
+ </zone>
+ 
+
+   <zone name="[elven_harbor_no_trade6]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+ 	<coords loc="48231 49446" />
+	<coords loc="47976 49204" />
+	<coords loc="47683 49382" />
+	<coords loc="47504 49791" />
+	<coords loc="47619 50365" />
+	<coords loc="48129 50442" />
+	<coords loc="48244 49880" />
+  </polygon>
+ </zone>
+ 
+   <zone name="[elven_harbor_no_trade7]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+ 	<coords loc="43879 46932" />
+	<coords loc="44926 46524" />
+	<coords loc="44990 46868" />
+	<coords loc="44939 47289" />
+	<coords loc="44147 47532" />
+	<coords loc="43930 47238" />
+  </polygon>
+ </zone>
+ 
+
+    <zone name="[elven_harbor_no_trade8]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="42373 49829" />
+	<coords loc="42578 50825" />
+	<coords loc="43203 50608" />
+	<coords loc="43203 49931" />
+	<coords loc="42833 49689" />
+  </polygon>
+ </zone>
+ 
+ 
+    <zone name="[elven_harbor_no_trade9]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="42692 48004" />
+	<coords loc="43471 48489" />
+	<coords loc="43816 47979" />
+	<coords loc="43509 47481" />
+	<coords loc="43165 47315" />
+  </polygon>
+ </zone>
+ 
+    <zone name="[elven_harbor_no_trade10]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="45756 47442" />
+	<coords loc="46355 47723" />
+	<coords loc="47045 46932" />
+	<coords loc="46189 46498" />
+  </polygon>
+ </zone>
+ 
+ 
+    <zone name="[elven_harbor_no_trade11]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="46370 50593" />
+	<coords loc="46323 50400" />
+	<coords loc="46604 50359" />
+	<coords loc="46586 50587" />
+  </polygon>
+ </zone>
+ 
+ 
+    <zone name="[elven_harbor_no_trade12]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="43265 49136" />
+	<coords loc="43664 49293" />
+	<coords loc="43811 48873" />
+	<coords loc="43402 48726" />
+  </polygon>
+ </zone>
+ 
+ 
+ 
+    <zone name="[elven_harbor_no_trade13]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="45292 47414" />
+	<coords loc="45302 47844" />
+	<coords loc="45722 47865" />
+	<coords loc="45743 47508" />
+  </polygon>
+ </zone>
+ 
+
+     <zone name="[elven_harbor_no_trade14]" type="dummy">
+  <set name="enabled" val="true" />
+  <set name="blocked_actions" val="open_private_store open_private_workshop" />
+  <polygon>    
+	<coords loc="46940 48852" />
+	<coords loc="47402 48726" />
+	<coords loc="47434 49220" />
+	<coords loc="47024 49293" />
+  </polygon>
+ </zone>
+ 
+
+	<zone name="[giran_harbor_no_trade]" type="dummy">
+		<set name="enabled" val="false" />
+		<set name="blocked_actions" val="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="48148 186514" />
+			<coords loc="48304 186816" />
+			<coords loc="47681 187144" />
+			<coords loc="47506 186839" />
+		</polygon>
+	</zone>
+	<zone name="[parnassus_no_trade]" type="dummy">
+		<set name="enabled" val="false" />
+		<set name="blocked_actions" val="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="149192 173160 -944 -844" />
+			<coords loc="149192 172408 -960 -860" />
+			<coords loc="149544 172424 -960 -860" />
+			<coords loc="149560 173160 -944 -844" />
+		</polygon>
+	</zone>
+	<zone name="[giran_non_trade]" type="dummy">
+		<set name="blocked_actions" val="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="85792 147072" />
+			<coords loc="83605 147080" />
+			<coords loc="83560 147537" />
+			<coords loc="83440 147472" />
+			<coords loc="80780 147474" />
+			<coords loc="80692 147543" />
+			<coords loc="80691 149704" />
+			<coords loc="80786 149774" />
+			<coords loc="86445 149877" />
+		</polygon>
+		<banned_polygon>
+			<coords loc="82725 147884" />
+			<coords loc="82729 149334" />
+			<coords loc="81134 149326" />
+			<coords loc="81137 147887" />
+			<coords loc="82694 147886" />
+			<coords loc="82143 148383" />
+			<coords loc="81692 148378" />
+			<coords loc="81689 148839" />
+			<coords loc="82149 148840" />
+			<coords loc="82150 148396" />
+			<coords loc="82723 147885" />
+		</banned_polygon>
+	</zone>
+	<zone name="[dion_non_trade]" type="dummy">
+		<set name="blocked_actions" val="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="17454 141289" />
+			<coords loc="14212 141173" />
+			<coords loc="13653 141785" />
+			<coords loc="13683 143126" />
+			<coords loc="14384 144206" />
+			<coords loc="15657 144696" />
+			<coords loc="16331 144682" />
+			<coords loc="17050 144403" />
+			<coords loc="17036 144066" />
+			<coords loc="17456 143264" />
+			<coords loc="18320 142733" />
+		</polygon>
+	</zone>
+	<zone name="[gludio_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="-17170 109512 -1800 -1700" />
+			<coords loc="-16292 109209 -1800 -1700" />
+		</rectangle>
+	</zone>
+	<zone name="[dion_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="20253 160539 -2000 -1900" />
+			<coords loc="21130 160237 -2000 -1900" />
+		</rectangle>
+	</zone>
+	<zone name="[giran_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="116712 146916 -1870 -1770" />
+			<coords loc="116408 146039 -1870 -1770" />
+		</rectangle>
+	</zone>
+	<zone name="[oren_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="82787 39010 -1600 -1500" />
+			<coords loc="82484 38135 -1600 -1500" />
+		</rectangle>
+	</zone>
+	<zone name="[aden_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<polygon>
+			<coords loc="142431 362 -3184 6816" />
+			<coords loc="152319 344 -3184 6816" />
+			<coords loc="152282 15197 -3184 6816" />
+			<coords loc="142393 15215 -3184 6816" />
+		</polygon>
+	</zone>
+	<zone name="[innadrile_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="115080 249015 -100 0" />
+			<coords loc="114204 249318 -100 0" />
+		</rectangle>
+	</zone>
+	<zone name="[goddard_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="147282 -47190 -1000 -500" />
+			<coords loc="147667 -46187 -1000 -500" />
+		</rectangle>
+	</zone>
+	<zone name="[rune_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<polygon>
+			<coords loc="9393 -48601 3850 4000" />
+			<coords loc="11320 -48971 3850 4000" />
+			<coords loc="11320 -49313 3850 4000" />
+			<coords loc="9362 -49714 3850 4000" />
+		</polygon>
+	</zone>
+	<zone name="[schuttgart_no_drop_merchant_guard]" type="dummy">
+		<set name="blocked_actions" val="drop_merchant_guard" />
+		<rectangle>
+			<coords loc="77385 -151240 700 850" />
+			<coords loc="77742 -150358 700 850" />
+		</rectangle>
+	</zone>
+
+	<zone name="battle_royale_area_zone" type="dummy">
+		<polygon>
+			<coords loc="-1585 -123073" />
+			<coords loc="-21589 -109280" />
+			<coords loc="-8437 -98912" />
+			<coords loc="4992 -106870" />
+		</polygon>
+	</zone>
+
+</list>

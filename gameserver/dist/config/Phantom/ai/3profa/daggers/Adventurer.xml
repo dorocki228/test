@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="93" class_name="Adventurer">
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="821" condition="MIN_DISTANCE:250;ONLY_PLAYER"/> <!-- Шаг из Тени (Shadow Step)  -->
+			<skill id="30" condition="TARGET_DIRECTION:(BEHIND)"/> <!-- Удар в Спину (Backstab)-->
+			<skill id="344" condition="TARGET_DIRECTION:(SIDE,BEHIND)"/> <!-- Смертоносный Удар (Lethal Blow)-->
+			<skill id="263" /> <!-- Смертельный Импульс (Deadly Blow)-->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="4" condition="IS_IN_BATTLE" /> <!-- Рывок (Dash)-->
+			<skill id="357"/> <!-- Фокусировка Мощности (Focus Power)-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="312" condition="SELF_NOT_SKILL_EFFECT:(312);TARGET_DIRECTION:(BEHIND,SIDE);ONLY_PLAYER;MAX_DISTANCE:50;MAX_MP:10"/> <!-- < Боевая стойка коварства Вкл сзади-->
+			<skill id="312" condition="USE_OLYMPIAD;TARGET_DIRECTION:(NONE,FRONT);CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства   Выкл -->
+			<skill id="991" condition="MIN_DISTANCE:150" /> <!-- Бросок Кинжала (Throw Dagger) -->	
+			<skill id="768" condition="MIN_HP:45" /> <!-- Потрясающее Приключение (Exciting Adventure)-->
+			<skill id="111" condition="MIN_HP:25" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+			<skill id="445" condition="MIN_HP:70;ONLY_PLAYER"/> <!-- Мираж (Mirage)-->
+			<skill id="922" condition="MIN_HP:10;SELF_NOT_SKILL_EFFECT:(768,111,455)"/> <!-- Спрятаться (Hide) -->
+		</situation_skills>
+		<control_skills>
+			<skill id="922" condition="SELF_NOT_SKILL_EFFECT:(768,455);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)"/> <!-- Спрятаться (Hide) -->
+			<skill id="445" condition="SELF_NOT_SKILL_EFFECT:(768);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)"/> <!-- Мираж (Mirage)-->
+			<skill id="768" condition="SELF_NOT_SKILL_EFFECT:(111,445);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)" /> <!-- Потрясающее Приключение (Exciting Adventure)-->
+			<skill id="111" condition="TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532);SELF_NOT_SKILL_EFFECT:768" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+		</control_skills>
+		<debuff_skills chance="25">
+			<skill id="12" condition="ONLY_PLAYER;DEBUFF_CHANCE:35"/> <!-- Переключение (Switch)  -->
+			<skill id="11" condition="ONLY_PLAYER;DEBUFF_CHANCE:35"/> <!-- Трюк (Trick)-->
+			<skill id="531" condition="DEBUFF_CHANCE:30"/> <!-- Критическая Рана (Critical Wound)  -->
+		</debuff_skills>	
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

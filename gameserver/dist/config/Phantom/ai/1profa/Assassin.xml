@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="35" class_name="Assassin">
+		<nuke_skills>
+			<skill id="223" /> <!-- Жало (Sting) -->
+			<skill id="16" /> <!-- Смертельный Удар (Mortal Blow)-->
+			<skill id="56" /> <!-- Мощный Выстрел (Power Shot)-->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="312" condition="SELF_NOT_SKILL_EFFECT:(312);MIN_HP:70;MAX_MP:50"/> <!-- Боевая Стойка Коварства (Vicious Stance) включаем умение когда хп ниже 38%, мп не ниже 50% и данное умение еще не включено -->
+			<skill id="312" condition="SELF_SKILL_EFFECT:(312);MIN_MP:10"/> <!-- Боевая Стойка Коварства (Vicious Stance) отключаем умение когда мп ниже 10% и на нас висит данное умение--> 
+		</self_buff_skills>
+		<debuff_skills chance="25">
+			<skill id="101" /> <!-- Оглушающий Выстрел (Stun Shot)-->
+			<skill id="115" /> <!-- Сокрушение Мощи (Power Break)  -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

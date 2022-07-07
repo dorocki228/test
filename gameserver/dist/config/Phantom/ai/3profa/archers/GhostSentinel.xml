@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="109" class_name="Ghost Sentinel">
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="19" condition="CHANCE_CAST:50"/> <!-- Двойной Выстрел (Double Shot) -->	
+			<skill id="101"/> <!-- Оглушающий Выстрел (Stun Shot)-->
+			<skill id="314" condition="ONLY_PLAYER;CHANCE_CAST:50" /> <!-- Обратный Отсчет (Fatal Counter)-->
+			<skill id="343" condition="CHANCE_CAST:70" /> <!-- Смертельный Выстрел (Lethal Shot)-->
+			<skill id="773" condition="ONLY_PLAYER;CHANCE_CAST:50;MAX_DISTANCE:600" /> <!-- Призрачное Пробивание (Ghost Piercing)-->
+			<skill id="987" condition="MIN_DISTANCE:120;CHANCE_CAST:70"/> <!-- Мультивыстрел (Multiple Shot)-->
+			<skill id="990" condition="MIN_DISTANCE:120;CHANCE_CAST:70"/> <!-- Укол Смерти (Death Shot)-->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="99" /> <!-- Быстрый Выстрел (Rapid Shot) -->
+			<skill id="414" /> <!-- Мертвый Глаз (Dead Eye) -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="312" condition="SELF_NOT_SKILL_EFFECT:(312);MAX_MP:30;IS_IN_BATTLE"/> <!-- Боевая стойка коварства Вкл-->
+			<skill id="312" condition="SELF_SKILL_EFFECT:(312);MIN_MP:20;CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства Выкл мало мп-->
+			<skill id="111" condition="MIN_HP:70" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+		</situation_skills>
+		<control_skills>
+			<skill id="111" condition="TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+		</control_skills>
+		<debuff_skills chance="80">
+			<skill id="122" condition="DEBUFF_CHANCE:45;CHANCE_CAST:20" /> <!-- Сглаз (Hex) -->
+			<skill id="522" condition="ONLY_PLAYER;MIN_DISTANCE:500"/> <!-- Главная Цель -->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>		
+	</ClassObject>
+ </list>

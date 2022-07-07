@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+	<skill id="55300" levels="1" name="Buff for the Hero of Abandoned Camp">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i02" />
+		<set name="castRange" value="900" />
+		<set name="abnormal_effect" value="LINEAGE_II" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_time" value="600" />
+		<set name="hitCancelTime" value="500" />
+		<set name="icon" value="icon.skill0275" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="operate_type" value="A2" />
+		<set name="reuseDelay" value="600000" />
+		<set name="ride_state" value="NONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="target" value="TARGET_SELF" />
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="55301" level="1" type="ON_FINISH_EFFECT" />
+				</triggers>
+				<mul order="0x30" stat="pAtk" value="1.1" />
+				<mul order="0x30" stat="mAtk" value="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55301" levels="1" name="Buff for the Hero of Abandoned Camp">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i02" />
+		<set name="operate_type" value="A2" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="target" value="TARGET_SELF" />
+		<restoration level="1">
+			<group chance="95.0">
+				<item id="70179" max_count="1" min_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="55302" levels="1" name="Buff for the Hero of Abandoned Camp">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i02" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55303" levels="1" name="Crude Box Acquisition Effect">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i03" />
+		<set name="castRange" value="900" />
+		<set name="abnormal_effect" value="LINEAGE_II" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_time" value="600" />
+		<set name="hitCancelTime" value="500" />
+		<set name="icon" value="icon.skill0275" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="operate_type" value="A2" />
+		<set name="reuseDelay" value="600000" />
+		<set name="ride_state" value="NONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="target" value="TARGET_SELF" />
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="55304" level="1" type="ON_FINISH_EFFECT" />
+				</triggers>
+				<mul order="0x30" stat="pAtk" value="1.1" />
+				<mul order="0x30" stat="mAtk" value="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55304" levels="1" name="Crude Box Acquisition Effect">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i03" />
+		<set name="operate_type" value="A2" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="target" value="TARGET_SELF" />
+		<restoration level="1">
+			<group chance="95.0">
+				<item id="70180" max_count="1" min_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="55305" levels="1" name="Crude Box Acquisition Effect">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i03" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55306" levels="1" name="Buff for the Hero of 2nd Floor of Cruma Tower">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i04" />
+		<set name="castRange" value="900" />
+		<set name="abnormal_effect" value="LINEAGE_II" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_time" value="600" />
+		<set name="hitCancelTime" value="500" />
+		<set name="icon" value="icon.skill0275" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="operate_type" value="A2" />
+		<set name="reuseDelay" value="600000" />
+		<set name="ride_state" value="NONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="target" value="TARGET_SELF" />
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="55307" level="1" type="ON_FINISH_EFFECT" />
+				</triggers>
+				<mul order="0x30" stat="pAtk" value="1.1" />
+				<mul order="0x30" stat="mAtk" value="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55307" levels="1" name="Old Box Acquisition Effect">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i04" />
+		<set name="operate_type" value="A2" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="target" value="TARGET_SELF" />
+		<restoration level="1">
+			<group chance="95.0">
+				<item id="70181" max_count="1" min_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="55308" levels="1" name="Old Box Acquisition Effect">
+		<set name="icon" value="BranchIcon.Icon.skill_g_field_special_buff_i04" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55309" levels="1" name="Golden Fishing Shot">
+		<set name="icon" value="icon.skill0000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55310" levels="1" name="Sweet Chocolate Energy">
+		<set name="icon" value="icon.etc_whiteday_choco" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_type" value="gerold_buff" />
+		<set name="abnormal_level" value="2" />
+		<set name="abnormal_effect" value="UNK_88" />
+		<set name="target" value="TARGET_ONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="magicType" value="MAGIC" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.05" />
+				<add order="0x40" stat="sp_rate_multiplier" value="0.05" />
+				<mul order="0x30" stat="pAtkSpd" value="1.1" />
+				<mul order="0x30" stat="mAtkSpd" value="1.1" />
+				<add order="0x40" stat="runSpd" value="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55311" levels="1" name="PA Progression Support">
+		<set name="icon" value="icon.etc_pccafe_exp_i00" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55314" levels="1" name="Frog\'s kiss effect">
+		<set name="icon" value="icon.skill0763" />
+		<set name="reuseDelay" value="0" />
+		<set name="castRange" value="400" />
+		<set name="hitTime" value="1000" />
+		<set name="mp_consume" value="0" />
+		<set name="magicType" value="MAGIC" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_ONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+	</skill>
+	<skill id="55315" levels="1" name="Lindvior\'s Treasure Chest">
+		<set name="icon" value="icon.bm_pirate_king_box" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55319" levels="1" name="NoSkillName">
+		<set name="icon" value="icon.skill0000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55320" levels="1" name="NoSkillName">
+		<set name="icon" value="icon.skill0000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55321" levels="1" name="NoSkillName">
+		<set name="icon" value="icon.skill0000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55322" levels="1" name="NoSkillName">
+		<set name="icon" value="BranchIcon.Icon.g_bm_vip_potion_i00" />
+		<set name="reuseDelay" value="1000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55323" levels="1" name="NoSkillName">
+		<set name="icon" value="BranchIcon.Icon.g_bm_vip_potion_i00" />
+		<set name="reuseDelay" value="1000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55324" levels="1" name="NoSkillName">
+		<set name="icon" value="BranchIcon.Icon.g_bm_vip_potion_i00" />
+		<set name="reuseDelay" value="1000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55325" levels="1" name="NoSkillName">
+		<set name="icon" value="BranchIcon.Icon.g_bm_vip_potion_i00" />
+		<set name="reuseDelay" value="1000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55326" levels="1" name="Gold Fishing Shot">
+		<set name="icon" value="icon.skill0000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect instant="true" name="i_fishing_shot">
+				<def name="power" value="100" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55329" levels="1" name="Strawberry Juice">
+		<set name="icon" value="icon.etc_fruit_cocktail_i01" />
+		<set name="reuseDelay" value="4000" />
+		<set name="castRange" value="400" />
+		<set name="hitTime" value="4000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="300" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="multi_buff" />
+		<set name="magicType" value="MAGIC" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="isHandler" value="true" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.1" />
+				<mul order="0x30" stat="regHp" value="1.1" />
+				<mul order="0x30" stat="pAtk" value="1.1" />
+				<mul order="0x30" stat="pDef" value="1.1" />
+				<mul order="0x30" stat="pAtkSpd" value="1.05" />
+				<mul order="0x30" stat="debuffResist" value="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55330" levels="1" name="Mango Juice">
+		<set name="icon" value="icon.etc_fruit_cocktail_i03" />
+		<set name="icon" value="icon.skill1355" />
+		<set name="reuseDelay" value="4000" />
+		<set name="castRange" value="400" />
+		<set name="hitTime" value="4000" />
+		<set name="mp_consume" value="72" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="300" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="multi_buff" />
+		<set name="magicType" value="MAGIC" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="isHandler" value="true" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<for>
+			<effect>
+				<mul order="0x30" stat="regMp" value="1.1" />
+				<mul order="0x30" stat="mAtk" value="1.1" />
+				<mul order="0x30" stat="mDef" value="1.1" />
+				<mul order="0x30" stat="mAtkSpd" value="1.05" />
+				<mul order="0x30" stat="mpConsum" value="0.97" />
+				<mul order="0x30" stat="mpConsumePhysical" value="0.97" />
+				<mul order="0x30" stat="mpDanceConsume" value="0.97" />
+				<mul order="0x30" stat="debuffResist" value="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55331" levels="1" name="Cherry Juice">
+		<set name="icon" value="icon.etc_fruit_cocktail_i02" />
+		<set name="reuseDelay" value="4000" />
+		<set name="castRange" value="400" />
+		<set name="hitTime" value="4000" />
+		<set name="mp_consume" value="72" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="300" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="multi_buff" />
+		<set name="magicType" value="MAGIC" />
+		<set name="hitCancelTime" value="500" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="isHandler" value="true" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<for>
+			<effect>
+				<add order="0x40" stat="pEvasRate" value="3" />
+				<add order="0x40" stat="pAccCombat" value="3" />
+				<add order="0x40" stat="pCritRate" value="10" />
+				<add order="0x40" stat="pCritDamage" value="15" />
+				<mul order="0x30" stat="runSpd" value="1.1" />
+				<mul order="0x30" stat="debuffResist" value="1.1" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55335" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55336" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55337" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55338" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55339" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55340" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55341" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55342" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55343" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55344" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55345" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55346" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55347" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55348" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55349" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55350" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55351" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55352" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55353" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55354" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55355" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55356" levels="1" name="Irene\' Hourglass - 1 Hour">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55357" levels="1" name="Irene\' Hourglass - 2 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="7200" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55358" levels="1" name="Irene\' Hourglass - 3 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="10800" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55359" levels="1" name="Irene\' Hourglass - 4 Hours">
+		<set name="icon" value="icon.etc_dragons_blood_i03" />
+		<set name="olympiad_use" value="false" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="14600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="iren_event_buff" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55360" levels="8" name="Irene\'s Song">
+		<table name="#icon">br_cashtex.skill.br_cash_rune_of_exp_buff_1 br_cashtex.skill.br_cash_rune_of_exp_buff_1 br_cashtex.skill.br_cash_rune_of_exp_buff_1 br_cashtex.skill.br_cash_rune_of_exp_buff_1 br_cashtex.skill.br_cash_rune_of_exp_buff_2 br_cashtex.skill.br_cash_rune_of_exp_buff_2 br_cashtex.skill.br_cash_rune_of_exp_buff_2 br_cashtex.skill.br_cash_rune_of_exp_buff_2</table>
+		<set name="icon" value="#icon" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="55361" levels="1" name="Зелье Сверхскорости">
+		<set name="icon" value="icon.etc_potion_red_i00" />
+		<set name="operate_type" value="A2" />
+		<set name="magicLevel" value="85" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="abnormal_time" value="15" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="speed_super" />
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" value="300" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55367" levels="1" name="Weapon Supply Box (C-grade)">
+		<set name="icon" value="icon.etc_box_of_adventure_1_i00" />
+		<set name="reuseDelay" value="3000" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49668" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="5">
+				<item id="71" min_count="1" max_count="1" /><!--фламберг 2 руч меч -->
+			</group>
+			<group chance="5">
+				<item id="72" min_count="1" max_count="1" /><!--громовержец одноруч меч -->
+			</group>
+			<group chance="5">
+				<item id="84" min_count="1" max_count="1" /><!--хомка 1 маг меч -->
+			</group>
+			<group chance="5">
+				<item id="89" min_count="1" max_count="1" /><!--большой молот 1 руч топор -->
+			</group>
+			<group chance="5">
+				<item id="94" min_count="1" max_count="1" /><!--бердыш пика -->
+			</group>
+			<group chance="5">
+				<item id="160" min_count="1" max_count="1" /><!-- боевой топор 1 руч -->
+			</group>
+			<group chance="5">
+				<item id="192" min_count="1" max_count="1" /><!--кристальный посох 2 руч маг -->
+			</group>
+			<group chance="5">
+				<item id="227" min_count="1" max_count="1" /><!--кинжал -->
+			</group>
+			<group chance="5">
+				<item id="263" min_count="1" max_count="1" /><!--чакра кастеты -->
+			</group>
+			<group chance="5">
+				<item id="281" min_count="1" max_count="1" /><!--ледяной лук -->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="55384" levels="1" name="Mysterious Blessed Soulshot (No-grade)">
+		<set name="icon" value="icon.skill0000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="115" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55385" levels="1" name="Mysterious Blessed Soulshot (D-grade)">
+		<set name="icon" value="icon.skill0000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="115" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55386" levels="1" name="Mysterious Blessed Soulshot (C-grade)">
+		<set name="icon" value="icon.skill0000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="115" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55387" levels="1" name="Mysterious Blessed Soulshot (B-grade)">
+		<set name="icon" value="icon.skill0000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="115" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55388" levels="1" name="Mysterious Blessed Soulshot (A-grade)">
+		<set name="icon" value="icon.skill0000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="115" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="55399" levels="1" name="Tryout Glorious Cloak">
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i02" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<for>
+			<add order="0x60" stat="CON" value="2" />
+			<add order="0x60" stat="MEN" value="2" />
+			<add order="0x60" stat="INT" value="2" />
+			<add order="0x60" stat="STR" value="2" />
+			<add order="0x60" stat="WIT" value="2" />
+			<add order="0x60" stat="DEX" value="2" />
+			<mul order="0x30" stat="pvpPhysDefenceBonus" value="1.05" />
+			<mul order="0x30" stat="pvpPhysSkillDefenceBonus" value="1.05" />
+			<mul order="0x30" stat="pvpMagicSkillDefenceBonus" value="1.05" />
+		</for>
+	</skill>
+</list>

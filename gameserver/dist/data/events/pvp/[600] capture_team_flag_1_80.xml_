@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="600" name="CtF" impl="CaptureTeamFlag">
+		<parameter name="min_level" value="62"/>
+		<parameter name="max_level" value="80"/>
+		<parameter name="pattern" value="30 * * * *"/>
+		<parameter name="winner_team_rewards" value="57,150,100;75035,10,100;70002,5,60;75003,1,30;75002,1,35;75030,1,3;75031,1,3"/>
+		<parameter name="loser_team_rewards" value="57,50,100;75035,5,30;70002,3,30;75030,1,1"/>
+		<parameter name="top_killer_rewards" value=""/>
+		<parameter name="tie_rewards" value="57,50,100"/>
+		<parameter name="mag_buffs" value=""/>
+		<parameter name="fighter_buffs" value=""/>
+		<parameter name="min_kill_count_for_loser_team_reward" value="0"/>
+		<parameter name="check_hwid" value="true"/>
+		<parameter name="reset_skills" value="true"/>
+		<parameter name="disable_hero_and_clan_skills" value="true"/>
+		<parameter name="hide_nick" value="true"/>
+		<on_start>
+			<spawn name="bases" />
+			<spawn name="flags" />
+		</on_start>
+		<on_stop>
+			<despawn name="bases" />
+			<despawn name="flags" />
+		</on_stop>
+		<on_time>
+			<!--за 5 минут открываем регу-->
+			<on time="-300">
+				<start name="registration" />
+			</on>
+			<!--в точное время переносим игроков(закрывает регу)-->
+			<on time="0">
+				<teleport_players id="players" />
+			</on>
+			<!--через 20 сек - пишем, до Боя осталось 10 сек-->
+			<on time="20">
+				<announce val="-10"/>
+			</on>
+			<on time="25">
+				<announce val="-5"/>
+			</on>
+			<on time="26">
+				<announce val="-4"/>
+			</on>
+			<on time="27">
+				<announce val="-3"/>
+			</on>
+			<on time="28">
+				<announce val="-2"/>
+			</on>
+			<on time="29">
+				<announce val="-1"/>
+			</on>
+			<!--через 30 секунд запускаем файт-->
+			<on time="30">
+				<start name="event" />
+				<start name="update_arrow" />
+			</on>
+			<on time="60">
+				<start name="update_arrow" />
+			</on>
+			<on time="90">
+				<start name="update_arrow" />
+			</on>
+			<on time="120">
+				<start name="update_arrow" />
+			</on>
+			<on time="150">
+				<start name="update_arrow" />
+			</on>
+			<on time="180">
+				<start name="update_arrow" />
+			</on>
+			<on time="210">
+				<start name="update_arrow" />
+			</on>
+			<on time="240">
+				<start name="update_arrow" />
+			</on>
+			<on time="270">
+				<start name="update_arrow" />
+			</on>
+			<on time="300">
+				<start name="update_arrow" />
+			</on>
+			<!--через 5 мин останавливаем-->
+			<on time="330">
+				<stop name="event" />
+			</on>
+			<!--<on time="330">
+				<start name="update_arrow" />
+			</on>
+			<on time="360">
+				<start name="update_arrow" />
+			</on>
+			<on time="390">
+				<start name="update_arrow" />
+			</on>
+			<on time="420">
+				<start name="update_arrow" />
+			</on>
+			<on time="450">
+				<start name="update_arrow" />
+			</on>
+			<on time="480">
+				<start name="update_arrow" />
+			</on>
+			<on time="510">
+				<start name="update_arrow" />
+			</on>
+			<on time="540">
+				<start name="update_arrow" />
+			</on>
+			<on time="570">
+				<start name="update_arrow" />
+			</on>
+			<on time="600">
+				<start name="update_arrow" />
+			</on>
+			<on time="630">
+				<start name="update_arrow" />
+			</on>
+			<on time="660">
+				<start name="update_arrow" />
+			</on>
+			<on time="690">
+				<stop name="event" />
+			</on>-->
+		</on_time>
+	</event>
+</list>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+	<skill id="19009" levels="1" name="Clan Advent">
+		<set name="icon" value="icon.skill19009" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="clan_advent" />
+		<set name="magicLevel" value="89" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isPreservedOnDeath" value="true" />
+		<set name="isSaveable" value="false" />
+		<set name="cancelable" value="false" />
+        <set name="isTrigger" value="true" />
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" value="1.02" />
+				<mul order="0x30" stat="mAtk" value="1.02" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="19032" levels="1" name="Ability of Light">
+		<set name="icon" value="icon.skill19008" />
+		<set name="magicLevel" value="1" />
+		<set name="operate_type" value="P" />
+		<set name="min_pledge_rank" value="VAGABOND" />
+		<!-- Маркиз -->
+		<for>
+			<add order="0x40" stat="maxCp" value="2000">
+				<player is_chaotic="false" />
+			</add>
+		</for>
+	</skill>
+	<skill id="19033" levels="1" name="Ability of Darkness">
+		<set name="icon" value="icon.skill19008" />
+		<set name="magicLevel" value="1" />
+		<set name="operate_type" value="P" />
+		<set name="min_pledge_rank" value="VAGABOND" />
+		<!-- Маркиз -->
+		<for>
+			<add order="0x40" stat="maxCp" value="2000" />
+		</for>
+	</skill>
+	<skill id="19034" levels="1" name="Imprint of Light">
+		<set name="icon" value="icon.skill0246" />
+		<set name="reuseDelay" value="5000" />
+		<set name="castRange" value="85" />
+		<set name="hitTime" value="120000" />
+		<set name="mp_consume" value="50" />
+		<set name="magicLevel" value="30" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="hitCancelTime" value="120000" />
+		<set name="target" value="TARGET_HOLY" />
+		<set name="skillType" value="TAKECASTLE" />
+		<set name="operate_type" value="A2" />
+		<set name="isSkillTimePermanent" value="true" />
+		<set name="isReuseDelayPermanent" value="true" />
+		<set name="castle_side" value="LIGHT" />
+	</skill>
+	<skill id="19035" levels="1" name="Imprint of Darkness">
+		<set name="icon" value="icon.skill0246" />
+		<set name="reuseDelay" value="5000" />
+		<set name="castRange" value="85" />
+		<set name="hitTime" value="120000" />
+		<set name="mp_consume" value="50" />
+		<set name="magicLevel" value="30" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="hitCancelTime" value="120000" />
+		<set name="target" value="TARGET_HOLY" />
+		<set name="skillType" value="TAKECASTLE" />
+		<set name="operate_type" value="A2" />
+		<set name="isSkillTimePermanent" value="true" />
+		<set name="isReuseDelayPermanent" value="true" />
+		<set name="castle_side" value="DARK" />
+	</skill>
+	<skill id="19036" levels="1" name="Blessing of Light">
+		<set name="icon" value="icon.etc_pi_gift_box_i04" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_type" value="gerold_buff" />
+		<set name="abnormal_level" value="1" />
+		<set name="target" value="TARGET_ONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="magicType" value="MAGIC" />
+		<for>
+			<effect>
+				<add order="0x40" stat="exp_rate_multiplier" value="0.03" />
+				<add order="0x40" stat="sp_rate_multiplier" value="0.03" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="19039" levels="1" name="Плащ Света">
+		<!-- Макс. HP / MP / CP +5%%, Физ. Защ. +3%%, Маг. Защ. +5%%, сопротивление всем видам оружия +3%%, шанс Физ. / Маг. Крит. Атк. +10, отражение урона +3%%. Эффект недоступен в хаотическом состоянии. -->
+		<set name="icon" value="icon.amor_goodness_cloak"/>
+		<set name="operate_type" value="P"/>
+		<table name="#reflect">3</table>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<mul order="0x30" stat="maxHp" value="1.05">
+				<player is_chaotic="false"/>
+			</mul>
+			<mul order="0x30" stat="maxMp" value="1.05">
+				<player is_chaotic="false"/>
+			</mul>
+			<mul order="0x30" stat="maxCp" value="1.05">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="pDef" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="mDef" value="1.05">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="swordWpnVuln" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="bluntWpnVuln" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="dualWpnVuln" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="daggerWpnVuln" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="bowWpnVuln" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="poleWpnVuln" value="1.03">
+				<player is_chaotic="false" />
+			</mul>
+			<mul order="0x30" stat="fistWpnVuln" value="1.03">
+				<player is_chaotic="false"/>
+			</mul>
+			<add order="0x40" stat="basePCritRate" value="10">
+				<player is_chaotic="false"/>
+			</add>
+			<add order="0x40" stat="baseMCritRate" value="10">
+				<player is_chaotic="false"/>
+			</add>
+			<add order="0x40" stat="reflectDam" value="#reflect">
+				<player is_chaotic="false"/>
+			</add>
+			<add order="0x40" stat="reflectBowDam" value="#reflect">
+				<player is_chaotic="false"/>
+			</add>
+			<add order="0x40" stat="reflectPSkillDam" value="#reflect">
+				<player is_chaotic="false"/>
+			</add>
+			<add order="0x40" stat="reflectMSkillDam" value="#reflect">
+				<player is_chaotic="false"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="19040" levels="1" name="Плащ Тьмы">
+		<!-- Макс. HP / MP / CP +5%%, Физ. Защ. +3%%, Маг. Защ. +5%%, сопротивление всем видам оружия +3%%, шанс Физ. / Маг. Крит. Атк. +10, отражение урона +3%%. -->
+		<set name="icon" value="icon.amor_evilness_cloak"/>
+		<set name="operate_type" value="P"/>
+		<set name="skillType" value="BUFF"/>
+		<table name="#reflect">3</table>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<mul order="0x30" stat="maxHp" value="1.05"/>
+			<mul order="0x30" stat="maxMp" value="1.05"/>
+			<mul order="0x30" stat="maxCp" value="1.05"/>
+			<mul order="0x30" stat="pDef" value="1.03"/>
+			<mul order="0x30" stat="mDef" value="1.05"/>
+			<mul order="0x30" stat="swordWpnVuln" value="1.03"/>
+			<mul order="0x30" stat="bluntWpnVuln" value="1.03"/>
+			<mul order="0x30" stat="dualWpnVuln" value="1.03"/>
+			<mul order="0x30" stat="daggerWpnVuln" value="1.03"/>
+			<mul order="0x30" stat="bowWpnVuln" value="1.03"/>
+			<mul order="0x30" stat="poleWpnVuln" value="1.03"/>
+			<mul order="0x30" stat="fistWpnVuln" value="1.03"/>
+			<add order="0x40" stat="basePCritRate" value="10"/>
+			<add order="0x40" stat="baseMCritRate" value="10"/>
+			<add order="0x40" stat="reflectDam" value="#reflect"/>
+			<add order="0x40" stat="reflectBowDam" value="#reflect"/>
+			<add order="0x40" stat="reflectPSkillDam" value="#reflect"/>
+			<add order="0x40" stat="reflectMSkillDam" value="#reflect"/>
+		</for>
+	</skill>
+	<skill id="19041" levels="1" name="Escape: Castle">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="3600000" />
+		<set name="hitTime" value="20000" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="hitCancelTime" value="500" />
+		<set name="castle" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RECALL" />
+		<set name="operate_type" value="A2" />
+	</skill>
+	<skill id="19042" levels="1" name="Blessed Scroll of Escape: Castle">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="3600000" />
+		<set name="hitTime" value="200" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="hitCancelTime" value="500" />
+		<set name="castle" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RECALL" />
+		<set name="operate_type" value="A2" />
+	</skill>
+</list>

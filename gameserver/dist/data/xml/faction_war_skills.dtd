@@ -1,0 +1,7 @@
+<!ELEMENT list (skill)*>
+        <!ELEMENT skill (#PCDATA)>
+        <!ATTLIST skill
+                cost CDATA #REQUIRED
+                id CDATA #REQUIRED
+                level CDATA #REQUIRED
+                minTrust CDATA #REQUIRED>

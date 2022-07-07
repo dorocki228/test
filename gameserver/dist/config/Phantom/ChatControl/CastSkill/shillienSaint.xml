@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="112">
+		<skill id="1357" type="castTargetSkill" text_commands="пророчество ветра,prophecy of wind,пророчество"/>
+		<skill id="1354" type="castTargetSkill" text_commands="тайная защита,arcane protection"/>
+		<skill id="1550" type="castSelfBuff" text_commands="массовое противоядие,mass cure poison"/>
+		<skill id="1551" type="castSelfBuff" text_commands="массовое очищение,mass purify"/>
+		<skill id="1358" type="castAttackingSkill" text_commands="блокировка щита,block shield"/>
+		<skill id="336" type="castSelfBuff" text_commands="тайная мудрость,arcane wisdom"/>
+		<skill id="1460" type="castTargetSkill" text_commands="обретение маны,mana gain"/>
+		<skill id="1428" type="castSelfBuff" text_commands="массовое восстановление,mass recharge"/>
+		<skill id="1508" type="castAttackingSkill" text_commands="корни престола,thorn root"/>
+		<skill id="1533" type="castSelfBuff" text_commands="просветление,enlightenment,просвет"/>
+		<skill id="1540" type="castSelfBuff" text_commands="обращение в камень,камень,turn to stone"/>
+		<skill id="1507" type="castSelfBuff" text_commands="повелитель вампиров,lord of vampire,вампир,вамп"/>
+		<skill id="1553" type="castSelfBuff" text_commands="цепное исцеление,цепное,цепка,chain heal,chain"/>
+		<skill id="1013" type="castTargetSkill" text_commands="восстановление,заливка,залей мр,мр,мп,залей мп,recharge,mp"/>
+		<skill id="1035" type="castTargetSkill" text_commands="ментальный щит,ментал,кинь ментал,mental shield,mental"/>
+		<skill id="1201" type="castAttackingSkill" text_commands="корень дриады,корень,рут,кинь рут,dryad root,root"/>
+		<skill id="1206" type="castAttackingSkill" text_commands="оковы ветра,оковы,wind shackle,shackle"/>
+		<skill id="1217" type="castTargetSkill" text_commands="великое лечение,greater heal"/>
+		<skill id="1539" type="castAttackingSkill" text_commands="стигма шилен,стигма,stigma of shilien,stigma"/>
+		<skill id="1531" type="castTargetSkill" text_commands="благословение крови,blessed blood"/>
+		<skill id="1018" type="castTargetSkill" text_commands="очищение,purify"/>
+		<skill id="1219" type="castSelfBuff" text_commands="великое групповое лечение,greater group heal,вгл,ggh"/>
+		<skill id="1395" type="castAttackingSkill" text_commands="изгнание,erase"/>
+		<skill id="1398" type="castAttackingSkill" text_commands="горение маны,mana burn"/>
+		<skill id="1430" type="castSelfBuff" text_commands="медитация,invocation"/>
+		<skill id="1012" type="castTargetSkill" text_commands="излечить отравление,отравление,cure poison"/>
+		<skill id="1392" type="castTargetSkill" text_commands="устойчивость к святости,resist holy"/>
+		<skill id="1303" type="castTargetSkill" text_commands="дикая магия,wild magic"/>
+		<skill id="1500" type="castTargetSkill" text_commands="совершенство в магии,improved magic"/>
+		<skill id="1502" type="castTargetSkill" text_commands="совершенная критическая атака,improved critical attack"/>
+	</ChatControl>
+ </list>

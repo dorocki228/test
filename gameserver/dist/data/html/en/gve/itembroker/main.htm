@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Lineage II GvE - Shop Search</title>
+	</head>
+<body>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+		<tr>
+			<td align=center  height=40>
+		
+			</td>
+		</tr>
+		<tr>
+			<td align=center>
+			<br>
+			<font color=\"FF9900\">Search item:</font>
+				<edit var="tofind" width=100>
+				<br>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:find ${type} 1 $tofind"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Find</font></button>
+				<br>
+				<br>
+				<button action="bypass -h npc_%objectId%_Chat 0"  ALIGN=LEFT ICON="RETURN"><font color=\"FF9900\">Back</font></button>
+			</td>
+		</tr>
+		<tr>
+			<td align=center>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 0 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">List all</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:equipment ${type}"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Equipment</font></button>
+				
+#if (${type} == 1)
+				
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:equipment4 ${type}"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Equipment +4 and more</font></button>
+				
+#end
+				
+#if (${type} != 5)
+				
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 0 1 0 1"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Rare equipment</font></button>
+				
+#end
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 5 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Consumable</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 6 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Materials</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 7 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Key materials</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 8 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Recipes</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 9 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Books and amulets</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 10 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Enchant items</font></button>
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 11 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Other</font></button>
+				
+#if (${type} != 5)
+				
+				<button action="bypass -h npc_%objectId%_services.ItemBroker:list ${type} 90 1 0 0"  ALIGN=LEFT ICON="NORMAL"><font color=\"FF9900\">Commons</font></button>
+				
+#end
+
+			</td>
+		</tr>
+		<tr>
+			<td align=center  height=40>
+				
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

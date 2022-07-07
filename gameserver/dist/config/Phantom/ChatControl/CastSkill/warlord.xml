@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="3">
+		<skill id="121" type="castSelfBuff" text_commands="боевой рев,battle roar"/>
+		<skill id="317" type="castSelfBuff" text_commands="фокусировка атаки,focus attack"/>
+		<skill id="116" type="castAttackingSkill" text_commands="вой,howl"/>
+		<skill id="286" type="castAttackingSkill" text_commands="провоцировать,provoke"/>
+		<skill id="130" type="castSelfBuff" text_commands="волнующая схватка,thrill fight"/>
+		<skill id="181" type="castLimitBuffSkill" text_commands="возрождение,revival"/>
+		<skill id="87" type="castSelfBuff" text_commands="найти уязвимость животных,уязвимость животных,detect animal weakness,animal weakness"/>
+		<skill id="104" type="castSelfBuff" text_commands="найти уязвимость растений,detect plant weakness,уязвимость растений,plant weakness"/>
+		<skill id="80" type="castSelfBuff" text_commands="найти уязвимость чудовищ,detect beast weakness,уязвимость чудовищ,beast weakness"/>
+		<skill id="88" type="castSelfBuff" text_commands="найти уязвимость драконов,detect dragon weakness,уязвимость драконов,dragon weakness"/>
+		<skill id="421" type="castSelfBuff" text_commands="свирепое нападение,fell swoop"/>
+		<skill id="422" type="castSelfBuff" text_commands="точность древкового оружия,polearm accuracy"/>
+		<skill id="312" type="castSelfBuff" text_commands="vicious stance,vicious,stance,боевая стойка коварства,боевая стойка,стойка коварства,коварство"/>
+		<skill id="287" type="castSelfBuff" text_commands="львиное сердце,сердце,lionheart,lion,heart,лев"/>
+		<skill id="424" type="castSelfBuff" text_commands="безумие войны,безумие,war frenzy,war,frenzy,френзи"/>
+	</ChatControl>
+ </list>

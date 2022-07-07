@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<list>
+    <!-- Зоны, в которых запрещено устанавливать фракционные и персональные порталы -->
+
+    <!-- Artifact of Strength -->
+    <zone name="aos_np" type="no_portal" >
+        <set name="enabled" val="true"/>
+        <circle loc="81736 83048 2000" />
+    </zone>
+
+    <!-- Artifact of Intelligence -->
+    <zone name="aoi_np" type="no_portal" >
+        <set name="enabled" val="true"/>
+        <circle loc="60456 88392 2000" />
+    </zone>
+
+    <!-- Artifact of Dexterity -->
+    <zone name="aod_np" type="no_portal" >
+        <set name="enabled" val="true"/>
+        <circle loc="44536 69928 2000" />
+    </zone>
+
+    <!-- Artifact of Wit -->
+    <zone name="aow_np" type="no_portal" >
+        <set name="enabled" val="true"/>
+        <circle loc="81112 72568 2000" />
+    </zone>
+
+    <!-- Artifact of Constitution -->
+    <zone name="aoc_np" type="no_portal" >
+        <set name="enabled" val="true"/>
+        <circle loc="86472 57992 2000" />
+    </zone>
+
+    <!-- Artifact of Mental Strength -->
+    <zone name="aom_np" type="no_portal" >
+        <set name="enabled" val="true"/>
+        <circle loc="42728 61592 2000" />
+    </zone>
+
+	<zone name="400_portal" type="no_portal">
+		<polygon>
+            <coords loc="78948 90103"/>
+            <coords loc="80190 90751"/>
+            <coords loc="79481 92114"/>
+            <coords loc="78236 91407"/>
+        </polygon>
+	</zone>
+	<zone name="401_portal" type="no_portal">
+        <polygon>
+            <coords loc="61576 68824"/>
+            <coords loc="62920 68824"/>
+            <coords loc="62952 70424"/>
+            <coords loc="61592 70456"/>
+        </polygon>
+	</zone>
+	<zone name="402_portal" type="no_portal">
+        <polygon>
+            <coords loc="47608 91048"/>
+            <coords loc="47630 92470"/>
+            <coords loc="46070 92445"/>
+            <coords loc="46088 91008"/>
+        </polygon>
+	</zone>
+
+	<zone name="epic_loft_portal" type="no_portal">
+		<polygon>
+			<coords loc="47960 -11496" />
+			<coords loc="47944 -12984" />
+			<coords loc="51496 -12984" />
+			<coords loc="51512 -11512" />
+		</polygon>
+	</zone>
+
+	<zone name="oren_town_portal" type="no_portal">
+		<polygon>
+			<coords loc="78900 52076" />
+			<coords loc="84126 52049" />
+			<coords loc="84099 57117" />
+			<coords loc="78872 57144" />
+		</polygon>
+	</zone>
+
+	<zone name="elf_town_portal" type="no_portal">
+		<polygon>
+			<coords loc="41496 49254" />
+			<coords loc="43152 47104" />
+			<coords loc="45804 45867" />
+			<coords loc="48000 47648" />
+			<coords loc="48731 49586" />
+			<coords loc="49616 53728" />
+			<coords loc="45379 53308" />
+			<coords loc="40480 52896" />
+		</polygon>
+	</zone>
+
+	<zone name="oren_castle_portal" type="no_portal">
+		<polygon>
+			<coords loc="81768 36296" />
+			<coords loc="81720 36472" />
+			<coords loc="81176 36472" />
+			<coords loc="81064 36680" />
+			<coords loc="81064 36952" />
+			<coords loc="80744 36952" />
+			<coords loc="80744 37432" />
+			<coords loc="81064 37432" />
+			<coords loc="81064 37736" />
+			<coords loc="81160 37912" />
+			<coords loc="81736 37912" />
+			<coords loc="81752 38088" />
+			<coords loc="82296 38104" />
+			<coords loc="82200 39496" />
+			<coords loc="83112 39480" />
+			<coords loc="82984 38104" />
+			<coords loc="84024 38072" />
+			<coords loc="84040 37928" />
+			<coords loc="84248 37912" />
+			<coords loc="84248 37640" />
+			<coords loc="84248 36456" />
+			<coords loc="84040 36472" />
+			<coords loc="84024 36296" />
+		</polygon>
+	</zone>
+
+	<zone name="elven_castle_portal" type="no_portal">
+		<polygon>
+			<coords loc="43464 38712" />
+			<coords loc="43528 38536" />
+			<coords loc="44088 38536" />
+			<coords loc="44168 38056" />
+			<coords loc="44504 38056" />
+			<coords loc="44504 37576" />
+			<coords loc="44184 37576" />
+			<coords loc="44072 37080" />
+			<coords loc="43512 37096" />
+			<coords loc="43480 36920" />
+			<coords loc="42984 36920" />
+			<coords loc="42968 35480" />
+			<coords loc="42168 35560" />
+			<coords loc="42248 36904" />
+			<coords loc="41240 36904" />
+			<coords loc="41223 37063" />
+			<coords loc="41000 37080" />
+			<coords loc="40984 38552" />
+			<coords loc="41208 38552" />
+			<coords loc="41224 38712" />
+		</polygon>
+	</zone>
+
+	<zone name="rune_castle_portal" type="no_portal">
+		<polygon>
+			<coords loc="12648 -51208" />
+			<coords loc="13192 -51192" />
+			<coords loc="13688 -51016" />
+			<coords loc="14328 -50584" />
+			<coords loc="14680 -50136" />
+			<coords loc="14792 -49829" />
+			<coords loc="14936 -49496" />
+			<coords loc="14904 -48808" />
+			<coords loc="14680 -48184" />
+			<coords loc="14456 -47864" />
+			<coords loc="14040 -47464" />
+			<coords loc="13560 -47224" />
+			<coords loc="13064 -47112" />
+			<coords loc="12680 -47048" />
+			<coords loc="12264 -46856" />
+			<coords loc="10876 -46324" />
+			<coords loc="9379 -45539" />
+			<coords loc="7397 -46797" />
+			<coords loc="4909 -49863" />
+			<coords loc="7084 -51422" />
+			<coords loc="8516 -52872" />
+			<coords loc="12376 -51352" />
+		</polygon>
+	</zone>
+
+	<zone name="schuttgart_castle_portal" type="no_portal">
+		<polygon>
+			<coords loc="79448 -152680" />
+			<coords loc="79432 -152104" />
+			<coords loc="79176 -151545" />
+			<coords loc="78584 -150984" />
+			<coords loc="78040 -150728" />
+			<coords loc="77128 -150776" />
+			<coords loc="76744 -150904" />
+			<coords loc="76312 -151176" />
+			<coords loc="75992 -151576" />
+			<coords loc="75752 -152040" />
+			<coords loc="75672 -152280" />
+			<coords loc="75656 -152696" />
+			<coords loc="75528 -153144" />
+			<coords loc="75340 -154865" />
+			<coords loc="74768 -156697" />
+			<coords loc="77365 -158652" />
+			<coords loc="78588 -158487" />
+			<coords loc="80088 -156058" />
+			<coords loc="79624 -153865" />
+			<coords loc="79560 -152680" />
+		</polygon>
+	</zone>
+
+	<zone name="antharas_portal" type="no_portal">
+		<polygon>
+			<coords loc="175096 117656 -7704 -5000" />
+			<coords loc="173624 115128 -7704 -5000" />
+			<coords loc="173752 114072 -7704 -5000" />
+			<coords loc="174328 113624 -7704 -5000" />
+			<coords loc="175975 111208 -7704 -5000" />
+			<coords loc="179608 111240 -7704 -5000" />
+			<coords loc="180824 112440 -7704 -5000"/>
+			<coords loc="181480 113304 -7704 -5000"/>
+			<coords loc="181527 116455 -7704 -5000"/>
+			<coords loc="180696 117480 -7704 -5000"/>
+			<coords loc="179816 118344 -7704 -5000"/>
+			<coords loc="176872 118424 -7704 -5000"/>
+			<coords loc="175608 118296 -7704 -5000"/>
+		</polygon>
+	</zone>
+
+	<zone name="antharas_portal_2" type="no_portal">
+		<polygon>
+			<coords loc="175201 110789 -7712 -6212"/>
+			<coords loc="179519 110645 -7712 -6212"/>
+			<coords loc="187612 113814 -7712 -6212"/>
+			<coords loc="187652 115788 -7712 -6212"/>
+			<coords loc="179659 118982 -7712 -6212"/>
+			<coords loc="175206 118934 -7712 -6212"/>
+			<coords loc="173003 114720 -7712 -6212"/>
+		</polygon>
+	</zone>
+
+	<zone name="valakas_portal" type="no_portal">
+		<polygon>
+			<coords loc="205952 -120832 -1632 -1000"/>
+			<coords loc="219904 -121216 -1632 -1000"/>
+			<coords loc="220672 -107008 -1632 -1000"/>
+			<coords loc="205312 -107264 -1632 -1000"/>
+		</polygon>
+	</zone>
+
+	<zone name="mdt_harbor_portal" type="no_portal">
+		<polygon>
+			<coords loc="11079 181176" />
+			<coords loc="14906 181057" />
+			<coords loc="15029 185172" />
+			<coords loc="10991 185146" />
+		</polygon>
+	</zone>
+	
+	<zone name="floran_portal" type="no_portal">
+		<polygon>
+			<coords loc="19992 173432" />
+			<coords loc="21336 167368" />
+			<coords loc="15320 166136" />
+			<coords loc="11080 171272" />
+		</polygon>
+	</zone>
+
+	<zone name="tvt_portal" type="no_portal">
+		<polygon>
+			<coords loc="184120 14760" />
+			<coords loc="184680 26024" />
+			<coords loc="188568 29176" />
+			<coords loc="196216 23608" />
+			<coords loc="193384 14680" />
+		</polygon>
+	</zone>
+
+	<zone name="ctf_portal" type="no_portal">
+		<polygon>
+			<coords loc="216216 79320" />
+			<coords loc="221826 83926" />
+			<coords loc="225262 85568" />
+			<coords loc="227234 83166" />
+			<coords loc="229180 78524" />
+			<coords loc="228206 73072" />
+			<coords loc="226024 70968" />
+			<coords loc="222269 68232" />
+		</polygon>
+	</zone>
+	
+	<zone name="orfen_portal" type="no_portal">
+		<polygon>
+			<coords loc="49128 14648" />
+			<coords loc="46679 24583" />
+			<coords loc="39025 21790" />
+			<coords loc="41736 8472" />
+		</polygon>
+	</zone>
+
+	<zone name="core_portal" type="no_portal">
+		<polygon>
+			<coords loc="19128 112328" />
+			<coords loc="16328 112312" />
+			<coords loc="16328 108968" />
+			<coords loc="16408 108856" />
+			<coords loc="17080 108824" />
+			<coords loc="17064 108040" />
+			<coords loc="18376 108040" />
+			<coords loc="18392 108872" />
+			<coords loc="19048 108856" />
+			<coords loc="19128 108952" />
+		</polygon>
+	</zone>
+	
+	<zone name="baium_portal_1" type="no_portal">
+		<polygon>
+			<coords loc="109440 11136" />
+			<coords loc="120064 11008" />
+			<coords loc="120576 21376" />
+			<coords loc="109056 20864" />
+		</polygon>
+	</zone>
+	
+	<zone name="baium_portal_2" type="no_portal">
+		<polygon>
+			<coords loc="119068 13664" />
+			<coords loc="119796 16388" />
+			<coords loc="119200 18920" />
+			<coords loc="115724 21352" />
+			<coords loc="111308 20080" />
+			<coords loc="108896 15092" />
+			<coords loc="112492 11460" />
+			<coords loc="116580 11248" />
+		</polygon>
+	</zone>
+	
+	<zone name="antqueen_portal_1" type="no_portal">
+		<polygon>
+			<coords loc="-28416 175488" />
+			<coords loc="-14080 175488" />
+			<coords loc="-13568 188672" />
+			<coords loc="-25344 188672" />
+		</polygon>
+	</zone>
+	
+	<zone name="antqueen_portal_2" type="no_portal">
+		<polygon>	
+			<coords loc="-30969 153259" />
+			<coords loc="-4411 152856" />
+			<coords loc="-4796 187816" />
+			<coords loc="-40962 187801" />
+		</polygon>
+	</zone>
+	
+	<zone name="orfen_portal_2" type="no_portal">
+		<polygon>
+			<coords loc="44252 10968" />
+			<coords loc="58948 9784" />
+			<coords loc="61428 17152" />
+			<coords loc="62368 24864" />
+			<coords loc="56800 30800" />
+			<coords loc="50280 27180" />
+			<coords loc="39268 27256" />
+			<coords loc="42044 16292" />
+		</polygon>
+	</zone>
+
+	<zone name="school_no_portal" type="no_portal">
+		<polygon>
+			<coords loc="-42248 39864" />
+			<coords loc="-42712 57768" />
+			<coords loc="-54360 56840" />
+			<coords loc="-52872 40776" />
+		</polygon>
+	</zone>
+	
+</list>

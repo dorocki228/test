@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="103" class_name="Mystic Muse">
+		<nuke_skills>
+			<skill id="1235" /> <!-- Волна Воды (Hydro Blast) -->
+			<skill id="1265"  /> <!-- Солнечное Сияние (Solar Flare) -->
+			<skill id="1340" condition="DEBUFF_CHANCE:50;MIN_DISTANCE:200;CHANCE_CAST:30"/> <!-- Ледяной Вихрь (Ice Vortex)-->
+			<skill id="1453" condition="TARGET_SKILL_EFFECT:(1340)"/> <!-- Молот Ледяного Вихря (Ice Vortex Crusher)-->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="1238" /> <!-- Леденящая Кожа (Freezing Skin) -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="337" condition="SELF_NOT_SKILL_EFFECT:(337)"/> <!-- Тайная мудрость Вкл -->
+			<skill id="337" condition="SELF_SKILL_EFFECT:(337);NOT_IN_BATTLE"/> <!-- Тайная мудрость Выкл -->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="1237"  condition="TARGET_NOT_USE_CLASS_ID:(106,99,91,90);DEBUFF_CHANCE:45"/> <!-- Ледяной Кинжал (Ice Dagger)-->
+			<skill id="1169"  condition="TARGET_NOT_USE_CLASS_ID:(106,99,91,90);DEBUFF_CHANCE:45"/> <!-- Проклятие Страха (Curse Fear)-->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

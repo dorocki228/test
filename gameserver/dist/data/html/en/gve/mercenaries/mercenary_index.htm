@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>Mercenaries</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td valign="top" align="center">
+		<table border=0 cellpadding=0 cellspacing=0>
+		<tr>
+					<td align=center  height=12></td>
+				</tr>
+		<tr><td width=57 height=60 background="L2UI_CT1.emblem_royalguard"></td></tr>
+		</table>
+			<table><tr><td height=1></td></tr></table>
+			<table height=50 width=292 >
+				<tr>
+					<td align=center  height=25>
+						<font name=hs12>Welcome to the Mercenaries!</font><br1>
+						With your help, you can <br1>
+						save the opposite faction<br1>
+						and <font color=f58000>get a nice bonus for it</font>.<br>
+						
+						<font color=f58000>Choose the period of time</font> you want<br1>
+						to switch to another fraction:<br1>
+						
+					</td>
+				</tr>
+				<tr>
+					<td align=center  height=10></td>
+				</tr>
+				#if($canNotTransitionForFraction)
+				<tr>
+					<td align=center>
+						<font color=ff5000>
+							–––––––<br1>
+							At the moment<br1>
+							the mercenaries do not need your help!<br>
+							Come back when the opposite<br1>
+							faction will take a beating!<br1>
+                            –––––––
+                            <br1>
+                        </font>
+                    </td>
+                </tr>
+                #else
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 1" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">Go for 3 hours
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 2" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">Go for 12 hours
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 3" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">Go for 24 hours
+                        </button>
+                    </td>
+                </tr>
+                #end
+                <tr>
+                    <td align=center>
+                        <button action="link gve/mercenaries/mercenary_info.htm" ALIGN=LEFT
+                                ICON="L2UI_CT1.SellingAgencyWnd_df_HelpBtn">Information
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align=center>
+                        <button ALIGN=LEFT ICON="L2UI_CT1.RewardBtn_down"
+                                action="bypass -h npc_%objectId%_multisell 1099">Mercenary Shop
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <br>
+                        <Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h teleport_to_loc 217085 71903 1024 57 5">
+                            Girin [Change Faction Manager] – 5 Aden
+                        </button>
+                <tr>
+                    <td align=center height=15></td>
+                </tr>
+            </table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

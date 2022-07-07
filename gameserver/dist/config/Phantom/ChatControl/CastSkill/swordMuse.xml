@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="100">
+		<skill id="764" type="castSelfBuff" text_commands="песня штормового ветра,song of wind storm"/>
+		<skill id="349" type="castSelfBuff" text_commands="песня возрождения,song of renewal"/>
+		<skill id="363" type="castSelfBuff" text_commands="песня медитации,song of meditation"/>
+		<skill id="364" type="castSelfBuff" text_commands="песня чемпиона,song of champion"/>
+		<skill id="437" type="castSelfBuff" text_commands="песня тишины,song of silence"/>
+		<skill id="529" type="castSelfBuff" text_commands="песня элементов,song of elemental"/>
+		<skill id="913" type="castSelfBuff" text_commands="отклонить магию,deflect magic"/>
+		<skill id="914" type="castSelfBuff" text_commands="песнь очищения,song of purification"/>
+		<skill id="110" type="castSelfBuff" text_commands="уд,абсолютная защита,ultimate defense,ultimate,абсолютная,ud"/>
+		<skill id="28" type="castAttackingSkill" text_commands="агр,агрессия,aggression,agr,aggr"/>
+		<skill id="15" type="castAttackingSkill" text_commands="очарование,charm"/>
+		<skill id="269" type="castSelfBuff" text_commands="песня охотника,song of hunter"/>
+		<skill id="267" type="castSelfBuff" text_commands="песня отражения,song of warding"/>
+		<skill id="268" type="castSelfBuff" text_commands="песня ветра,song of wind"/>
+		<skill id="988" type="castSelfBuff" text_commands="шепот битвы,battle whisper"/>
+		<skill id="270" type="castSelfBuff" text_commands="песня святости,song of invocation"/>
+		<skill id="265" type="castSelfBuff" text_commands="песня жизни,song of life"/>
+		<skill id="264" type="castSelfBuff" text_commands="песня земли,song of earth"/>
+		<skill id="306" type="castSelfBuff" text_commands="песня огненной защиты,song of flame guard"/>
+		<skill id="304" type="castSelfBuff" text_commands="песня жизненной силы,song of vitality"/>
+		<skill id="308" type="castSelfBuff" text_commands="песня штормовой защиты,song of storm guard"/>
+		<skill id="305" type="castSelfBuff" text_commands="песня мщения,song of vengeance"/>
+		<skill id="58" type="castSelfBuff" text_commands="природное лечение,elemental heal"/>
+		<skill id="112" type="castSelfBuff" text_commands="отклонить стрелу,deflect arrow,arrow,стрела"/>
+		<skill id="21" type="castSelfBuff" text_commands="вывести яд,poison recovery"/>
+		<skill id="102" type="castAttackingSkill" text_commands="опутать,entangle"/>
+		<skill id="402" type="castAttackingSkill" text_commands="арест,arrest,рут"/>
+		<skill id="98" type="castAttackingSkill" text_commands="симфония меча,sword symphony"/>
+		<skill id="61" type="castSelfBuff" text_commands="остановка кровотечения,cure bleeding"/>
+		<skill id="407" type="castAttackingSkill" text_commands="ментальная симфония,psycho symphony"/>
+	</ChatControl>
+ </list>

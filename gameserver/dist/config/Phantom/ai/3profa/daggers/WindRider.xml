@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="101" class_name="WindRider">
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="821" condition="MIN_DISTANCE:250;ONLY_PLAYER;CHANCE_CAST:100"/> <!-- Шаг из Тени (Shadow Step)  -->		
+			<skill id="321" /> <!-- Ослепляющий Удар (Blinding Blow)-->
+			<skill id="263"/> <!-- Смертельный Импульс (Deadly Blow)-->
+			<skill id="30"  condition="TARGET_DIRECTION:(BEHIND)"/> <!-- Удар в Спину (Backstab) -->
+			<skill id="344" condition="TARGET_DIRECTION:(SIDE,BEHIND)"/> <!-- Смертоносный Удар (Lethal Blow)-->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="355"/> <!-- Фокусировка Смерти (Focus Death)-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="312" condition="USE_OLYMPIAD;SELF_NOT_SKILL_EFFECT:(312);TARGET_DIRECTION:(BEHIND,SIDE);ONLY_PLAYER;MAX_DISTANCE:50;MAX_MP:10"/> <!-- < Боевая стойка коварства Вкл сзади-->
+			<skill id="312" condition="USE_OLYMPIAD;TARGET_DIRECTION:(NONE,FRONT);CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства   Выкл -->	
+			<skill id="312" condition="NOT_USE_OLYMPIAD;MAX_MP:20;SELF_NOT_SKILL_EFFECT:(312)"/> <!-- < Боевая стойка коварства Вкл в поле-->	
+			<skill id="446" condition="MIN_HP:70"/> <!--Уклонение (Evasion) -->
+			<skill id="111" condition="MIN_HP:40"/> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+			<skill id="922" condition="MIN_HP:10"/> <!-- Спрятаться (Hide) -->
+			<skill id="769" condition="MIN_HP:80"/> <!-- Оседлать Ветер (Wind Riding) -->
+		</situation_skills>
+		<control_skills>
+			<skill id="446" condition="TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)"/> <!--Уклонение (Evasion) -->
+			<skill id="922" condition="SELF_NOT_SKILL_EFFECT:(769);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)"/> <!-- Спрятаться (Hide) -->
+			<skill id="111" condition="TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+		</control_skills>
+		<cleansing_skills>
+			<skill id="453" condition="SELF_SKILL_EFFECT:(1069,1201,1097,1208,1072,402,403,404,1394,1446,518,708,716,1508,883,981)" /> <!-- Разорвать Оковы (Escape Shackle) 1 уровень   -->
+		</cleansing_skills>
+		<debuff_skills chance="25">
+
+			<skill id="10539" condition="ONLY_PLAYER;CHANCE_CAST:50"/> <!-- Бросок Кинжала (Throw Dagger) -->
+			<skill id="12" condition="ONLY_PLAYER;CHANCE_CAST:70"/> <!-- Переключение (Switch)  -->
+			<skill id="531" condition="CHANCE_CAST:50"/> <!-- Критическая Рана (Critical Wound)-->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

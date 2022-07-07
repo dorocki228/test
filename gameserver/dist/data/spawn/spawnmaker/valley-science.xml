@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list>
+  <territory name="vs1">
+    <add x="82024" y="-79592" zmin="-4298" zmax="-3798"/>
+    <add x="83160" y="-79192" zmin="-4298" zmax="-3798"/>
+    <add x="82760" y="-77784" zmin="-4258" zmax="-3758"/>
+    <add x="81128" y="-78328" zmin="-4266" zmax="-3766"/>
+  </territory>
+  <spawn group="valey_skins" name="vs1" territory="vs1">
+    <!--Dryad-->
+    <npc id="21544" count="2" respawn="60" respawn_random="0"/>
+    <!--Judge of Splendor-->
+    <npc id="21538" count="2" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+    <!--Wailing of Splendor-->
+    <npc id="21539" count="3" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+  </spawn>
+  <territory name="vs2">
+    <add x="82584" y="-80376" zmin="-4242" zmax="-3742"/>
+    <add x="82024" y="-80056" zmin="-4282" zmax="-3782"/>
+    <add x="80776" y="-80152" zmin="-4298" zmax="-3798"/>
+    <add x="80792" y="-81896" zmin="-4266" zmax="-3766"/>
+    <add x="81368" y="-81640" zmin="-4282" zmax="-3782"/>
+  </territory>
+  <territory name="vs3">
+    <add x="80728" y="-81880" zmin="-4266" zmax="-3766"/>
+    <add x="80712" y="-80168" zmin="-4298" zmax="-3798"/>
+    <add x="77752" y="-79800" zmin="-4298" zmax="-3798"/>
+    <add x="77912" y="-80472" zmin="-4290" zmax="-3790"/>
+    <add x="78536" y="-81080" zmin="-4290" zmax="-3790"/>
+    <add x="79432" y="-81512" zmin="-4274" zmax="-3774"/>
+  </territory>
+  <spawn group="valey_skins" name="vs2" territory="vs2">
+    <!--Dryad-->
+    <npc id="21537" count="2" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+    <npc id="21540" count="2" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+    <npc id="21535" count="2" respawn="60" respawn_random="0"/>
+    <!--Signet of Splendor-->
+    <!--Alliance of Splendor-->
+    <npc id="21533" count="3" respawn="60" respawn_random="0"/>
+    <!--Alliance of Splendor-->
+  </spawn>
+  <spawn group="valey_skins" name="vs3" territory="vs3">
+    <!--Dryad-->
+    <npc id="21532" count="2" respawn="60" respawn_random="0"/>
+    <!--Shout of Splendor-->
+    <npc id="21544" count="2" respawn="60" respawn_random="0"/>
+    <!--Judge of Splendor-->
+    <npc id="21538" count="2" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+    <!--Wailing of Splendor-->
+    <npc id="21539" count="3" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+  </spawn>
+  <territory name="vs4">
+    <add x="82056" y="-79720" zmin="-4274" zmax="-3774"/>
+    <add x="80776" y="-78024" zmin="-4258" zmax="-3758"/>
+    <add x="79624" y="-80008" zmin="-4298" zmax="-3798"/>
+  </territory>
+  <spawn group="valey_skins" name="vs4" territory="vs4">
+    <!--Dryad-->
+    <!--Fang of Splendor-->
+    <npc id="21540" count="2" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+    <npc id="21537" count="3" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+  </spawn>
+  <territory name="vs5">
+    <add x="79624" y="-80008" zmin="-4298" zmax="-3798"/>
+    <add x="77784" y="-79752" zmin="-4298" zmax="-3798"/>
+    <add x="78504" y="-78872" zmin="-4282" zmax="-3782"/>
+    <add x="78296" y="-78328" zmin="-4234" zmax="-3734"/>
+    <add x="79272" y="-77560" zmin="-4290" zmax="-3790"/>
+    <add x="80616" y="-78120" zmin="-4298" zmax="-3798"/>
+  </territory>
+  <spawn group="valey_skins" name="vs5" territory="vs5">
+    <!--Dryad-->
+    <!--Signet of Splendor-->
+    <npc id="21532" count="2" respawn="60" respawn_random="0"/>
+    <!--Shout of Splendor-->
+    <npc id="21535" count="3" respawn="60" respawn_random="0"/>
+    <!--Signet of Splendor-->
+  </spawn>
+  <territory name="vs6">
+    <add x="80616" y="-78120" zmin="-4298" zmax="-3798"/>
+    <add x="80808" y="-77576" zmin="-4290" zmax="-3790"/>
+    <add x="80632" y="-77208" zmin="-4298" zmax="-3798"/>
+    <add x="81592" y="-76248" zmin="-4290" zmax="-3790"/>
+    <add x="80888" y="-75496" zmin="-4018" zmax="-3518"/>
+    <add x="79432" y="-76664" zmin="-4242" zmax="-3742"/>
+    <add x="79368" y="-77480" zmin="-4298" zmax="-3798"/>
+  </territory>
+  <spawn group="valey_skins" name="vs6" territory="vs6">
+    <!--Dryad-->
+    <!--Alliance of Splendor-->
+    <npc id="21544" count="2" respawn="60" respawn_random="0"/>
+    <!--Judge of Splendor-->
+    <npc id="21533" count="3" respawn="60" respawn_random="0"/>
+    <!--Alliance of Splendor-->
+  </spawn>
+  <territory name="vs7">
+    <add x="79432" y="-76552" zmin="-4210" zmax="-3710"/>
+    <add x="80359" y="-75657" zmin="-4130" zmax="-3630"/>
+    <add x="78264" y="-73928" zmin="-3362" zmax="-2862"/>
+    <add x="78040" y="-74408" zmin="-3386" zmax="-2886"/>
+  </territory>
+  <spawn group="valey_skins" name="vs7" territory="vs7">
+    <!--Dryad-->
+    <!--Fang of Splendor-->
+    <npc id="21538" count="3" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+  </spawn>
+  <territory name="vs8">
+    <add x="78280" y="-70808" zmin="-3658" zmax="-3158"/>
+    <add x="78472" y="-70104" zmin="-3626" zmax="-3126"/>
+    <add x="77576" y="-69608" zmin="-3658" zmax="-3158"/>
+    <add x="75816" y="-69480" zmin="-3874" zmax="-3374"/>
+    <add x="75352" y="-70600" zmin="-3730" zmax="-3230"/>
+    <add x="76264" y="-70792" zmin="-3674" zmax="-3174"/>
+  </territory>
+  <spawn group="valey_skins" name="vs8" territory="vs8">
+    <!--Dryad-->
+    <npc id="21539" count="2" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+    <npc id="21537" count="2" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+    <!--Wailing of Splendor-->
+    <npc id="21540" count="3" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+  </spawn>
+  <territory name="vs9">
+    <add x="79112" y="-70712" zmin="-3690" zmax="-3190"/>
+    <add x="79016" y="-71384" zmin="-3770" zmax="-3270"/>
+    <add x="81112" y="-71800" zmin="-3738" zmax="-3238"/>
+    <add x="83351" y="-72392" zmin="-3754" zmax="-3254"/>
+    <add x="83608" y="-71672" zmin="-3626" zmax="-3126"/>
+    <add x="82600" y="-70824" zmin="-3658" zmax="-3158"/>
+  </territory>
+  <spawn group="valey_skins" name="vs9" territory="vs9">
+    <!--Dryad-->
+    <npc id="21537" count="2" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+    <npc id="21540" count="2" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+    <!--Signet of Splendor-->
+    <npc id="21535" count="3" respawn="60" respawn_random="0"/>
+    <!--Signet of Splendor-->
+  </spawn>
+  <territory name="vs10">
+    <add x="82520" y="-75944" zmin="-4546" zmax="-4046"/>
+    <add x="83079" y="-76008" zmin="-4586" zmax="-4086"/>
+    <add x="83560" y="-74952" zmin="-4714" zmax="-4214"/>
+    <add x="82760" y="-74712" zmin="-4706" zmax="-4206"/>
+  </territory>
+  <spawn group="valey_skins" name="vs10" territory="vs10">
+    <!--Dryad-->
+    <npc id="21533" count="2" respawn="60" respawn_random="0"/>
+    <!--Alliance of Splendor-->
+    <!--Shout of Splendor-->
+    <npc id="21532" count="2" respawn="60" respawn_random="0"/>
+    <!--Shout of Splendor-->
+  </spawn>
+  <territory name="vs11">
+    <add x="83560" y="-74840" zmin="-4714" zmax="-4214"/>
+    <add x="83928" y="-73944" zmin="-4714" zmax="-4214"/>
+    <add x="83256" y="-73209" zmin="-4722" zmax="-4222"/>
+    <add x="82520" y="-74056" zmin="-4570" zmax="-4070"/>
+  </territory>
+  <spawn group="valey_skins" name="vs11" territory="vs11">
+    <!--Dryad-->
+    <npc id="21544" count="2" respawn="60" respawn_random="0"/>
+    <!--Judge of Splendor-->
+    <!--Fang of Splendor-->
+    <npc id="21538" count="3" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+  </spawn>
+  <territory name="vs12">
+    <add x="82936" y="-73464" zmin="-4722" zmax="-4222"/>
+    <add x="83000" y="-73016" zmin="-4690" zmax="-4190"/>
+    <add x="82088" y="-72856" zmin="-4650" zmax="-4150"/>
+    <add x="82008" y="-73688" zmin="-4714" zmax="-4214"/>
+  </territory>
+  <spawn group="valey_skins" name="vs12" territory="vs12">
+    <!--Dryad-->
+    <npc id="21539" count="2" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+    <!--Fang of Splendor-->
+    <npc id="21537" count="2" respawn="60" respawn_random="0"/>
+    <!--Fang of Splendor-->
+  </spawn>
+  <territory name="vs13">
+    <add x="81976" y="-72936" zmin="-4674" zmax="-4174"/>
+    <add x="81816" y="-73864" zmin="-4714" zmax="-4214"/>
+    <add x="81064" y="-74264" zmin="-4698" zmax="-4198"/>
+    <add x="80856" y="-73576" zmin="-4690" zmax="-4190"/>
+  </territory>
+  <spawn group="valey_skins" name="vs13" territory="vs13">
+    <!--Dryad-->
+    <npc id="21540" count="2" respawn="60" respawn_random="0"/>
+    <!--Wailing of Splendor-->
+    <!--Signet of Splendor-->
+    <npc id="21535" count="2" respawn="60" respawn_random="0"/>
+    <!--Signet of Splendor-->
+  </spawn>
+  <territory name="vs14">
+    <add x="80968" y="-74248" zmin="-4714" zmax="-4214"/>
+    <add x="79768" y="-73993" zmin="-4690" zmax="-4190"/>
+    <add x="79528" y="-73672" zmin="-4722" zmax="-4222"/>
+    <add x="78808" y="-73448" zmin="-4642" zmax="-4142"/>
+    <add x="79287" y="-72585" zmin="-4642" zmax="-4142"/>
+    <add x="79944" y="-72328" zmin="-4658" zmax="-4158"/>
+    <add x="80584" y="-72632" zmin="-4698" zmax="-4198"/>
+    <add x="80680" y="-73480" zmin="-4674" zmax="-4174"/>
+  </territory>
+  <spawn group="valey_skins" name="vs14" territory="vs14">
+    <!--Dryad-->
+    <npc id="21535" count="2" respawn="60" respawn_random="0"/>
+    <!--Signet of Splendor-->
+    <!--Alliance of Splendor-->
+    <npc id="21533" count="3" respawn="60" respawn_random="0"/>
+    <!--Alliance of Splendor-->
+  </spawn>
+  <territory name="vs15">
+    <add x="78808" y="-73320" zmin="-4706" zmax="-4206"/>
+    <add x="77688" y="-72424" zmin="-4698" zmax="-4198"/>
+    <add x="77096" y="-71432" zmin="-4658" zmax="-4158"/>
+    <add x="77528" y="-71288" zmin="-4674" zmax="-4174"/>
+    <add x="78120" y="-71400" zmin="-4698" zmax="-4198"/>
+    <add x="78600" y="-72200" zmin="-4690" zmax="-4190"/>
+  </territory>
+  <spawn group="valey_skins" name="vs15" territory="vs15">
+    <!--Dryad-->
+    <npc id="21532" count="2" respawn="60" respawn_random="0"/>
+    <!--Shout of Splendor-->
+    <!--Judge of Splendor-->
+    <npc id="21544" count="3" respawn="60" respawn_random="0"/>
+    <!--Judge of Splendor-->
+  </spawn>
+  <territory name="vs_rb">
+    <add x="81240" y="-77560" zmin="-4394" zmax="-3894"/>
+    <add x="81448" y="-77800" zmin="-4394" zmax="-3894"/>
+    <add x="81640" y="-77528" zmin="-4394" zmax="-3894"/>
+    <add x="81464" y="-77368" zmin="-4394" zmax="-3894"/>
+  </territory>
+  <spawn>
+    <npc id="25092" count="1" respawn="82800" respawn_random="7200" pos="81640 -77528 -4144 49152"/>
+    <!--Korim-->
+  </spawn>
+</list>

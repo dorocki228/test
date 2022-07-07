@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="99">
+		<skill id="110" type="castSelfBuff" text_commands="уд,абсолютная защита,ultimate defense,ultimate,абсолютная,ud"/>
+		<skill id="982" type="castSelfBuff" text_commands="аура,боевая аура,танк баф,combat aura,combat,aura"/>
+		<skill id="28" type="castAttackingSkill" text_commands="агр,агрессия,aggression,agr,aggr"/>
+		<skill id="15" type="castAttackingSkill" text_commands="очарование,charm"/>
+		<skill id="18" type="castAttackingSkill" text_commands="масагр,мас агр,аура ненависти,aura of hate,hate"/>
+		<skill id="10" type="castSelfBuff" text_commands="призвать штормовой куб,штормовой куб,summon storm cubic,storm cubic"/>
+		<skill id="58" type="castSelfBuff" text_commands="природное лечение,elemental heal"/>
+		<skill id="67" type="castSelfBuff" text_commands="призвать оживляющий куб,оживляющий куб,summon life cubic,life cubic"/>
+		<skill id="112" type="castSelfBuff" text_commands="отклонить стрелу,deflect arrow,arrow,стрела"/>
+		<skill id="288" type="castSelfBuff" text_commands="оборонительная боевая стойка,оборонительная стойка,guard stance,guard"/>
+		<skill id="21" type="castSelfBuff" text_commands="вывести яд,poison recovery"/>
+		<skill id="102" type="castAttackingSkill" text_commands="опутать,entangle"/>
+		<skill id="402" type="castAttackingSkill" text_commands="арест,arrest,рут"/>
+		<skill id="449" type="castSelfBuff" text_commands="призвать заманивающий куб,заманивающий куб,summon attractive cubic,attractive cubic"/>
+		<skill id="400" type="castAttackingSkill" text_commands="трибунал,tribunal"/>
+		<skill id="61" type="castSelfBuff" text_commands="остановка кровотечения,cure bleeding"/>
+		<skill id="107" type="castAttackingSkill" text_commands="святая аура,divine aura"/>
+		<skill id="916" type="castSelfBuff" text_commands="щит отражения магии,отражение магии,shield deflect magic,deflect magic"/>
+		<skill id="335" type="castSelfBuff" text_commands="стойкость,fortitude"/>
+		<skill id="341" type="castBuff" text_commands="тол,прикосновение жизни"/>
+		<skill id="787" type="castPartyIcon" text_commands="пати икона,пати икону,прикосновение евы"/>
+		<skill id="368" type="castSelfBuff" text_commands="мщение,vengeance"/>
+		<skill id="351" type="castSelfBuff" text_commands="магическое зеркало,зеркало,magical mirror,mirror"/>
+		<skill id="528" type="castSelfBuff" text_commands="щит веры,вера,shield of faith,faith,пати уд,party ud"/>
+		<skill id="779" type="castSelfBuff" text_commands="призвать умный куб,умный куб,summon smart cubic,smart cubic"/>
+		<skill id="760" type="castSelfBuff" text_commands="броня антимагии,anti magic armor,anti magic,антимагия"/>
+		<skill id="913" type="castSelfBuff" text_commands="отклонить магию,deflect magic"/>
+	</ChatControl>
+ </list>

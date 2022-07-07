@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list>
+  <territory name="hs1">
+    <add x="143048" y="-109288" zmin="-3778" zmax="-3278"/>
+    <add x="142264" y="-110824" zmin="-3826" zmax="-3326"/>
+    <add x="143992" y="-111624" zmin="-3746" zmax="-3246"/>
+    <add x="145463" y="-110457" zmin="-3602" zmax="-3102"/>
+    <add x="145688" y="-109192" zmin="-3642" zmax="-3142"/>
+  </territory>
+  <spawn group="hot_springs" name="hs1" territory="hs1">
+    <!--Dryad-->
+    <npc id="21314" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatchling-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <!--Hot Springs Bandersnatch-->
+    <npc id="21322" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatch-->
+  </spawn>
+  <territory name="hs2">
+    <add x="144264" y="-108936" zmin="-3722" zmax="-3222"/>
+    <add x="144376" y="-106296" zmin="-3802" zmax="-3302"/>
+    <add x="145976" y="-107352" zmin="-3618" zmax="-3118"/>
+    <add x="145752" y="-108728" zmin="-3650" zmax="-3150"/>
+  </territory>
+  <spawn group="hot_springs" name="hs2" territory="hs2">
+    <!--Dryad-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <!--Hot Springs Atrox-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <npc id="21321" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+  </spawn>
+  <territory name="hs3">
+    <add x="144424" y="-106216" zmin="-3818" zmax="-3318"/>
+    <add x="145592" y="-105960" zmin="-3914" zmax="-3414"/>
+    <add x="144888" y="-103960" zmin="-3754" zmax="-3254"/>
+    <add x="143160" y="-103384" zmin="-3866" zmax="-3366"/>
+    <add x="142872" y="-104792" zmin="-3842" zmax="-3342"/>
+    <add x="143144" y="-106328" zmin="-3706" zmax="-3206"/>
+  </territory>
+  <spawn group="hot_springs" name="hs3" territory="hs3">
+    <!--Dryad-->
+    <!--Hot Springs Flava-->
+    <!--Hot Springs Atrox-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <npc id="21316" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <npc id="21321" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+  </spawn>
+  <territory name="hs4">
+    <add x="143096" y="-106344" zmin="-3706" zmax="-3206"/>
+    <add x="142152" y="-103912" zmin="-3882" zmax="-3382"/>
+    <add x="140968" y="-105128" zmin="-3866" zmax="-3366"/>
+    <add x="141560" y="-106472" zmin="-3810" zmax="-3310"/>
+    <add x="142840" y="-106984" zmin="-3682" zmax="-3182"/>
+  </territory>
+  <spawn group="hot_springs" name="hs4" territory="hs4">
+    <!--Dryad-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <npc id="21314" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatchling-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <!--Hot Springs Bandersnatch-->
+    <npc id="21322" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatch-->
+  </spawn>
+  <territory name="hs5">
+    <add x="142839" y="-107048" zmin="-3682" zmax="-3182"/>
+    <add x="140184" y="-106008" zmin="-3866" zmax="-3366"/>
+    <add x="139176" y="-108120" zmin="-4010" zmax="-3510"/>
+    <add x="140232" y="-108760" zmin="-3946" zmax="-3446"/>
+    <add x="142248" y="-107624" zmin="-3738" zmax="-3238"/>
+  </territory>
+  <spawn group="hot_springs" name="hs5" territory="hs5">
+    <!--Dryad-->
+    <npc id="21321" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <!--Hot Springs Bandersnatchling-->
+    <npc id="21314" count="4" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatchling-->
+  </spawn>
+  <territory name="hs6">
+    <add x="142312" y="-107704" zmin="-3738" zmax="-3238"/>
+    <add x="141576" y="-108888" zmin="-3826" zmax="-3326"/>
+    <add x="142504" y="-109592" zmin="-3810" zmax="-3310"/>
+    <add x="142872" y="-109032" zmin="-3794" zmax="-3294"/>
+    <add x="143064" y="-108024" zmin="-3706" zmax="-3206"/>
+  </territory>
+  <spawn group="hot_springs" name="hs6" territory="hs6">
+    <!--Dryad-->
+    <npc id="21321" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+    <npc id="21322" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatch-->
+  </spawn>
+  <territory name="hs7">
+    <add x="146680" y="-108744" zmin="-3394" zmax="-2894"/>
+    <add x="146792" y="-109080" zmin="-3346" zmax="-2846"/>
+    <add x="148536" y="-109096" zmin="-2874" zmax="-2374"/>
+    <add x="148728" y="-108392" zmin="-2778" zmax="-2278"/>
+  </territory>
+  <spawn group="hot_springs" name="hs7" territory="hs7">
+    <!--Dryad-->
+    <!--Hot Springs Antelope-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <npc id="21318" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+  </spawn>
+  <territory name="hs8">
+    <add x="149352" y="-108232" zmin="-2690" zmax="-2190"/>
+    <add x="148472" y="-109640" zmin="-2650" zmax="-2150"/>
+    <add x="149159" y="-110056" zmin="-2610" zmax="-2110"/>
+    <add x="150440" y="-109512" zmin="-2514" zmax="-2014"/>
+  </territory>
+  <spawn group="hot_springs" name="hs8" territory="hs8">
+    <!--Dryad-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <!--Hot Springs Grendel-->
+    <npc id="21323" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+  </spawn>
+  <territory name="hs9">
+    <add x="149880" y="-110552" zmin="-2530" zmax="-2030"/>
+    <add x="149272" y="-110776" zmin="-2522" zmax="-2022"/>
+    <add x="147880" y="-111448" zmin="-2450" zmax="-1950"/>
+    <add x="148136" y="-112504" zmin="-2434" zmax="-1934"/>
+    <add x="150952" y="-112968" zmin="-2378" zmax="-1878"/>
+    <add x="150776" y="-111464" zmin="-2474" zmax="-1974"/>
+  </territory>
+  <spawn group="hot_springs" name="hs9" territory="hs9">
+    <!--Dryad-->
+    <npc id="21321" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <!--Hot Springs Antelope-->
+    <npc id="21318" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+  </spawn>
+  <territory name="hs10">
+    <add x="150952" y="-113064" zmin="-2362" zmax="-1862"/>
+    <add x="148008" y="-112953" zmin="-2386" zmax="-1886"/>
+    <add x="148680" y="-114536" zmin="-2234" zmax="-1734"/>
+    <add x="150327" y="-114153" zmin="-2162" zmax="-1662"/>
+  </territory>
+  <spawn group="hot_springs" name="hs10" territory="hs10">
+    <!--Dryad-->
+    <!--Hot Springs Antelope-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <npc id="21318" count="4" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+  </spawn>
+  <territory name="hs11">
+    <add x="151544" y="-111688" zmin="-2602" zmax="-2102"/>
+    <add x="151752" y="-111992" zmin="-2618" zmax="-2118"/>
+    <add x="153335" y="-110809" zmin="-2866" zmax="-2366"/>
+    <add x="153176" y="-110568" zmin="-2866" zmax="-2366"/>
+  </territory>
+  <spawn group="hot_springs" name="hs11" territory="hs11">
+    <!--Dryad-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <!--Hot Springs Atrox-->
+    <npc id="21321" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+  </spawn>
+  <territory name="hs12">
+    <add x="153576" y="-110504" zmin="-2914" zmax="-2414"/>
+    <add x="152920" y="-108728" zmin="-3050" zmax="-2550"/>
+    <add x="152968" y="-107576" zmin="-3050" zmax="-2550"/>
+    <add x="153880" y="-107704" zmin="-3002" zmax="-2502"/>
+  </territory>
+  <spawn group="hot_springs" name="hs12" territory="hs12">
+    <!--Dryad-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <npc id="21314" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatchling-->
+    <npc id="21318" count="1" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+  </spawn>
+  <territory name="hs13">
+    <add x="153880" y="-107672" zmin="-3002" zmax="-2502"/>
+    <add x="154456" y="-106760" zmin="-2922" zmax="-2422"/>
+    <add x="152024" y="-105432" zmin="-3130" zmax="-2630"/>
+    <add x="151880" y="-107720" zmin="-3050" zmax="-2550"/>
+  </territory>
+  <spawn group="hot_springs" name="hs13" territory="hs13">
+    <!--Dryad-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <npc id="21322" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatch-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <!--Hot Springs Atrox-->
+    <npc id="21321" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+  </spawn>
+  <territory name="hs14">
+    <add x="155352" y="-107464" zmin="-2882" zmax="-2382"/>
+    <add x="154552" y="-106777" zmin="-2922" zmax="-2422"/>
+    <add x="154353" y="-105575" zmin="-2962" zmax="-2462"/>
+    <add x="156712" y="-106184" zmin="-2986" zmax="-2486"/>
+    <add x="156152" y="-107912" zmin="-2866" zmax="-2366"/>
+  </territory>
+  <spawn group="hot_springs" name="hs14" territory="hs14">
+    <!--Dryad-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <npc id="21314" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatchling-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+  </spawn>
+  <territory name="hs15">
+    <add x="156376" y="-107880" zmin="-2874" zmax="-2374"/>
+    <add x="157624" y="-108488" zmin="-2922" zmax="-2422"/>
+    <add x="158696" y="-108552" zmin="-2906" zmax="-2406"/>
+    <add x="158392" y="-107368" zmin="-2986" zmax="-2486"/>
+    <add x="157880" y="-105976" zmin="-2978" zmax="-2478"/>
+    <add x="156856" y="-106136" zmin="-2986" zmax="-2486"/>
+  </territory>
+  <spawn group="hot_springs" name="hs15" territory="hs15">
+    <!--Dryad-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+    <npc id="21323" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Grendel-->
+    <!--Hot Springs Bandersnatch-->
+    <!--Hot Springs Bandersnatch-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <npc id="21322" count="3" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatch-->
+  </spawn>
+  <territory name="hs16">
+    <add x="156120" y="-107992" zmin="-2866" zmax="-2366"/>
+    <add x="157176" y="-108824" zmin="-2922" zmax="-2422"/>
+    <add x="156296" y="-110392" zmin="-2890" zmax="-2390"/>
+    <add x="155352" y="-110632" zmin="-2890" zmax="-2390"/>
+    <add x="155320" y="-108200" zmin="-2866" zmax="-2366"/>
+  </territory>
+  <spawn group="hot_springs" name="hs16" territory="hs16">
+    <!--Dryad-->
+    <npc id="21321" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Atrox-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <npc id="21314" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Bandersnatchling-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+  </spawn>
+  <territory name="hs17">
+    <add x="155288" y="-108216" zmin="-2866" zmax="-2366"/>
+    <add x="154568" y="-108536" zmin="-2938" zmax="-2438"/>
+    <add x="153608" y="-110872" zmin="-2834" zmax="-2334"/>
+    <add x="155208" y="-110888" zmin="-2922" zmax="-2422"/>
+  </territory>
+  <spawn group="hot_springs" name="hs17" territory="hs17">
+    <!--Dryad-->
+    <npc id="21316" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Flava-->
+    <npc id="21318" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Antelope-->
+    <!--Hot Springs Yeti-->
+    <npc id="21320" count="2" respawn="60" respawn_random="0"/>
+    <!--Hot Springs Yeti-->
+  </spawn>
+  <territory name="hs_rb">
+    <add x="149320" y="-112600" zmin="-2314" zmax="-1814"/>
+    <add x="149784" y="-112856" zmin="-2314" zmax="-1814"/>
+    <add x="149927" y="-112377" zmin="-2346" zmax="-1846"/>
+    <add x="149512" y="-112184" zmin="-2330" zmax="-1830"/>
+  </territory>
+  <spawn>
+    <!--Atraiban-->
+    <npc id="25029" count="1" respawn="82800" respawn_random="7200" pos="150456 -112377 -2208 49152"/>
+    <!--Atraiban-->
+  </spawn>
+</list>

@@ -1,0 +1,75 @@
+#* @vtlvariable name="candidates" type="l2s.gameserver.utils.Pagination" *#
+<html>
+	<head>
+		<title>Выборы Лидера Фракции</title>
+	</head>
+<body>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358>
+		<tr>
+			<td align="center">
+				<table width=292>
+					<tr><td height="5"></td></tr>
+					<tr>
+						<td align="center">
+							Поддержите своим голосом одного из кандидатов,<br1>
+							который достоин стать Лидером Фракции.<br1>
+							Хорошо обдумайте свой выбор, поскольку<br1>
+							изменить его будет невозможно.<br>
+							Прием голосов завершится в <font color="LEVEL">19:00 (GMT+3)</font>.<br>
+							<font color="FF4000">Голосовать можно только один раз.</font><br1>
+							<font color="FF4000">Запрещено голосовать за самого себя.</font>
+						</td>
+					</tr>
+					<tr><td height="10"></td></tr>
+					<tr>
+						<td align="center">
+							#foreach($c in $candidates)
+							<table width="250" cellpadding=0 cellspacing=0 bgcolor="#if($foreach.count % 2 == 0)1c1b17#{else}2f322f#end">
+								<tr>
+									<td height="16">&nbsp;$c.getValue()</td>
+									<td height="20" align="right">
+										<button value="Голосовать" action="bypass -h htmbypass_services.FactionLeader:vote $c.getKey()" width=80 height=20 back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" />
+									</td>
+								</tr>
+							</table>
+							#end
+						</td>
+					</tr>
+				</table>
+				#if(!$candidates.isFirst())
+				#set($prevPage = $candidates.getPreviousPage())
+				#else
+				#set($prevPage = $candidates.getPage())
+				#end
+				#if(!$candidates.isLast())
+				#set($nextPage = $candidates.getNextPage())
+				#else
+				#set($nextPage = $candidates.getPage())
+				#end
+				<table width="150">
+					<tr>
+						<td align="center">
+							<button value="Назад" action="bypass -h htmbypass_services.FactionLeader:candidates $prevPage"
+									width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" />
+						</td>
+						<td align="center" width=45>$candidates.getPageNumber() / $candidates.getPageCount()</td>
+						<td align="center">
+							<button value="Вперед" action="bypass -h htmbypass_services.FactionLeader:candidates $nextPage"
+									width=55 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF" />
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr><td height="5"></td></tr>
+					<tr>
+						<td align=center>
+							<button action="bypass -h htmbypass_services.FactionLeader:main" ALIGN=LEFT ICON="NORMAL">Назад</button>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

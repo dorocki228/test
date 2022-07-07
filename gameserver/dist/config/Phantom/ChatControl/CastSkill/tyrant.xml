@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="48">
+		<skill id="423" type="castSelfBuff" text_commands="селф,инферно,инфернальный вид,dark form"/>
+		<skill id="420" type="castLimitBuffSkill" text_commands="фанатик,зил,зеалот,зиалот,zealot,fanatik,buff up zil,zeal up,zealot up,bigot,crazybuff,zil up,zil,zeal,zlt,z-up"/>
+		<skill id="425" type="castSelfBuff" text_commands="дух ястреба,ястреб,hawksoul,hawkspirittotem,hawkpower-up,hawk buff up,hst up,hawk,hawkpower,hawkspirit,hawk up,hawkbuff,h-up"/>
+		<skill id="282" type="castSelfBuff" text_commands="дух пумы,пума,pumasoul,pumaspirittotem,pumapower-up,puma buff up,pst up,puma,pumapower,pumaspirit,puma up,pumabuff,p-up,atkspd"/>
+		<skill id="109" type="castSelfBuff" text_commands="дух огра,огр,ogresoul,ogrespirittotem,ogrepower-up,ogre buff up,ost up,ogre,ogrepower,ogrespirit,ogre up,ogrebuff,o-up,critdam"/>
+		<skill id="83" type="castSelfBuff" text_commands="дух волка,волк,wolfsoul,wolfspirittotem,wolfpower-up,wolf buff up,wst up,wolf,wolfpower,wolfspirit,wolf up,wolfbuff,w-up,accurasy"/>
+		<skill id="76" type="castSelfBuff" text_commands="дух медведя,медведь,bearsoul,bearspirittotem,bearpower-up,bear buff up,bws up,bear,bearpower,bearspirit,bear up,bearbuff,b-up,spd"/>
+		<skill id="461" type="castSelfBuff" text_commands="прервать заключение,заключение,освободится,снять оковы,прервать,break duress,break,duress,оковы"/>
+		<skill id="424" type="castSelfBuff" text_commands="безумие войны,безумие,war frenzy,war,frenzy,френзи"/>
+		<skill id="292" type="castSelfBuff" text_commands="дух бизона,bison spirit totem,bison totem,bison spirit,bison,бизон"/>
+	</ChatControl>
+ </list>

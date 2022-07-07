@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="104" class_name="Elemental Master">
+		<buff_list buffs="1035,1036,1040,1044,1062,1078,1085,1240,1259,1303,1323,1363,1389,1460,1461,1500,1501,1502,1503,1504,1517,1519,264,265,266,267,268,269,271,272,273,274,275,276,304,310,349,363,364,365,4699,4703,5987,5988,830"/>
+		<summon_buff buffs="1035,1036,1040,1044,1062,1078,1085,1240,1259,1303,1323,1363,1388,1460,1461,1500,1501,1502,1503,1504,1517,1519,264,265,266,267,268,269,271,272,273,274,275,276,304,310,349,363,364,365,4699,4703,5987,5988,830"/>
+		<olympiad_buff>
+			<skill id="1204"/> <!-- Wind Walk -->
+			<skill id="1085"/> <!-- Acumen -->
+			<skill id="1059"/> <!-- Empower -->
+			<skill id="1062"/> <!-- Berserker Spirit -->
+			<skill id="1242"/> <!-- Death Whisper -->
+		</olympiad_buff>
+		<add_castom_skills>
+			<skill id="632" lvl="3"/> <!-- Emergent Ability - Defence -->
+			<skill id="634" lvl="3"/> <!-- Emergent Ability - Magic Defense -->
+			
+			<skill id="655" lvl="1"/> <!-- Enchanter Ability - Barrier -->
+			<rnd>
+				<skill id="650" lvl="1"/> <!-- Навык Воителя - Сопротивление отрицательным ефектам -->
+				<skill id="1490" lvl="1"/> <!-- Навык целителя - исцеление  -->
+			</rnd>
+			<rnd>
+				<skill id="652" lvl="1"/> <!-- Knight Ability - Defense -->
+				<skill id="804" lvl="1"/> <!-- Навык рыцаря критическое сопротивление -->
+			</rnd>
+		</add_castom_skills>
+		<nuke_skills>
+			<skill id="1558" ench_route="1"/> <!-- Спираль Пространства (Dimension Spiral) -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+			<skill id="67" condition="CUBIC" ench_route="1"/> <!-- Призвать Оживляющий Куб (Summon Life Cubic) -->
+			<skill id="1547" ench_route="1"/> <!-- Разделение Духа (Spirit Sharing) -->
+			<skill id="783" condition="CUBIC" ench_route="1"/> <!-- Призвать Умный Куб (Summon Smart Cubic) -->
+			<skill id="1329" condition="CUBIC"/> <!-- Массовый Призыв Кубов Воды (Mass Summon Aqua Cubic) -->
+			<skill id="338" condition="CHANCE_CAST:5"/> <!-- Тайное Проворство (Arcane Agility) -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="1127" condition="MIN_HP:50"/> <!-- Лечение Слуги (Servitor Heal) -->
+			<skill id="1015" condition="MIN_HP:20"/> <!-- Боевое Лечение (Battle Heal) -->
+			<skill id="1262" ench_route="1"  condition="MIN_HP:50"/> <!-- Поделиться Болью (Transfer Pain)-->
+		</situation_skills>
+		<debuff_skills chance="25">
+		    <skill id="1206" ench_route="1" /> <!-- Оковы Ветра (Wind Shackle) -->
+			<skill id="1350" ench_route="1" /> <!-- Бич Воителей (Warrior Bane) -->
+		</debuff_skills>
+		<summon_skills>
+			<skill id="1407" ench_route="1"/> <!-- Призвать Магнуса (Summon Magnus the Unicorn) -->
+		</summon_skills>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>	
+	</ClassObject>
+ </list>

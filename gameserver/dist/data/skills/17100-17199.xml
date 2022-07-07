@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+	<skill id="17107" levels="1" name="Snowman\'s Buff">
+		<set name="icon" value="icon.weapon_snowman_stick_i00" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17108" levels="1" name="Christmas Blessing">
+		<set name="icon" value="icon.weapon_snowman_stick_i00" />
+		<set name="reuseDelay" value="30000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17109" levels="1" name="-">
+		<set name="icon" value="icon.skill0000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17110" levels="1" name="Snowy Squash Nectar">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="2000" />
+		<set name="castRange" value="200" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17111" levels="1" name="Snowy Squash Seed">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="10000" />
+		<set name="hitTime" value="1500" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17112" levels="1" name="Large Snowy Squash Seed">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="10000" />
+		<set name="hitTime" value="1500" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17113" levels="1" name="Christmas Buff Set 2015">
+		<set name="icon" value="icon.skill0000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="17154" levels="1" name="Love Potion">
+		<set name="icon" value="icon.etc_whiteday_herb" />
+		<set name="abnormal_time" value="120" />
+		<set name="abnormal_type" value="love_potion" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_effect" value="UNK_88" />
+		<set name="target" value="TARGET_ONE" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="magicType" value="MAGIC" />
+		<set name="isSelfDispellable" value="false" />
+		<set name="isSaveable" value="false"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" value="1.15" />
+				<mul order="0x30" stat="mAtk" value="1.15" />
+				<mul order="0x30" stat="pDef" value="1.15" />
+				<mul order="0x30" stat="mDef" value="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="17192" levels="1" name="Change Hair Accessory">
+		<set name="icon" value="icon.skill0810" />
+		<set name="reuseDelay" value="180000" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="HIDE_HAIR_ACCESSORIES" />
+		<set name="operate_type" value="A2" />
+		<set name="isReuseDelayPermanent" value="true" />
+		<set name="isSkillTimePermanent" value="true" />
+	</skill>
+</list>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="92" class_name="Sagittarius">
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="101"/> <!-- Оглушающий Выстрел (Stun Shot)-->
+			<skill id="19" condition="CHANCE_CAST:70"/>  <!-- Двойной Выстрел (Double Shot) -->
+			<skill id="343" condition="CHANCE_CAST:70"/> <!-- Смертельный Выстрел (Lethal Shot)-->
+			<skill id="987" condition="MIN_DISTANCE:300;CHANCE_CAST:70"/> <!-- Мультивыстрел (Multiple Shot)-->
+			<skill id="990" condition="MIN_DISTANCE:200;CHANCE_CAST:60"/> <!-- Укол Смерти (Death Shot)-->
+			<skill id="771" condition="ONLY_PLAYER;MIN_DISTANCE:200;CHANCE_CAST:60"/> <!-- Огненный Ястреб (Flame Hawk) -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="99"/> <!-- Быстрый Выстрел (Rapid Shot) -->
+			<skill id="131" condition="CHANCE_CAST:10"/> <!-- Глаз Ястреба (Hawk Eye)-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="312" condition="SELF_NOT_SKILL_EFFECT:(312);MAX_MP:30;IS_IN_BATTLE"/> <!-- Боевая стойка коварства Вкл-->
+			<skill id="312" condition="SELF_SKILL_EFFECT:(312);MIN_MP:20;CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства Выкл мало мп-->
+			<skill id="111" condition="MIN_HP:20;CHANCE_CAST:25" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+			<skill id="4" condition="ONLY_PLAYER;MAX_MP:20;MAX_DISTANCE:200;TARGET_FIGHTER"/> <!-- Рывок (Dash)-->
+		</situation_skills>
+		<control_skills>
+			<skill id="111" condition="TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414,1532)" /> <!-- Абсолютное Уклонение (Ultimate Evasion) -->
+		</control_skills>
+		<debuff_skills chance="80">
+			<skill id="522" condition="ONLY_PLAYER;MIN_DISTANCE:500"/> <!-- Главная Цель -->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

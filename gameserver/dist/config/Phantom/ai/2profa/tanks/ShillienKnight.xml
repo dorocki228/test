@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="33" class_name="ShillienKnight">
+		<nuke_skills ChanceCastOnMonster="20" chance="45">
+			<skill id="223" /> <!-- Жало (Sting)  -->
+			<skill id="401" /> <!-- Правосудие (Judgment)  -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="33" condition="CUBIC"/> <!-- Призвать Призрачный Куб (Summon Phantom Cubic) -->
+			<skill id="278" condition="CUBIC"/> <!-- Призвать Змеиный Куб (Summon Viper Cubic) -->
+			<skill id="22" condition="CUBIC"/> <!-- Призвать Вампирический Куб (Summon Vampiric Cubic)  -->
+			<skill id="982" /> <!-- Боевая аура (Combat Aura) -->
+			<skill id="112"/> <!-- Отклонить Стрелу (Deflect Arrow)-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="110" condition="MIN_HP:20"/> <!-- Абсолютная Защита (Ultimate Defense) -->
+			<skill id="288" condition="MIN_HP:28"/> <!-- Оборонительная Боевая Стойка (Guard Stance) -->
+			<skill id="288" condition="SELF_SKILL_EFFECT:(288);MAX_HP:50;CANCEL_BUFF_BY_ID:288"/> <!-- Оборонительная Боевая Стойка (Guard Stance) -->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="122" condition="ONLY_PLAYER;DEBUFF_CHANCE:5"/> <!-- Сглаз (Hex) -->
+			<skill id="279" condition="DEBUFF_CHANCE:40;MIN_DISTANCE:110"/> <!-- Удар Молнии (Lightning Strike)-->
+			<skill id="28"/> <!-- Агрессия (Aggression)  -->
+		</debuff_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<list>
+    <!-- Dino Island -->
+    <zone name="Dino Island Water Outpost" type="instant_skill">
+        <set name="enabled" val="true"/>
+        <set name="target" val="pc"/>
+        <set name="skill_name" val="56055;1"/>
+        <set name="skill_prob" val="100"/>
+        <set name="unit_tick" val="10"/>
+        <set name="initial_delay" val="1"/>
+        <circle loc="10564 -23680 1000 -4000 1000"/>
+    </zone>
+    <zone name="Dino Island Fire Outpost" type="instant_skill">
+        <set name="enabled" val="true"/>
+        <set name="target" val="pc"/>
+        <set name="skill_name" val="56056;1"/>
+        <set name="skill_prob" val="100"/>
+        <set name="unit_tick" val="10"/>
+        <set name="initial_delay" val="1"/>
+        <circle loc="3335 -7379 1000 -4000 1000"/>
+    </zone>
+
+    <!-- Aden (High Location) -->
+    <zone name="Aden Water Outpost" type="instant_skill">
+        <set name="enabled" val="true"/>
+        <set name="target" val="pc"/>
+        <set name="skill_name" val="56055;1"/>
+        <set name="skill_prob" val="100"/>
+        <set name="unit_tick" val="10"/>
+        <set name="initial_delay" val="1"/>
+        <circle loc="147464 7704 1000 -1000 1000"/>
+	</zone>
+	<zone name="Aden Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="147464 2200 1000 -1000 1000" />
+	</zone>
+	<!-- Varka Silenos Stronghold (Mid Location) -->
+	<zone name="Varka Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="120248 -46424 1000 -3500 -2000" />
+	</zone>
+	<zone name="Varka Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="120776 -58072 1000 -2500 -1000" />
+	</zone>
+	<!-- Ruins of Agony (High Location) -->
+	<zone name="Ruins Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-43864 116632 1000 -4000 -2000" />
+	</zone>
+	<zone name="Ruins Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-53992 108264 1000 -4000 -2000" />
+	</zone>
+	<!-- Blazing Swamp (Mid Location) -->
+	<zone name="BS Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="147176 -4904 1000 -5000 -3000" />
+	</zone>
+	<zone name="BS Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="145704 -21688 1000 -3500 -2000" />
+	</zone>
+	<!-- Pagan Temple (High Location) -->
+	<zone name="Pagan Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-23016 -41704 1000 -11500 -8000" />
+	</zone>
+	<zone name="Pagan Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-9704 -39816 1000 -11500 -8000" />
+	</zone>
+	<!-- Ketra (Mid Location) -->
+	<zone name="Ketra Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="145464 -70456 1000 -4300 -3000" />
+	</zone>
+	<zone name="Ketra Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="135944 -78920 1000 -4300 -3000" />
+	</zone>
+	<!-- Antharas Lair (High Location) -->
+	<zone name="LOA Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="140824 108504 1000 -4000 -3000" />
+	</zone>
+	<zone name="LOA Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="144152 121208 1000 -4000 -3000" />
+	</zone>
+	<!--  Outlaw Forest -->
+	<zone name="Outlaw Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="81272 -4824 1000 -3500 -2000" />
+	</zone>
+	<zone name="Outlaw Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="93112 -4921 1000 -4000 -3000" />
+	</zone>
+	<!--  Swamp of Screams -->
+	<zone name="Swamp Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="90088 -61464 1000 -3000 -1000" />
+	</zone>
+	<zone name="Swamp Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="75848 -60392 1000 -3000 -1000" />
+	</zone>
+	<!--  Hot Springs -->
+	<zone name="Hot Springs Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="154488 -107865 1000 -3000 -1000" />
+	</zone>
+	<zone name="Hot Springs Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="143752 -108040 1000 -4000 -2000" />
+	</zone>
+	<!--  Abandoned Camp -->
+	<zone name="Abandoned Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-54376 146568 1000 -3500 -2000" />
+	</zone>
+	<zone name="Abandoned Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-60120 137320 1000 -3000 -2000" />
+	</zone>
+	<!--  Valley of Saints -->
+	<zone name="VOS Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="77176 -74072 1000 -3500 -2000" />
+	</zone>
+	<zone name="VOS Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="84936 -81352 1000 -4000 -2000" />
+	</zone>
+	<!--  Archaic Laboratory -->
+	<zone name="Archaic Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="96152 -111240 1000 -4000 -2000" />
+	</zone>
+	<zone name="Archaic Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="87320 -110008 1000 -4000 -2000" />
+	</zone>
+	<!-- Giant Cave -->
+	<zone name="GC Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="186904 56296 1000 -5000 -3000" />
+	</zone>
+	<zone name="GC Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="179800 59512 1000 -4500 -3000" />
+	</zone>
+	<!-- Shrine of Loyality -->
+	<zone name="Shrine Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="187576 -56984 1000 -3500 -2000" />
+	</zone>
+	<zone name="Shrine Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="185864 -62536 1000 -3500 -2000" />
+	</zone>
+	<!-- Imperial Tomb -->
+	<zone name="IT Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="183687 -83833 1000 -6500 -5000" />
+	</zone>
+	<zone name="IT Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="177896 -75336 1000 -3500 -2000" />
+	</zone>
+	<!-- Oren Mid -->
+	<zone name="Oren Mid Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="88744 62744 1000 -4000 -2000" />
+	</zone>
+	<zone name="Oren Mid Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="74792 59505 1000 -3500 -2000" />
+	</zone>
+	<!-- Oren High -->
+	<zone name="Oren High Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="92488 89336 1000 -4000 -2000" />
+	</zone>
+	<zone name="Oren High Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="71740 81174 1000 -4000 -2000" />
+	</zone>
+	<!-- Elven Mid -->
+	<zone name="Elven Mid Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="51276 65320 1000 -4000 -2000" />
+	</zone>
+	<zone name="Elven Mid Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="36168 68999 1000 -4000 -2000" />
+	</zone>
+	<!-- Elven High -->
+	<zone name="Elven High Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="51208 82471 1000 -3500 -2000" />
+	</zone>
+	<zone name="Elven High Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="41864 84200 1000 -4000 -2000" />
+	</zone>
+	<!-- Talking Island -->
+	<zone name="Talking Island Water Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56055;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-105448 224472 1000 -4000 -2000" />
+	</zone>
+	<zone name="Talking Island Fire Outpost" type="instant_skill" >
+		<set name="enabled" val="true"/>
+		<set name="target" val="pc"/>
+		<set name="skill_name" val="56056;1"/>
+		<set name="skill_prob" val="100"/>
+		<set name="unit_tick" val="10"/>
+		<set name="initial_delay" val="1"/>
+		<circle loc="-106072 232296 1000 -4000 -2000" />
+	</zone>
+</list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="116">
+		<skill id="1363" type="castSelfBuff" text_commands="напев победы,вика,chant of victory"/>
+		<skill id="1413" type="castSelfBuff" text_commands="напев магнуса,магнус,magnus chant"/>
+		<skill id="1429" type="castSelfBuff" text_commands="напев врат,gate chant"/>
+		<skill id="1390" type="castSelfBuff" text_commands="напев войны,war chant"/>
+		<skill id="1391" type="castSelfBuff" text_commands="напев земли,earth chant"/>
+		<skill id="1519" type="castSelfBuff" text_commands="напев пробуждения крови,напев крови,chant of blood awakening,chant of blood,кровь,blood"/>
+		<skill id="1310" type="castSelfBuff" text_commands="напев вампира,вампир,chant of vampire,vampire"/>
+		<skill id="1284" type="castSelfBuff" text_commands="напев мщения,chant of revenge,revenge,мщение"/>
+		<skill id="1229" type="castSelfBuff" text_commands="напев жизни,хилка,жизнь,chant of life,life"/>
+		<skill id="1105" type="castTargetSkill" text_commands="сумасшествие,madness"/>
+		<skill id="1097" type="castTargetSkill" text_commands="сонный дух,сон,dreaming spirit,dreaming"/>
+		<skill id="1092" type="castTargetSkill" text_commands="страх,fear"/>
+		<skill id="1535" type="castSelfBuff" text_commands="напев движения,chant of movement,movement,движение"/>
+		<skill id="1518" type="castSelfBuff" text_commands="напев критической атаки,chant of critical attack,крит атака,крит,critical,critical attack"/>
+		<skill id="1001" type="castSelfBuff" text_commands="крик души,soul cry,крик,cry"/>
+		<skill id="1517" type="castSelfBuff" text_commands="напев сражения,сражение,комбат,chant of combat,combat"/>
+		<skill id="1102" type="castTargetSkill" text_commands="ослабление ауры,aura sink,sink,ослабление"/>
+		<skill id="1308" type="castSelfBuff" text_commands="напев хищника,chant of predator,predator,хищник"/>
+		<skill id="1309" type="castSelfBuff" text_commands="напев орла,chant of eagle,eagle,орел"/>
+		<skill id="1253" type="castSelfBuff" text_commands="напев гнева,chant of rage,гнев,rage"/>
+		<skill id="1252" type="castSelfBuff" text_commands="напев уклонения,chant of evasion,evasion,уклонение"/>
+		<skill id="1251" type="castSelfBuff" text_commands="напев ярости,chant of fury,fury,ярость"/>
+		<skill id="1002" type="castSelfBuff" text_commands="напев пламени,flame chant,flame,пламя"/>
+		<skill id="1562" type="castSelfBuff" text_commands="напев берсерка,chant of berserker,берсерк,берс,bers,berserker"/>
+		<skill id="1006" type="castSelfBuff" text_commands="напев огня,chant of fire,огонь,fire"/>
+		<skill id="1009" type="castSelfBuff" text_commands="напев защиты,chant of shielding,shield,щит"/>
+		<skill id="1007" type="castSelfBuff" text_commands="напев битвы,chant of battle,battle,битва"/>
+	</ChatControl>
+ </list>

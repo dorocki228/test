@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" name="GameServer">
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <RollingRandomAccessFile name="File" fileName="logs/gameserver.log"
+                                 filePattern="logs/$${date:yyyy-MM}/gameserver-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Game" fileName="logs/game.log"
+                                 filePattern="logs/$${date:yyyy-MM}/game-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Debug" fileName="logs/debug.log"
+                                 filePattern="logs/$${date:yyyy-MM}/debug-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Chat" fileName="logs/chat.log"
+                                 filePattern="logs/$${date:yyyy-MM}/chat-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Abuse" fileName="logs/abuse.log"
+                                 filePattern="logs/$${date:yyyy-MM}/abuse-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Item" fileName="logs/items.log"
+                                 filePattern="logs/$${date:yyyy-MM}/items-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="AdminActions" fileName="logs/admin_actions.log"
+                                 filePattern="logs/$${date:yyyy-MM}/admin_actions-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="AdminJobs" fileName="logs/admin_jobs.log"
+                                 filePattern="logs/$${date:yyyy-MM}/admin_jobs-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Multisell" fileName="logs/multisell.log"
+                                 filePattern="logs/$${date:yyyy-MM}/multisell-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Olympiad" fileName="logs/olympiad.log"
+                                 filePattern="logs/$${date:yyyy-MM}/olympiad-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="IllegalActions" fileName="logs/illegal_actions.log"
+                                 filePattern="logs/$${date:yyyy-MM}/illegal_actions-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Bosses" fileName="logs/bosses.log"
+                                 filePattern="logs/$${date:yyyy-MM}/bosses-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Treasury" fileName="logs/treasury.log"
+                                 filePattern="logs/$${date:yyyy-MM}/treasury-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Renames" fileName="logs/renames.log"
+                                 filePattern="logs/$${date:yyyy-MM}/renames-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Enchants" fileName="logs/enchants.log"
+                                 filePattern="logs/$${date:yyyy-MM}/enchants-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Clan" fileName="logs/clan.log"
+                                 filePattern="logs/$${date:yyyy-MM}/clan-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Services" fileName="logs/services.log"
+                                 filePattern="logs/$${date:yyyy-MM}/services-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="TimeCounter" fileName="logs/timecounter.log"
+                                 filePattern="logs/$${date:yyyy-MM}/timecounter-%d{MM-dd-yyyy}-%i.log.gz"
+                                 immediateFlush="false">
+            <PatternLayout>
+                <Pattern>%d %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+        </RollingRandomAccessFile>
+
+    </Appenders>
+
+    <Loggers>
+        <Logger name="io.netty.channel.nio.NioEventLoop" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="io.netty.handler.logging" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="com.zaxxer.hikari" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="com.cronutils" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="org.springframework" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="Game" level="all" additivity="false">
+            <AppenderRef ref="Game"/>
+        </Logger>
+
+        <Logger name="Debug" level="all" additivity="false">
+            <AppenderRef ref="Debug"/>
+        </Logger>
+
+        <Logger name="Chat" level="all" additivity="false">
+            <AppenderRef ref="Chat"/>
+        </Logger>
+
+        <Logger name="Abuse" level="all" additivity="false">
+            <AppenderRef ref="Abuse"/>
+        </Logger>
+
+        <Logger name="Item" level="all" additivity="false">
+            <AppenderRef ref="Item"/>
+        </Logger>
+
+        <Logger name="AdminActions" level="all" additivity="false">
+            <AppenderRef ref="AdminActions"/>
+        </Logger>
+
+        <Logger name="AdminJobs" level="all" additivity="false">
+            <AppenderRef ref="AdminJobs"/>
+        </Logger>
+
+        <Logger name="Multisell" level="all" additivity="false">
+            <AppenderRef ref="Multisell"/>
+        </Logger>
+
+        <Logger name="Olympiad" level="all" additivity="false">
+            <AppenderRef ref="Olympiad"/>
+        </Logger>
+
+        <Logger name="IllegalActions" level="all" additivity="false">
+            <AppenderRef ref="IllegalActions"/>
+        </Logger>
+
+        <Logger name="Bosses" level="all" additivity="false">
+            <AppenderRef ref="Bosses"/>
+        </Logger>
+
+        <Logger name="Treasury" level="all" additivity="false">
+            <AppenderRef ref="Treasury"/>
+        </Logger>
+
+        <Logger name="Renames" level="all" additivity="false">
+            <AppenderRef ref="Renames"/>
+        </Logger>
+
+        <Logger name="Enchants" level="all" additivity="false">
+            <AppenderRef ref="Enchants"/>
+        </Logger>
+
+        <Logger name="Clan" level="all" additivity="false">
+            <AppenderRef ref="Clan"/>
+        </Logger>
+
+        <Logger name="Services" level="all" additivity="false">
+            <AppenderRef ref="Services"/>
+        </Logger>
+
+        <Logger name="TimeCounter" level="all" additivity="false">
+            <AppenderRef ref="TimeCounter"/>
+        </Logger>
+
+        <Root level="all">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="Console" level="info"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,93 @@
+﻿<html>
+<head>
+	<title>私人愛好者商店 - 創建</title>
+</head>
+<body>
+<table border=0 width=292 height=358>
+	<tr>
+		<td align="center">
+			<table width=280 bgcolor=1c1b17>
+				<tr>
+					<td align=center  height=15></td>
+				</tr>
+				<tr>
+					<td align=center>
+						<font name=hs12>精品店</font><br1>
+					</td>
+				</tr>
+				<tr>
+					<td align=center  height=15></td>
+				</tr>
+				<tr>
+					<td>
+						出售 buff 時，需要交稅 <font color=ffa500>$tax%</font>. 僅可在特定區域銷售.<br>
+						所有 buff 都有統一的價格。 <br1>
+						將自動顯示您班級的所有可用增益.<br>
+						最低價格 - <font color=ffa500>$minPrice</font> 亞丁,
+						最大值 <font color=ffa500>$maxPrice</font> 亞丁.<br>
+
+					</td>
+				</tr>
+				<tr>
+					<td>
+						對於線下交易，您需要去銷售<br1>
+						 並輸入 <font color=ffa500>.offline</font> 命令.
+
+					</td>
+				</tr>
+				<tr>
+					<td height="5"></td>
+				</tr>
+			</table>
+
+			<table bgcolor=2f322f width=220>
+				<tr>
+					<td height="5"></td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td fixwidth=80 valign=top align=right>
+									<font name="hs9" color="ffffff">標題:</font>
+								</td>
+								<td valign=top align=left>
+									<edit var ="title" type="text" length=25 width=120 height=10>
+								</td>
+								<td></td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<td fixwidth=80 valign=top align=right>
+									<font name="hs9" color="ffffff">淺黃色的價格:</font>
+								</td>
+								<td valign=top align=left>
+									<edit var="price" type="number" length=25 width=75 height=10>
+								</td>
+								<td width=50><font color=ffa500>Aden</font></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="15"></td>
+				</tr>
+			</table>
+			<table width=256>
+				<tr>
+					<td height="10"></td>
+				</tr>
+				<tr>
+					<td fixwidth=280 valign=top align=center><br>
+						<button value="賣buff" action="bypass -h htmbypass_services.PrivateBuffer:start $price $title" width=198 height=32
+								back="L2UI_CT1.OlympiadWnd_DF_BuyEtc_Down" fore="L2UI_CT1.OlympiadWnd_DF_BuyEtc">
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

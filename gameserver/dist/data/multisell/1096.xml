@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config no_tax="true"/>
+    <!--Поясв-->
+
+    <item>
+        <production id="90024" count="1"/>    <!-- Belt - Lv. 2 -->
+        <ingredient id="90023" count="1"/>
+        <ingredient id="57" count="20"/> <!--[Adena]-->
+        <ingredient id="75040" count="5"/> <!--[Adena]-->
+    </item>
+
+    <item>
+        <production id="90025" count="1" activeStage="2"/>    <!-- Belt - Lv. 3 -->
+        <ingredient id="90024" count="1"/>
+        <ingredient id="57" count="50"/> <!--[Adena]-->
+        <ingredient id="75040" count="12"/>
+    </item>
+
+    <item>
+        <production id="90026" count="1" activeStage="4"/>    <!-- Belt - Lv. 4 -->
+        <ingredient id="90025" count="1"/>
+        <ingredient id="57" count="100"/> <!--[Adena]-->
+        <ingredient id="75040" count="27"/>
+    </item>
+    <item>
+        <production id="90027" count="1" activeStage="6"/>    <!-- Belt - Lv. 5 -->
+        <ingredient id="90026" count="1"/>
+        <ingredient id="57" count="200"/> <!--[Adena]-->
+        <ingredient id="75040" count="45"/>
+    </item>
+
+</list>

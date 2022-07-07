@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="4" class_name="HumanKnight">
+		<ai_type type="auto_attacker"/>
+		<nuke_skills>
+			<skill id="3" /> <!-- Мощный Удар (Power Strike) -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="112" /> <!-- Отклонить Стрелу (Deflect Arrow) -->
+			<skill id="82" /> <!-- Величие (Majesty) -->
+		</self_buff_skills>
+		<heal_skills>
+			<skill id="45"  condition="MIN_HP:15"/> <!-- Святое Лечение (Divine Heal)-->
+		</heal_skills>
+		<situation_skills>
+			<skill id="110" condition="MIN_HP:30"/> <!-- Абсолютная Защита (Ultimate Defense) -->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="92" /> <!-- Оглушение Щитом (Shield Stun)-->
+			<skill id="28" condition="CHANCE_CAST:30" /> <!-- Агрессия (Aggression)   -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

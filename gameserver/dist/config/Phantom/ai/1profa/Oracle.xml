@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="29" class_name="Oracle">
+		<nuke_skills>
+			<skill id="1177"/> <!-- Удар Ветра (Wind Strike) -->
+			<skill id="1184" condition="CHANCE_CAST:50"/> <!-- Ледяной Шип (Ice Bolt) -->
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="1043"/> <!-- Святое Оружие (Holy Weapon)-->
+		</self_buff_skills>
+		<heal_skills>
+			<skill id="1015" condition="MIN_HP:45"/> <!-- Природное Лечение (Elemental Heal)-->
+		</heal_skills>
+		<party_heal_skills>
+			<skill id="1027" condition="MIN_PARTY_HP:(50,2);USE_IN_PARTY;MIN_HP:70"/>  <!--Групповое Лечение (Group Heal) -->
+		</party_heal_skills>
+		<debuff_skills chance="25">
+		    <skill id="1201" /> <!-- Корень Дриады (Dryad Root)  -->
+			<skill id="1206"/> <!-- Оковы Ветра (Wind Shackle) -->
+		</debuff_skills>
+	</ClassObject>
+ </list>

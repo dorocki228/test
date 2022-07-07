@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="93">
+		<skill id="112" type="castSelfBuff" text_commands="отклонить стрелу,deflect arrow,arrow,стрела"/>
+		<skill id="21" type="castSelfBuff" text_commands="вывести яд,poison recovery"/>
+		<skill id="106" type="castAttackingSkill" text_commands="вуаль,veil"/>
+		<skill id="27" type="castAttackingSkill" text_commands="открыть,unlock"/>
+		<skill id="4" type="castSelfBuff" text_commands="рывок,dash"/>
+		<skill id="312" type="castSelfBuff" text_commands="боевая стойка коварства,vicious stance"/>
+		<skill id="221" type="castSelfBuff" text_commands="silent move,бесшумное движение,шд,sm"/>
+		<skill id="102" type="castAttackingSkill" text_commands="опутать,entangle"/>
+		<skill id="60" type="castSelfBuff" text_commands="притвориться мертвым,fake death"/>
+		<skill id="96" type="castAttackingSkill" text_commands="кровотечение,bleed"/>
+		<skill id="412" type="castAttackingSkill" text_commands="песочная бомба,sand bomb"/>
+		<skill id="411" type="castSelfBuff" text_commands="скрытность,stealth"/>
+		<skill id="821" type="castAttackingSkill" text_commands="shadow step,шаг из тени"/>
+		<skill id="12" type="castAttackingSkill" text_commands="переключение,switch"/>
+		<skill id="419" type="castSelfBuff" text_commands="призвать ключ сокровищ,summon treasure key"/>
+		<skill id="51" type="castAttackingSkill" text_commands="искушение,lure"/>
+		<skill id="111" type="castSelfBuff" text_commands="абсолютное уклонение,ultimate evasion,evasion,уклонение,уе,ue"/>
+		<skill id="453" type="castSelfBuff" text_commands="разорвать оковы,escape shackle"/>
+		<skill id="623" type="castAttackingSkill" text_commands="найти ловушку,find trap"/>
+		<skill id="624" type="castAttackingSkill" text_commands="убрать ловушку,remove trap"/>
+		<skill id="358" type="castAttackingSkill" text_commands="блеф,bluff"/>
+		<skill id="334" type="castSelfBuff" text_commands="фокусировка владения умениями,владение умениями,focus skill mastery"/>
+		<skill id="357" type="castSelfBuff" text_commands="фокусировка мощности,focus power"/>
+		<skill id="356" type="castSelfBuff" text_commands="фокусировка шанса,focus chance"/>
+		<skill id="445" type="castSelfBuff" text_commands="мираж,mirage"/>
+		<skill id="531" type="castAttackingSkill" text_commands="критическая рана,critical wound"/>
+		<skill id="991" type="castAttackingSkill" text_commands="бросок кинжала,throwing dagger"/>
+		<skill id="922" type="castSelfBuff" text_commands="спрятаться,hide,хайд"/>
+		<skill id="768" type="castSelfBuff" text_commands="потрясающее приключение,приключение,exciting adventure,adventure"/>
+	</ChatControl>
+ </list>

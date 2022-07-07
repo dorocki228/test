@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>Mercenaries</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td valign="top" align="center">
+		<table border=0 cellpadding=0 cellspacing=0>
+		<tr>
+					<td align=center  height=12></td>
+				</tr>
+		<tr><td width=57 height=60 background="L2UI_CT1.emblem_royalguard"></td></tr>
+		</table>
+			<table><tr><td height=1></td></tr></table>
+			<table height=50 width=292 >
+				<tr>
+					<td align=center  height=25>
+						<font name=hs12>Добро пожаловать к Наемникам!</font><br1>
+						Своей помощью ты можешь<br1>
+						спасти противоположную фракцию,<br1>
+						а также <font color=f58000>получить приятный бонус</font>.<br>
+						
+						<font color=f58000>Выбери промежуток времени</font>, на который <br1>
+						ты хочешь перейти:<br1>
+
+					</td>
+				</tr>
+				<tr>
+					<td align=center  height=10></td>
+				</tr>
+                #if($canNotTransitionForFraction)
+				<tr>
+					<td align=center>
+						<font color=ff5000>
+							–––––––<br1>
+							На данный момент,<br1>
+							наемники не нуждаются в вашей помощи!<br>
+							Возвращайтесь когда противоположная<br1>
+							фракция будет терпеть поражение!<br1>
+							–––––––<br1>
+                        </font>
+                    </td>
+                </tr>
+                #else
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 1" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">Перейти на 3 часа
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 2" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">Перейти на 12 часов
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.MercenaryUIService:transition 3" ALIGN=LEFT
+                                ICON="L2UI_CT1.AutoPartyMatchingWnd_DF_StatusWndMatchingBtn_On_over">Перейти на 24 часа
+                        </button>
+                    </td>
+                </tr>
+                #end
+                <tr>
+                    <td align=center>
+                        <button action="link gve/mercenaries/mercenary_info.htm" ALIGN=LEFT
+                                ICON="L2UI_CT1.SellingAgencyWnd_df_HelpBtn">Информация
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td align=center>
+                        <button ALIGN=LEFT ICON="L2UI_CT1.RewardBtn_down"
+                                action="bypass -h npc_%objectId%_multisell 1099">Магазин наемников
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <br>
+                        <Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h teleport_to_loc 217085 71903 1024 57 5">
+                            Girin [Менеджер Смены Фракции] – 5 Аден
+                        </button>
+                <tr>
+                <tr>
+                    <td align=center height=15></td>
+                </tr>
+
+            </table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

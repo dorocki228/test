@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="114" class_name="GrandKhauatari">
+		<buff_list buffs="1323,1240,1501,1036,1062,4699,1388,1461,1035,264,265,267,268,269,304,349,363,364,271,274,275,272,310,266,1502,1503,1517,1259,1519,1323,1363,1504,4699,4703,5987,5988"/>
+		<add_castom_skills>
+			<skill id="631" lvl="6"/> <!-- Emergent Ability - Attack -->
+			
+			<skill id="655" lvl="1"/> <!-- Enchanter Ability - Barrier -->
+			<skill id="651" lvl="1"/> <!-- Warrior Ability - Haste -->
+			<rnd>
+				<skill id="650" lvl="1"/> <!-- Навык Воителя - Сопротивление отрицательным ефектам -->
+				<skill id="653" lvl="1"/> <!-- Навык Разбойника - Шанс крит удара -->
+				<skill id="652" lvl="1"/> <!-- Knight Ability - Defense -->
+			</rnd>
+		</add_castom_skills>
+		<nuke_skills ChanceCastOnMonster="5">
+			<skill id="281" ench_route="1"/> <!-- Разрушитель Душ (Soul Breaker)  -->
+			<skill id="776" ench_route="1"/> <!-- Сила Разрушения (Force of Destruction)  -->
+			<skill id="54" condition="MIN_DISTANCE:200;CHANCE_CAST:40" ench_route="1"/> <!-- Импульс Силы (Force Blaster)  -->
+			<skill id="284" ench_route="7"/> <!-- Ураганное Нападение (Hurricane Assault)  -->
+			<skill id="280" ench_route="1"/> <!-- Горящий Кулак (Burning Fist)  -->
+			<!--<skill id="17" condition="CHANCE_CAST:30" ench_route="7"/>  Взрыв Силы (Force Burst)  -->
+			<skill id="81" condition="CHANCE_CAST:50" ench_route="1"/> <!-- Удар Судьбы (Punch of Doom)  -->
+		</nuke_skills>
+		<control_skills>
+			<skill id="995" condition="MIN_DISTANCE:100"/> <!-- Стремительный Натиск (Rush Impact) -->
+			<skill id="994" condition="MIN_DISTANCE:120;TARGET_RUNNING"/> <!-- Стремительный Бросок (Rush)-->
+		</control_skills>
+		<cleansing_skills>
+			<skill id="461" condition="SELF_SKILL_EFFECT:(92,102,1069,1160,1201,95,1097,1099,1208,1209,65,127,279,281,1072,1169,1170,1272,1298,354,358,361,1337,1350,1359,1361,1366,402,403,404,407,408,1381,1394,452,1446,518,1454,564,1484,708,716,730,763,774,1495,1508,791,1529,883,899,981,991)" /> <!-- Прервать Заключение (Break Duress) 2 уровень   -->
+		</cleansing_skills>
+		<self_buff_skills>
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+			<skill id="109"/> <!-- Тотемный Дух Огра (Ogre Spirit Totem)  -->
+			<skill id="222" condition="SELF_NOT_SKILL_EFFECT:(222);MAX_MP:20;IS_IN_BATTLE"/> <!-- Ярость Орка -->
+			<skill id="222" condition="SELF_SKILL_EFFECT:(222);MIN_MP:10;CANCEL_BUFF_BY_ID:222"/> <!-- Ярость Орка -->
+			<skill id="222" condition="SELF_SKILL_EFFECT:(222);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:222"/> <!-- Ярость Орка -->
+			<skill id="423" ench_route="1"/> <!-- Инфернальный Вид (Dark Form) -->
+			<skill id="918" ench_route="1" condition="CHARGING"/> <!-- Предельная Фокусировка Силы (Maximum Focus Force) -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="340" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(340);MAX_MP:40;MAX_DISTANCE:80;TARGET_NOT_RUNNING;IS_IN_BATTLE;TARGET_FIGHTER"/> <!-- Боевая Стойка Отражения Вкл-->
+			<skill id="340" condition="SELF_SKILL_EFFECT:(340);ONLY_PLAYER;CANCEL_BUFF_BY_ID:340;MIN_DISTANCE:150"/> <!-- Боевая Стойка Отражения Выкл-->
+			<skill id="340" condition="SELF_SKILL_EFFECT:(340);ONLY_MONSTER;CANCEL_BUFF_BY_ID:340"/> <!-- Боевая Стойка Отражения Выкл мобы-->
+			<skill id="340" condition="SELF_SKILL_EFFECT:(340);NOT_IN_BATTLE;CANCEL_BUFF_BY_ID:340"/> <!-- Боевая Стойка Отражения Выкл-->
+			
+			<skill id="346" condition="CHARGING;CHANCE_CAST:70"/> <!-- Гнев Силы (Raging Force)  -->
+			<skill id="50" condition="CHARGING;CHANCE_CAST:50"/> <!-- Фокусировка Силы (Focused Force)  -->
+			 <!--<skill id="83" condition="TARGET_CLASS_ID:(115,98,105,96,104,111)" /> Дух Волка (Wolf Spirit Totem)-->
+			<!--<skill id="109" condition="TARGET_CLASS_ID:(116,99,91,90,106,88,114,113,93,117,108,101,94,103,95,110)"/>  Тотемный Дух Огра (Ogre Spirit Totem)  -->
+			<skill id="420" ench_route="2" condition="MIN_HP:30"/> <!-- Фанатик (Zealot)  -->
+			<skill id="917" condition="ONLY_PLAYER;MIN_HP:90"/> <!-- Озарение (Final Secret) -->
+		</situation_skills>
+	</ClassObject>
+ </list>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+<!--Подвеска Дракона Воды.-->
+<!--Подвеска Дракона Воды.-->
+<!--Подвеска Дракона Воды.-->
+<!--Подвеска Дракона Воды.-->
+	<skill id="60000" levels="15" name="Подвеска Дракона Воды 1-15">
+	<table name="#triggerLevel">0 0 0 0 1 1 1 1 1 1 1 1 1 1 1</table>
+	<table name="#triggerId">0 0 0 0 60001 60001 60001 60001 60001 60001 60001 60001 60001 60001 60001</table>
+	<table name="#TabmAtkSpd">1.01 1.03 1.07 1.08 1.09 1.10 1.10 1.10 1.12 1.13 1.15 1.18 1.19 1.20 1.25</table>	
+	<table name="#TabmCritD">1.01 1.03 1.07 1.08 1.09 1.10 1.10 1.10 1.12 1.13 1.15 1.18 1.19 1.20 1.25</table>		
+	<table name="#TabpDef">1.03 1.05 1.08 1.08 1.09 1.09 1.09 1.09 1.12 1.12 1.12 1.15 1.15 1.15 1.20</table>	
+    <table name="#TabmDef">1.02 1.03 1.06 1.07 1.09 1.09 1.09 1.09 1.10 1.10 1.10 1.12 1.12 1.12 1.15</table>		
+    <table name="#TabmAtk">1.07 1.09 1.13 1.14 1.15 1.16 1.16 1.16 1.20 1.20 1.20 1.22 1.23 1.24 1.25</table>	
+	<table name="#TabmaxHpt">0 200 600 800 1000 1000 1000 1000 1100 1100 1100 1400 1700 1800 2000</table>
+	<table name="#TabmentalResist">0 0 1.05 1.05 1.07 1.07 1.07 1.07 1.07 1.07 1.07 1.07 1.10 1.10 1.15</table>
+	<table name="#Tabpower">0 0 0 1.05 1.05 1.05 1.05 1.05 1.05 1.07 1.07 1.09 1.10 1.12 1.15</table>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants"/>
+		<set name="icon" value="icon.tallisman_baium"/>
+		<set name="operate_type" value="P"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+	<triggers>
+            <trigger cancel_effects_on_remove="true" id="#triggerId" level="#triggerLevel" type="ADD"/>
+    </triggers>	
+	<for>
+			<mul order="0x30" stat="mAtkSpd" value="#TabmAtkSpd" />
+			<mul order="0x30" stat="mCritDamageStatic" value="#TabmCritD" />
+			<mul order="0x30" stat="pDef" value="#TabpDef" />
+			<mul order="0x30" stat="mDef" value="#TabmDef" />
+			<mul order="0x30" stat="mAtk" value="#TabmAtk"/>
+			<add order="0x40" stat="maxHp" value="#TabmaxHpt" />
+			<add order="0x40" stat="rootResist" value="#TabmentalResist" />
+			<add order="0x40" stat="healPower" value="#Tabpower" />
+	</for>	
+	</skill>
+	
+	<skill id="60001" levels="1" name="Подвеска Дракона Воды Актив">
+		<table name="#effects">UNK_10006</table>
+		<set name="abnormal_effect" value="#effects"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants_active"/>
+		<set name="icon" value="icon.tallisman_oman_i01"/>
+		<set name="isHideStartMessage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<!--Stats only for trigger effect work.-->
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="60002" levels="1" name="Подвеска Дракона Воды - Просветление">
+		<!-- Last modify: 24.06.2009 Description: User receives mystical enlightenment for 20 seconds, increasing M. Atk. by 40%, Casting Spd. by 50% and magic critical attack rate by 50%, and decreasing MP consumption by 90%. -->
+		<set name="icon" value="icon.skill1532" />
+		<set name="reuseDelay" value="120000" />
+		<set name="hitTime" value="1500" />
+		<set name="mp_consume" value="73" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pendants_active_buffs"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" value="1.4"/>
+				<mul order="0x30" stat="mAtkSpd" value="1.5"/>
+				<add order="0x40" stat="baseMCritRate" value="50"/>
+				<mul order="0x30" stat="mpConsum" value="0.10"/>
+			</effect>
+			
+		</for>
+	</skill>
+<!--Подвеска Дракона Земли.-->
+<!--Подвеска Дракона Земли.-->
+<!--Подвеска Дракона Земли.-->
+<!--Подвеска Дракона Земли.-->
+<!--Подвеска Дракона Земли.-->
+	<skill id="60003" levels="15" name="Подвеска Дракона Земли 1-15">
+	<table name="#triggerLevel">0 0 0 0 1 1 1 1 1 1 1 1 1 1 1</table>
+	<table name="#triggerId">0 0 0 0 60004 60004 60004 60004 60004 60004 60004 60004 60004 60004 60004</table>
+	<table name="#TabpAtkSpd">1.01 1.02 1.05 1.06 1.07 1.07 1.07 1.07 1.10 1.12 1.15 1.16 1.16 1.27 1.20</table>		
+	<table name="#TabpDef">1.02 1.03 1.07 1.08 1.10 1.10 1.10 1.10 1.13 1.14 1.15 1.17 1.20 1.25 1.25</table>	
+    <table name="#TabmDef">1.01 1.02 1.05 1.08 1.10 1.10 1.10 1.10 1.13 1.14 1.15 1.17 1.20 1.25 1.25</table>		
+	<table name="#TabmaxHpt">0 350 500 800 1000 1000 1000 1000 1200 1400 1800 1900 2200 2500 3000</table>
+	<table name="#TabmentalResist">0 1.0 1.05 1.06 1.07 1.07 1.07 1.07 1.07 1.07 1.10 1.10 1.12 1.13 1.15</table>
+	<table name="#TabpCritDamRcpt">0 0 0 0.03 1.05 1.05 1.05 1.05 1.06 1.06 1.10 1.11 1.13 1.14 1.15</table>
+	<table name="#TabrunSpd">0 0 0 1 3 3 3 3 3 3 4 4 4 4 5</table>
+	<table name="#Tabpower">0 0 0 0 1.05 1.05 1.05 1.10 1.10 1.10 1.12 1.13 1.14 1.15 1.20</table>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants"/>
+		<set name="icon" value="icon.tallisman_baium"/>
+		<set name="operate_type" value="P"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+	<triggers>
+            <trigger cancel_effects_on_remove="true" id="#triggerId" level="#triggerLevel" type="ADD"/>
+    </triggers>	
+		<for>
+			<mul order="0x30" stat="pAtkSpd" value="#TabpAtkSpd" />
+			<mul order="0x30" stat="pDef" value="#TabpDef" />
+			<mul order="0x30" stat="mDef" value="#TabmDef" />
+			<add order="0x40" stat="maxHp" value="#TabmaxHpt" />
+			<add order="0x40" stat="rootResist" value="#TabmentalResist" />
+			<mul order="0x30" stat="pCritDamRcpt" value="#TabpCritDamRcpt" />
+			<add order="0x40" stat="runSpd" value="#TabrunSpd" />		
+			<add order="0x40" stat="healPower" value="#Tabpower" />
+		</for>	
+	</skill>
+	
+	<skill id="60004" levels="1" name="Подвеска Дракона Земли Актив">
+		<table name="#effects">UNK_10006</table>
+		<set name="abnormal_effect" value="#effects"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants_active"/>
+		<set name="icon" value="icon.tallisman_oman_i01"/>
+		<set name="isHideStartMessage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<!--Stats only for trigger effect work.-->
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="60005" levels="1" name="Подвеска Дракона Земли - Вызов судьбе">
+		<!-- Last modify: 24.06.2009 Description: User receives mystical enlightenment for 20 seconds, increasing M. Atk. by 40%, Casting Spd. by 50% and magic critical attack rate by 50%, and decreasing MP consumption by 90%. -->
+		<set name="icon" value="icon.skill1532" />
+		<set name="reuseDelay" value="120000" />
+		<set name="hitTime" value="1500" />
+		<set name="mp_consume" value="73" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pendants_active_buffs"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+		<effect>
+<!--добавить пве урон защиту.-->
+            <mul order="0x30" stat="pvpPhysDefenceBonus" value="1.5"/>
+            <mul order="0x30" stat="pvpPhysSkillDefenceBonus" value="1.5"/>
+            <mul order="0x30" stat="pvpMagicSkillDefenceBonus" value="1.5"/>
+			<add order="0x40" stat="pDef" value="2000" />
+			<add order="0x40" stat="mDef" value="1200" />
+			<add order="0x40" stat="reflectAndBlockMSkillDam" value="50" />
+			<add order="0x40" stat="reflectAndBlockPSkillDam" value="50" />				
+		</effect>
+		</for>
+	</skill>
+<!--Подвеска Дракона Огня.-->
+<!--Подвеска Дракона Огня.-->
+<!--Подвеска Дракона Огня.-->
+<!--Подвеска Дракона Огня.-->
+<!--Подвеска Дракона Огня.-->
+	<skill id="60006" levels="15" name="Подвеска Дракона Огня 1-15">
+	<table name="#triggerLevel">0 0 0 0 1 1 1 1 1 1 1 1 1 1 1</table>
+	<table name="#triggerId">0 0 0 0 60007 60007 60007 60007 60007 60007 60007 60007 60007 60007 60007</table>
+	
+	<table name="#TabpCritDamage">1.01 1.03 1.05 1.06 1.07 1.07 1.07 1.07 1.09 1.11 1.13 1.15 1.18 1.20 1.30</table>	
+	<table name="#TabpCritRate">1 3 7 7 8 8 8 8 10 12 15 17 20 25 30</table>		
+	<table name="#TabpAtkRange">20 30 40 45 50 50 50 50 60 70 80 100 150 200 300</table>	
+	<table name="#TabmaxHpt">100 120 140 145 150 150 150 150 250 350 450 550 800 1200 1500</table>
+	<table name="#TabmentalResist">0 0 0 0 1.07 1.07 1.07 1.07 1.07 1.07 1.07 1.08 1.09 1.10 1.15</table>
+	<table name="#TabrunSpd">0 0 0 0 5 5 5 5 5 5 5 5 5 10 15</table>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants"/>
+		<set name="icon" value="icon.tallisman_baium"/>
+		<set name="operate_type" value="P"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+	<triggers>
+            <trigger cancel_effects_on_remove="true" id="#triggerId" level="#triggerLevel" type="ADD"/>
+    </triggers>	
+		<for>
+			<mul order="0x30" stat="pCritDamage" value="#TabpCritDamage" />
+			<add order="0x40" stat="pCritRate" value="#TabpCritRate" />
+			<add order="0x10" stat="pAtkRange" value="#TabpAtkRange">
+				<using kind="Bow" />
+			</add>
+			<add order="0x40" stat="maxHp" value="#TabmaxHpt" />
+			<add order="0x40" stat="rootResist" value="#TabmentalResist" />		
+			<add order="0x40" stat="runSpd" value="#TabrunSpd" />				
+		</for>	
+	</skill>
+	
+	<skill id="60007" levels="1" name="Подвеска Дракона Огня Актив">
+		<table name="#effects">UNK_10006</table>
+		<set name="abnormal_effect" value="#effects"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants_active"/>
+		<set name="icon" value="icon.tallisman_oman_i01"/>
+		<set name="isHideStartMessage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<!--Stats only for trigger effect work.-->
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="60008" levels="1" name="Подвеска Дракона Огня - Инстинкт Безумца">
+		<!-- Last modify: 24.06.2009 Description: User receives mystical enlightenment for 20 seconds, increasing M. Atk. by 40%, Casting Spd. by 50% and magic critical attack rate by 50%, and decreasing MP consumption by 90%. -->
+		<set name="icon" value="icon.skill1532" />
+		<set name="reuseDelay" value="120000" />
+		<set name="hitTime" value="1500" />
+		<set name="mp_consume" value="73" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pendants_active_buffs"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect>
+			<add order="0x40" stat="pCritRate" value="100" />
+			<mul order="0x30" stat="pCritDamage" value="1.25" />	
+			<mul order="0x30" stat="pAtkSpd" value="1.50" />	
+			<add order="0x40" stat="runSpd" value="10" />
+			<add order="0x10" stat="pAtkRange" value="300">
+				<using kind="Bow" />
+			</add>	
+			</effect>
+			<effect name="p_block_debuff" />	
+		</for>
+	</skill>
+
+<!--Подвеска Дракона Ветра.-->
+<!--Подвеска Дракона Ветра.-->
+<!--Подвеска Дракона Ветра.-->
+<!--Подвеска Дракона Ветра.-->
+<!--Подвеска Дракона Ветра.-->
+	<skill id="60009" levels="15" name="Подвеска Дракона Ветра 1-15">
+	<table name="#triggerLevel">0 0 0 0 1 1 1 1 1 1 1 1 1 1 1</table>
+	<table name="#triggerId">0 0 0 0 60010 60010 60010 60010 60010 60010 60010 60010 60010 60010 60010</table>
+	
+	<table name="#TabpAtk">1.01 1.03 1.05 1.06 1.07 1.07 1.07 1.07 1.09 1.10 1.12 1.15 1.20 1.25 1.30</table>	
+	<table name="#TabpAtkSpd">0 0 1.02 1.04 1.05 1.05 1.05 1.05 1.06 1.08 1.10 1.12 1.15 1.18 1.20</table>		
+	<table name="#TabpDef">1.01 1.02 1.03 1.04 1.05 1.05 1.05 1.05 1.05 1.07 1.08 1.10 1.15 1.17 1.20</table>	
+    <table name="#TabmDef">1.01 1.02 1.03 1.04 1.05 1.05 1.05 1.05 1.05 1.07 1.08 1.10 1.15 1.17 1.20</table>		
+	<table name="#TabmaxHpt">100 150 200 250 300 300 300 300 400 500 600 800 1000 1500 2500</table>
+	<table name="#TabmentalResist">0 0 1.05 1.07 1.07 1.07 1.07 1.07 1.08 1.09 1.10 1.12 1.13 1.15 1.20</table>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants"/>
+		<set name="icon" value="icon.tallisman_baium"/>
+		<set name="operate_type" value="P"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+	<triggers>
+            <trigger cancel_effects_on_remove="true" id="#triggerId" level="#triggerLevel" type="ADD"/>
+    </triggers>	
+		<for>
+		<mul order="0x30" stat="pAtk" value="#TabpAtk" />
+		<mul order="0x30" stat="pAtkSpd" value="#TabpAtkSpd" />	
+		<mul order="0x30" stat="pDef" value="#TabpDef" />
+		<mul order="0x30" stat="mDef" value="#TabmDef" />
+		<add order="0x40" stat="maxHp" value="#TabmaxHpt" />		
+		<add order="0x40" stat="rootResist" value="#TabmentalResist" />
+		</for>	
+	</skill>
+	
+	<skill id="60010" levels="1" name="Подвеска Дракона Ветра Актив">
+		<table name="#effects">UNK_10006</table>
+		<set name="abnormal_effect" value="#effects"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_type" value="pendants_active"/>
+		<set name="icon" value="icon.tallisman_oman_i01"/>
+		<set name="isHideStartMessage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<!--Stats only for trigger effect work.-->
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="60011" levels="1" name="Подвеска Дракона Ветра - Озарение">
+		<!-- Last modify: 24.06.2009 Description: User receives mystical enlightenment for 20 seconds, increasing M. Atk. by 40%, Casting Spd. by 50% and magic critical attack rate by 50%, and decreasing MP consumption by 90%. -->
+		<set name="icon" value="icon.skill1532" />
+		<set name="reuseDelay" value="120000" />
+		<set name="hitTime" value="1500" />
+		<set name="mp_consume" value="73" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="20"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="pendants_active_buffs"/>
+		<set name="magicLevel" value="81"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="1509">
+			<player olympiad="false" />
+		</cond>
+		<for>
+			<effect name="p_block_debuff" />
+			<effect>
+				<mul order="0x30" stat="pvpPhysDmgBonus" value="1.3" />
+				<mul order="0x30" stat="pSkillPower" value="1.3" />
+				<mul order="0x30" stat="pAtkSpd" value="1.50" />					
+			</effect>
+		</for>
+	</skill>
+	
+</list>

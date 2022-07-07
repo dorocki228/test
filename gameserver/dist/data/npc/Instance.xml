@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+
+<list>
+	<!-- Room 1 -->
+	<npc id="40514" name="Demon of the Abyss" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostWatcher" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="17738" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="1950.86007" />
+		<set name="baseMDef" value="915.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="1561.12391" />
+		<set name="basePAtkSpd" value="255" />
+		<set name="basePDef" value="825.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<faction names="abyss_clan" range="1000"/>
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="30" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="2" max="5" chance="50" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="1.5" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="5" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="10" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="0.3" /> <!-- Mid Grade Life Stone -->
+
+		</rewardlist>
+	</npc>
+	<npc id="40515" name="Maiden of the Abyss" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="800" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostWatcher" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="17738" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="1510.86007" />
+		<set name="baseMDef" value="939.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="1451.12391" />
+		<set name="basePAtkSpd" value="255" />
+		<set name="basePDef" value="942.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<faction names="abyss_clan" range="1000"/>
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="30" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="2" max="5" chance="50" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="1.5" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="5" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="10" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="0.3" /> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+	<npc id="40516" name="Warrior of the Abyss" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostWatcher" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="20738" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="1550.86007" />
+		<set name="baseMDef" value="939.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="1561.12391" />
+		<set name="basePAtkSpd" value="255" />
+		<set name="basePDef" value="842.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="80" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<faction names="abyss_clan" range="1000"/>
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="30" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="2" max="5" chance="50" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="1.5" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="5" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="10" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="0.3" /> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+
+	<!-- Room 2 -->
+	<npc id="40517" name="Abyss Worker" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="800" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostBeholder" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="21237" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="1850.86007" />
+		<set name="baseMDef" value="959.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="1861.12391" />
+		<set name="basePAtkSpd" value="255" />
+		<set name="basePDef" value="862.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<faction names="abyss_clan" range="1000"/>
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="40" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="3" max="10" chance="50" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="3" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="8" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="20" /> <!-- Portal Box -->
+		</rewardlist>
+	</npc>
+	<npc id="40518" name="Abyss Overseer" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostBeholder" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="22237" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="2100.86007" />
+		<set name="baseMDef" value="889.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="2111.12391" />
+		<set name="basePAtkSpd" value="355" />
+		<set name="basePDef" value="892.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<faction names="abyss_clan" range="1000"/>
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="40" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="3" max="10" chance="50" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="3" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="8" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="20" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="0.3" /> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+	<npc id="40519" name="Abyss Servant" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostBeholder" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="24237" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="1950.86007" />
+		<set name="baseMDef" value="989.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="1861.12391" />
+		<set name="basePAtkSpd" value="255" />
+		<set name="basePDef" value="992.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<faction names="abyss_clan" range="1000"/>
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="40" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="3" max="10" chance="50" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="3" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="8" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="20" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="0.3" /> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+
+	<!-- Room 3 -->
+	<npc id="40520" name="Xandor" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="32000" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="4050.86007" />
+		<set name="baseMDef" value="925.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="4061.12391" />
+		<set name="basePAtkSpd" value="255" />
+		<set name="basePDef" value="942.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="50" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="10" max="30" chance="70" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="15" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="100" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="100" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="1" /> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+	<npc id="40521" name="Priscilla" title="">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="32000" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="79" />
+		<set name="baseMAtk" value="3050.86007" />
+		<set name="baseMDef" value="1039.34165" />
+		<set name="baseMEN" value="10" />
+		<set name="baseMpMax" value="10097" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="3061.12391" />
+		<set name="basePAtkSpd" value="295" />
+		<set name="basePDef" value="1042.34267" />
+		<set name="baseRunSpd" value="180" />
+		<set name="baseSTR" value="43" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="66" />
+		<set name="baseWalkSpd" value="15" />
+		<set name="collision_height" value="64" />
+		<set name="collision_radius" value="21" />
+		<set name="level" value="83" />
+		<set name="rewardExp" value="61605" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="Monster" />
+		<skills>
+			<skill id="4408" level="11" />	<!--HP Increase (3x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="13" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="13" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="7" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75306" min="1" max="1" chance="50" /> <!-- Abys Frag -->
+			<reward item_id="75044" min="10" max="30" chance="70" /> <!-- Averia CP -->
+			<reward item_id="75019" min="1" max="1" chance="15" /> <!-- Ench Box A -->
+			<reward item_id="75014" min="1" max="1" chance="100" /> <!-- Gold Res -->
+			<reward item_id="75021" min="1" max="1" chance="100" /> <!-- Portal Box -->
+			<reward item_id="90013" min="1" max="1" chance="1" /> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+	<npc id="40522" name="Aragus" title="Raid Boss">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="ai.kamaloka.LabyrinthLostWarden" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="550000.8933" />
+		<set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="30.5"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMAtk" value="3750.86007"/>
+        <set name="baseMDef" value="1199.04"/>
+        <set name="baseMEN" value="10"/>
+        <set name="baseMpMax" value="10097"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="7069.2223188804512"/>
+        <set name="basePAtkSpd" value="355"/>
+        <set name="basePDef" value="1224.50599"/>
+        <set name="baseRunSpd" value="220"/>
+        <set name="baseSTR" value="43"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="66"/>
+        <set name="baseWalkSpd" value="15"/>
+        <set name="collision_height" value="64"/>
+        <set name="collision_radius" value="21"/>
+        <set name="level" value="83"/>
+        <set name="rewardExp" value="698601"/>
+        <set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="RaidBoss" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<minions>
+			<minion npc_id="40520" count="1" />
+			<minion npc_id="40521" count="1" />
+		</minions>
+		<skills>
+			<skill id="4408" level="1" />	<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="11" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="11" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="9" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+
+			<skill id="86" level="3" />
+			<skill id="927" level="14" />
+			<skill id="4424" level="4" />  <!--Fist Resist -->
+			<skill id="4427" level="4" />  <!--Sword Resist -->
+			<skill id="1367" level="1" />
+
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="75016" min="1" max="1" chance="0.5" /> <!--Reuse LOA -->
+
+			<reward item_id="75306" min="1" max="2" chance="80"/> <!--Abyss Frag-->
+			<reward item_id="75306" min="1" max="2" chance="80"/> <!--Abyss Frag -->
+			<reward item_id="75306" min="1" max="2" chance="80"/> <!--Abyss Frag-->
+
+			<reward item_id="75044" min="50" max="100" chance="70"/> <!--Averia CP -->
+			<reward item_id="75044" min="50" max="100" chance="70"/> <!--Averia CP -->
+
+			<reward item_id="75001" min="1" max="1" chance="1"/> <!--Raid Stone -->
+
+			<!--STAGE2NTC-->
+			<!--<reward item_id="270" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="236" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="81" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="151" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="80" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="288" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="164" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;-->
+
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+			<reward item_id="90013" min="1" max="1" chance="10"/> <!-- Mid Grade Life Stone -->
+		</rewardlist>
+	</npc>
+
+	<!-- Room 4 -->
+	<npc id="40523" name="Ederius" title="Raid Boss">
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="SWORD" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.58" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="Fighter" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="baseDEX" value="42" />
+		<set name="baseHpMax" value="650000.8933" />
+		<set name="baseHpRate" value="1" />
+        <set name="baseHpReg" value="30.5"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMAtk" value="5730.67"/>
+        <set name="baseMDef" value="1350.34165"/>
+        <set name="baseMEN" value="10"/>
+        <set name="baseMpMax" value="10097"/>
+        <set name="baseMpReg" value="10.7"/>
+        <set name="basePAtk" value="8800.22"/>
+        <set name="basePAtkSpd" value="445"/>
+        <set name="basePDef" value="1484.34267"/>
+        <set name="baseRunSpd" value="220"/>
+        <set name="baseSTR" value="43"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="66"/>
+        <set name="baseWalkSpd" value="15"/>
+        <set name="collision_height" value="64"/>
+        <set name="collision_radius" value="21"/>
+        <set name="level" value="84"/>
+        <set name="rewardExp" value="1111605"/>
+        <set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1500" />
+		<set name="texture" value="" />
+		<set name="type" value="kamaloka.LostCaptain" />
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<skills>
+			<skill id="4408" level="1" />	<!--HP Increase (1x) -->
+			<skill id="4409" level="1" />	<!--MP Increase (1x) -->
+			<skill id="4410" level="11" />	<!--Slightly Strong P. Atk. -->
+			<skill id="4411" level="11" />	<!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="7" />	<!--Very Strong P. Def. -->
+			<skill id="4413" level="11" />	<!--Slightly Weak M. Def. -->
+			<skill id="4414" level="2" />	<!--Standard Type -->
+			<skill id="4415" level="5" />	<!--Blunt Weapons -->
+			<skill id="4416" level="11" />	<!--Giants -->
+			<skill id="4439" level="2" />	<!--Greater Resist Hold -->
+			<skill id="1495" level="1" />
+			<skill id="1337" level="1" />
+			<skill id="1361" level="1" />
+			<skill id="1381" level="6" />
+			<skill id="315" level="16" />
+			<skill id="4424" level="4" />  <!--Fist Resist -->
+			<skill id="4427" level="4" />  <!--Sword Resist -->
+			<skill id="4002" level="6" use_type="DDMagic" />	<!--Blood Siphon -->
+		</skills>
+		<rewardlist type="RATED_NOT_GROUPED">
+			<reward item_id="57" min="10" max="130" chance="100" /> <!--Adena -->
+			<reward item_id="57" min="10" max="130" chance="100" /> <!--Adena -->
+			<reward item_id="57" min="10" max="130" chance="100" /> <!--Adena -->
+			<reward item_id="57" min="10" max="130" chance="100" /> <!--Adena -->
+
+			<reward item_id="75016" min="1" max="1" chance="0.5" /> <!--Reuse LOA -->
+			<reward item_id="75016" min="1" max="1" chance="0.5" /> <!--Reuse LOA -->
+
+			<reward item_id="75306" min="1" max="2" chance="90" /> <!--Abyss Frag-->
+			<reward item_id="75306" min="1" max="2" chance="90" /> <!--Abyss Frag-->
+			<reward item_id="75306" min="1" max="2" chance="90" /> <!--Abyss Frag-->
+			<reward item_id="75306" min="1" max="2" chance="90"/> <!--Abyss Frag -->
+			<reward item_id="75306" min="1" max="2" chance="90"/> <!--Abyss Frag-->
+
+			<reward item_id="75044" min="50" max="100" chance="90"/> <!--Averia CP -->
+			<reward item_id="75044" min="50" max="100" chance="90"/> <!--Averia CP -->
+			<reward item_id="75044" min="50" max="100" chance="90"/> <!--Averia CP -->
+			<reward item_id="75044" min="50" max="100" chance="90"/> <!--Averia CP -->
+
+			<reward item_id="75001" min="1" max="1" chance="1"/> <!--Raid Stone -->
+
+			<!--STAGE2NTC-->
+			<!--<reward item_id="8684" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="8680" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="8682" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="8683" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="8687" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="8688" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;
+			<reward item_id="8679" min="1" max="1" chance="0.1" /> &lt;!&ndash;Low/Mid A Weap &ndash;&gt;-->
+
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+			<reward item_id="75019" min="1" max="1" chance="10"/> <!--Ench Box A gr -->
+
+			<reward item_id="77400" min="1" max="1" chance="20"/> <!-- Life Stone Box -->
+			<reward item_id="77400" min="1" max="1" chance="20"/> <!-- Life Stone Box -->
+			<reward item_id="77400" min="1" max="1" chance="20"/> <!-- Life Stone Box -->
+			<reward item_id="77400" min="1" max="1" chance="20"/> <!-- Life Stone Box -->
+			<reward item_id="77400" min="1" max="1" chance="20" /> <!-- Life Stone Box -->
+
+			<reward item_id="70005" min="1" max="1" chance="10" /> <!-- Sealed Rune 6 -->
+			<reward item_id="70005" min="1" max="1" chance="10" /> <!-- Sealed Rune 6 -->
+			<reward item_id="70005" min="1" max="1" chance="10" /> <!-- Sealed Rune 6 -->
+			<reward item_id="70005" min="1" max="1" chance="10" /> <!-- Sealed Rune 6 -->
+		</rewardlist>
+	</npc>
+
+	<!-- Enter -->
+	<npc id="40524" name="Tiratas" title="LOA">
+		<set name="isServerSideName" value="false" />
+		<set name="isServerSideTitle" value="false" />
+		<set name="type" value="Kamaloka" />
+		<set name="validInstanceIds" value="79"/>
+		<set name="ai_type" value="NpcAI" />
+		<set name="collision_height" value="1" />
+		<set name="collision_radius" value="1" />
+		<set name="level" value="1" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="baseHpMax" value="39.74519" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="2" />
+		<set name="baseMpMax" value="40" />
+		<set name="baseMpReg" value="0.9" />
+		<set name="baseSTR" value="40" />
+		<set name="baseCON" value="43" />
+		<set name="baseDEX" value="30" />
+		<set name="baseINT" value="21" />
+		<set name="baseMEN" value="10" />
+		<set name="baseWIT" value="20" />
+		<set name="basePCritRate" value="10" />
+		<set name="baseMCritRate" value="50" />
+		<set name="basePAtk" value="8.47458" />
+		<set name="basePDef" value="44.44444" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="baseMAtk" value="5.78704" />
+		<set name="baseMDef" value="32.52252" />
+		<set name="baseWalkSpd" value="50" />
+		<set name="baseRunSpd" value="100" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseRandDam" value="50" />
+		<set name="baseAttackType" value="BLUNT" />
+		<set name="basePHitModify" value="9" />
+		<set name="basePAvoidModify" value="0" />
+		<set name="baseHitTimeFactor" value="0.6" />
+		<set name="baseReuseDelay" value="0" />
+		<set name="baseSafeHeight" value="100" />
+		<set name="aggroRange" value="0" />
+		<set name="shots" value="NONE" />
+	</npc>
+
+	<!-- Exit -->
+	<npc id="40525" name="Escape Device" title="Labyrinth of Abyss">
+		<set name="aggroRange" value="0" />
+		<set name="ai_type" value="CharacterAI" />
+		<set name="baseAtkRange" value="40" />
+		<set name="baseAtkType" value="SWORD" />
+		<set name="baseCON" value="43" />
+		<set name="baseCritRate" value="40" />
+		<set name="baseDEX" value="30" />
+		<set name="baseHpMax" value="2444.468" />
+		<set name="baseHpRate" value="1" />
+		<set name="baseHpReg" value="30.5" />
+		<set name="baseINT" value="21" />
+		<set name="baseMAtk" value="780" />
+		<set name="baseMAtkSpd" value="500" />
+		<set name="baseMDef" value="382" />
+		<set name="baseMEN" value="20" />
+		<set name="baseMpMax" value="1345.8" />
+		<set name="baseMpReg" value="2.7" />
+		<set name="basePAtk" value="1303" />
+		<set name="basePAtkSpd" value="253" />
+		<set name="basePDef" value="471" />
+		<set name="baseRunSpd" value="120" />
+		<set name="baseSTR" value="40" />
+		<set name="baseShldDef" value="0" />
+		<set name="baseShldRate" value="0" />
+		<set name="baseWIT" value="20" />
+		<set name="baseWalkSpd" value="80" />
+		<set name="collision_height" value="51.5" />
+		<set name="collision_radius" value="15.0" />
+		<set name="level" value="70" />
+		<set name="rewardExp" value="0" />
+		<set name="rewardRp" value="0" />
+		<set name="rewardSp" value="0" />
+		<set name="soulshot_count" value="0" />
+		<set name="spiritshot_count" value="0" />
+
+		<set name="type" value="Teleporter" />
+		<skills>
+			<skill id="4416" level="2" />	<!--Magic Creatures-->
+		</skills>
+		<attributes>
+			<defence attribute="fire" value="150" />
+			<defence attribute="water" value="150" />
+			<defence attribute="wind" value="150" />
+			<defence attribute="earth" value="150" />
+			<defence attribute="holy" value="150" />
+			<defence attribute="unholy" value="150" />
+		</attributes>
+	</npc>
+
+</list>

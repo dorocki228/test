@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "artifact.dtd">
+<list>
+    <!-- Artifact of Strength -->
+    <artifact id="1" stringName="artifact.1" npcId="40503" loc="81736,83048,-3424" protectTime="120">
+        <spawn_groups>
+            <fraction type="WATER">
+                <group name="as_guards_w"/>
+            </fraction>
+            <fraction type="FIRE">
+                <group name="as_guards_f"/>
+            </fraction>
+        </spawn_groups>
+        <teleport_locations>
+            <location x="80168" y="81352" z="-3616"/>
+            <location x="83320" y="81480" z="-3608"/>
+            <location x="82648" y="85560" z="-3264"/>
+        </teleport_locations>
+        <rewardSkills>
+            <skill id="56041" level="1"/>
+        </rewardSkills>
+        <rewardItems>
+            <item itemId="57" count="300"/>
+        </rewardItems>
+        <params>
+            <param name="rewardRadius" value="2000"/>
+        </params>
+    </artifact>
+
+    <!-- Artifact of Intelligence -->
+    <artifact id="2" stringName="artifact.2" npcId="40504" loc="60456,88392,-3600" protectTime="120">
+        <spawn_groups>
+            <fraction type="WATER">
+                <group name="ai_guards_w"/>
+            </fraction>
+            <fraction type="FIRE">
+                <group name="ai_guards_f"/>
+            </fraction>
+        </spawn_groups>
+        <teleport_locations>
+            <location x="58168" y="89976" z="-3616"/>
+            <location x="59560" y="85592" z="-3568"/>
+            <location x="63880" y="88712" z="-3616"/>
+        </teleport_locations>
+        <rewardSkills>
+            <skill id="56042" level="1"/>
+        </rewardSkills>
+        <rewardItems>
+            <item itemId="57" count="300"/>
+        </rewardItems>
+        <params>
+            <param name="rewardRadius" value="2000"/>
+        </params>
+    </artifact>
+
+    <!-- Artifact of Dexterity -->
+    <artifact id="3" stringName="artifact.3" npcId="40505" loc="44536,69928,-3264" protectTime="120">
+        <spawn_groups>
+            <fraction type="WATER">
+                <group name="ad_guards_w"/>
+            </fraction>
+            <fraction type="FIRE">
+                <group name="ad_guards_f"/>
+            </fraction>
+        </spawn_groups>
+        <teleport_locations>
+            <location x="44232" y="72824" z="-3600"/>
+            <location x="41687" y="69512" z="-3344"/>
+            <location x="47064" y="69928" z="-3296"/>
+        </teleport_locations>
+        <rewardSkills>
+            <skill id="56043" level="1"/>
+        </rewardSkills>
+        <rewardItems>
+            <item itemId="57" count="300"/>
+        </rewardItems>
+        <params>
+            <param name="rewardRadius" value="2000"/>
+        </params>
+    </artifact>
+
+    <!-- Artifact of Wit -->
+    <artifact id="4" stringName="artifact.4" npcId="40506" loc="81112,72568,-3472" protectTime="120">
+        <spawn_groups>
+            <fraction type="WATER">
+                <group name="aw_guards_w"/>
+            </fraction>
+            <fraction type="FIRE">
+                <group name="aw_guards_f"/>
+            </fraction>
+        </spawn_groups>
+        <teleport_locations>
+            <location x="80312" y="69880" z="-3488"/>
+            <location x="83624" y="71224" z="-3328"/>
+            <location x="81976" y="75080" z="-3712"/>
+        </teleport_locations>
+        <rewardSkills>
+            <skill id="56044" level="1"/>
+        </rewardSkills>
+        <rewardItems>
+            <item itemId="57" count="300"/>
+        </rewardItems>
+        <params>
+            <param name="rewardRadius" value="2000"/>
+        </params>
+    </artifact>
+
+    <!-- Artifact of Constitution -->
+    <artifact id="5" stringName="artifact.5" npcId="40507" loc="86472,57992,-3712" protectTime="120">
+        <spawn_groups>
+            <fraction type="WATER">
+                <group name="ac_guards_w"/>
+            </fraction>
+            <fraction type="FIRE">
+                <group name="ac_guards_f"/>
+            </fraction>
+        </spawn_groups>
+        <teleport_locations>
+            <location x="88024" y="55384" z="-3520"/>
+            <location x="89351" y="59319" z="-3584"/>
+            <location x="84744" y="59768" z="-3584"/>
+        </teleport_locations>
+        <rewardSkills>
+            <skill id="56045" level="1"/>
+        </rewardSkills>
+        <rewardItems>
+            <item itemId="57" count="300"/>
+        </rewardItems>
+        <params>
+            <param name="rewardRadius" value="2000"/>
+        </params>
+    </artifact>
+
+    <!-- Artifact of Mental Strength -->
+    <artifact id="6" stringName="artifact.6" npcId="40508" loc="42728,61592,-3520" protectTime="120">
+        <spawn_groups>
+            <fraction type="WATER">
+                <group name="am_guards_w"/>
+            </fraction>
+            <fraction type="FIRE">
+                <group name="am_guards_f"/>
+            </fraction>
+        </spawn_groups>
+        <teleport_locations>
+            <location x="42408" y="59016" z="-3640"/>
+            <location x="45160" y="61272" z="-3552"/>
+            <location x="42648" y="64344" z="-3664"/>
+        </teleport_locations>
+        <rewardSkills>
+            <skill id="56046" level="1"/>
+        </rewardSkills>
+        <rewardItems>
+            <item itemId="57" count="300"/>
+        </rewardItems>
+        <params>
+            <param name="rewardRadius" value="2000"/>
+        </params>
+    </artifact>
+</list>

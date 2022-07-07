@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (PhantomSet)*>
+<!ELEMENT helm EMPTY>
+<!ATTLIST helm
+	item_id CDATA #REQUIRED
+>
+<!ELEMENT gloves EMPTY>
+<!ATTLIST gloves
+	item_id CDATA #REQUIRED
+>
+<!ELEMENT gaiter EMPTY>
+<!ATTLIST gaiter
+	item_id CDATA #REQUIRED 
+>
+<!ELEMENT chest EMPTY>
+<!ATTLIST chest
+	item_id CDATA #REQUIRED
+>
+<!ELEMENT boots EMPTY>
+<!ATTLIST boots
+	item_id CDATA #REQUIRED
+>
+<!ELEMENT shield EMPTY>
+<!ATTLIST shield
+	item_id CDATA #REQUIRED
+>
+<!ELEMENT PhantomSet ((helm, chest, gaiter, gloves, boots, shield))>
+<!ATTLIST PhantomSet
+	class_id CDATA #REQUIRED
+	grade CDATA #REQUIRED 
+>

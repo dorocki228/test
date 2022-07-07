@@ -1,0 +1,183 @@
+<html>
+<head><title>Glory World — Admin Panel</title>
+    <center>
+        <table width=260>
+            <tr>
+                <td>
+                    <button action="bypass -h admin_admin" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"
+                            height=20
+                            value="Main" width=50>
+                </td>
+                <td>
+                    <button action="bypass -h admin_events" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"
+                            height=20
+                            value="Events" width=50>
+                </td>
+                <td>
+                    <button action="bypass -h admin_char_manage" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20
+                            value="Chars" width=50>
+                </td>
+                <td>
+                    <button action="bypass -h admin_server admserver.htm" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20
+                            value="Server" width=50>
+                </td>
+                <td>
+                    <button action="bypass -h admin_gmshop" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"
+                            height=20
+                            value="GM Shop" width=50>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <br>
+
+    <center>
+        <table width=260>
+            <tr>
+                <td align="center">
+                    <button action="bypass -h admin_show_html setclass.htm" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20
+                            value="Edit Class" width=100>
+                </td>
+                <td align="center">
+                    <button action="bypass -h admin_show_moves" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"
+                            height=20
+                            value="Teleport Menu" width=100>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button action="bypass -h admin_residence_list" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20
+                            value="Residences" width=100>
+                </td>
+                <td align="center">
+                    <button action="bypass -h admin_enchant" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"
+                            height=20
+                            value="++ Enchant ++" width=100>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button action="bypass -h admin_show_html olympiad.htm" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20
+                            value="Olympiad" width=100>
+                </td>
+                <td align="center">
+                    <button action="bypass -h admin_list_announcements" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20 value="Announcements" width=100>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button action="bypass -h admin_show_html pledgemanage.htm" back="L2UI_CT1.Button_DF_Down"
+                            fore="L2UI_CT1.Button_DF" height=20
+                            value="Clans" width=100>
+                </td>
+                <td align="center">
+                    <button action="bypass -h admin_gve_zones" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"
+                            height=20 value="GvE Zones" width=100>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+
+                </td>
+                <td align="center">
+
+                </td>
+            </tr>
+        </table>
+    </center>
+    <center>Teleports:</center>
+    <br1>
+        <center>
+            <table width="260">
+                <tr>
+                    <td align="center">
+                        <font color="LEVEL">
+                            <button action="bypass -h admin_move_to 208098 89784 -1048"
+                                    back="L2UI_ct1.Button_DF_Msn_Down"
+                                    fore="L2UI_ct1.Button_DF_Msn" height=21 value="GM ROOM" width=100>
+                        </font>
+                        <br1>
+                    </td>
+                    <td align="center">
+                        <font color="LEVEL">
+                            <button action="bypass -h admin_move_to -54121 179319 -4640"
+                                    back="L2UI_ct1.Button_DF_Msn_Down"
+                                    fore="L2UI_ct1.Button_DF_Msn" height=21 value="Start" width=100>
+                        </font>
+                        <br1>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <font color="LEVEL">
+                            <button action="bypass -h admin_move_to 60144 68619 -3024"
+                                    back="L2UI_ct1.Button_DF_Msn_Down"
+                                    fore="L2UI_ct1.Button_DF_Msn" height=21 value="Northern" width=100>
+                        </font>
+                        <br1>
+                    </td>
+                    <td align="center">
+                        <font color="LEVEL">
+                            <button action="bypass -h admin_move_to 13336 169807 -3712"
+                                    back="L2UI_ct1.Button_DF_Msn_Down"
+                                    fore="L2UI_ct1.Button_DF_Msn" height=21 value="Fishing" width=100>
+                        </font>
+                        <br1>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <br>
+        <br1>
+            <center>
+                Fast Commands:
+                <edit height=12 var="menu_command" width=100>
+            </center>
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <button action="bypass -h admin_kick $menu_command" back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" height=20
+                                    value="Kick" width=40>
+                        </td>
+                        <td>
+                            <button action="bypass -h admin_kill" back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" height=20
+                                    value="Kill" width=40>
+                        </td>
+                        <td>
+                            <button action="bypass -h admin_delete" back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" height=20
+                                    value="Delete" width=40>
+                        </td>
+                        <td>
+                            <button action="bypass -h admin_ban $menu_command" back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" height=20
+                                    value="Ban" width=40>
+                        </td>
+                        <td>
+                            <button action="bypass -h admin_invis" back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" height=20
+                                    value="Invis" width=40>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button action="bypass -h admin_setkarma $menu_command" back="L2UI_CT1.Button_DF_Down"
+                                    fore="L2UI_CT1.Button_DF" height=20
+                                    value="Karma" width=40>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <br>
+
+            </head>
+</html>

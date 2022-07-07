@@ -1,0 +1,15 @@
+<!ELEMENT list (items*) >
+<!ELEMENT items (item*) >
+   <!ATTLIST items ispackage CDATA #IMPLIED  >
+   <!ATTLIST items signboard CDATA #IMPLIED  >
+   <!ATTLIST items typeOfShop CDATA #IMPLIED  >
+   <!ATTLIST items town CDATA #IMPLIED  >
+   <!ATTLIST items ads_time CDATA #IMPLIED  >
+   <!ATTLIST items ads_chance CDATA #IMPLIED  >
+<!ELEMENT item EMPTY >
+   <!ATTLIST items ads CDATA #IMPLIED  >
+   <!ATTLIST item id CDATA #IMPLIED  >
+   <!ATTLIST item itemcount CDATA #IMPLIED  >
+   <!ATTLIST item itemprice CDATA #IMPLIED  >
+   <!ATTLIST item enchant_min CDATA #IMPLIED  >
+   <!ATTLIST item enchant_max CDATA #IMPLIED  >

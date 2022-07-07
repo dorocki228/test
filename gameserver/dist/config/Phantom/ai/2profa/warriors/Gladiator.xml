@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="2" class_name="Gladiator">
+		<nuke_skills ChanceCastOnMonster="25">
+			<skill id="261" /> <!-- Тройное Звуковое Рассечение (Triple Sonic Slash) -->
+			<skill id="1" /> <!-- Тройное Рассечение (Triple Slash) -->
+			<skill id="5" /> <!-- Двойной Звуковой Разрез (Double Sonic Slash) -->
+			<skill id="6" condition="MIN_DISTANCE:200;CHANCE_CAST:40" /> <!-- Звуковой Импульс (Sonic Blaster) -->
+		</nuke_skills>
+		<control_skills>
+			<skill id="451" condition="MIN_DISTANCE:250"/> <!-- Звуковое Движение (Sonic Move)-->
+			<skill id="994" condition="MIN_DISTANCE:120"/> <!-- Стремительный Бросок (Rush)-->			
+		</control_skills>
+		<self_buff_skills>
+			<skill id="297" /> <!-- Дух Дуэлянта (Duelist Spirit) -->
+			<skill id="78" /> <!-- Клич Войны (War Cry)-->
+			<skill id="312" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(312);MAX_MP:50"/> <!-- Боевая стойка коварства Вкл-->
+			<skill id="312" condition="ONLY_PLAYER;SELF_SKILL_EFFECT:(312);MIN_MP:30;CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства Выкл-->
+			<skill id="287" condition="ONLY_PLAYER" /> <!-- Львиное Сердце (Lionheart)  -->
+<!--			<skill id="75" condition="ONLY_MONSTER;NPC_RACE:(BUG)"/> &lt;!&ndash; Найти Уязвимость Насекомых (Detect Insect Weakness)&ndash;&gt;-->
+<!--			<skill id="80" condition="ONLY_MONSTER;NPC_RACE:(BEAST)"/> &lt;!&ndash; Найти Уязвимость Чудовищ (Detect Beast Weakness)&ndash;&gt;-->
+<!--			<skill id="87" condition="ONLY_MONSTER;NPC_RACE:(ANIMAL)"/> &lt;!&ndash; Найти Уязвимость Животных (Detect Animal Weakness)&ndash;&gt;-->
+<!--			<skill id="88" condition="ONLY_MONSTER;NPC_RACE:(DRAGON)"/> &lt;!&ndash; Найти Уязвимость Драконов (Detect Dragon Weakness)&ndash;&gt;-->
+<!--			<skill id="104"  condition="ONLY_MONSTER;NPC_RACE:(PLANT)"/> &lt;!&ndash; Найти Уязвимость Растений (Detect Plant Weakness)&ndash;&gt;-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="121" condition="MIN_HP:50"/> <!-- Боевой Рев (Battle Roar) -->
+			<skill id="8" condition="CHARGING"/> <!-- Фокусировка Звука (Sonic Focus)-->
+		</situation_skills>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

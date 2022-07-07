@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Glory World - Sub-Class Manager</title>
+</head>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=350 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td align=center>
+			<table width="262" cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="35"></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<font color=ffa500>Sub-Class Manager</font>
+					</td>
+				</tr>
+				<tr>
+					<td height="40"></td>
+				</tr>
+				<tr>
+					<td align=center>
+						<button action="bypass -h npc_%objectId%_subclass_add"  ALIGN=LEFT ICON="NORMAL">Add sub-class</button>
+						<button action="bypass -h npc_%objectId%_subclass_change"  ALIGN=LEFT ICON="NORMAL">Change sub-class</button>
+						<button action="bypass -h npc_%objectId%_subclass_cancel"  ALIGN=LEFT ICON="NORMAL">Remove sub-class</button>
+					</td>
+				</tr>
+				<tr>
+					<td height="25"></td>
+				</tr>
+				<tr>
+					<td align="center">
+						You can take up to <font color=ffa500>5</font>  new sub-classes.
+					</td>
+				</tr>
+			</table>
+			<table width="260" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="35"></td>
+				</tr>
+				<tr>
+					<td>
+						You can also learn additional passive<br1>
+						skills for special items that can be obtained<br1>
+						by character developing and sub-class.<br>
+					</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td>
+                        <font color=ffa500>
+                            <button action="bypass -h htmbypass_services.SubsSkills:list 0" ALIGN=LEFT ICON="NORMAL">
+                                Learn sub-skills
+                            </button>
+                        </font>
+                        <button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.SubsSkills:removeAll">
+                            Delete all sub-skills [500 Adena]
+                        </button>
+                    </td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body></html>

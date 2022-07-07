@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT use_item EMPTY>
+<!ATTLIST use_item
+	count CDATA #REQUIRED
+	delay_max CDATA #REQUIRED
+	delay_min CDATA #REQUIRED
+	item_id CDATA #REQUIRED
+>
+<!ELEMENT target EMPTY>
+<!ATTLIST target
+	npc_id CDATA #REQUIRED
+>
+<!ELEMENT trader EMPTY>
+<!ATTLIST trader
+	count_max CDATA #REQUIRED
+	count_min CDATA #REQUIRED
+>
+<!ELEMENT superpoint ((point+))>
+<!ATTLIST superpoint
+	moveType (ROUND | RANDOM | LENGTH | FINISH | DELETE | CHANGE_TYPE) #REQUIRED
+	name CDATA #REQUIRED
+	phantomType CDATA #IMPLIED
+	inst_id CDATA #IMPLIED
+	textPartyRoom CDATA #IMPLIED
+	running CDATA #REQUIRED
+	lvl CDATA #IMPLIED
+>
+<!ELEMENT point_random EMPTY>
+<!ATTLIST point_random
+	rnd CDATA #REQUIRED
+>
+<!ELEMENT point (mount_agation | mount_pet | trader | delay | point_random | target | use_item )*>
+<!ATTLIST point
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	z CDATA #REQUIRED
+>
+<!ELEMENT mount_pet EMPTY>
+<!ATTLIST mount_pet
+	delay_max CDATA #REQUIRED
+	delay_min CDATA #REQUIRED
+	pet_id CDATA #REQUIRED
+>
+<!ELEMENT mount_agation EMPTY>
+<!ATTLIST mount_agation
+	agation CDATA #REQUIRED
+	delay_max CDATA #REQUIRED
+	delay_min CDATA #REQUIRED
+>
+<!ELEMENT list ((superpoint+))>
+<!ELEMENT delay EMPTY>
+<!ATTLIST delay
+	max_sec CDATA #REQUIRED
+	min_sec CDATA #REQUIRED
+>

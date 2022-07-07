@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "spamfilter.dtd">
+<list>
+	<config>
+		<!-- Включен ли спам фильтр -->
+		<set name="enable" value="true"/>
+		<!-- Блокировть спам сообщения -->
+		<set name="block_spam" value="true"/>
+		<!-- Отправлять фейк сообщения для спамера -->
+		<set name="dummy_spam" value="true"/>
+		<!-- Уведомлять администрацию в игре о возможных спамерах -->
+		<set name="notify_gm" value="true"/>
+		<!-- Логировать отловленый спам -->
+		<set name="logging" value="true"/>
+		<!-- Количество сообщений которые будут приравнены к спаму если они одинаковы и были отправлены с одинаковым промежутком времени -->
+		<set name="messages_to_spam" value="3"/>
+		<!-- Количество штрафных баллов, после которых игрок будет считатся спамером -->
+		<set name="penalties_to_spam" value="50"/>
+	</config>
+	<!-- Все правила указываются в нижнем регистре -->
+	<rule pattern="(adena-vip)" penalty="100"/>
+	<rule pattern="(adenareal)" penalty="100"/>
+	<rule pattern="(skype|скайп)" penalty="25"/>
+	<rule pattern="([0-9]+)(rub|руб|wmr|r|р|p|col|don|coin|кол|колов|соL|Cоl|сОl|COL|kk|\$|euro|евро|wmz)([\s]+?)(\s|\-|\=)([\s]+?)([0-9]+)(rub|руб|wmr|r|р|p|col|don|coin|кол|колов|соL|Cоl|сОl|COL|kk|\$|euro|евро|wmz)" penalty="100"/>
+</list>

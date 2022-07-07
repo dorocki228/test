@@ -1,0 +1,110 @@
+#* @vtlvariable name="costumes" type="java.util.List<l2s.gameserver.handler.voicecommands.impl.Costumes.Costume>" *#
+#* @vtlvariable name="showCostumesVar" type="java.lang.Boolean" *#
+<html>
+<head>
+    <title>Смена Внешнего Вида</title>
+</head>
+<body>
+<table cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+    <tr>
+        <td align="center">
+            <table>
+                <tr>
+                    <td height="5"></td>
+                </tr>
+            </table>
+            <table width=290>
+                <tr>
+                    <td height="20" align="center">
+                        Для надевания костюма нужно что-бы на
+                        <br1>
+                            персонаже была <font name="hs8" color="f58000">надета броня</font>.
+                                <br1>
+									Чтобы отключить отображение костюмов на других
+                                    <br1>
+                                        игроках, нажми кнопку <font name="hs8" color="f58000">"Выкл"</font> внизу диалога.
+                                        <br1>
+                                            После нажатия нужно <font name="hs8" color="f58000">сделать релогин</font>, чтобы
+                                            <br1>
+                                                костюмы перестали отображаться.
+                                                <br1>
+                    </td>
+                </tr>
+                <tr>
+                    <td height=20"></td>
+                </tr>
+            </table>
+            #if($costumes.empty == false)
+                <table cellspacing=0 cellpadding=0 width=290 height=160>
+                    <tr>
+                        <td align="center">
+                            #foreach ($costume in $costumes)
+                                #if ($foreach.count % 2 == 0)
+                                    #set ($bgcolor = "3d3d3d")
+                                #else
+                                    #set ($bgcolor = "2b2b2b")
+                                #end
+                                <table cellspacing=0 cellpadding=0 bgcolor="$bgcolor" width=275 height="33">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <img src="icon.$costume.icon" width="32" height="32"/>
+                                        </td>
+                                        <td align="center" width="150">
+                                            <font name="hs9" color="ffa000">$costume.name</font>
+                                        </td>
+                                        #if ($costume.equipped)
+                                            <td align="center" valign="center">
+                                                <button value="Снять" action="bypass -h user_setcostume 0 $costume.objId" width=60 height=32
+                                                        back="L2UI_CT1.Button_DF_Small_Toggle_Down"
+                                                        fore="L2UI_CT1.Button_DF_Small_Toggle"/>
+                                            </td>
+                                        #else
+                                            <td align="center" valign="center">
+                                                <button value="Надеть" action="bypass -h user_setcostume $costume.id" width=60
+                                                        height=32
+                                                        back="L2UI_CT1.Button_DF_Small_Toggle_Down"
+                                                        fore="L2UI_CT1.Button_DF_Small_Toggle"/>
+                                            </td>
+                                        #end
+                                    </tr>
+                                </table>
+                            #end
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                </table>
+            #end
+            <table width=200>
+                <tr>
+                    <td align="center">
+                        <font color="f58000">Отображение костюмов на других:</font>
+                    </td>
+                </tr>
+            </table>
+            <table width=100>
+                <tr>
+                    #if ($showCostumesVar)
+                        <td align="center">
+                            <button value="Выкл" action="bypass -h user_showcostumes false" width=60 height=20
+                                    back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"/>
+                        </td>
+                    #else
+                        <td align="center">
+                            <button value="Вкл" action="bypass -h user_showcostumes true" width=60 height=20
+                                    back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"/>
+                        </td>
+                    #end
+                </tr>
+                <tr>
+                    <td height="10"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>	
+<config no_tax="true" />
+<!--LOA Shop-->
+		<item>
+		<production id="75003" count="1"/>    <!--[эполет]-->
+		<ingredient id="75306" count="5"/>    <!--[Фрагмент]-->
+	</item>
+	<item>
+		<production id="75305" count="1"/>    <!-- Necklace of Confrontation -->
+		<ingredient id="75306" count="200"/>
+	</item>
+	<item>
+        <production id="75047" count="1"/>    <!-- Special Pirate Fruit -->
+        <ingredient id="75306" count="5"/>
+    </item>
+    <item>
+        <production id="75044" count="250"/>    <!-- GCP -->
+        <ingredient id="75306" count="5"/>
+    </item>
+    <item>
+        <production id="76010" count="1"/>    <!-- Box with Rune of Adena 1h -->
+        <ingredient id="75306" count="15"/>
+    </item>
+    <item>
+        <production id="76008" count="1"/>    <!-- Box with Rune of EXP 5h -->
+        <ingredient id="75306" count="10"/>
+    </item>
+    <item>
+        <production id="75021" count="1"/>    <!-- Portal Box -->
+        <ingredient id="75306" count="1"/>
+    </item>
+	<item>		
+		<production id="75010" count="1" /> 	<!-- Coupon Accessory -->
+		<ingredient id="75306" count="70" />
+	</item>
+	<item>
+		<production id="77224" count="1" /> 	<!-- Enchant 5% -->
+		<ingredient id="75306" count="5" />
+	</item>
+	<item>
+		<production id="77223" count="1" /> 	<!-- Enchant 10% -->
+		<ingredient id="75306" count="10" />
+	</item>
+    <item>
+        <production id="90013" count="1"/>    <!-- Mid Life Stone -->
+        <ingredient id="75306" count="5"/>
+    </item>
+    <item>
+        <production id="90014" count="1"/>    <!-- High Life Stone -->
+        <ingredient id="75306" count="15"/>
+    </item>
+    <item>
+        <production id="90015" count="1"/>    <!-- Top Life Stone -->
+        <ingredient id="75306" count="25"/>
+    </item>
+
+<!--	Buffs-->
+    <item>
+        <production id="70040" count="1"/>    <!-- STR -->
+        <ingredient id="75306" count="3"/>
+    </item>
+    <item>
+        <production id="70041" count="1"/>    <!-- INT -->
+        <ingredient id="75306" count="3"/>
+    </item>
+    <item>
+        <production id="70042" count="1"/>    <!-- CON -->
+        <ingredient id="75306" count="3"/>
+    </item>
+    <item>
+        <production id="70043" count="1"/>    <!-- DEX -->
+        <ingredient id="75306" count="3"/>
+    </item>
+    <item>
+        <production id="70044" count="1"/>    <!-- MEN -->
+        <ingredient id="75306" count="3"/>
+    </item>
+    <item>
+        <production id="70045" count="1"/>    <!-- WIT -->
+        <ingredient id="75306" count="3"/>
+    </item>
+
+</list>

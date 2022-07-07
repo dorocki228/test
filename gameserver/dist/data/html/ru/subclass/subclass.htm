@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Glory World - Sub-Class Manager</title>
+	</head>
+<body>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=350 background="L2UI_CH3.refinewnd_back_Pattern">
+		<tr>
+			<td align=center>
+				<table width="262" cellspacing="0" cellpadding="0">
+					<tr>
+						<td height="35"></td>
+					</tr>
+					<tr>
+						<td align="center">
+							<font color=ffa500>Sub-Class Manager</font>
+						</td>
+					</tr>
+					<tr>
+						<td height="40"></td>
+					</tr>
+					<tr>
+						<td align=center>
+							<button action="bypass -h npc_%objectId%_subclass_add"  ALIGN=LEFT ICON="NORMAL">Добавить саб-класс</button>
+							<button action="bypass -h npc_%objectId%_subclass_change"  ALIGN=LEFT ICON="NORMAL">Поменять саб-класс</button>
+							<button action="bypass -h npc_%objectId%_subclass_cancel"  ALIGN=LEFT ICON="NORMAL">Удалить саб-класс</button>
+						</td>
+					</tr>
+					<tr>
+						<td height="25"></td>
+					</tr>
+					<tr>
+						<td align="center">
+							Можно взять до <font color=ffa500>5</font> новых саб-классов.
+						</td>
+					</tr>
+				</table>
+				<table width="260" cellpadding="0" cellspacing="0">
+					<tr>
+						<td height="35"></td>
+					</tr>
+					<tr>
+						<td>
+							Также вы можете выучить дополнительные<br1>
+							пассивные умения за специальные предметы,<br1>
+							которые можно получить при прокачке и<br1>
+							развитии персонажа.
+
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+                            <font color=ffa500>
+                                <button action="bypass -h htmbypass_services.SubsSkills:list 0" ALIGN=LEFT
+                                        ICON="NORMAL">Выучить саб-скиллы
+                                </button>
+                            </font>
+                            <button ALIGN=LEFT ICON="NORMAL" action="bypass -h htmbypass_services.SubsSkills:removeAll">
+                                Удалить все саб-скиллы [500 Аден]
+                            </button>
+                        </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body></html>

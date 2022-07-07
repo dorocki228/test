@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list>
+  <territory name="bt40">
+    <add x="12328" y="-136664" zmin="-1562" zmax="-1062"/>
+    <add x="9991" y="-138259" zmin="-1394" zmax="-894"/>
+    <add x="9009" y="-141537" zmin="-1658" zmax="-1158"/>
+    <add x="4801" y="-138851" zmin="-802" zmax="-302"/>
+    <add x="4837" y="-138365" zmin="-770" zmax="-270"/>
+    <add x="4392" y="-136159" zmin="-938" zmax="-438"/>
+    <add x="4056" y="-135704" zmin="-1002" zmax="-502"/>
+    <add x="3470" y="-134155" zmin="-2818" zmax="-2318"/>
+    <add x="1814" y="-130253" zmin="-3362" zmax="-2862"/>
+    <add x="872" y="-128872" zmin="-3058" zmax="-2558"/>
+    <add x="456" y="-128521" zmin="-3178" zmax="-2678"/>
+    <add x="-5748" y="-127858" zmin="-3050" zmax="-2550"/>
+    <add x="-6120" y="-127832" zmin="-3058" zmax="-2558"/>
+    <add x="-6106" y="-124132" zmin="-3018" zmax="-2518"/>
+    <add x="-4680" y="-120521" zmin="-3074" zmax="-2574"/>
+    <add x="-4389" y="-118380" zmin="-3106" zmax="-2606"/>
+    <add x="-3047" y="-118376" zmin="-3066" zmax="-2566"/>
+    <add x="3045" y="-118080" zmin="-2858" zmax="-2358"/>
+    <add x="5669" y="-118623" zmin="-2258" zmax="-1758"/>
+    <add x="7704" y="-119528" zmin="-2058" zmax="-1558"/>
+    <add x="8040" y="-121400" zmin="-2018" zmax="-1518"/>
+  </territory>
+  <spawn group="bt40" territory="bt40">
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <!--Dryad-->
+    <!--Dryad-->
+    <npc id="20143" count="10" respawn="60" respawn_random="0"/>
+    <!--Grizzly Bear-->
+    <npc id="20333" count="10" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+    <npc id="20340" count="10" respawn="60" respawn_random="0"/>
+    <!--Slave Skeleton-->
+    <npc id="20341" count="10" respawn="60" respawn_random="0"/>
+    <!--Undead Slave-->
+    <npc id="20364" count="10" respawn="60" respawn_random="0"/>
+    <!--Maraku Werewolf Chieftain-->
+    <npc id="20365" count="15" respawn="60" respawn_random="0"/>
+    <!--Mountain Fungus-->
+    <npc id="20427" count="15" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+  </spawn>
+  <territory name="bt65">
+    <add x="-4888" y="-77176" zmin="-3250" zmax="-2750"/>
+    <add x="-5276" y="-75366" zmin="-3922" zmax="-3422"/>
+    <add x="-3774" y="-72734" zmin="-3882" zmax="-3382"/>
+    <add x="-1825" y="-73708" zmin="-3922" zmax="-3422"/>
+    <add x="-3081" y="-75421" zmin="-3978" zmax="-3478"/>
+  </territory>
+  <spawn group="bt65" territory="bt65">
+    <!--Grizzly Bear-->
+    <npc id="20341" count="3" respawn="60" respawn_random="0"/>
+    <!--Undead Slave-->
+    <npc id="20340" count="3" respawn="60" respawn_random="0"/>
+    <!--Slave Skeleton-->
+  </spawn>
+  <territory name="bt66">
+    <add x="-4568" y="-139608" zmin="-2178" zmax="-1678"/>
+    <add x="-1757" y="-140783" zmin="-2138" zmax="-1638"/>
+    <add x="-997" y="-142796" zmin="-1682" zmax="-1182"/>
+    <add x="355" y="-144626" zmin="-1458" zmax="-958"/>
+    <add x="2924" y="-143585" zmin="-1418" zmax="-918"/>
+    <add x="1944" y="-141976" zmin="-1538" zmax="-1038"/>
+    <add x="721" y="-141174" zmin="-1826" zmax="-1326"/>
+    <add x="744" y="-139304" zmin="-2426" zmax="-1926"/>
+    <add x="2573" y="-138338" zmin="-2754" zmax="-2254"/>
+    <add x="2584" y="-137400" zmin="-2618" zmax="-2118"/>
+    <add x="-520" y="-137704" zmin="-2578" zmax="-2078"/>
+  </territory>
+  <spawn group="bt66" territory="bt66">
+    <!--Grizzly Bear-->
+    <npc id="20427" count="5" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+    <npc id="20340" count="5" respawn="60" respawn_random="0"/>
+    <!--Slave Skeleton-->
+    <npc id="20333" count="5" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+  </spawn>
+  <territory name="bt67">
+    <add x="-8750" y="-135277" zmin="-2346" zmax="-1846"/>
+    <add x="-9333" y="-133927" zmin="-2450" zmax="-1950"/>
+    <add x="-10658" y="-134093" zmin="-2370" zmax="-1870"/>
+  </territory>
+  <territory name="bt41">
+    <add x="-5080" y="-110808" zmin="-2802" zmax="-2302"/>
+    <add x="-4590" y="-101103" zmin="-3034" zmax="-2534"/>
+    <add x="-4472" y="-98952" zmin="-3194" zmax="-2694"/>
+    <add x="-4340" y="-96445" zmin="-2770" zmax="-2270"/>
+    <add x="-3484" y="-95637" zmin="-2698" zmax="-2198"/>
+    <add x="-2391" y="-94912" zmin="-2498" zmax="-1998"/>
+    <add x="810" y="-96199" zmin="-2178" zmax="-1678"/>
+    <add x="2204" y="-96837" zmin="-2298" zmax="-1798"/>
+    <add x="5335" y="-97157" zmin="-2154" zmax="-1654"/>
+    <add x="4312" y="-102168" zmin="-2266" zmax="-1766"/>
+    <add x="-1912" y="-104536" zmin="-2962" zmax="-2462"/>
+  </territory>
+  <spawn group="bt67" territory="bt67">
+    <npc id="20143" count="3" respawn="60" respawn_random="0"/>
+    <!--Grizzly Bear-->
+  </spawn>
+  <territory name="bt68">
+    <add x="-9016" y="-133592" zmin="-2458" zmax="-1958"/>
+    <add x="-8896" y="-131497" zmin="-2458" zmax="-1958"/>
+    <add x="-8970" y="-128980" zmin="-2434" zmax="-1934"/>
+    <add x="-9874" y="-128816" zmin="-2386" zmax="-1886"/>
+    <add x="-9513" y="-131025" zmin="-2458" zmax="-1958"/>
+    <add x="-9640" y="-133620" zmin="-2450" zmax="-1950"/>
+  </territory>
+  <spawn group="bt68" territory="bt68">
+    <!--Grizzly Bear-->
+    <npc id="20427" count="1" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+    <npc id="20333" count="1" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+    <npc id="20364" count="1" respawn="60" respawn_random="0"/>
+    <!--Maraku Werewolf Chieftain-->
+  </spawn>
+  <territory name="bt69">
+    <add x="-9784" y="-129400" zmin="-2370" zmax="-1870"/>
+    <add x="-9794" y="-128383" zmin="-2394" zmax="-1894"/>
+    <add x="-10888" y="-127224" zmin="-2546" zmax="-2046"/>
+    <add x="-10795" y="-125459" zmin="-2338" zmax="-1838"/>
+    <add x="-13528" y="-127816" zmin="-2026" zmax="-1526"/>
+  </territory>
+  <spawn group="bt41" territory="bt41">
+    <!--Dryad-->
+    <npc id="20143" count="5" respawn="60" respawn_random="0"/>
+    <!--Grizzly Bear-->
+    <npc id="20333" count="10" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+    <npc id="20341" count="10" respawn="60" respawn_random="0"/>
+    <!--Undead Slave-->
+  </spawn>
+  <territory name="bt42">
+    <add x="-6456" y="-96008" zmin="-3442" zmax="-2942"/>
+    <add x="-6328" y="-86520" zmin="-2538" zmax="-2038"/>
+    <add x="-6024" y="-85336" zmin="-2434" zmax="-1934"/>
+    <add x="-2744" y="-86840" zmin="-2778" zmax="-2278"/>
+    <add x="-2774" y="-91500" zmin="-2202" zmax="-1702"/>
+  </territory>
+  <spawn group="bt69" territory="bt69">
+    <!--Grizzly Bear-->
+    <npc id="20143" count="1" respawn="60" respawn_random="0"/>
+    <!--Grizzly Bear-->
+    <npc id="20340" count="3" respawn="60" respawn_random="0"/>
+    <!--Slave Skeleton-->
+    <npc id="20333" count="1" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+  </spawn>
+  <spawn group="bt42" territory="bt42">
+    <!--Dryad-->
+    <npc id="20427" count="5" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+    <npc id="20365" count="5" respawn="60" respawn_random="0"/>
+    <!--Mountain Fungus-->
+    <npc id="20341" count="5" respawn="60" respawn_random="0"/>
+    <!--Undead Slave-->
+  </spawn>
+  <territory name="bt70">
+    <add x="-19929" y="-115177" zmin="-3194" zmax="-2694"/>
+    <add x="-20146" y="-113940" zmin="-3050" zmax="-2550"/>
+    <add x="-17156" y="-112710" zmin="-2866" zmax="-2366"/>
+    <add x="-14519" y="-112295" zmin="-3066" zmax="-2566"/>
+    <add x="-12445" y="-110367" zmin="-3178" zmax="-2678"/>
+    <add x="-10965" y="-111309" zmin="-3130" zmax="-2630"/>
+    <add x="-12662" y="-111943" zmin="-3122" zmax="-2622"/>
+    <add x="-13844" y="-112845" zmin="-3146" zmax="-2646"/>
+    <add x="-15508" y="-113784" zmin="-3170" zmax="-2670"/>
+    <add x="-18844" y="-114967" zmin="-2898" zmax="-2398"/>
+  </territory>
+  <spawn group="bt70" territory="bt70">
+    <!--Grizzly Bear-->
+    <npc id="20333" count="5" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+    <npc id="20427" count="5" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+    <npc id="20365" count="5" respawn="60" respawn_random="0"/>
+    <!--Mountain Fungus-->
+  </spawn>
+  <territory name="bt71">
+    <add x="-4360" y="-102552" zmin="-2930" zmax="-2430"/>
+    <add x="-1654" y="-101630" zmin="-2786" zmax="-2286"/>
+    <add x="-4385" y="-97656" zmin="-3082" zmax="-2582"/>
+    <add x="-8056" y="-98616" zmin="-2962" zmax="-2462"/>
+    <add x="-10879" y="-97529" zmin="-2922" zmax="-2422"/>
+    <add x="-14984" y="-96281" zmin="-2458" zmax="-1958"/>
+    <add x="-19208" y="-96217" zmin="-3082" zmax="-2582"/>
+    <add x="-19448" y="-96936" zmin="-3122" zmax="-2622"/>
+    <add x="-17411" y="-96954" zmin="-2666" zmax="-2166"/>
+    <add x="-14498" y="-98178" zmin="-2514" zmax="-2014"/>
+    <add x="-11379" y="-99404" zmin="-2986" zmax="-2486"/>
+    <add x="-8090" y="-99918" zmin="-2962" zmax="-2462"/>
+  </territory>
+  <spawn group="bt71" territory="bt71">
+    <!--Grizzly Bear-->
+    <npc id="20333" count="10" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+    <npc id="20365" count="5" respawn="60" respawn_random="0"/>
+    <!--Mountain Fungus-->
+    <npc id="20341" count="5" respawn="60" respawn_random="0"/>
+    <!--Undead Slave-->
+    <npc id="20364" count="5" respawn="60" respawn_random="0"/>
+    <!--Maraku Werewolf Chieftain-->
+  </spawn>
+  <territory name="bt72">
+    <add x="-6760" y="-86024" zmin="-2546" zmax="-2046"/>
+    <add x="-9673" y="-87697" zmin="-2450" zmax="-1950"/>
+    <add x="-11259" y="-90971" zmin="-2482" zmax="-1982"/>
+    <add x="-13239" y="-93074" zmin="-2978" zmax="-2478"/>
+    <add x="-10360" y="-95784" zmin="-3386" zmax="-2886"/>
+    <add x="-8902" y="-97511" zmin="-3586" zmax="-3086"/>
+    <add x="-5811" y="-97098" zmin="-3506" zmax="-3006"/>
+    <add x="-5551" y="-95332" zmin="-2714" zmax="-2214"/>
+    <add x="-6697" y="-90761" zmin="-2578" zmax="-2078"/>
+  </territory>
+  <spawn group="bt72" territory="bt72">
+    <!--Grizzly Bear-->
+    <npc id="20364" count="5" respawn="60" respawn_random="0"/>
+    <!--Maraku Werewolf Chieftain-->
+    <npc id="20340" count="5" respawn="60" respawn_random="0"/>
+    <!--Slave Skeleton-->
+    <npc id="20341" count="5" respawn="60" respawn_random="0"/>
+    <!--Undead Slave-->
+  </spawn>
+  <territory name="bt73">
+    <add x="-10840" y="-84744" zmin="-3490" zmax="-2990"/>
+    <add x="-9544" y="-84389" zmin="-3370" zmax="-2870"/>
+    <add x="-9230" y="-83075" zmin="-2442" zmax="-1942"/>
+    <add x="-6302" y="-80185" zmin="-2810" zmax="-2310"/>
+    <add x="-8400" y="-78831" zmin="-2298" zmax="-1798"/>
+    <add x="-10700" y="-78759" zmin="-2130" zmax="-1630"/>
+  </territory>
+  <spawn group="bt73" territory="bt73">
+    <!--Grizzly Bear-->
+    <npc id="20333" count="5" respawn="60" respawn_random="0"/>
+    <!--Greystone Golem-->
+    <npc id="20364" count="5" respawn="60" respawn_random="0"/>
+    <!--Maraku Werewolf Chieftain-->
+    <npc id="20427" count="5" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+  </spawn>
+  <territory name="bt74">
+    <add x="2024" y="-95119" zmin="-3338" zmax="-2838"/>
+    <add x="3385" y="-93815" zmin="-3394" zmax="-2894"/>
+    <add x="2806" y="-92348" zmin="-3394" zmax="-2894"/>
+    <add x="512" y="-93013" zmin="-3338" zmax="-2838"/>
+    <add x="-2202" y="-92719" zmin="-3354" zmax="-2854"/>
+    <add x="-3643" y="-93701" zmin="-3322" zmax="-2822"/>
+    <add x="-4321" y="-95348" zmin="-3146" zmax="-2646"/>
+    <add x="-2304" y="-93708" zmin="-3330" zmax="-2830"/>
+    <add x="185" y="-94048" zmin="-3362" zmax="-2862"/>
+  </territory>
+  <spawn group="bt74" territory="bt74">
+    <!--Grizzly Bear-->
+    <!--Grizzly Bear-->
+    <npc id="20143" count="4" respawn="60" respawn_random="0"/>
+    <!--Grizzly Bear-->
+    <npc id="20427" count="4" respawn="60" respawn_random="0"/>
+    <!--Evil Eye Watchman-->
+  </spawn>
+</list>

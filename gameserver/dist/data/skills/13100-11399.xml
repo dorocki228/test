@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+	<skill id="13136" levels="1" name="Hero Cloak">
+		<set name="operate_type" value="P" />
+		<set name="skillType" value="BUFF" />
+		<set name="target" value="TARGET_SELF" />
+		<for>
+            <mul order="0x30" stat="maxHp" value="1.1"/>
+            <mul order="0x30" stat="maxCp" value="1.1"/>
+            <mul order="0x30" stat="maxMp" value="1.1"/>
+            <mul order="0x30" stat="pDef" value="1.05"/>
+            <mul order="0x30" stat="mDef" value="1.07"/>
+            <mul order="0x30" stat="swordWpnVuln" value="0.95"/>
+            <mul order="0x30" stat="dualWpnVuln" value="0.95"/>
+            <mul order="0x30" stat="bluntWpnVuln" value="0.95"/>
+            <mul order="0x30" stat="daggerWpnVuln" value="0.95"/>
+            <mul order="0x30" stat="bowWpnVuln" value="0.95"/>
+            <mul order="0x30" stat="poleWpnVuln" value="0.95"/>
+            <mul order="0x30" stat="fistWpnVuln" value="0.95"/>
+            <add order="0x40" stat="pCritRate" value="15"/>
+            <add order="0x40" stat="mCritRate" value="15"/>
+            <mul order="0x30" stat="pvpPhysDefenceBonus" value="1.03"/>
+            <mul order="0x30" stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+            <mul order="0x30" stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+            <add order="0x40" stat="reflectDam" value="4"/>
+            <add order="0x40" stat="reflectBowDam" value="4"/>
+            <add order="0x40" stat="reflectPSkillDam" value="4"/>
+            <add order="0x40" stat="reflectMSkillDam" value="4"/>
+        </for>
+	</skill>
+</list>

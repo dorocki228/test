@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="700" name="Battle Royale" impl="brevent.BR">
+		<parameter name="pattern" value="*/10 * * * *"/>
+		<parameter name="prohibited_classes" value=""/>
+
+		<on_start>
+			<start name="registration" />
+		</on_start>
+
+		<on_time>
+			<!-- начинаем ивент -->
+			<on time="0">
+				<start name="event" />
+			</on>
+			<on time="120">
+				<start name="teleportation" />
+			</on>
+			<on time="140">
+				<start name="preparation" />
+			</on>
+			<on time="200">
+				<start name="engage" />
+			</on>
+			<!-- через 30 мин останавливаем -->
+			<on time="1800">
+				<stop name="event" />
+			</on>
+		</on_time>
+	</event>
+</list>

@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>Glory World - Donate - Change class</title>
+</head>
+<body>
+<table background="L2UI_CH3.refinewnd_back_Pattern" border=0 height=358 width=292>
+    <tr>
+        <td align=center height=30></td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">
+            <table width=292>
+                <tr>
+                    <td align=center height=40>
+                        You have chosen a class <font color=ffa500>$className</font> !<br>
+                        After choosing a payment method,
+                        <br1>
+                            the account login menu will
+                            <br1>
+                                automatically open and the main class
+                                <br1>
+                                    will be changed. <br>
+                                    Grand Olympiad points <font color=ffa500>will
+                                    <br1>
+                                        be reset
+                                </font> to 20 points.<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center height=40>
+                        Next, you need to choose one
+                        <br1>
+                            of the available payment methods:
+                    </td>
+                </tr>
+            </table>
+            <table width=40>
+                <tr>
+                    <td height=10>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center background="L2UI_CT1.SellingAgencyWnd_df_Arrow" height=25 width=30></td>
+                    <br>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td align=center height=15></td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.ChangeBaseClass:change 0 $classId"
+                                back="L2UI_CT1.OlympiadWnd_DF_BuyEtc_Down"
+                                fore="L2UI_CT1.OlympiadWnd_DF_BuyEtc" height=30
+                                value="       Change for $itemName1" width=135>
+                    </td>
+                    <td align=center>
+                        <button action="bypass -h htmbypass_services.ChangeBaseClass:change 1 $classId"
+                                back="L2UI_CT1.OlympiadWnd_DF_BuyEtc_Down"
+                                fore="L2UI_CT1.OlympiadWnd_DF_BuyEtc" height=30
+                                value="       Change for $itemName2" width=135>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center><font color=ffa500>$util.formatAdena($itemCount1) $itemName1</font></td>
+                    <td align=center><font color=ffa500>$util.formatAdena($itemCount2) $itemName2</font></td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+

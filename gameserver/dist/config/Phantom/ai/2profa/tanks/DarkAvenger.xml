@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="6" class_name="DarkAvenger">
+		<nuke_skills ChanceCastOnMonster="20" chance="45">
+			<skill id="984" /> <!-- Атака Щитом (Shield Strike)  -->
+			<skill id="401" /> <!-- Правосудие (Judgment)-->			
+		</nuke_skills>
+			<self_buff_skills>
+			<skill id="82" /> <!-- Величие (Majesty);-->
+			<skill id="86" /> <!-- Отражение Урона (Reflect Damage)-->
+			<skill id="112"/> <!-- Отклонить Стрелу (Deflect Arrow)-->
+			</self_buff_skills>
+		<situation_skills>
+			<skill id="110" condition="MIN_HP:10"/> <!-- Абсолютная Защита (Ultimate Defense) -->
+			<skill id="318" condition="MAX_MP:50;MIN_HP:60"/> <!-- Боевая Стойка Эгиды (Aegis Stance) -->
+			<skill id="318" condition="SELF_SKILL_EFFECT:(318);MAX_HP:80;CANCEL_BUFF_BY_ID:318"/> <!-- Боевая Стойка Эгиды (Aegis Stance) -->
+		</situation_skills>
+		<debuff_skills chance="25">
+			<skill id="65" condition="ONLY_PLAYER;TARGET_MAGE;MIN_DISTANCE:110"/> <!-- Страх (Gorror)-->
+			<skill id="28"/> <!-- Агрессия (Aggression)  -->
+			<skill id="92" /> <!-- Оглушение Щитом (Shield Stun) -->
+		</debuff_skills>
+		<summon_skills>
+			<skill id="283" /> <!-- Призвать Темную Пантеру (Summon Dark Panther) -->
+		</summon_skills>
+		<summon_actions>
+			<skill id="6094" condition="ONLY_PLAYER"/> <!-- Натиск пантеры -->
+			<skill id="6096" condition="ONLY_PLAYER;CHANCE_CAST:15"/> <!-- Смертоносный коготь пантеры -->
+		</summon_actions>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "ChatControl.dtd">
+	<!-- Использование умений по команде в чат
+	Поддерживаемые типы:
+	castSelfBuff	 		- селф бафы
+	castTargetSkill			- умения по таргенту хозяина
+	castAttackingSkill		- атакующие умения
+	castBuff				- бафы по таргенту
+	castPartyIcon			- разного рода иконы\щилки (умения с зарядом)
+	castLimitBuffSkill		- лимиты 
+	-->
+<list>
+	<ChatControl class_id="34">
+		<skill id="110" type="castSelfBuff" text_commands="уд,абсолютная защита,ultimate defense,ultimate,абсолютная,ud"/>
+		<skill id="986" type="castBuff" text_commands="смертельный ритм,deadly strike"/>
+		<skill id="28" type="castAttackingSkill" text_commands="агр,агрессия,aggression,agr,aggr"/>
+		<skill id="408" type="castAttackingSkill" text_commands="демонический танец клинков,demonic blade dance,blade dance,танец клинков"/>
+		<skill id="122" type="castAttackingSkill" text_commands="сглаз,hex"/>
+		<skill id="84" type="castAttackingSkill" text_commands="танец ядовитых клинков,poison blade dance"/>
+		<skill id="112" type="castSelfBuff" text_commands="отклонить стрелу,deflect arrow,arrow,стрела"/>
+		<skill id="70" type="castAttackingSkill" text_commands="кража жизни,drain health"/>
+		<skill id="2" type="castAttackingSkill" text_commands="замешательство,confusion"/>
+		<skill id="402" type="castAttackingSkill" text_commands="арест,arrest,рут"/>
+		<skill id="115" type="castAttackingSkill" text_commands="сокрушение мощи,сокрушение,power break,break"/>
+		<skill id="223" type="castAttackingSkill" text_commands="жало,sting"/>
+		<skill id="274" type="castSelfBuff" text_commands="танец огня,dance of fire"/>
+		<skill id="277" type="castSelfBuff" text_commands="танец света,dance of light"/>
+		<skill id="272" type="castSelfBuff" text_commands="танец вдохновения,dance of inspiration"/>
+		<skill id="273" type="castSelfBuff" text_commands="танец мистика,dance of the mystic"/>
+		<skill id="276" type="castSelfBuff" text_commands="танец концентрации,dance of concentration"/>
+		<skill id="271" type="castSelfBuff" text_commands="танец воителя,dance of the warrior"/>
+		<skill id="275" type="castSelfBuff" text_commands="танец ярости,dance of fury"/>
+		<skill id="989" type="castSelfBuff" text_commands="жест защиты,defense motion"/>
+		<skill id="309" type="castSelfBuff" text_commands="танец земной защиты,dance of earth guard"/>
+		<skill id="311" type="castSelfBuff" text_commands="танец защиты,dance of protection"/>
+		<skill id="307" type="castSelfBuff" text_commands="танец водной защиты,dance of aqua guard"/>
+		<skill id="310" type="castSelfBuff" text_commands="танец вампира,dance of the vampire"/>
+	</ChatControl>
+ </list>

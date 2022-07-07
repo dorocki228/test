@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Lineage II GvE - Продавец Бижутерии</title>
+	</head>
+<body>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+		<tr>
+			<td align=center  height=40>
+				<font color=ffa500>Продавец Бижутерии</font>
+			</td>
+		</tr>
+		<tr>
+			<td align=center>
+				<button action="bypass -h npc_%objectId%_multisell 1002" ALIGN=LEFT ICON="NORMAL">Бесплатная Бижутерия:
+					C-Грейд
+				</button>
+				<button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 1005">Бижутерия: B-Грейд
+				</button>
+				<button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 1008">Бижутерия: A-Грейд
+                </button>
+                <button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 1076">Бижутерия: S-Грейд
+                </button>
+
+                <button action="bypass -h npc_%objectId%_Buy 1" ALIGN=LEFT ICON="NORMAL">Продать</button>
+                #if($gveDiscounts.next())
+                Цены будут понижены через
+                <font color=ffa500>$gveDiscounts.next().hours()</font> час. и
+                <font color=ffa500>$gveDiscounts.next().minutes()</font> мин.
+                #end
+                <br><br><br>
+                <font color=ffa500>
+                    <button action="link discountsinfo.htm" ALIGN=LEFT ICON="NORMAL">Система скидок</button>
+                </font>
+
+                Ооо... Вы пришли за кольцами или за серьгами?
+                <br1> У меня отличный выбор! Бижутерия отлично
+                    <br1> повышает защиту против Магических
+                        <br1> заклинаний! Выбирай... У меня все самое лучшее!
+            </td>
+		</tr>
+	</table>
+</body>
+</html>

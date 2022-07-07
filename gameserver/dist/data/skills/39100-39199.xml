@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+
+<list>
+	<skill id="39100" levels="1" name="Agathion Teleport - Hunters Village">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="60000" />
+		<set name="hitTime" value="3000" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RECALL" />
+		<set name="operate_type" value="A2" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="hitCancelTime" value="500" />
+		<set name="townId" value="12" />
+		<set name="isSkillTimePermanent" value="true" />
+		<set name="isReuseDelayPermanent" value="true" />
+		<cond msgId="2292">
+			<player agathion="16056" />
+		</cond>
+	</skill>
+	<skill id="39101" levels="1" name="Evidence Chase">
+		<set name="icon" value="icon.skill0998" />
+		<set name="reuseDelay" value="30000" />
+		<set name="hitTime" value="1000" />
+		<set name="abnormal_time" value="15" />
+		<set name="abnormal_level" value="1" />
+		<set name="magicLevel" value="1" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<cond msgId="2292">
+			<player agathion="16056" />
+		</cond>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" value="66" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="39102" levels="1" name="Secret Investigation">
+		<set name="icon" value="icon.skill10518" />
+		<set name="mp_consume" value="1" />
+		<set name="ride_state" value="NONE" />
+		<set name="abnormal_effect" value="STEALTH" />
+		<set name="magicLevel" value="40" />
+		<set name="operate_type" value="T" />
+		<set name="isHideStartMessage" value="true" />
+		<cond msgId="2292">
+			<player agathion="16056" />
+		</cond>
+		<for>
+			<effect name="SilentMove" interval="3" value="5">
+				<mul order="0x30" stat="runSpd" value="0.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="39103" levels="1" name="Warrior\'s Quick Healing Potion">
+		<set name="icon" value="icon.etc_reagent_white_i00" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="HEAL" />
+		<set name="operate_type" value="A2" />
+		<for>
+			<effect instant="true" name="RestoreHP" value="435" />
+		</for>
+	</skill>
+	<skill id="39104" levels="1" name="Hero Cube - 7 days">
+		<set name="icon" value="icon.sa_cube" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39105" levels="1" name="Teleport: Dragon Valley Bridge">
+		<set name="icon" value="icon.skill0000" />
+		<set name="hitTime" value="20000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39106" levels="1" name="Teleport: Antharas\' Lair">
+		<set name="icon" value="icon.skill0000" />
+		<set name="hitTime" value="20000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39107" levels="1" name="Teleport: Entrance to Cruma Tower">
+		<set name="icon" value="icon.skill0000" />
+		<set name="hitTime" value="20000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39108" levels="1" name="Teleport: Entrance to Orc Barracks">
+		<set name="icon" value="icon.skill0000" />
+		<set name="hitTime" value="20000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39109" levels="1" name="Improved Scroll of Resurrection">
+		<set name="icon" value="icon.etc_scroll_of_resurrection_i01" />
+		<set name="coolTime" value="500" />
+		<set name="castRange" value="400" />
+		<set name="hitTime" value="1000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39110" levels="1" name="Teleport Device - Entrance to Enchanted Valley">
+		<set name="icon" value="icon.skill0000" />
+		<set name="hitTime" value="20000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39111" levels="1" name="Assistant Roa\'s Gift">
+		<set name="icon" value="icon.skill0000" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39112" levels="1" name="Golden Boots">
+		<set name="icon" value="icon.card_event_blue_box" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39113" levels="1" name="Golden Necklace of Mermaid">
+		<set name="icon" value="icon.general_fuel_i00" />
+		<set name="reuseDelay" value="3600000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39114" levels="3" name="Refined Queen Ant\'s Ring">
+		<set name="icon" value="icon.accessory_ring_of_queen_ant_i03" />
+		<set name="magicLevel" value="75" />
+		<set name="operate_type" value="P" />
+		<for>
+			<add order="0x40" stat="poisonResist" value="20" />
+			<add order="0x40" stat="poisonPower" value="20" />
+			<add order="0x40" stat="pAccCombat" value="3" />
+			<add order="0x40" stat="mAccCombat" value="3" />
+			<mul order="0x30" stat="pAtk" value="1.07" />
+			<mul order="0x30" stat="mAtk" value="1.07" />
+			<mul order="0x30" stat="pCritDamage" value="1.1" />
+			<mul order="0x30" stat="mCritDamage" value="1.05" />
+		</for>
+	</skill>
+	<skill id="39115" levels="3" name="Refined Orfen\'s Earring">
+		<set name="icon" value="icon.accessory_earring_of_orfen_i03" />
+		<set name="magicLevel" value="75" />
+		<set name="operate_type" value="P" />
+		<for>
+			<add order="0x40" stat="rootResist" value="20" />
+			<add order="0x40" stat="rootPower" value="20" />
+			<add order="0x40" stat="mentalResist" value="15" />
+			<add order="0x40" stat="mentalPower" value="15" />
+			<mul order="0x30" stat="hpEff" value="1.06" />
+			<mul order="0x30" stat="mpConsum" value="0.95" />
+			<mul order="0x30" stat="mpConsumePhysical" value="0.95" />
+			<mul order="0x30" stat="mpDanceConsume" value="0.95" />
+			<add order="0x40" stat="absorbDamMp" value="3" />
+		</for>
+	</skill>
+	<skill id="39116" levels="3" name="Refined Ring of Core">
+		<table name="#mentalResist">5 10 15</table>
+		<table name="#mentalPower">5 10 15</table>
+		<table name="#pEvasRate">1 2 3</table>
+		<table name="#mEvasRate">1 2 3</table>
+		<table name="#receive_p_damage_power">0.98 0.96 0.94</table>
+		<table name="#receive_m_damage_power">0.98 0.96 0.94</table>
+		<set name="icon" value="icon.accessory_ring_of_core_i03" />
+		<set name="magicLevel" value="75" />
+		<set name="operate_type" value="P" />
+		<for>
+			<add order="0x40" stat="mentalResist" value="15" />
+			<add order="0x40" stat="mentalPower" value="15" />
+			<add order="0x40" stat="pEvasRate" value="3" />
+			<add order="0x40" stat="mEvasRate" value="3" />
+			<mul order="0x30" stat="receive_p_damage_power" value="0.94" />
+			<mul order="0x30" stat="receive_m_damage_power" value="0.94" />
+		</for>
+	</skill>
+	<skill id="39117" levels="1" name="Whale">
+		<set name="icon" value="icon.fish_huge_i15" />
+		<set name="reuseDelay" value="2000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39118" levels="1" name="Scroll: 2000 SP">
+		<table name="#power">20000</table>
+		<table name="#itemConsumeId">49764</table>
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="2000" />
+		<set name="hitTime" value="200" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="#itemConsumeId" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="power" value="#power" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="SPHEAL" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+	</skill>
+	<skill id="39119" levels="1" name="Scroll: 10,000 SP">
+		<set name="icon" value="icon.etc_sp_scroll2_i00" />
+		<set name="reuseDelay" value="2000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39120" levels="1" name="Teleport: Giran Harbor">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="60000" />
+		<set name="hitTime" value="3000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39121" levels="1" name="Teleport: Gludin Harbor">
+		<set name="icon" value="icon.skill0000" />
+		<set name="reuseDelay" value="60000" />
+		<set name="hitTime" value="3000" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39122" levels="1" name="Golden Boots - Test">
+		<set name="icon" value="icon.card_event_blue_box" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="target" value="TARGET_NONE" />
+		<set name="skillType" value="NOTUSED" />
+		<set name="operate_type" value="P" />
+	</skill>
+	<skill id="39126" levels="1" name="Armor Supply Box (C-grade)">
+		<set name="icon" value="icon.etc_treasure_box_i06" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49668" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="5">
+				<item id="60" min_count="1" max_count="1" /><!--тяж середина -->
+			</group>
+			<group chance="10">
+				<item id="517" min_count="1" max_count="1" /><!--тяж шлем -->
+			</group>
+			<group chance="10">
+				<item id="64" min_count="1" max_count="1" /><!--тяж боты -->
+			</group>
+			<group chance="10">
+				<item id="2453" min_count="1" max_count="1" /><!--тяж перчи -->
+			</group>
+			<group chance="5">
+				<item id="400" min_count="1" max_count="1" /><!--сред верх -->
+			</group>
+			<group chance="5">
+				<item id="420" min_count="1" max_count="1" /><!--сред низ -->
+			</group>
+			<group chance="10">
+				<item id="500" min_count="1" max_count="1" /><!-- сред шлем -->
+			</group>
+			<group chance="10">
+				<item id="2460" min_count="1" max_count="1" /><!--сред перчи -->
+			</group>
+			<group chance="10">
+				<item id="2436" min_count="1" max_count="1" /><!--сред боты -->
+			</group>
+			<group chance="5">
+				<item id="439" min_count="1" max_count="1" /><!--кармиан верх -->
+			</group>
+			<group chance="5">
+				<item id="471" min_count="1" max_count="1" /><!--кармиан низ -->
+			</group>
+			<group chance="10">
+				<item id="2430" min_count="1" max_count="1" /><!--сапоги кармиан -->
+			</group>
+			<group chance="10">
+				<item id="2454" min_count="1" max_count="1" /><!--перчатки кармиан -->
+			</group>
+			<group chance="10">
+				<item id="500" min_count="1" max_count="1" /><!--шлем -->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="39128" levels="1" name="Ornament Supply Box (C-grade)">
+		<set name="icon" value="icon.etc_treasure_box_i02" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49669" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="25">
+				<item id="886" min_count="1" max_count="1" />
+			</group>
+			<group chance="25">
+				<item id="885" min_count="1" max_count="1" />
+			</group>
+			<group chance="10">
+				<item id="119" min_count="1" max_count="1" />
+			</group>
+			<group chance="10">
+				<item id="917" min_count="1" max_count="1" />
+			</group>
+			<group chance="15">
+				<item id="855" min_count="1" max_count="1" />
+			</group>
+			<group chance="15">
+				<item id="854" min_count="1" max_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="39151" levels="1" name="Armor Supply Box (A-grade)">
+		<set name="icon" value="icon.etc_treasure_box_i07" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49760" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="17">
+				<item id="5317" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5287" min_count="1" max_count="1" />
+			</group>
+			<group chance="17">
+				<item id="5329" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5326" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5308" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5304" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5288" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5290" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5295" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5298" min_count="1" max_count="1" />
+			</group>
+			<group chance="17">
+				<item id="5318" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5313" min_count="1" max_count="1" />
+			</group>
+			<group chance="17">
+				<item id="5319" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5314" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5291" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5296" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5305" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5311" min_count="1" max_count="1" />
+			</group>
+			<group chance="17">
+				<item id="5323" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5320" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5297" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5301" min_count="1" max_count="1" />
+			</group>
+			<group chance="17">
+				<item id="5316" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5293" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5312" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5289" min_count="1" max_count="1" />
+			</group>
+			<group chance="23">
+				<item id="5294" min_count="1" max_count="1" />
+			</group>
+			<group chance="14">
+				<item id="5315" min_count="1" max_count="1" />
+			</group>
+			<group chance="18">
+				<item id="5292" min_count="1" max_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="39152" levels="1" name="Ornament Supply Box (A-grade)">
+		<set name="icon" value="icon.etc_treasure_box_i02" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49761" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="3.4483">
+				<item id="5311" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5320" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5314" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5291" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5287" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5288" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5290" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5289" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5297" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5298" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5308" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5292" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5313" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5312" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5319" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5317" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5318" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4482">
+				<item id="5323" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5316" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5329" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5326" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5315" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5296" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5295" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5294" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5301" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5293" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5305" min_count="1" max_count="1" />
+			</group>
+			<group chance="3.4483">
+				<item id="5304" min_count="1" max_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="39153" levels="1" name="Armor Ingredient Box - A-grade">
+		<set name="icon" value="icon.etc_treasure_box_i05" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49762" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="1.7241">
+				<item id="5420" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5380" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5368" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5416" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5424" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5392" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5426" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5332" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5340" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5348" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5364" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5404" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5430" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5336" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5382" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5432" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5406" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5338" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5422" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5352" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5350" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5366" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5370" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5394" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5428" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5334" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5418" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5354" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5346" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5522" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5502" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5496" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5520" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5524" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5508" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7241">
+				<item id="5525" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5478" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5482" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5486" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5494" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5514" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5527" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5480" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5503" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5528" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5515" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5481" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5523" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5488" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5487" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5495" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5497" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5509" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5526" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5479" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5521" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5489" min_count="1" max_count="1" />
+			</group>
+			<group chance="1.7242">
+				<item id="5485" min_count="1" max_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="39154" levels="1" name="Ornament Ingredient Box - A-grade">
+		<set name="icon" value="icon.etc_treasure_box_i05" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="500" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49763" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="RESTORATION" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<restoration level="1">
+			<group chance="8.3333">
+				<item id="6337" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6335" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6339" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6331" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6333" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6329" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6342" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6344" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6346" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6341" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3333">
+				<item id="6343" min_count="1" max_count="1" />
+			</group>
+			<group chance="8.3337">
+				<item id="6345" min_count="1" max_count="1" />
+			</group>
+		</restoration>
+	</skill>
+	<skill id="39155" levels="1" name="Life Control Tower\'s Scroll of Blessing">
+		<set name="icon" value="icon.etc_aidcharm_cancel_valbreath_i00" />
+		<set name="reuseDelay" value="1800000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="3600" />
+		<set name="abnormal_level" value="1" />
+		<set name="abnormal_type" value="br_event_buf3" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49765" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="hitCancelTime" value="500" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="olympiad_use" value="false" />
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" value="1.05" />
+				<mul order="0x30" stat="maxMp" value="1.05" />
+				<add order="0x40" stat="exp_rate_multiplier" value="0.30" />
+				<add order="0x40" stat="sp_rate_multiplier" value="0.30" />
+				<add order="0x40" stat="paralyzeResist" value="15" />
+				<add order="0x40" stat="rootResist" value="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="39156" levels="1" name="Scroll of Heavenly Protection">
+		<set name="icon" value="icon.scroll_of_verification_i08" />
+		<set name="reuseDelay" value="10000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="abnormal_time" value="1200" />
+		<set name="abnormal_level" value="1" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="itemConsumeId" value="49768" />
+		<set name="itemConsumeCount" value="1" />
+		<set name="hitCancelTime" value="500" />
+		<set name="isHandler" value="true" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="olympiad_use" value="false" />
+		<for>
+			<effect>
+				<add order="0x40" stat="paralyzeResist" value="15" />
+				<add order="0x40" stat="rootResist" value="10" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="39164" levels="1" name="Scroll of Mood Melody">
+		<set name="icon" value="icon.bm_magmeld" />
+		<set name="reuseDelay" value="1000" />
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="BUFF" />
+		<set name="operate_type" value="A2" />
+		<set name="isHandler" value="true" />
+		<for>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1040" />	<!--Щит 3 Ур. -->
+				<def name="effects_skill_level" value="6" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1085" />	<!--Проницательность 2 Ур. -->
+				<def name="effects_skill_level" value="5" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1204" />	<!--Легкая Походка 2 Ур. -->
+				<def name="effects_skill_level" value="4" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1077" />	<!--Фокусировка 2 Ур. -->
+				<def name="effects_skill_level" value="5" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1044" />	<!--Регенерация 1 Ур. -->
+				<def name="effects_skill_level" value="4" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1240" />	<!--Наведение 1 Ур. -->
+				<def name="effects_skill_level" value="4" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1242" />	<!--Шепот Смерти 1 Ур. -->
+				<def name="effects_skill_level" value="4" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1036" />	<!--Магический Барьер 1 Ур. -->
+				<def name="effects_skill_level" value="3" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1045" />	<!--Благословение Тела 1 Ур. -->
+				<def name="effects_skill_level" value="7" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1048" />	<!--Благословение Души 1 Ур. -->
+				<def name="effects_skill_level" value="7" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1086" />	<!--Ускорение 1 Ур. -->
+				<def name="effects_skill_level" value="4" />
+			</effect>
+			<effect instant="true" name="GetEffects">
+				<def name="effects_skill_id" value="1087" />	<!--Проворство 2 Ур. -->
+				<def name="effects_skill_level" value="5" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="39169" levels="1" name="Inspiring Crackers">
+		<set name="icon" value="BranchSys.icon.br_firecracker_gold_i00" />
+		<set name="reuseDelay" value="10000" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="HOT" />
+		<set name="operate_type" value="A2" />
+	</skill>
+	<skill id="39185" levels="1" name="Support Blow">
+		<set name="icon" value="icon.ev_12th_weapon" />
+		<set name="reuseDelay" value="2000" />
+		<set name="coolTime" value="500" />
+		<set name="hitTime" value="1100" />
+		<set name="magicLevel" value="1" />
+		<set name="magicType" value="SPECIAL" />
+		<set name="target" value="TARGET_SELF" />
+		<set name="skillType" value="HOT" />
+		<set name="operate_type" value="A2" />
+	</skill>
+</list>

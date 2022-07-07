@@ -1,0 +1,11 @@
+<!ELEMENT list (promocode)*>
+        <!ELEMENT promocode (rewards)*>
+        <!ATTLIST promocode
+                id CDATA #REQUIRED
+                enabled CDATA #REQUIRED
+                reuse CDATA #REQUIRED>
+        <!ELEMENT rewards (reward)*>
+        <!ELEMENT reward (#PCDATA)>
+        <!ATTLIST reward
+                id CDATA #REQUIRED
+                count CDATA #REQUIRED>

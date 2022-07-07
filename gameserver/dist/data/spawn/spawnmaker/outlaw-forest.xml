@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list>
+  <territory name="of1">
+    <add x="91720" y="-4136" zmin="-3642" zmax="-3142"/>
+    <add x="92136" y="-6056" zmin="-3346" zmax="-2846"/>
+    <add x="90312" y="-6408" zmin="-3306" zmax="-2806"/>
+    <add x="89800" y="-3608" zmin="-3458" zmax="-2958"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of1" territory="of1">
+    <!--Dryad-->
+    <!--Ol Mahum Transcender-->
+    <npc id="20161" count="3" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum-->
+    <npc id="21261" count="3" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+  </spawn>
+  <territory name="of2">
+    <add x="89768" y="-3576" zmin="-3466" zmax="-2966"/>
+    <add x="87160" y="-2969" zmin="-3642" zmax="-3142"/>
+    <add x="87416" y="-5048" zmin="-3466" zmax="-2966"/>
+    <add x="89064" y="-5336" zmin="-3338" zmax="-2838"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of2" territory="of2">
+    <!--Dryad-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+    <!--Oel Mahum Shaman-->
+    <npc id="20576" count="3" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+  </spawn>
+  <territory name="of3">
+    <add x="89064" y="-5368" zmin="-3338" zmax="-2838"/>
+    <add x="89880" y="-5544" zmin="-3298" zmax="-2798"/>
+    <add x="90743" y="-7416" zmin="-3258" zmax="-2758"/>
+    <add x="90488" y="-9608" zmin="-3026" zmax="-2526"/>
+    <add x="87544" y="-6856" zmin="-3402" zmax="-2902"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of3" territory="of3">
+    <!--Dryad-->
+    <!--Ol Mahum Transcender-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="21263" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <!--Oel Mahum Warrior-->
+    <npc id="20576" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+    <npc id="21261" count="3" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20575" count="3" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+  </spawn>
+  <territory name="of4">
+    <add x="87400" y="-6808" zmin="-3402" zmax="-2902"/>
+    <add x="88695" y="-5241" zmin="-3362" zmax="-2862"/>
+    <add x="86024" y="-4856" zmin="-3514" zmax="-3014"/>
+    <add x="84696" y="-7032" zmin="-3346" zmax="-2846"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of4" territory="of4">
+    <!--Dryad-->
+    <!--Oel Mahum-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="20161" count="3" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum-->
+    <npc id="20161" count="5" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum-->
+  </spawn>
+  <territory name="of5">
+    <add x="84680" y="-7080" zmin="-3338" zmax="-2838"/>
+    <add x="84520" y="-8024" zmin="-3162" zmax="-2662"/>
+    <add x="86504" y="-8728" zmin="-3274" zmax="-2774"/>
+    <add x="87128" y="-7288" zmin="-3250" zmax="-2750"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of5" territory="of5">
+    <!--Dryad-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+    <!--Oel Mahum Shaman-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="20576" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+  </spawn>
+  <territory name="of6">
+    <add x="84520" y="-6888" zmin="-3354" zmax="-2854"/>
+    <add x="82808" y="-5992" zmin="-3314" zmax="-2814"/>
+    <add x="81608" y="-7064" zmin="-3138" zmax="-2638"/>
+    <add x="81352" y="-8072" zmin="-3050" zmax="-2550"/>
+    <add x="82808" y="-8200" zmin="-3074" zmax="-2574"/>
+    <add x="84200" y="-8072" zmin="-3138" zmax="-2638"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of6" territory="of6">
+    <!--Dryad-->
+    <npc id="20576" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+    <npc id="20161" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum-->
+    <!--Elder Tarlk Basilisk-->
+    <npc id="21261" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20574" count="4" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+  </spawn>
+  <territory name="of7">
+    <add x="84551" y="-6856" zmin="-3362" zmax="-2862"/>
+    <add x="85976" y="-4824" zmin="-3522" zmax="-3022"/>
+    <add x="87576" y="-4168" zmin="-3442" zmax="-2942"/>
+    <add x="87032" y="-3000" zmin="-3626" zmax="-3126"/>
+    <add x="85240" y="-3240" zmin="-3578" zmax="-3078"/>
+    <add x="84664" y="-5064" zmin="-3482" zmax="-2982"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of7" territory="of7">
+    <!--Dryad-->
+    <npc id="21261" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="21263" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20161" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum-->
+    <!--Oel Mahum Warrior-->
+    <!--Oel Mahum Shaman-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+    <npc id="20576" count="3" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+  </spawn>
+  <territory name="of8">
+    <add x="84376" y="-6728" zmin="-3362" zmax="-2862"/>
+    <add x="84616" y="-5080" zmin="-3482" zmax="-2982"/>
+    <add x="82152" y="-4568" zmin="-3410" zmax="-2910"/>
+    <add x="81592" y="-5896" zmin="-3266" zmax="-2766"/>
+  </territory>
+  <territory name="of9">
+    <add x="81992" y="-4872" zmin="-3410" zmax="-2910"/>
+    <add x="80712" y="-2888" zmin="-3506" zmax="-3006"/>
+    <add x="82968" y="-2600" zmin="-3738" zmax="-3238"/>
+    <add x="83176" y="-4712" zmin="-3442" zmax="-2942"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of8" territory="of8">
+    <!--Dryad-->
+    <!--Oel Mahum Shaman-->
+    <!--Oel Mahum Warrior-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="21263" count="3" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20576" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+  </spawn>
+  <spawn group="outlaw_forest" name="of9" territory="of9">
+    <!--Dryad-->
+    <npc id="21261" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20576" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+    <!--Oel Mahum Warrior-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+  </spawn>
+  <territory name="of10">
+    <add x="83224" y="-4744" zmin="-3442" zmax="-2942"/>
+    <add x="84440" y="-4600" zmin="-3482" zmax="-2982"/>
+    <add x="85112" y="-3080" zmin="-3634" zmax="-3134"/>
+    <add x="85304" y="-2312" zmin="-3738" zmax="-3238"/>
+    <add x="83048" y="-2312" zmin="-3786" zmax="-3286"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of10" territory="of10">
+    <!--Dryad-->
+    <npc id="20574" count="2" respawn="60" respawn_random="0"/>
+    <!--Elder Tarlk Basilisk-->
+    <npc id="21263" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <npc id="20575" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Warrior-->
+  </spawn>
+  <territory name="of11">
+    <add x="82664" y="-2440" zmin="-3746" zmax="-3246"/>
+    <add x="81032" y="-264" zmin="-3978" zmax="-3478"/>
+    <add x="82216" y="648" zmin="-3898" zmax="-3398"/>
+    <add x="86247" y="408" zmin="-3754" zmax="-3254"/>
+    <add x="87064" y="-1624" zmin="-3770" zmax="-3270"/>
+  </territory>
+  <spawn group="outlaw_forest" name="of11" territory="of11">
+    <!--Dryad-->
+    <npc id="20576" count="2" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum Shaman-->
+    <npc id="21261" count="2" respawn="60" respawn_random="0"/>
+    <!--Ol Mahum Transcender-->
+    <!--Oel Mahum-->
+    <npc id="20161" count="3" respawn="60" respawn_random="0"/>
+    <!--Oel Mahum-->
+  </spawn>
+  <territory name="of_rb">
+    <add x="86184" y="-6312" zmin="-3442" zmax="-2942"/>
+    <add x="86312" y="-5944" zmin="-3466" zmax="-2966"/>
+    <add x="85992" y="-5896" zmin="-3482" zmax="-2982"/>
+    <add x="85832" y="-6200" zmin="-3466" zmax="-2966"/>
+  </territory>
+  <spawn>
+    <npc id="25060" count="1" respawn="82800" respawn_random="7200" pos="85992 -5896 -3240 49152"/>
+    <!--Unrequited Kael-->
+  </spawn>
+</list>

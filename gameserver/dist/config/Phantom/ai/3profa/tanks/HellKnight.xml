@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="91" class_name="Hell Knight">
+		<buff_list buffs="1323,1240,1501,1036,1062,4699,1388,1461,1035,264,265,267,268,269,304,349,363,364,271,274,275,272,310,266,1502,1503,1517,1259,1519,1323,1363,1504,4699,4703,5987,5988"/>
+		<summon_buff buffs="1323,1240,1501,1036,1062,4699,1388,1461,1035,264,265,267,268,269,304,349,363,364,271,274,275,272,310,266,1502,1503,1517,1259,1519,1323,1363,1504,4699,4703,5987,5988"/>
+		<add_castom_skills>
+			<skill id="631" lvl="6"/> <!-- Emergent Ability - Attack -->
+			
+			<skill id="655" lvl="1"/> <!-- Enchanter Ability - Barrier -->
+			<skill id="651" lvl="1"/> <!-- Warrior Ability - Haste -->
+			<rnd>
+				<skill id="650" lvl="1"/> <!-- Навык Воителя - Сопротивление отрицательным ефектам -->
+				<skill id="653" lvl="1"/> <!-- Навык Разбойника - Шанс крит удара -->
+				<skill id="1490" lvl="1"/> <!-- Навык целителя - исцеление  -->
+			</rnd>
+		</add_castom_skills>
+		<nuke_skills ChanceCastOnMonster="20" chance="45">
+			<skill id="984"/> <!-- Атака Щитом (Shield Strike)  -->
+			<skill id="401" ench_route="1"/> <!-- Правосудие (Judgment)-->
+			<skill id="985"/> <!-- Вызов Судьбе (Challenge for Fate)-->
+			<skill id="92" ench_route="1"/> <!-- Оглушение Щитом (Shield Stun) -->
+		</nuke_skills>
+		<buff_skills>
+			<skill id="982"/> <!-- Боевая аура (Combat Aura)-->
+		</buff_skills>
+		<self_buff_skills>	
+			<skill id="1323" condition="NOT_USE_OLYMPIAD" /> <!-- Благословение Благородства  -->
+			<skill id="72" ench_route="2"/> <!-- Железная Воля (Iron Will)-->
+			<skill id="82" ench_route="1"/> <!-- Величие (Majesty)-->	
+			<skill id="86" ench_route="2"/> <!-- Отражение Урона (Reflect Damage)-->
+			<skill id="112" ench_route="2"/> <!-- Отклонить Стрелу (Deflect Arrow)-->		
+			<skill id="350"/> <!-- Физическое Зеркало (Physical Mirror) -->
+			<skill id="439"/> <!-- Щит Возмездия (Shield of Revenge)-->
+			<skill id="527"/> <!-- Железный Щит (Iron Shield) -->			
+			<skill id="913"/> <!-- Отклонить Магию (Deflect Magic)-->
+			<skill id="982"/> <!-- Боевая аура (Combat Aura)-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="760" condition="ONLY_PLAYER;SELF_NOT_SKILL_EFFECT:(110,368,528);TARGET_MAGE;MIN_HP:60"/> <!-- Броня Антимагии (Anti Magic Armor) -->
+			<skill id="528" ench_route="1" condition="SELF_NOT_SKILL_EFFECT:(760,368,110);MIN_HP:27"/> <!-- Щит Веры (Shield of Faith)-->
+			<skill id="368" ench_route="2" condition="SELF_NOT_SKILL_EFFECT:(528,110,760);MIN_HP:22"/> <!-- Мщение (Vengeance) -->
+			<skill id="110" ench_route="3" condition="SELF_NOT_SKILL_EFFECT:(760,368,528);MIN_HP:25"/> <!-- Абсолютная Защита (Ultimate Defense) -->
+			<skill id="916" condition="ONLY_PLAYER;TARGET_MAGE;MAX_DISTANCE:900;TARGET_SKILL_DISABLED:(1532,1533)" /> <!-- Щит Отражения Магии (Shield Deflect Magic)-->
+			<skill id="761" condition="SELF_NOT_SKILL_EFFECT:(5561);MIN_DISTANCE:150;MAX_HP:50;MAX_MP:30"/> <!-- Семя Возмездия (Seed of Revenge)-->
+		</situation_skills>
+		<control_skills>
+			<skill id="127" condition="TARGET_NOT_USE_CLASS_ID:(106,90,91,99);MIN_DISTANCE:110" ench_route="1"/> <!-- Увечье (Hamstring)-->
+			<skill id="403" condition="TARGET_NOT_USE_CLASS_ID:(106,90,91,99);MIN_DISTANCE:110" ench_route="2"/> <!-- Кандалы (Shackle)-->
+			<skill id="368" ench_route="2" condition="MAX_DISTANCE:150;SELF_NOT_SKILL_EFFECT:(760,110,528);TARGET_SKILL_EFFECT:(176,420,917,789,785,406,769,770,768)" /> <!-- Мщение (Vengeance) -->
+			<skill id="110" ench_route="3" condition="MAX_DISTANCE:150;SELF_NOT_SKILL_EFFECT:(760,368,528);TARGET_SKILL_EFFECT:(176,420,917,789,785,406,769,770,768)" /> <!-- Абсолютная Защита (Ultimate Defense)-->
+			<skill id="528" ench_route="2" condition="SELF_NOT_SKILL_EFFECT:(760,368,110);TARGET_SKILL_EFFECT:(521,414,1532,1533)" /> <!-- Щит Веры (Shield of Faith)-->
+			<skill id="760" condition="ONLY_PLAYER;TARGET_MAGE;SELF_NOT_SKILL_EFFECT:(110,368,528,916);TARGET_SKILL_EFFECT:(1532,1533)" /> <!-- Броня Антимагии (Anti Magic Armor) -->
+			<skill id="916" condition="ONLY_PLAYER;TARGET_MAGE;SELF_NOT_SKILL_EFFECT:(760,110,368,528);TARGET_SKILL_EFFECT:(1532,1533)" /> <!-- Щит Отражения Магии (Shield Deflect Magic)-->
+		</control_skills>
+		<debuff_skills chance="25">
+			<skill id="353" condition="TARGET_FIGHTER" ench_route="1"/> <!-- Сокрушение Щитом (Shield Slam)-->
+			<skill id="28" condition="TARGET_FIGHTER" ench_route="3"/> <!-- Агрессия (Aggression)  -->
+			<skill id="342" ench_route="2"/> <!-- Прикосновение Смерти (Touch of Death)-->
+			<skill id="763" condition="MAX_DISTANCE:200"/> <!-- Крик Ада (Hell Scream)-->
+			<skill id="18" condition="TARGET_FIGHTER;CHANCE_CAST:50" ench_route="2"/> <!-- Аура Ненависти (Aura of Hate)  -->
+		</debuff_skills>
+		<summon_skills>
+			<skill id="283" ench_route="1" condition="NOT_IN_BATTLE"/> <!-- Призвать Темную Пантеру (Summon Dark Panther)-->
+		</summon_skills>
+		<summon_actions>
+			<skill id="6094" condition="ONLY_PLAYER"/> <!-- Натиск пантеры -->
+			<skill id="6096" condition="ONLY_PLAYER;CHANCE_CAST:15"/> <!-- Смертоносный коготь пантеры -->
+		</summon_actions>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>	
+	</ClassObject>
+ </list>

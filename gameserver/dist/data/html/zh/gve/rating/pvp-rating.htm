@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Glory World - Rating</title>
+</head>
+<body>
+<table background="L2UI_CH3.refinewnd_back_Pattern" border=0 cellpadding=0 cellspacing=0 height=358 width=292>
+    <tr>
+        <td height=20>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" height=40>
+            <font color=ffa500>顶级PvP/Death播放器</font>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <table border=0 cellpadding=0 cellspacing=0 width="260">
+                <tr>
+                    <td><font color=ffa500>#</font></td>
+                    <td><font color=ffa500>名称</font></td>
+                    <td><font color=ffa500>PvP</font></td>
+                    <td><font color=ffa500>死亡之死</font></td>
+                </tr>
+
+                <tr>
+                    <td height="15"></td>
+                </tr>
+
+                <!--Сюда цикл, максимум 20, страница одна.-->
+
+                #foreach($p in $players.getItems())
+                <tr>
+                    <td>$foreach.count</td>
+                    <td>$p.getName()</td>
+                    <td>$p.getPvp()</td>
+                    <td>$p.getDeaths()</td>
+                </tr>
+                #end
+
+            </table>
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>

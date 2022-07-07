@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Lineage II GvE - Лидер Фракции</title>
+	</head>
+<body>
+	<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+		<tr>
+			<td align="center">
+				<table width=292>
+					<tr><td height="5"></td></tr>
+					<tr>
+						<td align="center">
+							#if ($leaders.isEmpty())
+							    <font name="hs9" color="ff5000">У фракции нет Лидера</font>
+							#else
+							    <font name="hs9">Текущий Лидер Фракции: </font><font name="hs9" color="LEVEL">$leaders.get(0)</font>
+							#end
+						</td>
+					</tr>
+					<tr><td height="10"></td></tr>
+					<tr>
+						<td align="center">
+							Лидер фракции - самый достойный игрок,<br1>
+							который был избран на эту должность путем<br1>
+							всеобщего голосования.<br>
+							Лидер имеет воозможность использовать<br1>
+							<font color="LEVEL">особый глобальный чат и команды Лидера</font>.<br>
+							Помимо этого Лидер получает набор<br1>
+							дополнительных умений, которые помогут ему<br1>
+							и другим членам фракции во время сражений.<br>
+							<img src="icon.skill10546" height="32" width="32"><br>
+							<font name="hs9" color="LEVEL">Leader Aura</font><br1>
+							Увеличивает Физ. Защиту и Маг. Защиту на 10%,<br1>
+							Скорость на 5 всем ближайшим членам фракции.<br>
+							<img src="icon.skill10017" height="32" width="32"><br>
+							<font name="hs9" color="LEVEL">Leader Fortitude</font><br1>
+							Увеличивает пассивно Физ. Защиту и<br1>
+							Маг. Защиту Лидера на 35%.<br>
+							<img src="icon.skill11759" height="32" width="32"><br>
+							<font name="hs9" color="LEVEL">Faction Invincibility</font><br1>
+							На 30 секунд делает ближайших членов<br1>
+							фракции неуязвимыми в любому виду урона.<br>
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr><td height="5"></td></tr>
+					<tr>
+						<td align=center>
+							<button action="bypass -h htmbypass_services.FactionLeader:main" ALIGN=LEFT ICON="NORMAL">Назад</button>
+						</td>
+					</tr>
+					<tr><td height="5"></td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

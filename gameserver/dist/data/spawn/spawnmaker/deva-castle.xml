@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "../spawn.dtd">
+
+<list>
+  <territory name="dc1">
+    <add x="177336" y="-14632" zmin="-2482" zmax="-1982"/>
+    <add x="176952" y="-15384" zmin="-2506" zmax="-2006"/>
+    <add x="176968" y="-16056" zmin="-2506" zmax="-2006"/>
+    <add x="177232" y="-16366" zmin="-2506" zmax="-2006"/>
+    <add x="177656" y="-16264" zmin="-2506" zmax="-2006"/>
+    <add x="178584" y="-16344" zmin="-2506" zmax="-2006"/>
+    <add x="179192" y="-16360" zmin="-2506" zmax="-2006"/>
+    <add x="179752" y="-16280" zmin="-2498" zmax="-1998"/>
+    <add x="179752" y="-15384" zmin="-2506" zmax="-2006"/>
+    <add x="179336" y="-14664" zmin="-2482" zmax="-1982"/>
+    <add x="178888" y="-15288" zmin="-2506" zmax="-2006"/>
+    <add x="177864" y="-15208" zmin="-2498" zmax="-1998"/>
+    <add x="177592" y="-14680" zmin="-2482" zmax="-1982"/>
+  </territory>
+  <territory name="dc2">
+    <add x="179480" y="-16328" zmin="-2506" zmax="-2006"/>
+    <add x="179752" y="-16344" zmin="-2498" zmax="-1998"/>
+    <add x="179736" y="-18728" zmin="-2506" zmax="-2006"/>
+    <add x="179592" y="-19032" zmin="-2506" zmax="-2006"/>
+    <add x="179464" y="-19048" zmin="-2506" zmax="-2006"/>
+  </territory>
+  <territory name="dc3">
+    <add x="179384" y="-19032" zmin="-2506" zmax="-2006"/>
+    <add x="179448" y="-18392" zmin="-2506" zmax="-2006"/>
+    <add x="178360" y="-18328" zmin="-2506" zmax="-2006"/>
+    <add x="178376" y="-18904" zmin="-2506" zmax="-2006"/>
+    <add x="178696" y="-18856" zmin="-2506" zmax="-2006"/>
+    <add x="178776" y="-19016" zmin="-2506" zmax="-2006"/>
+  </territory>
+  <territory name="dc4">
+    <add x="178536" y="-18184" zmin="-2474" zmax="-1974"/>
+    <add x="179192" y="-18184" zmin="-2474" zmax="-1974"/>
+    <add x="179272" y="-18088" zmin="-2474" zmax="-1974"/>
+    <add x="179272" y="-17288" zmin="-2474" zmax="-1974"/>
+    <add x="179176" y="-17096" zmin="-2474" zmax="-1974"/>
+    <add x="178648" y="-17112" zmin="-2474" zmax="-1974"/>
+    <add x="178552" y="-17288" zmin="-2474" zmax="-1974"/>
+  </territory>
+  <territory name="dc5">
+    <add x="179272" y="-17000" zmin="-2474" zmax="-1974"/>
+    <add x="179272" y="-16712" zmin="-2474" zmax="-1974"/>
+    <add x="179048" y="-16504" zmin="-2474" zmax="-1974"/>
+    <add x="177368" y="-16520" zmin="-2474" zmax="-1974"/>
+    <add x="177128" y="-16728" zmin="-2474" zmax="-1974"/>
+    <add x="177128" y="-17128" zmin="-2474" zmax="-1974"/>
+    <add x="177416" y="-17144" zmin="-2474" zmax="-1974"/>
+  </territory>
+  <territory name="dc6">
+    <add x="177128" y="-17160" zmin="-2474" zmax="-1974"/>
+    <add x="177272" y="-17160" zmin="-2474" zmax="-1974"/>
+    <add x="177288" y="-17896" zmin="-2474" zmax="-1974"/>
+    <add x="177137" y="-17839" zmin="-2474" zmax="-1974"/>
+  </territory>
+  <territory name="dc7">
+    <add x="177337" y="-17255" zmin="-2474" zmax="-1974"/>
+    <add x="177432" y="-18088" zmin="-2474" zmax="-1974"/>
+    <add x="178408" y="-18184" zmin="-2458" zmax="-1958"/>
+    <add x="178408" y="-17320" zmin="-2458" zmax="-1958"/>
+    <add x="178264" y="-17224" zmin="-2442" zmax="-1942"/>
+  </territory>
+  <territory name="dc8">
+    <add x="178264" y="-18360" zmin="-2490" zmax="-1990"/>
+    <add x="177544" y="-18360" zmin="-2490" zmax="-1990"/>
+    <add x="177576" y="-18776" zmin="-2490" zmax="-1990"/>
+    <add x="178264" y="-18808" zmin="-2490" zmax="-1990"/>
+  </territory>
+
+  <!-- Wave 1 Water -->
+
+  <spawn group="water_lotf_wave_1" name="dc1" territory="dc1">
+    <npc id="29030" count="30" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc2" territory="dc2">
+    <npc id="29030" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc3" territory="dc3">
+    <npc id="29030" count="15" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc4" territory="dc4">
+    <npc id="29030" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc5" territory="dc5">
+    <npc id="29030" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc6" territory="dc6">
+    <npc id="29030" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc7" territory="dc7">
+    <npc id="29030" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_1" name="dc8" territory="dc8">
+    <npc id="29030" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 2 Water -->
+
+  <spawn group="water_lotf_wave_2" name="dc1" territory="dc1">
+    <npc id="29031" count="26" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc2" territory="dc2">
+    <npc id="29031" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc3" territory="dc3">
+    <npc id="29031" count="13" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc4" territory="dc4">
+    <npc id="29031" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc5" territory="dc5">
+    <npc id="29031" count="17" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc6" territory="dc6">
+    <npc id="29031" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc7" territory="dc7">
+    <npc id="29031" count="17" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_2" name="dc8" territory="dc8">
+    <npc id="29031" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 3 Water -->
+
+  <spawn group="water_lotf_wave_3" name="dc1" territory="dc1">
+    <npc id="29032" count="22" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc2" territory="dc2">
+    <npc id="29032" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc3" territory="dc3">
+    <npc id="29032" count="11" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc4" territory="dc4">
+    <npc id="29032" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc5" territory="dc5">
+    <npc id="29032" count="14" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc6" territory="dc6">
+    <npc id="29032" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc7" territory="dc7">
+    <npc id="29032" count="14" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_3" name="dc8" territory="dc8">
+    <npc id="29032" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 4 Water -->
+
+  <spawn group="water_lotf_wave_4">
+    <npc id="29033" count="1" respawn="0" respawn_random="0" pos="178312 -15736 -2256 44315"/>
+  </spawn>
+
+  <!-- Wave 5 Water -->
+
+  <spawn group="water_lotf_wave_5" name="dc1" territory="dc1">
+    <npc id="29034" count="16" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc2" territory="dc2">
+    <npc id="29034" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc3" territory="dc3">
+    <npc id="29034" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc4" territory="dc4">
+    <npc id="29034" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc5" territory="dc5">
+    <npc id="29034" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc6" territory="dc6">
+    <npc id="29034" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc7" territory="dc7">
+    <npc id="29034" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_5" name="dc8" territory="dc8">
+    <npc id="29034" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 6 Water -->
+
+  <spawn group="water_lotf_wave_6" name="dc1" territory="dc1">
+    <npc id="29035" count="13" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc2" territory="dc2">
+    <npc id="29035" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc3" territory="dc3">
+    <npc id="29035" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc4" territory="dc4">
+    <npc id="29035" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc5" territory="dc5">
+    <npc id="29035" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc6" territory="dc6">
+    <npc id="29035" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc7" territory="dc7">
+    <npc id="29035" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_6" name="dc8" territory="dc8">
+    <npc id="29035" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 7 Water -->
+
+  <spawn group="water_lotf_wave_7" name="dc1" territory="dc1">
+    <npc id="29036" count="11" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc2" territory="dc2">
+    <npc id="29036" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc3" territory="dc3">
+    <npc id="29036" count="6" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc4" territory="dc4">
+    <npc id="29036" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc5" territory="dc5">
+    <npc id="29036" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc6" territory="dc6">
+    <npc id="29036" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc7" territory="dc7">
+    <npc id="29036" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_7" name="dc8" territory="dc8">
+    <npc id="29036" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+
+
+  <!-- Wave 8 Water -->
+
+  <spawn group="water_lotf_wave_8">
+    <npc id="29037" count="1" respawn="0" respawn_random="0" pos="178312 -15736 -2256 44315"/>
+  </spawn>
+
+  <!-- Wave 9 Water -->
+
+  <spawn group="water_lotf_wave_9" name="dc1" territory="dc1">
+    <npc id="29038" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc2" territory="dc2">
+    <npc id="29038" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc3" territory="dc3">
+    <npc id="29038" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc4" territory="dc4">
+    <npc id="29038" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc5" territory="dc5">
+    <npc id="29038" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc6" territory="dc6">
+    <npc id="29038" count="1" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc7" territory="dc7">
+    <npc id="29038" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_9" name="dc8" territory="dc8">
+    <npc id="29038" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+
+
+  <!-- Wave 10 Water -->
+
+  <spawn group="water_lotf_wave_10" name="dc1" territory="dc1">
+    <npc id="29039" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc2" territory="dc2">
+    <npc id="29039" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc3" territory="dc3">
+    <npc id="29039" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc4" territory="dc4">
+    <npc id="29039" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc5" territory="dc5">
+    <npc id="29039" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc6" territory="dc6">
+    <npc id="29039" count="1" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc7" territory="dc7">
+    <npc id="29039" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_10" name="dc8" territory="dc8">
+    <npc id="29039" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 11 Water Bonus-->
+
+  <spawn group="water_lotf_wave_11" name="dc1" territory="dc1">
+    <npc id="29040" count="30" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc2" territory="dc2">
+    <npc id="29040" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc3" territory="dc3">
+    <npc id="29040" count="15" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc4" territory="dc4">
+    <npc id="29040" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc5" territory="dc5">
+    <npc id="29040" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc6" territory="dc6">
+    <npc id="29040" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc7" territory="dc7">
+    <npc id="29040" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="water_lotf_wave_11" name="dc8" territory="dc8">
+    <npc id="29040" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 1 Fire -->
+
+  <spawn group="fire_lotf_wave_1" name="dc1" territory="dc1">
+    <npc id="29030" count="30" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc2" territory="dc2">
+    <npc id="29030" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc3" territory="dc3">
+    <npc id="29030" count="15" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc4" territory="dc4">
+    <npc id="29030" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc5" territory="dc5">
+    <npc id="29030" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc6" territory="dc6">
+    <npc id="29030" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc7" territory="dc7">
+    <npc id="29030" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_1" name="dc8" territory="dc8">
+    <npc id="29030" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 2 Fire -->
+
+  <spawn group="fire_lotf_wave_2" name="dc1" territory="dc1">
+    <npc id="29031" count="26" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc2" territory="dc2">
+    <npc id="29031" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc3" territory="dc3">
+    <npc id="29031" count="13" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc4" territory="dc4">
+    <npc id="29031" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc5" territory="dc5">
+    <npc id="29031" count="17" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc6" territory="dc6">
+    <npc id="29031" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc7" territory="dc7">
+    <npc id="29031" count="17" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_2" name="dc8" territory="dc8">
+    <npc id="29031" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 3 Fire -->
+
+  <spawn group="fire_lotf_wave_3" name="dc1" territory="dc1">
+    <npc id="29032" count="22" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc2" territory="dc2">
+    <npc id="29032" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc3" territory="dc3">
+    <npc id="29032" count="11" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc4" territory="dc4">
+    <npc id="29032" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc5" territory="dc5">
+    <npc id="29032" count="14" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc6" territory="dc6">
+    <npc id="29032" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc7" territory="dc7">
+    <npc id="29032" count="14" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_3" name="dc8" territory="dc8">
+    <npc id="29032" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 4 Fire -->
+
+  <spawn group="fire_lotf_wave_4">
+    <npc id="29033" count="1" respawn="0" respawn_random="0" pos="178312 -15736 -2256 44315"/>
+  </spawn>
+
+  <!-- Wave 5 Fire -->
+
+  <spawn group="fire_lotf_wave_5" name="dc1" territory="dc1">
+    <npc id="29034" count="16" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc2" territory="dc2">
+    <npc id="29034" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc3" territory="dc3">
+    <npc id="29034" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc4" territory="dc4">
+    <npc id="29034" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc5" territory="dc5">
+    <npc id="29034" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc6" territory="dc6">
+    <npc id="29034" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc7" territory="dc7">
+    <npc id="29034" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_5" name="dc8" territory="dc8">
+    <npc id="29034" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 6 Fire -->
+
+  <spawn group="fire_lotf_wave_6" name="dc1" territory="dc1">
+    <npc id="29035" count="13" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc2" territory="dc2">
+    <npc id="29035" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc3" territory="dc3">
+    <npc id="29035" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc4" territory="dc4">
+    <npc id="29035" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc5" territory="dc5">
+    <npc id="29035" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc6" territory="dc6">
+    <npc id="29035" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc7" territory="dc7">
+    <npc id="29035" count="9" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_6" name="dc8" territory="dc8">
+    <npc id="29035" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 7 Fire -->
+
+  <spawn group="fire_lotf_wave_7" name="dc1" territory="dc1">
+    <npc id="29036" count="11" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc2" territory="dc2">
+    <npc id="29036" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc3" territory="dc3">
+    <npc id="29036" count="6" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc4" territory="dc4">
+    <npc id="29036" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc5" territory="dc5">
+    <npc id="29036" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc6" territory="dc6">
+    <npc id="29036" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc7" territory="dc7">
+    <npc id="29036" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_7" name="dc8" territory="dc8">
+    <npc id="29036" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+
+
+  <!-- Wave 8 Fire -->
+
+  <spawn group="fire_lotf_wave_8">
+    <npc id="29037" count="1" respawn="0" respawn_random="0" pos="178312 -15736 -2256 44315"/>
+  </spawn>
+
+  <!-- Wave 9 Fire -->
+
+  <spawn group="fire_lotf_wave_9" name="dc1" territory="dc1">
+    <npc id="29038" count="8" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc2" territory="dc2">
+    <npc id="29038" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc3" territory="dc3">
+    <npc id="29038" count="4" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc4" territory="dc4">
+    <npc id="29038" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc5" territory="dc5">
+    <npc id="29038" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc6" territory="dc6">
+    <npc id="29038" count="1" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc7" territory="dc7">
+    <npc id="29038" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_9" name="dc8" territory="dc8">
+    <npc id="29038" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+
+
+  <!-- Wave 10 Fire -->
+
+  <spawn group="fire_lotf_wave_10" name="dc1" territory="dc1">
+    <npc id="29039" count="7" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc2" territory="dc2">
+    <npc id="29039" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc3" territory="dc3">
+    <npc id="29039" count="3" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc4" territory="dc4">
+    <npc id="29039" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc5" territory="dc5">
+    <npc id="29039" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc6" territory="dc6">
+    <npc id="29039" count="1" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc7" territory="dc7">
+    <npc id="29039" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_10" name="dc8" territory="dc8">
+    <npc id="29039" count="2" respawn="0" respawn_random="0"/>
+  </spawn>
+
+  <!-- Wave 11 Fire Bonus-->
+
+  <spawn group="fire_lotf_wave_11" name="dc1" territory="dc1">
+    <npc id="29040" count="30" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc2" territory="dc2">
+    <npc id="29040" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc3" territory="dc3">
+    <npc id="29040" count="15" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc4" territory="dc4">
+    <npc id="29040" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc5" territory="dc5">
+    <npc id="29040" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc6" territory="dc6">
+    <npc id="29040" count="5" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc7" territory="dc7">
+    <npc id="29040" count="20" respawn="0" respawn_random="0"/>
+  </spawn>
+  <spawn group="fire_lotf_wave_11" name="dc8" territory="dc8">
+    <npc id="29040" count="10" respawn="0" respawn_random="0"/>
+  </spawn>
+
+
+</list>

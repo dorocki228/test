@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="13" class_name="Necromancer">
+		<nuke_skills>
+			<skill id="1148" /> <!-- Шип Смерти (Death Spike)-->
+			<skill id="1159" condition="MIN_HP:30"/> <!--Проклятие Смертельной Связи (Curse Death Link) -->
+			<skill id="1234" condition="MIN_HP:60"/> <!-- Коготь Вампира (Vampiric Claw) -->			
+		</nuke_skills>
+		<self_buff_skills>
+			<skill id="1262" condition="LIVE_SUMMON"/> <!-- Поделиться Болью (Transfer Pain) -->
+		</self_buff_skills>
+		<debuff_skills chance="25">
+			<skill id="1263" condition="DEBUFF_CHANCE:40"/> <!-- Проклятие Мрака (Curse Gloom)-->
+			<skill id="1170" condition="DEBUFF_CHANCE:45;CHANCE_CAST:50"/> <!-- Якорь (Anchor)-->
+			<skill id="1169" condition="ONLY_PLAYER;DEBUFF_CHANCE:45;CHANCE_CAST:25"/> <!-- Проклятие Страха (Curse Fear)-->
+			<skill id="1169" condition="ONLY_MONSTER;DEBUFF_CHANCE:40;MAX_DISTANCE:150"/> <!-- Проклятие Страха (Curse Fear)-->
+			<skill id="1064" condition="ONLY_PLAYER;TARGET_MAGE;DEBUFF_CHANCE:40"/> <!-- Безмолвие (Silence) -->	
+		</debuff_skills>
+		<summon_skills>
+			<skill id="1129" /> <!-- Призвать Воскрешенного (Summon Reanimated Man)-->
+		</summon_skills>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>

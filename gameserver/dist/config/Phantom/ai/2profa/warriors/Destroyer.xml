@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<ClassObject class_id="46" class_name="Destroyer">
+		<nuke_skills ChanceCastOnMonster="25">
+<!--			<skill id="190" /> &lt;!&ndash; Фатальный Удар (Fatal Strike)  &ndash;&gt; -->
+			<skill id="315" /> <!-- Сокрушение Судьбы (Crush of Doom)  -->
+			<skill id="994" /> <!-- Стремительный Бросок (Rush)  -->			
+		</nuke_skills>
+		<control_skills>
+			<skill id="994" condition="MIN_DISTANCE:120;TARGET_RUNNING"/> <!-- Стремительный Бросок (Rush)-->
+		</control_skills>
+		<self_buff_skills>
+			<skill id="94" /> <!-- Ярость (Rage)  -->
+			<skill id="423" /> <!-- Инфернальный Вид (Dark Form) -->
+<!--			<skill id="121" /> &lt;!&ndash; Боевой Рев (Battle Roar) &ndash;&gt;			-->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="312" condition="SELF_NOT_SKILL_EFFECT:(312);MAX_MP:30;IS_IN_BATTLE"/> <!-- Боевая стойка коварства Вкл-->
+			<skill id="312" condition="SELF_SKILL_EFFECT:(312);MIN_MP:20;CANCEL_BUFF_BY_ID:312"/> <!-- Боевая стойка коварства Выкл мало мп-->
+			
+			<skill id="139" condition="MIN_HP:28;SELF_NOT_SKILL_EFFECT:(176);TARGET_SKILL_EFFECT:(176,420,536,917,425,292,789,785,406,769,770,768,521,414)" /> <!-- Мужество (Guts)  -->
+			<skill id="287" condition="ONLY_PLAYER" /> <!-- Львиное Сердце (Lionheart)  -->
+			
+			<skill id="176" condition="MIN_HP:59"/> <!-- Безумие (Frenzy)  -->
+			<skill id="420" condition="MIN_HP:29"/> <!-- Фанатик (Zealot)  -->
+		</situation_skills>
+		<debuff_skills chance="25">
+		    <skill id="260" /> <!-- Сокрушение Молотом (Hammer Crush)  -->
+		</debuff_skills>
+		<res_items>
+			<item id="3936" /> <!-- Благ свиток воскрешения -->
+		</res_items>
+		<use_items>
+			<item id="75025" delay="17000" condition="MIN_MP:60;CHANCE_CAST:50"/>
+			<item id="1539" delay="17000" condition="MIN_HP:50;CHANCE_CAST:30"/>
+			<item id="5592" delay="1000" condition="MIN_CP:30"/>
+		</use_items>
+	</ClassObject>
+ </list>
