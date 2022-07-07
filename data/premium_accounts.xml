@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "premium_accounts.dtd">
+<list>
+	<!--based_on_gameserver - премиум аккаунт будет храниться в гейм сервере. -->
+	<!--free_type - тип премиум аккаунта, выдаваемого бесплатно, при создании первого персонажа. -->
+	<!--free_delay - время действия премиум аккаунта, выдаваемого бесплатно, при создании первого персонажа (в часах). -->
+	<!--notify_free - сообщать персонажу о выдаче бесплатного премиум аккаунта. -->
+	<config enabled="true" based_on_gameserver="true" free_type="0" free_delay="0" notify_free="true" />
+	<!-- Normal -->
+	<account type="1">
+		<name>
+			<en>Basic</en>
+			<ru>Обычный</ru>
+		</name>
+		<rates exp="1.5" sp="1.5" adena="1.25" drop="1.0" spoil="1.0" quest_drop="1.0" quest_reward="1.0" confrontation_points="1.2" exp_loss="0.5" tax_tp="0.5" />
+		<modifiers spoil_chance="1.5" drop_chance="1.1" enchant="1.0"/>
+		<stats>
+			<mul order="0x30" stat="maxLoad" value="1.1" />
+		</stats>
+		<fee delay="168"> <!--7 day-->
+            <item id="75040" count="20"/>    <!--Avers -->
+        </fee>
+        <fee delay="336"> <!--14 day-->
+            <item id="75040" count="28"/>    <!--Avers -->
+        </fee>
+	</account>
+	<!-- For Events type 3 -->
+	<account type="3">
+		<name>
+			<en>Advanced</en>
+			<ru>Продвинутый</ru>
+		</name>
+		<rates exp="1.5" sp="1.5" adena="1.4" drop="1.0" spoil="1.0" quest_drop="1.0" quest_reward="1.0" confrontation_points="1.25" exp_loss="0.5" tax_tp="0.5"/>
+		<modifiers spoil_chance="1.5" drop_chance="1.25" enchant="1.05"/>
+		<stats>
+			<mul order="0x30" stat="maxLoad" value="1.2"/>
+		</stats>
+		<fee delay="72">
+			<item id="77425" count="1"/>    <!-- Coupon for Prem -->
+		</fee>
+	</account>
+	<!-- Advanced -->
+	<account type="2">
+		<name>
+			<en>Advanced</en>
+			<ru>Продвинутый</ru>
+		</name>
+		<rates exp="1.5" sp="1.5" adena="1.4" drop="1.0" spoil="1.0" quest_drop="1.0" quest_reward="1.0" confrontation_points="1.25" exp_loss="0.5" tax_tp="0.5" />
+		<modifiers spoil_chance="1.5" drop_chance="1.25" enchant="1.05"/>
+		<stats>
+			<mul order="0x30" stat="maxLoad" value="1.2" />
+		</stats>
+        <fee delay="0">
+            <item id="75040" count="40"/>    <!-- Avers -->
+        </fee>
+	</account>
+</list>

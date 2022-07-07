@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "hostsconfig.dtd">
+<list>
+	<!--<authserver ip="127.0.0.1" port="9014"/>--> 	<!--AuthServer IP and port-->
+	<authserver ip="127.0.0.1" port="9014"/> 	<!--AuthServer IP and port-->
+	<gameserver>	<!--GameServer hosts-->
+		<!--id: server id in server list-->
+		<!--ip: external ip-->
+		<!--inner_ip: internal ip-->
+		<!--port: gameserver port-->
+		<!--key: gameserver key-->
+		<!--<host id="7" ip="193.107.203.50" inner_ip="127.0.0.1" port="7777" key="gameserver_key"/>-->
+		<host id="1" ip="54.36.173.209" inner_ip="127.0.0.1" port="7777" key="gameserver_key"/>
+	</gameserver>
+</list>
