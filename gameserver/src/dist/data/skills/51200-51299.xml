@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="51200" level="1" name="High Priest's Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51201" level="1" name="Blood Noblesse's Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_rednoblesse_i01"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51202" level="1" name="White Noblesse's Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_whitenoblesse_i01"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51203" level="1" name="Berserker Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_dragon_i02"/>
+        <set name="reuse_delay" value="290.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51204" level="1" name="Ninja Assassin - Cancel Target">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51205" level="1" name="Blue Musketeer - Stun">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51206" level="1" name="Valkyrie - Paralyze">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1170"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51207" level="1" name="Wild Wolf - Hex">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0122"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51208" level="1" name="Caravan's Blessing">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_pirate_i02"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51209" level="1" name="Purple Cowboy - P. Atk.">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51210" level="1" name="High Priest - Blessing of Eva">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1506"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51211" level="1" name="Blood Noblesse - M. Atk.">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51212" level="1" name="White Noblesse - Curse Gloom">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1263"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51213" level="1" name="Mysterious Transformation Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51214" level="1" name="Transformation Sealbook: Dragon Berserker">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51215" level="1" name="Transformation Sealbook: Ninja Assassin">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51216" level="1" name="Transformation Sealbook: Blue Musketeer">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51217" level="1" name="Transformation Sealbook: Valkyrie">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51218" level="1" name="Transformation Sealbook: Wild Wolf">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51219" level="1" name="Transformation Sealbook: Caravan">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51220" level="1" name="Transformation Sealbook: Purple Cowboy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51221" level="1" name="Transformation Sealbook: High Priest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51222" level="1" name="Transformation Sealbook: Blood Noblesse">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51223" level="1" name="Transformation Sealbook: White Noblesse">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51224" level="1" name="Fish Stew - Clarity">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="91284:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="mp_cost_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="0"/>
+                <def name="p_magic_mp_cost_param2" value="-10"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="1"/>
+                <def name="p_magic_mp_cost_param2" value="-4"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="3"/>
+                <def name="p_magic_mp_cost_param2" value="-10"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="51224" level="2" name="Fish Stew - Clarity">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="91285:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="mp_cost_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="0"/>
+                <def name="p_magic_mp_cost_param2" value="-15"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="1"/>
+                <def name="p_magic_mp_cost_param2" value="-7"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="3"/>
+                <def name="p_magic_mp_cost_param2" value="-15"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="51225" level="1" name="Fish Stew - Agility">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="91286:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="avoid_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_avoid">
+                <def name="p_avoid_param1" value="all"/>
+                <def name="p_avoid_param2" value="2"/>
+                <def name="p_avoid_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="51225" level="2" name="Fish Stew - Agility">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="91287:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="avoid_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_avoid">
+                <def name="p_avoid_param1" value="all"/>
+                <def name="p_avoid_param2" value="3"/>
+                <def name="p_avoid_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="51225" level="3" name="Fish Stew - Agility">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="91288:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="3"/>
+        <set name="abnormal_type" value="avoid_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_avoid">
+                <def name="p_avoid_param1" value="all"/>
+                <def name="p_avoid_param2" value="4"/>
+                <def name="p_avoid_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="51226" level="1" name="Mysterious Transformation Sealbook Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51227" level="1" name="Spring Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_leaf_green_i00"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51227" level="2" name="Spring Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_leaf_green_i00"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51227" level="3" name="Spring Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_leaf_green_i00"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51228" level="1" name="Sayha's Spring Breeze">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_magic_flame_game_wind1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51229" level="1" name="Springҳ Blessing Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51230" level="1" name="Grace Recovery">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51231" level="1" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51231" level="2" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51232" level="1" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51233" level="1" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51233" level="2" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51233" level="3" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51233" level="4" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51233" level="5" name="Gem - Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51234" level="1" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51234" level="2" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51235" level="1" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51236" level="1" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51236" level="2" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51236" level="3" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51236" level="4" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51236" level="5" name="Gem - Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="1" name="Gem - Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="2" name="Gem - Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="3" name="Gem - Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="4" name="Gem - Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="5" name="Gem - Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="6" name="Greater Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="7" name="Greater Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="8" name="Greater Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="9" name="Greater Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51237" level="10" name="Greater Emerald">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51238" level="1" name="Brilliant Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_special_jewelbox_lv5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51239" level="1" name="Angler's Rune - Veteran">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fishing_zone_ticket_1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51239" level="2" name="Angler's Rune - Master">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fishing_zone_ticket_1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51239" level="3" name="Angler's Rune - Supreme">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fishing_zone_ticket_1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51240" level="1" name="Night Goblin Liquor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_goblin_buff_herong"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51241" level="1" name="Codex - Disarm">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51242" level="1" name="Codex - Armor Breaker">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51243" level="1" name="Codex - Spell Break">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51244" level="1" name="Codex - Warp">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51245" level="1" name="Codex - Flash">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51246" level="1" name="Codex - Berserker Mode">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51247" level="1" name="Disarm">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0485"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-341"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51248" level="1" name="Armor Breaker">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10703"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-341"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51249" level="1" name="Spell Break">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1412"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-341"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="51250" level="1" name="Warp">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11057"/>
+        <set name="skill_cool_time" value="0.2"/>
+        <set name="skill_hit_time" value="0.1"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51251" level="1" name="Flash">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1417"/>
+        <set name="skill_cool_time" value="0.2"/>
+        <set name="skill_hit_time" value="0.8"/>
+        <set name="reuse_delay" value="120.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51252" level="1" name="Berserker Mode">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10274"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51253" level="1" name="Elmoreden Scroll of Experience">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_elmoaden_exp_scrl"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51254" level="1" name="High-grade Elmoreden Scroll of Experience">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_elmoaden_exp_scrl"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51255" level="1" name="Elmoreden Treasure Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.bm_elmoaden_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51256" level="1" name="Elmoreden Relic Pouch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.bm_elmoaden_pocket"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51257" level="1" name="Elmoreden Golden Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.bm_elmoaden_gold_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51258" level="1" name="Elmoreden Silver Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.bm_elmoaden_silver_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51259" level="1" name="+10 Sayha's Cloak Box - White">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.etc_treasure_box_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51260" level="1" name="+10 Sayha's Cloak Box - Black">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.etc_treasure_box_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51261" level="1" name="+10 Sayha's Cloak Box - Red">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="[icon.etc_treasure_box_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51262" level="1" name="Soccer Ball Herb of Victory">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchSys2.icon.br_soccer_ball_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51263" level="1" name="Greater Solid Scroll: Enchant Weapon (D-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.giant_scrl_of_ench_wp_d"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51264" level="1" name="Greater Solid Scroll: Enchant Armor (D-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.giant_scrl_of_ench_am_d"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51265" level="1" name="Greater Solid Scroll: Enchant Weapon (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.giant_scrl_of_ench_wp_c"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51266" level="1" name="Greater Solid Scroll: Enchant Armor (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.giant_scrl_of_ench_am_c"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51267" level="1" name="Greater Solid Scroll: Enchant Weapon (B-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.giant_scrl_of_ench_wp_b"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51268" level="1" name="Greater Solid Scroll: Enchant Armor (B-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.giant_scrl_of_ench_am_b"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51269" level="1" name="Greater Solid Scroll: Enchant Weapon (A-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51270" level="1" name="Greater Solid Scroll: Enchant Armor (A-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51271" level="1" name="War Paint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill50008"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51271" level="2" name="War Paint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill50008"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51271" level="3" name="War Paint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill50008"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51271" level="4" name="War Paint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill50008"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51271" level="5" name="War Paint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill50008"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51272" level="1" name="Didactics">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill51272"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51272" level="2" name="Didactics">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill51272"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51272" level="3" name="Didactics">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill51272"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51272" level="4" name="Didactics">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill51272"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51272" level="5" name="Didactics">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill51272"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51273" level="1" name="Courage Mastery">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11755"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51273" level="2" name="Courage Mastery">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11755"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51273" level="3" name="Courage Mastery">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11755"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51273" level="4" name="Courage Mastery">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11755"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51273" level="5" name="Courage Mastery">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11755"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51274" level="1" name="Honor Recover">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19308"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51274" level="2" name="Honor Recover">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19308"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51274" level="3" name="Honor Recover">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19308"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51274" level="4" name="Honor Recover">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19308"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51274" level="5" name="Honor Recover">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19308"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51275" level="1" name="Sword Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4447"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51275" level="2" name="Sword Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4447"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51275" level="3" name="Sword Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4447"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51275" level="4" name="Sword Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4447"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51275" level="5" name="Sword Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4447"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51276" level="1" name="Blunt Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4443"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51276" level="2" name="Blunt Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4443"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51276" level="3" name="Blunt Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4443"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51276" level="4" name="Blunt Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4443"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51276" level="5" name="Blunt Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4443"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51277" level="1" name="Polearm Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4445"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51277" level="2" name="Polearm Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4445"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51277" level="3" name="Polearm Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4445"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51277" level="4" name="Polearm Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4445"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51277" level="5" name="Polearm Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4445"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51278" level="1" name="Fist Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4442"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51278" level="2" name="Fist Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4442"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51278" level="3" name="Fist Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4442"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51278" level="4" name="Fist Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4442"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51278" level="5" name="Fist Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4442"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51279" level="1" name="Dagger Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4448"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51279" level="2" name="Dagger Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4448"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51279" level="3" name="Dagger Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4448"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51279" level="4" name="Dagger Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4448"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51279" level="5" name="Dagger Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4448"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51280" level="1" name="Bow Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4444"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51280" level="2" name="Bow Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4444"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51280" level="3" name="Bow Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4444"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51280" level="4" name="Bow Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4444"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51280" level="5" name="Bow Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4444"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51281" level="1" name="Dual Weapon Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4446"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51281" level="2" name="Dual Weapon Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4446"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51281" level="3" name="Dual Weapon Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4446"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51281" level="4" name="Dual Weapon Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4446"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51281" level="5" name="Dual Weapon Resist">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4446"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51282" level="1" name="+5 Sealed Agathion - Virgo">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51283" level="1" name="+5 Sealed Agathion - Capricorn">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51284" level="1" name="+5 Sealed Agathion - Libra">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51285" level="1" name="+5 Sealed Agathion - Taurus">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51286" level="1" name="+5 Sealed Agathion - Leo">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51287" level="1" name="+5 Sealed Agathion - Gemini">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51288" level="1" name="+5 Sealed Agathion - Scorpio">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51289" level="1" name="+5 Sealed Agathion - Aquarius">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51290" level="1" name="+5 Sealed Agathion - Sagittarius">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_treasure_box_i04"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51291" level="1" name="Blessed Scroll: Enchant Weapon (S-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51292" level="1" name="Blessed Scroll: Enchant Armor (S-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51293" level="1" name="Stable Scroll: Enchant Weapon (S-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51294" level="1" name="Stable Scroll: Enchant Armor (S-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51295" level="1" name="Greater Scroll: Enchant Weapon (S-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51296" level="1" name="Greater Scroll: Enchant Armor (S-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51297" level="1" name="Frintezza Doll's Spell">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_doll_frintessa_30d"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51297" level="2" name="Frintezza Doll's Spell">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_doll_frintessa_30d"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51298" level="1" name="Dimensional Barrier">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11621"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="1" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="2" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="3" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="4" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="5" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="6" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="7" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="8" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="9" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="51299" level="10" name="Dimension Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

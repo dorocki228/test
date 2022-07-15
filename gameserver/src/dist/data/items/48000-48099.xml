@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<armor id="48016" name="White Knight Suit">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.white_knight_suit"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="48017" name="High Priest Costume">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm2018_healer_i01"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="400"/>
+		</for>
+	</armor>
+	<armor id="48018" name="Chevalier Costume">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.chevalier_chest_change"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="48019" name="Kat the Cat Costume">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.cat_the_cat_change_0"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="48020" name="Wild Wolf Costume">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm2018_barbarian_i01"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="400"/>
+		</for>
+	</armor>
+	<armor id="48021" name="Valkyrie Costume">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm2018_valkyrie_i01"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="400"/>
+		</for>
+	</armor>
+	<armor id="48022" name="Teddy Bear Wear">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.gomdori_chest_change"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<etcitem id="48046" name="Agathion Enchant Scroll">
+		<set name="icon" value="icon.star_scrl_of_ench_ag"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SCROLL_ENCHANT_ARMOR"/>
+	</etcitem>
+	<etcitem id="48047" name="Quality Agathion Enchant Scroll">
+		<set name="icon" value="icon.star_giantscrl_of_ench_ag"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SCROLL_ENCHANT_ARMOR"/>
+	</etcitem>
+	<armor id="48048" name="Agathion Virgo">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_virgo_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59109" level="1" enchant="0"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="2" enchant="1"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="3" enchant="2"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="4" enchant="3"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="5" enchant="4"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="6" enchant="5"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="7" enchant="6"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="8" enchant="7"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="9" enchant="8"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="10" enchant="9"/>	<!--Virgo Agathion Unique Ability-->
+			<enchant_skill id="59109" level="11" enchant="10"/>	<!--Virgo Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48049" name="Agathion Capricorn">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_capr_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59111" level="1" enchant="0"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="2" enchant="1"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="3" enchant="2"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="4" enchant="3"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="5" enchant="4"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="6" enchant="5"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="7" enchant="6"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="8" enchant="7"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="9" enchant="8"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="10" enchant="9"/>	<!--Capricorn Agathion Unique Ability-->
+			<enchant_skill id="59111" level="11" enchant="10"/>	<!--Capricorn Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48050" name="Agathion Libra">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_lib_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59112" level="1" enchant="0"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="2" enchant="1"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="3" enchant="2"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="4" enchant="3"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="5" enchant="4"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="6" enchant="5"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="7" enchant="6"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="8" enchant="7"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="9" enchant="8"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="10" enchant="9"/>	<!--Libra Agathion Unique Ability-->
+			<enchant_skill id="59112" level="11" enchant="10"/>	<!--Libra Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48052" name="Agathion Taurus">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_tau_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59105" level="1" enchant="0"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="2" enchant="1"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="3" enchant="2"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="4" enchant="3"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="5" enchant="4"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="6" enchant="5"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="7" enchant="6"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="8" enchant="7"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="9" enchant="8"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="10" enchant="9"/>	<!--Taurus Agathion Unique Ability-->
+			<enchant_skill id="59105" level="11" enchant="10"/>	<!--Taurus Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48053" name="Agathion Leo">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_leo_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59106" level="1" enchant="0"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="2" enchant="1"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="3" enchant="2"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="4" enchant="3"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="5" enchant="4"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="6" enchant="5"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="7" enchant="6"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="8" enchant="7"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="9" enchant="8"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="10" enchant="9"/>	<!--Leo Agathion Unique Ability-->
+			<enchant_skill id="59106" level="11" enchant="10"/>	<!--Leo Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48054" name="Agathion Gemini">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_gem_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59113" level="1" enchant="0"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="2" enchant="1"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="3" enchant="2"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="4" enchant="3"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="5" enchant="4"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="6" enchant="5"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="7" enchant="6"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="8" enchant="7"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="9" enchant="8"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="10" enchant="9"/>	<!--Gemini Agathion Unique Ability-->
+			<enchant_skill id="59113" level="11" enchant="10"/>	<!--Gemini Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48055" name="Agathion Scorpio">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_sco_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59107" level="1" enchant="0"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="2" enchant="1"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="3" enchant="2"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="4" enchant="3"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="5" enchant="4"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="6" enchant="5"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="7" enchant="6"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="8" enchant="7"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="9" enchant="8"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="10" enchant="9"/>	<!--Scorpio Agathion Unique Ability-->
+			<enchant_skill id="59107" level="11" enchant="10"/>	<!--Scorpio Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48056" name="Agathion Aquarius">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_aqu_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59110" level="1" enchant="0"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="2" enchant="1"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="3" enchant="2"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="4" enchant="3"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="5" enchant="4"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="6" enchant="5"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="7" enchant="6"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="8" enchant="7"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="9" enchant="8"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="10" enchant="9"/>	<!--Aquarius Agathion Unique Ability-->
+			<enchant_skill id="59110" level="11" enchant="10"/>	<!--Aquarius Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<armor id="48058" name="Agathion Sagittarius">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_sag_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<skills>
+			<enchant_skill id="59108" level="1" enchant="0"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="2" enchant="1"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="3" enchant="2"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="4" enchant="3"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="5" enchant="4"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="6" enchant="5"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="7" enchant="6"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="8" enchant="7"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="9" enchant="8"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="10" enchant="9"/>	<!--Sagittarius Agathion Unique Ability-->
+			<enchant_skill id="59108" level="11" enchant="10"/>	<!--Sagittarius Agathion Unique Ability-->
+		</skills>
+	</armor>
+	<etcitem id="48066" name="Zodiac Agathion Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.star_agathion_cube"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+</list>

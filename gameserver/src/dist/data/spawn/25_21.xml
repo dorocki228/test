@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<spawn group="antharas_dungeon_boss" count="1" respawn="0">
+		<point x="184920" y="114872" z="-8224" h="32542"/>
+		<npc id="29068"/><!--Антарас - Дракон Земли-->
+	</spawn>
+	<spawn group="antharas_dungeon_cube" count="1" respawn="0">
+		<point x="177615" y="114941" z="-7709" h="0"/>
+		<npc id="31859"/><!--Сфера Телепортации-->
+	</spawn>
+	<spawn group="antharas_balthus_knights_boss" count="1" respawn="0">
+		<point x="184920" y="114872" z="-8224" h="32542"/>
+		<npc id="29102"/><!--Антарас - Дракон Земли-->
+	</spawn>
+	<spawn group="zaken_balthus_knights_boss" count="1" respawn="0">
+		<point x="55368" y="219160" z="-3225" h="32542"/>
+		<npc id="29119"/><!--Закен-->
+	</spawn>
+</list>

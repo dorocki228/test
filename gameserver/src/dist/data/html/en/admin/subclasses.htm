@@ -1,0 +1,64 @@
+<html><head><title>Sub-class Menu</title><br>
+<table width=260>
+	<tr>
+		<td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+		<td width=180><center>Sub-class Selection Menu</center></td>
+		<td width=40><button value="Back" action="bypass -h <?back_bypass?>" width=40 height=15 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+	</tr>
+</table>
+<br>
+<br><center>Target: <font color=LEVEL><?target_name?></font></center>
+<br1><center>Current class: <font color=LEVEL><?target_current_class?></font></center>
+<?content?>
+<!--TEMPLATE1
+<table width=280>
+	<tr>
+		<td width=275 align=center><button value="Add Sub-class" action="bypass -h admin_subclass addlist" width=270 height=30 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+	</tr>
+	<tr>
+		<td width=275 align=center><button value="Change Sub-classes" action="bypass -h admin_subclass changelist" width=270 height=30 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+	</tr>
+</table>
+TEMPLATE-->
+<!--TEMPLATE2
+<br><br><center><font color=LEVEL>Add sub-class</font></center>
+<table width=280>
+	<?buttons?>
+</table>
+TEMPLATE-->
+<!--TEMPLATE3
+<br><br><center>Change sub-class: <font color=LEVEL><?change_class_name?></font></center>
+<table width=280>
+	<?buttons?>
+</table>
+TEMPLATE-->
+<!--TEMPLATE4
+<tr>
+	<td width=275 align=center><button value="<?button_name?>" action="bypass -h admin_subclass <?bypass?>" width=270 height=30 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></td>
+</tr>
+TEMPLATE-->
+<!--TEMPLATE5
+<br><br><center><font color=LEVEL>Change sub-class</font></center>
+<table width=280 border=1 cellpadding=0 cellspacing=0>
+	<?buttons?>
+</table>
+TEMPLATE-->
+<!--TEMPLATE6
+<tr>
+	<td width=130 align=center><?class_name?></td>
+	<td width=50 height=35 align=center><?apply_button?></td>
+	<td width=50 height=35 align=center><?change_button?></td>
+	<td width=50 height=35 align=center><?delete_button?></td>
+</tr>
+TEMPLATE-->
+<!--TEMPLATE7
+<button value="Apply" action="bypass -h admin_subclass applyclass <?class_id?>" width=49 height=30 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+TEMPLATE-->
+<!--TEMPLATE8
+<button value="Change" action="bypass -h admin_subclass changelist <?class_id?>" width=49 height=30 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+TEMPLATE-->
+<!--TEMPLATE9
+<button value="Delete" action="bypass -h admin_subclass deleteclass <?class_id?>" width=49 height=30 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df">
+TEMPLATE-->
+<br><br>
+</head></html>

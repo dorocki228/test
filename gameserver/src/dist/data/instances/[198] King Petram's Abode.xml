@@ -1,0 +1,16 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="198" name="King Petram's Abode" maxChannels="20" collapseIfEmpty="5" timelimit="60">
+		<level min="80" max="85"/>
+		<party min="27" max="300"/>
+		<teleport loc="222088 190552 -15488"/>
+		<return loc="114822 11209 -5120"/>
+		<reuse resetReuse="30 6 * * 3" setUponEntry="false" sharedReuseGroup="0"/>
+		<zones>
+			<zone name="[king_petram]" active="true"/>
+		</zones>
+		<spawns>
+			<group name="king_petram" spawned="true"/>
+		</spawns>
+	</instance>
+</list>

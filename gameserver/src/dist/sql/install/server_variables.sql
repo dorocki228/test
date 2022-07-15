@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `server_variables`;
+CREATE TABLE `server_variables` (
+	`name` VARCHAR(86) NOT NULL DEFAULT '',
+	`value` VARCHAR(255) CHARACTER SET UTF8 NOT NULL DEFAULT '',
+	PRIMARY KEY (`name`)
+) ENGINE=MyISAM;

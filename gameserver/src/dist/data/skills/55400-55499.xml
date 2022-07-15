@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="55400" level="1" name="Commemorative Olympiad Bracelet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.dimension_bracelet_i05"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55401" level="1" name="Olympiad Warrior's Talisman">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.npoint_talisman_stat"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55402" level="1" name="Olympiad Warrior's Belt">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.belt_i03"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55403" level="1" name="Summon Agathion - Cheerleader Mae">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55404" level="1" name="Agathion Cute Trick - Cheerleader Mae">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55405" level="1" name="Cheerleader Mae's Support">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchSys.icon.br_aga_local2009_g_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55406" level="1" name="For victory in Tryout - XP/SP">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_trophy_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55407" level="1" name="For victory in Tryout - 2nd class transfer effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_trophy_i00"/>
+        <set name="skill_hit_time" value="0.2"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55408" level="1" name="Expertise Rune (A-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="br_cashtex.item.br_cash_rune_of_feather_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55409" level="1" name="Kusto's Support Box: Enhance Weapon (A-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55410" level="1" name="Kusto's Support Box: Enhance Weapon (B-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55411" level="1" name="Kusto's Support Box: Enhance Weapon (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55412" level="1" name="Transformation Scroll: Pirate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_charm_of_courage_i03"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55413" level="1" name="Transformation Scroll: Dark Assassin">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_charm_of_courage_i05"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55414" level="1" name="White Assassin Transformation Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_charm_of_courage_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55415" level="1" name="Scroll: Enchant Armor (A-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55416" level="1" name="Summon Agathion - One-eyed Bat Drove">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55417" level="1" name="Summon Agathion - Zaken's Spirit Swords">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55418" level="1" name="Summon Agathion - Pegasus">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55419" level="1" name="Summon Agathion - Guangong">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55420" level="1" name="Summon Agathion - Mr. Lucky">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55421" level="1" name="Summon Agathion - Phoenix">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55422" level="1" name="Summon Agathion - Saerom">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55423" level="1" name="Summon Agathion - Gwanseum Nyang">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55424" level="1" name="Summon Agathion - Blue Opera">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55425" level="1" name="Summon Agathion - Red Opera">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55426" level="1" name="Summon Agathion - Miss Chipao">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55427" level="1" name="Summon Agathion - Flower Fairy Spirit">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55428" level="1" name="Summon Agathion - Lancet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55429" level="1" name="Summon Agathion - Liposa">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55430" level="1" name="Summon Agathion - Velarin">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55431" level="1" name="Summon Agathion - Dulcinel">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55432" level="1" name="Summon Agathion - Chimeros">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55433" level="1" name="Summon Agathion - Niveri">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55434" level="1" name="Summon Agathion - Hamell">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55435" level="1" name="Summon Agathion - Joriya">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55436" level="1" name="Summon Agathion - Ralmak">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55437" level="1" name="Summon Agathion - Goras">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55438" level="1" name="Summon Agathion - Vensar">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55439" level="1" name="Summon Agathion - Kiela">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55440" level="1" name="One-eyed Bat Drove Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55441" level="1" name="Zaken's Spirit Swords Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55442" level="1" name="Pegasus Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55443" level="1" name="Guangong Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55444" level="1" name="Mr. Lucky Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55445" level="1" name="Phoenix Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55446" level="1" name="Saerom Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55447" level="1" name="Gwanseum Nyang Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55448" level="1" name="Blue Opera Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55449" level="1" name="Red Opera Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55450" level="1" name="Miss Chipao Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55451" level="1" name="Flower Fairy Spirit Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55452" level="1" name="Lancet Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55453" level="1" name="Liposa Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55454" level="1" name="Velarin Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55455" level="1" name="Dulcinel Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55456" level="1" name="Chimeros Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55457" level="1" name="Niveri Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55458" level="1" name="Hamell Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55459" level="1" name="Joriya Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55460" level="1" name="Ralmak Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55461" level="1" name="Goras Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55462" level="1" name="Vensar Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55463" level="1" name="Kiela Agathion Cute Trick">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_cute"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55464" level="1" name="Energy of Protection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.general_energy_condense_i01"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55465" level="1" name="Shaft with Antharas treasures">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_antaras_pocket_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55466" level="1" name="Put on Lv. 2 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i01"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55467" level="1" name="Remove Lv. 2 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55468" level="1" name="Lv. 1 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55469" level="1" name="Lv. 2 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55470" level="1" name="Lv. 2 Brooch - Additional Effect">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_enlarge_storage">
+                <def name="p_enlarge_storage_param1" value="inventory_normal"/>
+                <def name="p_enlarge_storage_param2" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55470" level="2" name="Lv. 2 Brooch - Additional Effect">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+    </skill>
+    <skill id="55471" level="1" name="Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_topaz_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="2" name="Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_topaz_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="3" name="Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_topaz_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="4" name="Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_topaz_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="5" name="Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_topaz_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="6" name="Greater Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="7" name="Greater Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="8" name="Greater Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="9" name="Greater Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55471" level="10" name="Greater Topaz">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="1" name="Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="2" name="Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="3" name="Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="4" name="Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="5" name="Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="6" name="Greater Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="7" name="Greater Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="8" name="Greater Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="9" name="Greater Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55472" level="10" name="Greater Vital Stone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55473" level="1" name="Vital Stone - Vital Wind">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1388"/>
+        <set name="magic_level" value="58"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="549"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="50"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="50"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55473" level="2" name="Vital Stone - Vital Wind">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1388"/>
+        <set name="magic_level" value="58"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="549"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="70"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="70"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55473" level="3" name="Vital Stone - Vital Wind">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1388"/>
+        <set name="magic_level" value="58"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="549"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="100"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55473" level="4" name="Greater Vital Stone - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55473" level="5" name="Greater Vital Stone - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55473" level="6" name="Greater Vital Stone - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_vital"/>
+        <set name="reuse_delay" value="1200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="1" name="Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_jade_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="2" name="Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_jade_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="3" name="Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_jade_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="4" name="Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_jade_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="5" name="Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_jade_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="6" name="Greater Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="7" name="Greater Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="8" name="Greater Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="9" name="Greater Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55474" level="10" name="Greater Jade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="1" name="Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_diamond_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="2" name="Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_diamond_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="3" name="Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_diamond_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="4" name="Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_diamond_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="5" name="Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_diamond_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="6" name="Greater Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="7" name="Greater Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="8" name="Greater Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="9" name="Greater Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55475" level="10" name="Greater Diamond">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="1" name="Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_pearl_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="2" name="Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_pearl_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="3" name="Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_pearl_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="4" name="Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_pearl_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="5" name="Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_pearl_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="6" name="Greater Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="7" name="Greater Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="8" name="Greater Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="9" name="Greater Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55476" level="10" name="Greater Pearl">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="1" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="2" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="3" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="4" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="5" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="6" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="7" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="8" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="9" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55477" level="10" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="1" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="2" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="3" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="4" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="5" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="6" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="7" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="8" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="9" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55478" level="10" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="1" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="2" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="3" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="4" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="5" name="Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_ruby_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="6" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="7" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="8" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="9" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55479" level="10" name="Greater Ruby">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="1" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="2" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="3" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="4" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="5" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="6" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="7" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="8" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="9" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55481" level="10" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="1" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="2" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="3" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="4" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="5" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="6" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="7" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="8" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="9" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55482" level="10" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="1" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="2" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="3" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="4" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="5" name="Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="6" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="7" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="8" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="9" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55483" level="10" name="Greater Sapphire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="1" name="Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="2" name="Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="3" name="Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="4" name="Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="5" name="Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="6" name="Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="7" name="Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="8" name="Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="9" name="Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55485" level="10" name="Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="1" name="Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="2" name="Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="3" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="4" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="5" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="6" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55486" level="7" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55495" level="1" name="Fortune Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55496" level="1" name="Topaz Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55497" level="1" name="Garnet Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55498" level="1" name="Jade Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55499" level="1" name="Ruby Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

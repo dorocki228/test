@@ -1,0 +1,1 @@
+ALTER TABLE character_summons_save DROP COLUMN summon_index;

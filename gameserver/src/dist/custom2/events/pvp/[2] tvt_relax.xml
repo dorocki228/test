@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="2" name="TvT Relax" impl="PvP">
+		<parameter name="enabled" value="true"/>
+		<parameter name="start_time" value="00 0,4,8,12,16,20 * * *"/>	<!--Время проведения ивента в формате cron.-->
+		<parameter name="min_level" value="1"/>
+		<parameter name="min_players" value="10"/>
+		<parameter name="teams" value="2"/>
+		<parameter name="count_die_from_exit" value="-1"/>
+		<parameter name="min_kill_from_reward" value="0"/>
+		<parameter name="min_kill_team_from_reward" value="1"/>
+		<parameter name="hide_nick" value="true"/>
+		<parameter name="buffs" value=""/>
+		<parameter name="add_hero_last_player" value="false"/>
+
+		<on_time>
+			<on time="0">
+				<start name="registration"/>
+			</on>
+			<on time="300">
+				<stop name="registration"/>
+			</on>
+			<on time="330">
+				<start name="sort"/>
+				<start name="teleport"/>
+			</on>
+			<on time="360">
+				<start name="battle"/>
+			</on>
+			<on time="660">
+				<stop name="battle"/>
+			</on>
+		</on_time>
+
+		<objects name="team0">
+			<point x="126104" y="125240" z="-2592"/>
+			<point x="126104" y="125240" z="-2592"/>
+			<point x="126104" y="125240" z="-2592"/>
+			<point x="126104" y="125240" z="-2592"/>
+		</objects>
+		<objects name="team1">
+			<point x="126008" y="120920" z="-2592"/>
+			<point x="126008" y="120920" z="-2592"/>
+			<point x="126008" y="120920" z="-2592"/>
+			<point x="126008" y="120920" z="-2592"/>
+		</objects>
+
+		<objects name="abnormal0">
+			<abnormal name="STORM_SIGN2"/>
+		</objects>
+		<objects name="abnormal1">
+			<abnormal name="STIGMA_STORM"/>
+		</objects>
+
+		<objects name="reward_for_win_team">
+			<reward item_id="29520" min="40" max="40" chance="100.0"/>
+			<reward item_id="29009" min="3" max="3" chance="100.0"/>
+		</objects>
+		<objects name="reward_for_lose_team">
+			<reward item_id="29520" min="10" max="10" chance="100.0"/>
+			<reward item_id="29009" min="3" max="3" chance="100.0"/>
+		</objects>
+		<objects name="spawns">
+			<!--<spawn_ex name=""/>-->
+		</objects>
+
+		<objects name="doors">
+			<door id="23210001"/>
+			<door id="23210002"/>
+			<door id="23210003"/>
+			<door id="23210004"/>
+			<door id="23210005"/>
+			<door id="23210006"/>
+			<door id="23210007"/>
+			<door id="23210008"/>
+			<door id="23210009"/>
+			<door id="23210010"/>
+			<door id="23210011"/>
+			<door id="23210012"/>
+		</objects>
+	</event>
+</list>

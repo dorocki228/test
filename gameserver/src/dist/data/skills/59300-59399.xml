@@ -1,0 +1,3254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="59300" level="1" name="Noblesse - White">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="BRIGHT_KING_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59301" level="1" name="Noblesse - White">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="BRIGHT_KING_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59302" level="1" name="Noblesse White - Curse Gloom">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_whitenoblesse_i01"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59302" level="2" name="Noblesse White - Curse Gloom">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_whitenoblesse_i01"/>
+        <set name="reuse_delay" value="80.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59302" level="3" name="Noblesse White - Curse Gloom">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_whitenoblesse_i01"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59303" level="1" name="Cowboy - Purple">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="WILD_WEST_SHERIFF_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="7"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59304" level="1" name="Cowboy - Purple">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="WILD_WEST_SHERIFF_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59305" level="1" name="Cowboy - Purple">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="WILD_WEST_SHERIFF_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59306" level="1" name="Cowboy Purple - Physical Attack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_cowboy_i01"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59306" level="2" name="Cowboy Purple - Physical Attack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_cowboy_i01"/>
+        <set name="reuse_delay" value="80.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59306" level="3" name="Cowboy Purple - Physical Attack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_cowboy_i01"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59307" level="1" name="Musketeer - Blue">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="MUSHKETEER_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="7"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59308" level="1" name="Musketeer - Blue">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="MUSHKETEER_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59309" level="1" name="Musketeer - Blue">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="MUSHKETEER_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59310" level="1" name="Musketeer Blue - Stun">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_bluemusketeer_i01"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59310" level="2" name="Musketeer Blue - Stun">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_bluemusketeer_i01"/>
+        <set name="reuse_delay" value="80.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59310" level="3" name="Musketeer Blue - Stun">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_bluemusketeer_i01"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59311" level="1" name="Dragon Berserker">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="RED_MOB_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59312" level="1" name="Dragon Berserker">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="RED_MOB_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59313" level="1" name="Berserker Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_dragon_i01"/>
+        <set name="reuse_delay" value="290.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59313" level="2" name="Berserker Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm2018_dragon_i01"/>
+        <set name="reuse_delay" value="190.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59314" level="1" name="Zaken">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ZAKEN_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59315" level="1" name="Zaken">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ZAKEN_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59316" level="1" name="Zaken Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_zaken"/>
+        <set name="reuse_delay" value="100.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59316" level="2" name="Zaken Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_zaken"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59317" level="1" name="Anakim">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="STRANGE_SILVER_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59318" level="1" name="Anakim">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="STRANGE_SILVER_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59319" level="1" name="Anakim Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_anakim"/>
+        <set name="reuse_delay" value="100.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59319" level="2" name="Anakim Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_anakim"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-5"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="59320" level="1" name="Lilith">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_lilith"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59321" level="1" name="Lilith">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="elf_prince_costume"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59322" level="1" name="Lilith Soul">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="elf_prince_costume"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59322" level="2" name="Lilith Soul">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_lilith"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59323" level="1" name="Freya">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="WEALTHY_BLUE_TUNIC_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59324" level="1" name="Freya">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="WEALTHY_BLUE_TUNIC_1_COSTUME"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59325" level="1" name="Freya Soul">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="elf_prince_costume"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59325" level="2" name="Freya Soul">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="10800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="elf_prince_costume"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59326" level="1" name="Brilliant Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59327" level="1" name="Shining Jewel Box">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="op_encumbered">
+                <def name="op_encumbered_param1" value="10"/>
+                <def name="op_encumbered_param2" value="10"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_restoration_random">
+                <def name="i_restoration_random_param1" value="{{{{70441;1}};15};{{{70471;1}};15};{{{70466;1}};15};{{{70446;1}};15};{{{70451;1}};15};{{{70456;1}};15};{{{70461;1}};15}}"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59328" level="1" name="Clan Luck">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0390"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59328" level="2" name="Clan Luck">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0390"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59328" level="3" name="Clan Luck">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0390"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59328" level="4" name="Clan Luck">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0390"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59329" level="1" name="Cute Animal Friends">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59330" level="1" name="Special Season">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59331" level="1" name="Striking Elegance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59332" level="1" name="Wow! It's Summer!">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59333" level="1" name="Uncontrollable Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59334" level="1" name="Overflowing Magic">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59335" level="1" name="Rarity Collector">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59336" level="1" name="Highly Durable!">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59337" level="1" name="Very Strong!">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59338" level="1" name="Very Quick!">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59339" level="1" name="I Am Legend">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59340" level="1" name="No Pain, No Gain">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_passive"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59341" level="1" name="Collector Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_active"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="reuse_delay" value="90.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59342" level="1" name="Collector Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_active"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59343" level="1" name="Collector Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_active"/>
+        <set name="skill_cool_time" value="0.2"/>
+        <set name="skill_hit_time" value="0.8"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-687"/>
+        <set name="debuff" value="2"/>
+    </skill>
+    <skill id="59344" level="1" name="Collector Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_active"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="600.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="867"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59344" level="2" name="Collector Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_active"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="867"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59345" level="1" name="Transformation Cooldown Decrease">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_reuse"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59345" level="2" name="Transformation Cooldown Decrease">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_reuse"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59345" level="3" name="Transformation Cooldown Decrease">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_reuse"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59345" level="4" name="Transformation Cooldown Decrease">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_reuse"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59345" level="5" name="Transformation Cooldown Decrease">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_reuse"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59345" level="6" name="Transformation Cooldown Decrease">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_reuse"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59346" level="1" name="Transformation Duration Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_timeup"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59346" level="2" name="Transformation Duration Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_timeup"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59346" level="3" name="Transformation Duration Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_timeup"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59346" level="4" name="Transformation Duration Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_timeup"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59346" level="5" name="Transformation Duration Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_timeup"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59346" level="6" name="Transformation Duration Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_bonus_timeup"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59347" level="1" name="Skill XP Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_elemental_exp"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59347" level="2" name="Skill XP Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_elemental_exp"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59347" level="3" name="Skill XP Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_elemental_exp"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59348" level="1" name="Attribute Damage Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_elemental_dmg"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59348" level="2" name="Attribute Damage Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_elemental_dmg"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59348" level="3" name="Attribute Damage Increase">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.s_g_bm_collection_elemental_dmg"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59349" level="1" name="Santa Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71478:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="1"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59350" level="1" name="Santa Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71479:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="2"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59351" level="1" name="Santa Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71480:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="3"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="3"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59352" level="1" name="Santa Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71481:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="4"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="4"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59353" level="1" name="Santa Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71482:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="5"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59354" level="1" name="School Uniform A Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71483:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="6"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="6"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59355" level="1" name="School Uniform A Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71484:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="7"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="7"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59356" level="1" name="School Uniform A Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71485:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="8"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="8"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59357" level="1" name="School Uniform A Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71486:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="9"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="9"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59358" level="1" name="School Uniform A Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71487:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="10"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59359" level="1" name="Beach Swimsuit Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71488:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="11"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="11"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59360" level="1" name="Beach Swimsuit Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71489:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="12"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="12"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59361" level="1" name="Beach Swimsuit Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71490:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="13"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="13"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59362" level="1" name="Beach Swimsuit Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71491:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="14"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59363" level="1" name="Beach Swimsuit Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71492:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="15"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59364" level="1" name="Teddy Bear Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71493:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="16"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="16"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59365" level="1" name="Teddy Bear Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71494:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="17"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="17"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59366" level="1" name="Teddy Bear Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71495:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="18"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="18"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59367" level="1" name="Teddy Bear Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71496:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="19"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="19"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59368" level="1" name="Teddy Bear Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71497:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="20"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59369" level="1" name="Kitty Plushy Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71498:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="21"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="21"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59370" level="1" name="Kitty Plushy Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71499:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="22"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="22"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59371" level="1" name="Kitty Plushy Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71500:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="23"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="23"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59372" level="1" name="Kitty Plushy Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71501:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="24"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="24"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59373" level="1" name="Kitty Plushy Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71502:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="25"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="25"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59374" level="1" name="Panda Plushy Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71503:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="26"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="26"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59375" level="1" name="Panda Plushy Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71504:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="27"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="27"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59376" level="1" name="Panda Plushy Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71505:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="28"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="28"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59377" level="1" name="Panda Plushy Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71506:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="29"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="29"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59378" level="1" name="Panda Plushy Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71507:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="30"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="30"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59379" level="1" name="Baseball Uniform Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71508:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="31"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="31"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59380" level="1" name="Baseball Uniform Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71509:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="32"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="32"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59381" level="1" name="Baseball Uniform Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71510:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="33"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="33"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59382" level="1" name="Baseball Uniform Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71511:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="34"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="34"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59383" level="1" name="Baseball Uniform Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71512:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="35"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="35"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59384" level="1" name="Seductive Swimsuit Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71513:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="36"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="36"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59385" level="1" name="Seductive Swimsuit Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71514:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="37"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="37"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59386" level="1" name="Seductive Swimsuit Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71515:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="38"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="38"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59387" level="1" name="Seductive Swimsuit Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71516:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="39"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="39"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59388" level="1" name="Seductive Swimsuit Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71517:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="40"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="40"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59389" level="1" name="School Uniform B Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71518:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="41"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="41"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59390" level="1" name="School Uniform B Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71519:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="42"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="42"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59391" level="1" name="School Uniform B Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71520:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="43"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="43"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59392" level="1" name="School Uniform B Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71521:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="44"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="44"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59393" level="1" name="School Uniform B Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71522:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="45"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="45"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59394" level="1" name="Hanbok Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71523:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="46"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="46"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59395" level="1" name="Hanbok Sealbook - High-grade">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71524:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="47"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="47"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59396" level="1" name="Hanbok Sealbook - Rare">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71525:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="48"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="48"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59397" level="1" name="Hanbok Sealbook - Legendary">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71526:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="49"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="49"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59398" level="1" name="Hanbok Sealbook - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71527:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="50"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="50"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59399" level="1" name="Metal Suit Sealbook - Standard">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71528:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="51"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="51"/>
+            </effect>
+        </for>
+    </skill>
+</list>

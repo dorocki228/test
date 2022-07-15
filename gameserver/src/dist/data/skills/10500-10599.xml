@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="10539" level="1" name="Throwing Dagger">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="71"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-707"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="396"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-60"/>
+                <def name="p_speed_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="2" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="86"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="72"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-724"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="7647"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="3" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="88"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="74"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="3"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-742"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="8149"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="4" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="90"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="77"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="4"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-760"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="8652"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="5" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="92"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="79"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="5"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-779"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="9154"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="6" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="82"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="6"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-798"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="9657"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="7" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="84"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="7"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-817"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="10159"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="8" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="98"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="87"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="8"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-837"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="10662"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="10539" level="9" name="Throw Dagger">
+        <!--TODO: not exist in classic-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10539"/>
+        <set name="magic_level" value="98"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="87"/>
+        <set name="cast_range" value="800"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="8"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-857"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_weapon">
+                <def name="equip_weapon_param1" value="dagger;dualdagger"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="10662"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-80"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+</list>

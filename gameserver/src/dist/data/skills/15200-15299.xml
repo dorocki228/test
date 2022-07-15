@@ -1,0 +1,3326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="15206" level="1" name="Explosion">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-574"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="100"/>
+        <set name="affect_limit" value="10;10"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <pve_effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="1"/>
+            </pve_effect>
+        </for>
+    </skill>
+    <skill id="15207" level="1" name="Debuff Immunity">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_block_debuff"/>
+        </for>
+    </skill>
+    <skill id="15208" level="1" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="99"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="2" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="98"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="3" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="97"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="30"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="4" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="96"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="40"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="5" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="95"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="50"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="6" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="94"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="60"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="7" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="93"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="70"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="8" name="Weakened Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0035"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="92"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="80"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15208" level="9" name="Chaos Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1418"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="91"/>
+        <set name="abnormal_type" value="mp_shield"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="950"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="950"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_instant_kill_resist">
+                <def name="p_instant_kill_resist_param1" value="90"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15214" level="1" name="Tauti">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillboss"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+    </skill>
+    <skill id="15215" level="1" name="Lv. 97 Raid Boss">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+    </skill>
+    <skill id="15216" level="1" name="Lv. 97 Raid Boss">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+    </skill>
+    <skill id="15217" level="1" name="Lv. 97 Raid Boss">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillraid"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+    </skill>
+    <skill id="15218" level="1" name="Clear Target">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="93"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_target_cancel">
+                <def name="i_target_cancel_param1" value="50"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15219" level="1" name="Double Strike">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0036"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="150"/>
+        <set name="effective_range" value="270"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="100"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15220" level="1" name="Explosion">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="93"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="lv_bonus_rate" value="2"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="subordination_abnormal" value="bleeding"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_bleed"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_dot_bleeding"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="t_hp">
+                <def name="t_hp_param1" value="-1000"/>
+                <def name="t_hp_param2" value="5"/>
+                <def name="t_hp_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15221" level="1" name="Blood Spear">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0122"/>
+        <set name="magic_level" value="93"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="1000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15221" level="2" name="Blood Spear">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0122"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="1500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15221" level="3" name="Blood Spear">
+        <!--TODO: fix level values-->
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0122"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="1500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15222" level="1" name="Home Thrust">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="93"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="30000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15222" level="2" name="Home Thrust">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15222" level="3" name="Home Thrust">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="50000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15223" level="1" name="Body Slice">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="fan"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="fan_range" value="0;0;100;120"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15224" level="1" name="Bloody Breath">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11769"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="200"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pd_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="-10"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="-10"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15225" level="1" name="Sword Wave">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15226" level="1" name="Sword Wave">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="i_m_attack_by_abnormal_slot">
+                <def name="i_m_attack_by_abnormal_slot_param1" value="pd_down"/>
+                <def name="i_m_attack_by_abnormal_slot_param2" value="500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15227" level="1" name="Added Blow">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="30000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15228" level="1" name="Soul Wave">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="fan_pb"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="fan_range" value="0;0;150;120"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_m_attack_by_abnormal_slot">
+                <def name="i_m_attack_by_abnormal_slot_param1" value="pd_down"/>
+                <def name="i_m_attack_by_abnormal_slot_param2" value="500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15229" level="1" name="Soul Wave">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="fan_pb"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="fan_range" value="0;0;150;120"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="i_m_attack_by_abnormal_slot">
+                <def name="i_m_attack_by_abnormal_slot_param1" value="pd_down"/>
+                <def name="i_m_attack_by_abnormal_slot_param2" value="500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15230" level="1" name="Added Blow">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="94"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="30000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15231" level="1" name="Quick Thrust">
+        <set name="operate_type" value="DA2"/>
+        <set name="icon" value="icon.skill11508"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="skill_cool_time" value="0.2"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="200"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_shock"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_condition_block_act_skill">
+                <def name="p_condition_block_act_skill_param1" value="10279;10517;10025;10776;11770;1904;11264;11093;13314;1912"/>
+            </effect>
+            <effect name="i_knockback">
+                <def name="i_knockback_param1" value="200"/>
+                <def name="i_knockback_param2" value="400"/>
+                <def name="i_knockback_param3" value="0"/>
+                <def name="i_knockback_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15232" level="1" name="Speed Up">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1086"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="attack_time_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="100"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15233" level="1" name="Full Swing">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0036"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="40000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15234" level="1" name="Dark Spheres">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="200"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="fan"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="fan_range" value="0;0;200;120"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="i_m_attack_by_abnormal_slot">
+                <def name="i_m_attack_by_abnormal_slot_param1" value="pd_down"/>
+                <def name="i_m_attack_by_abnormal_slot_param2" value="500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15235" level="1" name="Wind of Darkness">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill4107"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="skill_cool_time" value="3.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="activate_rate" value="80"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="knockdown"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-200"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="250"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="10;10"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="180000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="i_knockback">
+                <def name="i_knockback_param1" value="200"/>
+                <def name="i_knockback_param2" value="400"/>
+                <def name="i_knockback_param3" value="0"/>
+                <def name="i_knockback_param4" value="1"/>
+            </effect>
+            <effect name="i_m_attack_by_abnormal_slot">
+                <def name="i_m_attack_by_abnormal_slot_param1" value="pd_down"/>
+                <def name="i_m_attack_by_abnormal_slot_param2" value="500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15235" level="2" name="Wind of Darkness">
+        <!--TODO: fix level values-->
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill4107"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="skill_cool_time" value="3.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="activate_rate" value="80"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="knockdown"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-250"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="250"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="10;10"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="180000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="i_knockback">
+                <def name="i_knockback_param1" value="200"/>
+                <def name="i_knockback_param2" value="400"/>
+                <def name="i_knockback_param3" value="0"/>
+                <def name="i_knockback_param4" value="1"/>
+            </effect>
+            <effect name="i_m_attack_by_abnormal_slot">
+                <def name="i_m_attack_by_abnormal_slot_param1" value="pd_down"/>
+                <def name="i_m_attack_by_abnormal_slot_param2" value="500"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15236" level="1" name="Dark Thrust">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-200"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15236" level="2" name="Dark Thrust">
+        <!--TODO: fix level values-->
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-250"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15237" level="1" name="Dark Buster">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-300"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15237" level="2" name="Dark Buster">
+        <!--TODO: fix level values-->
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-400"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15238" level="1" name="Dark Breath">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11769"/>
+        <set name="magic_level" value="96"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="250"/>
+        <set name="effective_range" value="460"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="activate_rate" value="200"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pd_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="fan"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="fan_range" value="0;0;200;180"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="-30"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="-30"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15239" level="1" name="Added Blow">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="93"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="100000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15241" level="1" name="">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effective_range" value="1100"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="100"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15242" level="1" name="Presentation - Summon Attack Robot">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15243" level="1" name="Presentation - Summon Stone Gathering Robot">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15244" level="1" name="Presentation - Destroy Dark Summon Circle">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15245" level="1" name="Presentation - Summon Robot">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15246" level="1" name="Nurka Blow">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0036"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="100"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="100"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15248" level="1" name="Nurka Howl">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1068"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="30"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pa_up_special"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="121"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="10"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="10"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="-10"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15249" level="1" name="Nurka Fireball">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="500"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_fire;50"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="3000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15250" level="1" name="Nurka's Cold Shoulders">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1042"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="100"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="airbind"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_airbind"/>
+        <set name="effect_point" value="-707"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_airbind"/>
+        <set name="debuff" value="3"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_condition_block_act_skill">
+                <def name="p_condition_block_act_skill_param1" value="10279;10517;10025;10776;11770;1904;11264;11093;13314;1912"/>
+            </effect>
+            <effect name="p_block_controll"/>
+            <effect name="t_hp">
+                <def name="t_hp_param1" value="-100"/>
+                <def name="t_hp_param2" value="1"/>
+                <def name="t_hp_param3" value="diff"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_hold"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_sleep"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_changebody"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_airbind"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_knockback"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_knockdown"/>
+                <def name="p_defence_trait_param2" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15251" level="1" name="Invincible Nurka">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11758"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="invincibility_special"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="867"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_object" value="friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_ultimate_defence"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_block_getdamage">
+                <def name="p_block_getdamage_param1" value="block_hp"/>
+            </effect>
+            <effect name="p_block_getdamage">
+                <def name="p_block_getdamage_param1" value="block_mp"/>
+            </effect>
+            <effect name="p_block_debuff"/>
+            <effect name="p_resist_dispel_by_category">
+                <def name="p_resist_dispel_by_category_param1" value="slot_all"/>
+                <def name="p_resist_dispel_by_category_param2" value="-100"/>
+                <def name="p_resist_dispel_by_category_param3" value="per"/>
+            </effect>
+            <effect name="p_block_add_slot">
+                <def name="p_block_add_slot_param1" value="invincibility_special"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15253" level="1" name="Earth-rumbling Nurka">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11509"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="150"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_earth;50"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-687"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="100"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="200000"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-20"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15254" level="1" name="Nurka's Healing">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="200"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_heal">
+                <def name="i_heal_param1" value="123690"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15255" level="1" name="Defensive Nurka">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11252"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="7200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pd_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="50"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="50"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15256" level="1" name="Aggressive Nurka">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10252"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="7200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pa_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="50"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="50"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15257" level="1" name="Resistance Blaze">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0003"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="300"/>
+        <set name="effective_range" value="540"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_fire;50"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-2"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="3000"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="-30"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15258" level="1" name="Resistance Treatment">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="300"/>
+        <set name="effective_range" value="540"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_heal">
+                <def name="i_heal_param1" value="63690"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15259" level="1" name="Fireworks">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15260" level="1" name="Time Up">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15261" level="1" name="Lindvior's Skill 1">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="17.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15262" level="1" name="Lindvior's Skill 2">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="17.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15264" level="1" name="Lindvior's Skill 4">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="17.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15265" level="1" name="Lindvior's AoE 2">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="1000"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="4.2"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-686"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15266" level="1" name="Lindvior's Skill 6">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="17.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15269" level="1" name="Lindvior's Wrath">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="15.0"/>
+        <set name="skill_cool_time" value="8.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15270" level="1" name="Lindvior's Mass Yoke">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill1042"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-707"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15271" level="1" name="Body Slam">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-574"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="2"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15273" level="1" name="Tail Swipe">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_cool_time" value="1.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-574"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15274" level="1" name="Mighty Wind Strike">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="1800"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-707"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15276" level="1" name="Bleed">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-574"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="2"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15278" level="1" name="Yoke">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill1042"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="1100"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-574"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15279" level="1" name="Soar">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15280" level="1" name="Lindvior's Berserk">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="0.7"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="100"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15281" level="1" name="Lindvior's Skill 21">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="1100"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="100"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15282" level="1" name="Lindvior's Skill 22">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="99"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="17.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15286" level="1" name="Blood Siphon Master">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill1147"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="200"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_unholy;50"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-143"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_hp_drain">
+                <def name="i_hp_drain_param1" value="800"/>
+                <def name="i_hp_drain_param2" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15287" level="1" name="Twister">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0100"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="200"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="150"/>
+        <set name="lv_bonus_rate" value="1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="attribute" value="attr_wind;50"/>
+        <set name="trait" value="trait_shock"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="100"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="abnormal_visual_effect" value="ave_stun"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_condition_block_act_skill">
+                <def name="p_condition_block_act_skill_param1" value="10279;10517;10025;10776;11770;1904;11264;11093;13314;1912"/>
+            </effect>
+            <effect name="i_m_attack">
+                <def name="i_m_attack_param1" value="1000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15288" level="1" name="Recovery Bonus Increase">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1044"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="15"/>
+        <set name="abnormal_lv" value="11"/>
+        <set name="abnormal_type" value="hp_regen_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="100"/>
+                <def name="p_hp_regen_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15289" level="1" name="Decrease Atk. Spd.">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11509"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_lv" value="5"/>
+        <set name="abnormal_type" value="speed_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-687"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="-50"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15290" level="1" name="Decrease Casting Spd.">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11509"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_lv" value="5"/>
+        <set name="abnormal_type" value="speed_down"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-687"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_magic_speed">
+                <def name="p_magic_speed_param1" value="all"/>
+                <def name="p_magic_speed_param2" value="-50"/>
+                <def name="p_magic_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15291" level="1" name="Bleed">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="100"/>
+        <set name="lv_bonus_rate" value="2"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="20"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="subordination_abnormal" value="bleeding"/>
+        <set name="abnormal_type" value="bleeding"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_bleed"/>
+        <set name="effect_point" value="-100"/>
+        <set name="target_type" value="enemy_only"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_dot_bleeding"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="t_hp">
+                <def name="t_hp_param1" value="-900"/>
+                <def name="t_hp_param2" value="5"/>
+                <def name="t_hp_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15292" level="1" name="Logan's Revenge">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0168"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="180"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="speed_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="30"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15293" level="1" name="Logan's Revenge">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11758"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="40"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="invincibility_special"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="867"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_ultimate_defence"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_block_getdamage">
+                <def name="p_block_getdamage_param1" value="block_hp"/>
+            </effect>
+            <effect name="p_block_getdamage">
+                <def name="p_block_getdamage_param1" value="block_mp"/>
+            </effect>
+            <effect name="p_block_debuff"/>
+            <effect name="p_resist_dispel_by_category">
+                <def name="p_resist_dispel_by_category_param1" value="slot_all"/>
+                <def name="p_resist_dispel_by_category_param2" value="-100"/>
+                <def name="p_resist_dispel_by_category_param3" value="per"/>
+            </effect>
+            <effect name="p_block_add_slot">
+                <def name="p_block_add_slot_param1" value="invincibility_special"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15294" level="1" name="Logan's Revenge">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15295" level="1" name="Logan's Mistake">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0168"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="180"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="speed_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="30"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15296" level="1" name="Logan's Mistake">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill11758"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="40"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="invincibility_special"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="867"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_ultimate_defence"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_block_getdamage">
+                <def name="p_block_getdamage_param1" value="block_hp"/>
+            </effect>
+            <effect name="p_block_getdamage">
+                <def name="p_block_getdamage_param1" value="block_mp"/>
+            </effect>
+            <effect name="p_block_debuff"/>
+            <effect name="p_resist_dispel_by_category">
+                <def name="p_resist_dispel_by_category_param1" value="slot_all"/>
+                <def name="p_resist_dispel_by_category_param2" value="-100"/>
+                <def name="p_resist_dispel_by_category_param3" value="per"/>
+            </effect>
+            <effect name="p_block_add_slot">
+                <def name="p_block_add_slot_param1" value="invincibility_special"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15297" level="1" name="Logan's Mistake">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="15298" level="1" name="Logan's Token of Gratitude">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1044"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="hp_regen_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="point_blank"/>
+        <set name="affect_range" value="500"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="100"/>
+                <def name="p_hp_regen_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="15299" level="1" name="Blood Siphon Energy">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1268"/>
+        <set name="magic_level" value="95"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="10"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="60"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vampiric_attack"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="285"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_vampiric_attack">
+                <def name="p_vampiric_attack_param1" value="30"/>
+                <def name="p_vampiric_attack_param2" value="99"/>
+            </effect>
+        </for>
+    </skill>
+</list>

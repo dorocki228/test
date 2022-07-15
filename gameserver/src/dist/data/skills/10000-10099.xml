@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="10015" level="1" name="Chain Strike">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10015"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="69"/>
+        <set name="cast_range" value="600"/>
+        <set name="effective_range" value="1100"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="reuse_delay" value="15.0"/>
+        <set name="activate_rate" value="190"/>
+        <set name="activate_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_pull"/>
+        <set name="effect_point" value="-4132"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_shield"/>
+        </operate_cond>
+        <for>
+            <effect name="i_pull">
+                <def name="i_pull_param1" value="600"/>
+                <def name="i_pull_param2" value="600"/>
+            </effect>
+            <effect name="p_condition_block_act_skill">
+                <def name="p_condition_block_act_skill_param1" value="10279;10517;10025;10776;11770;1904;11264;11093;13314;1912"/>
+            </effect>
+            <effect name="i_get_agro"/>
+        </for>
+    </skill>
+    <skill id="10015" level="2" name="Chain Strike">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10015"/>
+        <set name="magic_level" value="87"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="73"/>
+        <set name="cast_range" value="600"/>
+        <set name="effective_range" value="1100"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="reuse_delay" value="15.0"/>
+        <set name="activate_rate" value="190"/>
+        <set name="activate_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_pull"/>
+        <set name="effect_point" value="-4198"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_shield"/>
+        </operate_cond>
+        <for>
+            <effect name="i_pull">
+                <def name="i_pull_param1" value="600"/>
+                <def name="i_pull_param2" value="700"/>
+            </effect>
+            <effect name="p_condition_block_act_skill">
+                <def name="p_condition_block_act_skill_param1" value="10279;10517;10025;10776;11770;1904;11264;11093;13314;1912"/>
+            </effect>
+            <effect name="i_get_agro"/>
+        </for>
+    </skill>
+    <skill id="10015" level="3" name="Chain Strike">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill10015"/>
+        <set name="magic_level" value="90"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="77"/>
+        <set name="cast_range" value="600"/>
+        <set name="effective_range" value="1100"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="reuse_delay" value="15.0"/>
+        <set name="activate_rate" value="190"/>
+        <set name="activate_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_pull"/>
+        <set name="effect_point" value="-4265"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="equip_shield"/>
+        </operate_cond>
+        <for>
+            <effect name="i_pull">
+                <def name="i_pull_param1" value="600"/>
+                <def name="i_pull_param2" value="800"/>
+            </effect>
+            <effect name="p_condition_block_act_skill">
+                <def name="p_condition_block_act_skill_param1" value="10279;10517;10025;10776;11770;1904;11264;11093;13314;1912"/>
+            </effect>
+            <effect name="i_get_agro"/>
+        </for>
+    </skill>
+    <skill id="10094" level="1" name="Mass Lightning Strike">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0361"/>
+        <set name="magic_level" value="80"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="1000"/>
+        <set name="mp_consume2" value="140"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_paralyze"/>
+        <set name="effect_point" value="-274"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="5;12"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="item_consume" value="1785:1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="1997"/>
+                <def name="i_p_attack_param2" value="0"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+            <end_effect name="i_call_skill">
+                <def name="i_call_skill_param1" value="6090:1"/>
+            </end_effect>
+        </for>
+    </skill>
+    <skill id="10094" level="2" name="Mass Lightning Strike">
+    <set name="operate_type" value="A2"/>
+    <set name="icon" value="icon.skill0279"/>
+    <set name="magic_level" value="81"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="1000"/>
+        <set name="mp_consume2" value="146"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_paralyze"/>
+        <set name="effect_point" value="-274"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="5;12"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="item_consume" value="1785:1"/>
+    <for>
+        <effect name="i_p_attack">
+            <def name="i_p_attack_param1" value="2927"/>
+            <def name="i_p_attack_param2" value="0"/>
+            <def name="i_p_attack_param3" value="0"/>
+            <def name="i_p_attack_param4" value="0"/>
+        </effect>
+        <end_effect name="i_call_skill">
+            <def name="i_call_skill_param1" value="6090:1"/>
+        </end_effect>
+    </for>
+    </skill>
+    <skill id="10094" level="3" name="Mass Lightning Strike">
+    <set name="operate_type" value="A2"/>
+    <set name="icon" value="icon.skill0279"/>
+    <set name="magic_level" value="82"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="1000"/>
+        <set name="mp_consume2" value="152"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_paralyze"/>
+        <set name="effect_point" value="-274"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="5;12"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="item_consume" value="1785:1"/>
+    <for>
+        <effect name="i_p_attack">
+            <def name="i_p_attack_param1" value="2179"/>
+            <def name="i_p_attack_param2" value="0"/>
+            <def name="i_p_attack_param3" value="0"/>
+            <def name="i_p_attack_param4" value="0"/>
+        </effect>
+        <end_effect name="i_call_skill">
+            <def name="i_call_skill_param1" value="6090:1"/>
+        </end_effect>
+    </for>
+    </skill>
+    <skill id="10094" level="4" name="Mass Lightning Strike">
+    <set name="operate_type" value="A2"/>
+    <set name="icon" value="icon.skill0279"/>
+    <set name="magic_level" value="83"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="1000"/>
+        <set name="mp_consume2" value="159"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_paralyze"/>
+        <set name="effect_point" value="-3344"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="5;12"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="item_consume" value="1785:1"/>
+    <for>
+        <effect name="i_p_attack">
+            <def name="i_p_attack_param1" value="2266"/>
+            <def name="i_p_attack_param2" value="0"/>
+            <def name="i_p_attack_param3" value="0"/>
+            <def name="i_p_attack_param4" value="0"/>
+        </effect>
+        <end_effect name="i_call_skill">
+            <def name="i_call_skill_param1" value="6090:1"/>
+        </end_effect>
+    </for>
+    </skill>
+    <skill id="10094" level="5" name="Mass Lightning Strike">
+    <set name="operate_type" value="A2"/>
+    <set name="icon" value="icon.skill0279"/>
+    <set name="magic_level" value="84"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="1000"/>
+        <set name="mp_consume2" value="166"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="activate_rate" value="30"/>
+        <set name="lv_bonus_rate" value="5"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="paralyze"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_paralyze"/>
+        <set name="effect_point" value="-4274"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="range"/>
+        <set name="affect_range" value="150"/>
+        <set name="affect_object" value="not_friend"/>
+        <set name="affect_limit" value="5;12"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="item_consume" value="1785:1"/>
+    <for>
+        <effect name="i_p_attack">
+            <def name="i_p_attack_param1" value="2356"/>
+            <def name="i_p_attack_param2" value="0"/>
+            <def name="i_p_attack_param3" value="0"/>
+            <def name="i_p_attack_param4" value="0"/>
+        </effect>
+        <end_effect name="i_call_skill">
+            <def name="i_call_skill_param1" value="6090:1"/>
+        </end_effect>
+    </for>
+    </skill>
+</list>

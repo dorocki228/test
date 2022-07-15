@@ -1,0 +1,22 @@
+package l2s.authserver.network.gamecomm.gs2as
+
+import io.netty.buffer.ByteBuf
+import l2s.authserver.accounts.Account
+import l2s.authserver.network.gamecomm.ReceivablePacket
+import l2s.authserver.network.gamecomm.vertx.GameServerConnection
+
+class ChangeAccessLevel(client: GameServerConnection, byteBuf: ByteBuf) : ReceivablePacket(client, byteBuf) {
+
+    private val account: String = readString(byteBuf)
+    private val level = byteBuf.readInt()
+    private val banExpire = byteBuf.readInt()
+
+    override fun runImpl(client: GameServerConnection) {
+        val acc = Account(account)
+        acc.restore()
+        acc.accessLevel = level
+        acc.banExpire = banExpire
+        acc.update()
+    }
+
+}

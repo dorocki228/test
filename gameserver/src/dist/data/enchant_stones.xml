@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "enchant_stones.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--Стандартные настройки для камней увеличения шанса заточки-->
+	<default on_fail="CRYSTALS" min_enchant_level="3" min_fullbody_enchant_level="4" max_enchant_level="9"/>
+	
+	<enchant_stone id="90480" chance="10" grade="D" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Сохранить Доспех (D)-->
+	<enchant_stone id="90481" chance="10" grade="C" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Сохранить Доспех (C)-->
+	<enchant_stone id="90482" chance="10" grade="B" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Сохранить Доспех (B)-->
+	<enchant_stone id="90483" chance="10" grade="A" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Сохранить Доспех (A)-->
+
+	<enchant_stone id="90484" chance="10" grade="D" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Обезопасить Доспех (D)-->
+	<enchant_stone id="90485" chance="10" grade="C" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Обезопасить Доспех (C)-->
+	<enchant_stone id="90486" chance="10" grade="B" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Обезопасить Доспех (B)-->
+	<enchant_stone id="90487" chance="10" grade="A" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Обезопасить Доспех (A)-->
+
+	<enchant_stone id="90488" chance="10" grade="D" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (D)-->
+	<enchant_stone id="90489" chance="10" grade="C" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (C)-->
+	<enchant_stone id="90490" chance="10" grade="B" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (B)-->
+	<enchant_stone id="90491" chance="10" grade="A" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (A)-->
+
+	<enchant_stone id="90492" chance="10" grade="A" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень Модификации для Гигантов (A)-->
+	<enchant_stone id="90493" chance="10" grade="A" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень Модификации Благословления (A)-->
+
+	<enchant_stone id="90502" chance="10" grade="D" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (D)-->
+	<enchant_stone id="90503" chance="10" grade="C" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (C)-->
+	<enchant_stone id="90504" chance="10" grade="B" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (B)-->
+	<enchant_stone id="90505" chance="10" grade="A" type="ARMOR" on_fail="DROP_ENCHANT"/>	<!--Камень: Модифицировать Доспех (A)-->
+</list>

@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="59600" level="1" name="Transformation Sealbook: Devil - Legendary">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_devil"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59601" level="1" name="Transformation Sealbook: Devil - Mythic">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="71737:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <operate_cond>
+            <cond name="can_get_costume">
+                <def name="id" value="159"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_get_costume">
+                <def name="id" value="159"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59602" level="1" name="Shadow Master">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="SHADOW_MASTER_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59603" level="1" name="Shadow Master">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="SHADOW_MASTER_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59604" level="1" name="Shadow Master - Decoy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_thief"/>
+        <set name="reuse_delay" value="100.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59604" level="2" name="Shadow Master - Decoy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_thief"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59605" level="1" name="Shadow Master - Hide">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_thief"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59605" level="2" name="Shadow Master - Hide">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_thief"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59606" level="1" name="Shadow Master - Decoy Provocation">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_thief"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59607" level="1" name="Navy Admiral">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ADMIRAL_NAVY_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59608" level="1" name="Navy Admiral">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ADMIRAL_NAVY_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59609" level="1" name="Navy Admiral - Attack Release">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="reuse_delay" value="100.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59609" level="2" name="Navy Admiral - Attack Release">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59610" level="1" name="Navy Admiral - Defense Release">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="reuse_delay" value="100.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59610" level="2" name="Navy Admiral - Defense Release">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59611" level="1" name="Navy Admiral - Attack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59611" level="2" name="Navy Admiral - Attack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59612" level="1" name="Navy Admiral - Defense">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59612" level="2" name="Navy Admiral - Defense">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_navy"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59613" level="1" name="Nymph">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="NYMPH_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59614" level="1" name="Nymph">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="NYMPH_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59615" level="1" name="Nymph - Temptation">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_nymph"/>
+        <set name="reuse_delay" value="100.0"/>
+        <set name="cast_range" value="1200"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="3"/>
+    </skill>
+    <skill id="59616" level="1" name="Nymph - Temptation">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_nymph"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="1200"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="3"/>
+    </skill>
+    <skill id="59617" level="1" name="Devil">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="DEVIL_MYTHIC"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="15"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59618" level="1" name="Devil - Barrier">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_devil"/>
+        <set name="reuse_delay" value="90.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="20"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59619" level="1" name="Devil - Inferno">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_devil"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59620" level="1" name="Devil - Inferno">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_costume_devil"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59631" level="1" name="+8 S-grade Weapon Pack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon_bm_gold_lure_special_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59632" level="1" name="+5 Dragon Pendant Lv. 4 Pack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_pendant_pve_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59633" level="1" name="Fire Dragon Pendant Chest +6">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_pendant_pve_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59634" level="1" name="Dragon Scroll - Event">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_charge_scroll"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="1" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="2" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="3" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="4" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="5" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="6" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="7" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="8" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59635" level="9" name="Dimensional Power of Fate">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10030"/>
+        <set name="reuse_delay" value="30.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="1" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="2" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="3" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="4" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="5" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="6" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="7" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="8" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="9" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59636" level="10" name="Dimensional Guard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11876"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="180.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59637" level="1" name="Dimensional Barrier">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill11621"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59638" level="1" name="Aden's Lucky Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_pendant_pve_box"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59639" level="1" name="Aden Supply Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59641" level="1" name="Baium's Mystery Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59678" level="1" name="Chronicle Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59679" level="1" name="15th Anniversary Gift Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59680" level="1" name="XP Scroll - Lv. 1">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.BranchSys.icon.br_lucky_bag_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="item_consume" value="49777:1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="i_get_exp">
+                <def name="exp" value="1000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59681" level="1" name="XP Scroll - Lv. 2">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.BranchSys.icon.br_lucky_bag_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="item_consume" value="49778:1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="i_get_exp">
+                <def name="exp" value="10000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59682" level="1" name="XP Scroll - Lv. 3">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.BranchSys.icon.br_lucky_bag_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="item_consume" value="49779:1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="i_get_exp">
+                <def name="exp" value="100000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59683" level="1" name="XP Scroll - Lv. 4">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.BranchSys.icon.br_lucky_bag_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="item_consume" value="49780:1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="i_get_exp">
+                <def name="exp" value="500000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59684" level="1" name="XP Scroll - Lv. 5">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.BranchSys.icon.br_lucky_bag_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="item_consume" value="49781:1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="i_get_exp">
+                <def name="exp" value="1000000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="59685" level="1" name="XP Scroll - Lv. 6">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_elmoaden_exp_scrl"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="59686" level="1" name="Hardin's Magic Bag">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

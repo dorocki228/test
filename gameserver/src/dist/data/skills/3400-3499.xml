@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="3498" level="1" name="Special Ability: Light">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0150"/>
+        <set name="magic_level" value="46"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_weight_limit">
+                <def name="p_weight_limit_param1" value="20"/>
+                <def name="p_weight_limit_param2" value="per"/>
+            </effect>
+        </for>
+    </skill>
+</list>

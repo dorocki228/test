@@ -1,0 +1,102 @@
+<!ELEMENT list (skill)*>
+
+	<!ELEMENT skill  (set|for|operate_cond|target_operate_cond|passive_conditions)*>
+	<!ATTLIST skill
+		id CDATA #REQUIRED
+		level CDATA #REQUIRED
+		name CDATA #REQUIRED>
+
+		<!ELEMENT set (#PCDATA)*>
+		<!ATTLIST set
+			name CDATA #IMPLIED
+			order CDATA #IMPLIED
+			stat CDATA #IMPLIED
+			value CDATA #REQUIRED>
+
+		<!ELEMENT start_effect (def|set)*>
+		<!ATTLIST start_effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			interval CDATA #IMPLIED
+			instant CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED>
+
+		<!ELEMENT tick_effect (def|set)*>
+		<!ATTLIST tick_effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			interval CDATA #IMPLIED
+			instant CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED>
+
+		<!ELEMENT self_effect (def|set)*>
+		<!ATTLIST self_effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			interval CDATA #IMPLIED
+			instant CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED
+			type CDATA #IMPLIED>
+
+		<!ELEMENT effect (def|set)*>
+		<!ATTLIST effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			interval CDATA #IMPLIED
+			instant CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED
+			type CDATA #IMPLIED>
+
+		<!ELEMENT pvp_effect (def|set)*>
+		<!ATTLIST pvp_effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			interval CDATA #IMPLIED
+			instant CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED
+			type CDATA #IMPLIED>
+
+		<!ELEMENT pve_effect (def|set)*>
+		<!ATTLIST pve_effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			interval CDATA #IMPLIED
+			instant CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED
+			type CDATA #IMPLIED>
+
+		<!ELEMENT end_effect (def|set)*>
+		<!ATTLIST end_effect
+			enabled CDATA #IMPLIED
+			name CDATA #IMPLIED
+			value CDATA #IMPLIED
+			chance CDATA #IMPLIED>
+
+			<!ELEMENT def (#PCDATA)>
+			<!ATTLIST def
+				name CDATA #REQUIRED
+				value CDATA #REQUIRED>
+
+		<!ELEMENT for (
+				start_effect|tick_effect|self_effect|effect|pvp_effect|pve_effect|end_effect
+				|set)*>
+
+		<!ELEMENT operate_cond (cond)*>
+		<!ATTLIST operate_cond>
+
+		<!ELEMENT target_operate_cond (cond)*>
+		<!ATTLIST target_operate_cond>
+
+		<!ELEMENT passive_conditions (cond)*>
+		<!ATTLIST passive_conditions>
+
+		<!ELEMENT cond (def)*>
+		<!ATTLIST cond
+				name CDATA #IMPLIED
+				value CDATA #IMPLIED>

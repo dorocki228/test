@@ -1,0 +1,2113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="39200" level="1" name="Weapons Ingredient Box - A-grade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_box_of_adventure_1_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39201" level="1" name="Box of Superior Dye">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_box_of_adventure_4_i00"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39202" level="1" name="Spellbok Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39203" level="1" name="Life Stone Pack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39204" level="1" name="Dimensional Blessing">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.BranchSys.icon.br_lucky_bag_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="item_consume" value="90044:1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="i_get_exp">
+            <def name="exp" value="37000000"/>
+        </effect>
+            <effect name="i_sp">
+                <def name="i_sp_param1" value="1110000"/>
+                <def name="i_sp_param2" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39205" level="1" name="Dark Assassin Transformation">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm2018_healer_i01"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-1"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="50"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="appearance_transform"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="28"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="DARK_ASSASSIN_SUIT"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="autousable" value="true"/>
+        <for>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="5"/>
+                <def name="p_max_hp_param3" value="per"/>
+                <def name="p_max_hp_param4" value="0"/>
+            </effect>
+            <effect name="p_max_mp">
+                <def name="p_max_mp_param1" value="all"/>
+                <def name="p_max_mp_param2" value="5"/>
+                <def name="p_max_mp_param3" value="per"/>
+                <def name="p_max_mp_param4" value="0"/>
+            </effect>
+            <effect name="p_hit">
+                <def name="p_hit_param1" value="all"/>
+                <def name="p_hit_param2" value="1"/>
+                <def name="p_hit_param3" value="diff"/>
+            </effect>
+            <effect name="p_magic_hit">
+                <def name="p_magic_hit_param1" value="all"/>
+                <def name="p_magic_hit_param2" value="1"/>
+                <def name="p_magic_hit_param3" value="diff"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="2"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="2"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="2"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="2"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="3"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_rate">
+                <def name="p_magic_critical_rate_param1" value="all"/>
+                <def name="p_magic_critical_rate_param2" value="10"/>
+                <def name="p_magic_critical_rate_param3" value="diff"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="4"/>
+                <def name="p_speed_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39206" level="1" name="Monster Arena Belt">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.belt_of_tiat"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39207" level="1" name="Dimensional Gift">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_box_of_adventure_5_i00"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90136:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_restoration_random">
+                <def name="i_restoration_random_param1" value="{
+                {{{49772;1}};11.11};{{{952;1}};11.11};{{{951;1}};11.11};
+                {{{49669;1}};11.11};{{{49668;1}};11.11};{{{49667;1}};11.11};
+                {{{90044;1}};11.11};{{{35669;1}};11.11};{{{90043;1}};11.12}
+                }"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39208" level="1" name="Pendant Matte Varnish">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39209" level="1" name="Varnish for Deluxe Pendant">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39210" level="1" name="White Assassin Transformation">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.scroll_of_verification_i06"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39211" level="1" name="Saviour's Scroll of Growth">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_kalie_hero_scroll"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39212" level="1" name="Einsahadҳ Protection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_dragons_blood_i03"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39213" level="1" name="Savior Scroll: Enchant Weapon">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.yogi_scroll_of_enchant_weapon_grade_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39214" level="1" name="Saviorҳ Cube">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_crystal_cube_event_i00"/>
+        <set name="reuse_delay" value="-1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39215" level="1" name="Ring of Savior">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.event_classic_ring"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39216" level="1" name="Transformation into an Apostle">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skilltransform1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="-1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39217" level="1" name="Transformation into a Shillien Saint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skilltransform1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="-1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39218" level="1" name="Transformation into an Eva's Saint">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skilltransform1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="-1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39219" level="1" name="Dark Knight">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.dark_kninght"/>
+        <set name="reuse_delay" value="3600.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39219" level="2" name="Dark Knight">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.dark_kninght"/>
+        <set name="reuse_delay" value="3600.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39219" level="3" name="Dark Knight">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.dark_kninght"/>
+        <set name="reuse_delay" value="3600.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39220" level="1" name="Ticket for Monster Arena">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_ticket_red_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39221" level="1" name="Elite Ticket for Monster Arena">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_ticket_red_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39222" level="1" name="Battle Cure">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.super_elixir_potion"/>
+        <set name="reuse_delay" value="600.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39223" level="1" name="Monkey Banana">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="Icon.ev_monkey_banana"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39224" level="1" name="Strawberry-Banana Cocktail">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_fruit_cocktail_i01"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39225" level="1" name="Mango-Banana Cocktail">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_fruit_cocktail_i03"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39226" level="1" name="Cherry Banana Shake">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_fruit_cocktail_i02"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39227" level="1" name="Tuna">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fish_huge_i12"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39228" level="1" name="Chef's Fish Stew - Victory">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="magic_level" value="78"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="666"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_hit">
+                <def name="p_hit_param1" value="all"/>
+                <def name="p_hit_param2" value="4"/>
+                <def name="p_hit_param3" value="diff"/>
+            </effect>
+            <effect name="p_magic_hit">
+                <def name="p_magic_hit_param1" value="all"/>
+                <def name="p_magic_hit_param2" value="4"/>
+                <def name="p_magic_hit_param3" value="diff"/>
+            </effect>
+            <effect name="p_mp_regen">
+                <def name="p_mp_regen_param1" value="all"/>
+                <def name="p_mp_regen_param2" value="20"/>
+                <def name="p_mp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="20"/>
+                <def name="p_hp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_rate">
+                <def name="p_magic_critical_rate_param1" value="all"/>
+                <def name="p_magic_critical_rate_param2" value="15"/>
+                <def name="p_magic_critical_rate_param3" value="per"/>
+            </effect>
+            <effect name="p_critical_damage">
+                <def name="p_critical_damage_param1" value="all"/>
+                <def name="p_critical_damage_param2" value="15"/>
+                <def name="p_critical_damage_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_dmg">
+                <def name="p_magic_critical_dmg_param1" value="all"/>
+                <def name="p_magic_critical_dmg_param2" value="15"/>
+                <def name="p_magic_critical_dmg_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="15"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="10"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="15"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_speed">
+                <def name="p_magic_speed_param1" value="all"/>
+                <def name="p_magic_speed_param2" value="10"/>
+                <def name="p_magic_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_critical_rate">
+                <def name="p_critical_rate_param1" value="all"/>
+                <def name="p_critical_rate_param2" value="15"/>
+                <def name="p_critical_rate_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39229" level="1" name="Chef's Fish Stew - Fire">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="magic_level" value="78"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="600"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="666"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="10"/>
+                <def name="p_hp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="10"/>
+                <def name="p_max_hp_param3" value="per"/>
+                <def name="p_max_hp_param4" value="0"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="10"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="10"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="5"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_resist_abnormal_by_category">
+                <def name="p_resist_abnormal_by_category_param1" value="slot_debuff"/>
+                <def name="p_resist_abnormal_by_category_param2" value="-10"/>
+                <def name="p_resist_abnormal_by_category_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39230" level="1" name="Chef's Fish Stew - Water">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="magic_level" value="78"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="600"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="666"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_mp_regen">
+                <def name="p_mp_regen_param1" value="all"/>
+                <def name="p_mp_regen_param2" value="10"/>
+                <def name="p_mp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="1"/>
+                <def name="p_magic_mp_cost_param2" value="-3"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="0"/>
+                <def name="p_magic_mp_cost_param2" value="-3"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_mp_cost">
+                <def name="p_magic_mp_cost_param1" value="3"/>
+                <def name="p_magic_mp_cost_param2" value="-3"/>
+                <def name="p_magic_mp_cost_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="10"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="10"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_speed">
+                <def name="p_magic_speed_param1" value="all"/>
+                <def name="p_magic_speed_param2" value="5"/>
+                <def name="p_magic_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_resist_abnormal_by_category">
+                <def name="p_resist_abnormal_by_category_param1" value="slot_debuff"/>
+                <def name="p_resist_abnormal_by_category_param2" value="-10"/>
+                <def name="p_resist_abnormal_by_category_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39231" level="1" name="Fish Stew - Wind">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="magic_level" value="78"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="600"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="multi_buff"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="666"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_critical_rate">
+                <def name="p_critical_rate_param1" value="all"/>
+                <def name="p_critical_rate_param2" value="10"/>
+                <def name="p_critical_rate_param3" value="per"/>
+            </effect>
+            <effect name="p_critical_damage">
+                <def name="p_critical_damage_param1" value="all"/>
+                <def name="p_critical_damage_param2" value="15"/>
+                <def name="p_critical_damage_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_dmg">
+                <def name="p_magic_critical_dmg_param1" value="all"/>
+                <def name="p_magic_critical_dmg_param2" value="15"/>
+                <def name="p_magic_critical_dmg_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_rate">
+                <def name="p_magic_critical_rate_param1" value="all"/>
+                <def name="p_magic_critical_rate_param2" value="10"/>
+                <def name="p_magic_critical_rate_param3" value="per"/>
+            </effect>
+            <effect name="p_resist_abnormal_by_category">
+                <def name="p_resist_abnormal_by_category_param1" value="slot_debuff"/>
+                <def name="p_resist_abnormal_by_category_param2" value="-10"/>
+                <def name="p_resist_abnormal_by_category_param3" value="per"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="10"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_avoid">
+                <def name="p_avoid_param1" value="all"/>
+                <def name="p_avoid_param2" value="3"/>
+                <def name="p_avoid_param3" value="diff"/>
+            </effect>
+            <effect name="p_magic_avoid">
+                <def name="p_magic_avoid_param1" value="all"/>
+                <def name="p_magic_avoid_param2" value="3"/>
+                <def name="p_magic_avoid_param3" value="diff"/>
+            </effect>
+            <effect name="p_magic_hit">
+                <def name="p_magic_hit_param1" value="all"/>
+                <def name="p_magic_hit_param2" value="3"/>
+                <def name="p_magic_hit_param3" value="diff"/>
+            </effect>
+            <effect name="p_hit">
+                <def name="p_hit_param1" value="all"/>
+                <def name="p_hit_param2" value="3"/>
+                <def name="p_hit_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39232" level="1" name="Gold Urn">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_gold_pot"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39233" level="1" name="Glowing  Whale">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fish_huge_i15"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39234" level="1" name="Giant's Enchant Scroll Pack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39235" level="1" name="Low-grade Arena Loot">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39236" level="1" name="Intermediate Arena Loot">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39237" level="1" name="High-grade Arena Loot">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39238" level="1" name="MOPP Combat Ration">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_mopp_herb"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39239" level="1" name="Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="102"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39239" level="2" name="Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="103"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39240" level="1" name="Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="105"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39241" level="1" name="Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="108"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39242" level="1" name="Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="116"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39242" level="2" name="Gem - Greater Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="117"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39242" level="3" name="Gem - Greater Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="118"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39242" level="4" name="Gem - Greater Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="119"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39242" level="5" name="Gem - Greater Sapphire">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_spirit_shot">
+                <def name="power" value="120"/>
+                <def name="unk_spiritshot_parameter" value="40"/>
+                <def name="heal_bonus" value="1.0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39243" level="1" name="Topaz Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39244" level="1" name="Garnet Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39245" level="1" name="Jade Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39246" level="1" name="Ruby Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39247" level="1" name="Sapphire Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39248" level="1" name="Diamond Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39249" level="1" name="Pearl Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39250" level="1" name="Vital Stone Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39251" level="1" name="Melodys Luck Cube">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_crystal_cube_event_i00"/>
+        <set name="reuse_delay" value="-1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39252" level="1" name="My Teleport Book">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39253" level="1" name="Chef's Fish Stew - Victory">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39254" level="1" name="Chef's Fish Stew - Fire">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39255" level="1" name="Chef's Fish Stew - Water">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39256" level="1" name="Artisan's Fish Stew - Wind">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.fish_stew_residence_cha"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39257" level="1" name="Newbie MP Recovery Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_reagent_white_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39258" level="1" name="Warrior MP Recovery Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_reagent_white_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39259" level="1" name="Savior's XP Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39260" level="1" name="Magical Potion of Leaping - Lv. 4">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_water_potion_i00"/>
+        <set name="reuse_delay" value="0.5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39261" level="1" name="Fish Stew - Greater Might">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90447:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pa_pd_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="4"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39262" level="1" name="Fish Stew - Greater Shield">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90448:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="pa_pd_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="5"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39263" level="1" name="Fish Stew - Wild Magic">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90449:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="magic_critical_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_magic_critical_rate">
+                <def name="p_magic_critical_rate_param1" value="all"/>
+                <def name="p_magic_critical_rate_param2" value="10"/>
+                <def name="p_magic_critical_rate_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39264" level="1" name="Fish Stew - Berserker Spirit">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90450:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="berserker"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="-5"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="-10"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_avoid">
+                <def name="p_avoid_param1" value="all"/>
+                <def name="p_avoid_param2" value="-2"/>
+                <def name="p_avoid_param3" value="diff"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="5"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="10"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="5"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_speed">
+                <def name="p_magic_speed_param1" value="all"/>
+                <def name="p_magic_speed_param2" value="5"/>
+                <def name="p_magic_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="5"/>
+                <def name="p_speed_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39264" level="2" name="Fish Stew - Berserker Spirit">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90451:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="berserker"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="-8"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="-16"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_avoid">
+                <def name="p_avoid_param1" value="all"/>
+                <def name="p_avoid_param2" value="-4"/>
+                <def name="p_avoid_param3" value="diff"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="8"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="16"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="8"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_speed">
+                <def name="p_magic_speed_param1" value="all"/>
+                <def name="p_magic_speed_param2" value="8"/>
+                <def name="p_magic_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="8"/>
+                <def name="p_speed_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39265" level="1" name="Fish Stew - Decrease Weight">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90452:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="decrease_weight_penalty"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_weight_limit">
+                <def name="p_weight_limit_param1" value="3000"/>
+                <def name="p_weight_limit_param2" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39265" level="2" name="Fish Stew - Decrease Weight">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90453:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="decrease_weight_penalty"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_weight_limit">
+                <def name="p_weight_limit_param1" value="6000"/>
+                <def name="p_weight_limit_param2" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39265" level="3" name="Fish Stew - Decrease Weight">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.fish_stew_buff"/>
+        <set name="magic_level" value="-1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="90454:1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="3"/>
+        <set name="abnormal_type" value="decrease_weight_penalty"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="0"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_weight_limit">
+                <def name="p_weight_limit_param1" value="9000"/>
+                <def name="p_weight_limit_param2" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39266" level="1" name="Shiny Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39267" level="1" name="Mood Melody">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_magmeld"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39268" level="1" name="Mysterious Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_special_jewelbox_lv5"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39269" level="1" name="Golden Fruit Buff">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm_dragon_fruit"/>
+        <set name="special_level" value="0"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="br_event_buf1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="666"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="12"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="12"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="12"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="12"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="15"/>
+                <def name="p_max_hp_param3" value="per"/>
+                <def name="p_max_hp_param4" value="0"/>
+            </effect>
+            <effect name="p_max_mp">
+                <def name="p_max_mp_param1" value="all"/>
+                <def name="p_max_mp_param2" value="15"/>
+                <def name="p_max_mp_param3" value="per"/>
+                <def name="p_max_mp_param4" value="0"/>
+            </effect>
+            <effect name="p_max_cp">
+                <def name="p_max_cp_param1" value="all"/>
+                <def name="p_max_cp_param2" value="15"/>
+                <def name="p_max_cp_param3" value="per"/>
+                <def name="p_max_cp_param4" value="0"/>
+            </effect>
+            <effect name="p_mp_regen">
+                <def name="p_mp_regen_param1" value="all"/>
+                <def name="p_mp_regen_param2" value="30"/>
+                <def name="p_mp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="30"/>
+                <def name="p_hp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_rate">
+                <def name="p_magic_critical_rate_param1" value="all"/>
+                <def name="p_magic_critical_rate_param2" value="10"/>
+                <def name="p_magic_critical_rate_param3" value="diff"/>
+            </effect>
+            <effect name="p_critical_damage">
+                <def name="p_critical_damage_param1" value="all"/>
+                <def name="p_critical_damage_param2" value="5"/>
+                <def name="p_critical_damage_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_dmg">
+                <def name="p_magic_critical_dmg_param1" value="all"/>
+                <def name="p_magic_critical_dmg_param2" value="5"/>
+                <def name="p_magic_critical_dmg_param3" value="per"/>
+            </effect>
+            <effect name="p_critical_rate">
+                <def name="p_critical_rate_param1" value="all"/>
+                <def name="p_critical_rate_param2" value="10"/>
+                <def name="p_critical_rate_param3" value="diff"/>
+            </effect>
+            <effect name="p_vampiric_attack">
+                <def name="p_vampiric_attack_param1" value="5"/>
+                <def name="p_vampiric_attack_param2" value="80"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39270" level="1" name="Dragon's Treasure Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_dragon_present"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39271" level="1" name="Dragon's Shining Treasure Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_dragon_shinning_present"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39272" level="1" name="Officer of Balthus Knights">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_balthus_token"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39273" level="1" name="Golden Fruit Buff">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.bm_dragon_fruit"/>
+        <set name="special_level" value="0"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="br_event_buf1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="666"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="12"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="12"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="15"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="15"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="25"/>
+                <def name="p_max_hp_param3" value="per"/>
+                <def name="p_max_hp_param4" value="0"/>
+            </effect>
+            <effect name="p_max_mp">
+                <def name="p_max_mp_param1" value="all"/>
+                <def name="p_max_mp_param2" value="25"/>
+                <def name="p_max_mp_param3" value="per"/>
+                <def name="p_max_mp_param4" value="0"/>
+            </effect>
+            <effect name="p_max_cp">
+                <def name="p_max_cp_param1" value="all"/>
+                <def name="p_max_cp_param2" value="25"/>
+                <def name="p_max_cp_param3" value="per"/>
+                <def name="p_max_cp_param4" value="0"/>
+            </effect>
+            <effect name="p_mp_regen">
+                <def name="p_mp_regen_param1" value="all"/>
+                <def name="p_mp_regen_param2" value="30"/>
+                <def name="p_mp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="30"/>
+                <def name="p_hp_regen_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_rate">
+                <def name="p_magic_critical_rate_param1" value="all"/>
+                <def name="p_magic_critical_rate_param2" value="10"/>
+                <def name="p_magic_critical_rate_param3" value="diff"/>
+            </effect>
+            <effect name="p_critical_damage">
+                <def name="p_critical_damage_param1" value="all"/>
+                <def name="p_critical_damage_param2" value="5"/>
+                <def name="p_critical_damage_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_critical_dmg">
+                <def name="p_magic_critical_dmg_param1" value="all"/>
+                <def name="p_magic_critical_dmg_param2" value="5"/>
+                <def name="p_magic_critical_dmg_param3" value="per"/>
+            </effect>
+            <effect name="p_critical_rate">
+                <def name="p_critical_rate_param1" value="all"/>
+                <def name="p_critical_rate_param2" value="10"/>
+                <def name="p_critical_rate_param3" value="diff"/>
+            </effect>
+            <effect name="p_vampiric_attack">
+                <def name="p_vampiric_attack_param1" value="5"/>
+                <def name="p_vampiric_attack_param2" value="80"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="10"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="10"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="39274" level="1" name="Lesser GM's Blessing Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39275" level="1" name="Greater GM's Blessing Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39276" level="1" name="Greatest GM's Blessing Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39277" level="1" name="Transform Raid Hero">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skilltransform1"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39278" level="1" name="Flower Sweets">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.flower_songpyeon"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39279" level="1" name="Pumpkin Sweets">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.pumpkin_songpyeon"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39280" level="1" name="Banana Sweets">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.songpyeon_herb"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39281" level="1" name="Sealed Rune Lvl 1">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39282" level="1" name="Sealed Rune Lvl 2">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39283" level="1" name="Sealed Rune Lvl 3">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39284" level="1" name="Sealed Rune Lvl 4">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39285" level="1" name="Sealed Rune Lvl 5">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39286" level="1" name="Sealed Rune Lvl 6">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39287" level="1" name="Sealed Rune Lvl 7">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39288" level="1" name="Sealed Rune Lvl 8">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39289" level="1" name="Sealed Rune Lvl 9">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39290" level="1" name="Sealed Rune Lvl 10">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39291" level="1" name="Sealed Rune Lvl 11">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39292" level="1" name="Sealed Rune Lvl 12">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39293" level="1" name="Sealed Rune Lvl 13">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39294" level="1" name="Pirate's Treasure Chest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="etc_treasure_box_i02"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39295" level="1" name="Teleport: Entrance to the Devil's Isle">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39296" level="1" name="Teleports you to the entrance to the Devil's Isle">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="reuse_delay" value="7200.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39297" level="1" name="Escape: Clan Hall">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="reuse_delay" value="3600.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39298" level="1" name="Shining Mood Melody">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_magmeld"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="39299" level="1" name="Cube of Forsaken Isle">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.sa_cube"/>
+        <set name="reuse_delay" value="-1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

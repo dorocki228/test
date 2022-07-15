@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<!--Этот тип зоны отображается как "Измененная Зона" (красный радар).-->
+<list>
+	<zone name="[antharas_balthus_knights]" type="CHANGED_ZONE">
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="181552 116384 -7704 -7604"/>
+			<coords loc="179849 118366 -7704 -7604"/>
+			<coords loc="175896 118465 -7704 -7604"/>
+
+			<coords loc="175320 118088 -7704 -7604"/>
+			<coords loc="173816 115656 -7704 -7604"/>
+			<coords loc="173720 114120 -7704 -7604"/>
+			<coords loc="175160 111848 -7704 -7604"/>
+			<coords loc="175704 111304 -7704 -7604"/>
+			<coords loc="176408 111192 -7704 -7604"/>
+			<coords loc="179432 111192 -7704 -7604"/>
+			<coords loc="179832 111320 -7704 -7604"/>
+			<coords loc="180072 111592 -7704 -7604"/>
+
+			<!-- <coords loc="175328 118128 -7704 -7604"/>
+			<coords loc="173728 115536 -7704 -7604"/>
+			<coords loc="173609 114700 -7704 -7604"/>
+			<coords loc="173712 114128 -7704 -7604"/>
+			<coords loc="175385 111503 -7704 -7604"/>
+			<coords loc="176016 111216 -7704 -7604"/>
+			<coords loc="179896 111348 -7704 -7604"/>
+			<coords loc="180730 112225 -7704 -7604"/> -->
+
+			<coords loc="182199 114122 -7728 -7628"/>
+			<coords loc="184369 114148 -8216 -8116"/>
+			<coords loc="186526 113634 -8216 -8116"/>
+			<coords loc="187279 114909 -8216 -8116"/>
+			<coords loc="186627 115882 -8216 -8116"/>
+			<coords loc="184224 115472 -8208 -8108"/>
+			<coords loc="182272 115584 -7744 -7644"/>
+		</polygon>
+	</zone>
+	<zone name="[baium_balthus_knights]" type="CHANGED_ZONE" >
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="116616 17576 10032 10232"/>
+			<coords loc="117064 16552 10032 10232"/>
+			<coords loc="117032 15592 10032 10232"/>
+			<coords loc="116664 14632 10032 10232"/>
+			<coords loc="116024 14008 10032 10232"/>
+			<coords loc="115128 13640 10032 10232"/>
+			<coords loc="114136 13624 10032 10232"/>
+			<coords loc="113256 13992 10032 10232"/>
+			<coords loc="112568 14664 10032 10232"/>
+			<coords loc="112216 15592 10032 10232"/>
+			<coords loc="112216 16552 10032 10232"/>
+			<coords loc="112600 17432 10032 10232"/>
+			<coords loc="113288 18120 10032 10232"/>
+			<coords loc="114152 18472 10032 10232"/>
+			<coords loc="115144 18488 10032 10232"/>
+			<coords loc="116152 18024 10032 10232"/>
+		</polygon>
+	</zone>
+	<zone name="[zaken_balthus_knights]" type="CHANGED_ZONE" >
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="55736 219592 -3500 -3300"/>
+			<coords loc="54808 219560 -3500 -3300"/>
+			<coords loc="54792 218632 -3500 -3300"/>
+			<coords loc="55752 218616 -3500 -3300"/>
+		</polygon>
+	</zone>
+	<zone name="[last_imperial_tomb_frintezza]" type="CHANGED_ZONE">
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="-83976 -155384"/>
+			<coords loc="-83976 -139848"/>
+			<coords loc="-89848 -139848"/>
+			<coords loc="-89848 -155384"/>
+		</polygon>
+	</zone>
+	<zone name="[four_sepulchers_1]" type="CHANGED_ZONE">
+		<polygon>
+			<coords loc="181241 -86443 -7225 -6621"/>
+			<coords loc="181241 -84575 -7225 -6621"/>
+			<coords loc="192134 -84575 -7225 -6621"/>
+			<coords loc="192134 -86443 -7225 -6621"/>
+		</polygon>
+	</zone>
+	<zone name="[four_sepulchers_2]" type="CHANGED_ZONE">
+		<polygon>
+			<coords loc="179551 -89844 -7225 -6621"/>
+			<coords loc="179551 -88042 -7225 -6621"/>
+			<coords loc="190342 -88042 -7225 -6621"/>
+			<coords loc="190342 -89844 -7225 -6621"/>
+		</polygon>
+	</zone>
+	<zone name="[four_sepulchers_3]" type="CHANGED_ZONE">
+		<polygon>
+			<coords loc="172354 -86630 -7225 -6621"/>
+			<coords loc="172354 -75565 -7225 -6621"/>
+			<coords loc="174073 -75565 -7225 -6621"/>
+			<coords loc="174073 -86630 -7225 -6621"/>
+		</polygon>
+	</zone>
+	<zone name="[four_sepulchers_4]" type="CHANGED_ZONE">
+		<polygon>
+			<coords loc="174697 -82707 -7225 -6621"/>
+			<coords loc="174697 -71885 -7225 -6621"/>
+			<coords loc="176500 -71885 -7225 -6621"/>
+			<coords loc="176500 -82707 -7225 -6621"/>
+		</polygon>
+	</zone>
+
+	<zone name="[king_ignis]" type="CHANGED_ZONE">
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="203960 168456 -15500 -15300"/>
+			<coords loc="203016 167544 -15500 -15300"/>
+			<coords loc="201688 167528 -15500 -15300"/>
+			<coords loc="200744 168456 -15500 -15300"/>
+			<coords loc="200744 169784 -15500 -15300"/>
+			<coords loc="201688 170728 -15500 -15300"/>
+			<coords loc="203016 170728 -15500 -15300"/>
+			<coords loc="203960 169784 -15500 -15300"/>
+		</polygon>
+	</zone>
+
+	<zone name="[queen_nebula]" type="CHANGED_ZONE">
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="221464 167448 -15500 -15300"/>
+			<coords loc="220520 168392 -15500 -15300"/>
+			<coords loc="220520 169736 -15500 -15300"/>
+			<coords loc="221464 170664 -15500 -15300"/>
+			<coords loc="222792 170680 -15500 -15300"/>
+			<coords loc="223736 169736 -15500 -15300"/>
+			<coords loc="223736 168392 -15500 -15300"/>
+			<coords loc="222808 167464 -15500 -15300"/>
+		</polygon>
+	</zone>
+
+	<zone name="[king_procella]" type="CHANGED_ZONE">
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="212200 178216 -15500 -15300"/>
+			<coords loc="211256 179160 -15500 -15300"/>
+			<coords loc="211256 180504 -15500 -15300"/>
+			<coords loc="212184 181432 -15500 -15300"/>
+			<coords loc="213528 181432 -15500 -15300"/>
+			<coords loc="214472 180488 -15500 -15300"/>
+			<coords loc="214472 179160 -15500 -15300"/>
+			<coords loc="213528 178216 -15500 -15300"/>
+		</polygon>
+	</zone>
+
+	<zone name="[king_petram]" type="CHANGED_ZONE">
+		<set name="enabled" value="false"/>
+		<set name="can_lost_exp" value="false"/>
+		<polygon>
+			<coords loc="221416 189912 -15500 -15300"/>
+			<coords loc="220456 190856 -15500 -15300"/>
+			<coords loc="220456 192184 -15500 -15300"/>
+			<coords loc="221400 193144 -15500 -15300"/>
+			<coords loc="222744 193128 -15500 -15300"/>
+			<coords loc="223672 192200 -15500 -15300"/>
+			<coords loc="223672 190856 -15500 -15300"/>
+			<coords loc="222728 189912 -15500 -15300"/>
+		</polygon>
+	</zone>
+
+</list>

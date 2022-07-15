@@ -1,7 +1,0 @@
-<!ELEMENT list (items*) >
-<!ELEMENT items (item*) >
-   <!ATTLIST items signboard CDATA #IMPLIED  >
-   <!ATTLIST items town CDATA #IMPLIED  >
-<!ELEMENT item EMPTY >
-   <!ATTLIST item RecipesId CDATA #IMPLIED  >
-   <!ATTLIST item Prices CDATA #IMPLIED  >

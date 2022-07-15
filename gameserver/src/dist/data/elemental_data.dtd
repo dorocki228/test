@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (configs|elemental)*>
+
+	<!ELEMENT configs (reset_points_cost)*>
+	<!ATTLIST configs
+			enabled CDATA #REQUIRED>
+
+		<!ELEMENT reset_points_cost (#PCDATA)>
+		<!ATTLIST reset_points_cost
+			item_id CDATA #REQUIRED
+			item_count CDATA #REQUIRED>
+
+	<!ELEMENT elemental (absorb_items|evolution)*>
+	<!ATTLIST elemental
+		element CDATA #REQUIRED>
+
+		<!ELEMENT absorb_items (absorb_item)*>
+
+			<!ELEMENT absorb_item (#PCDATA)>
+			<!ATTLIST absorb_item
+				id CDATA #REQUIRED
+				power CDATA #REQUIRED>
+
+		<!ELEMENT evolution (limits|rise_level_cost|datas)*>
+		<!ATTLIST evolution
+			level CDATA #REQUIRED>
+
+			<!ELEMENT limits (#PCDATA)>
+			<!ATTLIST limits
+				max_attack_points CDATA #REQUIRED
+				max_defence_points CDATA #REQUIRED
+				max_crit_rate_points CDATA #REQUIRED
+				max_crit_attack_points CDATA #REQUIRED>
+
+			<!ELEMENT rise_level_cost (cost_item)*>
+
+				<!ELEMENT cost_item (#PCDATA)>
+				<!ATTLIST cost_item
+					id CDATA #REQUIRED
+					count CDATA #REQUIRED>
+
+			<!ELEMENT datas (data)*>
+
+				<!ELEMENT data (extract)*>
+				<!ATTLIST data
+					level CDATA #REQUIRED
+					attack CDATA #IMPLIED
+					defence CDATA #IMPLIED
+					crit_rate CDATA #IMPLIED
+					crit_attack CDATA #IMPLIED
+					exp CDATA #IMPLIED>
+
+					<!ELEMENT extract (cost_item)*>
+					<!ATTLIST extract
+						item_id CDATA #REQUIRED
+						item_count CDATA #REQUIRED>

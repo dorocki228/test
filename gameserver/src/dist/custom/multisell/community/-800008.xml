@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config show_all="true" no_tax="true" keep_enchanted="false" />
+	<item>
+		<production id="29979" count="1"/>
+		<ingredient id="29978" count="1"/>
+		<ingredient id="29520" count="100"/>
+	</item>
+	<item>
+		<production id="29980" count="1"/>
+		<ingredient id="29979" count="1"/>
+		<ingredient id="29520" count="200"/>
+	</item>
+	<item>
+		<production id="29981" count="1"/>
+		<ingredient id="29980" count="1"/>
+		<ingredient id="29520" count="300"/>
+	</item>
+	<item>
+		<production id="29982" count="1"/>
+		<ingredient id="29981" count="1"/>
+		<ingredient id="29520" count="400"/>
+	</item>
+	<item>
+		<production id="70922" count="1"/>
+		<ingredient id="29982" count="1"/>
+		<ingredient id="29520" count="600"/>
+	</item>
+</list>

@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS `fish`;
+ALTER TABLE castle DROP COLUMN town_id;

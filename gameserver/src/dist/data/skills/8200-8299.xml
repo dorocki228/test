@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="8256" level="1" name="Release Agathion's Seal- Shiny">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_summon_agathion">
+                <def name="i_summon_agathion_param1" value="11"/>
+                <def name="i_summon_agathion_param2" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="8292" level="1" name="Olympiad Warrior's Ring">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.accessory_tateossian_ring_i00"/>
+        <set name="magic_level" value="75"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_hold"/>
+                <def name="p_defence_trait_param2" value="30"/>
+            </effect>
+            <effect name="p_attack_trait">
+                <def name="p_attack_trait_param1" value="trait_hold"/>
+                <def name="p_attack_trait_param2" value="30"/>
+            </effect>
+            <effect name="p_hit">
+                <def name="p_hit_param1" value="all"/>
+                <def name="p_hit_param2" value="2"/>
+                <def name="p_hit_param3" value="diff"/>
+            </effect>
+            <effect name="p_critical_damage">
+                <def name="p_critical_damage_param1" value="all"/>
+                <def name="p_critical_damage_param2" value="15"/>
+                <def name="p_critical_damage_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="8293" level="1" name="Olympiad Warrior's Earring">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.accessory_tateossian_earring_i00"/>
+        <set name="magic_level" value="75"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_attack_trait">
+                <def name="p_attack_trait_param1" value="trait_shock"/>
+                <def name="p_attack_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_attack_trait">
+                <def name="p_attack_trait_param1" value="trait_derangement"/>
+                <def name="p_attack_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_vampiric_attack">
+                <def name="p_vampiric_attack_param1" value="4"/>
+                <def name="p_vampiric_attack_param2" value="30"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="8294" level="1" name="Olympiad Warrior's Necklace">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.accessory_tateossian_necklace_i00"/>
+        <set name="magic_level" value="75"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_paralyze"/>
+                <def name="p_defence_trait_param2" value="15"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="15"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_sleep"/>
+                <def name="p_defence_trait_param2" value="15"/>
+            </effect>
+            <effect name="p_attack_trait">
+                <def name="p_attack_trait_param1" value="trait_paralyze"/>
+                <def name="p_attack_trait_param2" value="15"/>
+            </effect>
+            <effect name="p_attack_trait">
+                <def name="p_attack_trait_param1" value="trait_shock"/>
+                <def name="p_attack_trait_param2" value="15"/>
+            </effect>
+            <effect name="p_attack_trait">
+                <def name="p_attack_trait_param1" value="trait_sleep"/>
+                <def name="p_attack_trait_param2" value="15"/>
+            </effect>
+            <effect name="p_reuse_delay">
+                <def name="p_reuse_delay_param1" value="0"/>
+                <def name="p_reuse_delay_param2" value="-5"/>
+                <def name="p_reuse_delay_param3" value="per"/>
+            </effect>
+            <effect name="p_reuse_delay">
+                <def name="p_reuse_delay_param1" value="1"/>
+                <def name="p_reuse_delay_param2" value="-5"/>
+                <def name="p_reuse_delay_param3" value="per"/>
+            </effect>
+            <effect name="p_damage_shield">
+                <def name="p_damage_shield_param1" value="4"/>
+            </effect>
+        </for>
+    </skill>
+</list>

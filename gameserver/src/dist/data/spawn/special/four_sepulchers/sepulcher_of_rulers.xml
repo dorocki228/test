@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--Manager-->
+	<spawn group="4_sepul_manager" count="1" respawn="60">
+		<point x="179292" y="-88981" z="-7216" h="32264"/>
+		<npc id="31922"/><!--Управляющий Гробницы Правителей-->
+	</spawn>
+	<!--Gatekeepers-->
+	<!--1 room-->
+	<spawn group="SepulcherOfRulers_4_sepul_gatekeeper" count="1" respawn="60">
+		<point x="181030" y="-88868" z="-7216" h="32264"/>
+		<npc id="31930"><!--Хранитель Портала Зала Баронов-->
+			<set name="door_id" value="25150002"/>
+		</npc>
+	</spawn>
+	<!--2 room-->
+	<spawn group="SepulcherOfRulers_4_sepul_gatekeeper" count="1" respawn="60">
+		<point x="182809" y="-88856" z="-7216" h="32264"/>
+		<npc id="31931"><!--Хранитель Портала Зала Виконтов-->
+			<set name="door_id" value="25150003"/>
+		</npc>
+	</spawn>
+	<!--3 room-->
+	<spawn group="SepulcherOfRulers_4_sepul_gatekeeper" count="1" respawn="60">
+		<point x="184626" y="-88859" z="-7216" h="32264"/>
+		<npc id="31932"><!--Хранитель Портала Зала Графов-->
+			<set name="door_id" value="25150004"/>
+		</npc>
+	</spawn>
+	<!--4 room-->
+	<spawn group="SepulcherOfRulers_4_sepul_gatekeeper" count="1" respawn="60">
+		<point x="186438" y="-88858" z="-7216" h="32264"/>
+		<npc id="31933"><!--Хранитель Портала Зала Маркизов-->
+			<set name="door_id" value="25150005"/>
+		</npc>
+	</spawn>
+	<!--5 room-->
+	<spawn group="SepulcherOfRulers_4_sepul_gatekeeper" count="1" respawn="60">
+		<point x="188236" y="-88854" z="-7216" h="32264"/>
+		<npc id="31934"><!--Хранитель Портала Зала Герцогов-->
+			<set name="door_id" value="25150006"/>
+		</npc>
+	</spawn>
+	<!--Boxes-->
+	<!--1 room-->
+	<spawn group="4_sepul_myst_box_31922" count="1" respawn="0">
+		<point x="180375" y="-88968" z="-7216" h="-32600"/>
+		<npc id="31473"/><!--Mysterious Box-->
+	</spawn>
+	<!--2 room-->
+	<spawn group="4_sepul_myst_box_31930" count="1" respawn="0">
+		<point x="182151" y="-88962" z="-7216" h="-32600"/>
+		<npc id="31474"/><!--Mysterious Box-->
+	</spawn>
+	<!--3 room-->
+	<spawn group="4_sepul_myst_box_31931" count="1" respawn="0">
+		<point x="183960" y="-88964" z="-7216" h="-32600"/>
+		<npc id="31475"/><!--Mysterious Box-->
+	</spawn>
+	<!--4 room-->
+	<spawn group="4_sepul_myst_box_31932" count="1" respawn="0">
+		<point x="185792" y="-88966" z="-7216" h="-32600"/>
+		<npc id="31476"/><!--Mysterious Box-->
+	</spawn>
+	<!--5 room-->
+	<spawn group="4_sepul_myst_box_31933" count="1" respawn="0">
+		<point x="187625" y="-88953" z="-7216" h="-32600"/>
+		<npc id="31477"/><!--Mysterious Box-->
+	</spawn>
+	<!--Monsters-->
+	<!--1 room-->
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180696" y="-88974" z="-7218" h="213"/>
+		<npc id="18121"/><!--Halisha's Officer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180802" y="-89323" z="-7219" h="25522"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180855" y="-88602" z="-7219" h="43355"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="179966" y="-88624" z="-7215" h="59734"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="179955" y="-89309" z="-7219" h="5304"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180367" y="-89292" z="-7219" h="12563"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180376" y="-88623" z="-7219" h="49152"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180155" y="-88781" z="-7217" h="0"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180744" y="-88787" z="-7217" h="33539"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180685" y="-89250" z="-7219" h="24773"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180153" y="-89322" z="-7219" h="10102"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180859" y="-89162" z="-7217" h="30488"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180619" y="-89151" z="-7217" h="32291"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180367" y="-89168" z="-7217" h="29297"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="179986" y="-89138" z="-7217" h="33937"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="179979" y="-88951" z="-7218" h="56294"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="179962" y="-88790" z="-7217" h="17482"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180559" y="-88787" z="-7217" h="374"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180844" y="-88806" z="-7217" h="2965"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180589" y="-88974" z="-7218" h="33297"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31473" count="1" respawn="0">
+		<point x="180187" y="-88971" z="-7218" h="32131"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180696" y="-88974" z="-7218" h="213"/>
+		<npc id="18120"/><!--Halisha's Officer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180802" y="-89323" z="-7219" h="25522"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180855" y="-88602" z="-7219" h="43355"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="179966" y="-88624" z="-7215" h="59734"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="179955" y="-89309" z="-7219" h="5304"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180367" y="-89292" z="-7219" h="12563"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180376" y="-88623" z="-7219" h="49152"/>
+		<npc id="18132"/><!--Imperial Healer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180155" y="-88781" z="-7217" h="0"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180744" y="-88787" z="-7217" h="33539"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180685" y="-89250" z="-7219" h="24773"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180153" y="-89322" z="-7219" h="10102"/>
+		<npc id="18133"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180859" y="-89162" z="-7217" h="30488"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180619" y="-89151" z="-7217" h="32291"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180367" y="-89168" z="-7217" h="29297"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="179986" y="-89138" z="-7217" h="33937"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="179979" y="-88951" z="-7218" h="56294"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="179962" y="-88790" z="-7217" h="17482"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180559" y="-88787" z="-7217" h="374"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180844" y="-88806" z="-7217" h="2965"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180589" y="-88974" z="-7218" h="33297"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31473" count="1" respawn="0">
+		<point x="180187" y="-88971" z="-7218" h="32131"/>
+		<npc id="18137"/><!--Imperial Mosaic-->
+	</spawn>
+	<!--2 room-->
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181741" y="-88855" z="-7218" h="53226"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181932" y="-88849" z="-7218" h="328"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182255" y="-88850" z="-7218" h="65503"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182523" y="-88855" z="-7218" h="65254"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182665" y="-88602" z="-7219" h="11169"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182387" y="-88604" z="-7219" h="33346"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182077" y="-88602" z="-7214" h="33954"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181807" y="-88605" z="-7216" h="64089"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181624" y="-89228" z="-7219" h="36011"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181831" y="-89221" z="-7218" h="61958"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182077" y="-89218" z="-7219" h="474"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182393" y="-89221" z="-7218" h="31355"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182670" y="-89369" z="-7219" h="59782"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="182204" y="-89371" z="-7219" h="31729"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181962" y="-89371" z="-7218" h="29655"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31474" count="1" respawn="0">
+		<point x="181716" y="-89372" z="-7219" h="31798"/>
+		<npc id="18142"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181741" y="-88855" z="-7218" h="53226"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181932" y="-88849" z="-7218" h="328"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182255" y="-88850" z="-7218" h="65503"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182523" y="-88855" z="-7218" h="65254"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182665" y="-88602" z="-7219" h="11169"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182387" y="-88604" z="-7219" h="33346"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182077" y="-88602" z="-7214" h="33954"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181807" y="-88605" z="-7216" h="64089"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181624" y="-89228" z="-7219" h="36011"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181831" y="-89221" z="-7218" h="61958"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182077" y="-89218" z="-7219" h="474"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182393" y="-89221" z="-7218" h="31355"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182670" y="-89369" z="-7219" h="59782"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="182204" y="-89371" z="-7219" h="31729"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181962" y="-89371" z="-7218" h="29655"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31474" count="1" respawn="0">
+		<point x="181716" y="-89372" z="-7219" h="31798"/>
+		<npc id="18146"/><!--Beetle of Grave-->
+	</spawn>
+	<!--3 room-->
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183989" y="-88975" z="-7218" h="833"/>
+		<npc id="18150"/><!--Victim-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183464" y="-89418" z="-7219" h="0"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183604" y="-89420" z="-7219" h="7038"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183703" y="-89422" z="-7219" h="64871"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183822" y="-89421" z="-7219" h="32334"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183959" y="-89421" z="-7219" h="12416"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184107" y="-89418" z="-7219" h="18107"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184279" y="-89418" z="-7219" h="0"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184487" y="-89421" z="-7219" h="62180"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183461" y="-89268" z="-7219" h="28800"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183631" y="-89275" z="-7219" h="65106"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183817" y="-89279" z="-7218" h="772"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183978" y="-89277" z="-7219" h="130"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184133" y="-89288" z="-7219" h="46038"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184304" y="-89299" z="-7219" h="62633"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184556" y="-89310" z="-7219" h="2100"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183463" y="-89118" z="-7218" h="1184"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183646" y="-89126" z="-7218" h="31046"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183923" y="-89134" z="-7218" h="63871"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184104" y="-89127" z="-7218" h="3356"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184280" y="-89129" z="-7218" h="38901"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184530" y="-89133" z="-7218" h="65369"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183444" y="-89008" z="-7218" h="65287"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183719" y="-89013" z="-7218" h="282"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183926" y="-89024" z="-7218" h="36803"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184095" y="-89040" z="-7218" h="35670"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184298" y="-89031" z="-7218" h="23925"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184521" y="-89029" z="-7218" h="21593"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183484" y="-88878" z="-7218" h="62980"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183697" y="-88873" z="-7218" h="0"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183963" y="-88877" z="-7218" h="0"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184200" y="-88881" z="-7218" h="65359"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184411" y="-88878" z="-7218" h="886"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184550" y="-88865" z="-7218" h="23422"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183479" y="-88693" z="-7219" h="64692"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183712" y="-88684" z="-7218" h="403"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183990" y="-88674" z="-7219" h="376"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184188" y="-88677" z="-7219" h="31582"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184471" y="-88690" z="-7219" h="65057"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183484" y="-88493" z="-7219" h="64759"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183668" y="-88508" z="-7219" h="61258"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183854" y="-88518" z="-7219" h="64975"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184071" y="-88505" z="-7219" h="63615"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184308" y="-88505" z="-7219" h="61427"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184496" y="-88526" z="-7219" h="53988"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183726" y="-89189" z="-7217" h="20459"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184083" y="-89194" z="-7217" h="64864"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184382" y="-89166" z="-7217" h="998"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184396" y="-88774" z="-7217" h="32595"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184091" y="-88766" z="-7217" h="40404"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183636" y="-88768" z="-7217" h="1781"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="183657" y="-88969" z="-7218" h="5415"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31475" count="1" respawn="0">
+		<point x="184357" y="-88971" z="-7218" h="64644"/>
+		<npc id="18170"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183989" y="-88975" z="-7218" h="833"/>
+		<npc id="18154"/><!--Victim-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183464" y="-89418" z="-7219" h="0"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183604" y="-89420" z="-7219" h="7038"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183703" y="-89422" z="-7219" h="64871"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183822" y="-89421" z="-7219" h="32334"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183959" y="-89421" z="-7219" h="12416"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184107" y="-89418" z="-7219" h="18107"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184279" y="-89418" z="-7219" h="0"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184487" y="-89421" z="-7219" h="62180"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183461" y="-89268" z="-7219" h="28800"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183631" y="-89275" z="-7219" h="65106"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183817" y="-89279" z="-7218" h="772"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183978" y="-89277" z="-7219" h="130"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184133" y="-89288" z="-7219" h="46038"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184304" y="-89299" z="-7219" h="62633"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184556" y="-89310" z="-7219" h="2100"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183463" y="-89118" z="-7218" h="1184"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183646" y="-89126" z="-7218" h="31046"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183923" y="-89134" z="-7218" h="63871"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184104" y="-89127" z="-7218" h="3356"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184280" y="-89129" z="-7218" h="38901"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184530" y="-89133" z="-7218" h="65369"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183444" y="-89008" z="-7218" h="65287"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183719" y="-89013" z="-7218" h="282"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183926" y="-89024" z="-7218" h="36803"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184095" y="-89040" z="-7218" h="35670"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184298" y="-89031" z="-7218" h="23925"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184521" y="-89029" z="-7218" h="21593"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183484" y="-88878" z="-7218" h="62980"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183697" y="-88873" z="-7218" h="0"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183963" y="-88877" z="-7218" h="0"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184200" y="-88881" z="-7218" h="65359"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184411" y="-88878" z="-7218" h="886"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184550" y="-88865" z="-7218" h="23422"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183479" y="-88693" z="-7219" h="64692"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183712" y="-88684" z="-7218" h="403"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183990" y="-88674" z="-7219" h="376"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184188" y="-88677" z="-7219" h="31582"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184471" y="-88690" z="-7219" h="65057"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183484" y="-88493" z="-7219" h="64759"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183668" y="-88508" z="-7219" h="61258"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183854" y="-88518" z="-7219" h="64975"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184071" y="-88505" z="-7219" h="63615"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184308" y="-88505" z="-7219" h="61427"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184496" y="-88526" z="-7219" h="53988"/>
+		<npc id="18171"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183726" y="-89189" z="-7217" h="20459"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184083" y="-89194" z="-7217" h="64864"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184382" y="-89166" z="-7217" h="998"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184396" y="-88774" z="-7217" h="32595"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184091" y="-88766" z="-7217" h="40404"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183636" y="-88768" z="-7217" h="1781"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="183657" y="-88969" z="-7218" h="5415"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31475" count="1" respawn="0">
+		<point x="184357" y="-88971" z="-7218" h="64644"/>
+		<npc id="18166"/><!--Imperial Guard-->
+	</spawn>
+	<!--4 room-->
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186235" y="-88972" z="-7218" h="32661"/>
+		<npc id="18183"/><!--Halisha's Foreman-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186405" y="-89503" z="-7219" h="18750"/>
+		<npc id="18196"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186409" y="-88432" z="-7219" h="44702"/>
+		<npc id="18197"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185195" y="-88416" z="-7218" h="53988"/>
+		<npc id="18198"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185197" y="-89511" z="-7218" h="10002"/>
+		<npc id="18199"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185622" y="-89252" z="-7219" h="1481"/>
+		<npc id="18185"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185948" y="-89248" z="-7219" h="31823"/>
+		<npc id="18185"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185987" y="-88720" z="-7219" h="46408"/>
+		<npc id="18185"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185649" y="-88734" z="-7219" h="56700"/>
+		<npc id="18185"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185459" y="-88637" z="-7219" h="59842"/>
+		<npc id="18185"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185361" y="-89249" z="-7219" h="7624"/>
+		<npc id="18185"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185322" y="-89065" z="-7218" h="12816"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185340" y="-88784" z="-7217" h="55468"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186229" y="-88741" z="-7219" h="27658"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186232" y="-89110" z="-7218" h="25303"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186297" y="-89388" z="-7219" h="20999"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186308" y="-89193" z="-7217" h="62495"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186120" y="-89362" z="-7219" h="40389"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185263" y="-89422" z="-7219" h="6470"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185273" y="-89260" z="-7219" h="15690"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185436" y="-89428" z="-7219" h="57186"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185725" y="-89194" z="-7217" h="14326"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185741" y="-88793" z="-7217" h="21674"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186285" y="-88534" z="-7218" h="37101"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186301" y="-88716" z="-7215" h="48989"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186094" y="-88537" z="-7219" h="14850"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185245" y="-88481" z="-7219" h="0"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185235" y="-88639" z="-7219" h="46111"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185404" y="-88520" z="-7219" h="7861"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185605" y="-88675" z="-7219" h="8276"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186063" y="-88676" z="-7219" h="65488"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="186085" y="-89204" z="-7217" h="47340"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185463" y="-89201" z="-7217" h="37459"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185761" y="-89059" z="-7218" h="62563"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31476" count="1" respawn="0">
+		<point x="185786" y="-88861" z="-7218" h="18606"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186235" y="-88972" z="-7218" h="32661"/>
+		<npc id="18184"/><!--Halisha's Foreman-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186405" y="-89503" z="-7219" h="18750"/>
+		<npc id="18196"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186409" y="-88432" z="-7219" h="44702"/>
+		<npc id="18197"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185195" y="-88416" z="-7218" h="53988"/>
+		<npc id="18198"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185197" y="-89511" z="-7218" h="10002"/>
+		<npc id="18199"/><!--Charm of Corner-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185622" y="-89252" z="-7219" h="1481"/>
+		<npc id="18186"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185948" y="-89248" z="-7219" h="31823"/>
+		<npc id="18186"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185987" y="-88720" z="-7219" h="46408"/>
+		<npc id="18186"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185649" y="-88734" z="-7219" h="56700"/>
+		<npc id="18186"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185459" y="-88637" z="-7219" h="59842"/>
+		<npc id="18186"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185361" y="-89249" z="-7219" h="7624"/>
+		<npc id="18186"/><!--Evil Astrologer-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185322" y="-89065" z="-7218" h="12816"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185340" y="-88784" z="-7217" h="55468"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186229" y="-88741" z="-7219" h="27658"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186232" y="-89110" z="-7218" h="25303"/>
+		<npc id="18187"/><!--Knight of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186297" y="-89388" z="-7219" h="20999"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186308" y="-89193" z="-7217" h="62495"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186120" y="-89362" z="-7219" h="40389"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185263" y="-89422" z="-7219" h="6470"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185273" y="-89260" z="-7219" h="15690"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185436" y="-89428" z="-7219" h="57186"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185725" y="-89194" z="-7217" h="14326"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185741" y="-88793" z="-7217" h="21674"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186285" y="-88534" z="-7218" h="37101"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186301" y="-88716" z="-7215" h="48989"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186094" y="-88537" z="-7219" h="14850"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185245" y="-88481" z="-7219" h="0"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185235" y="-88639" z="-7219" h="46111"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185404" y="-88520" z="-7219" h="7861"/>
+		<npc id="18191"/><!--Witch of dust-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185605" y="-88675" z="-7219" h="8276"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186063" y="-88676" z="-7219" h="65488"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="186085" y="-89204" z="-7217" h="47340"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185463" y="-89201" z="-7217" h="37459"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185761" y="-89059" z="-7218" h="62563"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31476" count="1" respawn="0">
+		<point x="185786" y="-88861" z="-7218" h="18606"/>
+		<npc id="18195"/><!--Signet of Emperor-->
+	</spawn>
+	<!--5 room-->
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188081" y="-88794" z="-7217" h="36123"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187790" y="-88793" z="-7217" h="33600"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187404" y="-88775" z="-7217" h="32282"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187365" y="-89155" z="-7218" h="46975"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187637" y="-89162" z="-7217" h="65293"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187968" y="-89171" z="-7217" h="255"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188054" y="-89348" z="-7219" h="62980"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187782" y="-89343" z="-7218" h="32437"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187482" y="-89341" z="-7219" h="32699"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187193" y="-89334" z="-7219" h="32516"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187124" y="-88580" z="-7219" h="16497"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187342" y="-88591" z="-7219" h="65010"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187618" y="-88591" z="-7219" h="0"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187970" y="-88591" z="-7219" h="0"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88461" z="-7219" h="32970"/>
+		<npc id="18231"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88581" z="-7219" h="32970"/>
+		<npc id="18232"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88710" z="-7219" h="32970"/>
+		<npc id="18233"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88651" z="-7219" h="32970"/>
+		<npc id="18234"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88520" z="-7219" h="32970"/>
+		<npc id="18235"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89481" z="-7219" h="32970"/>
+		<npc id="18236"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89404" z="-7219" h="32970"/>
+		<npc id="18237"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89318" z="-7219" h="32970"/>
+		<npc id="18238"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89240" z="-7219" h="32970"/>
+		<npc id="18239"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89159" z="-7217" h="32970"/>
+		<npc id="18240"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188086" y="-88519" z="-7219" h="34065"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187909" y="-88516" z="-7219" h="34401"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187723" y="-88516" z="-7219" h="32768"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187538" y="-88512" z="-7219" h="32543"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187217" y="-88509" z="-7219" h="32671"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187977" y="-88706" z="-7219" h="18107"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187737" y="-88686" z="-7219" h="31901"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187563" y="-88676" z="-7219" h="32170"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187305" y="-88654" z="-7219" h="62633"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188101" y="-88879" z="-7218" h="1797"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187908" y="-88859" z="-7218" h="31691"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187662" y="-88850" z="-7218" h="32387"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187406" y="-88839" z="-7218" h="32321"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187106" y="-88817" z="-7218" h="32005"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188131" y="-89098" z="-7218" h="27932"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187829" y="-89104" z="-7218" h="32975"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187630" y="-89127" z="-7217" h="27932"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187349" y="-89113" z="-7217" h="32249"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188056" y="-89313" z="-7219" h="28545"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187750" y="-89311" z="-7217" h="31386"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187449" y="-89306" z="-7219" h="25522"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187163" y="-89297" z="-7219" h="30050"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="188069" y="-89446" z="-7219" h="28800"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187842" y="-89448" z="-7218" h="32859"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187562" y="-89435" z="-7219" h="32285"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187251" y="-89428" z="-7219" h="1423"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187943" y="-88962" z="-7218" h="32768"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187848" y="-88955" z="-7218" h="31758"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187324" y="-88963" z="-7218" h="56927"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_phys_monst_31477" count="1" respawn="0">
+		<point x="187050" y="-88964" z="-7218" h="35165"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188081" y="-88794" z="-7217" h="36123"/>
+		<npc id="18221"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187790" y="-88793" z="-7217" h="33600"/>
+		<npc id="18221"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187404" y="-88775" z="-7217" h="32282"/>
+		<npc id="18221"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187365" y="-89155" z="-7218" h="46975"/>
+		<npc id="18221"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187637" y="-89162" z="-7217" h="65293"/>
+		<npc id="18221"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187968" y="-89171" z="-7217" h="255"/>
+		<npc id="18221"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188054" y="-89348" z="-7219" h="62980"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187782" y="-89343" z="-7218" h="32437"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187482" y="-89341" z="-7219" h="32699"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187193" y="-89334" z="-7219" h="32516"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187124" y="-88580" z="-7219" h="16497"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187342" y="-88591" z="-7219" h="65010"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187618" y="-88591" z="-7219" h="0"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187970" y="-88591" z="-7219" h="0"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88461" z="-7219" h="32970"/>
+		<npc id="18231"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88581" z="-7219" h="32970"/>
+		<npc id="18232"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88710" z="-7219" h="32970"/>
+		<npc id="18233"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88651" z="-7219" h="32970"/>
+		<npc id="18234"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-88520" z="-7219" h="32970"/>
+		<npc id="18235"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89481" z="-7219" h="32970"/>
+		<npc id="18236"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89404" z="-7219" h="32970"/>
+		<npc id="18237"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89318" z="-7219" h="32970"/>
+		<npc id="18238"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89240" z="-7219" h="32970"/>
+		<npc id="18239"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188200" y="-89159" z="-7217" h="32970"/>
+		<npc id="18240"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188086" y="-88519" z="-7219" h="34065"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187909" y="-88516" z="-7219" h="34401"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187723" y="-88516" z="-7219" h="32768"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187538" y="-88512" z="-7219" h="32543"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187217" y="-88509" z="-7219" h="32671"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187977" y="-88706" z="-7219" h="18107"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187737" y="-88686" z="-7219" h="31901"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187563" y="-88676" z="-7219" h="32170"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187305" y="-88654" z="-7219" h="62633"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188101" y="-88879" z="-7218" h="1797"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187908" y="-88859" z="-7218" h="31691"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187662" y="-88850" z="-7218" h="32387"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187406" y="-88839" z="-7218" h="32321"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187106" y="-88817" z="-7218" h="32005"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188131" y="-89098" z="-7218" h="27932"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187829" y="-89104" z="-7218" h="32975"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187630" y="-89127" z="-7217" h="27932"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187349" y="-89113" z="-7217" h="32249"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188056" y="-89313" z="-7219" h="28545"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187750" y="-89311" z="-7217" h="31386"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187449" y="-89306" z="-7219" h="25522"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187163" y="-89297" z="-7219" h="30050"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="188069" y="-89446" z="-7219" h="28800"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187842" y="-89448" z="-7218" h="32859"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187562" y="-89435" z="-7219" h="32285"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187251" y="-89428" z="-7219" h="1423"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187943" y="-88962" z="-7218" h="32768"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187848" y="-88955" z="-7218" h="31758"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187324" y="-88963" z="-7218" h="56927"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_magic_monst_31477" count="1" respawn="0">
+		<point x="187050" y="-88964" z="-7218" h="35165"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="188337" y="-89050" z="-7218" h="32970"/>
+		<npc id="18241"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="188338" y="-88959" z="-7218" h="32970"/>
+		<npc id="18242"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="188336" y="-88869" z="-7218" h="32970"/>
+		<npc id="18243"/><!--Statue of Protection-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187679" y="-88957" z="-7218" h="160"/>
+		<npc id="18213"/><!--Archon of Halisha-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187345" y="-88957" z="-7218" h="31614"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187520" y="-89198" z="-7217" h="55702"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187544" y="-88774" z="-7217" h="64703"/>
+		<npc id="18220"/><!--Shaman of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187936" y="-88622" z="-7219" h="7038"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187906" y="-89189" z="-7219" h="4224"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187230" y="-89356" z="-7219" h="3512"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187234" y="-88587" z="-7219" h="62180"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187821" y="-88751" z="-7219" h="52911"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187806" y="-89043" z="-7218" h="7038"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187300" y="-89083" z="-7218" h="4977"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187292" y="-88830" z="-7218" h="58176"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187617" y="-89335" z="-7219" h="4837"/>
+		<npc id="18226"/><!--Caster of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187655" y="-88567" z="-7219" h="57115"/>
+		<npc id="18222"/><!--Assassin of Darkness-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187895" y="-89321" z="-7215" h="11548"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187942" y="-88695" z="-7219" h="52177"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187661" y="-88959" z="-7218" h="65220"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187427" y="-88872" z="-7218" h="29056"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187376" y="-89090" z="-7218" h="46754"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<spawn group="4_sepul_duke_final_monst_31477" count="1" respawn="0">
+		<point x="187989" y="-88955" z="-7218" h="497"/>
+		<npc id="18230"/><!--Signet of Emperor-->
+	</spawn>
+	<!--Finish spawn-->
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189013" y="-89325" z="-7219" h="45796"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189131" y="-89194" z="-7219" h="4312"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189433" y="-89376" z="-7216" h="56820"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189563" y="-89365" z="-7215" h="8726"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189668" y="-89100" z="-7216" h="15402"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189632" y="-88883" z="-7216" h="24431"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189660" y="-88694" z="-7216" h="3893"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189977" y="-88570" z="-7219" h="3893"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="190046" y="-88835" z="-7219" h="51290"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189351" y="-88733" z="-7216" h="31049"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189110" y="-88470" z="-7219" h="23924"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189065" y="-88707" z="-7246" h="47194"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189284" y="-88944" z="-7216" h="56839"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="189788" y="-89107" z="-7243" h="8389"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="190014" y="-89343" z="-7219" h="57817"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<spawn group="4_sepul_emperor_npc_31934" count="1" respawn="0">
+		<point x="190106" y="-89261" z="-7219" h="13121"/>
+		<npc id="18256"/><!--Halisha's Treasure Box-->
+	</spawn>
+	<!--Shadows-->
+	<spawn group="4_sepul_shadow_31934_1" count="1" respawn="0">
+		<point x="189534" y="-88969" z="-7216" h="32768"/>
+		<npc id="25339"/><!--Тень Халиши-->
+	</spawn>
+	<spawn group="4_sepul_shadow_31934_2" count="1" respawn="0">
+		<point x="189534" y="-88969" z="-7216" h="32768"/>
+		<npc id="25342"/><!--Тень Халиши-->
+	</spawn>
+	<spawn group="4_sepul_shadow_31934_3" count="1" respawn="0">
+		<point x="189534" y="-88969" z="-7216" h="32768"/>
+		<npc id="25346"/><!--Тень Халиши-->
+	</spawn>
+	<spawn group="4_sepul_shadow_31934_4" count="1" respawn="0">
+		<point x="189534" y="-88969" z="-7216" h="32768"/>
+		<npc id="25349"/><!--Тень Халиши-->
+	</spawn>
+</list>

@@ -1,9 +1,0 @@
-<!ELEMENT list (synthesis)*>
-<!ELEMENT synthesis  (#PCDATA)>
-<!ATTLIST synthesis
-  chance CDATA #REQUIRED
-  failCount CDATA #REQUIRED
-  failId CDATA #REQUIRED
-  slotone CDATA #REQUIRED
-  slottwo CDATA #REQUIRED
-  successId CDATA #REQUIRED>

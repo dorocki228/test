@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "initial_shortcuts.dtd">
+<!--AUTHOR: L2jUnity, reworked by Bonux-->
+<list>
+	<!--Global shortcuts-->
+	<shortcuts>
+		<page id="0">
+			<shortcut slot="0" type="ACTION" id="2"/><!--Attack-->
+			<shortcut slot="3" type="ACTION" id="5"/><!--Pick Up-->
+			<shortcut slot="4" type="ACTION" id="4"/><!--Next Target-->
+			<shortcut slot="5" type="ACTION" id="92"/><!--Previous Target-->
+			<shortcut slot="10" type="ACTION" id="0"/><!--Sit/Stand-->
+		</page>
+		<!--Custom example-->
+		<page id="1">
+			<shortcut slot="0" type="MACRO" id="10000"/><!--Macro Test-->
+		</page>
+	</shortcuts>
+	<!--Human Mystic-->
+	<shortcuts race="HUMAN" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="1177" level="1"/><!--Wind Strike-->
+			<shortcut slot="9" type="SKILL" id="1216" level="1"/><!--Self Heal-->
+		</page>
+	</shortcuts>
+	<!--Elven Mystic-->
+	<shortcuts race="ELF" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="1177" level="1"/><!--Wind Strike-->
+			<shortcut slot="9" type="SKILL" id="1216" level="1"/><!--Self Heal-->
+		</page>
+	</shortcuts>
+	<!--Dark Mystic-->
+	<shortcuts race="DARKELF" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="1177" level="1"/><!--Wind Strike-->
+			<shortcut slot="9" type="SKILL" id="1216" level="1"/><!--Self Heal-->
+		</page>
+	</shortcuts>
+	<!--Orc Mystic-->
+	<shortcuts race="ORC" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="1001" level="1"/><!--Soul Cry-->
+		</page>
+	</shortcuts>
+	<!--Macro presets-->
+	<macroses>
+		<!--Macro example with multiple commands.-->
+		<macro id="10000" icon="1" name="Macro name" description="This is a test." acronym="HI!" enabled="false"><!--Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros.-->
+			<command type="SKILL" id="1177" level="1"/><!--To define a skill always include skill ID and level.-->
+			<command type="DELAY" delay="5"/><!--To define a delay always define the time in seconds.-->
+			<command type="TEXT">/loc</command><!--To define a command, just include the string as if it was typed in-game.-->
+			<command type="TEXT">!Hellooooo world!</command><!--To define a text, just include the string as if it was typed in-game.-->
+			<command type="SHORTCUT" page="0" slot="11"/><!--To define a shortcut (to an equipped item in example), include page and slot number.-->
+		</macro>
+	</macroses>
+</list>

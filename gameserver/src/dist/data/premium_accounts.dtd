@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (config|account)*>
+
+	<!ELEMENT config (#PCDATA)>
+	<!ATTLIST config
+		enabled CDATA #REQUIRED
+		based_on_gameserver CDATA #REQUIRED
+		free_type CDATA #IMPLIED
+		free_delay CDATA #IMPLIED
+		notify_free CDATA #IMPLIED>
+
+	<!ELEMENT account (name|set|give_items_on_start|take_items_on_end|fee|skills|rewards)*>
+	<!ATTLIST account
+		type CDATA #REQUIRED>
+
+		<!ELEMENT name (ko|en|zh|th|ru|pt|es|ar|el|ka|hu|fi|uk|vi)*>
+			<!ELEMENT ko (#PCDATA)>
+			<!ELEMENT en (#PCDATA)>
+			<!ELEMENT zh (#PCDATA)>
+			<!ELEMENT th (#PCDATA)>
+			<!ELEMENT ru (#PCDATA)>
+			<!ELEMENT pt (#PCDATA)>
+			<!ELEMENT es (#PCDATA)>
+			<!ELEMENT ar (#PCDATA)>
+			<!ELEMENT el (#PCDATA)>
+			<!ELEMENT ka (#PCDATA)>
+			<!ELEMENT hu (#PCDATA)>
+			<!ELEMENT fi (#PCDATA)>
+			<!ELEMENT uk (#PCDATA)>
+			<!ELEMENT vi (#PCDATA)>
+
+		<!ELEMENT give_items_on_start (item)*>
+		<!ELEMENT take_items_on_end (item)*>
+		<!ELEMENT fee (item)*>
+		<!ATTLIST fee
+			delay CDATA #REQUIRED>
+
+			<!ELEMENT item (#PCDATA)>
+			<!ATTLIST item
+				id CDATA #REQUIRED
+				count CDATA #REQUIRED>
+
+		<!ELEMENT set (#PCDATA)*>
+		<!ATTLIST set
+				name CDATA #IMPLIED
+				value CDATA #REQUIRED>
+
+	<!ELEMENT skills (skill)*>
+
+		<!ELEMENT skill (#PCDATA)>
+		<!ATTLIST skill
+			id CDATA #REQUIRED
+			level CDATA #REQUIRED
+			sub_level CDATA #IMPLIED>
+
+		<!ELEMENT rewards (reward)*>
+
+			<!ELEMENT reward (#PCDATA)>
+			<!ATTLIST reward
+				id CDATA #REQUIRED
+				min_count CDATA #REQUIRED
+				max_count CDATA #REQUIRED
+				chance CDATA #REQUIRED>

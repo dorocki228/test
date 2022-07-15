@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="13648" level="1" name="Equip Lv. 5 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i06"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13649" level="1" name="Unequip Lv. 5 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13650" level="1" name="Equip Lv. 4 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i05"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13651" level="1" name="Unequip Lv. 4 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13652" level="1" name="Put on Lv. 3 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i03"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13653" level="1" name="Remove Lv. 3 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13654" level="1" name="Put on Lv. 2 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i01"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13655" level="1" name="Remove Lv. 2 Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="13656" level="1" name="Lv. 1 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13657" level="1" name="Lv. 2 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="3"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13658" level="1" name="Lv. 3 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="4"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13659" level="1" name="Lv. 4 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13660" level="1" name="Lv. 5 Brooch">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_jewel_slot">
+                <def name="p_expand_jewel_slot_param1" value="6"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13661" level="1" name="Addition effect level 1">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <for>
+        <effect name="p_enlarge_storage">
+            <def name="p_enlarge_storage_param1" value="inventory_normal"/>
+            <def name="p_enlarge_storage_param2" value="5"/>
+        </effect>
+        </for>
+    </skill>
+    <skill id="13661" level="2" name="Lv. 2 Brooch - Additional Effect">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i01"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="p_enlarge_storage">
+                <def name="p_enlarge_storage_param1" value="inventory_normal"/>
+                <def name="p_enlarge_storage_param2" value="9"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13661" level="3" name="Lv. 3 Brooch - Additional Effect">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i03"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="p_enlarge_storage">
+                <def name="p_enlarge_storage_param1" value="inventory_normal"/>
+                <def name="p_enlarge_storage_param2" value="12"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13661" level="4" name="Additional Lv. 4 Brooch Effect">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i05"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="p_enlarge_storage">
+                <def name="p_enlarge_storage_param1" value="inventory_normal"/>
+                <def name="p_enlarge_storage_param2" value="12"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="13661" level="5" name="Additional Lv. 5 Brooch Effect">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i06"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <for>
+            <effect name="p_enlarge_storage">
+                <def name="p_enlarge_storage_param1" value="inventory_normal"/>
+                <def name="p_enlarge_storage_param2" value="15"/>
+            </effect>
+        </for>
+    </skill>
+</list>

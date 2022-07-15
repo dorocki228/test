@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "lucky_game_data.dtd">
+<!--AUTHOR: BONUX-->
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!В РАЗРАБОТКЕ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!--Example:
+<game type="NORMAL" games_limit="1" reuse="30 6 * * *">
+
+type - Type of game. Game type should not coincide with the other games.
+fee_item_id - Item ID for fee of game (-1 - Premium points).
+fee_item_count - Items count for fee of game.
+games_limit - Games limit.
+reuse - Time in CRON format for refresh game limit counter.
+
+unique_reward_games_count - Played games on server for roll unique rewards.
+additional_rewards_games_count - Played games by player for roll additional rewards.
+-->
+<list>
+	<config allow="false" unique_reward_games_count="5000" additional_rewards_games_count="10"/>
+	<game type="NORMAL" fee_item_id="57" fee_item_count="100000">
+		<common_rewards>
+			<item id="23847" min_count="10000" max_count="1000000" chance="5"/>	<!--Адена-->
+		</common_rewards>
+		<unique_rewards>
+			<item id="23847" min_count="1000000" max_count="10000000" chance="5"/>	<!--Адена-->
+		</unique_rewards>
+	</game>
+	<game type="LUXURY" fee_item_id="-1" fee_item_count="10">
+		<common_rewards>
+			<item id="23847" min_count="10000" max_count="100000" chance="15"/>	<!--Адена-->
+		</common_rewards>
+		<unique_rewards>
+			<item id="23847" min_count="1000000" max_count="10000000" chance="15"/>	<!--Адена-->
+		</unique_rewards>
+		<additional_rewards>
+			<item id="23847" min_count="2000000" max_count="20000000" chance="15"/>	<!--Адена-->
+		</additional_rewards>
+	</game>
+</list>

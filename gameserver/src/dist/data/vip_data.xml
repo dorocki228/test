@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "vip_data.dtd">
+<!--AUTHOR: Bonux-->
+<!--
+	VIP система работает только при включенном итем-молле (ext.properties: UsePrimeShop = True)!
+-->
+<list>
+	<!--
+		points_refill_percent - процент конвертации потраченых очков в итем-молле в VIP очки (В процентах)
+		points_consume_count - количество потребляемых очков
+		points_consume_delay - время через которое потребляются очки (в часах)
+	-->
+	<default points_refill_percent="7" points_consume_delay="720"/>
+	<!--Все правила (лимиты и т.д.) распространяются ВСЕГДА по всему аккаунту только по ГЕЙМСЕРВЕРУ-->
+	<!-- AVAIABLE PARAMETERS:
+		<set name="name_color" value="FFFFFF"/>
+		<set name="title_color" value="FFFF77"/>
+		<set name="exp_rate" value="1.3"/>
+		<set name="sp_rate" value="1.3"/>
+		<set name="adena_rate" value="3.5"/>
+		<set name="drop_rate" value="3.5"/>
+		<set name="spoil_rate" value="3.5"/>
+		<set name="fishing_exp_rate" value="1.2"/>
+		<set name="fishing_sp_rate" value="1.2"/>
+		<set name="world_chat_min_level" value="1"/>
+		<set name="quest_drop_rate" value="1.0"/>
+		<set name="quest_reward_rate" value="1.0"/>
+		<set name="drop_chance_modifier" value="1.0"/>
+		<set name="drop_count_modifier" value="1.0"/>
+		<set name="spoil_chance_modifier" value="1.0"/>
+		<set name="spoil_count_modifier" value="1.0"/>
+		<set name="enchant_chance_bonus" value="0"/>
+		<set name="craft_chance_bonus" value="0"/>
+		<stats>
+			<add stat="maxHp" value="300"/>
+		</stats>
+		<skills>
+			<skill id="7029" level="1"/>
+		</skills>
+		<triggers>
+			<trigger id="3070" level="1" type="CRIT" chance="100"/>
+		</triggers>
+		<rewards>
+			<reward id="57" min_count="1" max_count="1" chance="0.5"/>
+		</rewards>
+	-->
+	<vip level="1" points="300" points_consume_count="150">	<!--VIP 1-->
+		<!---
+			1. Ежедневное получение Сундука VIP 1-го уровня (находится во внутриигровом магазине, обновление происходит каждое утро в 6:30).
+			2. Бонус опыта/SP +3%
+			3. Шанс выпадения предметов +50%
+		-->
+		<set name="exp_rate" value="1.03"/>
+		<set name="sp_rate" value="1.03"/>
+		<set name="adena_rate" value="1.5"/>
+		<set name="drop_rate" value="1.5"/>
+		<set name="spoil_rate" value="1.5"/>
+		<skills>
+			<skill id="55161" level="1"/>	<!--VIP Lv. 1-->
+		</skills>
+	</vip>
+	<vip level="2" points="1000" points_consume_count="150">	<!--VIP 2-->
+		<!---
+			1. Ежедневное получение Сундука VIP 2-го уровня
+			2. Бонус опыта/SP +7%
+			3. Шанс выпадения предметов +150%
+			4. Всемирный чат без ограничения по уровню, дополнительно 3 раза
+		-->
+		<set name="exp_rate" value="1.07"/>
+		<set name="sp_rate" value="1.07"/>
+		<set name="adena_rate" value="2.5"/>
+		<set name="drop_rate" value="2.5"/>
+		<set name="spoil_rate" value="2.5"/>
+		<set name="world_chat_min_level" value="1"/>
+		<stats>
+			<add stat="world_chat_points" value="3"/>
+		</stats>
+		<skills>
+			<skill id="55162" level="1"/>	<!--VIP Lv. 2-->
+		</skills>
+	</vip>
+	<vip level="3" points="2000" points_consume_count="350">	<!--VIP 3-->
+		<!---
+			1. Ежедневное получение Сундука VIP 3-го уровня
+			2. Бонус опыта/SP +15%
+			3. Шанс выпадения предметов +200%
+			4. В случае смерти снижается потеря очков опыта, шанс выпадения предметов уменьшается на 10%
+			5. Всемирный чат без ограничения по уровню, дополнительно 3 раза
+			6. Во время охоты на монстров можно с определенным шансом получить Серебряную Монету.
+		-->
+		<set name="exp_rate" value="1.15"/>
+		<set name="sp_rate" value="1.15"/>
+		<set name="adena_rate" value="3.0"/>
+		<set name="drop_rate" value="3.0"/>
+		<set name="spoil_rate" value="3.0"/>
+		<set name="world_chat_min_level" value="1"/>
+		<stats>
+			<mul stat="expLost" value="0.9"/>
+			<mul stat="items_lost_chance" value="0.9"/>
+			<add stat="world_chat_points" value="3"/>
+		</stats>
+		<skills>
+			<skill id="55163" level="1"/>	<!--VIP Lv. 3-->
+		</skills>
+		<rewards>
+			<reward id="29983" min_count="1" max_count="1" chance="0.5"/>	<!--Silver Coin-->
+		</rewards>
+	</vip>
+	<vip level="4" points="3500" points_consume_count="650">	<!--VIP 4-->
+		<!---
+			1. Ежедневное получение Сундука VIP 4-го уровня
+			2. Бонус опыта/SP +25%
+			3. Шанс выпадения предметов +250%
+			4. В случае смерти снижается потеря очков опыта, шанс выпадения предметов уменьшается на 15%
+			5. Всемирный чат без ограничения по уровню, дополнительно 5 раз
+			6. Очки опыта/SP во время рыбалки +20%
+			7. Во время охоты на монстров можно с определенным шансом получить Серебряную Монету.
+		-->
+		<set name="exp_rate" value="1.25"/>
+		<set name="sp_rate" value="1.25"/>
+		<set name="adena_rate" value="3.5"/>
+		<set name="drop_rate" value="3.5"/>
+		<set name="spoil_rate" value="3.5"/>
+		<set name="fishing_exp_rate" value="1.2"/>
+		<set name="fishing_sp_rate" value="1.2"/>
+		<set name="world_chat_min_level" value="1"/>
+		<stats>
+			<mul stat="expLost" value="0.85"/>
+			<mul stat="items_lost_chance" value="0.85"/>
+			<add stat="world_chat_points" value="5"/>
+		</stats>
+		<skills>
+			<skill id="55164" level="1"/>	<!--VIP Lv. 4-->
+		</skills>
+		<rewards>
+			<reward id="29983" min_count="1" max_count="1" chance="0.5"/>	<!--Silver Coin-->
+		</rewards>
+	</vip>
+	<vip level="5" points="7000" points_consume_count="1250">	<!--VIP 5-->
+		<!---
+			1. Ежедневное получение Сундука VIP 5-го уровня
+			2. Бонус опыта/SP +30%
+			3. Шанс выпадения предметов +250%
+			4. В случае смерти снижается потеря очков опыта, шанс выпадения предметов уменьшается на 20%
+			5. Увеличение урона в PvE
+			6. Всемирный чат без ограничения по уровню, дополнительно 10 раз
+			7. Очки опыта/SP во время рыбалки +20%
+			8. Во время охоты на монстров можно с определенным шансом получить Серебряную / Золотую Монету.
+		-->
+		<set name="exp_rate" value="1.3"/>
+		<set name="sp_rate" value="1.3"/>
+		<set name="adena_rate" value="3.5"/>
+		<set name="drop_rate" value="3.5"/>
+		<set name="spoil_rate" value="3.5"/>
+		<set name="fishing_exp_rate" value="1.2"/>
+		<set name="fishing_sp_rate" value="1.2"/>
+		<set name="world_chat_min_level" value="1"/>
+		<stats>
+			<mul stat="expLost" value="0.8"/>
+			<mul stat="items_lost_chance" value="0.8"/>
+			<add stat="world_chat_points" value="10"/>
+			<mul stat="pvePhysDmgBonus" value="1.03"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.03"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.03"/>
+		</stats>
+		<skills>
+			<skill id="55165" level="1"/>	<!--VIP Lv. 5-->
+		</skills>
+		<rewards>
+			<reward id="29983" min_count="1" max_count="1" chance="0.5"/>	<!--Silver Coin-->
+			<reward id="29984" min_count="1" max_count="1" chance="0.01"/>	<!--Rusty Coin-->
+		</rewards>
+	</vip>
+	<vip level="6" points="20000" points_consume_count="3500">	<!--VIP 6-->
+		<!---
+			1. Ежедневное получение Сундука VIP 6-го уровня
+			2. Бонус опыта/SP +30%
+			3. Шанс выпадения предметов +250%
+			4. В случае смерти снижается потеря очков опыта, шанс выпадения предметов уменьшается на 20%
+			5. Увеличение урона в PvE
+			6. +1 ко всем характеристикам
+			7. Всемирный чат без ограничения по уровню, дополнительно 10 раз
+			8. Очки опыта/SP во время рыбалки +20%
+			9. Во время охоты на монстров можно с определенным шансом получить Серебряную / Золотую Монету.
+		-->
+		<set name="exp_rate" value="1.3"/>
+		<set name="sp_rate" value="1.3"/>
+		<set name="adena_rate" value="3.5"/>
+		<set name="drop_rate" value="3.5"/>
+		<set name="spoil_rate" value="3.5"/>
+		<set name="fishing_exp_rate" value="1.2"/>
+		<set name="fishing_sp_rate" value="1.2"/>
+		<set name="world_chat_min_level" value="1"/>
+		<stats>
+			<mul stat="expLost" value="0.8"/>
+			<mul stat="items_lost_chance" value="0.8"/>
+			<add stat="world_chat_points" value="10"/>
+			<mul stat="pvePhysDmgBonus" value="1.06"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.06"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.06"/>
+			<add stat="STR" value="1"/>
+			<add stat="CON" value="1"/>
+			<add stat="DEX" value="1"/>
+			<add stat="INT" value="1"/>
+			<add stat="MEN" value="1"/>
+			<add stat="WIT" value="1"/>
+		</stats>
+		<skills>
+			<skill id="55166" level="1"/>	<!--VIP Lv. 6-->
+		</skills>
+		<rewards>
+			<reward id="29983" min_count="1" max_count="1" chance="0.5"/>	<!--Silver Coin-->
+			<reward id="29984" min_count="1" max_count="1" chance="0.01"/>	<!--Rusty Coin-->
+		</rewards>
+	</vip>
+	<vip level="7" points="40000" points_consume_count="7000">	<!--VIP 7-->
+		<!---
+			1. Ежедневное получение Сундука VIP 7-го уровня
+			2. Бонус опыта/SP +30%
+			3. Шанс выпадения предметов +250%
+			4. В случае смерти снижается потеря очков опыта, шанс выпадения предметов уменьшается на 20%
+			5. Увеличение урона в PvE/PvP
+			6. +2 ко всем характеристикам
+			7. Всемирный чат без ограничения по уровню, дополнительно 10 раз
+			8. Очки опыта/SP во время рыбалки +20%
+			9. Во время охоты на монстров можно с определенным шансом получить Серебряную / Золотую Монету.
+		-->
+		<set name="exp_rate" value="1.3"/>
+		<set name="sp_rate" value="1.3"/>
+		<set name="adena_rate" value="3.5"/>
+		<set name="drop_rate" value="3.5"/>
+		<set name="spoil_rate" value="3.5"/>
+		<set name="fishing_exp_rate" value="1.2"/>
+		<set name="fishing_sp_rate" value="1.2"/>
+		<set name="world_chat_min_level" value="1"/>
+		<stats>
+			<mul stat="expLost" value="0.8"/>
+			<mul stat="items_lost_chance" value="0.8"/>
+			<add stat="world_chat_points" value="10"/>
+			<mul stat="pvePhysDmgBonus" value="1.09"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.09"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.09"/>
+			<mul stat="pvpPhysDmgBonus" value="1.03"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.03"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.03"/>
+			<add stat="STR" value="2"/>
+			<add stat="CON" value="2"/>
+			<add stat="DEX" value="2"/>
+			<add stat="INT" value="2"/>
+			<add stat="MEN" value="2"/>
+			<add stat="WIT" value="2"/>
+		</stats>
+		<skills>
+			<skill id="55167" level="1"/>	<!--VIP Lv. 7-->
+		</skills>
+		<rewards>
+			<reward id="29983" min_count="1" max_count="1" chance="0.5"/>	<!--Silver Coin-->
+			<reward id="29984" min_count="1" max_count="1" chance="0.01"/>	<!--Rusty Coin-->
+		</rewards>
+	</vip>
+</list>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="9029" level="1" name="Watermelon Seed">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="15366:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_hit_cancel_time" value="1.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="op_can_not_use_airship"/>
+        </operate_cond>
+        <for>
+            <effect name="i_summon_npc">
+                <def name="i_summon_npc_param1" value="13271"/>
+                <def name="i_summon_npc_param2" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9030" level="1" name="Honey Watermelon Seed">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="15367:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_hit_cancel_time" value="1.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="op_can_not_use_airship"/>
+        </operate_cond>
+        <for>
+            <effect name="i_summon_npc">
+                <def name="i_summon_npc_param1" value="13275"/>
+                <def name="i_summon_npc_param2" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9031" level="1" name="Copied Watermelon Seed">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="15368:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_hit_cancel_time" value="1.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="op_can_not_use_airship"/>
+        </operate_cond>
+        <for>
+            <effect name="i_summon_npc">
+                <def name="i_summon_npc_param1" value="13271"/>
+                <def name="i_summon_npc_param2" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9032" level="1" name="Copied Honey Watermelon Seed">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="15369:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_hit_cancel_time" value="1.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="op_can_not_use_airship"/>
+        </operate_cond>
+        <for>
+            <effect name="i_summon_npc">
+                <def name="i_summon_npc_param1" value="13275"/>
+                <def name="i_summon_npc_param2" value="1"/>
+            </effect>
+        </for>
+    </skill>
+</list>

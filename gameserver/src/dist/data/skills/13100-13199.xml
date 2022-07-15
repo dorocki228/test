@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="13136" level="1" name="Hero's Cloak">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.vesper_cloack_i00"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="10"/>
+                <def name="p_max_hp_param3" value="per"/>
+                <def name="p_max_hp_param4" value="0"/>
+            </effect>
+            <effect name="p_max_cp">
+                <def name="p_max_cp_param1" value="all"/>
+                <def name="p_max_cp_param2" value="15"/>
+                <def name="p_max_cp_param3" value="per"/>
+                <def name="p_max_cp_param4" value="0"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="0"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="1"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="2"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="3"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="4"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="5"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_defence_attribute">
+                <def name="p_defence_attribute_param1" value="attr_fire"/>
+                <def name="p_defence_attribute_param2" value="10"/>
+            </effect>
+            <effect name="p_defence_attribute">
+                <def name="p_defence_attribute_param1" value="attr_water"/>
+                <def name="p_defence_attribute_param2" value="10"/>
+            </effect>
+            <effect name="p_defence_attribute">
+                <def name="p_defence_attribute_param1" value="attr_wind"/>
+                <def name="p_defence_attribute_param2" value="10"/>
+            </effect>
+            <effect name="p_defence_attribute">
+                <def name="p_defence_attribute_param1" value="attr_earth"/>
+                <def name="p_defence_attribute_param2" value="10"/>
+            </effect>
+            <effect name="p_defence_attribute">
+                <def name="p_defence_attribute_param1" value="attr_holy"/>
+                <def name="p_defence_attribute_param2" value="10"/>
+            </effect>
+            <effect name="p_defence_attribute">
+                <def name="p_defence_attribute_param1" value="attr_unholy"/>
+                <def name="p_defence_attribute_param2" value="10"/>
+            </effect>
+        </for>
+    </skill>
+</list>

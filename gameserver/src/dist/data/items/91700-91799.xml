@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<armor id="91700" name="Karmian Tunic">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t53_u_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1980"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<add stat="maxMp" order="0x60" value="225"/>
+		</for>
+	</armor>
+	<armor id="91701" name="Karmian Stockings">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t53_l_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="970"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="141"/>
+		</for>
+	</armor>
+	<armor id="91702" name="Karmian Boots">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t53_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1230"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="91703" name="Karmian Gloves">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t53_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="620"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="91704" name="Plated Leather Armor">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t47_u_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4450"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="94"/>
+		</for>
+	</armor>
+	<armor id="91705" name="Plated Leather Gaiters">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t47_l_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1560"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="59"/>
+		</for>
+	</armor>
+	<armor id="91706" name="Plated Leather Boots">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t47_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1220"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="91707" name="Plated Leather Gloves">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t47_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="610"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="33"/>
+		</for>
+	</armor>
+	<armor id="91719" name="Sayha's Supreme Cloak - Black">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_elmoreden_cloak_normal"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<mul stat="maxHp" order="0x10" value="1.05"/>
+			<mul stat="maxMp" order="0x10" value="1.05"/>
+			<mul stat="maxCp" order="0x10" value="1.05"/>
+			<mul stat="pDef" order="0x10" value="1.05"/>
+			<mul stat="mDef" order="0x10" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="91720" name="Sayha's Supreme Cloak - White">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_elmoreden_cloak_normal"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<mul stat="maxHp" order="0x10" value="1.05"/>
+			<mul stat="maxMp" order="0x10" value="1.05"/>
+			<mul stat="maxCp" order="0x10" value="1.05"/>
+			<mul stat="pDef" order="0x10" value="1.05"/>
+			<mul stat="mDef" order="0x10" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="91721" name="Sayha's Supreme Cloak - Red">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_elmoreden_cloak_normal"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="220"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<mul stat="maxHp" order="0x10" value="1.05"/>
+			<mul stat="maxMp" order="0x10" value="1.05"/>
+			<mul stat="maxCp" order="0x10" value="1.05"/>
+			<mul stat="pDef" order="0x10" value="1.05"/>
+			<mul stat="mDef" order="0x10" value="1.05"/>
+		</for>
+	</armor>
+</list>

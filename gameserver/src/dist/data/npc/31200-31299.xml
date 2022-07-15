@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="31210" name="Race Track Gatekeeper" title="Monster Race Track">
+		<set name="type" value="Merchant"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="21.29999924"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+		</skills>
+	</npc>
+	<npc id="31211" name="Race Track Guide " title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="18.5"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+		</skills>
+	</npc>
+	<npc id="31225" name="Arena Manager" title="">
+		<set name="type" value="ArenaManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="21.29999924"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+		</skills>
+	</npc>
+	<npc id="31226" name="Arena Director" title="">
+		<set name="type" value="ArenaManager"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+		<!--TODO	<rhand item_id="7884"/>	null-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+		</skills>
+	</npc>
+	<npc id="31255" name="Puss the Cat" title="Event Manager">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="16"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2444.46819"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+		</client_skills>
+	</npc>
+	<npc id="31256" name="Leon" title="Weapon Merchant">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="22.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31257" name="Veronica" title="Weapon Merchant">
+		<set name="type" value="Merchant"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="22.10000038"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31258" name="Helmut" title="Armor Merchant">
+		<set name="type" value="Merchant"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="62"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31259" name="Janne" title="Armor Merchant">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="21.10000038"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31260" name="Judith" title="Accessory Merchant">
+		<set name="type" value="Merchant"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="22.10000038"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31261" name="Renee" title="Accessory Merchant">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="18"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31262" name="Rupert" title="Merchant">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="21.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="64"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31263" name="Liesel" title="Grocer">
+		<set name="type" value="Merchant"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="21.10000038"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31264" name="Olsun" title="Symbol Maker">
+		<set name="type" value="SymbolMaker"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="22.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31267" name="Lietta" title="Warehouse Keeper">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="18"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31268" name="Hakon" title="Warehouse Keeper">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="17.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31269" name="Mona" title="Warehouse Chief">
+		<set name="type" value="VillageMaster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="18"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="master_type" value="DWARVEN_2ND_CLASS_WAREHOUSE"/>
+			<set name="fnClassMismatch" value="master_lv3_ware002.htm"/>
+			<set name="fnClassList1" value="master_lv3_ware003f.htm"/>
+			<set name="fnClassList2" value="master_lv3_ware003m.htm"/>
+			<set name="fnClassList3" value="master_lv3_ware003w.htm"/>
+			<set name="fnClassList4" value="master_lv3_ware003o.htm"/>
+			<set name="fnClassList5" value="master_lv3_ware003s.htm"/>
+			<set name="fnYouAreSecondClass" value="master_lv3_ware004.htm"/>
+			<set name="fnYouAreThirdClass" value="master_lv3_ware005.htm"/>
+			<set name="fnLowLevelNoProof11" value="master_lv3_ware008fa.htm"/>
+			<set name="fnLowLevelNoProof12" value="master_lv3_ware008fb.htm"/>
+			<set name="fnLowLevelNoProof13" value="master_lv3_ware008fc.htm"/>
+			<set name="fnLowLevelNoProof21" value="master_lv3_ware008ma.htm"/>
+			<set name="fnLowLevelNoProof22" value="master_lv3_ware008mb.htm"/>
+			<set name="fnLowLevelNoProof23" value="master_lv3_ware008mc.htm"/>
+			<set name="fnLowLevelNoProof31" value="master_lv3_ware008wa.htm"/>
+			<set name="fnLowLevelNoProof32" value="master_lv3_ware008wb.htm"/>
+			<set name="fnLowLevelNoProof33" value="master_lv3_ware008wc.htm"/>
+			<set name="fnLowLevelNoProof41" value="master_lv3_ware008oa.htm"/>
+			<set name="fnLowLevelNoProof42" value="master_lv3_ware008ob.htm"/>
+			<set name="fnLowLevelNoProof43" value="master_lv3_ware008oc.htm"/>
+			<set name="fnLowLevelNoProof51" value="master_lv3_ware008sa.htm"/>
+			<set name="fnLowLevelNoProof52" value="master_lv3_ware008sb.htm"/>
+			<set name="fnLowLevelNoProof53" value="master_lv3_ware008sc.htm"/>
+			<set name="fnLowLevel11" value="master_lv3_ware009fa.htm"/>
+			<set name="fnLowLevel12" value="master_lv3_ware009fb.htm"/>
+			<set name="fnLowLevel13" value="master_lv3_ware009fc.htm"/>
+			<set name="fnLowLevel21" value="master_lv3_ware009ma.htm"/>
+			<set name="fnLowLevel22" value="master_lv3_ware009mb.htm"/>
+			<set name="fnLowLevel23" value="master_lv3_ware009mc.htm"/>
+			<set name="fnLowLevel31" value="master_lv3_ware009wa.htm"/>
+			<set name="fnLowLevel32" value="master_lv3_ware009wb.htm"/>
+			<set name="fnLowLevel33" value="master_lv3_ware009wc.htm"/>
+			<set name="fnLowLevel41" value="master_lv3_ware009oa.htm"/>
+			<set name="fnLowLevel42" value="master_lv3_ware009ob.htm"/>
+			<set name="fnLowLevel43" value="master_lv3_ware009oc.htm"/>
+			<set name="fnLowLevel51" value="master_lv3_ware009sa.htm"/>
+			<set name="fnLowLevel52" value="master_lv3_ware009sb.htm"/>
+			<set name="fnLowLevel53" value="master_lv3_ware009sc.htm"/>
+			<set name="fnNoProof11" value="master_lv3_ware010fa.htm"/>
+			<set name="fnNoProof12" value="master_lv3_ware010fb.htm"/>
+			<set name="fnNoProof13" value="master_lv3_ware010fc.htm"/>
+			<set name="fnNoProof21" value="master_lv3_ware010ma.htm"/>
+			<set name="fnNoProof22" value="master_lv3_ware010mb.htm"/>
+			<set name="fnNoProof23" value="master_lv3_ware010mc.htm"/>
+			<set name="fnNoProof31" value="master_lv3_ware010wa.htm"/>
+			<set name="fnNoProof32" value="master_lv3_ware010wb.htm"/>
+			<set name="fnNoProof33" value="master_lv3_ware010wc.htm"/>
+			<set name="fnNoProof41" value="master_lv3_ware010oa.htm"/>
+			<set name="fnNoProof42" value="master_lv3_ware010ob.htm"/>
+			<set name="fnNoProof43" value="master_lv3_ware010oc.htm"/>
+			<set name="fnNoProof51" value="master_lv3_ware010sa.htm"/>
+			<set name="fnNoProof52" value="master_lv3_ware010sb.htm"/>
+			<set name="fnNoProof53" value="master_lv3_ware010sc.htm"/>
+			<set name="fnAfterClassChange11" value="master_lv3_ware011fa.htm"/>
+			<set name="fnAfterClassChange12" value="master_lv3_ware011fb.htm"/>
+			<set name="fnAfterClassChange13" value="master_lv3_ware011fc.htm"/>
+			<set name="fnAfterClassChange21" value="master_lv3_ware011ma.htm"/>
+			<set name="fnAfterClassChange22" value="master_lv3_ware011mb.htm"/>
+			<set name="fnAfterClassChange23" value="master_lv3_ware011mc.htm"/>
+			<set name="fnAfterClassChange31" value="master_lv3_ware011wa.htm"/>
+			<set name="fnAfterClassChange32" value="master_lv3_ware011wb.htm"/>
+			<set name="fnAfterClassChange33" value="master_lv3_ware011wc.htm"/>
+			<set name="fnAfterClassChange41" value="master_lv3_ware011oa.htm"/>
+			<set name="fnAfterClassChange42" value="master_lv3_ware011ob.htm"/>
+			<set name="fnAfterClassChange43" value="master_lv3_ware011oc.htm"/>
+			<set name="fnAfterClassChange51" value="master_lv3_ware011sa.htm"/>
+			<set name="fnAfterClassChange52" value="master_lv3_ware011sb.htm"/>
+			<set name="fnAfterClassChange53" value="master_lv3_ware011sc.htm"/>
+			<set name="fnYouAreFirstClass" value="master_lv3_ware012.htm"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31270" name="Stefano" title="Warehouse Keeper">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="17"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31271" name="Hilda" title="Blacksmith">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="17.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="20"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="87"/>	<!--Железный Молот-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31272" name="Noel" title="Head Blacksmith">
+		<set name="type" value="VillageMaster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="16.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="master_type" value="DWARVEN_2ND_CLASS_BLACKSMITH"/>
+			<set name="fnClassMismatch" value="master_lv3_black002.htm"/>
+			<set name="fnClassList1" value="master_lv3_black003f.htm"/>
+			<set name="fnClassList2" value="master_lv3_black003m.htm"/>
+			<set name="fnClassList3" value="master_lv3_black003w.htm"/>
+			<set name="fnClassList4" value="master_lv3_black003o.htm"/>
+			<set name="fnClassList5" value="master_lv3_black003s.htm"/>
+			<set name="fnYouAreSecondClass" value="master_lv3_black004.htm"/>
+			<set name="fnYouAreThirdClass" value="master_lv3_black005.htm"/>
+			<set name="fnLowLevelNoProof11" value="master_lv3_black008fa.htm"/>
+			<set name="fnLowLevelNoProof12" value="master_lv3_black008fb.htm"/>
+			<set name="fnLowLevelNoProof13" value="master_lv3_black008fc.htm"/>
+			<set name="fnLowLevelNoProof21" value="master_lv3_black008ma.htm"/>
+			<set name="fnLowLevelNoProof22" value="master_lv3_black008mb.htm"/>
+			<set name="fnLowLevelNoProof23" value="master_lv3_black008mc.htm"/>
+			<set name="fnLowLevelNoProof31" value="master_lv3_black008wa.htm"/>
+			<set name="fnLowLevelNoProof32" value="master_lv3_black008wb.htm"/>
+			<set name="fnLowLevelNoProof33" value="master_lv3_black008wc.htm"/>
+			<set name="fnLowLevelNoProof41" value="master_lv3_black008oa.htm"/>
+			<set name="fnLowLevelNoProof42" value="master_lv3_black008ob.htm"/>
+			<set name="fnLowLevelNoProof43" value="master_lv3_black008oc.htm"/>
+			<set name="fnLowLevelNoProof51" value="master_lv3_black008sa.htm"/>
+			<set name="fnLowLevelNoProof52" value="master_lv3_black008sb.htm"/>
+			<set name="fnLowLevelNoProof53" value="master_lv3_black008sc.htm"/>
+			<set name="fnLowLevel11" value="master_lv3_black009fa.htm"/>
+			<set name="fnLowLevel12" value="master_lv3_black009fb.htm"/>
+			<set name="fnLowLevel13" value="master_lv3_black009fc.htm"/>
+			<set name="fnLowLevel21" value="master_lv3_black009ma.htm"/>
+			<set name="fnLowLevel22" value="master_lv3_black009mb.htm"/>
+			<set name="fnLowLevel23" value="master_lv3_black009mc.htm"/>
+			<set name="fnLowLevel31" value="master_lv3_black009wa.htm"/>
+			<set name="fnLowLevel32" value="master_lv3_black009wb.htm"/>
+			<set name="fnLowLevel33" value="master_lv3_black009wc.htm"/>
+			<set name="fnLowLevel41" value="master_lv3_black009oa.htm"/>
+			<set name="fnLowLevel42" value="master_lv3_black009ob.htm"/>
+			<set name="fnLowLevel43" value="master_lv3_black009oc.htm"/>
+			<set name="fnLowLevel51" value="master_lv3_black009sa.htm"/>
+			<set name="fnLowLevel52" value="master_lv3_black009sb.htm"/>
+			<set name="fnLowLevel53" value="master_lv3_black009sc.htm"/>
+			<set name="fnNoProof11" value="master_lv3_black010fa.htm"/>
+			<set name="fnNoProof12" value="master_lv3_black010fb.htm"/>
+			<set name="fnNoProof13" value="master_lv3_black010fc.htm"/>
+			<set name="fnNoProof21" value="master_lv3_black010ma.htm"/>
+			<set name="fnNoProof22" value="master_lv3_black010mb.htm"/>
+			<set name="fnNoProof23" value="master_lv3_black010mc.htm"/>
+			<set name="fnNoProof31" value="master_lv3_black010wa.htm"/>
+			<set name="fnNoProof32" value="master_lv3_black010wb.htm"/>
+			<set name="fnNoProof33" value="master_lv3_black010wc.htm"/>
+			<set name="fnNoProof41" value="master_lv3_black010oa.htm"/>
+			<set name="fnNoProof42" value="master_lv3_black010ob.htm"/>
+			<set name="fnNoProof43" value="master_lv3_black010oc.htm"/>
+			<set name="fnNoProof51" value="master_lv3_black010sa.htm"/>
+			<set name="fnNoProof52" value="master_lv3_black010sb.htm"/>
+			<set name="fnNoProof53" value="master_lv3_black010sc.htm"/>
+			<set name="fnAfterClassChange11" value="master_lv3_black011fa.htm"/>
+			<set name="fnAfterClassChange12" value="master_lv3_black011fb.htm"/>
+			<set name="fnAfterClassChange13" value="master_lv3_black011fc.htm"/>
+			<set name="fnAfterClassChange21" value="master_lv3_black011ma.htm"/>
+			<set name="fnAfterClassChange22" value="master_lv3_black011mb.htm"/>
+			<set name="fnAfterClassChange23" value="master_lv3_black011mc.htm"/>
+			<set name="fnAfterClassChange31" value="master_lv3_black011wa.htm"/>
+			<set name="fnAfterClassChange32" value="master_lv3_black011wb.htm"/>
+			<set name="fnAfterClassChange33" value="master_lv3_black011wc.htm"/>
+			<set name="fnAfterClassChange41" value="master_lv3_black011oa.htm"/>
+			<set name="fnAfterClassChange42" value="master_lv3_black011ob.htm"/>
+			<set name="fnAfterClassChange43" value="master_lv3_black011oc.htm"/>
+			<set name="fnAfterClassChange51" value="master_lv3_black011sa.htm"/>
+			<set name="fnAfterClassChange52" value="master_lv3_black011sb.htm"/>
+			<set name="fnAfterClassChange53" value="master_lv3_black011sc.htm"/>
+			<set name="fnYouAreFirstClass" value="master_lv3_black012.htm"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31273" name="Borodin" title="Blueprint Seller">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="18"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31274" name="Fundin" title="Mineral Trader">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="16.5"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+		</client_skills>
+	</npc>
+	<npc id="31275" name="Tatiana" title="Gatekeeper">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<teleportlist>
+			<sublist id="1">
+				<target loc="83463 148045 -3400" price="12500" name="1010007" castle_id="3"/><!--Гиран-->
+				<target loc="146813 25807 -2008" price="4850" name="1010023" castle_id="5"/><!--Аден-->
+				<target loc="125740 -40864 -3731" price="1550" name="1010491" quest_zone_id="289"/> <!-- варка -->
+				<target loc="146990 -67128 -3635" price="700" name="1010492"/> <!-- кетра -->
+				<target loc="144880 -113468 -2555" price="3450" name="1010609" quest_zone_id="272"/> <!-- Горячие Источники -->
+				<target loc="165054 -47861 -3555" price="1100" name="1010568" quest_zone_id="287"/> <!-- Стена Аргоса -->
+				<target loc="169018 -116303 -2427" price="4500" name="1010530"/> <!-- Кузница Богов -->
+				<target loc="187512 -75400 -2768" price="4500" name="1010528"/> <!-- Гробница Императоров -->
+			</sublist>
+		</teleportlist>
+	</npc>
+	<npc id="31276" name="Bernhard" title="Grand Master">
+		<set name="type" value="VillageMaster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="master_type" value="HUMAN_ELF_2ND_CLASS_FIGHTER"/>
+			<set name="fnClassMismatch" value="master_lv3_hef002.htm"/>
+			<set name="fnClassList1" value="master_lv3_hef003w.htm"/>
+			<set name="fnClassList2" value="master_lv3_hef003k.htm"/>
+			<set name="fnClassList3" value="master_lv3_hef003r.htm"/>
+			<set name="fnClassList4" value="master_lv3_hef003e.htm"/>
+			<set name="fnClassList5" value="master_lv3_hef003s.htm"/>
+			<set name="fnYouAreSecondClass" value="master_lv3_hef004.htm"/>
+			<set name="fnYouAreThirdClass" value="master_lv3_hef005.htm"/>
+			<set name="fnLowLevelNoProof11" value="master_lv3_hef008wa.htm"/>
+			<set name="fnLowLevelNoProof12" value="master_lv3_hef008wb.htm"/>
+			<set name="fnLowLevelNoProof13" value="master_lv3_hef008wc.htm"/>
+			<set name="fnLowLevelNoProof21" value="master_lv3_hef008ka.htm"/>
+			<set name="fnLowLevelNoProof22" value="master_lv3_hef008kb.htm"/>
+			<set name="fnLowLevelNoProof23" value="master_lv3_hef008kc.htm"/>
+			<set name="fnLowLevelNoProof31" value="master_lv3_hef008ra.htm"/>
+			<set name="fnLowLevelNoProof32" value="master_lv3_hef008rb.htm"/>
+			<set name="fnLowLevelNoProof33" value="master_lv3_hef008rc.htm"/>
+			<set name="fnLowLevelNoProof41" value="master_lv3_hef008ea.htm"/>
+			<set name="fnLowLevelNoProof42" value="master_lv3_hef008eb.htm"/>
+			<set name="fnLowLevelNoProof43" value="master_lv3_hef008ec.htm"/>
+			<set name="fnLowLevelNoProof51" value="master_lv3_hef008sa.htm"/>
+			<set name="fnLowLevelNoProof52" value="master_lv3_hef008sb.htm"/>
+			<set name="fnLowLevelNoProof53" value="master_lv3_hef008sc.htm"/>
+			<set name="fnLowLevel11" value="master_lv3_hef009wa.htm"/>
+			<set name="fnLowLevel12" value="master_lv3_hef009wb.htm"/>
+			<set name="fnLowLevel13" value="master_lv3_hef009wc.htm"/>
+			<set name="fnLowLevel21" value="master_lv3_hef009ka.htm"/>
+			<set name="fnLowLevel22" value="master_lv3_hef009kb.htm"/>
+			<set name="fnLowLevel23" value="master_lv3_hef009kc.htm"/>
+			<set name="fnLowLevel31" value="master_lv3_hef009ra.htm"/>
+			<set name="fnLowLevel32" value="master_lv3_hef009rb.htm"/>
+			<set name="fnLowLevel33" value="master_lv3_hef009rc.htm"/>
+			<set name="fnLowLevel41" value="master_lv3_hef009ea.htm"/>
+			<set name="fnLowLevel42" value="master_lv3_hef009eb.htm"/>
+			<set name="fnLowLevel43" value="master_lv3_hef009ec.htm"/>
+			<set name="fnLowLevel51" value="master_lv3_hef009sa.htm"/>
+			<set name="fnLowLevel52" value="master_lv3_hef009sb.htm"/>
+			<set name="fnLowLevel53" value="master_lv3_hef009sc.htm"/>
+			<set name="fnNoProof11" value="master_lv3_hef010wa.htm"/>
+			<set name="fnNoProof12" value="master_lv3_hef010wb.htm"/>
+			<set name="fnNoProof13" value="master_lv3_hef010wc.htm"/>
+			<set name="fnNoProof21" value="master_lv3_hef010ka.htm"/>
+			<set name="fnNoProof22" value="master_lv3_hef010kb.htm"/>
+			<set name="fnNoProof23" value="master_lv3_hef010kc.htm"/>
+			<set name="fnNoProof31" value="master_lv3_hef010ra.htm"/>
+			<set name="fnNoProof32" value="master_lv3_hef010rb.htm"/>
+			<set name="fnNoProof33" value="master_lv3_hef010rc.htm"/>
+			<set name="fnNoProof41" value="master_lv3_hef010ea.htm"/>
+			<set name="fnNoProof42" value="master_lv3_hef010eb.htm"/>
+			<set name="fnNoProof43" value="master_lv3_hef010ec.htm"/>
+			<set name="fnNoProof51" value="master_lv3_hef010sa.htm"/>
+			<set name="fnNoProof52" value="master_lv3_hef010sb.htm"/>
+			<set name="fnNoProof53" value="master_lv3_hef010sc.htm"/>
+			<set name="fnAfterClassChange11" value="master_lv3_hef011wa.htm"/>
+			<set name="fnAfterClassChange12" value="master_lv3_hef011wb.htm"/>
+			<set name="fnAfterClassChange13" value="master_lv3_hef011wc.htm"/>
+			<set name="fnAfterClassChange21" value="master_lv3_hef011ka.htm"/>
+			<set name="fnAfterClassChange22" value="master_lv3_hef011kb.htm"/>
+			<set name="fnAfterClassChange23" value="master_lv3_hef011kc.htm"/>
+			<set name="fnAfterClassChange31" value="master_lv3_hef011ra.htm"/>
+			<set name="fnAfterClassChange32" value="master_lv3_hef011rb.htm"/>
+			<set name="fnAfterClassChange33" value="master_lv3_hef011rc.htm"/>
+			<set name="fnAfterClassChange41" value="master_lv3_hef011ea.htm"/>
+			<set name="fnAfterClassChange42" value="master_lv3_hef011eb.htm"/>
+			<set name="fnAfterClassChange43" value="master_lv3_hef011ec.htm"/>
+			<set name="fnAfterClassChange51" value="master_lv3_hef011sa.htm"/>
+			<set name="fnAfterClassChange52" value="master_lv3_hef011sb.htm"/>
+			<set name="fnAfterClassChange53" value="master_lv3_hef011sc.htm"/>
+			<set name="fnYouAreFirstClass" value="master_lv3_hef012.htm"/>
+		</ai_params>
+		<equip>
+			<rhand item_id="76"/>	<!--Меч Иллюзий-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31277" name="Felix" title="Master">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="7884"/>	<!--Мастер Инферно-->
+			<lhand item_id="20"/>	<!--Баклер-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31278" name="Bronwyn" title="Master">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="22.5"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="130"/>	<!--Меч Эльфов-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="15"/>	<!--Elves-->
+		</client_skills>
+	</npc>
+	<npc id="31279" name="Gregory" title="High Priest">
+		<set name="type" value="VillageMaster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="24.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="master_type" value="HUMAN_ELF_2ND_CLASS_PRIEST"/>
+			<set name="fnClassMismatch" value="master_lv3_hec002.htm"/>
+			<set name="fnClassList1" value="master_lv3_hec003h.htm"/>
+			<set name="fnClassList2" value="master_lv3_hec003e.htm"/>
+			<set name="fnClassList3" value="master_lv3_hec003r.htm"/>
+			<set name="fnClassList4" value="master_lv3_hec003e.htm"/>
+			<set name="fnClassList5" value="master_lv3_hec003s.htm"/>
+			<set name="fnYouAreSecondClass" value="master_lv3_hec004.htm"/>
+			<set name="fnYouAreThirdClass" value="master_lv3_hec005.htm"/>
+			<set name="fnLowLevelNoProof11" value="master_lv3_hec008ha.htm"/>
+			<set name="fnLowLevelNoProof12" value="master_lv3_hec008hb.htm"/>
+			<set name="fnLowLevelNoProof13" value="master_lv3_hec008hc.htm"/>
+			<set name="fnLowLevelNoProof21" value="master_lv3_hec008ea.htm"/>
+			<set name="fnLowLevelNoProof22" value="master_lv3_hec008eb.htm"/>
+			<set name="fnLowLevelNoProof23" value="master_lv3_hec008ec.htm"/>
+			<set name="fnLowLevelNoProof31" value="master_lv3_hec008ra.htm"/>
+			<set name="fnLowLevelNoProof32" value="master_lv3_hec008rb.htm"/>
+			<set name="fnLowLevelNoProof33" value="master_lv3_hec008rc.htm"/>
+			<set name="fnLowLevelNoProof41" value="master_lv3_hec008ea.htm"/>
+			<set name="fnLowLevelNoProof42" value="master_lv3_hec008eb.htm"/>
+			<set name="fnLowLevelNoProof43" value="master_lv3_hec008ec.htm"/>
+			<set name="fnLowLevelNoProof51" value="master_lv3_hec008sa.htm"/>
+			<set name="fnLowLevelNoProof52" value="master_lv3_hec008sb.htm"/>
+			<set name="fnLowLevelNoProof53" value="master_lv3_hec008sc.htm"/>
+			<set name="fnLowLevel11" value="master_lv3_hec009ha.htm"/>
+			<set name="fnLowLevel12" value="master_lv3_hec009hb.htm"/>
+			<set name="fnLowLevel13" value="master_lv3_hec009hc.htm"/>
+			<set name="fnLowLevel21" value="master_lv3_hec009ea.htm"/>
+			<set name="fnLowLevel22" value="master_lv3_hec009eb.htm"/>
+			<set name="fnLowLevel23" value="master_lv3_hec009ec.htm"/>
+			<set name="fnLowLevel31" value="master_lv3_hec009ra.htm"/>
+			<set name="fnLowLevel32" value="master_lv3_hec009rb.htm"/>
+			<set name="fnLowLevel33" value="master_lv3_hec009rc.htm"/>
+			<set name="fnLowLevel41" value="master_lv3_hec009ea.htm"/>
+			<set name="fnLowLevel42" value="master_lv3_hec009eb.htm"/>
+			<set name="fnLowLevel43" value="master_lv3_hec009ec.htm"/>
+			<set name="fnLowLevel51" value="master_lv3_hec009sa.htm"/>
+			<set name="fnLowLevel52" value="master_lv3_hec009sb.htm"/>
+			<set name="fnLowLevel53" value="master_lv3_hec009sc.htm"/>
+			<set name="fnNoProof11" value="master_lv3_hec010ha.htm"/>
+			<set name="fnNoProof12" value="master_lv3_hec010hb.htm"/>
+			<set name="fnNoProof13" value="master_lv3_hec010hc.htm"/>
+			<set name="fnNoProof21" value="master_lv3_hec010ea.htm"/>
+			<set name="fnNoProof22" value="master_lv3_hec010eb.htm"/>
+			<set name="fnNoProof23" value="master_lv3_hec010ec.htm"/>
+			<set name="fnNoProof31" value="master_lv3_hec010ra.htm"/>
+			<set name="fnNoProof32" value="master_lv3_hec010rb.htm"/>
+			<set name="fnNoProof33" value="master_lv3_hec010rc.htm"/>
+			<set name="fnNoProof41" value="master_lv3_hec010ea.htm"/>
+			<set name="fnNoProof42" value="master_lv3_hec010eb.htm"/>
+			<set name="fnNoProof43" value="master_lv3_hec010ec.htm"/>
+			<set name="fnNoProof51" value="master_lv3_hec010sa.htm"/>
+			<set name="fnNoProof52" value="master_lv3_hec010sb.htm"/>
+			<set name="fnNoProof53" value="master_lv3_hec010sc.htm"/>
+			<set name="fnAfterClassChange11" value="master_lv3_hec011ha.htm"/>
+			<set name="fnAfterClassChange12" value="master_lv3_hec011hb.htm"/>
+			<set name="fnAfterClassChange13" value="master_lv3_hec011hc.htm"/>
+			<set name="fnAfterClassChange21" value="master_lv3_hec011ea.htm"/>
+			<set name="fnAfterClassChange22" value="master_lv3_hec011eb.htm"/>
+			<set name="fnAfterClassChange23" value="master_lv3_hec011ec.htm"/>
+			<set name="fnAfterClassChange31" value="master_lv3_hec011ra.htm"/>
+			<set name="fnAfterClassChange32" value="master_lv3_hec011rb.htm"/>
+			<set name="fnAfterClassChange33" value="master_lv3_hec011rc.htm"/>
+			<set name="fnAfterClassChange41" value="master_lv3_hec011ea.htm"/>
+			<set name="fnAfterClassChange42" value="master_lv3_hec011eb.htm"/>
+			<set name="fnAfterClassChange43" value="master_lv3_hec011ec.htm"/>
+			<set name="fnAfterClassChange51" value="master_lv3_hec011sa.htm"/>
+			<set name="fnAfterClassChange52" value="master_lv3_hec011sb.htm"/>
+			<set name="fnAfterClassChange53" value="master_lv3_hec011sc.htm"/>
+			<set name="fnYouAreFirstClass" value="master_lv3_hec012.htm"/>
+		</ai_params>
+		<equip>
+			<rhand item_id="193"/>	<!--Жезл Веры-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31280" name="Bastian" title="Priest">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31281" name="Cerenas" title="Priest">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="6579"/>	<!--Посох Тайн-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="15"/>	<!--Elves-->
+		</client_skills>
+	</npc>
+	<npc id="31282" name="Justin" title="Magister">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31283" name="Alminas" title="Magister">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="6579"/>	<!--Посох Тайн-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="15"/>	<!--Elves-->
+		</client_skills>
+	</npc>
+	<npc id="31284" name="Elena" title="Spellbook Seller">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="22.10000038"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31285" name="Samael" title="Grand Master">
+		<set name="type" value="VillageMaster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23.79999924"/>
+		<set name="collision_radius" value="6"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="master_type" value="DARKELF_2ND_CLASS"/>
+			<set name="fnClassMismatch" value="master_lv3_de002.htm"/>
+			<set name="fnClassList1" value="master_lv3_de003k.htm"/>
+			<set name="fnClassList2" value="master_lv3_de003s.htm"/>
+			<set name="fnClassList3" value="master_lv3_de003w.htm"/>
+			<set name="fnClassList4" value="master_lv3_de003o.htm"/>
+			<set name="fnClassList5" value="master_lv3_de003s.htm"/>
+			<set name="fnYouAreSecondClass" value="master_lv3_de004.htm"/>
+			<set name="fnYouAreThirdClass" value="master_lv3_de005.htm"/>
+			<set name="fnLowLevelNoProof11" value="master_lv3_de008ka.htm"/>
+			<set name="fnLowLevelNoProof12" value="master_lv3_de008kb.htm"/>
+			<set name="fnLowLevelNoProof13" value="master_lv3_de008kc.htm"/>
+			<set name="fnLowLevelNoProof21" value="master_lv3_de008sa.htm"/>
+			<set name="fnLowLevelNoProof22" value="master_lv3_de008sb.htm"/>
+			<set name="fnLowLevelNoProof23" value="master_lv3_de008sc.htm"/>
+			<set name="fnLowLevelNoProof31" value="master_lv3_de008wa.htm"/>
+			<set name="fnLowLevelNoProof32" value="master_lv3_de008wb.htm"/>
+			<set name="fnLowLevelNoProof33" value="master_lv3_de008wc.htm"/>
+			<set name="fnLowLevelNoProof41" value="master_lv3_de008oa.htm"/>
+			<set name="fnLowLevelNoProof42" value="master_lv3_de008ob.htm"/>
+			<set name="fnLowLevelNoProof43" value="master_lv3_de008oc.htm"/>
+			<set name="fnLowLevelNoProof51" value="master_lv3_de008sa.htm"/>
+			<set name="fnLowLevelNoProof52" value="master_lv3_de008sb.htm"/>
+			<set name="fnLowLevelNoProof53" value="master_lv3_de008sc.htm"/>
+			<set name="fnLowLevel11" value="master_lv3_de009ka.htm"/>
+			<set name="fnLowLevel12" value="master_lv3_de009kb.htm"/>
+			<set name="fnLowLevel13" value="master_lv3_de009kc.htm"/>
+			<set name="fnLowLevel21" value="master_lv3_de009sa.htm"/>
+			<set name="fnLowLevel22" value="master_lv3_de009sb.htm"/>
+			<set name="fnLowLevel23" value="master_lv3_de009sc.htm"/>
+			<set name="fnLowLevel31" value="master_lv3_de009wa.htm"/>
+			<set name="fnLowLevel32" value="master_lv3_de009wb.htm"/>
+			<set name="fnLowLevel33" value="master_lv3_de009wc.htm"/>
+			<set name="fnLowLevel41" value="master_lv3_de009oa.htm"/>
+			<set name="fnLowLevel42" value="master_lv3_de009ob.htm"/>
+			<set name="fnLowLevel43" value="master_lv3_de009oc.htm"/>
+			<set name="fnLowLevel51" value="master_lv3_de009sa.htm"/>
+			<set name="fnLowLevel52" value="master_lv3_de009sb.htm"/>
+			<set name="fnLowLevel53" value="master_lv3_de009sc.htm"/>
+			<set name="fnNoProof11" value="master_lv3_de010ka.htm"/>
+			<set name="fnNoProof12" value="master_lv3_de010kb.htm"/>
+			<set name="fnNoProof13" value="master_lv3_de010kc.htm"/>
+			<set name="fnNoProof21" value="master_lv3_de010sa.htm"/>
+			<set name="fnNoProof22" value="master_lv3_de010sb.htm"/>
+			<set name="fnNoProof23" value="master_lv3_de010sc.htm"/>
+			<set name="fnNoProof31" value="master_lv3_de010wa.htm"/>
+			<set name="fnNoProof32" value="master_lv3_de010wb.htm"/>
+			<set name="fnNoProof33" value="master_lv3_de010wc.htm"/>
+			<set name="fnNoProof41" value="master_lv3_de010oa.htm"/>
+			<set name="fnNoProof42" value="master_lv3_de010ob.htm"/>
+			<set name="fnNoProof43" value="master_lv3_de010oc.htm"/>
+			<set name="fnNoProof51" value="master_lv3_de010sa.htm"/>
+			<set name="fnNoProof52" value="master_lv3_de010sb.htm"/>
+			<set name="fnNoProof53" value="master_lv3_de010sc.htm"/>
+			<set name="fnAfterClassChange11" value="master_lv3_de011ka.htm"/>
+			<set name="fnAfterClassChange12" value="master_lv3_de011kb.htm"/>
+			<set name="fnAfterClassChange13" value="master_lv3_de011kc.htm"/>
+			<set name="fnAfterClassChange21" value="master_lv3_de011sa.htm"/>
+			<set name="fnAfterClassChange22" value="master_lv3_de011sb.htm"/>
+			<set name="fnAfterClassChange23" value="master_lv3_de011sc.htm"/>
+			<set name="fnAfterClassChange31" value="master_lv3_de011wa.htm"/>
+			<set name="fnAfterClassChange32" value="master_lv3_de011wb.htm"/>
+			<set name="fnAfterClassChange33" value="master_lv3_de011wc.htm"/>
+			<set name="fnAfterClassChange41" value="master_lv3_de011oa.htm"/>
+			<set name="fnAfterClassChange42" value="master_lv3_de011ob.htm"/>
+			<set name="fnAfterClassChange43" value="master_lv3_de011oc.htm"/>
+			<set name="fnAfterClassChange51" value="master_lv3_de011sa.htm"/>
+			<set name="fnAfterClassChange52" value="master_lv3_de011sb.htm"/>
+			<set name="fnAfterClassChange53" value="master_lv3_de011sc.htm"/>
+			<set name="fnYouAreFirstClass" value="master_lv3_de012.htm"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="16"/>	<!--Dark Elves-->
+		</client_skills>
+	</npc>
+	<npc id="31286" name="Drakon" title="Master">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="143"/>	<!--Меч Мистика-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="16"/>	<!--Dark Elves-->
+		</client_skills>
+	</npc>
+	<npc id="31287" name="Kamilen" title="Magister">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="204"/>	<!--Посох Мертвеца-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="16"/>	<!--Dark Elves-->
+		</client_skills>
+	</npc>
+	<npc id="31288" name="Aklan" title="High Prefect">
+		<set name="type" value="VillageMaster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="26"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="master_type" value="ORC_2ND_CLASS"/>
+			<set name="fnClassMismatch" value="master_lv3_orc002.htm"/>
+			<set name="fnClassList1" value="master_lv3_orc003r.htm"/>
+			<set name="fnClassList2" value="master_lv3_orc003m.htm"/>
+			<set name="fnClassList3" value="master_lv3_orc003s.htm"/>
+			<set name="fnClassList4" value="master_lv3_orc003o.htm"/>
+			<set name="fnClassList5" value="master_lv3_orc003s.htm"/>
+			<set name="fnYouAreSecondClass" value="master_lv3_orc004.htm"/>
+			<set name="fnYouAreThirdClass" value="master_lv3_orc005.htm"/>
+			<set name="fnLowLevelNoProof11" value="master_lv3_orc008ra.htm"/>
+			<set name="fnLowLevelNoProof12" value="master_lv3_orc008rb.htm"/>
+			<set name="fnLowLevelNoProof13" value="master_lv3_orc008rc.htm"/>
+			<set name="fnLowLevelNoProof21" value="master_lv3_orc008ma.htm"/>
+			<set name="fnLowLevelNoProof22" value="master_lv3_orc008mb.htm"/>
+			<set name="fnLowLevelNoProof23" value="master_lv3_orc008mc.htm"/>
+			<set name="fnLowLevelNoProof31" value="master_lv3_orc008sa.htm"/>
+			<set name="fnLowLevelNoProof32" value="master_lv3_orc008sb.htm"/>
+			<set name="fnLowLevelNoProof33" value="master_lv3_orc008sc.htm"/>
+			<set name="fnLowLevelNoProof41" value="master_lv3_orc008oa.htm"/>
+			<set name="fnLowLevelNoProof42" value="master_lv3_orc008ob.htm"/>
+			<set name="fnLowLevelNoProof43" value="master_lv3_orc008oc.htm"/>
+			<set name="fnLowLevelNoProof51" value="master_lv3_orc008sa.htm"/>
+			<set name="fnLowLevelNoProof52" value="master_lv3_orc008sb.htm"/>
+			<set name="fnLowLevelNoProof53" value="master_lv3_orc008sc.htm"/>
+			<set name="fnLowLevel11" value="master_lv3_orc009ra.htm"/>
+			<set name="fnLowLevel12" value="master_lv3_orc009rb.htm"/>
+			<set name="fnLowLevel13" value="master_lv3_orc009rc.htm"/>
+			<set name="fnLowLevel21" value="master_lv3_orc009ma.htm"/>
+			<set name="fnLowLevel22" value="master_lv3_orc009mb.htm"/>
+			<set name="fnLowLevel23" value="master_lv3_orc009mc.htm"/>
+			<set name="fnLowLevel31" value="master_lv3_orc009sa.htm"/>
+			<set name="fnLowLevel32" value="master_lv3_orc009sb.htm"/>
+			<set name="fnLowLevel33" value="master_lv3_orc009sc.htm"/>
+			<set name="fnLowLevel41" value="master_lv3_orc009oa.htm"/>
+			<set name="fnLowLevel42" value="master_lv3_orc009ob.htm"/>
+			<set name="fnLowLevel43" value="master_lv3_orc009oc.htm"/>
+			<set name="fnLowLevel51" value="master_lv3_orc009sa.htm"/>
+			<set name="fnLowLevel52" value="master_lv3_orc009sb.htm"/>
+			<set name="fnLowLevel53" value="master_lv3_orc009sc.htm"/>
+			<set name="fnNoProof11" value="master_lv3_orc010ra.htm"/>
+			<set name="fnNoProof12" value="master_lv3_orc010rb.htm"/>
+			<set name="fnNoProof13" value="master_lv3_orc010rc.htm"/>
+			<set name="fnNoProof21" value="master_lv3_orc010ma.htm"/>
+			<set name="fnNoProof22" value="master_lv3_orc010mb.htm"/>
+			<set name="fnNoProof23" value="master_lv3_orc010mc.htm"/>
+			<set name="fnNoProof31" value="master_lv3_orc010sa.htm"/>
+			<set name="fnNoProof32" value="master_lv3_orc010sb.htm"/>
+			<set name="fnNoProof33" value="master_lv3_orc010sc.htm"/>
+			<set name="fnNoProof41" value="master_lv3_orc010oa.htm"/>
+			<set name="fnNoProof42" value="master_lv3_orc010ob.htm"/>
+			<set name="fnNoProof43" value="master_lv3_orc010oc.htm"/>
+			<set name="fnNoProof51" value="master_lv3_orc010sa.htm"/>
+			<set name="fnNoProof52" value="master_lv3_orc010sb.htm"/>
+			<set name="fnNoProof53" value="master_lv3_orc010sc.htm"/>
+			<set name="fnAfterClassChange11" value="master_lv3_orc011ra.htm"/>
+			<set name="fnAfterClassChange12" value="master_lv3_orc011rb.htm"/>
+			<set name="fnAfterClassChange13" value="master_lv3_orc011rc.htm"/>
+			<set name="fnAfterClassChange21" value="master_lv3_orc011ma.htm"/>
+			<set name="fnAfterClassChange22" value="master_lv3_orc011mb.htm"/>
+			<set name="fnAfterClassChange23" value="master_lv3_orc011mc.htm"/>
+			<set name="fnAfterClassChange31" value="master_lv3_orc011sa.htm"/>
+			<set name="fnAfterClassChange32" value="master_lv3_orc011sb.htm"/>
+			<set name="fnAfterClassChange33" value="master_lv3_orc011sc.htm"/>
+			<set name="fnAfterClassChange41" value="master_lv3_orc011oa.htm"/>
+			<set name="fnAfterClassChange42" value="master_lv3_orc011ob.htm"/>
+			<set name="fnAfterClassChange43" value="master_lv3_orc011oc.htm"/>
+			<set name="fnAfterClassChange51" value="master_lv3_orc011sa.htm"/>
+			<set name="fnAfterClassChange52" value="master_lv3_orc011sb.htm"/>
+			<set name="fnAfterClassChange53" value="master_lv3_orc011sc.htm"/>
+			<set name="fnYouAreFirstClass" value="master_lv3_orc012.htm"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="17"/>	<!--Orcs-->
+		</client_skills>
+	</npc>
+	<npc id="31289" name="Lakan" title="Prefect">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="28.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="161"/>	<!--Серебряный Топор-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="17"/>	<!--Orcs-->
+		</client_skills>
+	</npc>
+	<npc id="31290" name="Skahi" title="Priest">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="29"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="202"/>	<!--Булава Преисподней-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="17"/>	<!--Orcs-->
+		</client_skills>
+	</npc>
+	<npc id="31291" name="Terava" title="Amulet Seller">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="28"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2578.55294197919"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1345.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="17"/>	<!--Orcs-->
+		</client_skills>
+	</npc>
+	<npc id="31292" name="Andrei" title="Captain">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="147.957985"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="133"/>	<!--Меч Налетчика-->
+			<lhand item_id="632"/>	<!--Щит Рыцаря-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31293" name="Gunter" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="147.957985"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="126"/>	<!--Меч Ремесленника-->
+			<lhand item_id="628"/>	<!--Хоплон-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31294" name="Sven" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="94"/>	<!--Бердыш-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31295" name="Henrik" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="147.957985"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="126"/>	<!--Меч Ремесленника-->
+			<lhand item_id="628"/>	<!--Хоплон-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31296" name="Cadmon" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="94"/>	<!--Бердыш-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31297" name="Bayard" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="147.957985"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="126"/>	<!--Меч Ремесленника-->
+			<lhand item_id="628"/>	<!--Хоплон-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31298" name="Ulrich" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="94"/>	<!--Бердыш-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+	<npc id="31299" name="Eugen" title="Guard">
+		<set name="type" value="Guard"/>
+		<set name="ai_type" value="Guard"/>
+		<set name="collision_height" value="23.5"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3038.37159811439"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="1674.8"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="147.957985"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<set name="castle_id" value="7"/>
+		<equip>
+			<rhand item_id="126"/>	<!--Меч Ремесленника-->
+			<lhand item_id="628"/>	<!--Хоплон-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+	</npc>
+</list>

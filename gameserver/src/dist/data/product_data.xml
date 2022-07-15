@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "product_data.dtd">
+<list>
+	<!--
+		category = Supplies		1
+		category = Equipment	2
+		category = VIP			3
+		category = Event		4
+		//category = Award Coins	5
+		points_item_id = -1 - Premium points (ruofflike)
+		points_item_id > 0 - Ingame items (Adena, coints, etc)
+		Base Parameters: <product id="0" name="" category="1" price="120" silver_coin_count="0" gold_coin_count="0" min_vip_level="1" max_vip_level="7" limit="-1" limit_refresh_pattern="30 6 * * *" is_hot="false" is_new="false" on_sale="true" sale_start_date="1980/01/01 08:00" sale_end_date="2037/06/01 08:00" location_id="-1">
+	-->
+	<config payment_item_id="4037"/>
+	<product id="100001" name="Starter Pack - Normal" category="3" price="63" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200005" count="1"/>	<!--Normal Stater Pack-->
+	</product>
+	<product id="100002" name="Starter Pack - Medium" category="3" price="91" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200006" count="1"/>	<!--Medium Stater Pack-->
+	</product>
+	<product id="100003" name="Starter Pack - Top" category="3" price="150" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200007" count="1"/>	<!--Top Stater Pack-->
+	</product>
+	<product id="100004" name="XP/SP Rune - 30% 5H" category="3" price="13" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200008" count="1"/>	<!--XP/SP Rune - 30% 5H-->
+	</product>
+	<product id="100005" name="XP/SP Rune - 30% 10H" category="3" price="20" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200010" count="1"/>	<!--XP/SP Rune - 30% 10H-->
+	</product>
+	<product id="100006" name="Adena/Drop/Spoil Rune - 30% 5H]" category="3" price="13" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200013" count="1"/>	<!--Adena/Drop/Spoil Rune - 30% 5H]-->
+	</product>
+	<product id="100007" name="Adena/Drop/Spoil Rune - 30% 10H]" category="3" price="20" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200015" count="1"/>	<!--Adena/Drop/Spoil Rune - 30% 10H]-->
+	</product>
+	<product id="200001" name="Adena/Drop/Spoil Rune - 30% 10H]" category="3" price="20" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200014" count="1"/>	<!--Adena/Drop/Spoil Rune - 30% 10H]-->
+	</product>
+	<product id="200003" name="Adena/Drop/Spoil Rune - 30% 10H]" category="3" price="20" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200014" count="1"/>	<!--Adena/Drop/Spoil Rune - 30% 10H]-->
+	</product>
+	<product id="200004" name="Adena/Drop/Spoil Rune - 30% 10H]" category="3" price="20" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200014" count="1"/>	<!--Adena/Drop/Spoil Rune - 30% 10H]-->
+	</product>
+	<product id="200005" name="Adena/Drop/Spoil Rune - 30% 10H]" category="3" price="20" on_sale="true" sale_start_date="2016/09/24 08:00" sale_end_date="2216/10/21 08:00" location_id="-1">
+		<component item_id="200014" count="1"/>	<!--Adena/Drop/Spoil Rune - 30% 10H]-->
+	</product>
+</list>

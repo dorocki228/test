@@ -1,0 +1,1 @@
+ALTER TABLE bans RENAME TO auth_bans;

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="23300" level="1" name="Ghost Piercing">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill0773"/>
+        <set name="magic_level" value="83"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="lv_bonus_rate" value="1"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="dot_attr"/>
+        <set name="attribute" value="attr_unholy;20"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_dot_bleeding"/>
+        <set name="debuff" value="1"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="t_hp">
+                <def name="t_hp_param1" value="-300"/>
+                <def name="t_hp_param2" value="5"/>
+                <def name="t_hp_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+</list>

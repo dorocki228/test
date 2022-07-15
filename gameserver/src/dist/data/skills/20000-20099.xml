@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="20001" level="1" name="Block Checker Hammer Punch">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="BranchSys2.icon.br_s_hammerpunch_treasure1_i001"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-1"/>
+        <set name="target_type" value="door_treasure"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="op_unlock"/>
+        </operate_cond>
+        <for>
+            <effect name="i_give_contribution">
+                <def name="i_give_contribution_param1" value="2000000000"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="20002" level="1" name="Dragon Kick">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="55"/>
+        <set name="cast_range" value="20"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_cool_time" value="0.167"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="7.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-347"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="3420"/>
+                <def name="i_p_attack_param2" value="5"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="20003" level="1" name="Dragon Slash">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill_transform_s_attack"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="55"/>
+        <set name="cast_range" value="20"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="skill_cool_time" value="0.167"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="7.0"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="-348"/>
+        <set name="target_type" value="enemy"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="attack"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_p_attack">
+                <def name="i_p_attack_param1" value="3420"/>
+                <def name="i_p_attack_param2" value="5"/>
+                <def name="i_p_attack_param3" value="0"/>
+                <def name="i_p_attack_param4" value="0"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="20004" level="1" name="Dragon Dash">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill_transform_buff"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume1" value="8"/>
+        <set name="mp_consume2" value="30"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="25.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="speed_up_special"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="689"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="100"/>
+                <def name="p_speed_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="20005" level="1" name="Dragon Aura">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill_transform_buff"/>
+        <set name="magic_level" value="70"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume1" value="7"/>
+        <set name="mp_consume2" value="40"/>
+        <set name="cast_range" value="400"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="1800.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="3"/>
+        <set name="abnormal_type" value="improve_crt_rate_dmg_up"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="635"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_dispel_by_slot">
+                <def name="i_dispel_by_slot_param1" value="critical_prob_up"/>
+                <def name="i_dispel_by_slot_param2" value="9"/>
+            </effect>
+            <effect name="i_dispel_by_slot">
+                <def name="i_dispel_by_slot_param1" value="critical_dmg_up"/>
+                <def name="i_dispel_by_slot_param2" value="9"/>
+            </effect>
+            <effect name="p_block_buff_slot">
+                <def name="p_block_buff_slot_param1" value="critical_prob_up;critical_dmg_up"/>
+            </effect>
+            <effect name="p_critical_rate">
+                <def name="p_critical_rate_param1" value="all"/>
+                <def name="p_critical_rate_param2" value="30"/>
+                <def name="p_critical_rate_param3" value="per"/>
+            </effect>
+            <effect name="p_critical_damage">
+                <def name="p_critical_damage_param1" value="all"/>
+                <def name="p_critical_damage_param2" value="35"/>
+                <def name="p_critical_damage_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="20006" level="1" name="Soul Roar">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="BranchSys2.icon.skill20006"/>
+        <set name="magic_level" value="62"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume2" value="58"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="240.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="max_hp_up_k"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="635"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="15"/>
+                <def name="p_max_hp_param3" value="per"/>
+                <def name="p_max_hp_param4" value="1"/>
+            </effect>
+            <effect name="p_max_cp">
+                <def name="p_max_cp_param1" value="all"/>
+                <def name="p_max_cp_param2" value="15"/>
+                <def name="p_max_cp_param3" value="per"/>
+                <def name="p_max_cp_param4" value="1"/>
+            </effect>
+        </for>
+    </skill>
+</list>

@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="16100" level="1" name="Presentation">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effective_range" value="1100"/>
+        <set name="skill_hit_time" value="10.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="100"/>
+        <set name="target_type" value="target"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+    </skill>
+    <skill id="16101" level="1" name="Tauti">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillboss"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_block_buff_slot">
+                <def name="p_block_buff_slot_param1" value="speed_down"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="16102" level="1" name="Dark Storm">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1167"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-264"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16103" level="1" name="Death Lift">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16103" level="2" name="Death Lift">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-200"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16103" level="3" name="Death Lift">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16103" level="4" name="Death Lift">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16103" level="5" name="Death Lift">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16103" level="6" name="Death Lift">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="1" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="2" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="3" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="4" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="5" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="6" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16104" level="7" name="Fatal Strike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16106" level="1" name="Orc Thunder">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10015"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16106" level="2" name="Orc Thunder">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill10015"/>
+        <set name="skill_cool_time" value="1.0"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-200"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16107" level="1" name="Fatal Blow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.7"/>
+        <set name="skill_hit_time" value="0.83"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16107" level="2" name="Fatal Blow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.7"/>
+        <set name="skill_hit_time" value="0.83"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16107" level="3" name="Fatal Blow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.7"/>
+        <set name="skill_hit_time" value="0.83"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="1" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-300"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="2" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-400"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="3" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="4" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="5" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="6" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16108" level="7" name="Bloody Blades">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16109" level="1" name="Heavy Armor Rise">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.m_class_heavy"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16110" level="1" name="Light Armor Rise">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.m_class_light"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16111" level="1" name="Robe Rise">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.m_class_robe"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16112" level="1" name="Speed Rise">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.m_mystery_brain"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16113" level="1" name="Tragic Bleed">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.m_mystery_blood"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16114" level="1" name="Curse of the Dead">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-10000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16114" level="2" name="Curse of the Dead">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-10000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16114" level="3" name="Curse of the Dead">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-10000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16114" level="4" name="Curse of the Dead">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-10000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16114" level="5" name="Curse of the Dead">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-10000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16116" level="1" name="Self-Devastation">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16116" level="2" name="Self-Devastation">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16117" level="1" name="Amplify Damage - Stage 1">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill6367_1"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16118" level="1" name="Amplify Damage - Stage 2">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill6367_2"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16119" level="1" name="Flare Chain">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="450"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16121" level="1" name="Sleeping Cloud">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1072"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16121" level="2" name="Sleeping Cloud">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1072"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16121" level="3" name="Sleeping Cloud">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1072"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16121" level="4" name="Sleeping Cloud">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1072"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16121" level="5" name="Sleeping Cloud">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1072"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16122" level="1" name="Flare Breath">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4452"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="450"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16123" level="1" name="Flare Outburst">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="450"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16124" level="1" name="Flare Life">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1300"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16125" level="1" name="Volcano Sword Dance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16126" level="1" name="Volcano Buster">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="100"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16127" level="1" name="Blind Flame">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16128" level="1" name="Flame Bog">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4279_new"/>
+        <set name="skill_cool_time" value="0.3"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="450"/>
+        <set name="effect_point" value="-700"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16129" level="1" name="Desert Thirst">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.desert_thirst_Lv1"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16129" level="2" name="Desert Thirst">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.desert_thirst_Lv2"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16129" level="3" name="Desert Thirst">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.desert_thirst_Lv3"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16129" level="4" name="Desert Thirst">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.desert_thirst_Lv4"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16129" level="5" name="Desert Thirst">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.desert_thirst_Lv5"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16130" level="1" name="Oasis Energy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.oasis_feel"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16131" level="1" name="Thirst Quench">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.release_thirst"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="1300"/>
+        <set name="effect_point" value="650"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16132" level="1" name="Oasis Mirage">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="reuse_delay" value="15.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16133" level="1" name="Watery Grave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="reuse_delay" value="15.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16134" level="1" name="Doom Shrieker">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16135" level="1" name="Begin Research">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16136" level="1" name="Reward x 2">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16137" level="1" name="Reward x 4">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16138" level="1" name="Reward x 8">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16139" level="1" name="Reward x 16">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16140" level="1" name="Reward x 32">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16141" level="1" name="Research Success">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16142" level="1" name="Research Success">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16143" level="1" name="Research Success">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16144" level="1" name="Research Success">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16145" level="1" name="Research Success">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16146" level="1" name="Research Fail">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_deco_star_i00"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="1" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="2" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="3" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="4" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="5" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="6" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16147" level="7" name="Fatal Wave">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16148" level="1" name="Fear">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1092"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16148" level="2" name="Fear">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1092"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16148" level="3" name="Fear">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1092"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16148" level="4" name="Fear">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1092"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16148" level="5" name="Fear">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1092"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16149" level="1" name="Fatal Poison">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4035"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16149" level="2" name="Fatal Poison">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4035"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16149" level="3" name="Fatal Poison">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4035"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16149" level="4" name="Fatal Poison">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4035"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16149" level="5" name="Fatal Poison">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill4035"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-150"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16150" level="1" name="Slow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16150" level="2" name="Slow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16150" level="3" name="Slow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16150" level="4" name="Slow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16150" level="5" name="Slow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1160"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16151" level="1" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16151" level="2" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-105"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16151" level="3" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-110"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16151" level="4" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-115"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16151" level="5" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-115"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16151" level="6" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-120"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16151" level="7" name="Aura Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-125"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="1" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="2" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-105"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="3" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-110"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="4" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-115"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="5" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-115"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="6" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-120"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16152" level="7" name="Fire Spike">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-125"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16155" level="1" name="Charmed Kefensis">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1000"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16156" level="1" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16156" level="2" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16156" level="3" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16156" level="4" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16156" level="5" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16156" level="6" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16156" level="7" name="Mass Droop">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1206"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16157" level="1" name="Grave Bleeding">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16157" level="2" name="Grave Bleeding">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16157" level="3" name="Grave Bleeding">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16157" level="4" name="Grave Bleeding">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16157" level="5" name="Grave Bleeding">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16158" level="1" name="Beleth's Volcano">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="-709"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16159" level="1" name="Beleth's Blaze">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16160" level="1" name="Beleth's Flame">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1101"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16161" level="1" name="Darion's Bleed">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0096"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16162" level="1" name="Beleth's Meteor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16163" level="1" name="Darion's Sword Storm">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16164" level="1" name="Flame Blade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.57"/>
+        <set name="skill_hit_time" value="1.2"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-1578"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16165" level="1" name="Dark Blade">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.8"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="reuse_delay" value="6.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16166" level="1" name="Escape Death">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0078"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16166" level="2" name="Escape Death">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0078"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="120.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16166" level="3" name="Escape Death">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0078"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="120.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16167" level="1" name="Increase P. Evasion 1">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0078"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16167" level="2" name="Increase P. Evasion 2">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0078"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16168" level="1" name="Half-kill">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.7"/>
+        <set name="skill_hit_time" value="0.83"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="40"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16171" level="1" name="Summon Poison Zone">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.3"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-707"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16172" level="1" name="Poisoned">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1167"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="-707"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16173" level="1" name="Invincibility">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1418"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16174" level="1" name="Herb of Growth">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchSys2.icon.g_giant_gem"/>
+        <set name="skill_hit_time" value="0.1"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16175" level="1" name="Major Herb of Growth">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchSys2.icon.g_dawn_gem"/>
+        <set name="skill_hit_time" value="0.1"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16176" level="1" name="Superior Herb of Growth">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_str_symbol_i01"/>
+        <set name="skill_hit_time" value="0.1"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16177" level="1" name="Knock Down Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16177" level="2" name="Knock Down Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16177" level="3" name="Knock Down Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16177" level="4" name="Knock Down Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16177" level="5" name="Knock Down Resistance">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16178" level="1" name="Leona's Thunder Spear">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skll10321"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="reuse_delay" value="3.0"/>
+        <set name="cast_range" value="900"/>
+        <set name="effect_point" value="500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16179" level="1" name="Beleth">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillboss"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16180" level="1" name="Darion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skillboss"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="1" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="2" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="3" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="4" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="5" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="6" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="7" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="8" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="9" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16181" level="10" name="Special Armor">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16183" level="1" name="Skill Reflect Barrier">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1062"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16184" level="1" name="Vengeful Petrify">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16185" level="1" name="Sword Storm">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16186" level="1" name="Belly Cut">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16187" level="1" name="Head-on Crash">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16188" level="1" name="Darkness">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16189" level="1" name="Disciple's Blow">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16190" level="1" name="Recharge Fury">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0110"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="100"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16191" level="1" name="Pandemonium">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16192" level="1" name="Tyranny">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16193" level="1" name="Lurking Lunacy">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16194" level="1" name="Quiet Path to Death">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="10.0"/>
+        <set name="cast_range" value="1000"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16195" level="1" name="Guided Death">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="5.0"/>
+        <set name="cast_range" value="1000"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16196" level="1" name="Blood Shower">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="16197" level="1" name="Haughty Slaughter">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16198" level="1" name="Continuing Pain">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-1500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="16199" level="1" name="Howling Abyss">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.5"/>
+        <set name="cast_range" value="300"/>
+        <set name="effect_point" value="-500"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

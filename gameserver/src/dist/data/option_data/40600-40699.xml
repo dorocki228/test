@@ -1,0 +1,1604 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+	<option_data id="40600">
+		<for>
+			<!--Макс. HP +35.81.-->
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="35.81"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40601">
+		<for>
+			<!--Макс. HP +35.81.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="35.81"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40602">
+		<for>
+			<!--Макс. HP +35.81.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="35.81"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40603">
+		<for>
+			<!--Макс. HP +35.81.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="35.81"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40604">
+		<for>
+			<!--Макс. MP +11.74.-->
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="11.74"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40605">
+		<for>
+			<!--Макс. MP +11.74.-->
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="11.74"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40606">
+		<for>
+			<!--Макс. MP +11.74.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="11.74"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40607">
+		<for>
+			<!--Макс. MP +11.74.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="11.74"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40608">
+		<for>
+			<!--Макс. MP +11.74.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="11.74"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40609">
+		<for>
+			<!--Макс. CP +64.45.-->
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="64.45"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40610">
+		<for>
+			<!--Макс. CP +64.45.-->
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="64.45"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40611">
+		<for>
+			<!--Макс. CP +64.45.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="64.45"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40612">
+		<for>
+			<!--Макс. CP +64.45.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="64.45"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40613">
+		<for>
+			<!--Макс. CP +64.45.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="64.45"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40614">
+		<for>
+			<!--Физ. Атк. +6.31.-->
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="6.31"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40615">
+		<for>
+			<!--Физ. Атк. +6.31.-->
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="6.31"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40616">
+		<for>
+			<!--Физ. Атк. +6.31.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="6.31"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40617">
+		<for>
+			<!--Физ. Атк. +6.31.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="6.31"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40618">
+		<for>
+			<!--Физ. Атк. +6.31.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="6.31"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40619">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40620">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Восстановления HP +6.73.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="6.73"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40621">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Восстановления MP +6.73.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="6.73"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40622">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Восстановления CP +0.14.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_cp_regen">
+				<def name="p_cp_regen_param1" value="all"/>
+				<def name="p_cp_regen_param2" value="0.14"/>
+				<def name="p_cp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40623">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Уклонение +0.06.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.06"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40624">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Точность +0.14.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.14"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40625">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Шанс Физ. Крит. Атк. +6.9.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="6.9"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40626">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40627">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40628">
+		<for>
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40629">
+		<for>
+			<!--Маг. Атк. +7.85.-->
+			<!--Сила Физ. Крит. Атк. +8.11.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="8.11"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="7.85"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40630">
+		<for>
+			<!--Маг. Атк. +7.85.-->
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="7.85"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40631">
+		<for>
+			<!--Маг. Атк. +7.85.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="7.85"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40632">
+		<for>
+			<!--Маг. Атк. +7.85.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="7.85"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40633">
+		<for>
+			<!--Маг. Атк. +7.85.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="7.85"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40634">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Восстановления HP +0.14.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="0.14"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40635">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Восстановления MP +0.06.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="0.06"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40636">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Восстановления CP +0.14.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_cp_regen">
+				<def name="p_cp_regen_param1" value="all"/>
+				<def name="p_cp_regen_param2" value="0.14"/>
+				<def name="p_cp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40637">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Уклонение +0.06.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.06"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40638">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Точность +0.14.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.14"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40639">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Шанс Физ. Крит. Атк. +6.9.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="6.9"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40640">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40641">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40642">
+		<for>
+			<!--Сила Маг. Крит. Атк. +9.16.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="9.16"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40643">
+		<for>
+			<!--Восстановления HP +0.16.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="0.16"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40644">
+		<for>
+			<!--Восстановления HP +0.16.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="0.16"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40645">
+		<for>
+			<!--Восстановления HP +0.16.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="0.16"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40646">
+		<for>
+			<!--Восстановления MP +0.07.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="0.07"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+			
+		</for>
+	</option_data>
+	<option_data id="40647">
+		<for>
+			<!--Восстановления MP +0.07.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="0.07"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40648">
+		<for>
+			<!--Восстановления MP +0.07.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="0.07"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40649">
+		<for>
+			<!--Восстановления CP +0.16.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_cp_regen">
+				<def name="p_cp_regen_param1" value="all"/>
+				<def name="p_cp_regen_param2" value="0.16"/>
+				<def name="p_cp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40650">
+		<for>
+			<!--Восстановления CP +0.16.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_cp_regen">
+				<def name="p_cp_regen_param1" value="all"/>
+				<def name="p_cp_regen_param2" value="0.16"/>
+				<def name="p_cp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40651">
+		<for>
+			<!--Восстановления CP +0.16.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_cp_regen">
+				<def name="p_cp_regen_param1" value="all"/>
+				<def name="p_cp_regen_param2" value="0.16"/>
+				<def name="p_cp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40652">
+		<for>
+			<!--Уклонение +0.8.-->
+			<!--Физ. Уклонение +0.69.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.69"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="0.8"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40653">
+		<for>
+			<!--Уклонение +0.8.-->
+			<!--Маг. Точность +0.69.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.69"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="0.8"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40654">
+		<for>
+			<!--Уклонение +0.8.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="0.8"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40655">
+		<for>
+			<!--Точность +0.8.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.8"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40656">
+		<for>
+			<!--Маг. Точность +0.8.-->
+			<!--Шанс Маг. Крит. Атк. +0.5.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="0.5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.8"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40657">
+		<for>
+			<!--Сила Физ. Крит. Атк. +29.51.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="29.51"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40658">
+		<for>
+			<!--Сила Маг. Крит. Атк. +35.11.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="35.11"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40659">
+		<for>
+			<!--Физ. Уклонение +2.34.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="2.34"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40660">
+		<for>
+			<!--Маг. Точность +2.34.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="2.34"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40661">
+		<for>
+			<!--Шанс Маг. Крит. Атк. +19.2.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="19.2"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40662">
+		<for>
+			<!--Физ. Защ. +14.43.-->
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="14.43"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40663">
+		<for>
+			<!--Физ. Защ. +14.43.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="14.43"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40664">
+		<for>
+			<!--Физ. Защ. +14.43.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="14.43"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40665">
+		<for>
+			<!--Физ. Защ. +14.43.-->
+			<!--Маг. Точность +1.17.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="14.43"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1.17"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40666">
+		<for>
+			<!--Физ. Защ. +14.43.-->
+			<!--Шанс Маг. Крит. Атк. +7.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="14.43"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="7"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40667">
+		<for>
+			<!--Маг. Защ. +12.23.-->
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12.23"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40668">
+		<for>
+			<!--Маг. Защ. +12.23.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12.23"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40669">
+		<for>
+			<!--Маг. Защ. +12.23.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12.23"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40670">
+		<for>
+			<!--Маг. Защ. +12.23.-->
+			<!--Маг. Точность +1.17.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1.17"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12.23"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40671">
+		<for>
+			<!--Маг. Защ. +12.23.-->
+			<!--Шанс Маг. Крит. Атк. +7.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="7"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12.23"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40672">
+		<for>
+			<!--Макс. HP +53.11.-->
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="53.11"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40673">
+		<for>
+			<!--Макс. HP +53.11.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="53.11"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40674">
+		<for>
+			<!--Макс. HP +53.11.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="53.11"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40675">
+		<for>
+			<!--Макс. HP +53.11.-->
+			<!--Маг. Точность +1.17.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1.17"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="53.11"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40676">
+		<for>
+			<!--Макс. HP +53.11.-->
+			<!--Шанс Маг. Крит. Атк. +7.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="7"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="53.11"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40677">
+		<for>
+			<!--Макс. MP +17.44.-->
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="17.44"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40678">
+		<for>
+			<!--Макс. MP +17.44.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="17.44"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40679">
+		<for>
+			<!--Макс. MP +17.44.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="17.44"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40680">
+		<for>
+			<!--Макс. MP +17.44.-->
+			<!--Маг. Точность +1.17.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1.17"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="17.44"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40681">
+		<for>
+			<!--Макс. MP +17.44.-->
+			<!--Шанс Маг. Крит. Атк. +7.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="7"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="17.44"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40682">
+		<for>
+			<!--Макс. CP +95.6.-->
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="95.6"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40683">
+		<for>
+			<!--Макс. CP +95.6.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="95.6"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40684">
+		<for>
+			<!--Макс. CP +95.6.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="95.6"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40685">
+		<for>
+			<!--Макс. CP +95.6.-->
+			<!--Маг. Точность +1.17.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1.17"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="95.6"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40686">
+		<for>
+			<!--Макс. CP +95.6.-->
+			<!--Шанс Маг. Крит. Атк. +7.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="7"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="95.6"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40687">
+		<for>
+			<!--Физ. Атк. +9.84.-->
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="9.84"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40688">
+		<for>
+			<!--Физ. Атк. +9.84.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="9.84"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40689">
+		<for>
+			<!--Физ. Атк. +9.84.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="9.84"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40690">
+		<for>
+			<!--Физ. Атк. +9.84.-->
+			<!--Маг. Точность +1.17.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1.17"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="9.84"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40691">
+		<for>
+			<!--Физ. Атк. +9.84.-->
+			<!--Шанс Маг. Крит. Атк. +7.-->
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="7"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="9.84"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40692">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Сила Маг. Крит. Атк. +16.97.-->
+			<effect name="p_magic_critical_dmg">
+				<def name="p_magic_critical_dmg_param1" value="all"/>
+				<def name="p_magic_critical_dmg_param2" value="16.97"/>
+				<def name="p_magic_critical_dmg_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40693">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Восстановления HP +12.37.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="12.37"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40694">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Восстановления MP +12.37.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="12.37"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40695">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Восстановления CP +0.23.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_cp_regen">
+				<def name="p_cp_regen_param1" value="all"/>
+				<def name="p_cp_regen_param2" value="0.23"/>
+				<def name="p_cp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40696">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Уклонение +0.1.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="0.1"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40697">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Точность +0.23.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="0.23"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40698">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Шанс Физ. Крит. Атк. +11.7.-->
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_rate">
+				<def name="p_critical_rate_param1" value="all"/>
+				<def name="p_critical_rate_param2" value="11.7"/>
+				<def name="p_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="40699">
+		<for>
+			<!--Сила Физ. Крит. Атк. +14.75.-->
+			<!--Физ. Уклонение +1.17.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1.17"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_damage">
+				<def name="p_critical_damage_param1" value="all"/>
+				<def name="p_critical_damage_param2" value="14.75"/>
+				<def name="p_critical_damage_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+</list>

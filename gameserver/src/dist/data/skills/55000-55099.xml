@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="55000" level="1" name="XP/SP Boost">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="20"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55000" level="2" name="XP/SP Boost_Regular">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="30"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="30"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55000" level="3" name="XP/SP Boost_Intermediate">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="40"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="40"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55000" level="4" name="XP/SP Boost_Greater">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="-5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="100"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55001" level="1" name="Blessed Scroll of Escape">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.2"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55002" level="1" name="Blessed Scroll of Resurrection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55003" level="1" name="1st Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.etc_g_bm_buff_scroll_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55004" level="2" name="2nd Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.etc_g_bm_buff_scroll_i01"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55005" level="1" name="Scroll: Enchant Weapon (D-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55006" level="1" name="Scroll: Enchant Armor (D-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55007" level="1" name="Scroll: Enchant Weapon (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55008" level="1" name="Scroll: Enchant Armor (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55009" level="1" name="Blessed Scroll: Enchant Weapon (D-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55010" level="1" name="Blessed Scroll: Enchant Weapon (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55011" level="1" name="Blessed Scroll: Enchant Armor (D-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55012" level="1" name="Blessed Scroll: Enchant Armor (C-grade)">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55013" level="1" name="Blessed Scroll of Escape">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.2"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55014" level="1" name="Blessed Scroll of Resurrection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55015" level="1" name="Instant Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55016" level="1" name="Greater Instant Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55017" level="1" name="Scroll of Escape: Talking Island Village">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55018" level="2" name="Scroll of Escape: Elven Village">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55019" level="3" name="Scroll of Escape: Dark Elf Village">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55020" level="4" name="Scroll of Escape: Orc Village">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55021" level="5" name="Scroll of Escape: Dwarven Village">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55022" level="6" name="Scroll of Escape: Gludin Village">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55023" level="7" name="Scroll of Escape: Town of Gludio">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55024" level="1" name="VIP Lv. 1">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55025" level="1" name="VIP Lv. 2">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip2"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55026" level="1" name="VIP Lv. 3">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip3"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55027" level="1" name="VIP Lv. 4">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip4"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55028" level="1" name="VIP Lv. 5">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip5"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55029" level="1" name="VIP Lv. 6">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip6"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55030" level="1" name="VIP Lv. 7">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.g_skill_vip7"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55031" level="1" name="Reported">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill6038"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55032" level="1" name="Life Hazard">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_agathion_special"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="reuse_delay" value="43200.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55033" level="1" name="Blessed Scroll of Escape">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.2"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55034" level="1" name="Blessed Scroll of Resurrection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55035" level="1" name="1st Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.etc_g_bm_buff_scroll_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55036" level="2" name="2nd Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.etc_g_bm_buff_scroll_i01"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55037" level="1" name="Instant Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55038" level="1" name="Greater Instant Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55039" level="1" name="Chronicles Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.new_user_box"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55040" level="1" name="Chronicles Descendant's Great Power">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.event_classic_ring"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55041" level="1" name="XP/SP Boost">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55042" level="1" name="Attendance Reward XP Rune.">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="br_cashtex.item.br_cash_rune_of_exp_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55043" level="1" name="Rare Accessory Pack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55044" level="1" name="LineageII Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55045" level="1" name="Chronicle Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55046" level="1" name="Memories Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55047" level="1" name="Romantic Bless the Body">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.accessory_archer_hat2_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="418"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55048" level="1" name="Romantic Wind Walk">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.accessory_archer_hat2_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="10.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="219"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55049" level="1" name="Chronicles Descendant's Greater Equipment Random Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55050" level="1" name="Chronicles Descendant's Greater Equipment Random Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55051" level="1" name="Scroll: Low-grade XP/SP Boost">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55052" level="2" name="Scroll: Regular XP/SP Boost">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="29009:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="10"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="611"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="30"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="30"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55053" level="3" name="Scroll: Mid-grade XP/SP Boost">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="10"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="611"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="50"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="50"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55054" level="4" name="Scroll: High-grade XP/SP Boost">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="29010:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="10"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="vote"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="611"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="100"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="55055" level="1" name="1st Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1204"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="1800.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+
+    <skill id="55056" level="2" name="2nd Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1204"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="1800.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+
+    <skill id="55057" level="1" name="Wind Walk">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1204"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="1800.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55059" level="1" name="Summon Agathion - Griffin">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+        <set name="skill_hit_time" value="3.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55060" level="1" name="Griffin's Blessing">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_aga_agit_i00"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55061" level="2" name="Castle Scroll: Regular XP/SP Boost">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55062" level="2" name="Castle Scroll: Mid-grade XP/SP Boost">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_recall_exp_scroll"/>
+        <set name="reuse_delay" value="60.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55063" level="1" name="Castle Quick Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55064" level="1" name="Castle Greater Quick Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55065" level="1" name="Castle Scroll: Berserker Spirit">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55066" level="1" name="Castle Scroll: Death Whisper">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55067" level="1" name="Castle Blessed Scroll of Escape">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="0.2"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55068" level="1" name="Scroll: Blessing of Castle">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill1323"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="1"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="900"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="preserve_abnormal"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="121"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_preserve_abnormal"/>
+        </for>
+    </skill>
+    <skill id="55069" level="1" name="Castle Ring">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_11th_rare_acc_ring"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55070" level="1" name="Castle Earrings">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_11th_rare_acc_earing"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55071" level="1" name="Castle Necklace">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.ev_11th_rare_acc_necklace"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55072" level="1" name="LineageII Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55073" level="1" name="Chronicle Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55074" level="1" name="Memories Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55075" level="5" name="Shield">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="243"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55076" level="5" name="Might">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="204"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55077" level="8" name="Concentration">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="285"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55078" level="4" name="Agility">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="243"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55079" level="4" name="Regeneration">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="331"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55080" level="3" name="Magic Barrier">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="418"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55081" level="7" name="Bless the Body">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="418"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55082" level="7" name="Bless the Soul">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_scroll_white_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="reuse_delay" value="2.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="418"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55083" level="1" name="Instant Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55084" level="1" name="Greater Instant Healing Potion">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55085" level="1" name="1st Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.etc_g_bm_buff_scroll_i00"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55086" level="2" name="2nd Class Transfer Buff Scroll">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.etc_g_bm_buff_scroll_i01"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55087" level="1" name="A Little Blessed Scroll of Escape">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55088" level="1" name="A Little Blessed Scroll of Resurrection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="1.0"/>
+        <set name="cast_range" value="400"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55089" level="1" name="Rare Accessory Pack">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55090" level="1" name="Lv. 1 Fire Dragon's Pendant Basic Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="1" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="2" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="3" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="4" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="5" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="6" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="7" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="8" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="9" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55091" level="10" name="Lv. 1 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55092" level="1" name="Lv. 2 Fire Dragon's Pendant Basic Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="1" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="2" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="3" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="4" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="5" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="6" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="7" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="8" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="9" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55093" level="10" name="Lv. 2 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55094" level="1" name="Lv. 3 Fire Dragon's Pendant Basic Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="1" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="2" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="3" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="4" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="5" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="6" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="7" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="8" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="9" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55095" level="10" name="Lv. 3 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55096" level="1" name="Lv. 4 Fire Dragon's Pendant Basic Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="1" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="2" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="3" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="4" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="5" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="6" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="7" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="8" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="9" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55097" level="10" name="Lv. 4 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55098" level="1" name="Lv. 5 Fire Dragon's Pendant Basic Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="1" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="2" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="3" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="4" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="5" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="6" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="7" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="8" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="9" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="55099" level="10" name="Lv. 5 Fire Dragon's Pendant Enchant Effect">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="BranchIcon.Icon.bm_pendant_pve"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

@@ -1,0 +1,70 @@
+<html>
+<title>Scheme Buffer</title>
+<body>
+<table width=780 height=505>
+	<tr>
+		<td align=center>
+		
+			<table border=0 FIXWIDTH=755 height=75 cellspacing=4 cellpadding=3>
+				<tr>
+					<td FIXWIDTH=755>&nbsp;</td>
+				</tr>
+			</table>
+			
+			<table border=0 width=250 height=40 order=0 cellspacing=2 cellpadding=0 background="L2UI_CT1.editbox_df_bg">
+				<tr>
+					<td width=400 align=center valign=center background="L2UI_CT1.htmlwnd_BTN02High">
+						<font name=hs12 color=DDD3B6>Create your own Scheme</font>
+					</td>
+				</tr>
+			</table>
+			
+			<table border=0 width=750 height=40>
+				<tr>
+					<td width=750 align=center valign=center>
+						<font name=hs12 color="LEVEL">Please first select an icon:</font> 
+					</td>
+				</tr>
+			</table>			
+
+			<table border=0 cellpadding=3 cellspacing=0>
+				<tr>
+					%icons%
+				</tr>
+			</table>
+
+			<br>
+			<table border=0 width=750 height=40>
+				<tr>
+					<td width=750 align=center valign=center>
+						<font name=hs12 color="LEVEL">Now choose a scheme name:</font>
+						<br1>
+						<font color=FFFFFF name=__SYSTEMWORLDFONT>Maximum length: 12. Only English characters!</font> 
+					</td>
+				</tr>
+				<tr>
+					<td width=100 height=20 valign=top align=center>
+						<edit var="name" width=150>
+					</td>
+				</tr>
+			</table>
+		<br>
+
+			<table border=0 width=750 height=40>
+				<tr>
+					<td width=750 align=center valign=center><button value="Create Scheme" action="bypass _bbsbuffer;acceptcreatescheme; $name" width=180 height=31 back=L2UI_CT1.button_df_emphasize_down fore=L2ui_Ct1.button_df_emphasize>
+					</td>
+				</tr>
+			</table>
+
+			<table border=0 width=750 height=40>
+				<tr>
+					<td width=750 align=center valign=center><button value="Return to Main Page" action="bypass _bbsbuffer;main" width=230 height=31 back=L2UI_CT1.button_df_down fore=L2ui_Ct1.button_df>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

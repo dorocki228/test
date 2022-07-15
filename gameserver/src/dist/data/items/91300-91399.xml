@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="91300" name="Spring Energy Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_leaf_green_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91301" name="Sayha\'s Spring Wind">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.ev_magic_flame_game_wind1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91302" name="Spring\'s Blessing Chest">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.npoint_antaras_30day_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91303" name="Brooch" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i05"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="13659" level="1"/>	<!--Lv. 4 Brooch-->
+			<skill id="13661" level="4"/>	<!--Lv. 1 Brooch - Additional Effect-->
+		</skills>
+	</armor>
+	<armor id="91304" name="Brooch" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i06"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="13660" level="1"/>	<!--Lv. 5 Brooch-->
+			<skill id="13661" level="5"/>	<!--Lv. 1 Brooch - Additional Effect-->
+		</skills>
+	</armor>
+	<armor id="91305" name="Greater Topaz" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91306" name="Greater Topaz" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91307" name="Greater Topaz" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91308" name="Greater Topaz" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91309" name="Greater Topaz" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_absdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91310" name="Greater Garnet" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91311" name="Greater Garnet" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91312" name="Greater Garnet" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91313" name="Greater Garnet" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91314" name="Greater Garnet" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91315" name="Greater Jade" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91316" name="Greater Jade" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91317" name="Greater Jade" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91318" name="Greater Jade" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91319" name="Greater Jade" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_speedup_lv1_high"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91320" name="Greater Ruby" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91321" name="Greater Ruby" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91322" name="Greater Ruby" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91323" name="Greater Ruby" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91324" name="Greater Ruby" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91325" name="Greater Sapphire" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91326" name="Greater Sapphire" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91327" name="Greater Sapphire" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91328" name="Greater Sapphire" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91329" name="Greater Sapphire" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91330" name="Greater Diamond" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91331" name="Greater Diamond" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91332" name="Greater Diamond" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91333" name="Greater Diamond" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91334" name="Greater Diamond" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_phydef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91335" name="Greater Pearl" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91336" name="Greater Pearl" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91337" name="Greater Pearl" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91338" name="Greater Pearl" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91339" name="Greater Pearl" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_magdef_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91340" name="Greater Vital Stone" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91341" name="Greater Vital Stone" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91342" name="Greater Vital Stone" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91343" name="Greater Vital Stone" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91344" name="Greater Vital Stone" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_vital_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91345" name="Greater Aquamarine" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_castmpup_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91346" name="Greater Aquamarine" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_castmpup_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91347" name="Greater Aquamarine" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_castmpup_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91348" name="Greater Aquamarine" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_castmpup_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91349" name="Greater Aquamarine" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_castmpup_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91350" name="Greater Cat\'s Eye" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_red_catseye_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91351" name="Greater Cat\'s Eye" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_red_catseye_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91352" name="Greater Cat\'s Eye" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_red_catseye_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91353" name="Greater Cat\'s Eye" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_red_catseye_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91354" name="Greater Cat\'s Eye" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_red_catseye_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<etcitem id="91355" name="Radiant Jewelry Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_2018_jewelbox_random"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91356" name="Jewel Power">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_blessed_jewel"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91357" name="Emerald" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91358" name="Emerald" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91359" name="Emerald" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91360" name="Emerald" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91361" name="Emerald" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91362" name="Greater Emerald" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91363" name="Greater Emerald" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91364" name="Greater Emerald" add_name="Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91365" name="Greater Emerald" add_name="Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<armor id="91366" name="Greater Emerald" add_name="Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_allstat_high_lv1_lavianrose"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<etcitem id="91367" name="Emerald Chest">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_emerald_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91368" name="Emerald Jewelry Box Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_emerald_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91369" name="Emerald Jewelry Box Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_emerald_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91370" name="Emerald Jewelry Box Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_emerald_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91371" name="Radiant Brooch Fragment">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_2018_brooch_piece"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91372" name="Good Deeds Bait">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.fishing_cube_lure"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91373" name="Good Deeds Fishing Kit">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_pi_box_love_pack"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91374" name="Good Deeds Coin">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_magic_coin_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91375" name="Skilled Fisherman\'s Rune - Professional" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.fishing_zone_ticket_1"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91376" name="Skilled Fisherman\'s Rune - Master" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.fishing_zone_ticket_1"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91377" name="Skilled Fisherman\'s Rune - Expert" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.fishing_zone_ticket_1"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91378" name="Immortal Ant Queen\'s Ring">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_ring_of_queen_ant_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<skills>
+			<skill id="3562" level="4"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="62"/>
+			<add stat="maxMp" order="0x60" value="30"/>
+		</for>
+	</armor>
+	<armor id="91379" name="Immortal Orfen\'s Earring">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_earring_of_orfen_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="83"/>
+			<add stat="maxMp" order="0x60" value="40"/>
+		</for>
+	</armor>
+	<armor id="91380" name="Ring of Immortal Core">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_ring_of_core_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<skills>
+			<skill id="3563" level="4"/>
+			<skill id="35016" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="62"/>
+			<add stat="maxMp" order="0x60" value="30"/>
+		</for>
+	</armor>
+	<armor id="91381" name="Immortal Baium\'s Ring">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_ring_of_baium_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<skills>
+			<skill id="3561" level="15"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="70"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91382" name="Immortal Zaken\'s Earring">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_earring_of_zaken_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="3559" level="15"/>
+			<skill id="45018" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="96"/>
+			<add stat="maxMp" order="0x60" value="45"/>
+		</for>
+	</armor>
+	<armor id="91383" name="Immortal Antharas\' Earring">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_earring_of_antaras_i04"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="3558" level="15"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="96"/>
+			<add stat="maxMp" order="0x60" value="50"/>
+		</for>
+	</armor>
+	<etcitem id="91384" name="Essence of Queen Ant">
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.queen_ant_essence_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91385" name="Essence of Orfen">
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.earring_of_orfen_essence_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91386" name="Essence of Core">
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.ring_of_core_essence_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91387" name="Essence of Baium">
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.ring_of_baium_essence_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91388" name="Essence of Zaken">
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.earring_of_zaken_essence_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91389" name="Essence of Antharas">
+		<set name="destroyable" value="false"/>
+		<set name="icon" value="icon.earring_of_antaras_essence_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91390" name="Topaz Lv. 5" add_name="15-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_topaz_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+	</armor>
+	<etcitem id="91391" name="Fish Stew - Guild\'s Gratitude Lv. 2">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.ev_invasion_buff_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="Skills"/>
+		<set name="autousable" value="true"/>
+		<skills>
+			<skill id="39076" level="2"/>
+		</skills>
+	</etcitem>
+	<etcitem id="91392" name="Night Goblin Liquor">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.bm_goblin_buff_herong"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91393" name="Forgotten Manuscript - Page 1">
+		<set name="icon" value="icon.etc_paper_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91394" name="Forgotten Manuscript - Page 2">
+		<set name="icon" value="icon.etc_paper_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91395" name="Forgotten Manuscript - Page 3">
+		<set name="icon" value="icon.etc_paper_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91396" name="Forgotten Manuscript - Page 4">
+		<set name="icon" value="icon.etc_paper_black_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91397" name="Manuscript Fragment - Page 1">
+		<set name="icon" value="icon.etc_piece_of_paper_gray_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91398" name="Manuscript Fragment - Page 2">
+		<set name="icon" value="icon.etc_piece_of_paper_gray_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91399" name="Manuscript Part - Page 2">
+		<set name="icon" value="icon.letter_piece"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+</list>

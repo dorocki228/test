@@ -1,0 +1,36 @@
+package l2s.gameserver.network.l2.c2s;
+
+import l2s.gameserver.Config;
+import l2s.gameserver.model.Player;
+import l2s.gameserver.network.l2.s2c.ExCostumeShortcutList;
+import l2s.gameserver.network.l2.s2c.ExSendCostumeList;
+
+/**
+ * @author Bonux (Head Developer L2-scripts.com)
+ * 24.05.2019
+ * Developed for L2-Scripts.com
+ **/
+public class RequestExCostumeList implements IClientIncomingPacket {
+	private int size;
+
+	@Override
+	public boolean readImpl(l2s.gameserver.network.l2.GameClient client, l2s.commons.network.PacketReader packet) {
+		size = packet.getReadableBytes();
+		return true;
+	}
+
+	@Override
+	public void run(l2s.gameserver.network.l2.GameClient client) {
+		Player activeChar = client.getActiveChar();
+		if (activeChar == null)
+			return;
+
+		if (Config.EX_COSTUME_DISABLE) {
+			activeChar.sendActionFailed();
+			return;
+		}
+
+		activeChar.sendPacket(new ExSendCostumeList(activeChar));
+		activeChar.sendPacket(new ExCostumeShortcutList(activeChar));
+	}
+}

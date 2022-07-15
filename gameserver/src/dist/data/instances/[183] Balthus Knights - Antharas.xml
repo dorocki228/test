@@ -1,0 +1,20 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<instance id="183" name="Balthus Knights - Antharas" maxChannels="20" collapseIfEmpty="5" timelimit="120">
+		<level min="70" max="84"/>
+		<party min="27" max="300"/>
+		<return loc="130568 114984 -3728"/>
+		<teleport loc="179700 113800 -7709"/>
+		<reuse resetReuse="30 6 * * 3" setUponEntry="false" sharedReuseGroup="0"/>
+		<add_parameters>
+			<param name="antharas_start_delay" value="300"/>	<!--Время до выхода Антараса с пещеры после открытия временной зоны (в секундах)-->
+		</add_parameters>
+		<zones>
+			<zone name="[antharas_balthus_knights]" active="true"/>
+		</zones>
+		<spawns>
+			<group name="antharas_balthus_knights_boss" spawned="true"/>
+		</spawns>
+	</instance>
+</list>

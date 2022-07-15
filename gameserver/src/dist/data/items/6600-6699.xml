@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<weapon id="6611" name="Infinity Sword">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_sword_of_hero_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3578" level="1"/>	<!--Special Ability: Infinity Sword-->
+			<skill id="3579" level="1"/>	<!--Infinity Power - Reflect-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="301"/>
+			<add stat="mAtk" order="0x10" value="166"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="6612" name="Infinity Slasher">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_two_handed_sword_of_hero_i00"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3582" level="1"/>	<!--Special Ability: Infinity Slasher-->
+			<skill id="3584" level="1"/>	<!--Infinity Power - Protection-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="368"/>
+			<add stat="mAtk" order="0x10" value="166"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="6613" name="Infinity Axe">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_axe_of_hero_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3580" level="1"/>	<!--Special Ability: Infinity Axe-->
+			<skill id="3581" level="1"/>	<!--Infinity Power - Tenacity-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="301"/>
+			<add stat="mAtk" order="0x10" value="166"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="6614" name="Infinity Rod">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_mace_of_hero_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3597" level="1"/>	<!--Special Ability: Infinity Rod-->
+			<skill id="3598" level="1"/>	<!--Infinity Power - Mana Limit-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="255"/>
+			<add stat="mAtk" order="0x10" value="204"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="6616" name="Infinity Scepter">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_staff_of_hero_i00"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3595" level="1"/>	<!--Special Ability: Infinity Scepter-->
+			<skill id="3596" level="1"/>	<!--Infinity Power - Vampiric Mana-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="295"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="6617" name="Infinity Dagger">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_dagger_of_hero_i00"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3589" level="1"/>	<!--Special Ability: Infinity Dagger-->
+			<skill id="3590" level="1"/>	<!--Infinity Power - Immortal-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="272"/>
+			<add stat="mAtk" order="0x10" value="166"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="6618" name="Infinity Fighter">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_fist_of_hero_i00"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3587" level="1"/>	<!--Special Ability: Infinity Fighter-->
+			<skill id="3584" level="1"/>	<!--Infinity Power - Protection-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="368"/>
+			<add stat="mAtk" order="0x10" value="166"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="6619" name="Infinity Bow">
+		<set name="reuse_delay" value="1398"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_bow_of_hero_i00"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="6"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3593" level="1"/>	<!--Special Ability: Infinity Bow-->
+			<skill id="3594" level="1"/>	<!--Infinity Power - Archery-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="665"/>
+			<add stat="mAtk" order="0x10" value="177"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="6620" name="Infinity Dual Sword">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_dualsword_of_hero_i00"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3585" level="1"/>	<!--Special Ability: Infinity Dualsword-->
+			<skill id="3586" level="1"/>	<!--Infinity Power - Refresh-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="361"/>
+			<add stat="mAtk" order="0x10" value="164"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="6621" name="Infinity Spear">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_the_pole_of_hero_i00"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="1300"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="3591" level="1"/>	<!--Special Ability: Infinity Spear-->
+			<skill id="3581" level="1"/>	<!--Infinity Power - Tenacity-->
+		</skills>
+		<cond msgId="1507">
+			<not>
+				<player olympiad="true"/>
+			</not>
+		</cond>
+		<for>
+			<add stat="pAtk" order="0x10" value="301"/>
+			<add stat="mAtk" order="0x10" value="166"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="6645" name="Beast Soulshot">
+		<set name="price" value="20"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_beast_soul_shot_i00"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="BEAST_SOULSHOT"/>
+	</etcitem>
+	<etcitem id="6646" name="Beast Spiritshot">
+		<set name="price" value="50"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_beast_spirit_shot_i00"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="BEAST_SPIRITSHOT"/>
+	</etcitem>
+	<etcitem id="6647" name="Blessed Beast Spiritshot">
+		<set name="price" value="100"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_blessed_beast_spirit_shot_i00"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="BEAST_BLESSED_SPIRITSHOT"/>
+	</etcitem>
+	<armor id="6660" name="Queen Ant\'s Ring">
+		<set name="crystal_count" value="82"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_ring_of_queen_ant_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<skills>
+			<skill id="3562" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="32"/>
+			<add stat="maxMp" order="0x60" value="9"/>
+		</for>
+	</armor>
+	<armor id="6661" name="Orfen\'s Earring">
+		<set name="crystal_count" value="104"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_earring_of_orfen_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="3560" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="51"/>
+			<add stat="maxMp" order="0x60" value="19"/>
+		</for>
+	</armor>
+	<armor id="6662" name="Ring of Core">
+		<set name="crystal_count" value="69"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_ring_of_core_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<skills>
+			<skill id="3563" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="32"/>
+			<add stat="maxMp" order="0x60" value="9"/>
+		</for>
+	</armor>
+	<armor id="6674" name="Sealed Imperial Crusader Breastplate">
+		<set name="crystal_count" value="408"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t88_u_i02"/>
+		<set name="price" value="12781000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7620"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="193"/>
+		</for>
+	</armor>
+	<armor id="6675" name="Sealed Imperial Crusader Gaiters">
+		<set name="crystal_count" value="255"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t88_l_i02"/>
+		<set name="price" value="7988000"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3260"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="121"/>
+		</for>
+	</armor>
+	<armor id="6676" name="Sealed Imperial Crusader Gauntlets">
+		<set name="crystal_count" value="102"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t88_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="540"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+		</for>
+	</armor>
+	<armor id="6677" name="Sealed Imperial Crusader Boots">
+		<set name="crystal_count" value="102"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t88_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1110"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+		</for>
+	</armor>
+	<weapon id="6678" name="Sealed Imperial Crusader Shield">
+		<set name="crystal_count" value="107"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.shield_imperial_crusader_shield_i02"/>
+		<set name="price" value="3355000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1170"/>
+		<equip>
+			<slot id="LEFT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="276"/>
+			<add stat="rShld" order="0x10" value="20"/>
+		</for>
+	</weapon>
+	<armor id="6679" name="Sealed Imperial Crusader Helmet">
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_helmet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="550"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+		</for>
+	</armor>
+	<armor id="6680" name="Sealed Draconic Leather Armor">
+		<set name="crystal_count" value="498"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t89_ul_i02"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4950"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="236"/>
+		</for>
+	</armor>
+	<armor id="6681" name="Sealed Draconic Leather Gloves">
+		<set name="crystal_count" value="102"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t89_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="540"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+		</for>
+	</armor>
+	<armor id="6682" name="Sealed Draconic Leather Boots">
+		<set name="crystal_count" value="102"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t89_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1110"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+		</for>
+	</armor>
+	<armor id="6683" name="Sealed Draconic Leather Helmet">
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_leather_helmet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="550"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+		</for>
+	</armor>
+	<armor id="6684" name="Sealed Major Arcana Robe">
+		<set name="crystal_count" value="498"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t90_ul_i02"/>
+		<set name="price" value="15577000"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2300"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="157"/>
+			<add stat="maxMp" order="0x60" value="866"/>
+		</for>
+	</armor>
+	<armor id="6685" name="Sealed Major Arcana Gloves">
+		<set name="crystal_count" value="102"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t90_g_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="540"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+		</for>
+	</armor>
+	<armor id="6686" name="Sealed Major Arcana Boots">
+		<set name="crystal_count" value="102"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_t90_b_i02"/>
+		<set name="price" value="3195000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1110"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="55"/>
+		</for>
+	</armor>
+	<armor id="6687" name="Sealed Major Arcana Circlet">
+		<set name="crystal_count" value="153"/>
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.armor_circlet_i02"/>
+		<set name="price" value="4793000"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="550"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+		</for>
+	</armor>
+	<etcitem id="6688" name="Forgotten Blade Edge">
+		<set name="price" value="92529"/>
+		<set name="icon" value="icon.etc_sword_body_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6689" name="Basalt Battlehammer Head">
+		<set name="price" value="94306"/>
+		<set name="icon" value="icon.etc_squares_gray_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6690" name="Imperial Staff Head">
+		<set name="price" value="92353"/>
+		<set name="icon" value="icon.etc_bark_blue_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6691" name="Angel Slayer Blade">
+		<set name="price" value="92529"/>
+		<set name="icon" value="icon.etc_sword_body_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6693" name="Dragon Hunter Axe Blade">
+		<set name="price" value="90882"/>
+		<set name="icon" value="icon.etc_sword_body_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6694" name="Saint Spear Blade">
+		<set name="price" value="90882"/>
+		<set name="icon" value="icon.etc_sword_body_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6695" name="Demon Splinter Blade">
+		<set name="price" value="94306"/>
+		<set name="icon" value="icon.etc_sword_body_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6696" name="Heaven\'s Divider Edge">
+		<set name="price" value="91082"/>
+		<set name="icon" value="icon.etc_sword_body_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6697" name="Arcana Mace Head">
+		<set name="price" value="94306"/>
+		<set name="icon" value="icon.etc_squares_gray_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6698" name="Sealed Tateossian Earring Part">
+		<set name="price" value="10182"/>
+		<set name="icon" value="icon.etc_broken_crystal_silver_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="6699" name="Sealed Tateossian Ring Gem">
+		<set name="price" value="9176"/>
+		<set name="icon" value="icon.etc_crystal_ball_gold_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+</list>

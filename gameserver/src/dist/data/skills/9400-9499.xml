@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="9487" level="1" name="Angel Cat's Blessing">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skilltransform4"/>
+        <set name="magic_level" value="-3"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="item_consume" value="35669:1"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="2"/>
+        <set name="abnormal_type" value="br_event_buf3"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="5"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="20"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="5"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="5"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="5"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_attack_speed">
+                <def name="p_attack_speed_param1" value="all"/>
+                <def name="p_attack_speed_param2" value="5"/>
+                <def name="p_attack_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_magic_speed">
+                <def name="p_magic_speed_param1" value="all"/>
+                <def name="p_magic_speed_param2" value="5"/>
+                <def name="p_magic_speed_param3" value="per"/>
+            </effect>
+            <effect name="p_max_hp">
+                <def name="p_max_hp_param1" value="all"/>
+                <def name="p_max_hp_param2" value="5"/>
+                <def name="p_max_hp_param3" value="per"/>
+            </effect>
+            <effect name="p_max_mp">
+                <def name="p_max_mp_param1" value="all"/>
+                <def name="p_max_mp_param2" value="5"/>
+                <def name="p_max_mp_param3" value="per"/>
+            </effect>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="30"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="30"/>
+            </effect>
+        </for>
+    </skill>
+</list>

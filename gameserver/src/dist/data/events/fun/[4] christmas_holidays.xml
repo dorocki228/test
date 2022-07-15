@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<!--https://4gameforum.com/threads/733566/-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="4" name="Christmas Holidays" impl="ChristmasHolidays">
+		<parameter name="start_time_pattern" value="06:30 25.12.2018" />
+		<parameter name="stop_time_pattern" value="06:30 10.01.2019" />
+		<parameter name="raid_respawn_time_modifier" value="0.5" />
+		<on_start>
+			<spawn name="spawn_group"/>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<global_remove_reward name="droplist"/>
+			<global_remove_items name="event_items"/>
+			<global_remove_abnormals skill_id="51152"/>	<!--Подарок Снегурочки-->
+			<global_remove_variables name="@christmas_holidays_gift" type="ACCOUNT"/>
+		</on_stop>
+		<objects name="spawn_group">
+			<spawn_ex name="christmas_holidays_event"/>
+		</objects>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="2" time="02:00-17:59">
+					<reward item_id="47579" min="1" max="1" chance="100"/>	<!--Настойка Рождественской Вечеринки-->
+				</group>
+				<group chance="4" time="00:00-01:59">
+					<reward item_id="47579" min="1" max="1" chance="100"/>	<!--Настойка Рождественской Вечеринки-->
+				</group>
+				<group chance="6" time="18:00-23:59">
+					<reward item_id="47579" min="1" max="1" chance="100"/>	<!--Настойка Рождественской Вечеринки-->
+				</group>
+			</rewardlist>
+		</objects>
+		<objects name="event_items">
+			<item id="91232"/>	<!--Купон на Свиток Улучшения - Ранг A-->
+			<item id="91233"/>	<!--Купон на Свиток Улучшения - Ранг B-->
+			<item id="91234"/>	<!--Купон на Свиток Улучшения - Ранг C-->
+			<item id="91235"/>	<!--Купон на Свиток Улучшения - Ранг D-->
+			<item id="91236"/>	<!--Мешочек с Подарками Снегурочки-->
+			<item id="91237"/>	<!--Волшебный Сундук Снегурочки-->
+		</objects>
+	</event>
+</list>

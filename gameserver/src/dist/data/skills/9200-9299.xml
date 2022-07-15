@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="9206" level="1" name="Fast Run">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill9206"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="reuse_delay" value="45.0"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="1200"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="special_ride"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <set name="without_action" value="1"/>
+        <for>
+            <effect name="p_speed">
+                <def name="p_speed_param1" value="all"/>
+                <def name="p_speed_param2" value="95"/>
+                <def name="p_speed_param3" value="diff"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9210" level="1" name="Dismount">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill9210"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="2.5"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="10"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_dispel_by_slot">
+                <def name="i_dispel_by_slot_param1" value="transform"/>
+                <def name="i_dispel_by_slot_param2" value="-1"/>
+            </effect>
+            <effect name="i_dispel_by_slot">
+                <def name="i_dispel_by_slot_param1" value="special_ride"/>
+                <def name="i_dispel_by_slot_param2" value="-1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9244" level="1" name="Greater Scroll: Enchant Weapon (D-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="d"/>
+                <def name="target_item_crystal_type_param2" value="weapon"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9245" level="1" name="Greater Scroll: Enchant Armor (D-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="d"/>
+                <def name="target_item_crystal_type_param2" value="armor;accessary"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9246" level="1" name="Greater Scroll: Enchant Weapon (C-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="c"/>
+                <def name="target_item_crystal_type_param2" value="weapon"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9247" level="1" name="Greater Scroll: Enchant Armor (C-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="c"/>
+                <def name="target_item_crystal_type_param2" value="armor;accessary"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9248" level="1" name="Greater Scroll: Enchant Weapon (B-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="b"/>
+                <def name="target_item_crystal_type_param2" value="weapon"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9249" level="1" name="Greater Scroll: Enchant Armor (B-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="b"/>
+                <def name="target_item_crystal_type_param2" value="armor;accessary"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9250" level="1" name="Improved Scroll: Enchant Weapon (A-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="a"/>
+                <def name="target_item_crystal_type_param2" value="weapon"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9251" level="1" name="Improved Scroll: Enchant Armor (A-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="a"/>
+                <def name="target_item_crystal_type_param2" value="armor;accessary"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_item_multi">
+                <def name="i_enchant_item_multi_param1" value="57"/>
+                <def name="i_enchant_item_multi_param2" value="29"/>
+                <def name="i_enchant_item_multi_param3" value="14"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9257" level="1" name="Mentor's Scroll: Enchant Weapon (D-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="d"/>
+                <def name="target_item_crystal_type_param2" value="weapon"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_weapon"/>
+        </for>
+    </skill>
+    <skill id="9259" level="1" name="Mentor's Scroll: Enchant Weapon (C-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="item"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="target_item_crystal_type">
+                <def name="target_item_crystal_type_param1" value="c"/>
+                <def name="target_item_crystal_type_param2" value="weapon"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_enchant_weapon"/>
+        </for>
+    </skill>
+    <skill id="9279" level="1" name="PC Progression Support">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.etc_pccafe_exp_i00"/>
+        <set name="magic_level" value="-2"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-2"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="3"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="buff_pccafe_exp1"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="1"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_vp_keep"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="30"/>
+            </effect>
+            <effect name="p_sp_modify">
+                <def name="p_sp_modify_param1" value="30"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9293" level="1" name="Mysterious Soulshot (No-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_spirit_bullet_white_i00"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_soul_shot">
+                <def name="power" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9294" level="1" name="Mysterious Soulshot (D-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_spirit_bullet_blue_i00"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_soul_shot">
+                <def name="power" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9295" level="1" name="Mysterious Soulshot (C-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.etc_spirit_bullet_green_i00"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_soul_shot">
+                <def name="power" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9296" level="1" name="Mysterious Soulshot (B-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_soul_shot">
+                <def name="power" value="100"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="9297" level="1" name="Mysterious Soulshot (A-grade)">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="i_soul_shot">
+                <def name="power" value="100"/>
+            </effect>
+        </for>
+    </skill>
+</list>

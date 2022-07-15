@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="6901" name="Recipe: Arrow of Light (100%)">
+		<set name="price" value="200000"/>
+		<set name="type" value="RECIPE"/>
+		<set name="icon" value="icon.etc_recipe_black_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<weapon id="6917" name="Monster Only (Poisonous Dart)">
+		<set name="price" value="2"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="6"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</weapon>
+	<weapon id="6918" name="Monster Only (Silence Shield)">
+		<set name="price" value="2580"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="90"/>
+			<add stat="rShld" order="0x10" value="20"/>
+		</for>
+	</weapon>
+	<weapon id="6919" name="Monster Only (Ketra Orc Shield)">
+		<set name="price" value="15680"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pEvasRate" order="0x10" value="-8"/>
+			<add stat="sDef" order="0x10" value="142"/>
+			<add stat="rShld" order="0x10" value="20"/>
+		</for>
+	</weapon>
+</list>

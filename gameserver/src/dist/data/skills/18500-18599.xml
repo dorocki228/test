@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="18564" level="1" name="Shiny Jewelry Box">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18566" level="1" name="Garnet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="abnormal_type" value="garnet"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="3"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_pull"/>
+                <def name="p_defence_trait_param2" value="3"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_turn_stone"/>
+                <def name="p_defence_trait_param2" value="3"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_paralyze"/>
+                <def name="p_defence_trait_param2" value="3"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="3"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="18566" level="2" name="Garnet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="abnormal_type" value="garnet"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="5"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_pull"/>
+                <def name="p_defence_trait_param2" value="5"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_turn_stone"/>
+                <def name="p_defence_trait_param2" value="5"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_paralyze"/>
+                <def name="p_defence_trait_param2" value="5"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="18566" level="3" name="Garnet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="abnormal_type" value="garnet"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="8"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_pull"/>
+                <def name="p_defence_trait_param2" value="8"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_turn_stone"/>
+                <def name="p_defence_trait_param2" value="8"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_paralyze"/>
+                <def name="p_defence_trait_param2" value="8"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="8"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="18566" level="4" name="Garnet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="abnormal_type" value="garnet"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="11"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_pull"/>
+                <def name="p_defence_trait_param2" value="11"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_turn_stone"/>
+                <def name="p_defence_trait_param2" value="11"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_paralyze"/>
+                <def name="p_defence_trait_param2" value="11"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="11"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="18566" level="5" name="Garnet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="abnormal_type" value="garnet"/>
+        <for>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_shock"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_pull"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_turn_stone"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_paralyze"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+            <effect name="p_defence_trait">
+                <def name="p_defence_trait_param1" value="trait_derangement"/>
+                <def name="p_defence_trait_param2" value="20"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="18566" level="6" name="Gem - Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18566" level="7" name="Gem - Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18566" level="8" name="Gem - Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18566" level="9" name="Gem - Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18566" level="10" name="Gem - Greater Garnet">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="1" name="Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="2" name="Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_bm_jewel_garnet"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="3" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="4" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="5" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="6" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18567" level="7" name="Greater Garnet - Special Ability">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+        <set name="reuse_delay" value="300.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18571" level="1" name="Hero's Basics - I">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18571"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18572" level="1" name="Hero's Basics - II">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18572"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18573" level="1" name="Hero's Basics - III">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18573"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18575" level="1" name="Call to Hunt - I">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18575"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18576" level="1" name="Call to Hunt - II">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18576"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18577" level="1" name="Call to Battle">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18577"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18578" level="1" name="Song Contest">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill18578"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+    <skill id="18588" level="1" name="Fortune Brooch">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="0.5"/>
+        <set name="reuse_delay" value="1.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

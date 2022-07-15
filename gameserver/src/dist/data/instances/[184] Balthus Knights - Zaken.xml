@@ -1,0 +1,17 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<instance id="184" name="Balthus Knights - Zaken" maxChannels="20" collapseIfEmpty="5" timelimit="120">
+		<level min="70" max="84"/>
+		<party min="1" max="300"/>
+		<return loc="43608 206632 -3757"/> 
+		<teleport loc="54136 218072 -3225"/> 
+		<reuse resetReuse="30 6 * * 3" setUponEntry="false" sharedReuseGroup="0"/>
+		<zones>
+			<zone name="[zaken_balthus_knights]" active="true"/>
+		</zones>
+		<spawns>
+			<group name="zaken_balthus_knights_boss" spawned="true"/>
+		</spawns>
+	</instance>
+</list>

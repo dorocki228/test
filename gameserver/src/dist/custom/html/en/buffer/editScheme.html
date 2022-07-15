@@ -1,0 +1,138 @@
+<html noscrollbar>
+<title>Scheme Buffer</title>
+<body>
+<br>
+<table width=780 height=505 cellspacing=0 cellpadding=0>
+	<tr>
+		<td align=center>
+
+
+<table border=0 width=735 height=40 background="L2UI_CT1.editbox_df_bg">
+<tr>
+<td width=735 align=center valign=center background="L2UI_CT1.htmlwnd_BTN02High">
+<font name=hs12 color=DDD3B6>Select your buffs for scheme named</font><font name=hs12 color=FFFF00> %macro_name% </font>
+</td>
+</tr>
+</table>	
+
+<table border=0 width=735 height=150 cellspacing=0 cellpadding=0 bgcolor=11100F>
+	<tr ><td height=35 align=center>
+		<table width=526 align=center >
+			<tr>
+				<td align=center >
+					<button value="<" action="bypass _bbsbuffer;scheme;moveleft" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">		
+				</td>
+				<td align=center >
+					<button value="x" action="bypass _bbsbuffer;scheme;removebuff" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">				
+				</td>
+				<td align=center >
+					<button value=">" action="bypass _bbsbuffer;scheme;moveright" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">						
+				</td>
+			</tr>
+		</table>
+			
+	</td></tr>
+	<tr>
+		<td valign=top align=center>
+			<table cellspacing=0 cellpadding=0 border=0>
+				<tr><td> Buffs: %buffs_count%</td></tr>
+				<tr><td>
+					<table border=0 cellspacing=0 cellpadding=0>
+						<tr>
+							<td height=40>
+								<table border=0 cellspacing=0 cellpadding=2>
+									<tr>
+									%buffs_list%
+									</tr>
+								</table>
+							</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr><td height=4>&nbsp;</td><td>&nbsp;</td></tr>
+						<tr>
+							<td height=52>
+								<table border=0 cellspacing=0 cellpadding=2>
+									<tr>
+									%buffs_list2%
+									</tr>
+								</table>
+							</td>
+							<td >
+								<table height=40 border=0 cellspacing=0 cellpadding=2 bgcolor=110022>
+									<tr>
+									%buffs_list_extra%
+									</tr>
+								</table>
+							</td>
+						</tr>						
+					</table>
+				</td></tr>
+				<tr><td> Songs and Dances: %songs_count%</td></tr>
+				<tr><td>	
+					<table border=0 cellspacing=0 cellpadding=2>
+						<tr>
+							%dances_songs_list%
+						</tr>
+					</table>
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr><td height=30>&nbsp;</td></tr>
+</table>
+
+
+
+
+
+<table width=526 align=center >
+	<tr>
+		<td align=center >
+			<button value="Buffs" action="bypass _bbsbuffer;scheme;setcategory;1" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="%category1icon%">		
+		</td>
+		<td align=center >
+			<button value="Dances" action="bypass _bbsbuffer;scheme;setcategory;2" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="%category2icon%">				
+		</td>
+		<td align=center >
+			<button value="Songs" action="bypass _bbsbuffer;scheme;setcategory;3" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="%category3icon%">						
+		</td>
+		<td align=center >
+			<button value="Other" action="bypass _bbsbuffer;scheme;setcategory;4" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="%category4icon%">						
+		</td>
+		<td align=center >
+			<button value="Resist" action="bypass _bbsbuffer;scheme;setcategory;5" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="%category4icon%">						
+		</td>
+		<td align=center >
+			<button value="Prophecy" action="bypass _bbsbuffer;scheme;setcategory;6" width=82 height=20 back="L2UI_CT1.Button_DF_Down" fore="%category4icon%">						
+		</td>
+	</tr>
+</table>
+
+
+
+<table width=750>
+	<tr>
+		%available_bffs%
+	</tr>
+</table>
+
+<table cellpadding=0 align=center><tr>
+	%paging%
+</tr></table>
+
+
+
+<br1>
+<table border=0 width=400 height=40>
+	<tr>
+		<td width=750 align=center valign=center>
+			<button value="Save and Return" action="bypass _bbsbuffer;main" width=180 height=31 back=L2UI_CT1.button_df_emphasize_down fore=L2ui_Ct1.button_df_emphasize>
+		</td>
+	</tr>
+</table>
+
+		</td>
+	</tr>
+</table>
+</body>
+</html>

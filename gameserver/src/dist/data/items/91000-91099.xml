@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="91000" name="Rash\'s Supplies - Baium">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.bm_pirate_treasure_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="51067" level="1"/>	<!--Rush's Supplies - Баюм-->
+		</skills>
+	</etcitem>
+	<etcitem id="91001" name="Box with 3 Jewels Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_shhadai"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91002" name="Box with 5 Jewels Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_bm_jewelbox_shhadai"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91003" name="Agathion Bracelet - Lv. 1" add_name="1-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_magmeld_teleport"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="100"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+		<skills>
+			<skill id="51025" level="1"/>	<!--Expand Primary and Secondary Agathion Slots-->
+		</skills>
+	</armor>
+	<armor id="91004" name="Agathion Sin Eater">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_leash_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="50"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+	</armor>
+	<etcitem id="91005" name="Crumbs of Penitence">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_powder_white_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+	</etcitem>
+	<armor id="91006" name="Damaged Zaken\'s Earring">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_earring_of_zaken_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="3559" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="40"/>
+		</for>
+	</armor>
+	<etcitem id="91007" name="Rash\'s Supplies - Zaken">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.bm_pirate_king_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="handler" value="SkillsReduce"/>
+		<skills>
+			<skill id="51078" level="1"/>	<!--Rush's Supplies - Zaken -->
+		</skills>
+	</etcitem>
+	<etcitem id="91008" name="Dragon Relic Chest">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.card_event_blue_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91009" name="Fire Dragon Relic Chest">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.card_event_red_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91010" name="Land Dragon Relic Chest">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.card_event_black_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91011" name="Dragon Dye Box" add_name="3rd Class Transfer">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.card_event_gold_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91012" name="Weapon Supply Box (Best A-grade)">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91013" name="Weapon Ingredient/Recipe Box (Top A-grade)">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91014" name="Weapon Recipe Box (Best A-grade)">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91015" name="Sirra\'s Blade Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91016" name="Sword of Ipos Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91017" name="Barakiel\'s Axe Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91018" name="Behemoth\' Tuning Fork Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91019" name="Naga Storm Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91020" name="Tiphon\'s Spear Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91021" name="Shyeed\'s Bow Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91022" name="Sobekk\'s Hurricane Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91023" name="Themis\' Tongue Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91024" name="Cabrio\'s Hand Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91025" name="Daimon Crystal Ingredient/Recipe Box">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91026" name="Dragon\'s Heart">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.etc_heart_gragon"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91027" name="Dragon Miracle Potion">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_dragon_posion_brave"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91028" name="Melissa\'s High Grade Recovery Potion">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_melisa_hp_potion"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91029" name="Hidden Box">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_exchange_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91030" name="Spirit\'s Blessing">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.elemental_bless_scrl_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="SCROLL"/>
+		<set name="autousable" value="true"/>
+		<skills>
+			<skill id="54028" level="1"/>	<!--Spirit's Blessing-->
+		</skills>
+	</etcitem>
+	<etcitem id="91031" name="Water Spirit Evolution Stone">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_evol_stone_water_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91032" name="Fire Spirit Evolution Stone">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_evol_stone_fire_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91033" name="Wind Spirit Evolution Stone">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_evol_stone_wind_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91034" name="Earth Spirit Evolution Stone">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_evol_stone_earth_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91035" name="Water Spirit Rough Jewel">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_water_stone_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91036" name="Fire Spirit Rough Jewel">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_fire_stone_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91037" name="Wind Spirit Rough Jewel">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_wind_stone_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91038" name="Earth Spirit Rough Jewel">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_earth_stone_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91039" name="Water Attribute Fragment">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_star_water_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91040" name="Fire Attribute Fragment">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_star_fire_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91041" name="Wind Attribute Fragment">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_star_wind_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="91042" name="Earth Attribute Fragment">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.elemental_star_earth_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91043" name="Nebula\'s Old Necklace" add_name="Lv1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_water_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54023" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91044" name="Nebula\'s Old Necklace" add_name="Lv2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_water_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="2"/>
+			<skill id="54023" level="2"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<add stat="maxMp" order="0x60" value="37"/>
+		</for>
+	</armor>
+	<armor id="91045" name="Nebula\'s Old Necklace" add_name="Lv3">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_water_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="3"/>
+			<skill id="54023" level="3"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="93"/>
+			<add stat="maxMp" order="0x60" value="40"/>
+		</for>
+	</armor>
+	<armor id="91046" name="Ignis\' Old Necklace" add_name="Lv1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_fire_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54024" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91047" name="Ignis\' Old Necklace" add_name="Lv2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_fire_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="2"/>
+			<skill id="54024" level="2"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<add stat="maxMp" order="0x60" value="37"/>
+		</for>
+	</armor>
+	<armor id="91048" name="Ignis\' Old Necklace" add_name="Lv3">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_fire_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="3"/>
+			<skill id="54024" level="3"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="93"/>
+			<add stat="maxMp" order="0x60" value="40"/>
+		</for>
+	</armor>
+	<armor id="91049" name="Procella\'s Old Necklace" add_name="Lv1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_wind_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54025" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91050" name="Procella\'s Old Necklace" add_name="Lv2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_wind_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="2"/>
+			<skill id="54025" level="2"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<add stat="maxMp" order="0x60" value="37"/>
+		</for>
+	</armor>
+	<armor id="91051" name="Procella\'s Old Necklace" add_name="Lv3">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_wind_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="3"/>
+			<skill id="54025" level="3"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="93"/>
+			<add stat="maxMp" order="0x60" value="40"/>
+		</for>
+	</armor>
+	<armor id="91052" name="Petram\'s Old Necklace" add_name="Lv1">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_earth_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54026" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91053" name="Petram\'s Old Necklace" add_name="Lv2">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_earth_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="2"/>
+			<skill id="54026" level="2"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<add stat="maxMp" order="0x60" value="37"/>
+		</for>
+	</armor>
+	<armor id="91054" name="Petram\'s Old Necklace" add_name="Lv3">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_earth_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="3"/>
+			<skill id="54026" level="3"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="93"/>
+			<add stat="maxMp" order="0x60" value="40"/>
+		</for>
+	</armor>
+	<armor id="91055" name="Nebula\'s Old Necklace Lv. 1" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_water_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="10080"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54023" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91056" name="Ignis\' Old Necklace Lv. 1" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_fire_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="10080"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54024" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91057" name="Procella\'s Old Necklace Lv. 1" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_wind_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="10080"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54025" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<armor id="91058" name="Petram\'s Old Necklace Lv. 1" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.elemental_necklace_earth_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="10080"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="54027" level="1"/>
+			<skill id="54026" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="87"/>
+			<add stat="maxMp" order="0x60" value="35"/>
+		</for>
+	</armor>
+	<etcitem id="91059" name="Talisman of Authority Fragment">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_PvE_empty"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91060" name="Bracelet of Authority">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ertheia_bracelet_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<armor id="91061" name="Talisman of Authority Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_g_Lv1"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91062" name="Talisman of Authority Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_g_Lv2"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91063" name="Talisman of Authority Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_g_Lv3"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91064" name="Talisman of Authority Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_g_Lv4"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91065" name="Talisman of Authority Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_g_lv5"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91066" name="Noble Talisman of Authority Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pve_Lv1"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91067" name="Noble Talisman of Authority Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pve_Lv2"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91068" name="Noble Talisman of Authority Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pve_Lv3"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91069" name="Noble Talisman of Authority Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pve_Lv4"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91070" name="Noble Talisman of Authority Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pve_lv5"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91071" name="Radiant Talisman of Authority Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pvp_Lv1"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91072" name="Radiant Talisman of Authority Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pvp_Lv2"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91073" name="Radiant Talisman of Authority Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pvp_Lv3"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91074" name="Radiant Talisman of Authority Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pvp_Lv4"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91075" name="Radiant Talisman of Authority Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.sayhas_talisman_pvp_lv5"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<etcitem id="91076" name="Venir\'s Talisman Fragment">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="icon" value="icon.bm_ensoul_stone_PvP_empty"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="91077" name="Venir\'s Talisman Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91078" name="Venir\'s Talisman Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91079" name="Venir\'s Talisman Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91080" name="Venir\'s Talisman Lv. 4">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91081" name="Venir\'s Talisman Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91082" name="Venir\'s Talisman Lv. 6">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i00"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91083" name="Venir\'s Talisman Lv. 7">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91084" name="Venir\'s Talisman Lv. 8">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91085" name="Venir\'s Talisman Lv. 9">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91086" name="Venir\'s Talisman Lv. 10">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91087" name="Venir\'s Talisman Lv. 11">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91088" name="Venir\'s Talisman Lv. 12">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i01"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91089" name="Venir\'s Talisman Lv. 13">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i02"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91090" name="Venir\'s Talisman Lv. 14">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i02"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91091" name="Venir\'s Talisman Lv. 15">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i02"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91092" name="Venir\'s Talisman Lv. 16">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i02"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91093" name="Venir\'s Talisman Lv. 17">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i02"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91094" name="Venir\'s Talisman Lv. 18">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_all_stat_talisman_i02"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="91095" name="Land Dragon Belt - Venir\'s Blessing Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_antaras_belt"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="91096" name="Land Dragon Belt - Venir\'s Blessing Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_antaras_belt"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="91097" name="Land Dragon Belt - Venir\'s Blessing Lv. 3">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_antaras_belt"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="91098" name="Fire Dragon Belt - Venir\'s Blessing Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_vallakas_belt"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+	<armor id="91099" name="Fire Dragon Belt - Venir\'s Blessing Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_vallakas_belt"/>
+		<set name="type" value="LIGHT"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="14"/>
+		</for>
+	</armor>
+</list>

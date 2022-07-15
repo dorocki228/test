@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "cubics.dtd">
+<!--Created by VISTALL-->
+<!--
+Инструкция:
+
+cubic id="1" level="1" delay="10"
+id и level используется для нужной индефикации кубика
+delay - тик кубика
+
+У каждого скила есть групы скилов skills
+chance="100" - шанс для вхождения в групу, подальшеии групы не обрабатыватся
+
+Скилы skill id="4049" level="1"  для поиска нужного скила
+ - ATTACK - аттака
+ - DEBUFF - дебафф
+ - HEAL - хил один из пати у кого ХП ниже 100%
+ - CANCEL - кенсел дебафов
+chance - шанс прохождения скила
+can_attack_door - может ли кубик бить дверь
+-->
+<list>
+    <!--Storm Cubics-->
+    <cubic id="1" level="1" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="282.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="1" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="2" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="434.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="2" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="3" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="677.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="3" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="4" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="4" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="5" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="1141.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="5" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="6" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="1394.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="6" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="7" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="1673.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="7" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="8" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="1975.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="8" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="9" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="2081.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="9" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="10" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="2133.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="10" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="11" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="2184.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="11" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="12" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="2234.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="12" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="1" level="13" duration="900" delay="10" max_count="30" use_up="INCREASE_DELAY" power="2283.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4049" level="13" use_chance="12" can_attack_door="true"/>  <!--Cubic Drain-->
+    </cubic>
+    <!--Vampiric Cubics-->
+    <cubic id="2" level="1" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="351.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="1" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="2" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="531.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="2" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="3" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="773.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="3" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="4" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="1026.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="4" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="5" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="1264.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="5" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="6" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="1530.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="6" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="7" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="1822.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="7" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="8" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="1919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="8" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="9" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="1967.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="9" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="10" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="2015.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="10" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="11" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="2061.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="11" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="12" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="12" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <cubic id="2" level="13" duration="900" delay="15" max_count="20" use_up="INCREASE_DELAY" power="2151.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4050" level="13" use_chance="8"/>  <!--Cubic Drain-->
+    </cubic>
+    <!--Life Cubics-->
+    <cubic id="3" level="1" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="1">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="2" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="2">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="3" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="3">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="4" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="4">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="5" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="5">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="6" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="6">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="7" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="7">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="8" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="8">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="9" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="9">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="10" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="10">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="11" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="11">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="12" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="12">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <cubic id="3" level="13" duration="900" delay="13" max_count="20" use_up="INCREASE_DELAY" power="0"
+           target_type="HEAL">
+        <skill chance="100" id="4051" level="13">  <!--Cubic Heal-->
+            <chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+            <chance min_hp_percent="31" max_hp_percent="60" value="30"/>
+            <chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+        </skill>
+    </cubic>
+    <!--Viper Cubics-->
+    <cubic id="4" level="1" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="531.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="1" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="2" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="773.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="2" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="3" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="1026.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="3" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="4" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="1264.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="4" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="5" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="1530.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="5" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="6" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="1822.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="6" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="7" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="1919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="7" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="8" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="1967.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="8" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="9" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="2015.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="9" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="10" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="2061.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="10" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="11" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="11" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <cubic id="4" level="12" duration="900" delay="20" max_count="15" use_up="INCREASE_DELAY" power="2151.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4052" level="12" use_chance="20"/>  <!--Poison-->
+    </cubic>
+    <!--Phantom Cubics-->
+    <cubic id="5" level="1" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="282.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="1" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="1" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="1" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="2" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="434.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="2" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="2" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="2" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="3" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="644.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="3" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="3" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="3" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="4" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="4" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="4" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="4" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="5" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="1141.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="5" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="5" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="5" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="6" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="1394.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="6" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="6" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="6" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="7" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="1673.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="7" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="7" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="7" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="8" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="1975.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="8" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="8" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="8" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="9" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="2081.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="9" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="9" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="9" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="10" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="2133.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="10" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="10" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="10" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="11" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="2184.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="11" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="11" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="11" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="12" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="2234.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="12" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="12" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="12" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <cubic id="5" level="13" duration="900" delay="8" max_count="30" use_up="INCREASE_DELAY" power="2283.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="33" id="4053" level="13" use_chance="30"/>  <!--Decrease P. Atk.-->
+        <skill chance="33" id="4054" level="13" use_chance="30"/>  <!--Decrease P. Def.-->
+        <skill chance="33" id="4055" level="13" use_chance="30"/>  <!--Decrease Atk. Spd.-->
+    </cubic>
+    <!--Binding Cubics-->
+    <cubic id="6" level="1" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="282.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="1" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="2" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="377.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="2" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="3" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="497.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="3" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="4" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="644.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="4" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="5" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="820.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="5" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="6" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1026.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="6" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="7" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1264.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="7" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="8" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1530.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="8" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="9" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1822.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="9" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="10" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="10" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="11" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1967.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="11" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="12" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2015.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="12" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="13" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2061.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="13" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="14" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2151.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="14" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <cubic id="6" level="15" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2194.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4164" level="15" use_chance="12"/>  <!--Paralysis-->
+    </cubic>
+    <!--Aqua Cubics-->
+    <cubic id="7" level="1" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="282.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="1" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="2" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="377.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="2" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="3" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="497.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="3" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="4" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="644.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="4" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="5" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="820.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="5" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="6" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1141.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="6" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="7" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1394.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="7" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="8" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1673.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="8" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="9" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1975.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="9" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="10" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2081.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="10" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="11" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2133.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="11" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="12" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2184.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="12" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="13" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2234.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="12" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <cubic id="7" level="14" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2283.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4165" level="14" use_chance="30"/>  <!--Icy Air-->
+    </cubic>
+    <!--Spark Cubics-->
+    <cubic id="8" level="1" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="282.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="1" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="2" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="377.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="2" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="3" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="497.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="3" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="4" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="644.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="4" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="5" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="820.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="5" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="6" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1026.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="6" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="7" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1264.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="7" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="8" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1530.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="8" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="9" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1822.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="9" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="10" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="10" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="11" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="1967.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="11" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="12" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2015.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="12" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="13" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2061.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="13" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="14" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2151.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="14" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <cubic id="8" level="15" duration="900" delay="30" max_count="10" use_up="INCREASE_DELAY" power="2194.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="33" hp="1000"/>
+        <skill chance="100" id="4166" level="15" use_chance="12"/>  <!--Stun-->
+    </cubic>
+    <!--Attractive Cubics-->
+    <cubic id="9" level="1" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="1026.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="1" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="1" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="1" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="2" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="1264.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="2" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="2" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="2" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="3" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="1530.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="3" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="3" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="3" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="4" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="1822.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="4" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="4" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="4" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="5" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="1919.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="5" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="5" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="5" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="6" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="1967.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="6" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="6" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="6" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="7" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="2015.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="7" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="7" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="7" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="8" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="2061.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="8" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="8" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="8" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <cubic id="9" level="9" duration="900" delay="8" max_count="300" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="TARGET">
+        <op_cond type="GREATER" hp_percent="30" hp="1000"/>
+        <skill chance="33" id="5115" level="9" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5115" level="9" use_chance="50"/>  <!--Cubic Hate-->
+        <skill chance="33" id="5116" level="9" use_chance="50"/>  <!--Cubic Hold-->
+    </cubic>
+    <!--Smart Cubics-->
+    <cubic id="10" level="1" slot="10" duration="900" delay="10" max_count="50" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="BY_SKILL">
+        <skill chance="25" id="4165" level="9" use_chance="30" target_type="TARGET"/>  <!--Icy Air-->
+        <skill chance="25" id="4053" level="8" use_chance="30" target_type="TARGET"/>  <!--Decrease P. Atk.-->
+        <skill chance="50" id="5579" level="1" use_chance="99" target_type="MASTER"/>  <!--Cubic Cure-->
+    </cubic>
+    <cubic id="11" level="1" slot="10" duration="900" delay="10" max_count="50" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="BY_SKILL">
+        <skill chance="40" id="5115" level="4" use_chance="84" target_type="TARGET"/>  <!--Cubic Hate-->
+        <skill chance="15" id="4049" level="8" use_chance="40" target_type="TARGET"
+               can_attack_door="true"/>  <!--Cubic Drain-->
+        <skill chance="45" id="5579" level="1" use_chance="99" target_type="MASTER"/>  <!--Cubic Cure-->
+    </cubic>
+    <cubic id="12" level="1" slot="10" duration="900" delay="13" max_count="50" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="BY_SKILL">
+        <skill chance="20" id="4165" level="9" use_chance="30" target_type="TARGET"/>  <!--Icy Air-->
+        <skill chance="30" id="4051" level="1" target_type="TARGET">  <!--Cubic Heal-->
+            <chance min_hp_percent="80" max_hp_percent="100" value="30"/>
+        </skill>
+        <skill chance="50" id="5579" level="1" use_chance="99" target_type="MASTER"/>  <!--Cubic Cure-->
+    </cubic>
+    <cubic id="13" level="1" slot="10" duration="900" delay="13" max_count="50" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="BY_SKILL">
+        <skill chance="25" id="4049" level="8" use_chance="30" target_type="TARGET"/>  <!--Cubic Drain-->
+        <skill chance="25" id="4166" level="9" use_chance="30" target_type="TARGET"/>  <!--Stun-->
+        <skill chance="50" id="5579" level="1" use_chance="99" target_type="MASTER"/>  <!--Cubic Cure-->
+    </cubic>
+    <cubic id="14" level="1" slot="10" duration="900" delay="13" max_count="50" use_up="INCREASE_DELAY" power="2106.0"
+           target_type="BY_SKILL">
+        <skill chance="30" id="4049" level="8" use_chance="33" target_type="TARGET"/>  <!--Cubic Drain-->
+        <skill chance="20" id="4052" level="6" use_chance="45" target_type="TARGET"/>  <!--Poison-->
+        <skill chance="50" id="5579" level="1" use_chance="99" target_type="MASTER"/>  <!--Cubic Cure-->
+    </cubic>
+</list>

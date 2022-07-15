@@ -1,0 +1,11 @@
+<html><head><body>
+Head Blacksmith Flutter:<br>
+Me? I'm the Head Blacksmith of the Black Anvil Guild here in Oren. And yes, my name is Flutter. You wanna make something of it? Hmm? No. Good. So, what can I do for you? All these Artisans coming over for Warsmith class transfers has really been keeping us hopping lately.<br>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_changeclass">"Can you tell me about the 2nd Class Transfer?"</Button>
+#if ($ENABLE_SUB_CLASSES)
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h menu_select?ask=-2&reply=5">Sub Class</Button>
+#end
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_manage_clan">Clan</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_manage_alliance">Alliance</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h talk_select">Quest</Button>
+</body></html>

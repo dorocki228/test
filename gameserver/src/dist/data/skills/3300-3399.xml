@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="3322" level="1" name="Iron Bracelet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_c_i00"/>
+        <set name="magic_level" value="20"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_deco_slot">
+                <def name="p_expand_deco_slot_param1" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="3323" level="1" name="Bronze Bracelet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_b_i01"/>
+        <set name="magic_level" value="40"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_deco_slot">
+                <def name="p_expand_deco_slot_param1" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="3324" level="1" name="Steel Bracelet">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.etc_rbracelet_a_i02"/>
+        <set name="magic_level" value="52"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_expand_deco_slot">
+                <def name="p_expand_deco_slot_param1" value="3"/>
+            </effect>
+        </for>
+    </skill>
+</list>

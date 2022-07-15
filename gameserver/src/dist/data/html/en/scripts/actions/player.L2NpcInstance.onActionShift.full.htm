@@ -1,0 +1,73 @@
+<html><body>
+<center><font color="LEVEL">
+	<?npc_name?> [AI: %ai_type%]<br1>
+	Level <?level?> %class%, faction %factionId%
+</font></center>
+<table border=0 width="294">
+	<tr>
+		<td width="20"><font color="9C9C9A">ID</font></td>
+		<td width="56"><font color="9C896B"><?id?></font></td>
+		<td width="40"><font color="9C9C9A">Aggro</font></td>
+		<td width="56"><font color="9C896B">%aggro%</font></td>
+		<td width="60"><font color="9C9C9A">Respawn</font></td>
+		<td width="56"><font color="9C896B">%respawn%</font></td>
+	</tr>
+</table>
+<table border=0 width="294">
+	<tr>
+		<td width="60"><font color="9C9C9A">Location</font></td>
+		<td width="230"><font color="9C896B">%loc%</font></td>
+	</tr>
+</table>
+<table border=0 width="294">
+	<tr>
+		<td width="30"><font color="9C9C9A">Pos</font></td>
+		<td width="140"><font color="9C896B">%xyz%</font></td>
+		<td width="60"><font color="9C9C9A">Direction</font></td>
+		<td width="60"><font color="9C896B">%direction%</font></td>
+	</tr>
+</table>
+<table border=0 width="294">
+	<tr><td width=><font color="LEVEL">Combat</font></td><td></td></tr>
+	<tr><td><font color="9C9C9A">Cur.HP</font></td><td><font color="9C896B">%currentHP%</font></td>
+	<td><font color="9C9C9A">Cur.MP</font></td><td><font color="9C896B">%currentMP%</font></td></tr>
+	<tr><td><font color="9C9C9A">Max.HP</font></td><td><font color="9C896B"><?max_hp?></font></td>
+	<td><font color="9C9C9A">Max.MP</font></td><td><font color="9C896B"><?max_mp?></font></td></tr>
+	<tr><td><font color="9C9C9A">Regen.HP</font></td><td><font color="9C896B">%hp_regen%</font></td>
+	<td><font color="9C9C9A">Regen.MP</font></td><td><font color="9C896B">%mp_regen%</font></td></tr>
+	<tr><td><font color="9C9C9A">P.Atk.</font></td><td><font color="9C896B">%pAtk%</font></td>
+	<td><font color="9C9C9A">M.Atk.</font></td><td><font color="9C896B">%mAtk%</font></td></tr>
+	<tr><td><font color="9C9C9A">P.Def.</font></td><td><font color="9C896B">%pDef%</font></td>
+	<td><font color="9C9C9A">M.Def.</font></td><td><font color="9C896B">%mDef%</font></td></tr>
+	<tr><td><font color="9C9C9A">P. Acc.</font></td><td><font color="9C896B">%pacc%</font></td>
+	<td><font color="9C9C9A">M. Acc.</font></td><td><font color="9C896B">%macc%</font></td></tr>
+	<tr><td><font color="9C9C9A">P. Evs.</font></td><td><font color="9C896B">%pevs%</font></td>
+	<td><font color="9C9C9A">M. Evs.</font></td><td><font color="9C896B">%mevs%</font></td></tr>
+	<tr><td><font color="9C9C9A">P. Crit.</font></td><td><font color="9C896B">%pcrt%</font></td>
+	<td><font color="9C9C9A">M. Crit.</font></td><td><font color="9C896B">%mcrt%</font></td></tr>
+	<tr><td><font color="9C9C9A">Spd</font></td><td><font color="9C896B">%walkSpeed%/%runSpeed%</font></td>
+	<td></td><td></td></tr>
+	<tr><td><font color="9C9C9A">Atk.Spd</font></td><td><font color="9C896B">%aspd%</font></td>
+	<td><font color="9C9C9A">Cst.Spd</font></td><td><font color="9C896B">%cspd%</font></td></tr>
+	<tr><td><font color="9C9C9A">Dist.</font></td><td><font color="9C896B">%dist%</font></td>
+	<td><font color="9C9C9A">Killed</font></td><td><font color="9C896B">%killed%</font></td></tr>
+	<tr><td><font color="9C9C9A">Exp</font></td><td><font color="9C896B"><?xp_reward?></font></td>
+	<td><font color="9C9C9A">Sp</font></td><td><font color="9C896B"><?sp_reward?></font></td></tr>
+</table>
+<br>
+<font color="LEVEL">Events:</font> %event%
+<br>
+<table>
+<tr>
+	<td><button value="Drop List" action="bypass -h htmbypass_actions.OnActionShift:droplist" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td><button value="Resists" action="bypass -h htmbypass_actions.OnActionShift:resists" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td><button value="Aggro" action="bypass -h htmbypass_actions.OnActionShift:aggro" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+	<td><button value="Quests" action="bypass -h htmbypass_actions.OnActionShift:quests" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td><button value="Skills" action="bypass -h htmbypass_actions.OnActionShift:skills" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td><button value="Effects" action="bypass -h htmbypass_actions.OnActionShift:effects" width=80 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><br>
+</table><br>
+%AI%<br>
+</body></html>

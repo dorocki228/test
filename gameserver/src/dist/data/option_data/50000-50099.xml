@@ -1,0 +1,702 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+	<option_data id="50000">
+		<for>
+			<!--Маг. Защ. +9.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="9"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50001">
+		<for>
+			<!--Маг. Защ. +10.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="10"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50002">
+		<for>
+			<!--Маг. Защ. +12.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50003">
+		<for>
+			<!--Маг. Защ. +13.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="13"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50004">
+		<for>
+			<!--Маг. Защ. +14.-->
+			<!--Бонус опыта и SP +2%.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="14"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="2"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="2"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50005">
+		<for>
+			<!--Маг. Защ. +15.-->
+			<!--Бонус опыта и SP +5%.-->
+			<!--Физ / Маг. Атк. +10.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="15"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="5"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="5"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="10"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="10"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50006">
+		<for>
+			<!--Маг. Защ. +16.-->
+			<!--Бонус опыта и SP +10%.-->
+			<!--Физ / Маг. Атк. +20.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="16"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="10"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="10"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="20"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="20"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50007">
+		<for>
+			<!--Маг. Защ. +17.-->
+			<!--Бонус опыта и SP +20%.-->
+			<!--Физ / Маг. Атк. +30.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="17"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="20"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="20"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="30"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="30"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50008">
+		<for>
+			<!--Маг. Защ. +18.-->
+			<!--Бонус опыта и SP +25%.-->
+			<!--Физ / Маг. Атк. +40. Сила Физ. / Маг. Крит. Атк. +\\n5%.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="18"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="25"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="25"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="40"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="40"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_rate">
+				<def name="p_critical_rate_param1" value="all"/>
+				<def name="p_critical_rate_param2" value="5"/>
+				<def name="p_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50009">
+		<for>
+			<!--Маг. Защ. +20.-->
+			<!--Бонус опыта и SP +30%.-->
+			<!--Физ / Маг. Атк. +50. Сила Физ. / Маг. Крит. Атк. +\\n5%.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="20"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="30"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="30"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="50"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="50"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_rate">
+				<def name="p_critical_rate_param1" value="all"/>
+				<def name="p_critical_rate_param2" value="5"/>
+				<def name="p_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50010">
+		<for>
+			<!--Маг. Защ. +21.-->
+			<!--Бонус опыта и SP +30%.-->
+			<!--Физ / Маг. Атк. +60. Сила Физ. / Маг. Крит. Атк. +\\n5%.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="21"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_exp_modify">
+				<def name="p_exp_modify_param1" value="30"/>
+			</effect>
+			<effect name="p_sp_modify">
+				<def name="p_sp_modify_param1" value="30"/>
+			</effect>
+			<effect name="p_physical_attack">
+				<def name="p_physical_attack_param1" value="all"/>
+				<def name="p_physical_attack_param2" value="60"/>
+				<def name="p_physical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_magical_attack">
+				<def name="p_magical_attack_param1" value="all"/>
+				<def name="p_magical_attack_param2" value="60"/>
+				<def name="p_magical_attack_param3" value="diff"/>
+			</effect>
+			<effect name="p_critical_rate">
+				<def name="p_critical_rate_param1" value="all"/>
+				<def name="p_critical_rate_param2" value="5"/>
+				<def name="p_critical_rate_param3" value="diff"/>
+			</effect>
+			<effect name="p_magic_critical_rate">
+				<def name="p_magic_critical_rate_param1" value="all"/>
+				<def name="p_magic_critical_rate_param2" value="5"/>
+				<def name="p_magic_critical_rate_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50011">
+		<!--Активное: Благословение Дракона Огня-->
+		<skills>
+			<skill id="35000" level="1"/> <!--Item Skill: Mystery Skill-->
+		</skills>
+	</option_data>
+	<option_data id="50012">
+		<!--Активное: Благословение / Покровительство Дракона \\nОгня-->
+		<skills>
+			<skill id="35001" level="1"/>
+		</skills>
+	</option_data>
+	<option_data id="50013">
+		<for>
+			<!--Маг. Защ. +9.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="9"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50014">
+		<for>
+			<!--Маг. Защ. +10.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="10"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50015">
+		<for>
+			<!--Маг. Защ. +12.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="12"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50016">
+		<for>
+			<!--Маг. Защ. +13.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="13"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50017">
+		<for>
+			<!--Маг. Защ. +14.-->
+			<!--Макс. HP +100. Макс. MP +40.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="14"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="100"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="40"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50018">
+		<for>
+			<!--Маг. Защ. +15.-->
+			<!--Макс. HP +150. Макс. MP +50.-->
+			<!--Получаемый урон -3%.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="15"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="150"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="50"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<def name="p_pvp_physical_attack_defence_bonus_param1" value="3"/>
+				<def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<def name="p_pvp_magical_skill_defence_bonus_param1" value="3"/>
+				<def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<def name="p_pvp_physical_skill_defence_bonus_param1" value="3"/>
+				<def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_attack_defence_bonus">
+				<def name="amount" value="3"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_magical_skill_defence_bonus">
+				<def name="amount" value="3"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_skill_defence_bonus">
+				<def name="amount" value="3"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50019">
+		<for>
+			<!--Маг. Защ. +16.-->
+			<!--Макс. HP +200. Макс. MP +60. Макс. CP ++200.-->
+			<!--Получаемый урон -5%.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="16"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="200"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="60"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="200"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<def name="p_pvp_physical_attack_defence_bonus_param1" value="5"/>
+				<def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<def name="p_pvp_magical_skill_defence_bonus_param1" value="5"/>
+				<def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<def name="p_pvp_physical_skill_defence_bonus_param1" value="5"/>
+				<def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_attack_defence_bonus">
+				<def name="amount" value="5"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_magical_skill_defence_bonus">
+				<def name="amount" value="5"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_skill_defence_bonus">
+				<def name="amount" value="5"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50020">
+		<for>
+			<!--Маг. Защ. +17.-->
+			<!--Макс. HP +300. Макс. MP +90. Макс. CP ++300.-->
+			<!--Получаемый урон -10%. Скорость +7.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="17"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="300"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="90"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="300"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+			<effect name="p_speed">
+				<def name="p_speed_param1" value="all"/>
+				<def name="p_speed_param2" value="7"/>
+				<def name="p_speed_param3" value="diff"/>
+			</effect>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<def name="p_pvp_physical_attack_defence_bonus_param1" value="10"/>
+				<def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<def name="p_pvp_magical_skill_defence_bonus_param1" value="10"/>
+				<def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<def name="p_pvp_physical_skill_defence_bonus_param1" value="10"/>
+				<def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_attack_defence_bonus">
+				<def name="amount" value="10"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_magical_skill_defence_bonus">
+				<def name="amount" value="10"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_skill_defence_bonus">
+				<def name="amount" value="10"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50021">
+		<for>
+			<!--Маг. Защ. +18.-->
+			<!--Макс. HP +400. Макс. MP +120. Макс. CP ++400.-->
+			<!--Получаемый урон -20%. Скорость +7.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="18"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="400"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="120"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="400"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+			<effect name="p_speed">
+				<def name="p_speed_param1" value="all"/>
+				<def name="p_speed_param2" value="7"/>
+				<def name="p_speed_param3" value="diff"/>
+			</effect>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<def name="p_pvp_physical_attack_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<def name="p_pvp_magical_skill_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<def name="p_pvp_physical_skill_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_attack_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_magical_skill_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_skill_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50022">
+		<for>
+			<!--Маг. Защ. +20.-->
+			<!--Макс. HP +500. Макс. MP +150. Макс. CP ++500.-->
+			<!--Получаемый урон -20%. Скорость +7.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="20"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="500"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="150"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="500"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+			<effect name="p_speed">
+				<def name="p_speed_param1" value="all"/>
+				<def name="p_speed_param2" value="7"/>
+				<def name="p_speed_param3" value="diff"/>
+			</effect>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<def name="p_pvp_physical_attack_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<def name="p_pvp_magical_skill_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<def name="p_pvp_physical_skill_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_attack_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_magical_skill_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_skill_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50023">
+		<for>
+			<!--Маг. Защ. +21.-->
+			<!--Макс. HP +500. Макс. MP +150. Макс. CP ++500.-->
+			<!--Получаемый урон -20%. Скорость +7.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="21"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="500"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="150"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="500"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+			<effect name="p_speed">
+				<def name="p_speed_param1" value="all"/>
+				<def name="p_speed_param2" value="7"/>
+				<def name="p_speed_param3" value="diff"/>
+			</effect>
+			<effect name="p_pvp_physical_attack_defence_bonus">
+				<def name="p_pvp_physical_attack_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_magical_skill_defence_bonus">
+				<def name="p_pvp_magical_skill_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pvp_physical_skill_defence_bonus">
+				<def name="p_pvp_physical_skill_defence_bonus_param1" value="20"/>
+				<def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_attack_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_magical_skill_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+			<effect name="p_pve_physical_skill_defence_bonus">
+				<def name="amount" value="20"/>
+				<def name="type" value="enemy_all"/>
+				<def name="mode" value="per"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50024">
+		<!--Активное: Дыхание Дракона Земли-->
+		<skills>
+			<skill id="35002" level="1"/> <!--Item Skill: Mystery Skill-->
+		</skills>
+	</option_data>
+	<option_data id="50025">
+		<!--Активное: Дыхание / Защита Дракона Земли-->
+		<skills>
+			<skill id="35003" level="1"/> <!--Item Skill: Mystery Skill-->
+		</skills>
+	</option_data>
+</list>

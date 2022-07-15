@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "upgrade_system.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_upgrade id="13100" type="2" item_id="90472" enchant_level="12" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="60">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<fail chance="40">
+				<item id="91522" count="1"/>	<!--Sealed Major Arcana Circlet Crafting Pack-->
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13101" type="2" item_id="90472" enchant_level="13" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13102" type="2" item_id="90472" enchant_level="14" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="30">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13103" type="2" item_id="90472" enchant_level="15" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="40">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13104" type="2" item_id="90472" enchant_level="16" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="80">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13105" type="2" item_id="90472" enchant_level="17" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13106" type="2" item_id="90472" enchant_level="18" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13107" type="2" item_id="90472" enchant_level="19" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="3"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13108" type="2" item_id="90472" enchant_level="20" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="4"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13109" type="2" item_id="90472" enchant_level="21" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="5"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13110" type="2" item_id="90472" enchant_level="22" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="6"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13111" type="2" item_id="90472" enchant_level="23" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="7"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13112" type="2" item_id="90472" enchant_level="24" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="8"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13113" type="2" item_id="90472" enchant_level="25" price="1000000">	<!--Dark Crystal Helmet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="9"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13114" type="2" item_id="90475" enchant_level="10" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="70">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<fail chance="30">
+				<item id="91522" count="1"/>	<!--Sealed Major Arcana Circlet Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13115" type="2" item_id="90475" enchant_level="11" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="80">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<fail chance="20">
+				<item id="91522" count="1"/>	<!--Sealed Major Arcana Circlet Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13116" type="2" item_id="90475" enchant_level="12" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13117" type="2" item_id="90475" enchant_level="13" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="50">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13118" type="2" item_id="90475" enchant_level="14" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="70">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13119" type="2" item_id="90475" enchant_level="15" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13120" type="2" item_id="90475" enchant_level="16" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13121" type="2" item_id="90475" enchant_level="17" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="3"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13122" type="2" item_id="90475" enchant_level="18" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="4"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13123" type="2" item_id="90475" enchant_level="19" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="5"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13124" type="2" item_id="90475" enchant_level="20" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="6"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13125" type="2" item_id="90475" enchant_level="21" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="7"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13126" type="2" item_id="90475" enchant_level="22" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="8"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13127" type="2" item_id="90475" enchant_level="23" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="9"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13128" type="2" item_id="90475" enchant_level="24" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="10"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13129" type="2" item_id="90475" enchant_level="25" price="1000000">	<!--Helm of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="11"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13130" type="2" item_id="90478" enchant_level="10" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="70">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<fail chance="30">
+				<item id="91522" count="1"/>	<!--Sealed Major Arcana Circlet Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13131" type="2" item_id="90478" enchant_level="11" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="80">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<fail chance="20">
+				<item id="91522" count="1"/>	<!--Sealed Major Arcana Circlet Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13132" type="2" item_id="90478" enchant_level="12" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13133" type="2" item_id="90478" enchant_level="13" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="50">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13134" type="2" item_id="90478" enchant_level="14" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="70">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13135" type="2" item_id="90478" enchant_level="15" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13136" type="2" item_id="90478" enchant_level="16" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13137" type="2" item_id="90478" enchant_level="17" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="3"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13138" type="2" item_id="90478" enchant_level="18" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="4"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13139" type="2" item_id="90478" enchant_level="19" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="5"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13140" type="2" item_id="90478" enchant_level="20" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="6"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13141" type="2" item_id="90478" enchant_level="21" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="7"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13142" type="2" item_id="90478" enchant_level="22" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="8"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13143" type="2" item_id="90478" enchant_level="23" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="9"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13144" type="2" item_id="90478" enchant_level="24" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="10"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13145" type="2" item_id="90478" enchant_level="25" price="1000000">	<!--Majestic Circlet-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6687" count="1"/>	<!--Sealed Major Arcana Circlet-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="11"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13146" type="2" item_id="641" enchant_level="10" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="50">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<fail chance="50">
+				<item id="91513" count="1"/>	<!--Sealed Imperial Crusader Shield Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13147" type="2" item_id="641" enchant_level="11" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="50">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<fail chance="50">
+				<item id="91513" count="1"/>	<!--Sealed Imperial Crusader Shield Crafting Pack-->
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13148" type="2" item_id="641" enchant_level="12" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="60">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<fail chance="40">
+				<item id="91513" count="1"/>	<!--Sealed Imperial Crusader Shield Crafting Pack-->
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13149" type="2" item_id="641" enchant_level="13" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13150" type="2" item_id="641" enchant_level="14" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="30">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13151" type="2" item_id="641" enchant_level="15" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="40">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13152" type="2" item_id="641" enchant_level="16" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="80">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13153" type="2" item_id="641" enchant_level="17" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13154" type="2" item_id="641" enchant_level="18" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13155" type="2" item_id="641" enchant_level="19" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="3"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13156" type="2" item_id="641" enchant_level="20" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="4"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13157" type="2" item_id="641" enchant_level="21" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="5"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13158" type="2" item_id="641" enchant_level="22" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="6"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13159" type="2" item_id="641" enchant_level="23" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="7"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13160" type="2" item_id="641" enchant_level="24" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="8"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13161" type="2" item_id="641" enchant_level="25" price="1000000">	<!--Dark Crystal Shield-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="2"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="9"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13162" type="2" item_id="2498" enchant_level="10" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="70">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<fail chance="30">
+				<item id="91513" count="1"/>	<!--Sealed Imperial Crusader Shield Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13163" type="2" item_id="2498" enchant_level="11" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="80">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<fail chance="20">
+				<item id="91513" count="1"/>	<!--Sealed Imperial Crusader Shield Crafting Pack-->
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</fail>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13164" type="2" item_id="2498" enchant_level="12" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13165" type="2" item_id="2498" enchant_level="13" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="50">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13166" type="2" item_id="2498" enchant_level="14" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="70">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13167" type="2" item_id="2498" enchant_level="15" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="1"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13168" type="2" item_id="2498" enchant_level="16" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="2"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13169" type="2" item_id="2498" enchant_level="17" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="3"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13170" type="2" item_id="2498" enchant_level="18" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="4"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13171" type="2" item_id="2498" enchant_level="19" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="5"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13172" type="2" item_id="2498" enchant_level="20" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="6"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13173" type="2" item_id="2498" enchant_level="21" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="7"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13174" type="2" item_id="2498" enchant_level="22" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="8"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13175" type="2" item_id="2498" enchant_level="23" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="9"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13176" type="2" item_id="2498" enchant_level="24" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="10"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="13177" type="2" item_id="2498" enchant_level="25" price="1000000">	<!--Shield of Nightmare-->
+		<required_items>
+			<item id="1461" count="50"/>	<!--Crystal (A-grade)-->
+			<item id="91548" count="1"/>	<!--Special Armor Polish (A-grade)-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="6678" count="1"/>	<!--Sealed Imperial Crusader Shield-->
+			</success>
+			<bonus chance="100">
+				<item id="960" count="11"/>	<!--Scroll: Enchant Armor (S-grade)-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+</list>

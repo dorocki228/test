@@ -1,0 +1,4523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="18120" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3864869"/>
+		<set name="rewardSp" value="57973"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="12"/>	<!--HP Increase (4x)-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="13"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4318" level="1" use_type="SelfBuff1"/>	<!--Ultimate Buff-->
+			<skill id="4340" level="1" use_type="SelfBuff2"/>	<!--Ultimate Buff, 2nd-->
+			<skill id="4341" level="1" use_type="SelfBuff3"/>	<!--Ultimate Buff, 3rd-->
+		</skills>
+	</npc>
+	<npc id="18121" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="4763948"/>
+		<set name="rewardSp" value="71459"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="543.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="329.133345"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18122" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="RndTeleportFighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5006491"/>
+		<set name="rewardSp" value="75097"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18123" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5188344"/>
+		<set name="rewardSp" value="77825"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="7"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="15"/>	<!--HP Increase (7x)-->
+			<skill id="4410" level="16"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="16"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="16"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="16"/>	<!--Very Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4318" level="1" use_type="SelfBuff1"/>	<!--Ultimate Buff-->
+			<skill id="4340" level="1" use_type="SelfBuff2"/>	<!--Ultimate Buff, 2nd-->
+			<skill id="4341" level="1" use_type="SelfBuff3"/>	<!--Ultimate Buff, 3rd-->
+		</skills>
+	</npc>
+	<npc id="18124" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5363912"/>
+		<set name="rewardSp" value="80458"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="8"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="543.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="329.133345"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="16"/>	<!--HP Increase (8x)-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="17"/>	<!--Very Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18125" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="RndTeleportFighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2856981"/>
+		<set name="rewardSp" value="42854"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="13"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="13"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18126" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4318" level="1" use_type="SelfBuff1"/>	<!--Ultimate Buff-->
+			<skill id="4340" level="1" use_type="SelfBuff2"/>	<!--Ultimate Buff, 2nd-->
+			<skill id="4341" level="1" use_type="SelfBuff3"/>	<!--Ultimate Buff, 3rd-->
+		</skills>
+	</npc>
+	<npc id="18127" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="543.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="329.133345"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18128" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="RndTeleportFighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18129" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4318" level="1" use_type="SelfBuff1"/>	<!--Ultimate Buff-->
+			<skill id="4340" level="1" use_type="SelfBuff2"/>	<!--Ultimate Buff, 2nd-->
+			<skill id="4341" level="1" use_type="SelfBuff3"/>	<!--Ultimate Buff, 3rd-->
+		</skills>
+	</npc>
+	<npc id="18130" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="543.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="329.133345"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18131" name="Halisha's Officer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="RndTeleportFighter"/>
+		<set name="collision_height" value="36"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="172.805635"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="-3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<equip>
+			<rhand item_id="134"/>	<!--Sword of Nightmare-->
+			<lhand item_id="6721"/>	<!--Monster Only(Shield of Imperial Warlord Zombie)-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18132" name="Imperial Healer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="54.5"/>
+		<set name="collision_radius" value="19"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1797291"/>
+		<set name="rewardSp" value="26959"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="989.5768425"/>
+		<set name="basePDef" value="397.654669"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="572.41341036"/>
+		<set name="baseMDef" value="162.046705"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.59"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4413" level="17"/>	<!--Very Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4569" level="10" use_type="W_SelfRangeDDMagic"/>	<!--NPC AE Solar Flare - Magic-->
+			<skill id="4640" level="10" use_type="W_RangeDeBuff"/>	<!--Sleep-->
+			<skill id="4613" level="10" use_type="W_RangeHeal"/>	<!--NPC Clan Heal-->
+		</skills>
+	</npc>
+	<npc id="18133" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="66"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1792522"/>
+		<set name="rewardSp" value="26887"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1047.71442"/>
+		<set name="basePDef" value="349.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="172.01105"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.54"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4412" level="13"/>	<!--Slightly Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial"/>	<!--Poison-->
+		</skills>
+	</npc>
+	<npc id="18134" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="66"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1792522"/>
+		<set name="rewardSp" value="26887"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1047.71442"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.54"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4412" level="13"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+		</skills>
+	</npc>
+	<npc id="18135" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="66"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1792522"/>
+		<set name="rewardSp" value="26887"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1047.71442"/>
+		<set name="basePDef" value="149.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="172.01105"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.54"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4410" level="13"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4412" level="13"/>	<!--Slightly Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+			<skill id="4032" level="10" use_type="PhysicalSpecial2"/>	<!--NPC Strike-->
+		</skills>
+	</npc>
+	<npc id="18136" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="66"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1786236"/>
+		<set name="rewardSp" value="26793"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="952.4677125"/>
+		<set name="basePDef" value="143.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="229.133345"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.54"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial"/>	<!--Poison-->
+			<skill id="4091" level="1" use_type="SelfBuff"/>	<!--NPC Ogre Spirit Totem-->
+		</skills>
+	</npc>
+	<npc id="18137" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1813980"/>
+		<set name="rewardSp" value="27209"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="349.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="172.01105"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4411" level="16"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4563" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Solar Flare - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18138" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1786236"/>
+		<set name="rewardSp" value="26793"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="349.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="172.01105"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4563" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Solar Flare - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+			<skill id="4609" level="4" use_type="W_ClanBuff"/>	<!--NPC Clan Buff - Vampiric Rage-->
+		</skills>
+	</npc>
+	<npc id="18139" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1786236"/>
+		<set name="rewardSp" value="26793"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="349.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="172.01105"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4563" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Solar Flare - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+			<skill id="4587" level="10" use_type="W_RangeDeBuff"/>	<!--Decrease P. Atk.-->
+		</skills>
+	</npc>
+	<npc id="18140" name="Imperial Mosaic" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1786236"/>
+		<set name="rewardSp" value="26793"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="3"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="443.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="229.133345"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb1_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="13"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4033" level="10" use_type="W_SelfRangeDDMagic"/>	<!--NPC Burn-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18141" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5695973"/>
+		<set name="rewardSp" value="85439"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1928.405625"/>
+		<set name="basePDef" value="306.69134325"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2173.73897102"/>
+		<set name="baseMDef" value="185.7872625"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4568" level="10" use_type="RangeDDMagic1"/>	<!--NPC AE Solar Flare-->
+			<skill id="4576" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Damage Shield-->
+		</skills>
+	</npc>
+	<npc id="18142" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5977531"/>
+		<set name="rewardSp" value="89662"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1928.405625"/>
+		<set name="basePDef" value="306.69134325"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2173.73897102"/>
+		<set name="baseMDef" value="185.7872625"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4568" level="10" use_type="RangeDDMagic1"/>	<!--NPC AE Solar Flare-->
+			<skill id="4576" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Damage Shield-->
+		</skills>
+	</npc>
+	<npc id="18143" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="6185394"/>
+		<set name="rewardSp" value="92780"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="7"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1928.405625"/>
+		<set name="basePDef" value="306.69134325"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2173.73897102"/>
+		<set name="baseMDef" value="185.7872625"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="15"/>	<!--HP Increase (7x)-->
+			<skill id="4410" level="16"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="16"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="16"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="16"/>	<!--Very Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4568" level="10" use_type="RangeDDMagic1"/>	<!--NPC AE Solar Flare-->
+			<skill id="4576" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Damage Shield-->
+		</skills>
+	</npc>
+	<npc id="18144" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="6382637"/>
+		<set name="rewardSp" value="95739"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="8"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1928.405625"/>
+		<set name="basePDef" value="306.69134325"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2173.73897102"/>
+		<set name="baseMDef" value="185.7872625"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="16"/>	<!--HP Increase (8x)-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="17"/>	<!--Very Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Triple Sonic Slash-->
+			<skill id="4568" level="10" use_type="RangeDDMagic1"/>	<!--NPC AE Solar Flare-->
+			<skill id="4576" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Damage Shield-->
+		</skills>
+	</npc>
+	<npc id="18145" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2334831"/>
+		<set name="rewardSp" value="35022"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1593.723225"/>
+		<set name="basePDef" value="371.0965275"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1484.69296221"/>
+		<set name="baseMDef" value="224.8025175"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="12"/>	<!--HP Increase (4x)-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4155" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Twister - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+			<skill id="4031" level="3" use_type="W_ClanBuff"/>	<!--NPC Clan Aegis-->
+		</skills>
+	</npc>
+	<npc id="18146" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2345235"/>
+		<set name="rewardSp" value="35178"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1593.723225"/>
+		<set name="basePDef" value="371.0965275"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1484.69296221"/>
+		<set name="baseMDef" value="224.8025175"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="12"/>	<!--HP Increase (4x)-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+			<skill id="4032" level="10" use_type="PhysicalSpecial2"/>	<!--NPC Strike-->
+		</skills>
+	</npc>
+	<npc id="18147" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2351087"/>
+		<set name="rewardSp" value="35266"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1593.723225"/>
+		<set name="basePDef" value="371.0965275"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1484.69296221"/>
+		<set name="baseMDef" value="224.8025175"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="12"/>	<!--HP Increase (4x)-->
+			<skill id="4411" level="16"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4155" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Twister - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18148" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2345235"/>
+		<set name="rewardSp" value="35178"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1593.723225"/>
+		<set name="basePDef" value="371.0965275"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1484.69296221"/>
+		<set name="baseMDef" value="224.8025175"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="12"/>	<!--HP Increase (4x)-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4581" level="10" use_type="PhysicalSpecial"/>	<!--Hold-->
+			<skill id="4074" level="2" use_type="SelfBuff"/>	<!--NPC Haste-->
+		</skills>
+	</npc>
+	<npc id="18149" name="Graveyard Beetle" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2282377"/>
+		<set name="rewardSp" value="34235"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="4"/>
+		<set name="baseHpReg" value="34.884"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1593.723225"/>
+		<set name="basePDef" value="371.0965275"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1484.69296221"/>
+		<set name="baseMDef" value="224.8025175"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.52"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb2_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="12"/>	<!--HP Increase (4x)-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
+			<skill id="4614" level="10" use_type="SelfRangeDDMagic"/>	<!--NPC Death Bomb-->
+		</skills>
+	</npc>
+	<npc id="18150" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18151" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18152" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18153" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18154" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18155" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18156" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18157" name="Victim" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="8"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.721"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="100"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="14"/>	<!--Humans-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4697" level="10" use_type="MobHate"/>	<!--NPC Monster Hate-->
+		</skills>
+	</npc>
+	<npc id="18158" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="10"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="486.90591525"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="147.2828075"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="18"/>	<!--HP Increase (10x)-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4621" level="10" use_type="SelfRangeDDMagic1"/>	<!--NPC AE - 80% HP Drain-->
+		</skills>
+	</npc>
+	<npc id="18159" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="476.691135"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4657" level="10" use_type="DDMagic1"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18160" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="7"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="486.90591525"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="15"/>	<!--HP Increase (7x)-->
+			<skill id="4410" level="16"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="16"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="16"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="16"/>	<!--Very Strong M. Def.-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4621" level="10" use_type="SelfRangeDDMagic1"/>	<!--NPC AE - 80% HP Drain-->
+		</skills>
+	</npc>
+	<npc id="18161" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="8"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="276.691135"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="16"/>	<!--HP Increase (8x)-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="17"/>	<!--Very Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4657" level="10" use_type="DDMagic1"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18162" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="8"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="486.90591525"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="16"/>	<!--HP Increase (8x)-->
+			<skill id="4410" level="19"/>	<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="19"/>	<!--Extremely Strong M. Atk.-->
+			<skill id="4412" level="19"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="19"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4621" level="10" use_type="SelfRangeDDMagic1"/>	<!--NPC AE - 80% HP Drain-->
+		</skills>
+	</npc>
+	<npc id="18163" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3261437"/>
+		<set name="rewardSp" value="48921"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="7"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="276.691135"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="15"/>	<!--HP Increase (7x)-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="17"/>	<!--Very Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4657" level="10" use_type="DDMagic1"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18164" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="17851.4215128"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="486.90591525"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4412" level="21"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="16"/>	<!--Very Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4621" level="10" use_type="SelfRangeDDMagic1"/>	<!--NPC AE - 80% HP Drain-->
+		</skills>
+	</npc>
+	<npc id="18165" name="Halisha's Executioner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50;60"/>
+		<set name="collision_radius" value="21;24"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="17851.4215128"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="276.691135"/>
+		<set name="baseWalkSpd" value="31"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="50"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="12"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4412" level="16"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="21"/>	<!--Extremely Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial1"/>	<!--Poison-->
+			<skill id="4318" level="1" use_type="SelfBuff"/>	<!--Ultimate Buff-->
+			<skill id="4657" level="10" use_type="DDMagic1"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18166" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="31;36"/>
+		<set name="collision_radius" value="12;14.5"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2887110"/>
+		<set name="rewardSp" value="43306"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="27"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.71"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<equip>
+			<rhand item_id="142"/>	<!--Keshanberk-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial"/>	<!--NPC Triple Sonic Slash-->
+		</skills>
+	</npc>
+	<npc id="18167" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="31;36"/>
+		<set name="collision_radius" value="12;14.5"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2887110"/>
+		<set name="rewardSp" value="43306"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="343.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="229.133345"/>
+		<set name="baseWalkSpd" value="27"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.71"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<equip>
+			<rhand item_id="142"/>	<!--Keshanberk-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+		</skills>
+	</npc>
+	<npc id="18168" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="31;36"/>
+		<set name="collision_radius" value="12;14.5"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2887110"/>
+		<set name="rewardSp" value="43306"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1197.387945"/>
+		<set name="basePDef" value="349.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="27"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.71"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<equip>
+			<rhand item_id="142"/>	<!--Keshanberk-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+			<skill id="4572" level="10" use_type="PhysicalSpecial2"/>	<!--NPC Triple Sonic Slash-->
+		</skills>
+	</npc>
+	<npc id="18169" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="31;36"/>
+		<set name="collision_radius" value="12;14.5"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2856331"/>
+		<set name="rewardSp" value="42844"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="543.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="229.133345"/>
+		<set name="baseWalkSpd" value="27"/>
+		<set name="baseRunSpd" value="110"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.71"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<equip>
+			<rhand item_id="142"/>	<!--Keshanberk-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4574" level="10" use_type="PhysicalSpecial"/>	<!--NPC Sonic Storm-->
+			<skill id="4091" level="1" use_type="SelfBuff"/>	<!--NPC Ogre Spirit Totem-->
+		</skills>
+	</npc>
+	<npc id="18170" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2896863"/>
+		<set name="rewardSp" value="43452"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1394.5083"/>
+		<set name="basePDef" value="371.0965275"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1484.69296221"/>
+		<set name="baseMDef" value="224.8025175"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4603" level="10" use_type="W_LongRangeDDMagic"/>	<!--Decrease P. Atk.-->
+			<skill id="4561" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Fire Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18171" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="865.879785"/>
+		<set name="basePDef" value="497.654669"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="572.41341036"/>
+		<set name="baseMDef" value="262.046705"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4603" level="10" use_type="W_LongRangeDDMagic"/>	<!--Decrease P. Atk.-->
+			<skill id="4561" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Fire Burn - Magic-->
+			<skill id="4609" level="4" use_type="W_ClanBuff"/>	<!--NPC Clan Buff - Vampiric Rage-->
+		</skills>
+	</npc>
+	<npc id="18172" name="Imperial Guard" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2896863"/>
+		<set name="rewardSp" value="43452"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="1047.71442"/>
+		<set name="basePDef" value="449.026797"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="838.07047417"/>
+		<set name="baseMDef" value="272.01105"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="2"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb3_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Daggers-->
+			<skill id="4589" level="10" use_type="W_SelfRangeDDMagic"/>	<!--Decrease Speed-->
+			<skill id="4561" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Fire Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18173" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="7560023"/>
+		<set name="rewardSp" value="113400"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="14"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="14"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="14"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="14"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4565" level="10" use_type="RangeDDMagic1"/>	<!--NPC Eruption-->
+			<skill id="4601" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Acumen Focus-->
+		</skills>
+	</npc>
+	<npc id="18174" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="7919611"/>
+		<set name="rewardSp" value="118794"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18175" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="8179494"/>
+		<set name="rewardSp" value="122692"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="7"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="15"/>	<!--HP Increase (7x)-->
+			<skill id="4410" level="16"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="16"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="16"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="16"/>	<!--Very Strong M. Def.-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18176" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="8420087"/>
+		<set name="rewardSp" value="126301"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="8"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="16"/>	<!--HP Increase (8x)-->
+			<skill id="4410" level="17"/>	<!--Very Strong P. Atk.-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4412" level="17"/>	<!--Very Strong P. Def.-->
+			<skill id="4413" level="17"/>	<!--Very Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4565" level="10" use_type="RangeDDMagic1"/>	<!--NPC Eruption-->
+			<skill id="4601" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Acumen Focus-->
+		</skills>
+	</npc>
+	<npc id="18177" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="8593053"/>
+		<set name="rewardSp" value="128895"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="8"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="16"/>	<!--HP Increase (8x)-->
+			<skill id="4410" level="19"/>	<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="19"/>	<!--Extremely Strong M. Atk.-->
+			<skill id="4412" level="19"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="19"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18178" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="4587513"/>
+		<set name="rewardSp" value="68812"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="9"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="17"/>	<!--HP Increase (9x)-->
+			<skill id="4410" level="19"/>	<!--Extremely Strong P. Atk.-->
+			<skill id="4411" level="19"/>	<!--Extremely Strong M. Atk.-->
+			<skill id="4412" level="19"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="19"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18179" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4565" level="10" use_type="RangeDDMagic1"/>	<!--NPC Eruption-->
+			<skill id="4601" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Acumen Focus-->
+		</skills>
+	</npc>
+	<npc id="18180" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18181" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18182" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4565" level="10" use_type="RangeDDMagic1"/>	<!--NPC Eruption-->
+			<skill id="4601" level="3" use_type="ClanBuff1"/>	<!--NPC Clan Buff - Acumen Focus-->
+		</skills>
+	</npc>
+	<npc id="18183" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+			<skill id="4287" level="5"/>	<!--Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="RangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4694" level="1" use_type="SelfDeBuff1"/>	<!--Ultimate Debuff-->
+			<skill id="4695" level="1" use_type="SelfDeBuff2"/>	<!--Ultimate Debuff-->
+			<skill id="4696" level="1" use_type="SelfDeBuff3"/>	<!--Ultimate Debuff-->
+		</skills>
+	</npc>
+	<npc id="18184" name="Halisha's Foreman" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="24;29"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2975.2369188"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="1742.976"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="37"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.45"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4073" level="10" use_type="PhysicalSpecial1"/>	<!--Stun-->
+			<skill id="4589" level="10" use_type="SelfRangeDDMagic1"/>	<!--Decrease Speed-->
+			<skill id="4618" level="1" use_type="DeBuff"/>	<!--NPC Cancel PC Target-->
+			<skill id="4657" level="10" use_type="DDMagic"/>	<!--Hold-->
+		</skills>
+	</npc>
+	<npc id="18185" name="Evil Astrologer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="12"/>
+		<set name="collision_radius" value="6"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2796075"/>
+		<set name="rewardSp" value="41941"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="443.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="229.133345"/>
+		<set name="baseWalkSpd" value="22"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="184.709615240657"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="5129"/>	<!--Doll Knife-->
+			<lhand item_id="5129"/>	<!--Doll Knife-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4033" level="10" use_type="W_SelfRangeDDMagic"/>	<!--NPC Burn-->
+			<skill id="4036" level="10" use_type="W_RangeDeBuff"/>	<!--Poison-->
+			<skill id="4613" level="10" use_type="W_RangeHeal"/>	<!--NPC Clan Heal-->
+		</skills>
+	</npc>
+	<npc id="18186" name="Evil Astrologer" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="12"/>
+		<set name="collision_radius" value="6"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2796075"/>
+		<set name="rewardSp" value="41941"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1088.534565"/>
+		<set name="basePDef" value="443.322431"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="692.62022628"/>
+		<set name="baseMDef" value="229.133345"/>
+		<set name="baseWalkSpd" value="22"/>
+		<set name="baseRunSpd" value="150"/>
+		<set name="baseShldDef" value="184.709615240657"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="5129"/>	<!--Doll Knife-->
+			<lhand item_id="5129"/>	<!--Doll Knife-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4285" level="5"/>	<!--Sleep Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4033" level="10" use_type="W_SelfRangeDDMagic"/>	<!--NPC Burn-->
+			<skill id="4597" level="10" use_type="W_LongRangeDDMagic"/>	<!--Bleed-->
+			<skill id="4657" level="10" use_type="W_SelfRangeDeBuff"/>	<!--Hold-->
+			<skill id="4613" level="10" use_type="W_RangeHeal"/>	<!--NPC Clan Heal-->
+		</skills>
+	</npc>
+	<npc id="18187" name="Dark Knight" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="21;25"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="78"/>	<!--Great Sword-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial"/>	<!--Poison-->
+		</skills>
+	</npc>
+	<npc id="18188" name="Dark Knight" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="21;25"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="78"/>	<!--Great Sword-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+		</skills>
+	</npc>
+	<npc id="18189" name="Dark Knight" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="21;25"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="78"/>	<!--Great Sword-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4412" level="15"/>	<!--Strong P. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4573" level="10" use_type="PhysicalSpecial1"/>	<!--NPC Sonic Blaster-->
+			<skill id="4032" level="10" use_type="PhysicalSpecial2"/>	<!--NPC Strike-->
+		</skills>
+	</npc>
+	<npc id="18190" name="Dark Knight" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40;48"/>
+		<set name="collision_radius" value="21;25"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="78"/>	<!--Great Sword-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4582" level="10" use_type="PhysicalSpecial"/>	<!--Poison-->
+			<skill id="4091" level="1" use_type="SelfBuff"/>	<!--NPC Ogre Spirit Totem-->
+		</skills>
+	</npc>
+	<npc id="18191" name="Witch of Dust" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2896863"/>
+		<set name="rewardSp" value="43452"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="3939"/>	<!--Lady's Fan-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4563" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Solar Flare - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18192" name="Witch of Dust" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2896863"/>
+		<set name="rewardSp" value="43452"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="3939"/>	<!--Lady's Fan-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4563" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Solar Flare - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+			<skill id="4609" level="4" use_type="W_ClanBuff"/>	<!--NPC Clan Buff - Vampiric Rage-->
+		</skills>
+	</npc>
+	<npc id="18193" name="Witch of Dust" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2896863"/>
+		<set name="rewardSp" value="43452"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="3939"/>	<!--Lady's Fan-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4563" level="10" use_type="W_LongRangeDDMagic"/>	<!--NPC Solar Flare - Magic-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+			<skill id="4587" level="10" use_type="W_RangeDeBuff"/>	<!--Decrease P. Atk.-->
+		</skills>
+	</npc>
+	<npc id="18194" name="Witch of Dust" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="23"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2896863"/>
+		<set name="rewardSp" value="43452"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1448.839875"/>
+		<set name="basePDef" value="408.20618025"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1227.01898124"/>
+		<set name="baseMDef" value="247.2828075"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="160"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.56"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<equip>
+			<rhand item_id="3939"/>	<!--Lady's Fan-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="17"/>	<!--Very Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4033" level="10" use_type="W_SelfRangeDDMagic"/>	<!--NPC Burn-->
+			<skill id="4160" level="10" use_type="W_ShortRangeDDMagic"/>	<!--NPC Aura Burn - Magic-->
+		</skills>
+	</npc>
+	<npc id="18195" name="Signet of Emperor" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="8"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2856331"/>
+		<set name="rewardSp" value="42844"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="5"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="1928.405625"/>
+		<set name="basePDef" value="306.69134325"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="2173.73897102"/>
+		<set name="baseMDef" value="185.7872625"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="60"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.35"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bug-->
+			<skill id="4408" level="13"/>	<!--HP Increase (5x)-->
+			<skill id="4411" level="15"/>	<!--Strong M. Atk.-->
+			<skill id="4413" level="15"/>	<!--Strong M. Def.-->
+			<skill id="4438" level="4"/>	<!--Greater Sleep Resistance-->
+			<skill id="4439" level="4"/>	<!--Greater Hold Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4614" level="10" use_type="SelfRangeDDMagic"/>	<!--NPC Death Bomb-->
+		</skills>
+	</npc>
+	<npc id="18196" name="Charm of Corner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="PaganGuard"/>
+		<set name="collision_height" value="75"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="4019412"/>
+		<set name="rewardSp" value="60291"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="817.8320475"/>
+		<set name="basePDef" value="723.16215"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="390.96606115"/>
+		<set name="baseMDef" value="438.076485"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4412" level="20"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="20"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4436" level="5"/>	<!--Greater Poison Resistance-->
+			<skill id="4437" level="5"/>	<!--Greater Bleed Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4628" level="1" use_type="StatusEffect"/>	<!--Mysterious Aura-->
+		</skills>
+	</npc>
+	<npc id="18197" name="Charm of Corner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="PaganGuard"/>
+		<set name="collision_height" value="75"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="4019412"/>
+		<set name="rewardSp" value="60291"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="817.8320475"/>
+		<set name="basePDef" value="523.16215"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="390.96606115"/>
+		<set name="baseMDef" value="238.076485"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4412" level="20"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="20"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4436" level="5"/>	<!--Greater Poison Resistance-->
+			<skill id="4437" level="5"/>	<!--Greater Bleed Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4628" level="1" use_type="StatusEffect"/>	<!--Mysterious Aura-->
+		</skills>
+	</npc>
+	<npc id="18198" name="Charm of Corner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="PaganGuard"/>
+		<set name="collision_height" value="75"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="4019412"/>
+		<set name="rewardSp" value="60291"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="817.8320475"/>
+		<set name="basePDef" value="423.16215"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="390.96606115"/>
+		<set name="baseMDef" value="238.076485"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4412" level="20"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="20"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4436" level="5"/>	<!--Greater Poison Resistance-->
+			<skill id="4437" level="5"/>	<!--Greater Bleed Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4628" level="1" use_type="StatusEffect"/>	<!--Mysterious Aura-->
+		</skills>
+	</npc>
+	<npc id="18199" name="Charm of Corner" title="">
+		<set name="type" value="SepulcherMonster"/>
+		<set name="ai_type" value="PaganGuard"/>
+		<set name="collision_height" value="75"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="4019412"/>
+		<set name="rewardSp" value="60291"/>
+		<set name="baseHpMax" value="44350.854"/>
+		<set name="baseHpRate" value="6"/>
+		<set name="baseHpReg" value="52.326"/>
+		<set name="baseMpMax" value="2770.2"/>
+		<set name="baseMpReg" value="3.0702"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="817.8320475"/>
+		<set name="basePDef" value="423.16215"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="390.96606115"/>
+		<set name="baseMDef" value="238.076485"/>
+		<set name="baseWalkSpd" value="1"/>
+		<set name="baseRunSpd" value="1"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="7.75"/>
+		<set name="basePAvoidModify" value="3"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="tomb4_clan" range="600"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4408" level="14"/>	<!--HP Increase (6x)-->
+			<skill id="4412" level="20"/>	<!--Extremely Strong P. Def.-->
+			<skill id="4413" level="20"/>	<!--Extremely Strong M. Def.-->
+			<skill id="4436" level="5"/>	<!--Greater Poison Resistance-->
+			<skill id="4437" level="5"/>	<!--Greater Bleed Resistance-->
+		</client_skills>
+		<skills>
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4628" level="1" use_type="StatusEffect"/>	<!--Mysterious Aura-->
+		</skills>
+	</npc>
+</list>

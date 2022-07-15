@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<!--https://l2central.info/home/classic/946-lineage-ii-classic-tower-of-insolence-plus-pvp-zony-->
+<list>
+	<event id="2" name="Tower of Insolence" impl="TowerOfInsolence">
+		<parameter name="start_time_pattern" value="00 20 * * 2" />	<!--In 'cron' format-->
+		<on_init>
+			<init name="event_zone"/>
+		</on_init>
+		<on_start>
+			<active name="event_zone"/>
+			<spawn name="spawn_group"/>
+		</on_start>
+		<on_stop>
+			<despawn name="spawn_group"/>
+			<deactive name="event_zone"/>
+		</on_stop>
+		<on_time>
+			<on time="0"><!--20:00-->
+				<start name="event"/>
+			</on>
+			<on time="1800"><!--20:30-->
+				<start name="spawn_raid_bosses"/>
+			</on>
+			<on time="3600"><!--21:00-->
+				<stop name="spawn_raid_bosses"/>
+			</on>
+			<on time="9000"><!--22:30-->
+				<start name="spawn_raid_bosses"/>
+			</on>
+			<on time="10800"><!--23:00-->
+				<stop name="spawn_raid_bosses"/>
+			</on>
+			<on time="14400"><!--24:00-->
+				<stop name="event"/>
+			</on>
+		</on_time>
+		<objects name="spawn_group">
+			<spawn_ex name="tower_of_insolence_pvp_event_4_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_5_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_6_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_7_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_8_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_9_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_10_floor"/>
+			<spawn_ex name="tower_of_insolence_pvp_event_11_floor"/>
+		</objects>
+		<objects name="event_zone">
+			<zone name="[tower_of_insolence_pvp_event]"/>
+		</objects>
+	</event>
+</list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded" >
+				<xs:element name="buff" maxOccurs="unbounded" >
+					<xs:complexType>
+						<xs:attribute name="id" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:nonNegativeInteger">
+									<xs:minInclusive value="0" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="level">
+							<xs:simpleType>
+								<xs:restriction base="xs:nonNegativeInteger">
+									<xs:minInclusive value="0" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="group">
+							<xs:simpleType>
+								<xs:restriction base="xs:token">
+									<xs:enumeration value="BUFF" />
+									<xs:enumeration value="DANCE" />
+									<xs:enumeration value="SONG" />
+									<xs:enumeration value="OTHER" />
+									<xs:enumeration value="RESIST" />
+									<xs:enumeration value="PROPHECY" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>						
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

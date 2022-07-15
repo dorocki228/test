@@ -1,0 +1,71 @@
+﻿<html><title>Ban (Game Server)</title><body>
+<center><table width=260>
+<tr>
+<td><button value="Main" action="bypass -h admin_admin" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Events" action="bypass -h admin_events" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Chars" action="bypass -h admin_char_manage" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Server" action="bypass -h admin_server admserver.htm" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="GM Shop" action="bypass -h admin_gmshop" width=50 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table></center><br>
+<table width="294" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="294" align="center"><font color="FF6A00" name="hs9">Ban at Game Server side</font></td>
+	</tr>
+</table>
+<br>
+<table width="294" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="70" height="30" align="right">Nickname:</td>
+		<td width="5" height="30"></td>
+		<td width="120" align="center"><edit width="110" height=11 var="nickname"></td>
+		<td width="80"></td>
+		<td width="19"></td>
+	</tr>
+	<tr>
+		<td width="70" height="30" align="right"><font color="LEVEL">*</font>Period:</td>
+		<td width="5" height="30"></td>
+		<td width="120" align="center"><edit width=110 height=11 var="period"></td>
+		<td width="80" align="left"><combobox width=65 var="periodType" list="Minutes;Hours;Days"></td>
+		<td width="19"></td>
+	</tr>
+</table>
+<table width="294" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="70" height="30" align="right">Reason:</td>
+		<td width="5" height="30"></td>
+		<td width="190" align="center"><multiedit width=180 height=80 var="reason"></td>
+		<td width="29"></td>
+	</tr>
+</table>
+<br><br>
+<table width="294" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="294" height="32" align="center"><button value="Ban Login" action="bypass -h admin_game_ban login $nickname $period $periodType $reason" width=135 height=23 back="L2UI_CT1.Button_DF_down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td width="294" height="32" align="center"><button value="Ban IP" action="bypass -h admin_game_ban ip $nickname $period $periodType $reason" width=135 height=23 back="L2UI_CT1.Button_DF_down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td width="294" height="32" align="center"><button value="Ban HWID" action="bypass -h admin_game_ban hwid $nickname $period $periodType $reason" width=135 height=23 back="L2UI_CT1.Button_DF_down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td width="294" height="32" align="center"><button value="Ban Player" action="bypass -h admin_game_ban player $nickname $period $periodType $reason" width=135 height=23 back="L2UI_CT1.Button_DF_down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td width="294" height="32" align="center"><button value="Ban Chat" action="bypass -h admin_game_ban chat $nickname $period $periodType $reason" width=135 height=23 back="L2UI_CT1.Button_DF_down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br>
+<table width="294" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="294" align="center"><font color="LEVEL">*</font> For an indefinite ban, specify <font color="0094FF">-1</font>;</td>
+	</tr>
+</table>
+<br><br>
+<table width="294" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="294" align="center"><button value="Back" action="bypass -h admin_ban" width=60 height=25 back="L2UI_CT1.Button_DF_down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br>
+</body></html>

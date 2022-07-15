@@ -1,0 +1,14 @@
+<!ELEMENT list (STR|INT|CON|MEN|DEX|WIT|CHA|LUC)*>
+		<!ELEMENT STR (stat)*>
+		<!ELEMENT INT (stat)*>
+		<!ELEMENT CON (stat)*>
+		<!ELEMENT MEN (stat)*>
+		<!ELEMENT DEX (stat)*>
+		<!ELEMENT WIT (stat)*>
+		<!ELEMENT CHA (stat)*>
+		<!ELEMENT LUC (stat)*>
+
+		<!ELEMENT stat (#PCDATA)>
+		<!ATTLIST stat
+				bonus CDATA #REQUIRED
+				value CDATA #REQUIRED>

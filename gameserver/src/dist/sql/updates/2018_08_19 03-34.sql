@@ -1,0 +1,1 @@
+UPDATE items SET variation_stone_id=0, variation1_id=0, variation2_id=0 WHERE item_id IN (103, 107, 108, 110, 2493, 2494, 2495, 2496, 2497, 2498, 5292, 5315, 5799, 626, 627, 628, 629, 630, 631, 632, 633, 641, 673);

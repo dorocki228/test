@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (normal_upgrade|rare_upgrade)*>
+
+	<!ELEMENT normal_upgrade (required_items|results|unk_data)*>
+	<!ATTLIST normal_upgrade
+		id CDATA #REQUIRED
+		type CDATA #REQUIRED
+		item_id CDATA #REQUIRED
+		enchant_level CDATA #IMPLIED
+		price CDATA #IMPLIED
+		unk CDATA #IMPLIED>
+
+		<!ELEMENT required_items (item)*>
+
+			<!ELEMENT item (#PCDATA)>
+			<!ATTLIST item
+				id CDATA #REQUIRED
+				count CDATA #REQUIRED
+				enchant CDATA #IMPLIED>
+
+		<!ELEMENT results (success|fail|bonus)*>
+
+			<!ELEMENT success (item)*>
+			<!ATTLIST success
+				chance CDATA #REQUIRED>
+
+			<!ELEMENT fail (item)*>
+			<!ATTLIST fail
+				chance CDATA #REQUIRED>
+
+			<!ELEMENT bonus (item)*>
+			<!ATTLIST bonus
+				chance CDATA #REQUIRED>
+
+		<!ELEMENT unk_data (unk)*>
+
+			<!ELEMENT unk (#PCDATA)>
+			<!ATTLIST unk
+				value CDATA #REQUIRED>
+
+	<!ELEMENT rare_upgrade (required_items|result_item|unk_data)*>
+	<!ATTLIST rare_upgrade
+		id CDATA #REQUIRED
+		item_id CDATA #REQUIRED
+		enchant_level CDATA #IMPLIED
+		price CDATA #IMPLIED
+		unk CDATA #IMPLIED>
+
+		<!ELEMENT result_item (#PCDATA)>
+		<!ATTLIST result_item
+			id CDATA #REQUIRED
+			count CDATA #IMPLIED
+			enchant CDATA #IMPLIED>

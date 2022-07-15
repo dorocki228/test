@@ -1,0 +1,41 @@
+<!ELEMENT list (option_data)*>
+<!ELEMENT option_data  (for|set|skills|triggers)*>
+<!ATTLIST option_data
+	id CDATA #REQUIRED>
+
+<!ELEMENT for (set|effect)*>
+
+		<!ELEMENT effect (def|set)*>
+		<!ATTLIST effect
+				enabled CDATA #IMPLIED
+				name CDATA #IMPLIED
+				interval CDATA #IMPLIED
+				instant CDATA #IMPLIED
+				value CDATA #IMPLIED
+				chance CDATA #IMPLIED
+				type CDATA #IMPLIED>
+
+		<!ELEMENT def (#PCDATA)>
+		<!ATTLIST def
+				name CDATA #REQUIRED
+				value CDATA #REQUIRED>
+
+<!ELEMENT set (#PCDATA)*>
+<!ATTLIST set
+	order CDATA #IMPLIED
+	stat CDATA #IMPLIED
+	value CDATA #REQUIRED>
+
+<!ELEMENT skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED>
+
+<!ELEMENT triggers (trigger)*>
+<!ELEMENT trigger (#PCDATA)>
+<!ATTLIST trigger
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	type CDATA #REQUIRED
+	chance CDATA #REQUIRED>

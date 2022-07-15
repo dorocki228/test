@@ -1,0 +1,1 @@
+DELETE FROM residence_functions WHERE `type`=9;

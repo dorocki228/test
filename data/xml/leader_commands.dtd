@@ -1,8 +1,0 @@
-<!ELEMENT list (command)*>
-        <!ELEMENT command (message)*>
-        <!ATTLIST command
-                code CDATA #REQUIRED>
-        <!ELEMENT message (#PCDATA)>
-        <!ATTLIST message
-                lang CDATA #REQUIRED
-                text CDATA #REQUIRED>

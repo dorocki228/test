@@ -1,0 +1,1 @@
+UPDATE instant_clanhall_info SET siege_date=0;

@@ -1,0 +1,2630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!--AUTHOR: Remorse Team-->
+<list>
+    <spawn group="instantAgit_npc1611_01b" count="1" respawn="60">
+        <point x="-122360" y="-122610" z="-5840" h="16384"/>
+        <npc id="33360"/><!--Maid-->
+    </spawn>
+    <spawn group="instantAgit_npc1611_01a" count="1" respawn="60">
+        <point x="-117074" y="-122610" z="-5840" h="16384"/>
+        <npc id="33360"/><!--Maid-->
+    </spawn>
+    <spawn group="instantAgit_npc1611_03b" count="1" respawn="60">
+        <point x="-121488" y="-111294" z="-5976" h="32768"/>
+        <npc id="33360"/><!--Maid-->
+    </spawn>
+    <spawn group="instantAgit_npc1611_03a" count="1" respawn="60">
+        <point x="-116222" y="-111294" z="-5976" h="32768"/>
+        <npc id="33360"/><!--Maid-->
+    </spawn>
+    <spawn group="instantAgit_npc1611_02b" count="1" respawn="60">
+        <point x="-122627" y="-116456" z="-5728" h="0"/>
+        <npc id="33360"/><!--Maid-->
+    </spawn>
+    <spawn group="instantAgit_npc1611_02a" count="1" respawn="60">
+        <point x="-117489" y="-116463" z="-5728" h="0"/>
+        <npc id="33360"/><!--Maid-->
+    </spawn>
+    <spawn group="cave_of_souls" count="1" respawn="60">
+        <point x="-124718" y="38071" z="1208" h="0"/>
+        <npc id="34110"/><!--Newbie Helper-->
+    </spawn>
+    <spawn group="cave_of_souls" count="1" respawn="60">
+        <point x="-117489" y="-116463" z="-5728" h="0"/>
+        <npc id="33360"/><!--Newbie Helper-->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-116951" y="45028" z="360" h="14867"/>
+        <npc id="32478"/><!-- Dimensional Merchant, Life Vitality -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-124731" y="38070" z="1208" h="0"/>
+        <npc id="34108"/><!-- Baenedes, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-124744" y="38176" z="1208" h="62981"/>
+        <npc id="34109"/><!-- Auron, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-118075" y="45059" z="368" h="17358"/>
+        <npc id="34110"/><!-- Ramos, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-116626" y="44969" z="376" h="12990"/>
+        <npc id="34111"/><!-- Celma, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-116679" y="46623" z="384" h="46657"/>
+        <npc id="34112"/><!-- Rhodiell, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-121407" y="43825" z="640" h="6428"/>
+        <npc id="34113"/><!-- Kalinta, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-121265" y="43527" z="648" h="11149"/>
+        <npc id="34114"/><!-- Estella, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-119337" y="47776" z="384" h="47673"/>
+        <npc id="34115"/><!-- Talbot, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-119757" y="47783" z="384" h="51883"/>
+        <npc id="34116"/><!-- Xenos, Captive -->
+    </spawn>
+    <spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+        <point x="-117342" y="45146" z="368" h="14186"/>
+        <npc id="34117"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn name="kamael_qm_start_01" count="20" respawn="10">
+        <territory>
+            <add x="-124631" y="38911" zmin="1176" zmax="1176"/>
+            <add x="-124165" y="38883" zmin="1176" zmax="1176"/>
+            <add x="-124171" y="37433" zmin="1176" zmax="1176"/>
+            <add x="-124608" y="37417" zmin="1176" zmax="1176"/>
+        </territory>
+        <npc id="18342"/><!--Gremlin-->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123387" y="55914" z="-1840" h="14102"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120998" y="56638" z="-1768" h="46664"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123877" y="54992" z="-1752" h="23528"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125102" y="54227" z="-1736" h="24262"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123084" y="55111" z="-1720" h="40626"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119432" y="56705" z="-1712" h="20772"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125402" y="53903" z="-1672" h="4807"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126452" y="53579" z="-1664" h="6457"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122637" y="55236" z="-1656" h="44016"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-118973" y="56743" z="-1656" h="45784"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125252" y="53741" z="-1640" h="13854"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119906" y="56302" z="-1640" h="13445"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122908" y="54778" z="-1616" h="49124"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125852" y="53417" z="-1600" h="12667"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127052" y="53093" z="-1584" h="62895"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122373" y="54970" z="-1576" h="28098"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122089" y="55146" z="-1552" h="45226"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119234" y="55740" z="-1536" h="40074"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122207" y="54728" z="-1528" h="21426"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122105" y="54832" z="-1528" h="25872"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119501" y="55471" z="-1528" h="8918"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119367" y="55065" z="-1520" h="46337"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121997" y="54120" z="-1440" h="5636"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121160" y="54051" z="-1424" h="63501"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127352" y="52445" z="-1376" h="30517"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121249" y="53520" z="-1352" h="18680"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120760" y="53896" z="-1352" h="2036"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120148" y="54197" z="-1312" h="33113"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127202" y="51959" z="-1304" h="62882"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120350" y="53671" z="-1272" h="56067"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127502" y="51959" z="-1256" h="12100"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120652" y="53172" z="-1256" h="25212"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120932" y="52985" z="-1240" h="62511"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120608" y="52784" z="-1216" h="12273"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119639" y="53409" z="-1176" h="49413"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121022" y="52191" z="-1152" h="20389"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121062" y="52069" z="-1136" h="15469"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120769" y="50462" z="-1104" h="453"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120874" y="50749" z="-1104" h="59591"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120939" y="50811" z="-1104" h="24963"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127352" y="51149" z="-1096" h="46610"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121209" y="51720" z="-1096" h="16383"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120590" y="51396" z="-1088" h="36316"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120670" y="51559" z="-1088" h="44016"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119928" y="52785" z="-1080" h="44216"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-118180" y="50853" z="-1064" h="20352"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120510" y="50956" z="-1064" h="59279"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119415" y="52662" z="-1064" h="5507"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120524" y="50259" z="-1056" h="50741"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119522" y="52641" z="-1048" h="6683"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119994" y="52522" z="-1024" h="45940"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120278" y="52218" z="-1016" h="1286"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-118620" y="50158" z="-960" h="18442"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120093" y="52272" z="-952" h="28122"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117546" y="49355" z="-896" h="30932"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116701" y="49749" z="-864" h="-1"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117519" y="50174" z="-864" h="29990"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116559" y="49436" z="-856" h="24979"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117702" y="50324" z="-840" h="61003"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116590" y="49723" z="-832" h="29843"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116677" y="49957" z="-832" h="7550"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117081" y="50467" z="-752" h="44989"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117067" y="50511" z="-752" h="15697"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116199" y="50127" z="-736" h="28798"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125482" y="51875" z="-568" h="54810"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123898" y="51115" z="-552" h="58587"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125050" y="51590" z="-552" h="8130"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124577" y="51946" z="-552" h="24288"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125338" y="52065" z="-552" h="18009"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124330" y="52160" z="-552" h="25295"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123839" y="51719" z="-544" h="54397"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124070" y="51960" z="-544" h="6657"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124186" y="51970" z="-544" h="30398"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124162" y="52164" z="-544" h="5891"/>
+        <npc id="21981"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127157" y="61879" z="-2720" h="1560"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126366" y="61902" z="-2720" h="54661"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126995" y="62067" z="-2712" h="53288"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127157" y="63607" z="-2704" h="637"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125931" y="62933" z="-2672" h="50802"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127200" y="62808" z="-2664" h="57661"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123284" y="63679" z="-2640" h="31720"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124029" y="60205" z="-2632" h="24575"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124455" y="60389" z="-2624" h="62391"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123173" y="61750" z="-2624" h="15229"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123770" y="62825" z="-2624" h="44571"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126171" y="63569" z="-2624" h="56608"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123284" y="64603" z="-2624" h="55118"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123258" y="62936" z="-2576" h="5090"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122382" y="63141" z="-2552" h="46271"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121868" y="61523" z="-2416" h="8706"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123905" y="58971" z="-2408" h="6984"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122198" y="59488" z="-2376" h="9041"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123648" y="58617" z="-2280" h="39748"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123409" y="58476" z="-2256" h="44871"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123490" y="58209" z="-2248" h="23392"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123335" y="57945" z="-2184" h="63146"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121493" y="58714" z="-2112" h="23924"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123900" y="55990" z="-1888" h="53080"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126602" y="54227" z="-1864" h="44702"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123444" y="55406" z="-1784" h="43051"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124043" y="55016" z="-1752" h="46020"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124802" y="54227" z="-1744" h="44414"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123634" y="54935" z="-1744" h="42770"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123630" y="54983" z="-1744" h="12521"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126602" y="53741" z="-1736" h="38470"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125402" y="54227" z="-1736" h="13213"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123475" y="54528" z="-1712" h="19902"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125252" y="53903" z="-1680" h="22574"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120009" y="56481" z="-1680" h="36446"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119648" y="56354" z="-1656" h="61105"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122357" y="55538" z="-1640" h="57265"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122646" y="55287" z="-1624" h="-1"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125552" y="53579" z="-1616" h="63528"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126602" y="53255" z="-1608" h="23810"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120290" y="55822" z="-1592" h="27725"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125702" y="53417" z="-1568" h="4474"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121918" y="55044" z="-1536" h="35398"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119651" y="55303" z="-1536" h="22210"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119548" y="55243" z="-1528" h="40480"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119559" y="55252" z="-1528" h="60118"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119859" y="55407" z="-1528" h="10334"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122249" y="54322" z="-1480" h="40800"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126752" y="52445" z="-1432" h="23786"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121066" y="54204" z="-1416" h="30932"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120722" y="54324" z="-1400" h="2117"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120892" y="53767" z="-1360" h="17276"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120066" y="54122" z="-1296" h="49379"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127052" y="51797" z="-1272" h="2639"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120886" y="53067" z="-1264" h="7131"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121034" y="52923" z="-1248" h="2132"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121219" y="53069" z="-1248" h="35020"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120517" y="53557" z="-1248" h="48398"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121286" y="52923" z="-1240" h="62893"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120967" y="52756" z="-1232" h="58665"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119752" y="53465" z="-1184" h="42578"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121392" y="52403" z="-1144" h="24249"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119601" y="53101" z="-1128" h="38113"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121026" y="51017" z="-1104" h="47561"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120773" y="51227" z="-1096" h="-1"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120911" y="51540" z="-1096" h="30129"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120816" y="51580" z="-1088" h="60410"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120504" y="51794" z="-1088" h="50802"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120690" y="50259" z="-1080" h="39890"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120620" y="50264" z="-1080" h="9043"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119733" y="52673" z="-1040" h="45940"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120441" y="51915" z="-1016" h="36198"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119648" y="52500" z="-1008" h="47406"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-118232" y="50217" z="-992" h="38014"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-118419" y="50066" z="-976" h="22602"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121769" y="51639" z="-968" h="24582"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117437" y="49578" z="-920" h="6825"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116469" y="49500" z="-832" h="36052"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117486" y="50346" z="-808" h="55535"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116416" y="49862" z="-800" h="26634"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117092" y="50448" z="-752" h="49907"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117235" y="50590" z="-752" h="42894"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117295" y="50829" z="-744" h="29519"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-117060" y="50769" z="-728" h="64857"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116079" y="50247" z="-712" h="36173"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-116682" y="50982" z="-696" h="25658"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124005" y="51399" z="-552" h="-1"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123034" y="51685" z="-552" h="15008"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124842" y="51790" z="-552" h="28359"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124109" y="51836" z="-552" h="31135"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124618" y="51875" z="-552" h="35694"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123657" y="51551" z="-544" h="55033"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124103" y="51992" z="-544" h="9977"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124664" y="52322" z="-544" h="21420"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123610" y="51685" z="-536" h="20359"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123984" y="52045" z="-536" h="42400"/>
+        <npc id="21982"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126603" y="62501" z="-2696" h="50235"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126990" y="63481" z="-2696" h="40969"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124018" y="63515" z="-2688" h="63600"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126987" y="63607" z="-2688" h="63412"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127130" y="62339" z="-2680" h="12382"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127165" y="62414" z="-2680" h="9527"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127497" y="62263" z="-2672" h="8405"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127271" y="62338" z="-2672" h="53021"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127198" y="62922" z="-2664" h="56812"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125065" y="59788" z="-2632" h="23742"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123284" y="61523" z="-2632" h="20722"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124188" y="60412" z="-2624" h="57496"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123200" y="63520" z="-2624" h="10492"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124258" y="59907" z="-2616" h="31225"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124428" y="60590" z="-2616" h="62181"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124851" y="59504" z="-2592" h="28226"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122757" y="63276" z="-2592" h="4491"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122542" y="62433" z="-2536" h="33728"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122477" y="62159" z="-2520" h="32219"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123637" y="59105" z="-2448" h="5078"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124267" y="58579" z="-2376" h="53262"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121656" y="60258" z="-2296" h="3809"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121467" y="60471" z="-2264" h="45385"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123762" y="58038" z="-2240" h="24885"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120838" y="59537" z="-2128" h="15507"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120897" y="59625" z="-2128" h="28768"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120615" y="59123" z="-2040" h="63378"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124321" y="55721" z="-1872" h="16605"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123449" y="55956" z="-1872" h="7343"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123468" y="55999" z="-1872" h="48718"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119878" y="57259" z="-1832" h="10372"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122763" y="55846" z="-1784" h="21023"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120427" y="57082" z="-1784" h="17790"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123230" y="55419" z="-1752" h="58415"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126602" y="53741" z="-1736" h="28842"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120446" y="56584" z="-1704" h="41165"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126902" y="53417" z="-1680" h="32125"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119417" y="56481" z="-1672" h="27580"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125702" y="54065" z="-1664" h="56057"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120291" y="56344" z="-1664" h="24419"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119031" y="56351" z="-1648" h="22871"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126452" y="53417" z="-1616" h="4666"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120363" y="55875" z="-1600" h="30558"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122003" y="55230" z="-1568" h="55227"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119989" y="55732" z="-1568" h="46175"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126302" y="53093" z="-1552" h="6159"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122143" y="55020" z="-1552" h="9193"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119981" y="55439" z="-1544" h="45797"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119713" y="55171" z="-1528" h="31122"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-119338" y="55264" z="-1528" h="44414"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121862" y="54453" z="-1488" h="34419"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-120157" y="59363" z="-1488" h="63218"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121945" y="54385" z="-1464" h="46981"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121896" y="54386" z="-1464" h="48178"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126602" y="52283" z="-1400" h="39701"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127502" y="52283" z="-1328" h="24358"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127352" y="52121" z="-1320" h="62690"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127502" y="51473" z="-1168" h="9862"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127202" y="51311" z="-1112" h="32087"/>
+        <npc id="21983"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125272" y="62210" z="-2736" h="15023"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-125454" y="62238" z="-2736" h="18463"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124051" y="62915" z="-2736" h="33502"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126772" y="62083" z="-2712" h="56885"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126669" y="62307" z="-2704" h="20433"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127242" y="62172" z="-2696" h="56427"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127025" y="62338" z="-2696" h="24678"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126802" y="62585" z="-2696" h="4932"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127294" y="62230" z="-2688" h="44968"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123923" y="62954" z="-2688" h="3081"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127228" y="62418" z="-2680" h="43898"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-126606" y="62809" z="-2680" h="28127"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127050" y="63086" z="-2680" h="39306"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127150" y="63137" z="-2672" h="52509"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127156" y="62910" z="-2664" h="12820"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127537" y="63189" z="-2648" h="23182"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-127690" y="63216" z="-2648" h="51996"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123618" y="64042" z="-2648" h="35859"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124787" y="60205" z="-2640" h="30105"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123355" y="61705" z="-2640" h="23275"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123461" y="63987" z="-2640" h="26060"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124934" y="60299" z="-2632" h="2484"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124966" y="59720" z="-2616" h="64669"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124397" y="59921" z="-2616" h="10572"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123184" y="64729" z="-2608" h="63225"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122930" y="63679" z="-2600" h="60238"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122978" y="64766" z="-2592" h="7190"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122930" y="61831" z="-2576" h="694"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122593" y="63895" z="-2576" h="4449"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123014" y="64791" z="-2576" h="15086"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123095" y="62222" z="-2536" h="21662"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122662" y="62300" z="-2528" h="39423"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123845" y="59297" z="-2504" h="57193"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123884" y="59284" z="-2496" h="34742"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122222" y="61831" z="-2480" h="62183"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124607" y="58689" z="-2456" h="17698"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-122305" y="61298" z="-2448" h="51086"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121691" y="61831" z="-2408" h="40150"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121699" y="60862" z="-2320" h="30558"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-121586" y="61064" z="-2320" h="8347"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123564" y="58664" z="-2312" h="37735"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124006" y="58273" z="-2304" h="21609"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-124035" y="57764" z="-2272" h="24035"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123595" y="58245" z="-2256" h="27734"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123687" y="58212" z="-2248" h="17925"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123624" y="58002" z="-2224" h="33427"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123602" y="57820" z="-2200" h="33863"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-123192" y="57848" z="-2160" h="28956"/>
+        <npc id="21984"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105143" y="49426" z="-1792" h="16115"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103337" y="51200" z="-1784" h="29410"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104983" y="49200" z="-1776" h="23011"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105959" y="50675" z="-1704" h="32057"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105986" y="48892" z="-1672" h="51840"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105512" y="43876" z="-1664" h="4994"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105026" y="52324" z="-1632" h="64291"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105663" y="51797" z="-1624" h="3685"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104581" y="52027" z="-1616" h="26840"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105354" y="52040" z="-1616" h="27978"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105014" y="52158" z="-1616" h="23329"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105056" y="52183" z="-1616" h="27837"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105962" y="51358" z="-1608" h="30941"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105624" y="51496" z="-1600" h="25019"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105425" y="51410" z="-1584" h="5815"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106188" y="51501" z="-1576" h="33819"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106181" y="51889" z="-1568" h="36544"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103974" y="49213" z="-1536" h="25467"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105236" y="45074" z="-1520" h="25452"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104880" y="45587" z="-1520" h="30804"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106526" y="45143" z="-1512" h="7530"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103738" y="49191" z="-1480" h="17784"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104424" y="44822" z="-1472" h="6333"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106031" y="44907" z="-1472" h="21883"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105851" y="44848" z="-1464" h="37603"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108105" y="47131" z="-1464" h="33189"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107111" y="47227" z="-1464" h="16959"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107287" y="47700" z="-1464" h="48654"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106121" y="45084" z="-1456" h="56477"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106211" y="45202" z="-1448" h="27842"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106121" y="45202" z="-1448" h="61778"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108433" y="47738" z="-1448" h="60834"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103646" y="44290" z="-1440" h="24352"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104048" y="44623" z="-1440" h="12252"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105806" y="45202" z="-1440" h="43885"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105941" y="45320" z="-1440" h="26996"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105851" y="45320" z="-1440" h="34008"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105851" y="45379" z="-1440" h="8735"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106211" y="45497" z="-1440" h="65167"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106166" y="45497" z="-1440" h="13589"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106121" y="45556" z="-1440" h="38644"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102967" y="44356" z="-1432" h="59461"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103648" y="44438" z="-1432" h="13625"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105941" y="45497" z="-1432" h="30981"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106076" y="45674" z="-1432" h="47210"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105671" y="45674" z="-1432" h="4813"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105671" y="45733" z="-1432" h="63725"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105896" y="45910" z="-1432" h="57493"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107733" y="45926" z="-1432" h="4789"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102936" y="44571" z="-1424" h="23454"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103820" y="43735" z="-1416" h="55199"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109028" y="48152" z="-1408" h="43385"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103872" y="43558" z="-1400" h="55803"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103088" y="44898" z="-1400" h="3895"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108416" y="46115" z="-1400" h="35278"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108681" y="48389" z="-1400" h="-1"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104579" y="44268" z="-1392" h="52329"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107752" y="46404" z="-1392" h="7898"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109001" y="46467" z="-1384" h="21109"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103272" y="44972" z="-1320" h="9970"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103522" y="45280" z="-1288" h="58273"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109203" y="46392" z="-1272" h="60824"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109205" y="46467" z="-1272" h="38787"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109509" y="47802" z="-1248" h="9746"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109613" y="47957" z="-1192" h="49166"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109532" y="48195" z="-1192" h="6132"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102146" y="48054" z="-1168" h="54593"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102143" y="48245" z="-1160" h="5269"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103391" y="46356" z="-1144" h="54593"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102058" y="47596" z="-1144" h="12879"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102949" y="46612" z="-1136" h="4742"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102203" y="47307" z="-1136" h="7232"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-101931" y="47649" z="-1136" h="39855"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102387" y="46690" z="-1128" h="8930"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102344" y="46694" z="-1128" h="61259"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102977" y="46990" z="-1128" h="17472"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102376" y="47356" z="-1128" h="21157"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102315" y="47786" z="-1128" h="53740"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102351" y="47797" z="-1128" h="42962"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111353" y="45546" z="-1112" h="3717"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102295" y="47542" z="-1112" h="13193"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102347" y="47543" z="-1112" h="55574"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110654" y="45677" z="-1104" h="57492"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110867" y="48728" z="-1064" h="28071"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-112132" y="45653" z="-1048" h="10813"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111108" y="45945" z="-1032" h="58326"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110326" y="51393" z="-1024" h="5501"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111157" y="48498" z="-1016" h="12191"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109570" y="51093" z="-1016" h="14201"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109763" y="51289" z="-1016" h="16738"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109817" y="47659" z="-1000" h="18539"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109817" y="47659" z="-1000" h="56619"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110482" y="51564" z="-1000" h="56985"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111282" y="46280" z="-992" h="30639"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111269" y="47202" z="-992" h="13337"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108476" y="51614" z="-992" h="36903"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108567" y="51617" z="-992" h="64352"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108293" y="51728" z="-992" h="-1"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108122" y="52093" z="-992" h="41779"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108304" y="52152" z="-992" h="19563"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109579" y="51781" z="-984" h="57737"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111592" y="47034" z="-976" h="16593"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107867" y="50920" z="-976" h="19209"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111558" y="46021" z="-968" h="2099"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111649" y="47351" z="-968" h="21890"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111065" y="48010" z="-968" h="56958"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107643" y="51213" z="-968" h="4821"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107498" y="51242" z="-968" h="15176"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107498" y="51242" z="-968" h="16976"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107302" y="51242" z="-968" h="42465"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107770" y="51925" z="-960" h="17641"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111785" y="46056" z="-952" h="10837"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111719" y="46359" z="-928" h="29853"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111698" y="46441" z="-928" h="53199"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111941" y="46087" z="-920" h="6261"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-112142" y="46281" z="-896" h="53989"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107694" y="51242" z="-832" h="8854"/>
+        <npc id="21985"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103160" y="51127" z="-1848" h="24734"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104090" y="50794" z="-1784" h="3297"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105482" y="52149" z="-1632" h="30915"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104824" y="51901" z="-1624" h="56873"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105333" y="52299" z="-1624" h="22916"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105139" y="52428" z="-1624" h="6453"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105876" y="51442" z="-1616" h="18830"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105465" y="51775" z="-1616" h="13218"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103792" y="51242" z="-1584" h="6071"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104696" y="51212" z="-1576" h="49685"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104124" y="51331" z="-1568" h="27273"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106144" y="51905" z="-1568" h="23357"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107185" y="47397" z="-1464" h="65164"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108069" y="47989" z="-1464" h="59815"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108187" y="45863" z="-1448" h="8740"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108230" y="45892" z="-1448" h="32023"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107599" y="47609" z="-1448" h="57345"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107628" y="47633" z="-1448" h="56797"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104534" y="51200" z="-1432" h="55753"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109092" y="47155" z="-1408" h="36853"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107987" y="46417" z="-1400" h="12815"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108559" y="46561" z="-1400" h="18902"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109386" y="47123" z="-1336" h="4588"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108797" y="47957" z="-1264" h="14179"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109409" y="48106" z="-1240" h="55189"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109613" y="47659" z="-1224" h="49694"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109375" y="48199" z="-1224" h="1269"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109284" y="48325" z="-1216" h="33576"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109409" y="48255" z="-1208" h="55023"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111164" y="45417" z="-1144" h="35415"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110780" y="45653" z="-1096" h="54249"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109055" y="50510" z="-1088" h="28534"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111310" y="45705" z="-1064" h="59506"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108980" y="50807" z="-1040" h="57747"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-112047" y="45769" z="-1016" h="9880"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111172" y="46076" z="-1016" h="48409"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111314" y="46857" z="-1016" h="52838"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110230" y="51487" z="-1016" h="7711"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110433" y="51582" z="-1016" h="20213"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108943" y="51332" z="-1008" h="7084"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109015" y="51774" z="-1008" h="22026"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108698" y="51847" z="-1008" h="10040"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109817" y="47659" z="-1000" h="51474"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108659" y="51371" z="-1000" h="29416"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108788" y="51996" z="-1000" h="37522"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111429" y="46838" z="-992" h="27274"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110830" y="51242" z="-992" h="29177"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108154" y="51705" z="-992" h="25425"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108167" y="51909" z="-992" h="5700"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108751" y="52109" z="-992" h="24004"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111724" y="46987" z="-968" h="52391"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111576" y="46554" z="-960" h="25316"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111963" y="47598" z="-960" h="25425"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109821" y="50096" z="-960" h="21047"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-109654" y="50106" z="-960" h="2721"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-110905" y="51386" z="-960" h="19739"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-112096" y="47555" z="-952" h="48127"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111579" y="46257" z="-944" h="6846"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111561" y="46301" z="-944" h="21520"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111617" y="46276" z="-928" h="13640"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-111526" y="48376" z="-896" h="56152"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107890" y="50958" z="-856" h="10419"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-112092" y="48438" z="-832" h="22827"/>
+        <npc id="21986"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102632" y="40152" z="-2088" h="15799"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102632" y="40152" z="-2088" h="15799"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102696" y="39670" z="-1992" h="9642"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103258" y="50948" z="-1952" h="28672"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102946" y="39504" z="-1872" h="45614"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103283" y="39943" z="-1864" h="37562"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104471" y="39826" z="-1840" h="36765"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104523" y="39850" z="-1840" h="30212"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104566" y="39985" z="-1840" h="5289"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104039" y="39838" z="-1816" h="45523"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104054" y="39991" z="-1816" h="35418"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103910" y="39759" z="-1808" h="47703"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104193" y="40299" z="-1808" h="23950"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103682" y="39611" z="-1800" h="32866"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103767" y="40611" z="-1800" h="41370"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105688" y="49203" z="-1768" h="17698"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103335" y="51400" z="-1728" h="31044"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105439" y="43699" z="-1680" h="33502"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105723" y="52097" z="-1624" h="4880"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106079" y="51289" z="-1616" h="12844"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105238" y="51878" z="-1616" h="3310"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105296" y="51985" z="-1616" h="1154"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104998" y="52191" z="-1616" h="35018"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105459" y="51513" z="-1608" h="40206"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105080" y="51167" z="-1568" h="53282"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104092" y="51741" z="-1568" h="28888"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104074" y="51794" z="-1568" h="59324"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106095" y="51820" z="-1568" h="34619"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104115" y="49177" z="-1560" h="6334"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104826" y="52847" z="-1536" h="63955"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102753" y="49157" z="-1520" h="30423"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103791" y="49284" z="-1520" h="37259"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104194" y="45345" z="-1480" h="43530"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104950" y="43943" z="-1472" h="15873"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106121" y="44966" z="-1472" h="3455"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106436" y="45202" z="-1472" h="19936"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107283" y="42438" z="-1464" h="4792"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107446" y="47176" z="-1464" h="23124"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107524" y="47217" z="-1464" h="35113"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102165" y="48873" z="-1464" h="28390"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107183" y="41718" z="-1456" h="61301"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103519" y="44247" z="-1456" h="40139"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106031" y="45143" z="-1456" h="19538"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107479" y="42839" z="-1448" h="42190"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108086" y="42988" z="-1448" h="15218"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105761" y="45143" z="-1448" h="44104"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106076" y="45261" z="-1448" h="39522"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107787" y="42907" z="-1440" h="32620"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107506" y="42938" z="-1440" h="37475"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107746" y="42993" z="-1440" h="23817"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103613" y="43956" z="-1440" h="41320"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103232" y="43985" z="-1440" h="48382"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103239" y="44063" z="-1440" h="29204"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103956" y="44288" z="-1440" h="33939"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103647" y="44324" z="-1440" h="61087"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106211" y="45379" z="-1440" h="17044"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105941" y="45379" z="-1440" h="16201"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105806" y="45379" z="-1440" h="2878"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105851" y="45438" z="-1440" h="64080"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105716" y="45438" z="-1440" h="64552"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107567" y="42167" z="-1432" h="27080"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108311" y="42945" z="-1432" h="43234"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108381" y="42985" z="-1432" h="31602"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102921" y="44145" z="-1432" h="578"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103003" y="44294" z="-1432" h="59825"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105964" y="45528" z="-1432" h="17359"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105896" y="45556" z="-1432" h="38274"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105806" y="45556" z="-1432" h="33581"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105761" y="45556" z="-1432" h="53519"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105851" y="45615" z="-1432" h="53945"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106098" y="45640" z="-1432" h="32402"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106031" y="45674" z="-1432" h="41515"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105896" y="45851" z="-1432" h="42850"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107273" y="41820" z="-1416" h="21589"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108554" y="42916" z="-1416" h="53300"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103043" y="44690" z="-1416" h="22137"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108644" y="42988" z="-1408" h="44835"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108468" y="43389" z="-1408" h="41644"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102741" y="44088" z="-1408" h="56461"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102998" y="44694" z="-1408" h="11873"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104255" y="43747" z="-1400" h="12522"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102533" y="44827" z="-1400" h="64669"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103578" y="44761" z="-1392" h="3447"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-100842" y="48431" z="-1296" h="33336"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102390" y="48125" z="-1232" h="10331"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102351" y="47945" z="-1176" h="4362"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103399" y="46219" z="-1144" h="40412"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103345" y="46710" z="-1144" h="9633"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103200" y="46907" z="-1144" h="48863"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103154" y="46908" z="-1144" h="5438"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103140" y="46580" z="-1136" h="60830"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102370" y="46640" z="-1128" h="13334"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102312" y="46651" z="-1128" h="63988"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102102" y="47247" z="-1128" h="5611"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-101819" y="47594" z="-1128" h="59166"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102241" y="47182" z="-1112" h="7375"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102311" y="47550" z="-1112" h="63577"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-101906" y="47116" z="-1104" h="1154"/>
+        <npc id="21987"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102005" y="40003" z="-2248" h="54229"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102723" y="40281" z="-2056" h="31506"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103070" y="40134" z="-1912" h="14553"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103639" y="40675" z="-1856" h="28693"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104470" y="39848" z="-1840" h="4128"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105055" y="40089" z="-1840" h="43798"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104325" y="39915" z="-1832" h="64958"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104215" y="39947" z="-1832" h="5653"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105523" y="40900" z="-1816" h="49153"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105488" y="40277" z="-1808" h="43442"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104257" y="40282" z="-1808" h="58825"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103478" y="39978" z="-1800" h="46715"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103866" y="40175" z="-1800" h="19831"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104742" y="40491" z="-1800" h="30794"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105017" y="49467" z="-1792" h="10196"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104803" y="49298" z="-1760" h="42239"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105430" y="43612" z="-1696" h="54591"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104513" y="40687" z="-1688" h="51464"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106049" y="43848" z="-1672" h="30565"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105950" y="48687" z="-1664" h="11221"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107276" y="45258" z="-1616" h="43798"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104036" y="49262" z="-1576" h="28717"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103446" y="49166" z="-1552" h="18138"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106526" y="45143" z="-1512" h="46600"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104420" y="45211" z="-1496" h="44575"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106391" y="45261" z="-1472" h="28262"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106391" y="45261" z="-1472" h="42917"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103379" y="48520" z="-1472" h="9889"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108018" y="42466" z="-1456" h="51465"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105941" y="44966" z="-1456" h="42218"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108129" y="42751" z="-1448" h="35605"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108173" y="42809" z="-1448" h="40034"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107618" y="43063" z="-1448" h="60317"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103357" y="44129" z="-1448" h="8089"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103829" y="44342" z="-1448" h="26230"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103976" y="44515" z="-1448" h="20959"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104145" y="44640" z="-1448" h="11903"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106166" y="45202" z="-1448" h="13568"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106265" y="45355" z="-1448" h="23546"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107768" y="42939" z="-1440" h="55578"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107617" y="42950" z="-1440" h="7375"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107541" y="42952" z="-1440" h="30852"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107779" y="42960" z="-1440" h="25821"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107914" y="43387" z="-1440" h="46528"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103596" y="43945" z="-1440" h="5008"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103213" y="44453" z="-1440" h="57821"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105941" y="45202" z="-1440" h="53361"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105761" y="45261" z="-1440" h="51515"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105716" y="45320" z="-1440" h="61789"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106166" y="45556" z="-1440" h="43989"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107561" y="42150" z="-1432" h="10210"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104140" y="44352" z="-1432" h="23546"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105941" y="45497" z="-1432" h="58029"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105851" y="45497" z="-1432" h="53576"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105761" y="45615" z="-1432" h="4261"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106011" y="45666" z="-1432" h="3783"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-105716" y="45792" z="-1432" h="37419"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103008" y="44566" z="-1424" h="144"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106826" y="42412" z="-1416" h="43153"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-106860" y="42452" z="-1416" h="53690"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107358" y="42916" z="-1416" h="38902"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-107575" y="44070" z="-1416" h="12812"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-108420" y="43774" z="-1408" h="40348"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104459" y="43781" z="-1400" h="10150"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102491" y="44690" z="-1400" h="3233"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102876" y="44912" z="-1400" h="24472"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-104294" y="47385" z="-1384" h="19507"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102375" y="47921" z="-1176" h="9527"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103177" y="46106" z="-1144" h="46224"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102760" y="46202" z="-1144" h="57345"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-103401" y="46700" z="-1144" h="59801"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102034" y="47523" z="-1144" h="29365"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102975" y="46344" z="-1136" h="44488"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102996" y="46473" z="-1136" h="25196"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102853" y="46814" z="-1136" h="20262"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102245" y="47317" z="-1136" h="59084"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102375" y="46559" z="-1128" h="54938"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102370" y="46381" z="-1120" h="64958"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-102331" y="46205" z="-1112" h="19186"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+    <spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+        <point x="-101532" y="48248" z="-1096" h="53698"/>
+        <npc id="21988"/><!-- Colleen, Captive -->
+    </spawn>
+</list>

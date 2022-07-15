@@ -1,0 +1,17 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<instance id="182" name="Balthus Knights - Baium" maxChannels="20" collapseIfEmpty="5" timelimit="120">
+		<level min="70" max="84"/>
+		<party min="1" max="300"/>
+		<return loc="114822 11209 -5120"/> 
+		<teleport loc="113912 15704 10080"/> 
+		<reuse resetReuse="30 6 * * 3" setUponEntry="false" sharedReuseGroup="0"/>
+		<zones>
+			<zone name="[baium_balthus_knights]" active="true"/>
+		</zones>
+		<spawns>
+			<group name="baium_balthus_knights_boss" spawned="true"/>
+		</spawns>
+	</instance>
+</list>

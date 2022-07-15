@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<weapon id="71100" name="Wedding Bouquet">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys2.icon.br_wedding_bouquet_i00"/>
+		<set name="type" value="CROSSBOW"/>
+		<set name="weight" value="1600"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="1"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="10"/>
+		</for>
+	</weapon>
+	<etcitem id="71101" name="XP &amp; SP Rune - 50%" add_name="1 hour">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.skill19226"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71102" name="Package: XP &amp; SP Rune - 50% (1 hour)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71103" name="XP &amp; SP Rune - 50%" add_name="5 hours">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.skill19226"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71104" name="Package: XP &amp; SP Rune - 50% (5 hours)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71105" name="XP &amp; SP Rune - 50%" add_name="7-day">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.skill19226"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71106" name="Package: XP &amp; SP Rune - 50% (7-day)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71107" name="Irene\'s Hourglass - 1 Hour">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_dragons_blood_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="autousable" value="true"/>
+	</etcitem>
+	<etcitem id="71108" name="Package: Irene\'s Hourglass (1 hour)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71109" name="Package: Golden Mermaid\'s Fishing Rod (7-day)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71110" name="Package: Golden Mermaid\'s Fishing Rod (30-day)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_pi_gift_box_i04"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="71111" name="Ruthless Tribe Mask">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys.icon.br_mask_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</armor>
+	<armor id="71112" name="Artisan\'s Goggles">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_dwarf_goggle_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="71113" name="Fairy Antennae">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_hair_feeler_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</armor>
+	<armor id="71114" name="Assassin\'s Bamboo Hat">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys.icon.br_Bamboo_Hat_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="71115" name="Little Angel Wings">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_hair_ring_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</armor>
+	<armor id="71116" name="Black Gem Mask">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys.icon.br_black_gem_mask_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</armor>
+	<armor id="71117" name="Circlet of Eva">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys.icon.br_circlet_of_eva_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="HAIR_ALL"/>
+		</equip>
+	</armor>
+	<armor id="71118" name="Outlaw Eyepatch">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_outlaw_eyepatch_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</armor>
+	<armor id="71119" name="Monocle">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_glasses_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+	</armor>
+	<etcitem id="71120" name="Song Of Adventurer - Recovery">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchSys3.Icon.g_sing_of_adventurer_recovery"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="71121" name="Agathion Bugbear">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys.icon.br_aga_bugbear_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71122" name="Agathion Dryad">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys.icon.br_aga_dryad_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71123" name="Agathion Griffin">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.Item_g_rbracelet_griffin"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<etcitem id="71124" name="Stable Cloak Enchantment Scroll - Legendary">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_enchant_scroll_normal"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71125" name="Legendary Scroll (High-grade)">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_legend_scroll"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71126" name="High-grade Life Stone - Ancient Kingdom">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_mineral_normal"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71127" name="High-grade Life Stone - Elmoreden">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_mineral_elmoreden"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71128" name="High-grade Life Stone - Aden">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_mineral_aden"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71129" name="High-grade Life Stone - Elmore">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_mineral_elmore"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71130" name="High-grade Life Stone - Ferios">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_cloak_mineral_perios"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71131" name="High-grade Life Stone Pack - Legendary">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_freya_2016_gift_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71132" name="High-grade Life Stone Pack - Cloak">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_freya_2016_gift_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="71133" name="Agathion Mermaid">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_base"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="120"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<etcitem id="71134" name="Master\'s Fishing Coin">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.etc_coins_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71135" name="Agathion Mermaid Enchant Scroll">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.star_scrl_of_ench_ag"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71136" name="Mermaid\'s Trace">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_oren_fish_scale_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71137" name="Master\'s Fishing Potion" add_name="1 h.">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="BranchIcon.etc_sign_agathion_feed_blue_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71139" name="Fishing XP Box">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.bm_special_pendant_abradant_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71140" name="Shining Fishing Box">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_sheep_agathion_30d_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71141" name="Fishing XP Scroll">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71142" name="Complete Arms Supplies Pack">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_treasure_box_i07"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="71143" name="Cloak of Light for the Chosen">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.amor_goodness_cloak"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<mul stat="maxHp" order="0x10" value="1.05"/>
+			<mul stat="maxMp" order="0x10" value="1.05"/>
+			<mul stat="maxCp" order="0x10" value="1.05"/>
+			<mul stat="pDef" order="0x10" value="1.05"/>
+			<mul stat="mDef" order="0x10" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="71144" name="Cloak of Darkness for the Chosen">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.amor_evilness_cloak"/>
+		<set name="type" value="NONE"/>
+		<equip>
+			<slot id="BACK"/>
+		</equip>
+		<for>
+			<mul stat="maxHp" order="0x10" value="1.05"/>
+			<mul stat="maxMp" order="0x10" value="1.05"/>
+			<mul stat="maxCp" order="0x10" value="1.05"/>
+			<mul stat="pDef" order="0x10" value="1.05"/>
+			<mul stat="mDef" order="0x10" value="1.05"/>
+		</for>
+	</armor>
+	<etcitem id="71145" name="Improved Scroll: Castle Blessing - Party">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="reuse_delay" value="300000"/>
+		<skills>
+			<skill id="56013" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="71146" name="Scroll: Improved Castle Buff - Party">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="56014" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="71147" name="Scroll: Castle Wind Walk - Party">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.etc_scroll_white_i00"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<skills>
+			<skill id="56015" level="1"/>
+		</skills>
+	</etcitem>
+	<armor id="71148" name="Reinforced Castle Ring (10-day)">
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_11th_rare_acc_ring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="14400"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<skills>
+			<skill id="56016" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="71149" name="Reinforced Castle Earring (10-day)">
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_11th_rare_acc_earing"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="14400"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<skills>
+			<skill id="56017" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="48"/>
+		</for>
+	</armor>
+	<armor id="71150" name="Reinforced Castle Necklace (10-day)">
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_11th_rare_acc_necklace"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="durability" value="14400"/>
+		<set name="temporal" value="true"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<skills>
+			<skill id="56018" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="64"/>
+		</for>
+	</armor>
+	<armor id="71151" name="Agathion Bracelet - Lv. 3" add_name="60 d.">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.lbracelet_agathion_charm"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="100"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<armor id="71152" name="Agathion Bracelet - Lv. 5">
+		<set name="sellable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.lbracelet_agathion_charm"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="100"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<etcitem id="71153" name="+7 Elmoreden Cloak Box">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.etc_g_bm_godspirit_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71154" name="+7 Aden Cloak Box">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.etc_g_bm_godspirit_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71155" name="+7 Elmore Cloak Box">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.etc_g_bm_godspirit_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71156" name="+7 Ferios Cloak Box">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.icon.etc_g_bm_godspirit_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="71157" name="Agathion Ball Trapping Gnosian">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys2.icon.br_aga_kball_male_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<armor id="71158" name="Agathion Ball Trapping Orodriel">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys2.icon.br_aga_kball_female_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<armor id="71159" name="Agathion Penalty Kick">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchSys2.icon.br_aga_kball_kick_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<etcitem id="71160" name="Seven Signs Miracle Box">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.bm_sayha_gold_present"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71161" name="Legendary Card: Antharas">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_dragon_anta"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71162" name="Legendary Card: Valakas">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_dragon_vala"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71163" name="Legendary Card: Lindvior">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_dragon_rind"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71164" name="Legendary Card: Astair van Halter">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_hero_holter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71165" name="Legendary Card: Amadeo Cadmus">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_hero_amadeose"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71166" name="Legendary Card: Lionel Hunter">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_hero_hunter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71167" name="Legendary Card: Sieghardt Ein">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_hero_zigharte"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71168" name="Legendary Card: Elcadia">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_hero_elcardia"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71169" name="Legendary Card: Baium">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_devil_baium"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71170" name="Legendary Card: Beleth">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_devil_verese"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71171" name="Legendary Card: Tiat">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_devil_tiate"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71172" name="Legendary Card: Lilith">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_devil_lilith"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71173" name="Legendary Card: Paulina">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_angel_polline"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71174" name="Legendary Card: Anakim">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_angel_anakim"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71175" name="Aspiring Orc Ruler of Aden">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_orc"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71176" name="Hidden Card">
+		<set name="sellable" value="false"/>
+		<set name="icon" value="icon.card_hidden"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71177" name="Daily Present - VIP 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i00"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71178" name="Daily Present - VIP 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i01"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71179" name="Daily Present - VIP 3">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i02"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71180" name="Daily Present - VIP 4">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i03"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71181" name="Daily Present - VIP 5">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i04"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71182" name="Daily Present - VIP 6">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i05"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="71183" name="Daily Present - VIP 7">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="BranchIcon.Icon.etc_vip_present_i06"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<armor id="71184" name="Agathion Meliodas" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_meliodas_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71185" name="Agathion Elizabeth" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_elizabeth_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71186" name="Agathion Hawk" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_hawk_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71187" name="Agathion Ban" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_ban_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71188" name="Agathion Diane" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_diane_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71189" name="Agathion King" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_king_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71190" name="Agathion Merlin" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_merlin_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71191" name="Agathion Gowther" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_gowther_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71192" name="Agathion Escanor" add_name="Lv. 1">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_escanor_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71193" name="Agathion Meliodas" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_meliodas_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71194" name="Agathion Elizabeth" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_elizabeth_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71195" name="Agathion Hawk" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_hawk_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71196" name="Agathion Ban" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_ban_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71197" name="Agathion Diane" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_diane_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71198" name="Agathion King" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_king_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+	<armor id="71199" name="Agathion Merlin" add_name="Lv. 2">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.icon.g_bm_merlin_agathion_charm_lv1_jp"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+	</armor>
+</list>

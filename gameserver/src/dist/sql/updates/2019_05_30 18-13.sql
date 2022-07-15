@@ -1,0 +1,1 @@
+UPDATE items SET life_time = -1 WHERE life_time = 0;

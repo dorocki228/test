@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="19113" level="1" name="No Clan Return">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_recall"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="1800.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="19114" level="1" name="No Clan Resurrection">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill_resurrection"/>
+        <set name="skill_cool_time" value="0.5"/>
+        <set name="skill_hit_time" value="2.0"/>
+        <set name="reuse_delay" value="1800.0"/>
+        <set name="cast_range" value="600"/>
+        <set name="effect_point" value="-100"/>
+        <set name="debuff" value="1"/>
+    </skill>
+    <skill id="19119" level="1" name="Noblesse Grace">
+        <!--TODO: Notdone-->
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill1323"/>
+        <set name="skill_hit_time" value="4.0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effect_point" value="1"/>
+        <set name="debuff" value="0"/>
+    </skill>
+</list>

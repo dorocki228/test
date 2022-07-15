@@ -1,0 +1,740 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "elemental_data.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<configs enabled="true">
+		<reset_points_cost item_id="57" item_count="50000"/>	<!--Адена-->
+	</configs>
+	<elemental element="FIRE">
+		<absorb_items>
+			<absorb_item id="91036" power="9300"/>	<!--Руда Духа Огня-->
+		</absorb_items>
+		<evolution level="0">
+			<datas>
+				<data level="1"/>
+			</datas>
+		</evolution>
+		<evolution level="1">
+			<limits max_attack_points="5" max_defence_points="5" max_crit_rate_points="5" max_crit_attack_points="5"/>
+			<rise_level_cost>
+				<cost_item id="91032" count="1"/>	<!--Камень Эволюции Духа Огня-->
+				<cost_item id="57" count="1000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="35" defence="35" crit_rate="1" crit_attack="1" exp="57713">
+					<extract item_id="91040" item_count="0">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="40" defence="40" crit_rate="2" crit_attack="2" exp="80794">
+					<extract item_id="91040" item_count="2">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="45" defence="45" crit_rate="3" crit_attack="3" exp="104224">
+					<extract item_id="91040" item_count="4">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="50" defence="50" crit_rate="4" crit_attack="4" exp="133407">
+					<extract item_id="91040" item_count="7">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="55" defence="55" crit_rate="5" crit_attack="5" exp="170761">
+					<extract item_id="91040" item_count="10">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="60" defence="60" crit_rate="6" crit_attack="6" exp="215159">
+					<extract item_id="91040" item_count="15">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="65" defence="65" crit_rate="7" crit_attack="7" exp="268949">
+					<extract item_id="91040" item_count="20">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="70" defence="70" crit_rate="8" crit_attack="8" exp="333496">
+					<extract item_id="91040" item_count="27">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="75" defence="75" crit_rate="9" crit_attack="9" exp="410200">
+					<extract item_id="91040" item_count="35">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="80" defence="80" crit_rate="10" crit_attack="10" exp="496343">
+					<extract item_id="91040" item_count="45">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="2">
+			<limits max_attack_points="10" max_defence_points="10" max_crit_rate_points="10" max_crit_attack_points="10"/>
+			<rise_level_cost>
+				<cost_item id="91032" count="3"/>	<!--Камень Эволюции Духа Огня-->
+				<cost_item id="57" count="3000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="105" defence="105" crit_rate="16" crit_attack="16" exp="595611">
+					<extract item_id="91040" item_count="0">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="110" defence="110" crit_rate="17" crit_attack="17" exp="714773">
+					<extract item_id="91040" item_count="26">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="115" defence="115" crit_rate="18" crit_attack="18" exp="857680">
+					<extract item_id="91040" item_count="43">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="120" defence="120" crit_rate="19" crit_attack="19" exp="1020639">
+					<extract item_id="91040" item_count="63">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="125" defence="125" crit_rate="20" crit_attack="20" exp="1204353">
+					<extract item_id="91040" item_count="87">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="130" defence="130" crit_rate="21" crit_attack="21" exp="1409094">
+					<extract item_id="91040" item_count="116">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="135" defence="135" crit_rate="22" crit_attack="22" exp="1648640">
+					<extract item_id="91040" item_count="148">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="140" defence="140" crit_rate="23" crit_attack="23" exp="1912423">
+					<extract item_id="91040" item_count="187">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="145" defence="145" crit_rate="24" crit_attack="24" exp="2218410">
+					<extract item_id="91040" item_count="231">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="150" defence="150" crit_rate="25" crit_attack="25" exp="2528988">
+					<extract item_id="91040" item_count="282">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="3">
+			<limits max_attack_points="15" max_defence_points="15" max_crit_rate_points="15" max_crit_attack_points="15"/>
+			<datas>
+				<data level="1" attack="175" defence="175" crit_rate="31" crit_attack="31" exp="2883046">
+					<extract item_id="91040" item_count="0">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="180" defence="180" crit_rate="32" crit_attack="32" exp="3286673">
+					<extract item_id="91040" item_count="125">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="185" defence="185" crit_rate="33" crit_attack="33" exp="3746807">
+					<extract item_id="91040" item_count="201">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="190" defence="190" crit_rate="34" crit_attack="34" exp="4271360">
+					<extract item_id="91040" item_count="288">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="195" defence="195" crit_rate="35" crit_attack="35" exp="4869350">
+					<extract item_id="91040" item_count="385">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="200" defence="200" crit_rate="36" crit_attack="36" exp="5502366">
+					<extract item_id="91040" item_count="496">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="205" defence="205" crit_rate="37" crit_attack="37" exp="6217673">
+					<extract item_id="91040" item_count="620">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="210" defence="210" crit_rate="38" crit_attack="38" exp="7025971">
+					<extract item_id="91040" item_count="760">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="215" defence="215" crit_rate="39" crit_attack="39" exp="7939347">
+					<extract item_id="91040" item_count="916">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="220" defence="220" crit_rate="40" crit_attack="40" exp="8844432">
+					<extract item_id="91040" item_count="1091">	<!--Фрагмент Стихии Огня-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+	</elemental>
+	<elemental element="WATER">
+		<absorb_items>
+			<absorb_item id="91035" power="9300"/>	<!--Руда Духа Воды-->
+		</absorb_items>
+		<evolution level="0">
+			<datas>
+				<data level="1"/>
+			</datas>
+		</evolution>
+		<evolution level="1">
+			<limits max_attack_points="5" max_defence_points="5" max_crit_rate_points="5" max_crit_attack_points="5"/>
+			<rise_level_cost>
+				<cost_item id="91031" count="1"/>	<!--Камень Эволюции Духа Воды-->
+				<cost_item id="57" count="1000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="35" defence="35" crit_rate="1" crit_attack="1" exp="57713">
+					<extract item_id="91039" item_count="0">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="40" defence="40" crit_rate="2" crit_attack="2" exp="135313">
+					<extract item_id="91039" item_count="2">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="45" defence="45" crit_rate="3" crit_attack="3" exp="104224">
+					<extract item_id="91039" item_count="4">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="50" defence="50" crit_rate="4" crit_attack="4" exp="133407">
+					<extract item_id="91039" item_count="7">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="55" defence="55" crit_rate="5" crit_attack="5" exp="170761">
+					<extract item_id="91039" item_count="10">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="60" defence="60" crit_rate="6" crit_attack="6" exp="215159">
+					<extract item_id="91039" item_count="15">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="65" defence="65" crit_rate="7" crit_attack="7" exp="268949">
+					<extract item_id="91039" item_count="20">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="70" defence="70" crit_rate="8" crit_attack="8" exp="333496">
+					<extract item_id="91039" item_count="27">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="75" defence="75" crit_rate="9" crit_attack="9" exp="410200">
+					<extract item_id="91039" item_count="35">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="80" defence="80" crit_rate="10" crit_attack="10" exp="496343">
+					<extract item_id="91039" item_count="45">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="2">
+			<limits max_attack_points="10" max_defence_points="10" max_crit_rate_points="10" max_crit_attack_points="10"/>
+			<rise_level_cost>
+				<cost_item id="91031" count="3"/>	<!--Камень Эволюции Духа Воды-->
+				<cost_item id="57" count="3000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="105" defence="105" crit_rate="16" crit_attack="16" exp="595611">
+					<extract item_id="91039" item_count="0">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="110" defence="110" crit_rate="17" crit_attack="17" exp="714773">
+					<extract item_id="91039" item_count="26">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="115" defence="115" crit_rate="18" crit_attack="18" exp="857680">
+					<extract item_id="91039" item_count="43">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="120" defence="120" crit_rate="19" crit_attack="19" exp="1020639">
+					<extract item_id="91039" item_count="63">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="125" defence="125" crit_rate="20" crit_attack="20" exp="1204353">
+					<extract item_id="91039" item_count="87">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="130" defence="130" crit_rate="21" crit_attack="21" exp="1409094">
+					<extract item_id="91039" item_count="116">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="135" defence="135" crit_rate="22" crit_attack="22" exp="1648640">
+					<extract item_id="91039" item_count="148">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="140" defence="140" crit_rate="23" crit_attack="23" exp="1912423">
+					<extract item_id="91039" item_count="187">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="145" defence="145" crit_rate="24" crit_attack="24" exp="2218410">
+					<extract item_id="91039" item_count="231">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="150" defence="150" crit_rate="25" crit_attack="25" exp="2528988">
+					<extract item_id="91039" item_count="282">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="3">
+			<limits max_attack_points="15" max_defence_points="15" max_crit_rate_points="15" max_crit_attack_points="15"/>
+			<datas>
+				<data level="1" attack="175" defence="175" crit_rate="31" crit_attack="31" exp="2883046">
+					<extract item_id="91039" item_count="0">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="180" defence="180" crit_rate="32" crit_attack="32" exp="3286673">
+					<extract item_id="91039" item_count="125">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="185" defence="185" crit_rate="33" crit_attack="33" exp="3746807">
+					<extract item_id="91039" item_count="201">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="190" defence="190" crit_rate="34" crit_attack="34" exp="4271360">
+					<extract item_id="91039" item_count="288">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="195" defence="195" crit_rate="35" crit_attack="35" exp="4869350">
+					<extract item_id="91039" item_count="385">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="200" defence="200" crit_rate="36" crit_attack="36" exp="5502366">
+					<extract item_id="91039" item_count="496">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="205" defence="205" crit_rate="37" crit_attack="37" exp="6217673">
+					<extract item_id="91039" item_count="620">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="210" defence="210" crit_rate="38" crit_attack="38" exp="7025971">
+					<extract item_id="91039" item_count="760">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="215" defence="215" crit_rate="39" crit_attack="39" exp="7939347">
+					<extract item_id="91039" item_count="916">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="220" defence="220" crit_rate="40" crit_attack="40" exp="8844432">
+					<extract item_id="91039" item_count="1091">	<!--Фрагмент Стихии Воды-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+	</elemental>
+	<elemental element="WIND">
+		<absorb_items>
+			<absorb_item id="91037" power="9300"/>	<!--Руда Духа Ветра-->
+		</absorb_items>
+		<evolution level="0">
+			<datas>
+				<data level="1"/>
+			</datas>
+		</evolution>
+		<evolution level="1">
+			<limits max_attack_points="5" max_defence_points="5" max_crit_rate_points="5" max_crit_attack_points="5"/>
+			<rise_level_cost>
+				<cost_item id="91033" count="1"/>	<!--Камень Эволюции Духа Ветра-->
+				<cost_item id="57" count="1000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="35" defence="35" crit_rate="1" crit_attack="1" exp="57713">
+					<extract item_id="91041" item_count="1">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="40" defence="40" crit_rate="2" crit_attack="2" exp="135313">
+					<extract item_id="91041" item_count="0">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="45" defence="45" crit_rate="3" crit_attack="3" exp="104224">
+					<extract item_id="91041" item_count="4">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="50" defence="50" crit_rate="4" crit_attack="4" exp="133407">
+					<extract item_id="91041" item_count="7">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="55" defence="55" crit_rate="5" crit_attack="5" exp="170761">
+					<extract item_id="91041" item_count="10">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="60" defence="60" crit_rate="6" crit_attack="6" exp="215159">
+					<extract item_id="91041" item_count="15">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="65" defence="65" crit_rate="7" crit_attack="7" exp="268949">
+					<extract item_id="91041" item_count="20">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="70" defence="70" crit_rate="8" crit_attack="8" exp="333496">
+					<extract item_id="91041" item_count="27">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="75" defence="75" crit_rate="9" crit_attack="9" exp="410200">
+					<extract item_id="91041" item_count="35">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="80" defence="80" crit_rate="10" crit_attack="10" exp="496343">
+					<extract item_id="91041" item_count="45">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="2">
+			<limits max_attack_points="10" max_defence_points="10" max_crit_rate_points="10" max_crit_attack_points="10"/>
+			<rise_level_cost>
+				<cost_item id="91033" count="3"/>	<!--Камень Эволюции Духа Ветра-->
+				<cost_item id="57" count="3000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="105" defence="105" crit_rate="16" crit_attack="16" exp="595611">
+					<extract item_id="91041" item_count="0">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="110" defence="110" crit_rate="17" crit_attack="17" exp="714773">
+					<extract item_id="91041" item_count="26">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="115" defence="115" crit_rate="18" crit_attack="18" exp="857680">
+					<extract item_id="91041" item_count="43">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="120" defence="120" crit_rate="19" crit_attack="19" exp="1020639">
+					<extract item_id="91041" item_count="63">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="125" defence="125" crit_rate="20" crit_attack="20" exp="1204353">
+					<extract item_id="91041" item_count="87">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="130" defence="130" crit_rate="21" crit_attack="21" exp="1409094">
+					<extract item_id="91041" item_count="116">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="135" defence="135" crit_rate="22" crit_attack="22" exp="1648640">
+					<extract item_id="91041" item_count="148">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="140" defence="140" crit_rate="23" crit_attack="23" exp="1912423">
+					<extract item_id="91041" item_count="187">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="145" defence="145" crit_rate="24" crit_attack="24" exp="2218410">
+					<extract item_id="91041" item_count="231">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="150" defence="150" crit_rate="25" crit_attack="25" exp="2528988">
+					<extract item_id="91041" item_count="282">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="3">
+			<limits max_attack_points="15" max_defence_points="15" max_crit_rate_points="15" max_crit_attack_points="15"/>
+			<datas>
+				<data level="1" attack="175" defence="175" crit_rate="31" crit_attack="31" exp="2883046">
+					<extract item_id="91041" item_count="0">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="180" defence="180" crit_rate="32" crit_attack="32" exp="3286673">
+					<extract item_id="91041" item_count="125">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="185" defence="185" crit_rate="33" crit_attack="33" exp="3746807">
+					<extract item_id="91041" item_count="201">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="190" defence="190" crit_rate="34" crit_attack="34" exp="4271360">
+					<extract item_id="91041" item_count="288">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="195" defence="195" crit_rate="35" crit_attack="35" exp="4869350">
+					<extract item_id="91041" item_count="385">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="200" defence="200" crit_rate="36" crit_attack="36" exp="5502366">
+					<extract item_id="91041" item_count="496">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="205" defence="205" crit_rate="37" crit_attack="37" exp="6217673">
+					<extract item_id="91041" item_count="620">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="210" defence="210" crit_rate="38" crit_attack="38" exp="7025971">
+					<extract item_id="91041" item_count="760">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="215" defence="215" crit_rate="39" crit_attack="39" exp="7939347">
+					<extract item_id="91041" item_count="916">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="220" defence="220" crit_rate="40" crit_attack="40" exp="8844432">
+					<extract item_id="91041" item_count="1091">	<!--Фрагмент Стихии Ветра-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+	</elemental>
+	<elemental element="EARTH">
+		<absorb_items>
+			<absorb_item id="91038" power="9300"/>	<!--Руда Духа Земли-->
+		</absorb_items>
+		<evolution level="0">
+			<datas>
+				<data level="1"/>
+			</datas>
+		</evolution>
+		<evolution level="1">
+			<limits max_attack_points="5" max_defence_points="5" max_crit_rate_points="5" max_crit_attack_points="5"/>
+			<rise_level_cost>
+				<cost_item id="91034" count="1"/>	<!--Камень Эволюции Духа Земли-->
+				<cost_item id="57" count="1000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="35" defence="35" crit_rate="1" crit_attack="1" exp="57713">
+					<extract item_id="91042" item_count="0">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="40" defence="40" crit_rate="2" crit_attack="2" exp="135313">
+					<extract item_id="91042" item_count="2">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="45" defence="45" crit_rate="3" crit_attack="3" exp="104224">
+					<extract item_id="91042" item_count="4">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="50" defence="50" crit_rate="4" crit_attack="4" exp="133407">
+					<extract item_id="91042" item_count="7">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="55" defence="55" crit_rate="5" crit_attack="5" exp="170761">
+					<extract item_id="91042" item_count="10">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="60" defence="60" crit_rate="6" crit_attack="6" exp="215159">
+					<extract item_id="91042" item_count="15">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="65" defence="65" crit_rate="7" crit_attack="7" exp="268949">
+					<extract item_id="91042" item_count="20">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="70" defence="70" crit_rate="8" crit_attack="8" exp="333496">
+					<extract item_id="91042" item_count="27">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="75" defence="75" crit_rate="9" crit_attack="9" exp="410200">
+					<extract item_id="91042" item_count="35">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="80" defence="80" crit_rate="10" crit_attack="10" exp="496343">
+					<extract item_id="91042" item_count="45">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="2">
+			<limits max_attack_points="10" max_defence_points="10" max_crit_rate_points="10" max_crit_attack_points="10"/>
+			<rise_level_cost>
+				<cost_item id="91034" count="3"/>	<!--Камень Эволюции Духа Земли-->
+				<cost_item id="57" count="3000000"/>	<!--Адена-->
+			</rise_level_cost>
+			<datas>
+				<data level="1" attack="105" defence="105" crit_rate="16" crit_attack="16" exp="595611">
+					<extract item_id="91042" item_count="0">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="110" defence="110" crit_rate="17" crit_attack="17" exp="714773">
+					<extract item_id="91042" item_count="26">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="115" defence="115" crit_rate="18" crit_attack="18" exp="857680">
+					<extract item_id="91042" item_count="43">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="120" defence="120" crit_rate="19" crit_attack="19" exp="1020639">
+					<extract item_id="91042" item_count="63">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="125" defence="125" crit_rate="20" crit_attack="20" exp="1204353">
+					<extract item_id="91042" item_count="87">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="130" defence="130" crit_rate="21" crit_attack="21" exp="1409094">
+					<extract item_id="91042" item_count="116">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="135" defence="135" crit_rate="22" crit_attack="22" exp="1648640">
+					<extract item_id="91042" item_count="148">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="140" defence="140" crit_rate="23" crit_attack="23" exp="1912423">
+					<extract item_id="91042" item_count="187">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="145" defence="145" crit_rate="24" crit_attack="24" exp="2218410">
+					<extract item_id="91042" item_count="231">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="150" defence="150" crit_rate="25" crit_attack="25" exp="2528988">
+					<extract item_id="91042" item_count="282">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+		<evolution level="3">
+			<limits max_attack_points="15" max_defence_points="15" max_crit_rate_points="15" max_crit_attack_points="15"/>
+			<datas>
+				<data level="1" attack="175" defence="175" crit_rate="31" crit_attack="31" exp="2883046">
+					<extract item_id="91042" item_count="0">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="2" attack="180" defence="180" crit_rate="32" crit_attack="32" exp="3286673">
+					<extract item_id="91042" item_count="125">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="3" attack="185" defence="185" crit_rate="33" crit_attack="33" exp="3746807">
+					<extract item_id="91042" item_count="201">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="4" attack="190" defence="190" crit_rate="34" crit_attack="34" exp="4271360">
+					<extract item_id="91042" item_count="288">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="5" attack="195" defence="195" crit_rate="35" crit_attack="35" exp="4869350">
+					<extract item_id="91042" item_count="385">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="6" attack="200" defence="200" crit_rate="36" crit_attack="36" exp="5502366">
+					<extract item_id="91042" item_count="496">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="7" attack="205" defence="205" crit_rate="37" crit_attack="37" exp="6217673">
+					<extract item_id="91042" item_count="620">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="8" attack="210" defence="210" crit_rate="38" crit_attack="38" exp="7025971">
+					<extract item_id="91042" item_count="760">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="9" attack="215" defence="215" crit_rate="39" crit_attack="39" exp="7939347">
+					<extract item_id="91042" item_count="916">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+				<data level="10" attack="220" defence="220" crit_rate="40" crit_attack="40" exp="8844432">
+					<extract item_id="91042" item_count="1091">	<!--Фрагмент Стихии Земли-->
+						<cost_item id="57" count="1000000"/>	<!--Адена-->
+					</extract>
+				</data>
+			</datas>
+		</evolution>
+	</elemental>
+</list>

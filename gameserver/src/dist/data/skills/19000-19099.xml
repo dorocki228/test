@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE list SYSTEM "skills.dtd">
+<list>
+    <skill id="19009" level="1" name="Clan Advent">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.skill19009"/>
+        <set name="magic_level" value="-2"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="-2"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="-1"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="clan_advent"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="1"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="effect_point" value="100"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="pledge"/>
+        <set name="affect_range" value="1000"/>
+        <set name="affect_object" value="friend"/>
+        <set name="affect_limit" value="50;50"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <set name="buff_protect_level" value="31"/>
+        <for>
+            <effect name="p_physical_attack">
+                <def name="p_physical_attack_param1" value="all"/>
+                <def name="p_physical_attack_param2" value="5"/>
+                <def name="p_physical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_physical_defence">
+                <def name="p_physical_defence_param1" value="all"/>
+                <def name="p_physical_defence_param2" value="5"/>
+                <def name="p_physical_defence_param3" value="per"/>
+            </effect>
+            <effect name="p_hp_regen">
+                <def name="p_hp_regen_param1" value="all"/>
+                <def name="p_hp_regen_param2" value="5"/>
+                <def name="p_hp_regen_param3" value="diff"/>
+            </effect>
+            <effect name="p_mp_regen">
+                <def name="p_mp_regen_param1" value="all"/>
+                <def name="p_mp_regen_param2" value="5"/>
+                <def name="p_mp_regen_param3" value="diff"/>
+            </effect>
+            <effect name="p_magical_attack">
+                <def name="p_magical_attack_param1" value="all"/>
+                <def name="p_magical_attack_param2" value="6"/>
+                <def name="p_magical_attack_param3" value="per"/>
+            </effect>
+            <effect name="p_magical_defence">
+                <def name="p_magical_defence_param1" value="all"/>
+                <def name="p_magical_defence_param2" value="5"/>
+                <def name="p_magical_defence_param3" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19032" level="1" name="Ability of Light">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19008"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <passive_conditions>
+            <cond name="op_alignment">
+                <def name="op_alignment_param1" value="lawful"/>
+                <def name="op_alignment_param2" value="self"/>
+            </cond>
+        </passive_conditions>
+        <for>
+            <effect name="p_max_cp">
+                <def name="p_max_cp_param1" value="all"/>
+                <def name="p_max_cp_param2" value="3000"/>
+                <def name="p_max_cp_param3" value="diff"/>
+                <def name="p_max_cp_param4" value="0"/>
+            </effect>
+            <effect name="p_pvp_physical_attack_dmg_bonus">
+                <def name="p_pvp_physical_attack_dmg_bonus_param1" value="10"/>
+                <def name="p_pvp_physical_attack_dmg_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_physical_skill_dmg_bonus">
+                <def name="p_pvp_physical_skill_dmg_bonus_param1" value="10"/>
+                <def name="p_pvp_physical_skill_dmg_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_magical_skill_dmg_bonus">
+                <def name="p_pvp_magical_skill_dmg_bonus_param1" value="10"/>
+                <def name="p_pvp_magical_skill_dmg_bonus_param2" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19033" level="1" name="Ability of Darkness">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.skill19008"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_max_cp">
+                <def name="p_max_cp_param1" value="all"/>
+                <def name="p_max_cp_param2" value="3000"/>
+                <def name="p_max_cp_param3" value="diff"/>
+                <def name="p_max_cp_param4" value="0"/>
+            </effect>
+            <effect name="p_pvp_physical_attack_dmg_bonus">
+                <def name="p_pvp_physical_attack_dmg_bonus_param1" value="10"/>
+                <def name="p_pvp_physical_attack_dmg_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_physical_skill_dmg_bonus">
+                <def name="p_pvp_physical_skill_dmg_bonus_param1" value="10"/>
+                <def name="p_pvp_physical_skill_dmg_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_magical_skill_dmg_bonus">
+                <def name="p_pvp_magical_skill_dmg_bonus_param1" value="10"/>
+                <def name="p_pvp_magical_skill_dmg_bonus_param2" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19034" level="1" name="Imprint of Light">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0246"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume1" value="50"/>
+        <set name="cast_range" value="85"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="120.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="holything"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="possess_holything"/>
+        </operate_cond>
+        <for>
+            <effect name="i_holything_possess">
+                <def name="i_holything_possess_param1" value="1"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19035" level="1" name="Imprint of Darkness">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0246"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="mp_consume1" value="50"/>
+        <set name="cast_range" value="85"/>
+        <set name="effective_range" value="400"/>
+        <set name="skill_hit_time" value="120.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="5.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="holything"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="1"/>
+        <set name="olympiad_use" value="1"/>
+        <operate_cond>
+            <cond name="possess_holything"/>
+        </operate_cond>
+        <for>
+            <effect name="i_holything_possess">
+                <def name="i_holything_possess_param1" value="2"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19036" level="1" name="Blessing of Light">
+        <set name="operate_type" value="A2"/>
+        <set name="icon" value="icon.etc_pi_gift_box_i04"/>
+        <set name="magic_level" value="85"/>
+        <set name="magic_type" value="1"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="4"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay_lock" value="1"/>
+        <set name="activate_rate" value="-1"/>
+        <set name="basic_property" value="none"/>
+        <set name="abnormal_time" value="3600"/>
+        <set name="abnormal_lv" value="1"/>
+        <set name="abnormal_type" value="brightness_bless"/>
+        <set name="irreplaceable_buff" value="1"/>
+        <set name="buff_protect_level" value="31"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="abnormal_visual_effect" value="ave_vp_keep"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="reuse_delay_type" value="S"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="1"/>
+        <for>
+            <effect name="p_exp_modify">
+                <def name="p_exp_modify_param1" value="3"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19039" level="1" name="Cloak of Light">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.amor_goodness_cloak"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <passive_conditions>
+            <cond name="op_alignment">
+                <def name="op_alignment_param1" value="lawful"/>
+                <def name="op_alignment_param2" value="self"/>
+            </cond>
+        </passive_conditions>
+        <for>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="0"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="1"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="2"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="3"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="4"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="5"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_pvp_magical_skill_defence_bonus">
+                <def name="p_pvp_magical_skill_defence_bonus_param1" value="5"/>
+                <def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_physical_skill_defence_bonus">
+                <def name="p_pvp_physical_skill_defence_bonus_param1" value="5"/>
+                <def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_physical_attack_defence_bonus">
+                <def name="p_pvp_physical_attack_defence_bonus_param1" value="5"/>
+                <def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19040" level="1" name="Cloak of Darkness">
+        <set name="operate_type" value="P"/>
+        <set name="icon" value="icon.amor_evilness_cloak"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="2"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="0"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="debuff" value="0"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <for>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="0"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="1"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="2"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="3"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="4"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_stat_up">
+                <def name="p_stat_up_param1" value="5"/>
+                <def name="p_stat_up_param2" value="2"/>
+            </effect>
+            <effect name="p_pvp_magical_skill_defence_bonus">
+                <def name="p_pvp_magical_skill_defence_bonus_param1" value="5"/>
+                <def name="p_pvp_magical_skill_defence_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_physical_skill_defence_bonus">
+                <def name="p_pvp_physical_skill_defence_bonus_param1" value="5"/>
+                <def name="p_pvp_physical_skill_defence_bonus_param2" value="per"/>
+            </effect>
+            <effect name="p_pvp_physical_attack_defence_bonus">
+                <def name="p_pvp_physical_attack_defence_bonus_param1" value="5"/>
+                <def name="p_pvp_physical_attack_defence_bonus_param2" value="per"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19041" level="1" name="Escape: Castle">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="20.0"/>
+        <set name="skill_hit_cancel_time" value="0.5"/>
+        <set name="reuse_delay" value="3600.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="op_can_escape"/>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-115727;-251652;-3050;-2850};{-113365;-251655;-3050;-2850};{-113365;-248191;-3050;-2850};{-115727;-248194;-3050;-2850}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-116299;-251426;-3049;-2849};{-115745;-251426;-3049;-2849};{-115745;-250840;-3049;-2849};{-116296;-250840;-3049;-2849}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-113350;-251408;-3053;-2853};{-112797;-251407;-3053;-2853};{-112798;-250855;-3053;-2853};{-113353;-250857;-3053;-2853}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-85850;-45960;-11624;-11224};{-86761;-45935;-11624;-11224};{-87000;-46986;-11624;-11224};{-87535;-48793;-11624;-11224};{-87049;-49419;-11624;-11224};{-85458;-49051;-11624;-11224};{-84224;-49803;-11624;-11224};{-83446;-49477;-11624;-11224};{-83154;-47528;-11624;-11224};{-83863;-47202;-11624;-11224};{-84291;-47449;-11624;-11224};{-84711;-47094;-11624;-11224}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-84112;-50103;-11620;-11220};{-84830;-51342;-11620;-11220};{-86142;-51844;-11620;-11220};{-86553;-52634;-11620;-11220};{-85640;-53190;-11620;-11220};{-84380;-54211;-11620;-11220};{-83379;-54413;-11620;-11220};{-82972;-52054;-11620;-11220};{-81938;-51822;-11620;-11220};{-82193;-50685;-11620;-11220};{-82732;-50575;-11620;-11220};{-83454;-49986;-11620;-11220}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-79843;-49874;-11716;-11316};{-81401;-50399;-11716;-11316};{-81709;-51148;-11716;-11316};{-81639;-51704;-11716;-11316};{-80712;-52824;-11716;-11316};{-80414;-54463;-11716;-11316};{-79510;-54322;-11716;-11316};{-78717;-52952;-11716;-11316};{-77725;-52968;-11716;-11316};{-77416;-51996;-11716;-11316};{-78890;-51583;-11716;-11316};{-79378;-50568;-11716;-11316}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-79343;-47478;-11592;-11192};{-80117;-47109;-11592;-11192};{-80672;-47858;-11592;-11192};{-80382;-49156;-11592;-11192};{-79813;-49685;-11592;-11192};{-79130;-49730;-11592;-11192};{-77951;-49052;-11592;-11192};{-76485;-49456;-11592;-11192};{-76221;-48619;-11592;-11192};{-76710;-48032;-11592;-11192};{-76946;-46451;-11592;-11192};{-77668;-45794;-11592;-11192}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-82326;-43857;-11640;-11240};{-83361;-43681;-11640;-11240};{-83614;-44430;-11640;-11240};{-82884;-46072;-11640;-11240};{-83209;-47165;-11640;-11240};{-82621;-47718;-11640;-11240};{-81071;-47576;-11640;-11240};{-80636;-47169;-11640;-11240};{-80853;-46291;-11640;-11240};{-79968;-44123;-11640;-11240};{-80245;-43614;-11640;-11240};{-81544;-43878;-11640;-11240}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_escape">
+                <def name="i_escape_param1" value="castle"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="19042" level="1" name="Blessed Scroll of Escape: Castle">
+        <set name="operate_type" value="A1"/>
+        <set name="icon" value="icon.skill0000"/>
+        <set name="magic_level" value="1"/>
+        <set name="magic_type" value="0"/>
+        <set name="special_level" value="0"/>
+        <set name="magic_critical_rate" value="5"/>
+        <set name="change_skill_id" value="0"/>
+        <set name="is_magic" value="2"/>
+        <set name="is_double" value="0"/>
+        <set name="cast_range" value="-1"/>
+        <set name="effective_range" value="-1"/>
+        <set name="skill_hit_time" value="0.2"/>
+        <set name="reuse_delay" value="3600.0"/>
+        <set name="attribute" value="attr_none;0"/>
+        <set name="trait" value="trait_none"/>
+        <set name="target_type" value="self"/>
+        <set name="affect_scope" value="single"/>
+        <set name="affect_limit" value="0;0"/>
+        <set name="next_action" value="none"/>
+        <set name="debuff" value="0"/>
+        <set name="ride_state" value="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+        <set name="multi_class" value="0"/>
+        <set name="undeletable" value="0"/>
+        <set name="olympiad_use" value="0"/>
+        <operate_cond>
+            <cond name="op_can_escape"/>
+            <cond name="op_home">
+                <def name="op_home_param1" value="castle"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-115727;-251652;-3050;-2850};{-113365;-251655;-3050;-2850};{-113365;-248191;-3050;-2850};{-115727;-248194;-3050;-2850}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-116299;-251426;-3049;-2849};{-115745;-251426;-3049;-2849};{-115745;-250840;-3049;-2849};{-116296;-250840;-3049;-2849}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-113350;-251408;-3053;-2853};{-112797;-251407;-3053;-2853};{-112798;-250855;-3053;-2853};{-113353;-250857;-3053;-2853}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-85850;-45960;-11624;-11224};{-86761;-45935;-11624;-11224};{-87000;-46986;-11624;-11224};{-87535;-48793;-11624;-11224};{-87049;-49419;-11624;-11224};{-85458;-49051;-11624;-11224};{-84224;-49803;-11624;-11224};{-83446;-49477;-11624;-11224};{-83154;-47528;-11624;-11224};{-83863;-47202;-11624;-11224};{-84291;-47449;-11624;-11224};{-84711;-47094;-11624;-11224}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-84112;-50103;-11620;-11220};{-84830;-51342;-11620;-11220};{-86142;-51844;-11620;-11220};{-86553;-52634;-11620;-11220};{-85640;-53190;-11620;-11220};{-84380;-54211;-11620;-11220};{-83379;-54413;-11620;-11220};{-82972;-52054;-11620;-11220};{-81938;-51822;-11620;-11220};{-82193;-50685;-11620;-11220};{-82732;-50575;-11620;-11220};{-83454;-49986;-11620;-11220}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-79843;-49874;-11716;-11316};{-81401;-50399;-11716;-11316};{-81709;-51148;-11716;-11316};{-81639;-51704;-11716;-11316};{-80712;-52824;-11716;-11316};{-80414;-54463;-11716;-11316};{-79510;-54322;-11716;-11316};{-78717;-52952;-11716;-11316};{-77725;-52968;-11716;-11316};{-77416;-51996;-11716;-11316};{-78890;-51583;-11716;-11316};{-79378;-50568;-11716;-11316}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-79343;-47478;-11592;-11192};{-80117;-47109;-11592;-11192};{-80672;-47858;-11592;-11192};{-80382;-49156;-11592;-11192};{-79813;-49685;-11592;-11192};{-79130;-49730;-11592;-11192};{-77951;-49052;-11592;-11192};{-76485;-49456;-11592;-11192};{-76221;-48619;-11592;-11192};{-76710;-48032;-11592;-11192};{-76946;-46451;-11592;-11192};{-77668;-45794;-11592;-11192}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+            <cond name="op_not_territory">
+                <def name="op_not_territory_param1" value="{{-82326;-43857;-11640;-11240};{-83361;-43681;-11640;-11240};{-83614;-44430;-11640;-11240};{-82884;-46072;-11640;-11240};{-83209;-47165;-11640;-11240};{-82621;-47718;-11640;-11240};{-81071;-47576;-11640;-11240};{-80636;-47169;-11640;-11240};{-80853;-46291;-11640;-11240};{-79968;-44123;-11640;-11240};{-80245;-43614;-11640;-11240};{-81544;-43878;-11640;-11240}}"/>
+                <def name="op_not_territory_param2" value="t_self"/>
+            </cond>
+        </operate_cond>
+        <for>
+            <effect name="i_escape">
+                <def name="i_escape_param1" value="castle"/>
+            </effect>
+        </for>
+    </skill>
+</list>

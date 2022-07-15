@@ -1,0 +1,1 @@
+ALTER TABLE clan_wars CHANGE `opposing_clan` `attacked_clan` int(11) NOT NULL;

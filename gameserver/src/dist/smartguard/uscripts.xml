@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<list>
+    <!-- This is Interlude & HighFive only at this stage ! -->
+    <config>
+        <!--
+            Operation mode:
+            	CHECKLIST - Only check specified scripts, allow the rest
+                WHITELIST - Allow only listed scripts to be loaded by game client
+         -->
+        <mode value="CHECKLIST" />
+        <!-- This url is opened when check of one or more scripts failed -->
+        <failUrl value="https://google.com/" />
+
+    </config>
+
+	<!--
+	<uscript name="interface.u">
+		<sha1 val="f91f8af4fa87159a3f82617e75b123f5e71f6527"/>
+		<sha1 val="9b2a881b3fa8b75c0f01bec058015384451344d4"/>
+	</uscript>
+	<uscript name="engine.u">
+		<sha1 val="b708beb5cbfbb2b7858417e6f338e49e3ac710b4"/>
+	</uscript>
+	-->
+</list>

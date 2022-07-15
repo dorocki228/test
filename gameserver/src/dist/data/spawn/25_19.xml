@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<territory name="aden22_2519_09">
+		<add x="166332" y="60416" zmin="-4144" zmax="-3344"/>
+		<add x="169612" y="57564" zmin="-4144" zmax="-3344"/>
+		<add x="171180" y="57928" zmin="-4144" zmax="-3344"/>
+		<add x="171784" y="59884" zmin="-4144" zmax="-3344"/>
+		<add x="168484" y="62112" zmin="-4144" zmax="-3344"/>
+	</territory>
+	<spawn name="aden22_2519_09" count="4" respawn="27">
+		<territory name="aden22_2519_09"/>
+		<npc id="21021"/><!--Острый Коготь-->
+	</spawn>
+	<spawn name="aden22_2519_09" count="3" respawn="27">
+		<territory name="aden22_2519_09"/>
+		<npc id="21022"/><!--Главный Воин Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_07">
+		<add x="163928" y="51916" zmin="-3844" zmax="-3244"/>
+		<add x="164816" y="51716" zmin="-3844" zmax="-3244"/>
+		<add x="165248" y="53408" zmin="-3844" zmax="-3244"/>
+		<add x="165176" y="55716" zmin="-3844" zmax="-3244"/>
+		<add x="163948" y="55884" zmin="-3844" zmax="-3244"/>
+	</territory>
+	<spawn name="aden22_2519_07" count="1" respawn="27">
+		<territory name="aden22_2519_07"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="aden22_2519_07" count="1" respawn="27">
+		<territory name="aden22_2519_07"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_07" count="1" respawn="27">
+		<territory name="aden22_2519_07"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_08">
+		<add x="163960" y="56092" zmin="-4168" zmax="-3368"/>
+		<add x="165016" y="55956" zmin="-4168" zmax="-3368"/>
+		<add x="166272" y="60084" zmin="-4168" zmax="-3368"/>
+		<add x="165224" y="60168" zmin="-4168" zmax="-3368"/>
+		<add x="163948" y="59128" zmin="-4168" zmax="-3368"/>
+	</territory>
+	<spawn name="aden22_2519_08" count="1" respawn="27">
+		<territory name="aden22_2519_08"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="aden22_2519_08" count="1" respawn="27">
+		<territory name="aden22_2519_08"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_08" count="1" respawn="27">
+		<territory name="aden22_2519_08"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_05">
+		<add x="168096" y="45832" zmin="-3924" zmax="-3524"/>
+		<add x="169904" y="46720" zmin="-3924" zmax="-3524"/>
+		<add x="170416" y="47984" zmin="-3924" zmax="-3524"/>
+		<add x="169632" y="49344" zmin="-3924" zmax="-3524"/>
+		<add x="167196" y="48172" zmin="-3924" zmax="-3524"/>
+	</territory>
+	<spawn name="aden22_2519_05" count="2" respawn="27">
+		<territory name="aden22_2519_05"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="Minotavr" count="1" respawn_pattern="00 21 * * *">
+		<point x="181556" y="39076" z="-3728" h="21344"/>
+		<npc id="25766"/><!--Монстр Минотавр-->
+	</spawn>
+	<spawn name="Dorkaus" count="1" respawn_pattern="00 21 * * *">
+		<point x="177088" y="40775" z="-3728" h="21344"/>
+		<npc id="25768"/><!--Доркаус-->
+	</spawn>
+	<spawn name="Booleros" count="1" respawn_pattern="00 21 * * *">
+		<point x="183672" y="41197" z="-3656" h="21344"/>
+		<npc id="25767"/><!--Монстр Буллерос-->
+	</spawn>
+	<spawn name="aden22_2519_05" count="2" respawn="27">
+		<territory name="aden22_2519_05"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_05" count="3" respawn="27">
+		<territory name="aden22_2519_05"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_03">
+		<add x="164072" y="42384" zmin="-3804" zmax="-3204"/>
+		<add x="166584" y="42176" zmin="-3804" zmax="-3204"/>
+		<add x="166688" y="44096" zmin="-3804" zmax="-3204"/>
+		<add x="163980" y="45784" zmin="-3804" zmax="-3204"/>
+	</territory>
+	<spawn name="aden22_2519_03" count="2" respawn="27">
+		<territory name="aden22_2519_03"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="aden22_2519_03" count="3" respawn="27">
+		<territory name="aden22_2519_03"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_03" count="3" respawn="27">
+		<territory name="aden22_2519_03"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_04">
+		<add x="163944" y="45916" zmin="-3860" zmax="-3060"/>
+		<add x="166488" y="44228" zmin="-3860" zmax="-3060"/>
+		<add x="168092" y="45724" zmin="-3860" zmax="-3060"/>
+		<add x="167156" y="48180" zmin="-3860" zmax="-3060"/>
+		<add x="163912" y="46896" zmin="-3860" zmax="-3060"/>
+	</territory>
+	<spawn name="aden22_2519_04" count="2" respawn="27">
+		<territory name="aden22_2519_04"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="aden22_2519_04" count="3" respawn="27">
+		<territory name="aden22_2519_04"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_04" count="3" respawn="27">
+		<territory name="aden22_2519_04"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_01">
+		<add x="165860" y="33740" zmin="-4044" zmax="-3544"/>
+		<add x="167020" y="34432" zmin="-4044" zmax="-3544"/>
+		<add x="168032" y="36124" zmin="-4044" zmax="-3544"/>
+		<add x="167468" y="36736" zmin="-4044" zmax="-3544"/>
+		<add x="167000" y="36704" zmin="-4044" zmax="-3544"/>
+		<add x="165840" y="34896" zmin="-4044" zmax="-3544"/>
+	</territory>
+	<spawn name="aden22_2519_01" count="1" respawn="27">
+		<territory name="aden22_2519_01"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="aden22_2519_01" count="1" respawn="27">
+		<territory name="aden22_2519_01"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_01" count="1" respawn="27">
+		<territory name="aden22_2519_01"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_02">
+		<add x="163932" y="38340" zmin="-3832" zmax="-3232"/>
+		<add x="166888" y="38216" zmin="-3832" zmax="-3232"/>
+		<add x="167236" y="38952" zmin="-3832" zmax="-3232"/>
+		<add x="166684" y="41752" zmin="-3832" zmax="-3232"/>
+		<add x="165228" y="41804" zmin="-3832" zmax="-3232"/>
+		<add x="163960" y="41568" zmin="-3832" zmax="-3232"/>
+	</territory>
+	<spawn name="aden22_2519_02" count="3" respawn="27">
+		<territory name="aden22_2519_02"/>
+		<npc id="20679"/><!--Болотный Сталкер-->
+	</spawn>
+	<spawn name="aden22_2519_02" count="3" respawn="27">
+		<territory name="aden22_2519_02"/>
+		<npc id="20680"/><!--Болотный Дрейк-->
+	</spawn>
+	<spawn name="aden22_2519_02" count="3" respawn="27">
+		<territory name="aden22_2519_02"/>
+		<npc id="21017"/><!--Падший Орк-->
+	</spawn>
+	<territory name="aden22_2519_16">
+		<add x="176428" y="37512" zmin="-4908" zmax="-4308"/>
+		<add x="178024" y="37168" zmin="-4908" zmax="-4308"/>
+		<add x="179104" y="37172" zmin="-4908" zmax="-4308"/>
+		<add x="179116" y="38308" zmin="-4908" zmax="-4308"/>
+		<add x="177220" y="38320" zmin="-4908" zmax="-4308"/>
+	</territory>
+	<spawn name="aden22_2519_16" count="1" respawn="27">
+		<territory name="aden22_2519_16"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_16" count="1" respawn="27">
+		<territory name="aden22_2519_16"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_16" count="1" respawn="27">
+		<territory name="aden22_2519_16"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_17">
+		<add x="179140" y="37168" zmin="-4888" zmax="-4488"/>
+		<add x="180808" y="36376" zmin="-4888" zmax="-4488"/>
+		<add x="181864" y="36532" zmin="-4888" zmax="-4488"/>
+		<add x="179668" y="38396" zmin="-4888" zmax="-4488"/>
+		<add x="179140" y="38312" zmin="-4888" zmax="-4488"/>
+	</territory>
+	<spawn name="aden22_2519_17" count="1" respawn="27">
+		<territory name="aden22_2519_17"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_17" count="1" respawn="27">
+		<territory name="aden22_2519_17"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_17" count="1" respawn="27">
+		<territory name="aden22_2519_17"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_14">
+		<add x="171444" y="36920" zmin="-4720" zmax="-4320"/>
+		<add x="173216" y="37400" zmin="-4720" zmax="-4320"/>
+		<add x="174292" y="37916" zmin="-4720" zmax="-4320"/>
+		<add x="173536" y="39396" zmin="-4720" zmax="-4320"/>
+		<add x="171336" y="37688" zmin="-4720" zmax="-4320"/>
+	</territory>
+	<spawn name="aden22_2519_14" count="1" respawn="27">
+		<territory name="aden22_2519_14"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_14" count="1" respawn="27">
+		<territory name="aden22_2519_14"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_14" count="1" respawn="27">
+		<territory name="aden22_2519_14"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_15">
+		<add x="174304" y="37940" zmin="-4804" zmax="-4204"/>
+		<add x="176420" y="37516" zmin="-4804" zmax="-4204"/>
+		<add x="177148" y="38388" zmin="-4804" zmax="-4204"/>
+		<add x="176000" y="39104" zmin="-4804" zmax="-4204"/>
+		<add x="173864" y="39076" zmin="-4804" zmax="-4204"/>
+	</territory>
+	<spawn name="aden22_2519_15" count="1" respawn="27">
+		<territory name="aden22_2519_15"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_15" count="1" respawn="27">
+		<territory name="aden22_2519_15"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_15" count="1" respawn="27">
+		<territory name="aden22_2519_15"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_12">
+		<add x="167388" y="49296" zmin="-4216" zmax="-3716"/>
+		<add x="169596" y="49388" zmin="-4216" zmax="-3716"/>
+		<add x="169124" y="50244" zmin="-4216" zmax="-3716"/>
+		<add x="167792" y="52144" zmin="-4216" zmax="-3716"/>
+		<add x="165712" y="52016" zmin="-4216" zmax="-3716"/>
+		<add x="165556" y="51392" zmin="-4216" zmax="-3716"/>
+	</territory>
+	<spawn name="aden22_2519_12" count="3" respawn="27">
+		<territory name="aden22_2519_12"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_12" count="3" respawn="27">
+		<territory name="aden22_2519_12"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_12" count="1" respawn="27">
+		<territory name="aden22_2519_12"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_12" count="1" respawn="27">
+		<territory name="aden22_2519_12"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_13">
+		<add x="169348" y="36740" zmin="-4568" zmax="-3968"/>
+		<add x="170380" y="36712" zmin="-4568" zmax="-3968"/>
+		<add x="171204" y="37652" zmin="-4568" zmax="-3968"/>
+		<add x="170952" y="37996" zmin="-4568" zmax="-3968"/>
+		<add x="169840" y="37940" zmin="-4568" zmax="-3968"/>
+	</territory>
+	<spawn name="aden22_2519_13" count="1" respawn="27">
+		<territory name="aden22_2519_13"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_13" count="1" respawn="27">
+		<territory name="aden22_2519_13"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_13" count="1" respawn="27">
+		<territory name="aden22_2519_13"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_10">
+		<add x="166304" y="55068" zmin="-4268" zmax="-3668"/>
+		<add x="168292" y="54176" zmin="-4268" zmax="-3668"/>
+		<add x="169664" y="57392" zmin="-4268" zmax="-3668"/>
+		<add x="167432" y="59436" zmin="-4268" zmax="-3668"/>
+		<add x="166384" y="58908" zmin="-4268" zmax="-3668"/>
+		<add x="165424" y="57252" zmin="-4268" zmax="-3668"/>
+	</territory>
+	<spawn name="aden22_2519_10" count="4" respawn="27">
+		<territory name="aden22_2519_10"/>
+		<npc id="21021"/><!--Острый Коготь-->
+	</spawn>
+	<spawn name="aden22_2519_10" count="3" respawn="27">
+		<territory name="aden22_2519_10"/>
+		<npc id="21022"/><!--Главный Воин Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_11">
+		<add x="166280" y="52288" zmin="-4272" zmax="-3872"/>
+		<add x="167896" y="52304" zmin="-4272" zmax="-3872"/>
+		<add x="168808" y="53076" zmin="-4272" zmax="-3872"/>
+		<add x="168236" y="54124" zmin="-4272" zmax="-3872"/>
+		<add x="166356" y="55028" zmin="-4272" zmax="-3872"/>
+	</territory>
+	<spawn name="aden22_2519_11" count="2" respawn="27">
+		<territory name="aden22_2519_11"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_11" count="2" respawn="27">
+		<territory name="aden22_2519_11"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_11" count="1" respawn="27">
+		<territory name="aden22_2519_11"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_11" count="1" respawn="27">
+		<territory name="aden22_2519_11"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_20">
+		<add x="182780" y="36696" zmin="-4060" zmax="-3460"/>
+		<add x="184268" y="37492" zmin="-4060" zmax="-3460"/>
+		<add x="184460" y="39704" zmin="-4060" zmax="-3460"/>
+		<add x="181168" y="39068" zmin="-4060" zmax="-3460"/>
+	</territory>
+	<spawn name="aden22_2519_20" count="2" respawn="27">
+		<territory name="aden22_2519_20"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_20" count="2" respawn="27">
+		<territory name="aden22_2519_20"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_20" count="1" respawn="27">
+		<territory name="aden22_2519_20"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_20" count="1" respawn="27">
+		<territory name="aden22_2519_20"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_25">
+		<add x="173876" y="40948" zmin="-5000" zmax="-4600"/>
+		<add x="176148" y="42236" zmin="-5000" zmax="-4600"/>
+		<add x="175792" y="44880" zmin="-5000" zmax="-4600"/>
+		<add x="173184" y="44264" zmin="-5000" zmax="-4600"/>
+		<add x="172332" y="40752" zmin="-5000" zmax="-4600"/>
+	</territory>
+	<spawn name="aden22_2519_25" count="1" respawn="27">
+		<territory name="aden22_2519_25"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_25" count="2" respawn="27">
+		<territory name="aden22_2519_25"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_25" count="3" respawn="27">
+		<territory name="aden22_2519_25"/>
+		<npc id="21021"/><!--Острый Коготь-->
+	</spawn>
+	<spawn name="aden22_2519_25" count="2" respawn="27">
+		<territory name="aden22_2519_25"/>
+		<npc id="21022"/><!--Главный Воин Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_23">
+		<add x="177768" y="41668" zmin="-3944" zmax="-3444"/>
+		<add x="179416" y="40796" zmin="-3944" zmax="-3444"/>
+		<add x="180248" y="41216" zmin="-3944" zmax="-3444"/>
+		<add x="179112" y="43268" zmin="-3944" zmax="-3444"/>
+		<add x="177852" y="43136" zmin="-3944" zmax="-3444"/>
+	</territory>
+	<spawn name="aden22_2519_23" count="1" respawn="27">
+		<territory name="aden22_2519_23"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_23" count="1" respawn="27">
+		<territory name="aden22_2519_23"/>
+		<npc id="21021"/><!--Острый Коготь-->
+	</spawn>
+	<spawn name="aden22_2519_23" count="1" respawn="27">
+		<territory name="aden22_2519_23"/>
+		<npc id="21022"/><!--Главный Воин Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_24">
+		<add x="181024" y="41644" zmin="-3976" zmax="-3376"/>
+		<add x="181584" y="41976" zmin="-3976" zmax="-3376"/>
+		<add x="181520" y="44032" zmin="-3976" zmax="-3376"/>
+		<add x="180300" y="44148" zmin="-3976" zmax="-3376"/>
+		<add x="180164" y="42920" zmin="-3976" zmax="-3376"/>
+	</territory>
+	<spawn name="aden22_2519_24" count="1" respawn="27">
+		<territory name="aden22_2519_24"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_24" count="1" respawn="27">
+		<territory name="aden22_2519_24"/>
+		<npc id="21021"/><!--Острый Коготь-->
+	</spawn>
+	<spawn name="aden22_2519_24" count="1" respawn="27">
+		<territory name="aden22_2519_24"/>
+		<npc id="21022"/><!--Главный Воин Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_21">
+		<add x="181148" y="39136" zmin="-3884" zmax="-3484"/>
+		<add x="184384" y="39796" zmin="-3884" zmax="-3484"/>
+		<add x="184796" y="40692" zmin="-3884" zmax="-3484"/>
+		<add x="184360" y="41684" zmin="-3884" zmax="-3484"/>
+		<add x="181972" y="42140" zmin="-3884" zmax="-3484"/>
+		<add x="179656" y="40760" zmin="-3884" zmax="-3484"/>
+		<add x="178868" y="39556" zmin="-3884" zmax="-3484"/>
+	</territory>
+	<spawn name="aden22_2519_21" count="4" respawn="27">
+		<territory name="aden22_2519_21"/>
+		<npc id="21018"/><!--Древняя Горгулья-->
+	</spawn>
+	<spawn name="aden22_2519_21" count="4" respawn="27">
+		<territory name="aden22_2519_21"/>
+		<npc id="21019"/><!--Стрелок Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_21" count="1" respawn="27">
+		<territory name="aden22_2519_21"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_21" count="2" respawn="27">
+		<territory name="aden22_2519_21"/>
+		<npc id="21258"/><!--Шаман Падших Орков-->
+	</spawn>
+	<territory name="aden22_2519_22">
+		<add x="176356" y="40588" zmin="-3956" zmax="-3556"/>
+		<add x="178704" y="39708" zmin="-3956" zmax="-3556"/>
+		<add x="179228" y="40748" zmin="-3956" zmax="-3556"/>
+		<add x="177704" y="41576" zmin="-3956" zmax="-3556"/>
+	</territory>
+	<spawn name="aden22_2519_22" count="1" respawn="27">
+		<territory name="aden22_2519_22"/>
+		<npc id="21020"/><!--Шаман Падших Орков-->
+	</spawn>
+	<spawn name="aden22_2519_22" count="1" respawn="27">
+		<territory name="aden22_2519_22"/>
+		<npc id="21021"/><!--Острый Коготь-->
+	</spawn>
+	<spawn name="aden22_2519_22" count="1" respawn="27">
+		<territory name="aden22_2519_22"/>
+		<npc id="21022"/><!--Главный Воин Падших Орков-->
+	</spawn>
+	<spawn name="aden22_qm2519_01" count="1" respawn="300">
+		<territory>
+			<add x="171708" y="43964" zmin="-4972" zmax="-4772"/>
+			<add x="171908" y="43964" zmin="-4972" zmax="-4772"/>
+			<add x="171908" y="44164" zmin="-4972" zmax="-4772"/>
+			<add x="171708" y="44164" zmin="-4972" zmax="-4772"/>
+		</territory>
+		<npc id="27316"/><!--Ледяной Монстр-->
+	</spawn>	
+	<spawn name="aden22_npc2519_02" count="1" respawn="60">
+		<point x="181264" y="36640" z="-4789" h="25000"/>
+		<npc id="31658"/><!--Камень Познания-->
+	</spawn>
+	<territory name="aden23_2519_01">
+		<add x="172467" y="53837" zmin="-6072" zmax="-5572"/>
+		<add x="176223" y="53110" zmin="-6072" zmax="-5572"/>
+		<add x="177496" y="57409" zmin="-6072" zmax="-5572"/>
+		<add x="173992" y="59487" zmin="-6072" zmax="-5572"/>
+		<add x="171647" y="55312" zmin="-6072" zmax="-5572"/>
+	</territory>
+	<spawn name="aden23_2519_01" count="18" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_01"/>
+		<npc id="20965"/><!--Осколок Иллюзии-->
+	</spawn>
+	<spawn name="aden23_2519_01" count="16" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_01"/>
+		<npc id="20970"/><!--Воитель-->
+	</spawn>
+	<spawn name="aden23_2519_01" count="16" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_01"/>
+		<npc id="20966"/><!--Перевоплощенное Создание-->
+	</spawn>
+	<territory name="aden23_2519_04">
+		<add x="188630" y="47013" zmin="-6116" zmax="-5616"/>
+		<add x="187622" y="48613" zmin="-6116" zmax="-5616"/>
+		<add x="189047" y="49729" zmin="-6116" zmax="-5616"/>
+		<add x="187063" y="52435" zmin="-6116" zmax="-5616"/>
+		<add x="182230" y="48533" zmin="-6116" zmax="-5616"/>
+		<add x="187258" y="45770" zmin="-6116" zmax="-5616"/>
+	</territory>
+	<spawn name="aden23_2519_04" count="14" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_04"/>
+		<npc id="20973"/><!--Забытый Древний Житель-->
+	</spawn>
+	<spawn name="aden23_2519_04" count="16" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_04"/>
+		<npc id="20968"/><!--Несуществующий-->
+	</spawn>
+	<spawn name="aden23_2519_04" count="16" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_04"/>
+		<npc id="20969"/><!--Тень Гиганта-->
+	</spawn>
+	<spawn name="aden23_2519_04" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_04"/>
+		<npc id="20971"/><!--Воин-->
+	</spawn>
+	<territory name="aden23_2519_03">
+		<add x="179116" y="51628" zmin="-6112" zmax="-5612"/>
+		<add x="182542" y="48378" zmin="-6112" zmax="-5612"/>
+		<add x="186097" y="51828" zmin="-6112" zmax="-5612"/>
+		<add x="182545" y="55789" zmin="-6112" zmax="-5612"/>
+	</territory>
+	<spawn name="aden23_2519_03" count="10" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_03"/>
+		<npc id="20967"/><!--Древняя Тварь-->
+	</spawn>
+	<spawn name="aden23_2519_03" count="10" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_03"/>
+		<npc id="20971"/><!--Воин-->
+	</spawn>
+	<spawn name="aden23_2519_03" count="10" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_03"/>
+		<npc id="20972"/><!--Шаман-->
+	</spawn>
+	<spawn name="aden23_2519_03" count="8" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_03"/>
+		<npc id="20973"/><!--Забытый Древний Житель-->
+	</spawn>
+	<spawn name="aden23_2519_03" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_03"/>
+		<npc id="20968"/><!--Несуществующий-->
+	</spawn>
+	<spawn name="aden23_2519_03" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_03"/>
+		<npc id="20969"/><!--Тень Гиганта-->
+	</spawn>
+	<territory name="aden23_2519_02">
+		<add x="175583" y="52825" zmin="-6072" zmax="-5572"/>
+		<add x="179200" y="51623" zmin="-6072" zmax="-5572"/>
+		<add x="182800" y="55943" zmin="-6072" zmax="-5572"/>
+		<add x="177383" y="57572" zmin="-6072" zmax="-5572"/>
+	</territory>
+	<spawn name="aden23_2519_02" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_02"/>
+		<npc id="20965"/><!--Осколок Иллюзии-->
+	</spawn>
+	<spawn name="aden23_2519_02" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_02"/>
+		<npc id="20970"/><!--Воитель-->
+	</spawn>
+	<spawn name="aden23_2519_02" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_02"/>
+		<npc id="20966"/><!--Перевоплощенное Создание-->
+	</spawn>
+	<spawn name="aden23_2519_02" count="12" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_02"/>
+		<npc id="20967"/><!--Древняя Тварь-->
+	</spawn>
+	<spawn name="aden23_2519_02" count="6" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_02"/>
+		<npc id="20971"/><!--Воин-->
+	</spawn>
+	<spawn name="aden23_2519_02" count="12" respawn="70" respawn_random="15">
+		<territory name="aden23_2519_02"/>
+		<npc id="20972"/><!--Шаман-->
+	</spawn>
+	<spawn name="Defrektor" count="1" respawn_pattern="00 21 * * *">
+		<point x="170311" y="42690" z="-4816" h="21344"/>
+		<npc id="25775"/><!--Злой Орк Дефректор-->
+	</spawn>
+	<spawn name="Gariott" count="1" respawn_pattern="00 21 * * *">
+		<point x="164262" y="46654" z="-3088" h="21344"/>
+		<npc id="25779"/><!--Гариос-->
+	</spawn>
+	<spawn name="Zetal" count="1" respawn_pattern="00 21 * * *">
+		<point x="185887" y="36843" z="-4184" h="21344"/>
+		<npc id="25772"/><!--Злой Орк Зетал-->
+	</spawn>
+	<spawn name="Tabris" count="1" respawn_pattern="00 21 * * *">
+		<point x="173256" y="39128" z="-4640" h="21344"/>
+		<npc id="25773"/><!--Злой Орк Табрис-->
+	</spawn>
+	<spawn name="Turaktion" count="1" respawn_pattern="00 21 * * *">
+		<point x="178085" y="42193" z="-3864" h="21344"/>
+		<npc id="25777"/><!--Орк Амден Турактион-->
+	</spawn>
+	<spawn name="Turahot" count="1" respawn_pattern="00 21 * * *">
+		<point x="180936" y="36888" z="-4800" h="21344"/>
+		<npc id="25776"/><!--Орк Амден Турахот-->
+	</spawn>
+	<spawn name="Gosmos" count="1" respawn_pattern="00 21 * * *">
+		<point x="175192" y="43576" z="-4816" h="21344"/>
+		<npc id="25437"/><!--Орк Амден Турахот-->
+	</spawn>
+	<spawn name="Millinous" count="1" respawn_pattern="00 21 * * *">
+		<point x="168481" y="47809" z="-3728" h="21344"/>
+		<npc id="25770"/><!--Миллиноус-->
+	</spawn>
+	<spawn name="Kerfaus" count="1" respawn_pattern="00 21 * * *">
+		<point x="164003" y="43253" z="-3488" h="21344"/>
+		<npc id="25769"/><!--Керпаус-->
+	</spawn>
+	<spawn name="Darfen" count="1" respawn_pattern="00 21 * * *">
+		<point x="181160" y="42978" z="-3832" h="21344"/>
+		<npc id="25745"/><!--Орк Тимак Дарфен-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="181251" y="50448" z="-4360" h="8423" />
+		<npc id="18017" /><!--Телепорт-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="178088" y="52344" z="-3984" h="12423" />
+		<npc id="18017" /><!--Телепорт-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="174472" y="53000" z="-4368" h="16500" />
+		<npc id="18017" /><!--Телепорт-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="176691" y="45601" z="-4184" h="6469" />
+		<npc id="34293" /><!--Марис-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="175104" y="61184" z="-4368" h="65420" />
+		<npc id="18919" /><!---->
+	</spawn>
+	<!--Пещера Гигантов-->
+	<!--TODO: Перевести в локационный спавн.-->
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="191840" y="56372" z="-7624" h="12162" />
+		<npc id="24018" /><!--Хекатон Прайм-->
+	</spawn>
+	<spawn count="1" respawn="64800" respawn_pattern="00 21 * * *">
+		<point x="166456" y="44968" z="-3608" h="0"/>
+		<npc id="25467"/><!--Gorgolos-->
+	</spawn>
+	<spawn count="1" respawn="64800" respawn_pattern="00 21 * * *">
+		<point x="167073" y="53142" z="-4208" h="0"/>
+		<npc id="25140"/><!--Hekaton Press-->
+	</spawn>
+	<spawn count="1" respawn="64800" respawn_pattern="00 21 * * *">
+		<point x="170231" y="54049" z="-4576" h="0"/>
+		<npc id="25162"/><!--Giant Marpanak-->
+	</spawn>
+	<spawn count="1" respawn="64800" respawn_pattern="00 21 * * *">
+		<point x="169358" y="47426" z="-3728" h="0"/>
+		<npc id="25470"/><!--Utenus the Last Lesser Giant-->
+	</spawn>
+	<spawn count="1" respawn="64800" respawn_pattern="00 21 * * *">
+		<point x="167888" y="50669" z="-4104" h="0" />
+		<npc id="25395" /><!--Сусцептор Архонт-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="183720" y="47608" z="-4368" h="5000" />
+		<npc id="18017" />
+	</spawn>
+	<territory name="GC_room_1">
+		<add x="173192" y="54488" zmin="-4344" zmax="-4344"/>
+		<add x="173160" y="56280" zmin="-4344" zmax="-4344"/>
+		<add x="175720" y="56312" zmin="-4344" zmax="-4344"/>
+		<add x="175736" y="54504" zmin="-4344" zmax="-4344"/>
+	</territory>
+	<spawn name="GC_room_1" count="6" respawn="10">
+		<territory name="GC_room_1"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_1" count="6" respawn="10">
+		<territory name="GC_room_1"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_1" count="6" respawn="10">
+		<territory name="GC_room_1"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_1" count="6" respawn="10">
+		<territory name="GC_room_1"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_1" count="6" respawn="10">
+		<territory name="GC_room_1"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_1" count="2" respawn="10">
+		<territory name="GC_room_1"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_2">
+		<add x="176376" y="60760" zmin="-4368" zmax="-4368"/>
+		<add x="176408" y="62920" zmin="-4368" zmax="-4368"/>
+		<add x="173256" y="63000" zmin="-4368" zmax="-4368"/>
+		<add x="173160" y="60680" zmin="-4368" zmax="-4368"/>
+	</territory>
+	<spawn name="GC_room_2" count="12" respawn="10">
+		<territory name="GC_room_2"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_2" count="12" respawn="10">
+		<territory name="GC_room_2"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_2" count="12" respawn="10">
+		<territory name="GC_room_2"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_2" count="12" respawn="10">
+		<territory name="GC_room_2"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_2" count="12" respawn="10">
+		<territory name="GC_room_2"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_2" count="2" respawn="10">
+		<territory name="GC_room_2"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_3">
+		<add x="181416" y="61208" zmin="-3992" zmax="-3992"/>
+		<add x="182776" y="61208" zmin="-3992" zmax="-3992"/>
+		<add x="182808" y="62760" zmin="-3992" zmax="-3992"/>
+		<add x="181464" y="62760" zmin="-3992" zmax="-3992"/>
+	</territory>
+	<spawn name="GC_room_3" count="6" respawn="10">
+		<territory name="GC_room_3"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_3" count="6" respawn="10">
+		<territory name="GC_room_3"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_3" count="6" respawn="10">
+		<territory name="GC_room_3"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_3" count="6" respawn="10">
+		<territory name="GC_room_3"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_3" count="6" respawn="10">
+		<territory name="GC_room_3"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_3" count="1" respawn="10">
+		<territory name="GC_room_3"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_4">
+		<add x="182504" y="60424" zmin="-3992" zmax="-3992"/>
+		<add x="182456" y="58584" zmin="-3992" zmax="-3992"/>
+		<add x="178968" y="58632" zmin="-3992" zmax="-3992"/>
+		<add x="178936" y="60344" zmin="-3992" zmax="-3992"/>
+	</territory>
+	<spawn name="GC_room_4" count="12" respawn="10">
+		<territory name="GC_room_4"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_4" count="12" respawn="10">
+		<territory name="GC_room_4"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_4" count="12" respawn="10">
+		<territory name="GC_room_4"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_4" count="12" respawn="10">
+		<territory name="GC_room_4"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_4" count="12" respawn="10">
+		<territory name="GC_room_4"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_4" count="2" respawn="10">
+		<territory name="GC_room_4"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_5">
+		<add x="178024" y="55912" zmin="-3968" zmax="-3968"/>
+		<add x="177416" y="54296" zmin="-3968" zmax="-3968"/>
+		<add x="179768" y="53320" zmin="-3968" zmax="-3968"/>
+		<add x="180440" y="54952" zmin="-3968" zmax="-3968"/>
+	</territory>
+	<spawn name="GC_room_5" count="6" respawn="10">
+		<territory name="GC_room_5"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_5" count="6" respawn="10">
+		<territory name="GC_room_5"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_5" count="6" respawn="10">
+		<territory name="GC_room_5"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_5" count="6" respawn="10">
+		<territory name="GC_room_5"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_5" count="6" respawn="10">
+		<territory name="GC_room_5"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_5" count="1" respawn="10">
+		<territory name="GC_room_5"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_6">
+		<add x="183208" y="62696" zmin="-3992" zmax="-3992"/>
+		<add x="183240" y="60536" zmin="-3992" zmax="-3992"/>
+		<add x="184536" y="60424" zmin="-3992" zmax="-3992"/>
+		<add x="184584" y="62664" zmin="-3992" zmax="-3992"/>
+	</territory>
+	<spawn name="GC_room_6" count="6" respawn="10">
+		<territory name="GC_room_6"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_6" count="6" respawn="10">
+		<territory name="GC_room_6"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_6" count="6" respawn="10">
+		<territory name="GC_room_6"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_6" count="6" respawn="10">
+		<territory name="GC_room_6"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_6" count="6" respawn="10">
+		<territory name="GC_room_6"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_6" count="1" respawn="10">
+		<territory name="GC_room_6"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_7">
+		<add x="185464" y="57768" zmin="-4568" zmax="-4568"/>
+		<add x="185528" y="54760" zmin="-4568" zmax="-4568"/>
+		<add x="188248" y="54712" zmin="-4568" zmax="-4568"/>
+		<add x="188248" y="57816" zmin="-4568" zmax="-4568"/>
+	</territory>
+	<spawn name="GC_room_7" count="18" respawn="10">
+		<territory name="GC_room_7"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_7" count="18" respawn="10">
+		<territory name="GC_room_7"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_7" count="18" respawn="10">
+		<territory name="GC_room_7"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_7" count="18" respawn="10">
+		<territory name="GC_room_7"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_7" count="18" respawn="10">
+		<territory name="GC_room_7"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_7" count="2" respawn="10">
+		<territory name="GC_room_7"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_8">
+		<add x="186792" y="59640" zmin="-4976" zmax="-4976"/>
+		<add x="186856" y="61896" zmin="-4976" zmax="-4976"/>
+		<add x="188200" y="61896" zmin="-4976" zmax="-4976"/>
+		<add x="188216" y="59640" zmin="-4976" zmax="-4976"/>
+	</territory>
+	<spawn name="GC_room_8" count="6" respawn="10">
+		<territory name="GC_room_8"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_8" count="6" respawn="10">
+		<territory name="GC_room_8"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_8" count="6" respawn="10">
+		<territory name="GC_room_8"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_8" count="6" respawn="10">
+		<territory name="GC_room_8"/>
+		<npc id="20647"/>
+	</spawn>
+		<spawn name="GC_room_8" count="6" respawn="10">
+		<territory name="GC_room_8"/>
+		<npc id="20649"/>
+	</spawn>
+		<spawn name="GC_room_8" count="1" respawn="10">
+		<territory name="GC_room_8"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_room_9">
+		<add x="183192" y="50952" zmin="-4344" zmax="-4344"/>
+		<add x="184216" y="52152" zmin="-4344" zmax="-4344"/>
+		<add x="182504" y="53624" zmin="-4344" zmax="-4344"/>
+		<add x="181480" y="52504" zmin="-4344" zmax="-4344"/>
+	</territory>
+	<spawn name="GC_room_9" count="6" respawn="10">
+		<territory name="GC_room_9"/>
+		<npc id="20646"/>
+	</spawn>
+	<spawn name="GC_room_9" count="6" respawn="10">
+		<territory name="GC_room_9"/>
+		<npc id="20648"/>
+	</spawn>
+	<spawn name="GC_room_9" count="6" respawn="10">
+		<territory name="GC_room_9"/>
+		<npc id="20650"/>
+	</spawn>
+	<spawn name="GC_room_9" count="6" respawn="10">
+		<territory name="GC_room_9"/>
+		<npc id="20647"/>
+	</spawn>
+	<spawn name="GC_room_9" count="6" respawn="10">
+		<territory name="GC_room_9"/>
+		<npc id="20649"/>
+	</spawn>
+	<spawn name="GC_room_9" count="2" respawn="10">
+		<territory name="GC_room_9"/>
+		<npc id="21058"/>
+	</spawn>
+	<territory name="GC_partyroom_1">
+		<add x="193416" y="60584" zmin="-6096" zmax="-6096"/>
+		<add x="192600" y="60600" zmin="-6096" zmax="-6096"/>
+		<add x="192616" y="62632" zmin="-6096" zmax="-6096"/>
+		<add x="193432" y="62616" zmin="-6096" zmax="-6096"/>
+	</territory>
+	<spawn name="GC_partyroom_1" count="1" respawn="45">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20655"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20654"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20656"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20658"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20657"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20771"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20651"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20652"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="24021"/>
+	</spawn>
+	<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="24016"/>
+	</spawn>
+		<spawn name="GC_partyroom_1" count="1" respawn="60">
+		<territory name="GC_partyroom_1"/>
+		<npc id="20653"/>
+	</spawn>
+		<spawn name="GC_partyroom_1" count="1" respawn="900">
+		<territory name="GC_partyroom_1"/>
+		<npc id="24020"/>
+	</spawn>
+	<territory name="GC_partyroom_1_2">
+		<add x="191496" y="62168" zmin="-6096" zmax="-6096"/>
+		<add x="190328" y="62184" zmin="-6096" zmax="-6096"/>
+		<add x="190296" y="61208" zmin="-6096" zmax="-6096"/>
+		<add x="191528" y="61160" zmin="-6096" zmax="-6096"/>
+	</territory>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="45">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20655"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20654"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20656"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20658"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20657"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20651"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20652"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="24021"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_2" count="1" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="24016"/>
+	</spawn>
+		<spawn name="GC_partyroom_1_2" count="2" respawn="60">
+		<territory name="GC_partyroom_1_2"/>
+		<npc id="20653"/>
+	</spawn>
+	<territory name="GC_partyroom_1_3">
+		<add x="189624" y="61144" zmin="-6096" zmax="-6096"/>
+		<add x="188712" y="61176" zmin="-6096" zmax="-6096"/>
+		<add x="188712" y="62168" zmin="-6096" zmax="-6096"/>
+		<add x="189640" y="62168" zmin="-6096" zmax="-6096"/>
+	</territory>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="45">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20655"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20654"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20656"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20658"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20657"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20651"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20652"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="24021"/>
+	</spawn>
+	<spawn name="GC_partyroom_1_3" count="1" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="24016"/>
+	</spawn>
+		<spawn name="GC_partyroom_1_3" count="2" respawn="60">
+		<territory name="GC_partyroom_1_3"/>
+		<npc id="20653"/>
+	</spawn>
+	<territory name="GC_partyroom_2">
+		<add x="187912" y="62664" zmin="-7232" zmax="-7232"/>
+		<add x="187128" y="62648" zmin="-7232" zmax="-7232"/>
+		<add x="187192" y="60264" zmin="-7232" zmax="-7232"/>
+		<add x="187896" y="60344" zmin="-7232" zmax="-7232"/>
+	</territory>
+	<spawn name="GC_partyroom_2" count="1" respawn="45">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20655"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20654"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20656"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20658"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20657"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20771"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20651"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20652"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="24021"/>
+	</spawn>
+	<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="24016"/>
+	</spawn>
+		<spawn name="GC_partyroom_2" count="1" respawn="60">
+		<territory name="GC_partyroom_2"/>
+		<npc id="20653"/>
+	</spawn>
+		<spawn name="GC_partyroom_2" count="1" respawn="900">
+		<territory name="GC_partyroom_2"/>
+		<npc id="24020"/>
+	</spawn>
+	<territory name="GC_partyroom_3">
+		<add x="190456" y="61544" zmin="-7240" zmax="-7240"/>
+		<add x="193272" y="61512" zmin="-7240" zmax="-7240"/>
+		<add x="193320" y="60520" zmin="-7240" zmax="-7240"/>
+		<add x="190648" y="60522" zmin="-7240" zmax="-7240"/>
+	</territory>
+	<spawn name="GC_partyroom_3" count="2" respawn="45">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20655"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20654"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20656"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20658"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20657"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20771"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20651"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20652"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="24021"/>
+	</spawn>
+	<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="24016"/>
+	</spawn>
+		<spawn name="GC_partyroom_3" count="2" respawn="60">
+		<territory name="GC_partyroom_3"/>
+		<npc id="20653"/>
+	</spawn>
+		<spawn name="GC_partyroom_3" count="1" respawn="900">
+		<territory name="GC_partyroom_3"/>
+		<npc id="24020"/>
+	</spawn>
+	<territory name="GC_partyroom_4">
+		<add x="187704" y="56936" zmin="-7232" zmax="-7232"/>
+		<add x="186168" y="56984" zmin="-7232" zmax="-7232"/>
+		<add x="186184" y="55528" zmin="-7232" zmax="-7232"/>
+		<add x="187720" y="55464" zmin="-7232" zmax="-7232"/>
+	</territory>
+	<spawn name="GC_partyroom_4" count="1" respawn="45">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20655"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20654"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20656"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20658"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20657"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20771"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20651"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20652"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="24021"/>
+	</spawn>
+	<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="24016"/>
+	</spawn>
+		<spawn name="GC_partyroom_4" count="2" respawn="60">
+		<territory name="GC_partyroom_4"/>
+		<npc id="20653"/>
+	</spawn>
+		<spawn name="GC_partyroom_4" count="1" respawn="900">
+		<territory name="GC_partyroom_4"/>
+		<npc id="24020"/>
+	</spawn>
+</list>

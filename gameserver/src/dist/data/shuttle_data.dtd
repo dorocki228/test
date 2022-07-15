@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (shuttle)*>
+
+<!ELEMENT shuttle (stops)*>
+<!ATTLIST shuttle
+	id CDATA #REQUIRED
+	name CDATA #IMPLIED>
+
+<!ELEMENT stops (stop)*>
+<!ELEMENT stop (dimension)*>
+<!ATTLIST stop
+	id CDATA #REQUIRED>
+
+<!ELEMENT dimension (#PCDATA)>
+<!ATTLIST dimension
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	z CDATA #REQUIRED>

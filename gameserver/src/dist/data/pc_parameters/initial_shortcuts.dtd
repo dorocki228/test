@@ -1,0 +1,37 @@
+<!ELEMENT list (shortcuts|macroses)*>
+
+	<!ELEMENT shortcuts (page)*>
+	<!ATTLIST shortcuts
+		race CDATA #IMPLIED
+		type CDATA #IMPLIED>
+
+		<!ELEMENT page (shortcut)*>
+		<!ATTLIST page
+			id CDATA #IMPLIED>
+
+			<!ELEMENT shortcut (#PCDATA)>
+			<!ATTLIST shortcut
+				slot CDATA #REQUIRED
+				type CDATA #REQUIRED
+				id CDATA #REQUIRED
+				level CDATA #IMPLIED>
+
+	<!ELEMENT macroses (macro)*>
+
+		<!ELEMENT macro (command)*>
+		<!ATTLIST macro
+			id CDATA #REQUIRED
+			icon CDATA #REQUIRED
+			name CDATA #REQUIRED
+			description CDATA #IMPLIED
+			acronym CDATA #IMPLIED
+			enabled CDATA #IMPLIED>
+
+			<!ELEMENT command (#PCDATA)>
+			<!ATTLIST command
+				type CDATA #REQUIRED
+				id CDATA #IMPLIED
+				level CDATA #IMPLIED
+				delay CDATA #IMPLIED
+				page CDATA #IMPLIED
+				slot CDATA #IMPLIED>

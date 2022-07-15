@@ -1,0 +1,2 @@
+ALTER TABLE character_costumes ADD COLUMN `count` SMALLINT UNSIGNED NOT NULL DEFAULT '0' AFTER `costume_id`;
+ALTER TABLE character_costumes ADD COLUMN `shortcut_id` SMALLINT UNSIGNED NOT NULL DEFAULT '0' AFTER `flags`;

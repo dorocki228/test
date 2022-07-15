@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<territory name="oren11_1918_01">
+		<add x="-18281" y="32484" zmin="-3779" zmax="-3079"/>
+		<add x="-15057" y="30476" zmin="-3779" zmax="-3079"/>
+		<add x="-14175" y="31753" zmin="-3779" zmax="-3079"/>
+		<add x="-14593" y="32486" zmin="-3779" zmax="-3079"/>
+	</territory>
+	<spawn name="oren11_1918_01" count="3" respawn="16">
+		<territory name="oren11_1918_01"/>
+		<npc id="20015"/><!--Лесной Эльф-Зомби-->
+	</spawn>
+	<spawn name="oren11_1918_01" count="6" respawn="16">
+		<territory name="oren11_1918_01"/>
+		<npc id="20433"/><!--Гнойная Летучая Мышь-->
+	</spawn>
+	<spawn name="oren07_1918_14s" count="5" respawn="20">
+		<territory>
+			<add x="-22058" y="23659" zmin="-3895" zmax="-3095"/>
+			<add x="-20486" y="20926" zmin="-3895" zmax="-3095"/>
+			<add x="-17980" y="21350" zmin="-3895" zmax="-3095"/>
+			<add x="-19031" y="24094" zmin="-3895" zmax="-3095"/>
+		</territory>
+		<npc id="20321"/><!--Вор Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_13s" count="5" respawn="20">
+		<territory>
+			<add x="-18353" y="25172" zmin="-3874" zmax="-3074"/>
+			<add x="-15457" y="21515" zmin="-3874" zmax="-3074"/>
+			<add x="-14116" y="23754" zmin="-3874" zmax="-3074"/>
+			<add x="-16079" y="25539" zmin="-3874" zmax="-3074"/>
+		</territory>
+		<npc id="20321"/><!--Вор Гоблинов-->
+	</spawn>
+	<territory name="oren07_1918_16s">
+		<add x="-30756" y="30293" zmin="-3639" zmax="-2939"/>
+		<add x="-30055" y="26677" zmin="-3639" zmax="-2939"/>
+		<add x="-28565" y="27029" zmin="-3639" zmax="-2939"/>
+		<add x="-28503" y="30160" zmin="-3639" zmax="-2939"/>
+	</territory>
+	<spawn name="oren07_1918_16s" count="2" respawn="20">
+		<territory name="oren07_1918_16s"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_16s" count="3" respawn="20">
+		<territory name="oren07_1918_16s"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<territory name="oren07_1918_15s">
+		<add x="-28280" y="20225" zmin="-3837" zmax="-3137"/>
+		<add x="-26708" y="17492" zmin="-3837" zmax="-3137"/>
+		<add x="-24202" y="17917" zmin="-3837" zmax="-3137"/>
+		<add x="-25253" y="20661" zmin="-3837" zmax="-3137"/>
+	</territory>
+	<spawn name="oren07_1918_15s" count="2" respawn="20">
+		<territory name="oren07_1918_15s"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_15s" count="3" respawn="20">
+		<territory name="oren07_1918_15s"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_npc1918_g05" count="1" respawn="60">
+		<territory>
+			<add x="-27089" y="32223" zmin="-3830" zmax="-1830"/>
+			<add x="-19214" y="23880" zmin="-3830" zmax="-1830"/>
+			<add x="-11375" y="27980" zmin="-3830" zmax="-1830"/>
+			<add x="-7179" y="32263" zmin="-3830" zmax="-1830"/>
+		</territory>
+		<npc id="31034"/><!--Караульный-->
+	</spawn>
+	<spawn name="oren07_npc1918_g04" count="1" respawn="60">
+		<territory>
+			<add x="-31616" y="31933" zmin="-3830" zmax="-2530"/>
+			<add x="-28101" y="17011" zmin="-3830" zmax="-2530"/>
+			<add x="-19639" y="23952" zmin="-3830" zmax="-2530"/>
+			<add x="-27927" y="32147" zmin="-3830" zmax="-2530"/>
+		</territory>
+		<npc id="31034"/><!--Караульный-->
+	</spawn>
+	<spawn name="oren07_npc1918_g03" count="1" respawn="60">
+		<territory>
+			<add x="-27894" y="16717" zmin="-3830" zmax="-2530"/>
+			<add x="-19096" y="9868" zmin="-3830" zmax="-2530"/>
+			<add x="-12180" y="17407" zmin="-3830" zmax="-2530"/>
+			<add x="-18972" y="23584" zmin="-3830" zmax="-2530"/>
+		</territory>
+		<npc id="31034"/><!--Караульный-->
+	</spawn>
+	<spawn name="oren07_npc1918_g02" count="1" respawn="60">
+		<territory>
+			<add x="-18765" y="9549" zmin="-3830" zmax="-2330"/>
+			<add x="-6379" y="3623" zmin="-3830" zmax="-2330"/>
+			<add x="-6813" y="12731" zmin="-3830" zmax="-2330"/>
+			<add x="-11862" y="17164" zmin="-3830" zmax="-2330"/>
+		</territory>
+		<npc id="31034"/><!--Караульный-->
+	</spawn>
+	<spawn name="oren07_npc1918_g01" count="1" respawn="60">
+		<territory>
+			<add x="-18666" y="23702" zmin="-3842" zmax="-2542"/>
+			<add x="-9788" y="15777" zmin="-3842" zmax="-2542"/>
+			<add x="-4573" y="25303" zmin="-3842" zmax="-2542"/>
+			<add x="-7847" y="29238" zmin="-3842" zmax="-2542"/>
+		</territory>
+		<npc id="31034"/><!--Караульный-->
+	</spawn>
+	<spawn name="oren07_npc1918_gd04" count="1" respawn="60">
+		<territory>
+			<add x="-16748" y="32476" zmin="-3768" zmax="-2518"/>
+			<add x="-13436" y="27360" zmin="-3768" zmax="-2518"/>
+			<add x="-10540" y="32448" zmin="-3768" zmax="-2518"/>
+		</territory>
+		<npc id="31845"/><!--Кровавая Фея-->
+	</spawn>
+	<spawn name="oren07_npc1918_gd01" count="1" respawn="60">
+		<territory>
+			<add x="-24536" y="14068" zmin="-3780" zmax="-2780"/>
+			<add x="-16680" y="7836" zmin="-3780" zmax="-2780"/>
+			<add x="-10312" y="14416" zmin="-3780" zmax="-2780"/>
+			<add x="-17296" y="20564" zmin="-3780" zmax="-2780"/>
+			<add x="-22876" y="18244" zmin="-3780" zmax="-2780"/>
+		</territory>
+		<npc id="31845"/><!--Кровавая Фея-->
+	</spawn>
+	<spawn name="oren07_npc1918_gd02" count="1" respawn="60">
+		<territory>
+			<add x="-14052" y="19268" zmin="-3804" zmax="-2954"/>
+			<add x="-10428" y="15740" zmin="-3804" zmax="-2954"/>
+			<add x="-7016" y="19428" zmin="-3804" zmax="-2954"/>
+			<add x="-12428" y="23844" zmin="-3804" zmax="-2954"/>
+		</territory>
+		<npc id="31850"/><!--Тлетворный Древень-->
+	</spawn>
+	<spawn name="oren07_npc1918_gd03" count="1" respawn="60">
+		<territory>
+			<add x="-8864" y="23044" zmin="-3752" zmax="-2502"/>
+			<add x="-5428" y="22956" zmin="-3752" zmax="-2502"/>
+			<add x="-5896" y="27684" zmin="-3752" zmax="-2502"/>
+			<add x="-8744" y="29348" zmin="-3752" zmax="-2502"/>
+			<add x="-10500" y="28104" zmin="-3752" zmax="-2502"/>
+			<add x="-11108" y="24596" zmin="-3752" zmax="-2502"/>
+		</territory>
+		<npc id="31850"/><!--Тлетворный Древень-->
+	</spawn>
+	<territory name="oren07_1918_06">
+		<add x="-17913" y="13632" zmin="-3832" zmax="-3032"/>
+		<add x="-13764" y="15647" zmin="-3832" zmax="-3032"/>
+		<add x="-14691" y="19322" zmin="-3832" zmax="-3032"/>
+		<add x="-20358" y="19352" zmin="-3832" zmax="-3032"/>
+	</territory>
+	<spawn name="oren07_1918_06" count="6" respawn="20">
+		<territory name="oren07_1918_06"/>
+		<npc id="20321"/><!--Вор Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_06" count="8" respawn="20">
+		<territory name="oren07_1918_06"/>
+		<npc id="20386"/><!--Воин Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_06" count="6" respawn="20">
+		<territory name="oren07_1918_06"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_06" count="5" respawn="20">
+		<territory name="oren07_1918_06"/>
+		<npc id="20400"/><!--Кровавый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_07">
+		<add x="-9711" y="10815" zmin="-3527" zmax="-2327"/>
+		<add x="-7006" y="9164" zmin="-3527" zmax="-2327"/>
+		<add x="-6620" y="13536" zmin="-3527" zmax="-2327"/>
+		<add x="-10004" y="13087" zmin="-3527" zmax="-2327"/>
+	</territory>
+	<spawn name="oren07_1918_07" count="7" respawn="20">
+		<territory name="oren07_1918_07"/>
+		<npc id="20328"/><!--Защитник Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_07" count="8" respawn="20">
+		<territory name="oren07_1918_07"/>
+		<npc id="20007"/><!--Зеленый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_04">
+		<add x="-16103" y="7286" zmin="-3768" zmax="-2768"/>
+		<add x="-14706" y="10055" zmin="-3768" zmax="-2768"/>
+		<add x="-18166" y="13766" zmin="-3768" zmax="-2768"/>
+		<add x="-21201" y="11531" zmin="-3768" zmax="-2768"/>
+	</territory>
+	<spawn name="oren07_1918_04" count="3" respawn="20">
+		<territory name="oren07_1918_04"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_04" count="8" respawn="20">
+		<territory name="oren07_1918_04"/>
+		<npc id="20321"/><!--Вор Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_04" count="6" respawn="20">
+		<territory name="oren07_1918_04"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_04" count="6" respawn="20">
+		<territory name="oren07_1918_04"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<territory name="oren07_1918_05">
+		<add x="-21225" y="11619" zmin="-3828" zmax="-2828"/>
+		<add x="-18162" y="13941" zmin="-3828" zmax="-2828"/>
+		<add x="-20467" y="19285" zmin="-3828" zmax="-2828"/>
+		<add x="-22397" y="18125" zmin="-3828" zmax="-2828"/>
+	</territory>
+	<spawn name="oren07_1918_05" count="2" respawn="20">
+		<territory name="oren07_1918_05"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_05" count="7" respawn="20">
+		<territory name="oren07_1918_05"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_05" count="6" respawn="20">
+		<territory name="oren07_1918_05"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_05" count="5" respawn="20">
+		<territory name="oren07_1918_05"/>
+		<npc id="20400"/><!--Кровавый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_08">
+		<add x="-11975" y="12971" zmin="-3840" zmax="-2840"/>
+		<add x="-8615" y="13448" zmin="-3840" zmax="-2840"/>
+		<add x="-9079" y="17133" zmin="-3840" zmax="-2840"/>
+		<add x="-12000" y="18088" zmin="-3840" zmax="-2840"/>
+	</territory>
+	<spawn name="oren07_1918_08" count="3" respawn="20">
+		<territory name="oren07_1918_08"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_08" count="6" respawn="20">
+		<territory name="oren07_1918_08"/>
+		<npc id="20328"/><!--Защитник Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_08" count="5" respawn="20">
+		<territory name="oren07_1918_08"/>
+		<npc id="20007"/><!--Зеленый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_09">
+		<add x="-14566" y="19301" zmin="-3821" zmax="-3121"/>
+		<add x="-9282" y="17283" zmin="-3821" zmax="-3121"/>
+		<add x="-8351" y="21271" zmin="-3821" zmax="-3121"/>
+		<add x="-11884" y="23639" zmin="-3821" zmax="-3121"/>
+	</territory>
+	<spawn name="oren07_1918_09" count="3" respawn="20">
+		<territory name="oren07_1918_09"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_09" count="9" respawn="20">
+		<territory name="oren07_1918_09"/>
+		<npc id="20328"/><!--Защитник Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_09" count="9" respawn="20">
+		<territory name="oren07_1918_09"/>
+		<npc id="20007"/><!--Зеленый Гриб-->
+	</spawn>
+	<spawn name="oren07_1918_09" count="3" respawn="20">
+		<territory name="oren07_1918_09"/>
+		<npc id="20386"/><!--Воин Орков Балор-->
+	</spawn>
+	<territory name="oren07_1918_02">
+		<add x="-15928" y="7151" zmin="-3694" zmax="-2994"/>
+		<add x="-11548" y="5488" zmin="-3694" zmax="-2994"/>
+		<add x="-12040" y="7859" zmin="-3694" zmax="-2994"/>
+		<add x="-15147" y="8430" zmin="-3694" zmax="-2994"/>
+	</territory>
+	<spawn name="oren07_1918_02" count="5" respawn="20">
+		<territory name="oren07_1918_02"/>
+		<npc id="20328"/><!--Защитник Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_02" count="5" respawn="20">
+		<territory name="oren07_1918_02"/>
+		<npc id="20321"/><!--Вор Гоблинов-->
+	</spawn>
+	<territory name="oren07_1918_03">
+		<add x="-14618" y="10107" zmin="-3843" zmax="-3143"/>
+		<add x="-11954" y="10530" zmin="-3843" zmax="-3143"/>
+		<add x="-12254" y="16294" zmin="-3843" zmax="-3143"/>
+		<add x="-17750" y="13551" zmin="-3843" zmax="-3143"/>
+	</territory>
+	<spawn name="oren07_1918_03" count="3" respawn="20">
+		<territory name="oren07_1918_03"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_03" count="6" respawn="20">
+		<territory name="oren07_1918_03"/>
+		<npc id="20321"/><!--Вор Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_03" count="8" respawn="20">
+		<territory name="oren07_1918_03"/>
+		<npc id="20386"/><!--Воин Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_03" count="4" respawn="20">
+		<territory name="oren07_1918_03"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_03" count="4" respawn="20">
+		<territory name="oren07_1918_03"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<territory name="oren07_1918_01">
+		<add x="-11445" y="5486" zmin="-3694" zmax="-2794"/>
+		<add x="-6866" y="8877" zmin="-3694" zmax="-2794"/>
+		<add x="-9827" y="10727" zmin="-3694" zmax="-2794"/>
+		<add x="-12267" y="10276" zmin="-3694" zmax="-2794"/>
+	</territory>
+	<spawn name="oren07_1918_01" count="1" respawn="20">
+		<territory name="oren07_1918_01"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_01" count="6" respawn="20">
+		<territory name="oren07_1918_01"/>
+		<npc id="20007"/><!--Зеленый Гриб-->
+	</spawn>
+	<spawn name="oren07_1918_01" count="8" respawn="20">
+		<territory name="oren07_1918_01"/>
+		<npc id="20386"/><!--Воин Орков Балор-->
+	</spawn>
+	<territory name="oren07_1918_17">
+		<add x="-11503" y="24838" zmin="-3772" zmax="-3172"/>
+		<add x="-8756" y="22832" zmin="-3772" zmax="-3172"/>
+		<add x="-6774" y="22864" zmin="-3772" zmax="-3172"/>
+		<add x="-7557" y="25157" zmin="-3772" zmax="-3172"/>
+	</territory>
+	<spawn name="oren07_1918_17" count="6" respawn="20">
+		<territory name="oren07_1918_17"/>
+		<npc id="20328"/><!--Защитник Гоблинов-->
+	</spawn>
+	<spawn name="oren07_1918_17" count="7" respawn="20">
+		<territory name="oren07_1918_17"/>
+		<npc id="20007"/><!--Зеленый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_10">
+		<add x="-20412" y="19477" zmin="-3821" zmax="-3121"/>
+		<add x="-14668" y="19463" zmin="-3821" zmax="-3121"/>
+		<add x="-13630" y="25043" zmin="-3821" zmax="-3121"/>
+		<add x="-14393" y="26392" zmin="-3821" zmax="-3121"/>
+		<add x="-23537" y="24982" zmin="-3821" zmax="-3121"/>
+	</territory>
+	<spawn name="oren07_1918_10" count="3" respawn="20">
+		<territory name="oren07_1918_10"/>
+		<npc id="20385"/><!--Стрелок Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_10" count="5" respawn="20">
+		<territory name="oren07_1918_10"/>
+		<npc id="20007"/><!--Зеленый Гриб-->
+	</spawn>
+	<spawn name="oren07_1918_10" count="7" respawn="20">
+		<territory name="oren07_1918_10"/>
+		<npc id="20386"/><!--Воин Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_10" count="5" respawn="20">
+		<territory name="oren07_1918_10"/>
+		<npc id="20400"/><!--Кровавый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_11">
+		<add x="-29227" y="18993" zmin="-3786" zmax="-2986"/>
+		<add x="-25470" y="14750" zmin="-3786" zmax="-2986"/>
+		<add x="-23381" y="17521" zmin="-3786" zmax="-2986"/>
+		<add x="-23741" y="24890" zmin="-3786" zmax="-2986"/>
+		<add x="-29864" y="25130" zmin="-3786" zmax="-2986"/>
+	</territory>
+	<spawn name="oren07_1918_11" count="8" respawn="20">
+		<territory name="oren07_1918_11"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_11" count="7" respawn="20">
+		<territory name="oren07_1918_11"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_11" count="5" respawn="20">
+		<territory name="oren07_1918_11"/>
+		<npc id="20400"/><!--Кровавый Гриб-->
+	</spawn>
+	<territory name="oren07_1918_12">
+		<add x="-31993" y="32308" zmin="-3761" zmax="-2861"/>
+		<add x="-29805" y="25284" zmin="-3761" zmax="-2861"/>
+		<add x="-24697" y="25138" zmin="-3761" zmax="-2861"/>
+		<add x="-29228" y="32287" zmin="-3761" zmax="-2861"/>
+	</territory>
+	<spawn name="oren07_1918_12" count="4" respawn="20">
+		<territory name="oren07_1918_12"/>
+		<npc id="20388"/><!--Адъютант Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_12" count="4" respawn="20">
+		<territory name="oren07_1918_12"/>
+		<npc id="20387"/><!--Главарь Воинов Орков Балор-->
+	</spawn>
+	<spawn name="oren07_1918_12" count="7" respawn="20">
+		<territory name="oren07_1918_12"/>
+		<npc id="20400"/><!--Кровавый Гриб-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-23912" y="21384" z="-3712" h="50228" />
+		<npc id="31656" /><!--Камень Познания-->
+	</spawn>
+		<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-20004" y="13497" z="-4896" h="0" />
+		<npc id="31085" /><!--Хранитель Портала Зиккурат-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19082" y="13509" z="-4896" h="0" />
+		<npc id="31086" /><!--Хранитель Портала Зиккурат-->
+	</spawn>
+	
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18724" y="14868" z="-4896" h="4634" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18639" y="14662" z="-4896" h="0" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18708" y="15191" z="-4896" h="10581" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18684" y="14913" z="-4896" h="63877" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19015" y="14927" z="-4896" h="15211" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18422" y="15195" z="-4896" h="61638" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19248" y="15224" z="-4896" h="28544" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19241" y="14872" z="-4896" h="16601" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16387" y="13220" z="-4896" h="31195" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16508" y="13446" z="-4896" h="19207" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16433" y="13524" z="-4896" h="40412" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17160" y="13625" z="-4896" h="17504" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16273" y="13695" z="-4896" h="51787" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17240" y="13524" z="-4896" h="16873" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16678" y="13505" z="-4896" h="42281" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17424" y="13404" z="-4896" h="25730" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17532" y="13218" z="-4896" h="33359" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16425" y="16186" z="-4896" h="7255" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16554" y="16446" z="-4896" h="16056" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16664" y="16585" z="-4896" h="18628" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18187" y="14717" z="-4896" h="49413" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16861" y="15717" z="-4896" h="1480" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16380" y="15691" z="-4896" h="38039" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16752" y="16084" z="-4896" h="6222" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16420" y="15977" z="-4896" h="54852" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19147" y="18065" z="-4896" h="11129" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18832" y="18228" z="-4896" h="30837" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19230" y="18050" z="-4896" h="55231" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19177" y="18260" z="-4896" h="41509" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16465" y="17135" z="-4896" h="26679" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16455" y="17075" z="-4896" h="39019" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16486" y="17068" z="-4896" h="57751" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16515" y="16516" z="-4896" h="49090" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16763" y="17275" z="-4896" h="48672" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16561" y="16733" z="-4896" h="27714" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14321" y="13252" z="-4896" h="40139" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14670" y="13609" z="-4896" h="20595" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14699" y="13427" z="-4896" h="32931" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15134" y="13710" z="-4896" h="38759" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15203" y="14414" z="-4896" h="54206" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15099" y="14448" z="-4896" h="15118" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15161" y="13800" z="-4896" h="63457" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15498" y="14518" z="-4896" h="26408" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15246" y="13568" z="-4896" h="62582" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15191" y="14447" z="-4896" h="33570" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15251" y="14353" z="-4896" h="11982" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15731" y="13542" z="-4896" h="29021" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14433" y="13606" z="-4896" h="1942" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14689" y="16229" z="-4896" h="8818" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14660" y="16505" z="-4896" h="18568" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15047" y="16448" z="-4896" h="63793" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14499" y="16432" z="-4896" h="6080" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14461" y="16503" z="-4896" h="57345" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14970" y="16454" z="-4896" h="16121" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14715" y="16469" z="-4896" h="28511" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14735" y="16221" z="-4896" h="35491" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14414" y="16038" z="-4896" h="8668" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14603" y="18170" z="-4896" h="55811" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14405" y="17871" z="-4896" h="55917" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14358" y="18005" z="-4896" h="33945" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14681" y="18254" z="-4896" h="37627" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19074" y="20385" z="-4896" h="1330" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19113" y="20180" z="-4896" h="23894" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18838" y="20012" z="-4896" h="42886" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18483" y="20014" z="-4896" h="41783" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19262" y="19033" z="-4896" h="53152" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19052" y="19208" z="-4896" h="50808" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19033" y="18921" z="-4896" h="30593" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19272" y="19233" z="-4896" h="9462" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19186" y="19958" z="-4896" h="32518" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19168" y="19930" z="-4896" h="23604" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18915" y="20391" z="-4896" h="32374" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19272" y="20103" z="-4896" h="34449" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18134" y="19891" z="-4896" h="54672" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16641" y="19185" z="-4896" h="27909" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16386" y="19616" z="-4896" h="32320" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16474" y="20006" z="-4896" h="35578" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19039" y="21403" z="-4896" h="60367" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19099" y="21216" z="-4896" h="34007" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18890" y="21734" z="-4896" h="8459" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18916" y="21285" z="-4896" h="45572" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19035" y="21251" z="-4896" h="11703" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19351" y="22015" z="-4896" h="35033" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19068" y="21998" z="-4896" h="42575" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19135" y="22119" z="-4896" h="58088" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18795" y="21342" z="-4896" h="18442" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16902" y="21275" z="-4896" h="13699" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16442" y="21610" z="-4896" h="10316" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16711" y="21428" z="-4896" h="54699" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16741" y="21253" z="-4896" h="52312" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16356" y="19255" z="-4896" h="35409" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16367" y="20220" z="-4896" h="7851" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14615" y="19378" z="-4896" h="17988" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14358" y="18889" z="-4896" h="45471" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14526" y="19302" z="-4896" h="39756" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14555" y="18933" z="-4896" h="50045" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16304" y="19700" z="-4896" h="29727" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16315" y="19583" z="-4896" h="27332" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16377" y="19021" z="-4896" h="12295" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16398" y="19130" z="-4896" h="45550" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15960" y="21374" z="-4896" h="10106" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15779" y="20997" z="-4896" h="22600" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16053" y="21116" z="-4896" h="27773" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15780" y="21550" z="-4896" h="1800" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15693" y="21435" z="-4896" h="4401" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15629" y="21093" z="-4896" h="43929" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15183" y="21320" z="-4896" h="46755" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-16093" y="21164" z="-4896" h="2672" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-15259" y="21303" z="-4896" h="32899" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18942" y="24036" z="-4896" h="33597" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18901" y="23796" z="-4896" h="20371" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-18857" y="23951" z="-4896" h="2097" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-19160" y="24009" z="-4896" h="21219" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17742" y="23255" z="-4896" h="39014" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17404" y="23023" z="-4896" h="48316" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17814" y="23315" z="-4896" h="43346" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17562" y="23493" z="-4896" h="59143" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17761" y="23065" z="-4896" h="37430" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17846" y="23281" z="-4896" h="3580" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17813" y="23523" z="-4896" h="9938" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17379" y="23669" z="-4896" h="12086" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-17611" y="23495" z="-4896" h="13358" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14449" y="24036" z="-4896" h="12295" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14523" y="24122" z="-4896" h="65211" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14436" y="24095" z="-4896" h="13554" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-14378" y="23915" z="-4896" h="59705" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13051" y="21281" z="-4896" h="7790" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12731" y="21071" z="-4896" h="1352" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13162" y="21221" z="-4896" h="8636" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13319" y="20832" z="-4896" h="61491" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13262" y="20959" z="-4896" h="9035" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13178" y="21030" z="-4896" h="14608" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12335" y="20763" z="-4896" h="62787" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13130" y="21129" z="-4896" h="40015" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13413" y="21310" z="-4896" h="25663" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12256" y="23294" z="-4896" h="8922" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12554" y="23512" z="-4896" h="43656" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12171" y="24006" z="-4896" h="55865" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12518" y="23751" z="-4896" h="56329" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12708" y="23734" z="-4896" h="20401" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12521" y="23535" z="-4896" h="53465" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12232" y="23442" z="-4896" h="62973" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12372" y="23316" z="-4896" h="34152" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12536" y="23815" z="-4896" h="13027" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13252" y="23875" z="-4896" h="34879" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13559" y="23770" z="-4896" h="49479" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13326" y="23980" z="-4896" h="22059" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13111" y="23539" z="-4896" h="2322" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11020" y="21481" z="-4896" h="16855" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11040" y="20796" z="-4896" h="15674" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11163" y="21031" z="-4896" h="19094" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11497" y="20865" z="-4896" h="61486" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11573" y="21114" z="-4896" h="40296" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11147" y="20926" z="-4896" h="14406" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11430" y="20920" z="-4896" h="8282" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11566" y="21008" z="-4896" h="9346" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10969" y="24074" z="-4896" h="3968" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11181" y="24029" z="-4896" h="39109" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10573" y="23953" z="-4896" h="45005" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11174" y="23819" z="-4896" h="25888" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10600" y="23896" z="-4896" h="10621" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10503" y="23549" z="-4896" h="2902" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10750" y="23707" z="-4896" h="8029" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11279" y="24115" z="-4896" h="25396" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10612" y="23601" z="-4896" h="30392" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13623" y="19154" z="-4896" h="18717" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13664" y="18932" z="-4896" h="50369" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13279" y="19125" z="-4896" h="62945" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13667" y="19172" z="-4896" h="38650" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11339" y="20112" z="-4896" h="26055" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11016" y="20407" z="-4896" h="61108" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11044" y="19825" z="-4896" h="45018" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11387" y="20432" z="-4896" h="15340" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11242" y="19954" z="-4896" h="63052" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8527" y="19204" z="-4896" h="0" />
+		<npc id="31089" /><!--Дух Хранителя Портала-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9626" y="22231" z="-4896" h="4045" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9229" y="22580" z="-4896" h="61973" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8834" y="22473" z="-4896" h="6809" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9309" y="22553" z="-4896" h="13385" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8717" y="22572" z="-4896" h="10828" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8695" y="22587" z="-4896" h="59625" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8661" y="22083" z="-4896" h="54938" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8617" y="22540" z="-4896" h="53896" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9606" y="22569" z="-4896" h="30085" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8905" y="23839" z="-4896" h="47960" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8900" y="23749" z="-4896" h="9981" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8591" y="23548" z="-4896" h="61852" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8896" y="23957" z="-4896" h="27052" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10374" y="17865" z="-4896" h="47903" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11205" y="18423" z="-4896" h="29218" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10808" y="17902" z="-4896" h="20213" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10834" y="18274" z="-4896" h="23099" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10457" y="18121" z="-4896" h="45550" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11478" y="18190" z="-4896" h="58825" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10398" y="18414" z="-4896" h="37512" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11320" y="17924" z="-4896" h="50918" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-10852" y="18341" z="-4896" h="31306" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9566" y="16909" z="-4896" h="3400" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9536" y="16896" z="-4896" h="48216" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9254" y="16518" z="-4896" h="43097" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8967" y="16756" z="-4896" h="21407" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-9621" y="16485" z="-4896" h="4441" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8739" y="16937" z="-4896" h="63768" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8961" y="16981" z="-4896" h="31301" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8905" y="16833" z="-4896" h="60201" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8703" y="16722" z="-4896" h="63293" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8680" y="17968" z="-4896" h="40965" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8524" y="18133" z="-4896" h="37219" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8511" y="17936" z="-4896" h="41328" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8746" y="18035" z="-4896" h="28465" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11527" y="14112" z="-4896" h="5545" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11456" y="15049" z="-4896" h="21905" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11413" y="15197" z="-4896" h="51045" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11034" y="14662" z="-4896" h="11992" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11066" y="15567" z="-4896" h="32073" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11554" y="15506" z="-4896" h="12997" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11310" y="14547" z="-4896" h="59909" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11366" y="14324" z="-4896" h="48937" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11186" y="14977" z="-4896" h="33293" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11132" y="15817" z="-4896" h="10209" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11207" y="15470" z="-4896" h="9556" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11430" y="15315" z="-4896" h="17355" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-11219" y="14320" z="-4896" h="18899" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8922" y="13223" z="-4896" h="40500" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8818" y="13417" z="-4896" h="44693" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8688" y="13307" z="-4896" h="35487" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-8788" y="13370" z="-4896" h="19948" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13529" y="13270" z="-4896" h="65084" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13214" y="13690" z="-4896" h="20812" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13250" y="13422" z="-4896" h="7623" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13156" y="13647" z="-4896" h="28446" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12837" y="15088" z="-4896" h="35795" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13183" y="15384" z="-4896" h="29351" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12933" y="15081" z="-4896" h="50141" />
+		<npc id="21912" /><!--Преторианец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13644" y="15391" z="-4896" h="53989" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12541" y="15503" z="-4896" h="47482" />
+		<npc id="21911" /><!--Верховный Жрец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13669" y="15392" z="-4896" h="24518" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12419" y="15111" z="-4896" h="61940" />
+		<npc id="21910" /><!--Гвардеец Нефилим-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13108" y="15291" z="-4896" h="15402" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12806" y="15151" z="-4896" h="57209" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12299" y="17162" z="-4896" h="29783" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12435" y="17926" z="-4896" h="29756" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12151" y="17042" z="-4896" h="64694" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13585" y="18352" z="-4896" h="28928" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13083" y="18070" z="-4896" h="57345" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13117" y="18347" z="-4896" h="6443" />
+		<npc id="21904" /><!--Проповедник Склепа-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-13233" y="18300" z="-4896" h="25269" />
+		<npc id="21906" /><!--Проводник Гробницы-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12673" y="17674" z="-4896" h="26446" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12418" y="18369" z="-4896" h="32767" />
+		<npc id="21909" /><!--Погребенный Отшельник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12471" y="17837" z="-4896" h="63497" />
+		<npc id="21907" /><!--Погребенный Гвардеец-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12308" y="17287" z="-4896" h="46313" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12612" y="17852" z="-4896" h="58291" />
+		<npc id="21908" /><!--Погребенный Проповедник-->
+	</spawn>
+	<spawn count="1" respawn="60" respawn_random="0" period_of_day="none">
+		<point x="-12184" y="18258" z="-4896" h="43181" />
+		<npc id="21905" /><!--Привратник Гробницы-->
+	</spawn>
+</list>

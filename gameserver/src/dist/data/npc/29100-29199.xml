@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="29100" name="Archangel" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="80"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="186915"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="158"/>
+		<set name="baseMpMax" value="1475"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="10116"/>
+		<set name="basePDef" value="4086"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="296"/>
+		<set name="baseMDef" value="1348"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="170"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="80"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="POLE"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="-18"/>
+		<set name="baseHitTimeFactor" value="0.76"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="SOUL_BSPIRIT"/>
+		<faction names="archangel_clan" range="300"/>
+		<equip>
+			<rhand item_id="93"/>	<!--Winged Spear-->
+		</equip>
+		<client_skills>
+			<skill id="4416" level="8"/>	<!--Angel-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="11"/>	<!--Spear-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+		</skills>
+	</npc>
+	<npc id="29101" name="Baium" title="">
+		<set name="type" value="BaiumBalthusStone"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="82"/>
+		<set name="collision_radius" value="65"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="1709400"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="120"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="29102" name="Antharas" title="Land Dragon">
+		<set name="type" value="ReflectionBoss"/>
+		<set name="ai_type" value="BalthusKnightsAntharasAI"/>
+		<set name="collision_height" value="300"/>
+		<set name="collision_radius" value="300"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="94936709.726"/>
+		<!--CLIENT VALUE: <set name="baseHpMax" value="6.894822452E8"/>-->
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="44536.1345"/>
+		<set name="baseMpMax" value="2025740.40219378"/>
+		<set name="baseMpReg" value="1000"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseWIT" value="70"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="48099"/>
+		<set name="basePDef" value="9654"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="4615.57"/>
+		<set name="baseMDef" value="10628"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="279"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="4096"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="death_immune" value="true"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="4122" level="1"/>	<!--Antharas-->
+		</client_skills>
+	</npc>
+	<npc id="29103" name="Behemoth Dragon" title="">
+		<set name="type" value="SpecialMinion"/>
+		<set name="ai_type" value="AntharasMinion"/>
+		<set name="collision_height" value="54"/>
+		<set name="collision_radius" value="63"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="506329"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="56.6684204782129"/>
+		<set name="baseMpMax" value="22800"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseWIT" value="70"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="3584.56902102981"/>
+		<set name="basePDef" value="1071.29474264312"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1386.66000087809"/>
+		<set name="baseMDef" value="522.626863116263"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="-18"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="max_pursue_range" value="10000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+			<skill id="5095" level="1" use_type="PhysicalSpecial"/>	<!--Antharas Strike-->
+			<skill id="5096" level="1" use_type="LongRangePhysicalSpecial"/>	<!--Antharas Power Shot-->
+		</skills>
+	</npc>
+	<npc id="29104" name="Tarask Dragon" title="">
+		<set name="type" value="SpecialMinion"/>
+		<set name="ai_type" value="AntharasMinion"/>
+		<set name="collision_height" value="54"/>
+		<set name="collision_radius" value="63"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="1012658"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="76.71"/>
+		<set name="baseMpMax" value="22800"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseWIT" value="70"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="3584.56902102981"/>
+		<set name="basePDef" value="1071.29474264312"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1386.66000087809"/>
+		<set name="baseMDef" value="522.626863116263"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="max_pursue_range" value="10000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+		</client_skills>
+	</npc>
+	<npc id="29105" name="King Ignis" title="">
+		<set name="type" value="ReflectionBoss"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="102"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="82"/>
+		<set name="rewardExp" value="806880000"/>
+		<set name="rewardSp" value="21785760"/>
+		<set name="baseHpMax" value="3.55555552E7"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="15000.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="elemental_element" value="FIRE"/>
+		<client_skills>
+			<skill id="50079" level="1"/>	<!--82 Lv. Raid Boss-->
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="15" max="45" chance="100"/>  <!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91119" min="1" max="1" chance="5.499"/>	<!--Ignis' Necklace (Ожерелье Игниса)-->
+			<reward item_id="289" min="1" max="1" chance="0.5"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="305" min="1" max="1" chance="0.5"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="2500" min="1" max="1" chance="0.5"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="2504" min="1" max="1" chance="0.5"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="7884" min="1" max="1" chance="0.5"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="7894" min="1" max="1" chance="0.5"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="7895" min="1" max="1" chance="0.5"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="7899" min="1" max="1" chance="0.5"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="7902" min="1" max="1" chance="0.5"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="288" min="1" max="1" chance="0.5"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="270" min="1" max="1" chance="0.5"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="269" min="1" max="1" chance="0.5"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="80" min="1" max="1" chance="0.5"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="81" min="1" max="1" chance="0.5"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="98" min="1" max="1" chance="0.5"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="150" min="1" max="1" chance="0.5"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="151" min="1" max="1" chance="0.5"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="164" min="1" max="1" chance="0.5"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="236" min="1" max="1" chance="0.5"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="235" min="1" max="1" chance="0.5"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="213" min="1" max="1" chance="0.5"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="212" min="1" max="1" chance="0.5"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="8688" min="1" max="1" chance="0.1"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.1"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.1"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.1"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.1"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.1"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.1"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.1"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8680" min="1" max="1" chance="0.1"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="8678" min="1" max="1" chance="0.1"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8679" min="1" max="1" chance="0.1"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="91539" min="1" max="1" chance="52.34"/>	<!--Armor Varnish (A-grade) (Полировка для Доспеха - Ранг A)-->
+			<reward item_id="91546" min="1" max="1" chance="51.88"/>	<!--Accessory Varnish (A-grade) (Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="91532" min="1" max="1" chance="51.27"/>	<!--Weapon Varnish (A-grade) (Полировка для Оружия - Ранг A)-->
+			<reward item_id="729" min="1" max="1" chance="33.29"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="49756" min="1" max="1" chance="11.025"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="91395" min="1" max="1" chance="10.954"/>	<!--Forgotten Manuscript - Page 3 (Забытый Манускрипт - Страница 3)-->
+			<reward item_id="8619" min="1" max="1" chance="10.944"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="8620" min="1" max="1" chance="5.504"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="91124" min="1" max="1" chance="2.172"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="49967" min="1" max="1" chance="1.903"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="49969" min="1" max="1" chance="1.886"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="49959" min="1" max="1" chance="1.871"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49961" min="1" max="1" chance="1.869"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49966" min="1" max="1" chance="1.856"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49970" min="1" max="1" chance="1.821"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49962" min="1" max="1" chance="1.792"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="49960" min="1" max="1" chance="1.772"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49968" min="1" max="1" chance="1.771"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="49964" min="1" max="1" chance="1.77"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49965" min="1" max="1" chance="1.767"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="49963" min="1" max="1" chance="1.765"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="90898" min="1" max="1" chance="0.5"/>	<!--Agathion's Soul (Душа Агатиона)-->
+			<reward item_id="90006" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="90004" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="90003" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="90002" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="90001" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="90000" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49999" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="49998" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="49997" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="49995" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49996" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29106" name="Queen Nebula" title="">
+		<set name="type" value="ReflectionBoss"/>
+		<set name="ai_type" value="locations.wallofargos.elementalbosses.QueenNebula"/>
+		<set name="collision_height" value="88.5"/>
+		<set name="collision_radius" value="42"/>
+		<set name="level" value="82"/>
+		<set name="rewardExp" value="806880000"/>
+		<set name="rewardSp" value="21785760"/>
+		<set name="baseHpMax" value="3.55555552E7"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="15000.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="elemental_element" value="WATER"/>
+		<skills>
+			<skill id="50036" level="5"/>
+		</skills>
+		<client_skills>
+			<skill id="50080" level="1"/>	<!--82 Lv. Raid Boss-->
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="19" max="57" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91117" min="1" max="1" chance="5.48"/>	<!--Nebula's Necklace (Ожерелье Небулы)-->
+			<reward item_id="289" min="1" max="1" chance="0.5"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="305" min="1" max="1" chance="0.5"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="2500" min="1" max="1" chance="0.5"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="2504" min="1" max="1" chance="0.5"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="7884" min="1" max="1" chance="0.5"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="7894" min="1" max="1" chance="0.5"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="7895" min="1" max="1" chance="0.5"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="7899" min="1" max="1" chance="0.5"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="7902" min="1" max="1" chance="0.5"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="288" min="1" max="1" chance="0.5"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="270" min="1" max="1" chance="0.5"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="269" min="1" max="1" chance="0.5"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="80" min="1" max="1" chance="0.5"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="81" min="1" max="1" chance="0.5"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="98" min="1" max="1" chance="0.5"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="150" min="1" max="1" chance="0.5"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="151" min="1" max="1" chance="0.5"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="164" min="1" max="1" chance="0.5"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="236" min="1" max="1" chance="0.5"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="235" min="1" max="1" chance="0.5"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="213" min="1" max="1" chance="0.5"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="212" min="1" max="1" chance="0.5"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="8688" min="1" max="1" chance="0.1"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.1"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.1"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.1"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.1"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.1"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.1"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.1"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8680" min="1" max="1" chance="0.1"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="8678" min="1" max="1" chance="0.1"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8679" min="1" max="1" chance="0.1"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="91539" min="1" max="1" chance="53.38"/>	<!--Armor Varnish (A-grade) (Полировка для Доспеха - Ранг A)-->
+			<reward item_id="91546" min="1" max="1" chance="52.73"/>	<!--Accessory Varnish (A-grade) (Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="91532" min="1" max="1" chance="52.67"/>	<!--Weapon Varnish (A-grade) (Полировка для Оружия - Ранг A)-->
+			<reward item_id="729" min="1" max="1" chance="32.02"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="8619" min="1" max="1" chance="11.035"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="91395" min="1" max="1" chance="10.98"/>	<!--Forgotten Manuscript - Page 3 (Забытый Манускрипт - Страница 3)-->
+			<reward item_id="49756" min="1" max="1" chance="10.97"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="8620" min="1" max="1" chance="5.444"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="91124" min="1" max="1" chance="2.145"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="49964" min="1" max="1" chance="1.882"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49963" min="1" max="1" chance="1.874"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49967" min="1" max="1" chance="1.859"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="49959" min="1" max="1" chance="1.856"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49960" min="1" max="1" chance="1.845"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49966" min="1" max="1" chance="1.822"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49968" min="1" max="1" chance="1.819"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="49969" min="1" max="1" chance="1.791"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="49965" min="1" max="1" chance="1.781"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="49961" min="1" max="1" chance="1.781"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49970" min="1" max="1" chance="1.773"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49962" min="1" max="1" chance="1.763"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="90898" min="1" max="1" chance="0.5"/>	<!--Agathion's Soul (Душа Агатиона)-->
+			<reward item_id="90006" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="90004" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="90003" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="90002" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="90001" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="90000" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49999" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="49998" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="49997" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="49995" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49996" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29107" name="King Procella" title="">
+		<set name="type" value="ReflectionBoss"/>
+		<set name="ai_type" value="locations.wallofargos.elementalbosses.KingProcella"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="82"/>
+		<set name="rewardExp" value="806880000"/>
+		<set name="rewardSp" value="21785760"/>
+		<set name="baseHpMax" value="3.55555552E7"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="15000.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="elemental_element" value="WIND"/>
+		<client_skills>
+			<skill id="50081" level="1"/>	<!--82 Lv. Raid Boss-->
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="19" max="57" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91121" min="1" max="1" chance="5.455"/>	<!--Procella's Necklace (Ожерелье Прочеллы)-->
+			<reward item_id="289" min="1" max="1" chance="0.5"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="305" min="1" max="1" chance="0.5"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="2500" min="1" max="1" chance="0.5"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="2504" min="1" max="1" chance="0.5"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="7884" min="1" max="1" chance="0.5"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="7894" min="1" max="1" chance="0.5"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="7895" min="1" max="1" chance="0.5"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="7899" min="1" max="1" chance="0.5"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="7902" min="1" max="1" chance="0.5"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="288" min="1" max="1" chance="0.5"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="270" min="1" max="1" chance="0.5"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="269" min="1" max="1" chance="0.5"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="80" min="1" max="1" chance="0.5"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="81" min="1" max="1" chance="0.5"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="98" min="1" max="1" chance="0.5"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="150" min="1" max="1" chance="0.5"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="151" min="1" max="1" chance="0.5"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="164" min="1" max="1" chance="0.5"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="236" min="1" max="1" chance="0.5"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="235" min="1" max="1" chance="0.5"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="213" min="1" max="1" chance="0.5"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="212" min="1" max="1" chance="0.5"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="8688" min="1" max="1" chance="0.1"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.1"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.1"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.1"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.1"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.1"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.1"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.1"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8680" min="1" max="1" chance="0.1"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="8678" min="1" max="1" chance="0.1"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8679" min="1" max="1" chance="0.1"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="91539" min="1" max="1" chance="53.15"/>	<!--Armor Varnish (A-grade) (Полировка для Доспеха - Ранг A)-->
+			<reward item_id="91546" min="1" max="1" chance="52.75"/>	<!--Accessory Varnish (A-grade) (Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="91532" min="1" max="1" chance="51.99"/>	<!--Weapon Varnish (A-grade) (Полировка для Оружия - Ранг A)-->
+			<reward item_id="729" min="1" max="1" chance="33.94"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="8619" min="1" max="1" chance="11.008"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="91395" min="1" max="1" chance="10.989"/>	<!--Forgotten Manuscript - Page 3 (Забытый Манускрипт - Страница 3)-->
+			<reward item_id="49756" min="1" max="1" chance="10.935"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="8620" min="1" max="1" chance="5.516"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="91124" min="1" max="1" chance="2.185"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="49964" min="1" max="1" chance="1.9"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49970" min="1" max="1" chance="1.895"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49962" min="1" max="1" chance="1.883"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="49963" min="1" max="1" chance="1.846"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49966" min="1" max="1" chance="1.835"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49960" min="1" max="1" chance="1.832"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49961" min="1" max="1" chance="1.829"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49967" min="1" max="1" chance="1.825"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="49968" min="1" max="1" chance="1.822"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="49959" min="1" max="1" chance="1.817"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49969" min="1" max="1" chance="1.803"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="49965" min="1" max="1" chance="1.785"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="90898" min="1" max="1" chance="0.5"/>	<!--Agathion's Soul (Душа Агатиона)-->
+			<reward item_id="90006" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="90004" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="90003" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="90002" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="90001" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="90000" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49999" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="49998" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="49997" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="49995" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49996" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29108" name="King Petram" title="">
+		<set name="type" value="ReflectionBoss"/>
+		<set name="ai_type" value="locations.wallofargos.elementalbosses.KingPetram"/>
+		<set name="collision_height" value="125"/>
+		<set name="collision_radius" value="80"/>
+		<set name="level" value="82"/>
+		<set name="rewardExp" value="806880000"/>
+		<set name="rewardSp" value="21785760"/>
+		<set name="baseHpMax" value="3.55555552E7"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="15000.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<set name="elemental_element" value="EARTH"/>
+		<faction names="petram" range="10000"/>
+		<ai_params>
+			<set name="noRandomWalk" value="true" />
+		</ai_params>
+		<client_skills>
+			<skill id="50082" level="1"/>	<!--82 Lv. Raid Boss-->
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="19" max="57" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91123" min="1" max="1" chance="5.568"/>	<!--Petram's Necklace (Ожерелье Петрама)-->
+			<reward item_id="289" min="1" max="1" chance="0.5"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="305" min="1" max="1" chance="0.5"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="2500" min="1" max="1" chance="0.5"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="2504" min="1" max="1" chance="0.5"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="7884" min="1" max="1" chance="0.5"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="7894" min="1" max="1" chance="0.5"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="7895" min="1" max="1" chance="0.5"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="7899" min="1" max="1" chance="0.5"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="7902" min="1" max="1" chance="0.5"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="288" min="1" max="1" chance="0.5"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="270" min="1" max="1" chance="0.5"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="269" min="1" max="1" chance="0.5"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="80" min="1" max="1" chance="0.5"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="81" min="1" max="1" chance="0.5"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="98" min="1" max="1" chance="0.5"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="150" min="1" max="1" chance="0.5"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="151" min="1" max="1" chance="0.5"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="164" min="1" max="1" chance="0.5"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="236" min="1" max="1" chance="0.5"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="235" min="1" max="1" chance="0.5"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="213" min="1" max="1" chance="0.5"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="212" min="1" max="1" chance="0.5"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="8688" min="1" max="1" chance="0.1"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.1"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.1"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.1"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.1"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.1"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.1"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.1"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8680" min="1" max="1" chance="0.1"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="8678" min="1" max="1" chance="0.1"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8679" min="1" max="1" chance="0.1"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="91539" min="1" max="1" chance="53.3"/>	<!--Armor Varnish (A-grade) (Полировка для Доспеха - Ранг A)-->
+			<reward item_id="91532" min="1" max="1" chance="51.93"/>	<!--Weapon Varnish (A-grade) (Полировка для Оружия - Ранг A)-->
+			<reward item_id="91546" min="1" max="1" chance="51.56"/>	<!--Accessory Varnish (A-grade) (Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="729" min="1" max="1" chance="32.71"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="8619" min="1" max="1" chance="11.035"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="49756" min="1" max="1" chance="10.968"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="91395" min="1" max="1" chance="10.956"/>	<!--Forgotten Manuscript - Page 3 (Забытый Манускрипт - Страница 3)-->
+			<reward item_id="8620" min="1" max="1" chance="5.436"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="91124" min="1" max="1" chance="2.139"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="49959" min="1" max="1" chance="1.897"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49964" min="1" max="1" chance="1.897"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49965" min="1" max="1" chance="1.866"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="49969" min="1" max="1" chance="1.857"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="49963" min="1" max="1" chance="1.841"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49966" min="1" max="1" chance="1.832"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49961" min="1" max="1" chance="1.823"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49962" min="1" max="1" chance="1.792"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="49967" min="1" max="1" chance="1.79"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="49970" min="1" max="1" chance="1.788"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49960" min="1" max="1" chance="1.782"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49968" min="1" max="1" chance="1.774"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="90898" min="1" max="1" chance="0.5"/>	<!--Agathion's Soul (Душа Агатиона)-->
+			<reward item_id="90006" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="0.5"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="90004" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="90003" min="1" max="1" chance="0.5"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="90002" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="90001" min="1" max="1" chance="0.5"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="90000" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49999" min="1" max="1" chance="0.5"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="49998" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="49997" min="1" max="1" chance="0.5"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="49995" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49996" min="1" max="1" chance="0.5"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29109" name="Freya" title="Ice Queen">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="12680"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="54"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoid-->
+		</client_skills>
+	</npc>
+	<npc id="29110" name="Safe Zone" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="0.001"/>
+		<set name="collision_radius" value="0.001"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="12680640"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="19"/>	<!--Misc.-->
+		</client_skills>
+	</npc>
+	<npc id="29111" name="Water Slime" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="39"/>
+		<set name="collision_radius" value="36"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="50000"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="36"/>
+		<set name="baseRunSpd" value="36"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="6000"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="8"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29112" name="Procella's Guardian" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="8088.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="4096"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4276" level="3"/>	<!--Bow Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29113" name="Procella's Guardian" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="8088.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="4096"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4413" level="6"/>	<!--Very Weak M. Def.-->
+		</client_skills>
+	</npc>
+	<npc id="29114" name="Procella's Guardian" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="4096"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="8"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29115" name="Procella's Storm" title="">
+		<set name="type" value="ProcellasStorm"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="100"/>
+		<set name="collision_radius" value="50"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="3088.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="50"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="4096"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoid-->
+		</client_skills>
+		<skills>
+			<skill id="4032" level="1"/>
+			<skill id="5043" level="1"/>
+		</skills>
+	</npc>
+	<npc id="29116" name="Petram Piece" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="locations.wallofargos.elementalbosses.PetramMinion"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="355555.552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="petram" range="10000"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4413" level="6"/>	<!--Very Weak M. Def.-->
+			<skill id="4276" level="3"/>	<!--Bow Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29117" name="Petram Fragment" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="locations.wallofargos.elementalbosses.PetramMinion"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="80"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="355555.552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="petram" range="10000"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="8"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29118" name="Spirit King's Magic" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="27.5"/>
+		<set name="collision_radius" value="18"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="355555.552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+	</npc>
+	<npc id="29119" name="Zaken" title="">
+		<set name="type" value="ReflectionBoss"/>
+		<set name="ai_type" value="BalthusKnightsZakenAI"/>
+		<set name="collision_height" value="39"/>
+		<set name="collision_radius" value="19.20000076"/>
+		<set name="level" value="75"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="12680640"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="12240"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="42"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+	</npc>
+	<npc id="29120" name="Ignis" title="Flame Spirit King">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="102"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="1693440000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="45722880"/>
+		<set name="baseHpMax" value="300000000"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="20" max="60" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91119" min="1" max="1" chance="10.951"/>	<!--Ignis' Necklace (Ожерелье Игниса)-->
+			<reward item_id="213" min="1" max="1" chance="1.315"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="289" min="1" max="1" chance="1.313"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="98" min="1" max="1" chance="1.305"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="164" min="1" max="1" chance="1.3"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="288" min="1" max="1" chance="1.298"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="2504" min="1" max="1" chance="1.295"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="212" min="1" max="1" chance="1.295"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="80" min="1" max="1" chance="1.288"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="7902" min="1" max="1" chance="1.288"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="7895" min="1" max="1" chance="1.279"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="7894" min="1" max="1" chance="1.279"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="81" min="1" max="1" chance="1.266"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="270" min="1" max="1" chance="1.264"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="236" min="1" max="1" chance="1.26"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="151" min="1" max="1" chance="1.234"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="2500" min="1" max="1" chance="1.226"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="305" min="1" max="1" chance="1.226"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="7884" min="1" max="1" chance="1.222"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="235" min="1" max="1" chance="1.214"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="150" min="1" max="1" chance="1.21"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="269" min="1" max="1" chance="1.208"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="7899" min="1" max="1" chance="1.206"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="8688" min="1" max="1" chance="0.5"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.5"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.5"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.5"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.5"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.5"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.5"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.5"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8679" min="1" max="1" chance="0.5"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="8678" min="1" max="1" chance="0.5"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8680" min="1" max="1" chance="0.5"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="729" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="8619" min="1" max="1" chance="100"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="91124" min="1" max="1" chance="100"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="8620" min="1" max="1" chance="51.7"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="49756" min="1" max="1" chance="11.049"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="91396" min="1" max="1" chance="11.022"/>	<!--Forgotten Manuscript - Page 4 (Забытый Манускрипт - Страница 4)-->
+			<reward item_id="91549" min="1" max="1" chance="5.505"/>	<!--Special Accessory Varnish (A-grade) (Особая Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="91548" min="1" max="1" chance="5.447"/>	<!--Special Armor Varnish (A-grade) (Особая Полировка для Доспеха - Ранг A)-->
+			<reward item_id="90003" min="1" max="1" chance="4.649"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="90001" min="1" max="1" chance="4.647"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="49995" min="1" max="1" chance="4.639"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49961" min="1" max="1" chance="4.631"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49970" min="1" max="1" chance="4.635"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49996" min="1" max="1" chance="4.63"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+			<reward item_id="49997" min="1" max="1" chance="4.628"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="49966" min="1" max="1" chance="4.62"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49965" min="1" max="1" chance="4.603"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="49962" min="1" max="1" chance="4.595"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="49960" min="1" max="1" chance="4.593"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49964" min="1" max="1" chance="4.59"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="90005" min="1" max="1" chance="4.587"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="49963" min="1" max="1" chance="4.577"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49999" min="1" max="1" chance="4.574"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="90006" min="1" max="1" chance="4.567"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="49959" min="1" max="1" chance="4.562"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="90000" min="1" max="1" chance="4.559"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49969" min="1" max="1" chance="4.559"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="49967" min="1" max="1" chance="4.558"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="90002" min="1" max="1" chance="4.554"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="49998" min="1" max="1" chance="4.538"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="90004" min="1" max="1" chance="4.53"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="49968" min="1" max="1" chance="4.519"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="91547" min="1" max="1" chance="3.241"/>	<!--Special Weapon Varnish (A-grade) (Особая Полировка для Оружия - Ранг A)-->
+			<reward item_id="90898" min="1" max="1" chance="1"/>	<!--Agathion's Soul (Душа Агатиона)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29121" name="Nebula" title="Water Spirit Queen">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="88.5"/>
+		<set name="collision_radius" value="42"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="1693440000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="45722880"/>
+		<set name="baseHpMax" value="300000000"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="80"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="20" max="60" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91117" min="1" max="1" chance="11.042"/>	<!--Nebula's Necklace (Ожерелье Небулы)-->
+			<reward item_id="2500" min="1" max="1" chance="1.317"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="7884" min="1" max="1" chance="1.311"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="212" min="1" max="1" chance="1.304"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="151" min="1" max="1" chance="1.302"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="80" min="1" max="1" chance="1.297"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="305" min="1" max="1" chance="1.28"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="7902" min="1" max="1" chance="1.286"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="7895" min="1" max="1" chance="1.279"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="235" min="1" max="1" chance="1.264"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="81" min="1" max="1" chance="1.264"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="270" min="1" max="1" chance="1.26"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="269" min="1" max="1" chance="1.258"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="2504" min="1" max="1" chance="1.257"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="150" min="1" max="1" chance="1.253"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="98" min="1" max="1" chance="1.244"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="7894" min="1" max="1" chance="1.236"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="164" min="1" max="1" chance="1.234"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="213" min="1" max="1" chance="1.224"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="288" min="1" max="1" chance="1.218"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="7899" min="1" max="1" chance="1.218"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="236" min="1" max="1" chance="1.198"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="289" min="1" max="1" chance="1.184"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="8685" min="1" max="1" chance="0.5"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8686" min="1" max="1" chance="0.5"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8687" min="1" max="1" chance="0.5"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8688" min="1" max="1" chance="0.5"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8684" min="1" max="1" chance="0.5"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.5"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.5"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.5"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8679" min="1" max="1" chance="0.5"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="8678" min="1" max="1" chance="0.5"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8680" min="1" max="1" chance="0.5"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="729" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="8619" min="1" max="1" chance="100"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="91124" min="1" max="1" chance="100"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="8620" min="1" max="1" chance="53.7"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="49756" min="1" max="1" chance="11.062"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="91396" min="1" max="1" chance="11.059"/>	<!--Forgotten Manuscript - Page 4 (Забытый Манускрипт - Страница 4)-->
+			<reward item_id="91549" min="1" max="1" chance="5.498"/>	<!--Special Accessory Varnish (A-grade) (Особая Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="91548" min="1" max="1" chance="5.446"/>	<!--Special Armor Varnish (A-grade) (Особая Полировка для Доспеха - Ранг A)-->
+			<reward item_id="90004" min="1" max="1" chance="4.652"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="49969" min="1" max="1" chance="4.647"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="90000" min="1" max="1" chance="4.647"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49996" min="1" max="1" chance="4.646"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+			<reward item_id="49962" min="1" max="1" chance="4.633"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="90001" min="1" max="1" chance="4.631"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="90003" min="1" max="1" chance="4.631"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="49964" min="1" max="1" chance="4.63"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49998" min="1" max="1" chance="4.617"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="90002" min="1" max="1" chance="4.611"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="49999" min="1" max="1" chance="4.609"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="49970" min="1" max="1" chance="4.609"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49995" min="1" max="1" chance="4.599"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49968" min="1" max="1" chance="4.596"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="49966" min="1" max="1" chance="4.591"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49960" min="1" max="1" chance="4.58"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49961" min="1" max="1" chance="4.556"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49959" min="1" max="1" chance="4.554"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49963" min="1" max="1" chance="4.553"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49997" min="1" max="1" chance="4.553"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="90006" min="1" max="1" chance="4.545"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="4.538"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="49965" min="1" max="1" chance="4.519"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="49967" min="1" max="1" chance="4.514"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="91547" min="1" max="1" chance="3.267"/>	<!--Special Weapon Varnish (A-grade) (Особая Полировка для Оружия - Ранг A)-->
+			<reward item_id="90898" min="1" max="1" chance="1"/>	<!--Agathion's Soul (Душа Агатиона)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29122" name="Procella" title="Wind Spirit King">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="1693440000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="45722880"/>
+		<set name="baseHpMax" value="300000000"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="20" max="60" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91121" min="1" max="1" chance="10.984"/>	<!--Procella's Necklace (Ожерелье Прочеллы)-->
+			<reward item_id="98" min="1" max="1" chance="1.309"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="7902" min="1" max="1" chance="1.31"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="213" min="1" max="1" chance="1.302"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="235" min="1" max="1" chance="1.302"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="151" min="1" max="1" chance="1.295"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="7899" min="1" max="1" chance="1.268"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="2504" min="1" max="1" chance="1.257"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="2500" min="1" max="1" chance="1.25"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="288" min="1" max="1" chance="1.24"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="7895" min="1" max="1" chance="1.23"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="164" min="1" max="1" chance="1.228"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="80" min="1" max="1" chance="1.222"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="289" min="1" max="1" chance="1.218"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="81" min="1" max="1" chance="1.218"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="7894" min="1" max="1" chance="1.216"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="150" min="1" max="1" chance="1.216"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="305" min="1" max="1" chance="1.208"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="270" min="1" max="1" chance="1.204"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="7884" min="1" max="1" chance="1.198"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="269" min="1" max="1" chance="1.198"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="236" min="1" max="1" chance="1.19"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="212" min="1" max="1" chance="1.188"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="8688" min="1" max="1" chance="0.5"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.5"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.5"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.5"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.5"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.5"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.5"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.5"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8680" min="1" max="1" chance="0.5"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="8678" min="1" max="1" chance="0.5"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8679" min="1" max="1" chance="0.5"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="729" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="8619" min="1" max="1" chance="100"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="91124" min="1" max="1" chance="100"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="8620" min="1" max="1" chance="51.26"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="49756" min="1" max="1" chance="11.04"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="91396" min="1" max="1" chance="10.93"/>	<!--Forgotten Manuscript - Page 4 (Забытый Манускрипт - Страница 4)-->
+			<reward item_id="91548" min="1" max="1" chance="5.534"/>	<!--Special Armor Varnish (A-grade) (Особая Полировка для Доспеха - Ранг A)-->
+			<reward item_id="91549" min="1" max="1" chance="5.485"/>	<!--Special Accessory Varnish (A-grade) (Особая Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="90000" min="1" max="1" chance="4.649"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49970" min="1" max="1" chance="4.652"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="90006" min="1" max="1" chance="4.646"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="49969" min="1" max="1" chance="4.631"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="90003" min="1" max="1" chance="4.614"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="49995" min="1" max="1" chance="4.609"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49963" min="1" max="1" chance="4.593"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49962" min="1" max="1" chance="4.593"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="49999" min="1" max="1" chance="4.593"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="49959" min="1" max="1" chance="4.587"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49996" min="1" max="1" chance="4.583"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+			<reward item_id="49965" min="1" max="1" chance="4.569"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="90002" min="1" max="1" chance="4.562"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="90004" min="1" max="1" chance="4.559"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="49966" min="1" max="1" chance="4.558"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="49964" min="1" max="1" chance="4.548"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49961" min="1" max="1" chance="4.543"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49960" min="1" max="1" chance="4.538"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49998" min="1" max="1" chance="4.535"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="49967" min="1" max="1" chance="4.535"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="49997" min="1" max="1" chance="4.53"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="4.527"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="49968" min="1" max="1" chance="4.526"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="90001" min="1" max="1" chance="4.514"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="91547" min="1" max="1" chance="3.304"/>	<!--Special Weapon Varnish (A-grade) (Особая Полировка для Оружия - Ранг A)-->
+			<reward item_id="90898" min="1" max="1" chance="1"/>	<!--Agathion's Soul (Душа Агатиона)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29123" name="Petram" title="Earth Spirit King">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="125"/>
+		<set name="collision_radius" value="80"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="1693440000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="45722880"/>
+		<set name="baseHpMax" value="300000000"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="2"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+		<rewardlist type="NOT_RATED_NOT_GROUPED">
+			<reward item_id="70000" min="20" max="60" chance="100"/>	<!--Sealed Rune - Stage 1 (Запечатанная Руна - Ур. 1)-->
+		</rewardlist>
+		<database_rewardlist>
+			<reward item_id="91123" min="1" max="1" chance="10.938"/>	<!--Petram's Necklace (Ожерелье Петрама)-->
+			<reward item_id="7902" min="1" max="1" chance="1.327"/>	<!--Doom Crusher (Крушитель Рока)-->
+			<reward item_id="150" min="1" max="1" chance="1.311"/>	<!--Elemental Sword (Меч Стихий)-->
+			<reward item_id="289" min="1" max="1" chance="1.306"/>	<!--Soul Bow (Пронзатель Душ)-->
+			<reward item_id="2500" min="1" max="1" chance="1.303"/>	<!--Dark Legion's Edge (Темный Легион)-->
+			<reward item_id="7884" min="1" max="1" chance="1.302"/>	<!--Infernal Master (Мастер Инферно)-->
+			<reward item_id="212" min="1" max="1" chance="1.288"/>	<!--Dasparion's Staff (Посох Даспариона)-->
+			<reward item_id="98" min="1" max="1" chance="1.288"/>	<!--Halberd (Алебарда)-->
+			<reward item_id="164" min="1" max="1" chance="1.279"/>	<!--Elysian (Элизиум)-->
+			<reward item_id="81" min="1" max="1" chance="1.266"/>	<!--Dragon Slayer (Убийца Драконов)-->
+			<reward item_id="7895" min="1" max="1" chance="1.259"/>	<!--Flaming Dragon Skull (Пылающий Череп Дракона)-->
+			<reward item_id="80" min="1" max="1" chance="1.254"/>	<!--Tallum Blade (Клинок Таллума)-->
+			<reward item_id="236" min="1" max="1" chance="1.238"/>	<!--Soul Separator (Душегуб)-->
+			<reward item_id="7899" min="1" max="1" chance="1.234"/>	<!--Destroyer Hammer (Молот Разрушителя)-->
+			<reward item_id="305" min="1" max="1" chance="1.232"/>	<!--Tallum Glaive (Глефа Таллума)-->
+			<reward item_id="213" min="1" max="1" chance="1.232"/>	<!--Branch of the Mother Tree (Ветвь Древа Жизни)-->
+			<reward item_id="151" min="1" max="1" chance="1.224"/>	<!--Sword of Miracles (Легендарный Меч)-->
+			<reward item_id="7894" min="1" max="1" chance="1.222"/>	<!--Spiritual Eye (Глаз Духа)-->
+			<reward item_id="235" min="1" max="1" chance="1.218"/>	<!--Bloody Orchid (Кровавая Орхидея)-->
+			<reward item_id="2504" min="1" max="1" chance="1.202"/>	<!--Meteor Shower (Метеоритный Дождь)-->
+			<reward item_id="270" min="1" max="1" chance="1.2"/>	<!--Dragon Grinder (Погибель Дракона)-->
+			<reward item_id="288" min="1" max="1" chance="1.19"/>	<!--Carnage Bow (Кровавый Лук)-->
+			<reward item_id="269" min="1" max="1" chance="1.19"/>	<!--Blood Tornado (Кровавый Торнадо)-->
+			<reward item_id="8678" min="1" max="1" chance="0.5"/>	<!--Sirra's Blade (Клинок Сирры)-->
+			<reward item_id="8688" min="1" max="1" chance="0.5"/>	<!--Daimon Crystal (Кристалл Дэймона)-->
+			<reward item_id="8687" min="1" max="1" chance="0.5"/>	<!--Cabrio's Hand (Рука Кабрио)-->
+			<reward item_id="8686" min="1" max="1" chance="0.5"/>	<!--Themis' Tongue (Язык Темис)-->
+			<reward item_id="8685" min="1" max="1" chance="0.5"/>	<!--Sobekk's Hurricane (Ураган Собекка)-->
+			<reward item_id="8684" min="1" max="1" chance="0.5"/>	<!--Shyeed's Bow (Лук Шиид)-->
+			<reward item_id="8683" min="1" max="1" chance="0.5"/>	<!--Tiphon's Spear (Копье Тифона)-->
+			<reward item_id="8682" min="1" max="1" chance="0.5"/>	<!--Naga Storm (Буря Наги)-->
+			<reward item_id="8681" min="1" max="1" chance="0.5"/>	<!--Behemoth' Tuning Fork (Трезубец Чудовища)-->
+			<reward item_id="8680" min="1" max="1" chance="0.5"/>	<!--Barakiel's Axe (Топор Баракиэля)-->
+			<reward item_id="8679" min="1" max="1" chance="0.5"/>	<!--Sword of Ipos (Меч Ипоса)-->
+			<reward item_id="729" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Weapon (A-grade) (Свиток: Модифицировать Оружие (A))-->
+			<reward item_id="730" min="1" max="1" chance="100"/>	<!--Scroll: Enchant Armor (A-grade) (Свиток: Модифицировать Доспех (A))-->
+			<reward item_id="8619" min="1" max="1" chance="100"/>	<!--Ancient Book: Divine Inspiration (Original Language Version) (Книга Древних - Божественное Вдохновение (Язык Оригинала))-->
+			<reward item_id="91124" min="1" max="1" chance="100"/>	<!--Radiant Spirit's Varnish (Блестящий Лак Духов)-->
+			<reward item_id="8620" min="1" max="1" chance="52.4"/>	<!--Ancient Book: Divine Inspiration (Manuscript) (Книга Древних - Божественное Вдохновение (Манускрипт))-->
+			<reward item_id="91396" min="1" max="1" chance="11.067"/>	<!--Forgotten Manuscript - Page 4 (Забытый Манускрипт - Страница 4)-->
+			<reward item_id="49756" min="1" max="1" chance="11.047"/>	<!--Cloth Piece (Лоскут Ткани)-->
+			<reward item_id="91549" min="1" max="1" chance="5.551"/>	<!--Special Accessory Varnish (A-grade) (Особая Полировка для Аксессуаров - Ранг A)-->
+			<reward item_id="91548" min="1" max="1" chance="5.536"/>	<!--Special Armor Varnish (A-grade) (Особая Полировка для Доспеха - Ранг A)-->
+			<reward item_id="90004" min="1" max="1" chance="4.643"/>	<!--Best Dye of MEN &lt;MEN +4 WIT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 МДР -2))-->
+			<reward item_id="90003" min="1" max="1" chance="4.641"/>	<!--Best Dye of MEN &lt;MEN +4 INT -2&gt; (Лучшая Краска ДУХ (ДУХ 4 ИНТ -2))-->
+			<reward item_id="49997" min="1" max="1" chance="4.633"/>	<!--Best Dye of CON &lt;CON +4 STR -2&gt; (Лучшая Краска ВЫН (ВЫН 4 СИЛ -2))-->
+			<reward item_id="49966" min="1" max="1" chance="4.615"/>	<!--Best Dye of INT &lt;INT +3 WIT -1&gt; (Лучшая Краска ИНТ (ИНТ 3 МДР -1))-->
+			<reward item_id="90006" min="1" max="1" chance="4.619"/>	<!--Best Dye of WIT &lt;WIT +4 MEN -2&gt; (Лучшая Краска МДР (МДР 4 ДУХ -2))-->
+			<reward item_id="49970" min="1" max="1" chance="4.614"/>	<!--Best Dye of WIT &lt;WIT +2 MEN -1&gt; (Лучшая Краска МДР (МДР 3 ДУХ -1))-->
+			<reward item_id="49959" min="1" max="1" chance="4.609"/>	<!--Best Dye of STR &lt;STR +3 CON -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ВЫН -1))-->
+			<reward item_id="49995" min="1" max="1" chance="4.585"/>	<!--Best Dye of STR &lt;STR +4 CON -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ВЫН -2))-->
+			<reward item_id="49967" min="1" max="1" chance="4.579"/>	<!--Best Dye of MEN &lt;MEN +3 INT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 ИНТ -1))-->
+			<reward item_id="49998" min="1" max="1" chance="4.575"/>	<!--Best Dye of CON &lt;CON +4 DEX -2&gt; (Лучшая Краска ВЫН (ВЫН 4 ЛВК -2))-->
+			<reward item_id="49960" min="1" max="1" chance="4.569"/>	<!--Best Dye of STR &lt;STR +3 DEX -1&gt; (Лучшая Краска СИЛ (СИЛ 3 ЛВК -1))-->
+			<reward item_id="49965" min="1" max="1" chance="4.567"/>	<!--Best Dye of INT &lt;INT +3 MEN -1&gt; (Лучшая Краска ИНТ (ИНТ 3 ДУХ -1))-->
+			<reward item_id="90002" min="1" max="1" chance="4.564"/>	<!--Best Dye of INT &lt;INT +4 WIT -2&gt; (Лучшая Краска ИНТ (ИНТ 4 МДР -2))-->
+			<reward item_id="49961" min="1" max="1" chance="4.559"/>	<!--Best Dye of CON &lt;CON +3 STR -1&gt; (Лучшая Краска ВЫН (ВЫН 3 СИЛ -1))-->
+			<reward item_id="49963" min="1" max="1" chance="4.556"/>	<!--Best Dye of DEX &lt;DEX +3 STR -1&gt; (Лучшая Краска ЛВК (ЛВК 3 СИЛ -1))-->
+			<reward item_id="49969" min="1" max="1" chance="4.556"/>	<!--Best Dye of WIT &lt;WIT +3 INT -1&gt; (Лучшая Краска МДР (МДР 3 ИНТ -1))-->
+			<reward item_id="49968" min="1" max="1" chance="4.556"/>	<!--Best Dye of MEN &lt;MEN +3 WIT -1&gt; (Лучшая Краска ДУХ (ДУХ 3 МДР -1))-->
+			<reward item_id="90001" min="1" max="1" chance="4.542"/>	<!--Best Dye of INT &lt;INT +4 MEN -2&gt; (Лучшая Краска ИНТ (ИНТ 4 ДУХ -2))-->
+			<reward item_id="49999" min="1" max="1" chance="4.54"/>	<!--Best Dye of DEX &lt;DEX +4 STR -2&gt; (Лучшая Краска ЛВК (ЛВК 4 СИЛ -2))-->
+			<reward item_id="90005" min="1" max="1" chance="4.534"/>	<!--Best Dye of WIT &lt;WIT +4 INT -2&gt; (Лучшая Краска МДР (МДР 4 ИНТ -2))-->
+			<reward item_id="90000" min="1" max="1" chance="4.53"/>	<!--Best Dye of DEX &lt;DEX +4 CON -2&gt; (Лучшая Краска ЛВК (ЛВК 4 ВЫН -2))-->
+			<reward item_id="49964" min="1" max="1" chance="4.524"/>	<!--Best Dye of DEX &lt;DEX +3 CON -1&gt; (Лучшая Краска ЛВК (ЛВК 3 ВЫН -1))-->
+			<reward item_id="49962" min="1" max="1" chance="4.522"/>	<!--Best Dye of CON &lt;CON +3 DEX -1&gt; (Лучшая Краска ВЫН (ВЫН 3 ЛВК -1))-->
+			<reward item_id="49996" min="1" max="1" chance="4.514"/>	<!--Best Dye of STR &lt;STR +4 DEX -2&gt; (Лучшая Краска СИЛ (СИЛ 4 ЛВК -2))-->
+			<reward item_id="91547" min="1" max="1" chance="3.247"/>	<!--Special Weapon Varnish (A-grade) (Особая Полировка для Оружия - Ранг A)-->
+			<reward item_id="90898" min="1" max="1" chance="1"/>	<!--Agathion's Soul (Душа Агатиона)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="29124" name="Freya" title="Ice Queen">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="12680"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="54"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoid-->
+		</client_skills>
+	</npc>
+	<npc id="29125" name="Safe Zone" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="0.001"/>
+		<set name="collision_radius" value="0.001"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="12680640"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="19"/>	<!--Misc.-->
+		</client_skills>
+	</npc>
+	<npc id="29126" name="Water Slime" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="39"/>
+		<set name="collision_radius" value="36"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="50000"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="36"/>
+		<set name="baseRunSpd" value="36"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="8"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29127" name="Procella's Guardian" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4276" level="3"/>	<!--Bow Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29128" name="Procella's Guardian" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4413" level="6"/>	<!--Very Weak M. Def.-->
+		</client_skills>
+	</npc>
+	<npc id="29129" name="Procella's Guardian" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="133"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="8"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29130" name="Procella's Storm" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="100"/>
+		<set name="collision_radius" value="50"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2962962.93333333"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="50"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoid-->
+		</client_skills>
+		<ai_params>
+			<set name="show_name" value="false"/>
+			<set name="targetable" value="false"/>
+			<set name="noChatWindow" value="true"/>
+        </ai_params>
+	</npc>
+	<npc id="29131" name="Petram Piece" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="355555.552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="4413" level="6"/>	<!--Very Weak M. Def.-->
+			<skill id="4276" level="3"/>	<!--Bow Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29132" name="Petram Fragment" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="61"/>
+		<set name="collision_radius" value="40"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="355555.552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5620" level="8"/>	<!--Melee Attack Vulnerability-->
+		</client_skills>
+	</npc>
+	<npc id="29133" name="Spirit King's Magic" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="27.5"/>
+		<set name="collision_radius" value="18"/>
+		<set name="level" value="55"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="355555.552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="6.5"/>
+		<set name="baseMpMax" value="18000"/>
+		<set name="baseMpReg" value="2.4"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="25"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="388.11142"/>
+		<set name="basePDef" value="223.6362"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="265.02979"/>
+		<set name="baseMDef" value="163.64727"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="190"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="FIST"/>
+		<set name="basePHitModify" value="4.75"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+	</npc>
+	<npc id="29190" name="Tarask Dragon" title="">
+		<set name="type" value="SpecialMinion"/>
+		<set name="ai_type" value="AntharasMinion"/>
+		<set name="collision_height" value="54"/>
+		<set name="collision_radius" value="63"/>
+		<set name="level" value="84"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="1898734"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="76.71"/>
+		<set name="baseMpMax" value="22800"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="60"/>
+		<set name="baseCON" value="57"/>
+		<set name="baseDEX" value="73"/>
+		<set name="baseINT" value="76"/>
+		<set name="baseMEN" value="80"/>
+		<set name="baseWIT" value="70"/>
+		<set name="basePCritRate" value="4.0"/>
+		<set name="baseMCritRate" value="5.0"/>
+		<set name="basePAtk" value="3584.56902102981"/>
+		<set name="basePDef" value="1071.29474264312"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="1386.66000087809"/>
+		<set name="baseMDef" value="522.626863116263"/>
+		<set name="baseWalkSpd" value="55"/>
+		<set name="baseRunSpd" value="180"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="40"/>
+		<set name="baseRandDam" value="30"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="300"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="max_pursue_range" value="10000"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+		</client_skills>
+	</npc>
+</list>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE list SYSTEM "doors.dtd">
+
+<list>
+	<door id="23180001" name="Aden_tower_of_hubris_s.toh_gate05" hp="474750" pdef="644" mdef="518">
+		<pos x="113876" y="16953" z="-1979"/>
+		<shape ax="113831" ay="16891" bx="113938" by="16997" cx="113920" cy="17015" dx="113813" dy="16908" minz="-2157" maxz="-1802"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="open_time" value="120"/>
+		<set name="random_time" value="120"/>
+		<set name="close_time" value="120"/>
+	</door>
+	<door id="23180002" name="Aden_tower_of_hubris_s.toh_gate05" hp="474750" pdef="644" mdef="518">
+		<pos x="113772" y="16849" z="-1979"/>
+		<shape ax="113728" ay="16788" bx="113834" by="16893" cx="113816" cy="16911" dx="113710" dy="16805" minz="-2157" maxz="-1802"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="close_time" value="120"/>
+		<set name="master_door" value="23180001"/>
+	</door>
+	<door id="23180003" name="Aden_tower_of_hubris_s.toh_gate05" hp="474750" pdef="644" mdef="518">
+		<pos x="113253" y="15914" z="4115"/>
+		<shape ax="113178" ay="15932" bx="113318" by="15874" cx="113327" cy="15897" dx="113188" dy="15955" minz="3937" maxz="4292"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="open_time" value="120"/>
+		<set name="random_time" value="120"/>
+		<set name="close_time" value="120"/>
+	</door>
+	<door id="23180004" name="Aden_tower_of_hubris_s.toh_gate05" hp="474750" pdef="644" mdef="518">
+		<pos x="113117" y="15970" z="4115"/>
+		<shape ax="113043" ay="15988" bx="113182" by="15930" cx="113191" cy="15953" dx="113053" dy="16011" minz="3937" maxz="4292"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="close_time" value="120"/>
+		<set name="master_door" value="23180003"/>
+	</door>
+	<door id="23180005" name="Aden_tower_of_hubris_s.toh_gate05" hp="474750" pdef="644" mdef="518">
+		<pos x="113264" y="15765" z="7146"/>
+		<shape ax="113219" ay="15703" bx="113326" by="15810" cx="113308" cy="15828" dx="113202" dy="15721" minz="6968" maxz="7323"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="open_time" value="120"/>
+		<set name="random_time" value="120"/>
+		<set name="close_time" value="120"/>
+	</door>
+	<door id="23180006" name="Aden_tower_of_hubris_s.toh_gate05" hp="474750" pdef="644" mdef="518">
+		<pos x="113368" y="15869" z="7146"/>
+		<shape ax="113323" ay="15807" bx="113430" by="15914" cx="113412" cy="15931" dx="113305" dy="15824" minz="6968" maxz="7323"/>
+		<set name="opened" value="true"/>
+		<set name="unlockable" value="false"/>
+		<set name="key" value="0"/>
+		<set name="show_hp" value="false"/>
+		<set name="close_time" value="120"/>
+		<set name="master_door" value="23180005"/>
+	</door>
+</list>

@@ -1,0 +1,857 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+	<option_data id="50100">
+		<for>
+			<!--Физ. Защ. +20.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="20"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50101">
+		<for>
+			<!--Маг. Защ. +15.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="15"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50102">
+		<for>
+			<!--Макс. HP 80.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="80"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50103">
+		<for>
+			<!--Макс. MP 80.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="80"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50104">
+		<for>
+			<!--Макс. CP 80.-->
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="80"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50105">
+		<for>
+			<!--Точность +1.-->
+			<effect name="p_hit">
+				<def name="p_hit_param1" value="all"/>
+				<def name="p_hit_param2" value="1"/>
+				<def name="p_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50106">
+		<for>
+			<!--Маг. Точность +1.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="1"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50107">
+		<for>
+			<!--Уклонение +1.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="1"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50108">
+		<for>
+			<!--Маг. Уклонение +1.-->
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="1"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50109">
+		<for>
+			<!--Восстановление HP + 1.-->
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="1"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50110">
+		<for>
+			<!--Восстановление MP + 1.-->
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="1"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50111">
+		<for>
+			<!--Физ. Защ. +30.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="30"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50112">
+		<for>
+			<!--Маг. Защ. +25.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="25"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50113">
+		<for>
+			<!--Макс. HP 120.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="120"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50114">
+		<for>
+			<!--Макс. MP 100.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="100"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50115">
+		<for>
+			<!--Макс. CP 100.-->
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="100"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50116">
+		<for>
+			<!--Точность +2.-->
+			<effect name="p_hit">
+				<def name="p_hit_param1" value="all"/>
+				<def name="p_hit_param2" value="2"/>
+				<def name="p_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50117">
+		<for>
+			<!--Маг. Точность +2.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="2"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50118">
+		<for>
+			<!--Уклонение +2.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="2"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50119">
+		<for>
+			<!--Маг. Уклонение +2.-->
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="2"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50120">
+		<for>
+			<!--Восстановление HP + 2.-->
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="2"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50121">
+		<for>
+			<!--Восстановление MP + 2.-->
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="2"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50122">
+		<for>
+			<!--Физ. Защ. +40.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="40"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50123">
+		<for>
+			<!--Маг. Защ. +35.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="35"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50124">
+		<for>
+			<!--Макс. HP 150.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="150"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50125">
+		<for>
+			<!--Макс. MP 120.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="120"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50126">
+		<for>
+			<!--Макс. CP 120.-->
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="120"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50127">
+		<for>
+			<!--Точность +3.-->
+			<effect name="p_hit">
+				<def name="p_hit_param1" value="all"/>
+				<def name="p_hit_param2" value="3"/>
+				<def name="p_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50128">
+		<for>
+			<!--Маг. Точность +3.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="3"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50129">
+		<for>
+			<!--Уклонение +3.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="3"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50130">
+		<for>
+			<!--Маг. Уклонение +3.-->
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="3"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50131">
+		<for>
+			<!--Восстановление HP + 3.-->
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="3"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50132">
+		<for>
+			<!--Восстановление MP + 3.-->
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="3"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50133">
+		<for>
+			<!--Физ. Защ. +50.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="50"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50134">
+		<for>
+			<!--Маг. Защ. +45.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="45"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50135">
+		<for>
+			<!--Макс. HP 200.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="200"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50136">
+		<for>
+			<!--Макс. MP 140.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="140"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50137">
+		<for>
+			<!--Макс. CP 140.-->
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="140"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50138">
+		<for>
+			<!--Точность +4.-->
+			<effect name="p_hit">
+				<def name="p_hit_param1" value="all"/>
+				<def name="p_hit_param2" value="4"/>
+				<def name="p_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50139">
+		<for>
+			<!--Маг. Точность +4.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="4"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50140">
+		<for>
+			<!--Уклонение +4.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="4"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50141">
+		<for>
+			<!--Маг. Уклонение +4.-->
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="4"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50142">
+		<for>
+			<!--Восстановление HP + 4.-->
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="4"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50143">
+		<for>
+			<!--Восстановление MP + 4.-->
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="4"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50144">
+		<for>
+			<!--Физ. Защ. +82.-->
+			<effect name="p_physical_defence">
+				<def name="p_physical_defence_param1" value="all"/>
+				<def name="p_physical_defence_param2" value="82"/>
+				<def name="p_physical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50145">
+		<for>
+			<!--Маг. Защ. +60.-->
+			<effect name="p_magical_defence">
+				<def name="p_magical_defence_param1" value="all"/>
+				<def name="p_magical_defence_param2" value="60"/>
+				<def name="p_magical_defence_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50146">
+		<for>
+			<!--Макс. HP 320.-->
+			<effect name="p_max_hp">
+				<def name="p_max_hp_param1" value="all"/>
+				<def name="p_max_hp_param2" value="320"/>
+				<def name="p_max_hp_param3" value="diff"/>
+				<def name="p_max_hp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50147">
+		<for>
+			<!--Макс. MP 200.-->
+			<effect name="p_max_mp">
+				<def name="p_max_mp_param1" value="all"/>
+				<def name="p_max_mp_param2" value="200"/>
+				<def name="p_max_mp_param3" value="diff"/>
+				<def name="p_max_mp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50148">
+		<for>
+			<!--Макс. CP 200.-->
+			<effect name="p_max_cp">
+				<def name="p_max_cp_param1" value="all"/>
+				<def name="p_max_cp_param2" value="200"/>
+				<def name="p_max_cp_param3" value="diff"/>
+				<def name="p_max_cp_param4" value="0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50149">
+		<for>
+			<!--Точность +5.-->
+			<effect name="p_hit">
+				<def name="p_hit_param1" value="all"/>
+				<def name="p_hit_param2" value="5"/>
+				<def name="p_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50150">
+		<for>
+			<!--Маг. Точность +5.-->
+			<effect name="p_magic_hit">
+				<def name="p_magic_hit_param1" value="all"/>
+				<def name="p_magic_hit_param2" value="5"/>
+				<def name="p_magic_hit_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50151">
+		<for>
+			<!--Уклонение +5.-->
+			<effect name="p_avoid">
+				<def name="p_avoid_param1" value="all"/>
+				<def name="p_avoid_param2" value="5"/>
+				<def name="p_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50152">
+		<for>
+			<!--Маг. Уклонение +5.-->
+			<effect name="p_magic_avoid">
+				<def name="p_magic_avoid_param1" value="all"/>
+				<def name="p_magic_avoid_param2" value="5"/>
+				<def name="p_magic_avoid_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50153">
+		<for>
+			<!--Восстановление HP + 5.-->
+			<effect name="p_hp_regen">
+				<def name="p_hp_regen_param1" value="all"/>
+				<def name="p_hp_regen_param2" value="5"/>
+				<def name="p_hp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50154">
+		<for>
+			<!--Восстановление MP + 5.-->
+			<effect name="p_mp_regen">
+				<def name="p_mp_regen_param1" value="all"/>
+				<def name="p_mp_regen_param2" value="5"/>
+				<def name="p_mp_regen_param3" value="diff"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50155">
+		<!--Предметное умение: сопротивление ментальным атакам\\n +5%.-->
+		<skills>
+			<skill id="39318" level="1"/> 
+		</skills>				
+	</option_data>
+	<option_data id="50156">
+		<!--Предметное умение: сопротивление оглушению +5%.-->
+		<skills>
+			<skill id="39319" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50157">
+		<!--Предметное умение: сопротивление параличу +5%.-->
+		<skills>
+			<skill id="39320" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50158">
+		<!--Предметное умение: сопротивление кровотечению + 5%\\n.-->
+		<skills>
+			<skill id="39321" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50159">
+		<!--Предметное умение: сопротивление отравлению +5%.-->
+		<skills>
+			<skill id="39322" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50160">
+		<!--Предметное умение: сопротивление удержанию +5%.-->
+		<skills>
+			<skill id="39323" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50161">
+		<for>
+			<!--СИЛ +1-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="0"/>
+				<def name="p_stat_up_param2" value="1"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50162">
+		<for>
+			<!--ЛВК +1-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="2"/>
+				<def name="p_stat_up_param2" value="1.0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50163">
+		<for>
+			<!--ВЫН +1-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="4"/>
+				<def name="p_stat_up_param2" value="1"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50164">
+		<for>
+			<!--ИНТ +1-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="1"/>
+				<def name="p_stat_up_param2" value="1"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50165">
+		<for>
+			<!--МДР +1-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="3"/>
+				<def name="p_stat_up_param2" value="1.0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50166">
+		<for>
+			<!--ДУХ +1-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="5"/>
+				<def name="p_stat_up_param2" value="1"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50167">
+		<!--Предметное умение: во время охоты бонус опыта +5%.-->
+		<skills>
+			<skill id="39324" level="1"/> 
+		</skills>
+	</option_data>
+	<option_data id="50168">
+		<!--Предметное умение: сопротивление ментальным атакам\\n +10%.-->
+		<skills>
+			<skill id="39318" level="2"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50169">
+		<!--Предметное умение: сопротивление оглушению +10%.-->
+		<skills>
+			<skill id="39319" level="2"/> 
+		</skills>
+	</option_data>
+	<option_data id="50170">
+		<!--Предметное умение: сопротивление параличу +10%.-->
+		<skills>
+			<skill id="39320" level="2"/> 
+		</skills>			
+	</option_data>
+	<option_data id="50171">
+		<!--Предметное умение: сопротивление кровотечению + 10\\n%.-->
+		<skills>
+			<skill id="39321" level="2"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50172">
+		<!--Предметное умение: сопротивление отравлению +10%.-->
+		<skills>
+			<skill id="39322" level="2"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50173">
+		<!--Предметное умение: сопротивление удержанию +10%.-->
+		<skills>
+			<skill id="39323" level="2"/> 
+		</skills>
+	</option_data>
+	<option_data id="50174">
+		<for>
+			<!--СИЛ +2-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="0"/>
+				<def name="p_stat_up_param2" value="2"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50175">
+		<for>
+			<!--ЛВК +2-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="2"/>
+				<def name="p_stat_up_param2" value="2.0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50176">
+		<for>
+			<!--ВЫН +2-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="4"/>
+				<def name="p_stat_up_param2" value="2"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50177">
+		<for>
+			<!--ИНТ +2-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="1"/>
+				<def name="p_stat_up_param2" value="2"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50178">
+		<for>
+			<!--МДР +2-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="3"/>
+				<def name="p_stat_up_param2" value="2.0"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50179">
+		<for>
+			<!--ДУХ +2-->
+			<effect name="p_stat_up">
+				<def name="p_stat_up_param1" value="5"/>
+				<def name="p_stat_up_param2" value="2"/>
+			</effect>
+		</for>
+	</option_data>
+	<option_data id="50180">
+		<!--Предметное умение: во время охоты бонус опыта +10%\\n.-->
+		<skills>
+			<skill id="39324" level="2"/> 
+		</skills>
+	</option_data>
+	<option_data id="50181">
+		<!--Предметное умение: сопротивление ментальным атакам\\n +20%.-->
+		<skills>
+			<skill id="39318" level="3"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50182">
+		<!--Предметное умение: сопротивление оглушению +20%.-->
+		<skills>
+			<skill id="39319" level="3"/> 
+		</skills>
+	</option_data>
+	<option_data id="50183">
+		<!--Предметное умение: сопротивление параличу +20%.-->
+		<skills>
+			<skill id="39320" level="3"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50184">
+		<!--Предметное умение: сопротивление кровотечению + 20\\n%.-->
+		<skills>
+			<skill id="39321" level="3"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50185">
+		<!--Предметное умение: сопротивление отравлению +20%.-->
+		<skills>
+			<skill id="39322" level="3"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50186">
+		<!--Предметное умение: сопротивление удержанию +20%.-->
+		<skills>
+			<skill id="39323" level="3"/> 
+		</skills>
+	</option_data>
+	<option_data id="50187">
+		<!--Предметное умение: во время охоты бонус опыта +20%\\n.-->
+		<skills>
+			<skill id="39324" level="3"/> 
+		</skills>
+	</option_data>
+	<option_data id="50188">
+		<!--Активное: увеличивает восстановление HP/MP/CP.-->
+		<skills>
+			<skill id="39325" level="1"/> 
+		</skills>
+	</option_data>
+	<option_data id="50189">
+		<skills>
+			<skill id="39326" level="1"/> 
+		</skills>		
+		<!--Активное: временно увеличивает Скор. Атк. / Скор. \\nМаг. / Скорость.-->
+	</option_data>
+	<option_data id="50190">
+		<!--Активное: временно делает неуязвимым.-->
+		<skills>
+			<skill id="39327" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50191">
+		<!--Активное: временно защищает от всех отрицательных \\nэффектов.-->
+		<skills>
+			<skill id="39328" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50192">
+		<!--Активное: временно увеличивает Физ. Защ. / Маг. За\\nщ.-->
+		<skills>
+			<skill id="39329" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50193">
+		<!--Активное: усыпляет. Только для игровых персонажей.-->
+		<skills>
+			<skill id="39330" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50194">
+		<!--Активное: Блокирует физ./маг умения. Только для иг\\nровых персонажей.-->
+		<skills>
+			<skill id="39331" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50195">
+		<!--Активное: временно для цели увеличивает получаемый\\n урон от Крит. Атк. / шанс получить Крит. Атк.-->
+		<skills>
+			<skill id="39332" level="1"/> 
+		</skills>	
+	</option_data>
+	<option_data id="50196">
+		<!--Активное: временно урон в PvE +10%.-->
+		<skills>
+			<skill id="39333" level="1"/> 
+		</skills>	
+	</option_data>
+</list>
